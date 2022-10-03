@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>honkai.girls.sergkart</modId>
+		<key>GauranlenTree_SpacingPlant_wvc</key>
+		<defaultValue>false</defaultValue>
+		<caseTrue>
+			<Operation Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="Plant_TreeGauranlen" or defName="Plant_TreeAnima"]/plant/minSpacingBetweenSamePlant</xpath>
+			  <value>
+				  <minSpacingBetweenSamePlant>1.9</minSpacingBetweenSamePlant>
+			  </value>
+			</Operation>
+		</caseTrue>
+	</Operation>
+</Patch>

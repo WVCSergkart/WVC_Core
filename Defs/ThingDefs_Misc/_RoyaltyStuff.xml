@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef MayRequire="ludeon.rimworld.royalty" ParentName="ResourceBase">
+	<defName>AnimaSeed_WVC</defName>
+	<label>Anima seed</label>
+	<description>The seed of a Anima tree. It can be planted to create a new Anima tree.</description>
+	<descriptionHyperlinks>
+	  <ThingDef>Plant_TreeAnima</ThingDef>
+	</descriptionHyperlinks>
+	<statBases>
+	  <MaxHitPoints>50</MaxHitPoints>
+	  <Mass>0.3</Mass>
+	  <Beauty>0</Beauty>
+	  <MarketValue>70</MarketValue>
+	</statBases>
+	<graphicData>
+	  <texPath>WVC/Stuff/AnimaSeed</texPath>
+	  <graphicClass>Graphic_StackCount</graphicClass>
+	  <drawSize>(0.6, 0.6)</drawSize>
+	</graphicData>
+	<thingCategories>
+	  <li>Items</li>
+	</thingCategories>
+	<comps>
+	  <li MayRequire="ludeon.rimworld.ideology" Class="CompProperties_Plantable">
+		<plantDefToSpawn>Plant_TreeAnima</plantDefToSpawn>
+	  </li>
+	  <li Class="CompProperties_Usable">
+		<compClass>CompUsableImplant</compClass>
+		<useJob>UseItem</useJob>
+		<useLabel>Use neuroformer to form psylink</useLabel>
+	  </li>
+	  <li Class="CompProperties_UseEffectInstallImplant">
+		<hediffDef>PsychicAmplifier</hediffDef>
+		<bodyPart>Brain</bodyPart>
+		<canUpgrade>true</canUpgrade>
+	  </li>
+	  <li Class="CompProperties_UseEffectPlaySound">
+		<soundOnUsed>PsyAmpInstalled</soundOnUsed>
+	  </li>
+	  <li Class="CompProperties_UseEffect">
+		<compClass>CompUseEffect_DestroySelf</compClass>
+	  </li>
+	</comps>
+  </ThingDef>
+
+  <!-- ===================================================================== -->
+
+  <!-- <ThingDef ParentName="PlantBaseNonEdible"> -->
+	<!-- <defName>Plant_MossAnima_WVC</defName> -->
+	<!-- <label>Anima moss</label> -->
+	<!-- <description>Symbiotic moss that grows near Anima trees.</description> -->
+	<!-- <statBases> -->
+	  <!-- <MaxHitPoints>100</MaxHitPoints> -->
+	  <!-- <Beauty>10</Beauty> -->
+	  <!-- <BeautyOutdoors>10</BeautyOutdoors> -->
+	<!-- </statBases> -->
+	<!-- <descriptionHyperlinks> -->
+	  <!-- <ThingDef>Plant_TreeGauranlen</ThingDef> -->
+	<!-- </descriptionHyperlinks> -->
+	<!-- <graphicData> -->
+	  <!-- <texPath>WVC/Stuff/AnimaMoss</texPath> -->
+	  <!-- <graphicClass>Graphic_Random</graphicClass> -->
+	  <!-- <drawSize>(0.75, 0.75)</drawSize> -->
+	<!-- </graphicData> -->
+	<!-- <plant> -->
+	  <!-- <fertilityMin>0.05</fertilityMin> -->
+	  <!-- <fertilitySensitivity>0</fertilitySensitivity> -->
+	  <!-- <sowMinSkill>0</sowMinSkill> -->
+	  <!-- <growDays>5</growDays> -->
+	  <!-- <visualSizeRange>0.5~0.7</visualSizeRange> -->
+	  <!-- <topWindExposure>0</topWindExposure> -->
+	  <!-- <allowAutoCut>false</allowAutoCut> -->
+	  <!-- <wildClusterWeight>0</wildClusterWeight> -->
+	  <!-- <maxMeshCount>4</maxMeshCount> -->
+	<!-- </plant> -->
+  <!-- </ThingDef> -->
+
+  <!-- ===================================================================== -->
+
+  <ThingDef ParentName="ResourceBase" Name="SummonPod_WithGirl_Base_WVC" Abstract="True">
+	<label>pod</label>
+	<graphicData>
+		<texPath>WVC/Stuff/AnimaSeed</texPath>
+		<graphicClass>Graphic_Random</graphicClass>
+		<drawSize>0.1</drawSize>
+	</graphicData>
+	<altitudeLayer>FloorCoverings</altitudeLayer>
+	<passability>Standable</passability>
+	<soundInteract>Standard_Drop</soundInteract>
+	<soundDrop>Standard_Drop</soundDrop>
+	<stackLimit>1</stackLimit>
+	<statBases>
+	  <MaxHitPoints>20</MaxHitPoints>
+	  <MarketValue>300</MarketValue>
+	  <Mass>0.10</Mass>
+	  <Flammability>0.0</Flammability>
+	  <DeteriorationRate>0</DeteriorationRate>
+	</statBases>
+	<thingCategories Inherit="False" />
+	<tickerType>Normal</tickerType>
+  </ThingDef>
+
+</Defs>

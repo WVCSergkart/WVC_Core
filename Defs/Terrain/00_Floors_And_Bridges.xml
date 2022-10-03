@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ======================================================================= -->
+
+  <!-- Supports mechanoid structures -->
+  <TerrainAffordanceDef>
+	<defName>MechanoidUnderground_WVC</defName>
+	<label>complex</label>
+	<order>1600</order>
+	<blockAffordanceOverlay>true</blockAffordanceOverlay>
+  </TerrainAffordanceDef>
+  <TerrainAffordanceDef>
+	<defName>WVC_AncientFloorLamp</defName>
+	<label>floor lamps</label>
+	<order>1600</order>
+	<blockAffordanceOverlay>true</blockAffordanceOverlay>
+  </TerrainAffordanceDef>
+
+  <!-- ======================================================================= -->
+
+  <TerrainDef Abstract="True" Name="Marker_Floor_WVC">
+	<description>Floor covering that allows you to place complex communications underground, so you can save space on the surface.</description>
+	<descriptionHyperlinks>
+	  <ConceptDef>WVC_WallsDoorsFloors</ConceptDef>
+	</descriptionHyperlinks>
+	<layerable>true</layerable>
+	<affordances>
+	  <li>Light</li>
+	  <li>Medium</li>
+	  <li>Heavy</li>
+	  <li>MechanoidUnderground_WVC</li>
+	</affordances>
+	<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+	<fertility>0</fertility>
+	<edgeType>FadeRough</edgeType>
+	<bridge>false</bridge>
+	<renderPrecedence>0</renderPrecedence>
+	<autoRebuildable>true</autoRebuildable>
+	<statBases>
+	  <WorkToBuild>2000</WorkToBuild>
+	  <Flammability>0</Flammability>
+	  <Beauty>2</Beauty>
+	  <FilthMultiplier>0.0</FilthMultiplier>
+	  <MarketValue>1</MarketValue>
+	  <Cleanliness>2</Cleanliness>
+	</statBases>
+	<costList>
+	  <Plasteel>5</Plasteel>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	</costList>
+	<tags>
+	  <li>Floor</li>
+	  <li>FineFloor</li>
+	</tags>
+	<constructEffect>ConstructMetal</constructEffect>
+	<designationCategory>Floors</designationCategory>
+	<designatorDropdown>HGS_Floors_WVC</designatorDropdown>
+	<researchPrerequisites Inherit="False">
+	  <!-- <li>SterileMaterials</li> -->
+	  <!-- <li>Machining</li> -->
+	</researchPrerequisites>
+  </TerrainDef>
+
+  <!-- ======================================================================= -->
+
+  <TerrainDef Abstract="True" Name="Marker_BaseFloor_WVC" ParentName="Marker_Floor_WVC">
+	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+  </TerrainDef>
+
+  <!-- ======================== -->
+
+  <TerrainDef Abstract="True" Name="Marker_BaseBridge_WVC" ParentName="Marker_Floor_WVC">
+	<!-- <description>Bridges are structures that can be built on water.</description> -->
+	<terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+	<costList>
+	  <Plasteel>7</Plasteel>
+	  <!-- <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid> -->
+	</costList>
+  </TerrainDef>
+
+  <!-- ======================================================================= -->
+
+  <TerrainDef Abstract="True" Name="BaseFloor_Ancient_WVC" ParentName="Marker_BaseFloor_WVC">
+    <edgeType>Hard</edgeType>
+	<renderPrecedence>100</renderPrecedence>
+	<costList>
+	  <Plasteel>10</Plasteel>
+	</costList>
+	<affordances>
+	  <li>WVC_AncientFloorLamp</li>
+	</affordances>
+	<researchPrerequisites>
+		<li>ValkyriesTechs_I_WVC</li>
+	</researchPrerequisites>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </TerrainDef>
+
+  <!-- ======================== -->
+  
+  <TerrainDef Abstract="True" Name="BaseFloor_Mech_WVC" ParentName="Marker_BaseFloor_WVC">
+	<costList>
+	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	</costList>
+	<researchPrerequisites>
+		<li>ValkyriesTechs_II_WVC</li>
+	</researchPrerequisites>
+	<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+  </TerrainDef>
+
+  <!-- ======================== -->
+  
+  <TerrainDef Abstract="True" Name="BaseFloor_Archo_WVC" ParentName="Marker_BaseFloor_WVC">
+	<costList>
+	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	  <WVC_ResourceNodes_Archotech MayRequire="wvc.sergkart.nodes">1</WVC_ResourceNodes_Archotech>
+	</costList>
+	<researchPrerequisites>
+		<li>ValkyriesTechs_III_WVC</li>
+	</researchPrerequisites>
+	<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+  </TerrainDef>
+
+  <!-- ======================================================================= -->
+  
+  <TerrainDef ParentName="BaseFloor_Ancient_WVC">
+	<defName>Floor_AncientFloor_WVC</defName>
+	<label>(Floor) Ancient floor</label>
+	<texturePath>WVC/Stuff/Floors/AncientFloor</texturePath>
+  </TerrainDef>
+
+  <!-- ======================== -->
+  
+  <TerrainDef  ParentName="BaseFloor_Mech_WVC">
+	<defName>Floor_MechanoidFloor_WVC</defName>
+	<label>(Floor) Mechanoid floor A</label>
+	<texturePath>WVC/Stuff/Floors/Floor_MechanoidA</texturePath>
+  </TerrainDef>
+  <TerrainDef  ParentName="BaseFloor_Mech_WVC">
+	<defName>Floor_MechanoidFloorB_WVC</defName>
+	<label>(Floor) Mechanoid floor B</label>
+	<texturePath>WVC/Stuff/Floors/Floor_MechanoidB</texturePath>
+  </TerrainDef>
+
+  <TerrainDef ParentName="BaseFloor_Mech_WVC">
+	<defName>Floor_MechanoidGravel_WVC</defName>
+	<label>(Floor) Mechanoid gravel</label>
+	<fertility>0.9</fertility>
+	<statBases>
+	  <Beauty>1</Beauty>
+	  <Cleanliness>-1</Cleanliness>
+	</statBases>
+	<texturePath>WVC/Stuff/Floors/Gravel_MechanoidA</texturePath>
+	<costList>
+	  <Neutroamine>1</Neutroamine>
+	</costList>
+  </TerrainDef>
+
+  <!-- ======================== -->
+  
+  <TerrainDef ParentName="BaseFloor_Archo_WVC">
+	<defName>Floor_ArchotechFloor_WVC</defName>
+	<label>(Floor) Archotech floor</label>
+	<texturePath>WVC/Stuff/Floors/Floor_ArchotechA</texturePath>
+  </TerrainDef>
+
+  <TerrainDef ParentName="BaseFloor_Archo_WVC">
+	<defName>Floor_ArchotechGravel_WVC</defName>
+	<label>(Floor) Archotech gravel</label>
+	<fertility>0.9</fertility>
+	<statBases>
+	  <Beauty>1</Beauty>
+	  <Cleanliness>-1</Cleanliness>
+	</statBases>
+	<texturePath>WVC/Stuff/Floors/Gravel_ArchotechA</texturePath>
+	<costList>
+	  <Neutroamine>1</Neutroamine>
+	</costList>
+  </TerrainDef>
+
+  <!-- ======================================================================= -->
+
+  <TerrainDef Abstract="True" Name="BaseBridges_Ancient_WVC" ParentName="Marker_BaseBridge_WVC">
+	<renderPrecedence>100</renderPrecedence>
+	<costList>
+	  <Plasteel>12</Plasteel>
+	</costList>
+	<affordances>
+	  <li>WVC_AncientFloorLamp</li>
+	</affordances>
+	<researchPrerequisites>
+		<li>ValkyriesTechs_I_WVC</li>
+	</researchPrerequisites>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </TerrainDef>
+
+  <!-- ======================== -->
+  
+  <TerrainDef Abstract="True" Name="BaseBridges_Mech_WVC" ParentName="Marker_BaseBridge_WVC">
+	<costList>
+	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	</costList>
+	<researchPrerequisites>
+		<li>ValkyriesTechs_II_WVC</li>
+	</researchPrerequisites>
+	<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+  </TerrainDef>
+
+  <!-- ======================== -->
+  
+  <TerrainDef Abstract="True" Name="BaseBridges_Archo_WVC" ParentName="Marker_BaseBridge_WVC">
+	<costList>
+	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	  <WVC_ResourceNodes_Archotech MayRequire="wvc.sergkart.nodes">1</WVC_ResourceNodes_Archotech>
+	</costList>
+	<researchPrerequisites>
+		<li>ValkyriesTechs_III_WVC</li>
+	</researchPrerequisites>
+	<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+  </TerrainDef>
+
+  <!-- ======================================================================= -->
+  
+  <TerrainDef ParentName="BaseBridges_Ancient_WVC">
+	<defName>Bridge_AncientFloor_WVC</defName>
+	<label>(Bridge) Ancient floor</label>
+	<texturePath>WVC/Stuff/Floors/AncientFloor</texturePath>
+  </TerrainDef>
+
+  <!-- ======================== -->
+  
+  <TerrainDef ParentName="BaseBridges_Mech_WVC">
+	<defName>Bridge_MechanoidFloor_WVC</defName>
+	<label>(Bridge) Mechanoid floor A</label>
+	<texturePath>WVC/Stuff/Floors/Floor_MechanoidA</texturePath>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseBridges_Mech_WVC">
+	<defName>Bridge_MechanoidFloorB_WVC</defName>
+	<label>(Bridge) Mechanoid floor B</label>
+	<texturePath>WVC/Stuff/Floors/Floor_MechanoidB</texturePath>
+  </TerrainDef>
+
+  <TerrainDef ParentName="BaseBridges_Mech_WVC">
+	<defName>Bridge_MechanoidGravel_WVC</defName>
+	<label>(Bridge) Mechanoid gravel</label>
+	<texturePath>WVC/Stuff/Floors/Gravel_MechanoidA</texturePath>
+	<fertility>0.9</fertility>
+	<statBases>
+	  <Beauty>1</Beauty>
+	  <Cleanliness>-1</Cleanliness>
+	</statBases>
+	<costList>
+	  <Neutroamine>1</Neutroamine>
+	</costList>
+  </TerrainDef>
+
+  <!-- ======================== -->
+  
+  <TerrainDef ParentName="BaseBridges_Archo_WVC">
+	<defName>Bridge_ArchotechFloor_WVC</defName>
+	<label>(Bridge) Archotech floor</label>
+	<texturePath>WVC/Stuff/Floors/Floor_ArchotechA</texturePath>
+  </TerrainDef>
+
+  <TerrainDef ParentName="BaseBridges_Archo_WVC">
+	<defName>Bridge_ArchotechGravel_WVC</defName>
+	<label>(Bridge) Archotech gravel</label>
+	<texturePath>WVC/Stuff/Floors/Gravel_ArchotechA</texturePath>
+	<fertility>0.9</fertility>
+	<statBases>
+	  <Beauty>1</Beauty>
+	  <Cleanliness>-1</Cleanliness>
+	</statBases>
+	<costList>
+	  <Neutroamine>1</Neutroamine>
+	</costList>
+  </TerrainDef>
+
+</Defs>

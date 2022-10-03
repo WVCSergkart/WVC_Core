@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<!-- Don't use a name, use an ID -->
+	<name>WVC - Core</name>
+	<!-- Don't use a name, use an ID -->
+	<author>Sergkart</author>
+	<url>https://steamcommunity.com/profiles/76561198019114858/myworkshopfiles/?appid=294100</url>
+	<supportedVersions>
+		<!-- <li>1.2</li> -->
+		<li>1.3</li>
+	</supportedVersions>
+	<!-- Use an ID! -->
+	<packageId>wvc.sergkart.core</packageId>
+	<!-- Use an ID! -->
+	<description>Core is a mod needed for my other mods, however it contains quite a bit of content on its own. Inside the mod there is a decent amount of mechanoid-style buildings, some ancient and archotechs, as well as a lot of small optional patches.
+
+Initially, all this was part of my "kemomimilike" mod, which is dedicated to monster girls. All this was a very small part that just complemented my girls, but gradually it expanded and I decided to separate the buildings, settings and some small things into a separate mod.
+
+Half of the settings that can be found inside the mod are dedicated to monster girls, while the other half are more neutral and do not adhere to specific goals. For example, tree settings (Gauranlen and Anima) - the number of dryads, the influence of buildings, the connection speed of falling, etc. all of this can be customized.</description>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Ideology</packageId>
+			<displayName>Ideology</displayName>
+		</li>
+		<!-- - -->
+		<li>
+			<packageId>imranfish.xmlextensions</packageId>
+			<displayName>XML Extensions</displayName>
+			<downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
+		</li>
+		<!-- <li> -->
+			<!-- <packageId>erdelf.HumanoidAlienRaces</packageId> -->
+			<!-- <displayName>Humanoid Alien Races</displayName> -->
+			<!-- <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl> -->
+		<!-- </li> -->
+		<!-- - -->
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<!-- - -->
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>VanillaExpanded.Ideo.Dryads</li>
+		<li>oskarpotocki.vfe.mechanoid</li>
+		<!-- - -->
+		<li>auf.framework.sergkart</li>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<!-- - -->
+		<li>ahndemi.panieltheautomata</li>
+		<li>noodlesking.morepsycasts</li>
+		<li>vanya.agent.housemaidnukos</li>
+		<li>dankpyon.medieval.overhaul</li>
+		<!-- - -->
+		<li>psyche.kemomimihouse</li>
+		<li>pupa.insectgirls</li>
+		<li>sm.mimikko</li>
+		<!-- - -->
+		<li>imranfish.xmlextensions</li>
+		<li>Sergkart.Wanderer.Kemomimi.Insect</li>
+		<!-- - -->
+	</loadAfter>
+	<loadBefore>
+	</loadBefore>
+	<incompatibleWith>
+	</incompatibleWith>
+</ModMetaData>

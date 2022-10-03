@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- <StatDef MayRequire="ludeon.rimworld.royalty"> -->
+	<!-- <defName>Ability_EntropyPulseDeathChance_WVC</defName> -->
+	<!-- <label>Entropy death chance</label> -->
+	<!-- <description>No information available.</description> -->
+	<!-- <category>BasicsPawn</category> -->
+	<!-- <defaultBaseValue>1.0</defaultBaseValue> -->
+	<!-- <minValue>0</minValue> -->
+	<!-- <maxValue>1</maxValue> -->
+	<!-- <toStringStyle>PercentZero</toStringStyle> -->
+	<!-- <alwaysHide>true</alwaysHide> -->
+	<!-- <showIfUndefined>false</showIfUndefined> -->
+	<!-- <showZeroBaseValue>false</showZeroBaseValue> -->
+	<!-- <showOnDefaultValue>false</showOnDefaultValue> -->
+	<!-- <scenarioRandomizable>false</scenarioRandomizable> -->
+	<!-- <displayPriorityInCategory>3501</displayPriorityInCategory> -->
+	<!-- <forInformationOnly>true</forInformationOnly> -->
+  <!-- </StatDef> -->
+  
+  <StatDef>
+	<defName>WVC_CorruptionSensitivity</defName>
+	<label>corruption sensitivity</label>
+	<description>Multiplier on the impact of corruption on this creature.</description>
+	<category>BasicsPawn</category>
+	<defaultBaseValue>1.0</defaultBaseValue>
+	<hideAtValue>1.0</hideAtValue>
+	<minValue>0</minValue>
+	<maxValue>1</maxValue>
+	<toStringStyle>PercentZero</toStringStyle>
+	<displayPriorityInCategory>3500</displayPriorityInCategory>
+  </StatDef>
+
+</Defs>

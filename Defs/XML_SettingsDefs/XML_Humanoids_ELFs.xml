@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XmlExtensions.SettingsMenuDef>
+		<defName>Settings_Humanoids_ELFs_WVC</defName>
+		<modId>honkai.girls.sergkart</modId>
+		<settings>
+			<li Class="XmlExtensions.Setting.Gap"/>
+			<li Class="XmlExtensions.Setting.GapLine" />
+
+			<!-- ================================================================= -->
+
+			<li Class="XmlExtensions.Setting.Text">
+				<text>ELFs - a subspecies of the Valkyries, most of the settings, as well as mutations, they inherit from them. ELFs have some limitations and serious buffs to starting skills, especially medicine.&lt;color=#a2adff&gt;\n\n- Move fast\n- Peak strength at age 12, average age 8 years\n- Unique skin\n- Weak in melee combat, but have strong ranged bonuses\n- Ignore the slowdown of surfaces&lt;/color&gt;\n\nCan only be obtained through dryad evolution, psycasts or an incubator</text>
+				<tKey>HGS_Humanoids_ELFsTab_WVC</tKey>
+			</li>
+
+			<!-- ================================================================= -->
+
+			<li Class="XmlExtensions.Setting.Gap"/>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>Humanlike_ELF_LinkingRitual_WVC</key>
+				<label>ELFs linking ritual (experimental)</label>
+				<tooltip>Allows you to perform a ritual to obtain a psylink.\n\nNo critical bugs found.</tooltip>
+				<defaultValue>false</defaultValue>
+				<tKey>HGS_Humanlike_ELF_LinkingRitual_Label_WVC</tKey>
+				<tKeyTip>HGS_Humanlike_ELF_LinkingRitual_Desc_WVC</tKeyTip>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>Humanlike_ELF_AllELFsCanDoAnyWork_WVC</key>
+				<label>All ELFs can do any work</label>
+				<defaultValue>false</defaultValue>
+				<tKey>HGS_Humanlike_ELF_AllELFsCanDoAnyWork_WVC</tKey>
+			</li>
+
+			<!-- ================================================================= -->
+
+			<li Class="XmlExtensions.Setting.Gap" />
+			<li Class="XmlExtensions.Setting.SetColor">
+				<color>(50,255,0)</color>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>WVC_Events_WandererJoin_ELF</key>
+				<label>Enable wanderer event</label>
+				<defaultValue>false</defaultValue>
+				<tooltip>Unlocks the event. The event chance is configured in the "General" tab.</tooltip>
+				<tKey>HGS_General_Events_Label_WVC</tKey>
+				<tKeyTip>HGS_General_Events_Desc_WVC</tKeyTip>
+			</li>
+			<li Class="XmlExtensions.Setting.SetColor">
+				<color>(255,255,255)</color>
+			</li>
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+</Defs>

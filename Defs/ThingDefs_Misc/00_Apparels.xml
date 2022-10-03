@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=====================================================================-->
+
+  <ApparelLayerDef Name="WVC_LayerApparelBase" Abstract="True">
+	<label>skin</label>
+	<drawOrder>0</drawOrder>
+  </ApparelLayerDef>
+
+  <!-- <ApparelLayerDef ParentName="WVC_LayerApparelBase"> -->
+	<!-- <defName>WVC_Invisible</defName> -->
+  <!-- </ApparelLayerDef> -->
+  <ApparelLayerDef ParentName="WVC_LayerApparelBase">
+	<defName>WVC_Underwear</defName>
+  </ApparelLayerDef>
+
+  <!--=====================================================================-->
+
+  <ThingDef Name="Marker_WVC_ApparelMakeableBase" ParentName="ApparelMakeableBase" Abstract="True">
+	<graphicData Inherit="False">
+	  <!-- <texPath>WVC/Apparels/MechaniteForge</texPath> -->
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <!-- <shaderType>CutoutComplex</shaderType> -->
+	  <drawSize>0.75</drawSize>
+	</graphicData>
+	<thingCategories>
+	</thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="Marker_WVC_ApparelMakeableBase" Name="WVC_Apparel_PerfectUnderwear">
+	<defName>WVC_Apparel_PerfectUnderwear</defName>
+	<label>simple underwear</label>
+	<description>The pair of pants and top.</description>
+	<techLevel>Industrial</techLevel>
+	<recipeMaker>
+	  <researchPrerequisite>ComplexClothing</researchPrerequisite>
+	</recipeMaker>
+	<graphicData>
+	  <texPath>WVC/Apparels/PerfectUnderwear</texPath>
+	</graphicData>
+	<costStuffCount>10</costStuffCount>
+	<stuffCategories>
+	  <li>Fabric</li>
+	  <li>Leathery</li>
+	</stuffCategories>
+	<thingCategories>
+	  <li>WVC_Underwear</li>
+	</thingCategories>
+	<statBases>
+	  <MarketValue>3</MarketValue>
+	  <MaxHitPoints>50</MaxHitPoints>
+	  <WorkToMake>1600</WorkToMake>
+	  <Mass>0.07</Mass>
+	  <StuffEffectMultiplierArmor>0.01</StuffEffectMultiplierArmor>
+	  <StuffEffectMultiplierInsulation_Cold>0.01</StuffEffectMultiplierInsulation_Cold>
+	  <StuffEffectMultiplierInsulation_Heat>0.04</StuffEffectMultiplierInsulation_Heat>
+	  <EquipDelay>1</EquipDelay>
+	  <Insulation_Cold>1</Insulation_Cold>
+	  <Insulation_Heat>1</Insulation_Heat>
+	</statBases>
+	<apparel>
+	  <bodyPartGroups>
+		<!-- <li>FullHead</li> -->
+		<!-- <li>Neck</li> -->
+		<li>Torso</li>
+		<!-- <li>Shoulders</li> -->
+		<!-- <li>Arms</li> -->
+		<li>Legs</li>
+		<!-- <li>Hands</li> -->
+		<!-- <li>Feet</li> -->
+	  </bodyPartGroups>
+	  <layers Inherit="False">
+		<li>WVC_Underwear</li>
+	  </layers>
+	  <tags Inherit="False">
+		<li MayRequire="ludeon.rimworld.royalty">Royal</li>
+		<li MayRequire="ludeon.rimworld.royalty">RoyalTier1</li>
+		<li MayRequire="ludeon.rimworld.royalty">RoyalTier2</li>
+		<li MayRequire="ludeon.rimworld.royalty">RoyalTier3</li>
+		<li MayRequire="ludeon.rimworld.royalty">RoyalTier4</li>
+		<li MayRequire="ludeon.rimworld.royalty">RoyalTier5</li>
+		<li MayRequire="ludeon.rimworld.royalty">RoyalTier6</li>
+		<li MayRequire="ludeon.rimworld.royalty">RoyalTier7</li>
+		<!-- <li>Neolithic</li> -->
+		<li>IndustrialBasic</li>
+		<li>ValkyriesBase_WVC</li>
+		<!-- <li MayRequire="kentington.saveourship2">Spacer</li> -->
+		<!-- <li MayRequire="kentington.saveourship2">EVA</li> -->
+	  </tags>
+	  <defaultOutfitTags Inherit="False">
+		<li>Worker</li>
+		<li>Soldier</li>
+	  </defaultOutfitTags>
+	  <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+	  <careIfWornByCorpse>true</careIfWornByCorpse>
+	  <careIfDamaged>false</careIfDamaged>
+	  <countsAsClothingForNudity>true</countsAsClothingForNudity>
+	</apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Apparel_PerfectUnderwear">
+	<defName>WVC_Apparel_WarmUnderwear</defName>
+	<label>warm underwear</label>
+	<costStuffCount>45</costStuffCount>
+	<statBases>
+	  <MarketValue>3</MarketValue>
+	  <WorkToMake>3000</WorkToMake>
+	  <Insulation_Cold>25</Insulation_Cold>
+	  <!-- <Insulation_Heat>0</Insulation_Heat> -->
+	</statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Apparel_PerfectUnderwear">
+	<defName>WVC_Apparel_SummerUnderwear</defName>
+	<label>summer underwear</label>
+	<costStuffCount>45</costStuffCount>
+	<statBases>
+	  <MarketValue>3</MarketValue>
+	  <WorkToMake>3000</WorkToMake>
+	  <!-- <Insulation_Cold>30</Insulation_Cold> -->
+	  <Insulation_Heat>25</Insulation_Heat>
+	</statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Apparel_PerfectUnderwear">
+	<defName>WVC_Apparel_ThermalUnderwear</defName>
+	<label>thermal underwear</label>
+	<costStuffCount>60</costStuffCount>
+	<techLevel>Spacer</techLevel>
+	<statBases>
+	  <MarketValue>5</MarketValue>
+	  <WorkToMake>5000</WorkToMake>
+	  <Insulation_Cold>20</Insulation_Cold>
+	  <Insulation_Heat>20</Insulation_Heat>
+	</statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Apparel_PerfectUnderwear">
+	<defName>WVC_Apparel_ExoticUnderwear</defName>
+	<label>exotic underwear</label>
+	<costStuffCount>70</costStuffCount>
+	<techLevel>Spacer</techLevel>
+	<statBases>
+	  <MarketValue>5</MarketValue>
+	  <WorkToMake>5000</WorkToMake>
+	  <Insulation_Cold>15</Insulation_Cold>
+	  <Insulation_Heat>15</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+	  <NegotiationAbility>0.2</NegotiationAbility>
+	</equippedStatOffsets>
+  </ThingDef>
+
+  <!--=====================================================================-->
+
+  <ThingDef ParentName="ApparelBase">
+	<defName>Apparel_GirlyUnderwear_WVC</defName>
+	<label>meсhanite coat</label>
+	<description>Meсhanite coat enhances the user's regenerative abilities. It also protects against hazardous environments.\n\nIt has a self-repair function when lying on the ground.</description>
+	<!-- <recipeMaker Inherit="False"/> -->
+	<techLevel>Ultra</techLevel>
+	<descriptionHyperlinks Inherit="False">
+	  <ThingDef>DefaultWorkSpot_WVC</ThingDef>
+	</descriptionHyperlinks>
+	<graphicData Inherit="False">
+	  <texPath>WVC/Apparels/MechaniteForge</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>0.75</drawSize>
+	</graphicData>
+	<thingCategories>
+	  <li>ApparelUtility</li>
+	</thingCategories>
+	<statBases>
+		<MarketValue>1250</MarketValue>
+		<MaxHitPoints>1000</MaxHitPoints>
+		<Mass>0.5</Mass>
+		<Flammability>0.0</Flammability>
+		<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.04</ArmorRating_Heat>
+		<Insulation_Cold>20</Insulation_Cold>
+		<Insulation_Heat>20</Insulation_Heat>
+		<EquipDelay>1</EquipDelay>
+		<DeteriorationRate>0.0</DeteriorationRate>
+		<Bulk MayRequire="ceteam.combatextended">2</Bulk>
+	</statBases>
+	<equippedStatOffsets>
+	  <!-- <PsychicSensitivityOffset>0.15</PsychicSensitivityOffset> -->
+	  <!-- <PsychicEntropyRecoveryRate>0.066</PsychicEntropyRecoveryRate> -->
+	  <ToxicSensitivity>-1.0</ToxicSensitivity>
+	  <InjuryHealingFactor>0.5</InjuryHealingFactor>
+	  <CarryWeight MayRequire="ceteam.combatextended">20</CarryWeight>
+	</equippedStatOffsets>
+	<costList>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	  <Plasteel>70</Plasteel>
+	  <WVC_UniversalFuel>375</WVC_UniversalFuel>
+	</costList>
+	<recipeMaker>
+	  <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+	  <researchPrerequisite>ValkyriesTechs_II_WVC</researchPrerequisite>
+	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	  <workSkill>Crafting</workSkill>
+	  <effectWorking>Smith</effectWorking>
+	  <soundWorking>Recipe_Machining</soundWorking>
+	  <recipeUsers>
+		<li>WVC_AdvancedCraftingBench</li>
+	  </recipeUsers>
+	  <useIngredientsForColor>false</useIngredientsForColor>
+	  <skillRequirements>
+		<Crafting>16</Crafting>
+		<Intellectual>16</Intellectual>
+	  </skillRequirements>
+	</recipeMaker>
+	<apparel>
+	  <bodyPartGroups>
+		<li>Waist</li>
+	  </bodyPartGroups>
+	  <layers>
+		<li>Belt</li>
+	  </layers>
+	  <tags Inherit="False">
+		<!-- <li>WVC_BeltDefense_Ultra</li> -->
+		<li>ValkyriesBase_WVC</li>
+	  </tags>
+	  <defaultOutfitTags Inherit="False">
+		<!-- <li>Worker</li> -->
+		<!-- <li>Soldier</li> -->
+	  </defaultOutfitTags>
+	  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+	  <careIfWornByCorpse>false</careIfWornByCorpse>
+	  <careIfDamaged>false</careIfDamaged>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+	</apparel>
+	<!-- <colorGenerator Class="ColorGenerator_StandardApparel" /> -->
+	<allowedArchonexusCount>1</allowedArchonexusCount>
+	<tickerType>Long</tickerType>
+	<comps>
+	  <li Class="CompProperties_SelfhealHitpoints">
+		<ticksPerHeal>2000</ticksPerHeal>
+	  </li>
+	</comps>
+	<thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XmlExtensions.SettingsMenuDef>
+		<defName>Settings_Abilities_WVC</defName>
+		<modId>honkai.girls.sergkart</modId>
+		<settings>
+			<li Class="XmlExtensions.Setting.Gap"/>
+			<li Class="XmlExtensions.Setting.GapLine" />
+
+			<!-- ===================================================================== -->
+
+			<li Class="XmlExtensions.Setting.Text">
+				<text>The mod adds a number of psycasts, here you can configure them.\n(&lt;color=#a2c8ff&gt;kemomimilike&lt;/color&gt;)</text>
+				<tKey>HGS_Abilities_MainInfo_WVC</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>DisableAbilities_WVC</key>
+				<label>Disable abilities</label>
+				<defaultValue>false</defaultValue>
+				<tKey>HGS_General_DisableAbilities_WVC</tKey>
+			</li>
+
+			<!-- ===================================================================== -->
+
+			<li Class="XmlExtensions.Setting.GapLine" />
+			<li Class="XmlExtensions.Setting.SplitColumns">
+				<drawLine>true</drawLine>
+				<splits>
+					<li>0.2</li>
+					<li>0.8</li>
+				</splits>
+				<settings>
+					<li>
+						<li Class="XmlExtensions.Setting.DrawImage">
+							<texPath>WVC/Abilities/Claws</texPath>
+							<scale>0.5</scale>
+						</li>
+					</li>
+					<li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>Psychic claws\nLevel 6\nAllows a group of allied pawns and animals to attack with abyssal claws.\nDuration: 1h</text>
+							<tKey>HGS_Abilities_ClawsInfo_WVC</tKey>
+						</li>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ===================================================================== -->
+
+			<li Class="XmlExtensions.Setting.GapLine" />
+			<li Class="XmlExtensions.Setting.SplitColumns">
+				<drawLine>true</drawLine>
+				<splits>
+					<li>0.2</li>
+					<li>0.8</li>
+				</splits>
+				<settings>
+					<li>
+						<li Class="XmlExtensions.Setting.DrawImage">
+							<texPath>WVC/Abilities/AnimaTree</texPath>
+							<scale>0.5</scale>
+						</li>
+					</li>
+					<li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>Anima skip\nLevel 5\nSummons a tree at the specified point. The caster gains psychic shock status.</text>
+							<tKey>HGS_Abilities_AnimaTreeInfo_WVC</tKey>
+						</li>
+					</li>
+				</settings>
+			</li>
+			<li Class="XmlExtensions.Setting.GapLine" />
+			<li Class="XmlExtensions.Setting.SplitColumns">
+				<drawLine>true</drawLine>
+				<splits>
+					<li>0.2</li>
+					<li>0.8</li>
+				</splits>
+				<settings>
+					<li>
+						<li Class="XmlExtensions.Setting.DrawImage">
+							<texPath>WVC/Abilities/GauranlenTree</texPath>
+							<scale>0.5</scale>
+						</li>
+					</li>
+					<li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>Gauranlen skip\nLevel 5\nSummons a tree at the specified point. The caster gains psychic shock status.\nRequirement: Ideology</text>
+							<tKey>HGS_Abilities_GauranlenTreeInfo_WVC</tKey>
+						</li>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ===================================================================== -->
+
+			<li Class="XmlExtensions.Setting.GapLine" />
+			<li Class="XmlExtensions.Setting.SplitColumns">
+				<drawLine>true</drawLine>
+				<splits>
+					<li>0.2</li>
+					<li>0.8</li>
+				</splits>
+				<settings>
+					<li>
+						<li Class="XmlExtensions.Setting.DrawImage">
+							<texPath>WVC/Abilities/SummonELF</texPath>
+							<scale>0.5</scale>
+						</li>
+					</li>
+					<li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>Living form skip\nLevel 6\nSummons an ELF at the cost of the caster's life.\nRequirement: Vanilla Ideology Expanded - Dryads</text>
+							<tKey>HGS_Abilities_SummonELFInfo_WVC</tKey>
+						</li>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ===================================================================== -->
+
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+</Defs>

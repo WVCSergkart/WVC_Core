@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MoteBase" Name="WVC_MoteCutBase" Abstract="True">
+	<altitudeLayer>MoteOverhead</altitudeLayer>
+	<mote>
+	  <fadeInTime>0.04</fadeInTime>
+	  <solidTime>0.03</solidTime>
+	  <fadeOutTime>1</fadeOutTime>
+	</mote>
+  </ThingDef>
+
+  <!--=====================================================================-->
+
+  <ThingDef ParentName="WVC_MoteCutBase">
+	<defName>WVC_Mote_BluntFistBlue</defName>
+	<graphicData>
+	  <texPath>WVC/MeleeEffects/FistBlue</texPath>
+	  <shaderType>MoteGlow</shaderType>
+	</graphicData>
+  </ThingDef>
+  <ThingDef ParentName="WVC_MoteCutBase">
+	<defName>WVC_Mote_BluntFistRed</defName>
+	<graphicData>
+	  <texPath>WVC/MeleeEffects/FistRed</texPath>
+	  <shaderType>MoteGlow</shaderType>
+	</graphicData>
+  </ThingDef>
+
+  <EffecterDef>
+	<defName>WVC_BluntEffect_FistBlue</defName>
+	<children>
+	  <li>
+		<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+		<moteDef>WVC_Mote_BluntFistBlue</moteDef>
+		<positionRadius>0.6</positionRadius>
+		<burstCount>1</burstCount>
+		<scale>0.5~1</scale>
+		<color>(1,1,1,1)</color>
+		<spawnLocType>OnSource</spawnLocType>
+	  </li>
+	</children>
+  </EffecterDef>
+  <EffecterDef>
+	<defName>WVC_BluntEffect_FistRed</defName>
+	<children>
+	  <li>
+		<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+		<moteDef>WVC_Mote_BluntFistRed</moteDef>
+		<positionRadius>0.6</positionRadius>
+		<burstCount>1</burstCount>
+		<scale>0.5~1</scale>
+		<color>(1,1,1,1)</color>
+		<spawnLocType>OnSource</spawnLocType>
+	  </li>
+	</children>
+  </EffecterDef>
+
+  <!--=====================================================================-->
+
+  <ThingDef ParentName="WVC_MoteCutBase">
+	<defName>WVC_Mote_BluntFeetBlue</defName>
+	<graphicData>
+	  <texPath>WVC/MeleeEffects/FeetBlue</texPath>
+	  <shaderType>MoteGlow</shaderType>
+	</graphicData>
+  </ThingDef>
+  <ThingDef ParentName="WVC_MoteCutBase">
+	<defName>WVC_Mote_BluntFeetRed</defName>
+	<graphicData>
+	  <texPath>WVC/MeleeEffects/FeetRed</texPath>
+	  <shaderType>MoteGlow</shaderType>
+	</graphicData>
+  </ThingDef>
+
+  <EffecterDef>
+	<defName>WVC_BluntEffect_FeetBlue</defName>
+	<children>
+	  <li>
+		<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+		<moteDef>WVC_Mote_BluntFeetBlue</moteDef>
+		<positionRadius>0.6</positionRadius>
+		<burstCount>1</burstCount>
+		<scale>0.5~1</scale>
+		<color>(1,1,1,1)</color>
+		<spawnLocType>OnSource</spawnLocType>
+	  </li>
+	</children>
+  </EffecterDef>
+  <EffecterDef>
+	<defName>WVC_BluntEffect_FeetRed</defName>
+	<children>
+	  <li>
+		<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+		<moteDef>WVC_Mote_BluntFeetRed</moteDef>
+		<positionRadius>0.6</positionRadius>
+		<burstCount>1</burstCount>
+		<scale>0.5~1</scale>
+		<color>(1,1,1,1)</color>
+		<spawnLocType>OnSource</spawnLocType>
+	  </li>
+	</children>
+  </EffecterDef>
+
+  <!--=====================================================================-->
+
+  <ThingDef ParentName="WVC_MoteCutBase">
+	<defName>WVC_Mote_CutBlueLine</defName>
+	<graphicData>
+	  <texPath>WVC/MeleeEffects/BlueLine</texPath>
+	  <shaderType>MoteGlow</shaderType>
+	</graphicData>
+  </ThingDef>
+  <ThingDef ParentName="WVC_MoteCutBase">
+	<defName>WVC_Mote_CutAngleBlue</defName>
+	<graphicData>
+	  <texPath>WVC/MeleeEffects/AngleBlue</texPath>
+	  <shaderType>MoteGlow</shaderType>
+	</graphicData>
+  </ThingDef>
+  <ThingDef ParentName="WVC_MoteCutBase">
+	<defName>WVC_Mote_CutBlueArk</defName>
+	<graphicData>
+	  <texPath>WVC/MeleeEffects/BlueArk</texPath>
+	  <shaderType>MoteGlow</shaderType>
+	</graphicData>
+  </ThingDef>
+  <ThingDef ParentName="WVC_MoteCutBase">
+	<defName>WVC_Mote_CutLinesBlue</defName>
+	<graphicData>
+	  <texPath>WVC/MeleeEffects/LinesBlue</texPath>
+	  <shaderType>MoteGlow</shaderType>
+	</graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_MoteCutBase">
+	<defName>WVC_Mote_CutRedLine</defName>
+	<graphicData>
+	  <texPath>WVC/MeleeEffects/RedLine</texPath>
+	  <shaderType>MoteGlow</shaderType>
+	</graphicData>
+  </ThingDef>
+  <ThingDef ParentName="WVC_MoteCutBase">
+	<defName>WVC_Mote_CutAngleRed</defName>
+	<graphicData>
+	  <texPath>WVC/MeleeEffects/AngleRed</texPath>
+	  <shaderType>MoteGlow</shaderType>
+	</graphicData>
+  </ThingDef>
+  <ThingDef ParentName="WVC_MoteCutBase">
+	<defName>WVC_Mote_CutRedArk</defName>
+	<graphicData>
+	  <texPath>WVC/MeleeEffects/RedArk</texPath>
+	  <shaderType>MoteGlow</shaderType>
+	</graphicData>
+  </ThingDef>
+  <ThingDef ParentName="WVC_MoteCutBase">
+	<defName>WVC_Mote_CutLinesRed</defName>
+	<graphicData>
+	  <texPath>WVC/MeleeEffects/LinesRed</texPath>
+	  <shaderType>MoteGlow</shaderType>
+	</graphicData>
+  </ThingDef>
+
+  <!--=====================================================================--> 
+
+  <EffecterDef>
+	<defName>WVC_CutEffect_BlueLine</defName>
+	<children>
+	  <li>
+		<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+		<moteDef>WVC_Mote_CutBlueLine</moteDef>
+		<positionRadius>1</positionRadius>
+		<burstCount>2</burstCount>
+		<scale>1~2</scale>
+		<color>(1,1,1,1)</color>
+		<spawnLocType>OnSource</spawnLocType>
+	  </li>
+	</children>
+  </EffecterDef>
+  <EffecterDef>
+	<defName>WVC_CutEffect_AngleBlue</defName>
+	<children>
+	  <li>
+		<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+		<moteDef>WVC_Mote_CutAngleBlue</moteDef>
+		<positionRadius>1</positionRadius>
+		<burstCount>3</burstCount>
+		<scale>1~2</scale>
+		<color>(1,1,1,1)</color>
+		<spawnLocType>OnSource</spawnLocType>
+	  </li>
+	</children>
+  </EffecterDef>
+  <EffecterDef>
+	<defName>WVC_CutEffect_BlueArk</defName>
+	<children>
+	  <li>
+		<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+		<moteDef>WVC_Mote_CutBlueArk</moteDef>
+		<positionRadius>1</positionRadius>
+		<burstCount>2</burstCount>
+		<scale>1~2</scale>
+		<color>(1,1,1,1)</color>
+		<spawnLocType>OnSource</spawnLocType>
+	  </li>
+	</children>
+  </EffecterDef>
+  <EffecterDef>
+	<defName>WVC_CutEffect_LinesBlue</defName>
+	<children>
+	  <li>
+		<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+		<moteDef>WVC_Mote_CutLinesBlue</moteDef>
+		<positionRadius>1</positionRadius>
+		<burstCount>3</burstCount>
+		<scale>1~2</scale>
+		<color>(1,1,1,1)</color>
+		<spawnLocType>OnSource</spawnLocType>
+	  </li>
+	</children>
+  </EffecterDef>
+
+  <EffecterDef>
+	<defName>WVC_CutEffect_RedLine</defName>
+	<children>
+	  <li>
+		<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+		<moteDef>WVC_Mote_CutRedLine</moteDef>
+		<positionRadius>1</positionRadius>
+		<burstCount>3</burstCount>
+		<scale>1~2</scale>
+		<color>(1,1,1,1)</color>
+		<spawnLocType>OnSource</spawnLocType>
+	  </li>
+	</children>
+  </EffecterDef>
+  <EffecterDef>
+	<defName>WVC_CutEffect_AngleRed</defName>
+	<children>
+	  <li>
+		<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+		<moteDef>WVC_Mote_CutAngleRed</moteDef>
+		<positionRadius>1</positionRadius>
+		<burstCount>2</burstCount>
+		<scale>1~2</scale>
+		<color>(1,1,1,1)</color>
+		<spawnLocType>OnSource</spawnLocType>
+	  </li>
+	</children>
+  </EffecterDef>
+  <EffecterDef>
+	<defName>WVC_CutEffect_RedArk</defName>
+	<children>
+	  <li>
+		<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+		<moteDef>WVC_Mote_CutRedArk</moteDef>
+		<positionRadius>1</positionRadius>
+		<burstCount>2</burstCount>
+		<scale>1~2</scale>
+		<color>(1,1,1,1)</color>
+		<spawnLocType>OnSource</spawnLocType>
+	  </li>
+	</children>
+  </EffecterDef>
+  <EffecterDef>
+	<defName>WVC_CutEffect_LinesRed</defName>
+	<children>
+	  <li>
+		<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+		<moteDef>WVC_Mote_CutLinesRed</moteDef>
+		<positionRadius>1</positionRadius>
+		<burstCount>3</burstCount>
+		<scale>1~2</scale>
+		<color>(1,1,1,1)</color>
+		<spawnLocType>OnSource</spawnLocType>
+	  </li>
+	</children>
+  </EffecterDef>
+
+</Defs>

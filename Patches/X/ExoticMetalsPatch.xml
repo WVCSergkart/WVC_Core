@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>honkai.girls.sergkart</modId>
+		<key>WVC_ExoticResources_RenamePlaSteel</key>
+		<defaultValue>false</defaultValue>
+		<caseTrue>
+
+			<Operation Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="Steel"]/label</xpath> 
+			  <value>
+				  <label>alloy</label>
+			  </value>
+			</Operation>
+			<Operation Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="Plasteel"]/label</xpath> 
+			  <value>
+				  <label>advanced alloy</label>
+			  </value>
+			</Operation>
+
+			<Operation Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="Steel"]/description</xpath> 
+			  <value>
+				<description>Various metals and alloys used for building a huge variety of structures, weapons, and machines.</description>
+			  </value>
+			</Operation>
+			<Operation Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="Plasteel"]/description</xpath> 
+			  <value>
+				<description>Advanced spacer tech structural materials. These alloys are extremely strong due to its unique molecular structure.</description>
+			  </value>
+			</Operation>
+
+		</caseTrue>
+	</Operation>
+
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>honkai.girls.sergkart</modId>
+		<key>WVC_ExoticResources_ChangeTexturePlaSteel</key>
+		<defaultValue>false</defaultValue>
+		<caseTrue>
+
+			<Operation Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="Steel"]/graphicData</xpath> 
+			  <value>
+				<graphicData>
+				  <texPath>WVC/Resource/Steel</texPath>
+				  <graphicClass>Graphic_StackCount</graphicClass>
+				</graphicData>
+			  </value>
+			</Operation>
+			<Operation Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="Plasteel"]/graphicData</xpath> 
+			  <value>
+				<graphicData>
+				  <texPath>WVC/Resource/Plasteel</texPath>
+				  <graphicClass>Graphic_StackCount</graphicClass>
+				</graphicData>
+			  </value>
+			</Operation>
+
+			<Operation Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="Plasteel"]/stuffProps/color</xpath> 
+			  <value>
+				<color>(179,163,151)</color>
+				<!-- <color>(255,224,200)</color> -->
+			  </value>
+			</Operation>
+
+		</caseTrue>
+	</Operation>
+
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>honkai.girls.sergkart</modId>
+		<key>WVC_ExoticResources_MainPatch</key>
+		<defaultValue>false</defaultValue>
+		<caseFalse>
+
+			<li Class="XmlExtensions.PatchOperationSafeRemove">
+				<xpath>/Defs/ThingDef[@ParentName="WVC_ExoticResources_Base" or @WVC_Tag="ExoticAlloysRecipeSmelter"]</xpath>
+			</li>
+			<li Class="XmlExtensions.PatchOperationSafeRemove">
+				<xpath>/Defs/TraderKindDef[defName="WVC_Orbital_ExoticAlloysTrader"]</xpath>
+			</li>
+
+		</caseFalse>
+		<caseTrue>
+
+			<!-- ===================================================================== -->
+
+			<Operation Class="XmlExtensions.OptionalPatch">
+				<modId>honkai.girls.sergkart</modId>
+				<key>WVC_ExoticResources_WeaponsRecipes</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+
+					<Operation Class="XmlExtensions.ApplyPatch">
+						<patchName>WVC_PatchDef_AllSteelRecipes_Into_MetalRecipes</patchName>
+						<arguments>
+							<li>BaseWeapon</li>
+						</arguments>
+					</Operation>
+
+				</caseTrue>
+			</Operation>
+
+			<!-- <Operation Class="XmlExtensions.OptionalPatch"> -->
+				<!-- <modId>honkai.girls.sergkart</modId> -->
+				<!-- <key>WVC_ExoticResources_BuildingsRecipes</key> -->
+				<!-- <defaultValue>false</defaultValue> -->
+				<!-- <caseTrue> -->
+
+					<!-- <Operation Class="XmlExtensions.ApplyPatch"> -->
+						<!-- <patchName>WVC_PatchDef_AllSteelRecipes_Into_MetalRecipes</patchName> -->
+						<!-- <arguments> -->
+							<!-- <li>BuildingBase</li> -->
+						<!-- </arguments> -->
+					<!-- </Operation> -->
+
+				<!-- </caseTrue> -->
+			<!-- </Operation> -->
+
+			<Operation Class="XmlExtensions.OptionalPatch">
+				<modId>honkai.girls.sergkart</modId>
+				<key>WVC_ExoticResources_ApparelsRecipes</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+
+					<Operation Class="XmlExtensions.ApplyPatch">
+						<patchName>WVC_PatchDef_AllSteelRecipes_Into_MetalRecipes</patchName>
+						<arguments>
+							<li>ApparelNoQualityBase</li>
+						</arguments>
+					</Operation>
+
+				</caseTrue>
+			</Operation>
+
+			<!-- ===================================================================== -->
+
+
+		</caseTrue>
+	</Operation>
+</Patch>

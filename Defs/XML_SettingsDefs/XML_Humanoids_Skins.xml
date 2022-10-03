@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XmlExtensions.SettingsMenuDef>
+		<defName>Settings_Humanoids_Skins_WVC</defName>
+		<modId>honkai.girls.sergkart</modId>
+		<settings>
+			<!-- <li Class="XmlExtensions.Setting.Gap"/> -->
+			<li Class="XmlExtensions.Setting.GapLine" />
+
+			<!--=====================================================================-->
+
+			<li Class="XmlExtensions.Setting.SplitColumns">
+				<tag>ChooseSkinColumns_WVC</tag>
+				<drawLine>true</drawLine>
+				<splits>
+					<li>0.33</li>
+					<li>0.33</li>
+					<li>0.33</li>
+				</splits>
+				<settings>
+
+					<!--=====================================================================-->
+
+					<li WVC_Tag="SettingsTagName_Alien_Valkyrie_WVC">
+						<li Class="XmlExtensions.Setting.SetColor"/>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>Skin settings for Valkyries:</text>
+							<tKey>HGS_Humanoids_SkinSelector_ValkyrieName_WVC</tKey>
+						</li>
+
+						<!--=====================================================================-->
+
+						<li Class="XmlExtensions.Setting.GapLine" />
+						<li Class="XmlExtensions.Setting.SetColor">
+							<color>(162,200,255)</color>
+						</li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>kemomimilike:</text>
+							<tKey>HGS_Humanoids_SkinSelectorLabel1_WVC</tKey>
+						</li>
+							<li Class="XmlExtensions.Setting.Group">
+								<tag>1</tag>
+								<settings>
+								</settings>
+							</li>
+
+						<!--=====================================================================-->
+
+						<li Class="XmlExtensions.Setting.GapLine" />
+						<li Class="XmlExtensions.Setting.SetColor">
+							<color>(255,162,200)</color>
+						</li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>Insect Girls:</text>
+							<tKey>HGS_Humanoids_SkinSelectorLabel2_WVC</tKey>
+						</li>
+							<li Class="XmlExtensions.Setting.Group">
+								<tag>2</tag>
+								<settings>
+								</settings>
+							</li>
+
+						<!--=====================================================================-->
+
+						<li Class="XmlExtensions.Setting.GapLine" />
+						<li Class="XmlExtensions.Setting.SetColor">
+							<color>(200,255,162)</color>
+						</li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>kemomimihouse:</text>
+							<tKey>HGS_Humanoids_SkinSelectorLabel3_WVC</tKey>
+						</li>
+							<li Class="XmlExtensions.Setting.Group">
+								<tag>3</tag>
+								<settings>
+								</settings>
+							</li>
+
+						<!--=====================================================================-->
+
+						<li Class="XmlExtensions.Setting.GapLine" />
+						<li Class="XmlExtensions.Setting.SetColor">
+							<color>(200,200,255)</color>
+						</li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>Mimikko:</text>
+							<tKey>HGS_Humanoids_SkinSelectorLabel4_WVC</tKey>
+						</li>
+							<li Class="XmlExtensions.Setting.Group">
+								<tag>4</tag>
+								<settings>
+								</settings>
+							</li>
+
+						<!--=====================================================================-->
+
+						<li Class="XmlExtensions.Setting.GapLine" />
+					</li>
+
+					<!--=====================================================================-->
+
+					<li WVC_Tag="SettingsTagName_Alien_DryadMother_WVC">
+						<li Class="XmlExtensions.Setting.SetColor"/>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>Skin settings for Mothers of the Dryads:</text>
+							<tKey>HGS_Humanoids_SkinSelector_DryadMotherName_WVC</tKey>
+						</li>
+
+						<!--=====================================================================-->
+
+						<li Class="XmlExtensions.Setting.GapLine" />
+						<li Class="XmlExtensions.Setting.SetColor">
+							<color>(162,200,255)</color>
+						</li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>kemomimilike:</text>
+							<tKey>HGS_Humanoids_SkinSelectorLabel1_WVC</tKey>
+						</li>
+							<li Class="XmlExtensions.Setting.Group">
+								<tag>1</tag>
+								<settings>
+								</settings>
+							</li>
+
+						<!--=====================================================================-->
+
+						<li Class="XmlExtensions.Setting.GapLine" />
+						<li Class="XmlExtensions.Setting.SetColor">
+							<color>(255,162,200)</color>
+						</li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>Insect Girls:</text>
+							<tKey>HGS_Humanoids_SkinSelectorLabel2_WVC</tKey>
+						</li>
+							<li Class="XmlExtensions.Setting.Group">
+								<tag>2</tag>
+								<settings>
+								</settings>
+							</li>
+
+						<!--=====================================================================-->
+
+						<li Class="XmlExtensions.Setting.GapLine" />
+						<li Class="XmlExtensions.Setting.SetColor">
+							<color>(200,255,162)</color>
+						</li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>kemomimihouse:</text>
+							<tKey>HGS_Humanoids_SkinSelectorLabel3_WVC</tKey>
+						</li>
+							<li Class="XmlExtensions.Setting.Group">
+								<tag>3</tag>
+								<settings>
+								</settings>
+							</li>
+
+						<!--=====================================================================-->
+
+						<li Class="XmlExtensions.Setting.GapLine" />
+						<li Class="XmlExtensions.Setting.SetColor">
+							<color>(200,200,255)</color>
+						</li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>Mimikko:</text>
+							<tKey>HGS_Humanoids_SkinSelectorLabel4_WVC</tKey>
+						</li>
+							<li Class="XmlExtensions.Setting.Group">
+								<tag>4</tag>
+								<settings>
+								</settings>
+							</li>
+
+						<!--=====================================================================-->
+
+						<li Class="XmlExtensions.Setting.GapLine" />
+					</li>
+
+					<!--=====================================================================-->
+
+					<li WVC_Tag="SettingsTagName_Alien_RoyalDryad_WVC">
+						<li Class="XmlExtensions.Setting.SetColor"/>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>Skin settings for Royal dryads (Dryad girls):</text>
+							<tKey>HGS_Humanoids_SkinSelector_RoyalDryadName_WVC</tKey>
+						</li>
+
+						<!--=====================================================================-->
+
+						<li Class="XmlExtensions.Setting.GapLine" />
+						<li Class="XmlExtensions.Setting.SetColor">
+							<color>(162,200,255)</color>
+						</li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>kemomimilike:</text>
+							<tKey>HGS_Humanoids_SkinSelectorLabel1_WVC</tKey>
+						</li>
+							<li Class="XmlExtensions.Setting.Group">
+								<tag>1</tag>
+								<settings>
+								</settings>
+							</li>
+
+						<!--=====================================================================-->
+
+						<li Class="XmlExtensions.Setting.GapLine" />
+						<li Class="XmlExtensions.Setting.SetColor">
+							<color>(255,162,200)</color>
+						</li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>Insect Girls:</text>
+							<tKey>HGS_Humanoids_SkinSelectorLabel2_WVC</tKey>
+						</li>
+							<li Class="XmlExtensions.Setting.Group">
+								<tag>2</tag>
+								<settings>
+								</settings>
+							</li>
+
+						<!--=====================================================================-->
+
+						<li Class="XmlExtensions.Setting.GapLine" />
+						<li Class="XmlExtensions.Setting.SetColor">
+							<color>(200,255,162)</color>
+						</li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>kemomimihouse:</text>
+							<tKey>HGS_Humanoids_SkinSelectorLabel3_WVC</tKey>
+						</li>
+							<li Class="XmlExtensions.Setting.Group">
+								<tag>3</tag>
+								<settings>
+								</settings>
+							</li>
+
+						<!--=====================================================================-->
+
+						<li Class="XmlExtensions.Setting.GapLine" />
+						<li Class="XmlExtensions.Setting.SetColor">
+							<color>(200,200,255)</color>
+						</li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>Mimikko:</text>
+							<tKey>HGS_Humanoids_SkinSelectorLabel4_WVC</tKey>
+						</li>
+							<li Class="XmlExtensions.Setting.Group">
+								<tag>4</tag>
+								<settings>
+								</settings>
+							</li>
+
+						<!--=====================================================================-->
+
+						<li Class="XmlExtensions.Setting.GapLine" />
+					</li>
+
+					<!--=====================================================================-->
+
+				</settings>
+			</li>
+			<!--=====================================================================-->
+			<li Class="XmlExtensions.Setting.SetColor" />
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+</Defs>

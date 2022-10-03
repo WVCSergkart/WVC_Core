@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <LifeStageDef ParentName="LifeStage_Valkyrie_General_WVC">
+	<defName>LifeStage_DryadMother_Immature_WVC</defName>
+	<label>12</label>
+	<healthScaleFactor>1.2</healthScaleFactor>
+	<!-- <hungerRateFactor>1.2</hungerRateFactor> -->
+	<meleeDamageFactor>1.0</meleeDamageFactor>
+	<bodySizeFactor>1.2</bodySizeFactor>
+	<foodMaxFactor>1</foodMaxFactor>
+	<statFactors>
+	  <!-- <MoveSpeed>1.2</MoveSpeed> -->
+	  <!-- = -->
+	  <IncomingDamageFactor>1.2</IncomingDamageFactor>
+	  <!-- = -->
+	  <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+	  <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+	  <ArmorRating_Heat>0.8</ArmorRating_Heat>
+	  <!-- = -->
+	  <!-- <InjuryHealingFactor>1.1</InjuryHealingFactor> -->
+	</statFactors>
+  </LifeStageDef>
+  
+  <LifeStageDef ParentName="LifeStage_Valkyrie_General_WVC">
+	<defName>LifeStage_DryadMother_Young_WVC</defName>
+	<label>13</label>
+	<healthScaleFactor>1.4</healthScaleFactor>
+	<!-- <hungerRateFactor>1.0</hungerRateFactor> -->
+	<meleeDamageFactor>1.25</meleeDamageFactor>
+	<bodySizeFactor>1.4</bodySizeFactor>
+	<foodMaxFactor>2</foodMaxFactor>
+	<statFactors>
+	  <!-- <MoveSpeed>1.2</MoveSpeed> -->
+	  <!-- = -->
+	  <IncomingDamageFactor>1.0</IncomingDamageFactor>
+	  <!-- = -->
+	  <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
+	  <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+	  <ArmorRating_Heat>0.6</ArmorRating_Heat>
+	  <!-- = -->
+	  <WorkSpeedGlobal>1.1</WorkSpeedGlobal>
+	  <RestRateMultiplier>1.125</RestRateMultiplier>
+	  <InjuryHealingFactor>1.125</InjuryHealingFactor>
+	  <!-- <PainShockThreshold>1.25</PainShockThreshold> -->
+	  <CarryingCapacity>1.5</CarryingCapacity>
+	</statFactors>
+  </LifeStageDef>
+  
+  <LifeStageDef ParentName="LifeStage_Valkyrie_General_WVC">
+	<defName>LifeStage_DryadMother_Adult_WVC</defName>
+	<label>16</label>
+	<healthScaleFactor>1.6</healthScaleFactor>
+	<!-- <hungerRateFactor>0.9</hungerRateFactor> -->
+	<meleeDamageFactor>1.5</meleeDamageFactor>
+	<bodySizeFactor>1.6</bodySizeFactor>
+	<foodMaxFactor>3</foodMaxFactor>
+	<statFactors>
+	  <!-- <MoveSpeed>1.2</MoveSpeed> -->
+	  <!-- = -->
+	  <IncomingDamageFactor>0.8</IncomingDamageFactor>
+	  <!-- = -->
+	  <!-- <ArmorRating_Blunt>2.0</ArmorRating_Blunt> -->
+	  <!-- <ArmorRating_Sharp>2.0</ArmorRating_Sharp> -->
+	  <ArmorRating_Heat>0.4</ArmorRating_Heat>
+	  <!-- = -->
+	  <WorkSpeedGlobal>1.2</WorkSpeedGlobal>
+	  <RestRateMultiplier>1.25</RestRateMultiplier>
+	  <InjuryHealingFactor>1.25</InjuryHealingFactor>
+	  <!-- <PainShockThreshold>1.5</PainShockThreshold> -->
+	  <CarryingCapacity>2.0</CarryingCapacity>
+	</statFactors>
+  </LifeStageDef>
+  
+  <LifeStageDef ParentName="LifeStage_Valkyrie_General_WVC">
+	<defName>LifeStage_DryadMother_Venerable_WVC</defName>
+	<label>18</label>
+	<healthScaleFactor>1.8</healthScaleFactor>
+	<!-- <hungerRateFactor>0.8</hungerRateFactor> -->
+	<meleeDamageFactor>1.75</meleeDamageFactor>
+	<bodySizeFactor>1.8</bodySizeFactor>
+	<foodMaxFactor>4</foodMaxFactor>
+	<statFactors>
+	  <!-- <MoveSpeed>1.2</MoveSpeed> -->
+	  <!-- = -->
+	  <IncomingDamageFactor>0.6</IncomingDamageFactor>
+	  <!-- = -->
+	  <!-- <ArmorRating_Blunt>3.5</ArmorRating_Blunt> -->
+	  <!-- <ArmorRating_Sharp>3.5</ArmorRating_Sharp> -->
+	  <ArmorRating_Heat>0.2</ArmorRating_Heat>
+	  <!-- = -->
+	  <WorkSpeedGlobal>1.3</WorkSpeedGlobal>
+	  <RestRateMultiplier>1.375</RestRateMultiplier>
+	  <InjuryHealingFactor>1.375</InjuryHealingFactor>
+	  <!-- <PainShockThreshold>1.75</PainShockThreshold> -->
+	  <CarryingCapacity>2.5</CarryingCapacity>
+	</statFactors>
+  </LifeStageDef>
+  
+  <LifeStageDef ParentName="LifeStage_Valkyrie_General_WVC">
+	<defName>LifeStage_DryadMother_Royal_WVC</defName>
+	<label>20</label>
+	<healthScaleFactor>2.0</healthScaleFactor>
+	<!-- <hungerRateFactor>0.7</hungerRateFactor> -->
+	<meleeDamageFactor>2.0</meleeDamageFactor>
+	<bodySizeFactor>2.0</bodySizeFactor>
+	<foodMaxFactor>5</foodMaxFactor>
+	<statFactors>
+	  <!-- <MoveSpeed>1.2</MoveSpeed> -->
+	  <!-- = -->
+	  <IncomingDamageFactor>0.4</IncomingDamageFactor>
+	  <!-- = -->
+	  <!-- <ArmorRating_Blunt>5.0</ArmorRating_Blunt> -->
+	  <!-- <ArmorRating_Sharp>5.0</ArmorRating_Sharp> -->
+	  <ArmorRating_Heat>0.0</ArmorRating_Heat>
+	  <!-- = -->
+	  <WorkSpeedGlobal>1.4</WorkSpeedGlobal>
+	  <RestRateMultiplier>1.5</RestRateMultiplier>
+	  <InjuryHealingFactor>1.5</InjuryHealingFactor>
+	  <!-- <PainShockThreshold>2.0</PainShockThreshold> -->
+	  <CarryingCapacity>3.0</CarryingCapacity>
+	</statFactors>
+  </LifeStageDef>
+
+</Defs>

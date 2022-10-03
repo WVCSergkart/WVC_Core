@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MechanoidBuildings_WVC">
+	<defName>ComponentSpawner_WVC</defName>
+	<label>mechanites assembler</label>
+	<description>Underground complex for mechanites replication. Slowly produces mechanites from literally nothing, but requires a lot of energy.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
+	<size>(3,3)</size>
+	<uiIconScale>1.0</uiIconScale>
+	<!-- Floor -->
+	<altitudeLayer>FloorCoverings</altitudeLayer>
+	<blockPlants>true</blockPlants>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<selectable>true</selectable>
+	<useHitPoints>true</useHitPoints>
+	<blocksAltitudes>
+	  <li>FloorCoverings</li>
+	</blocksAltitudes>
+	<building>
+	  <isEdifice>true</isEdifice>
+	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+	</building>
+	<graphicData>
+	  <texPath>WVC/Stuff/ComponentAssembler</texPath>
+	  <graphicClass>Graphic_Random</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+	  <damageData>
+		<rect>(0.15, 0.15, 2.7, 2.7)</rect>
+	  </damageData>
+	</graphicData>
+	<thingCategories>
+	  <li>BuildingsSpecial</li>
+	</thingCategories>
+	<comps>
+	  <!-- <li Class="CompProperties_Breakdownable"/> -->
+	  <li Class="CompProperties_Power">
+		<compClass>CompPowerTrader</compClass>
+		<basePowerConsumption>1200</basePowerConsumption>
+		<transmitsPower>true</transmitsPower>
+	  </li>
+	  <li Class="CompProperties_Flickable"/>
+	  <li Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<!-- <thingToSpawn>VFE_ComponentMechanoid</thingToSpawn> -->
+		<thingToSpawn>WVC_UniversalFuel</thingToSpawn>
+		<spawnCount>75</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>540000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>4</glowRadius>
+		<glowColor>(78, 226, 229, 0)</glowColor>
+	  </li>
+	</comps>
+	<statBases>
+	  <MarketValue>1200</MarketValue>
+	  <MaxHitPoints>1000</MaxHitPoints>
+	  <Beauty>-3</Beauty>
+	  <Mass>165</Mass>
+	</statBases>
+	<killedLeavings>
+	  <ChunkSlagSteel>5</ChunkSlagSteel>
+	</killedLeavings>
+	<costList>
+		<Plasteel>210</Plasteel>
+		<Uranium>33</Uranium>
+		<!-- <ComponentSpacer>7</ComponentSpacer> -->
+		<VFE_ComponentMechanoid>12</VFE_ComponentMechanoid>
+		<!-- <WVC_UniversalFuel>333</WVC_UniversalFuel> -->
+		<VFE_ComponentMechanoid>6</VFE_ComponentMechanoid>
+	</costList>
+	<thingSetMakerTags>
+	  <li>RewardStandardQualitySuper</li>
+	</thingSetMakerTags>
+	<tickerType>Normal</tickerType>
+	<fillPercent>0.2</fillPercent>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<!-- <terrainAffordanceNeeded>Light</terrainAffordanceNeeded> -->
+	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+	<passability>PassThroughOnly</passability>
+	<!-- <passability>Impassable</passability> -->
+	<pathCost>34</pathCost>
+	<rotatable>false</rotatable>
+	<canOverlapZones>false</canOverlapZones>
+	<tradeability>Sellable</tradeability>
+	<tradeTags>
+	  <li>ExoticBuilding</li>
+	</tradeTags>
+	<!-- <designatorDropdown>Valkyries_Replicators_WVC</designatorDropdown> -->
+	<researchPrerequisites Inherit="False">
+		<li>ValkyriesTechs_ReplicatorI_WVC</li>
+	</researchPrerequisites>
+	<designationCategory>Misc</designationCategory>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="ArchotechBuildings_WVC">
+	<defName>ResourceReplicator_WVC</defName>
+	<label>resource replicator</label>
+	<description>The structure is as complex as it is incomprehensible in nature, thanks to mechanites we don't need to know how it works. For the complexity of maintaining this installation is completely at the mercy of these machines.</description>
+	<size>(7,5)</size>
+	<graphicData>
+	  <texPath>WVC/Stuff/Replicator</texPath>
+	  <!-- <color>(214,221,60)</color> -->
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <!-- <shaderType>CutoutComplex</shaderType> -->
+	  <drawSize>7.6</drawSize>
+	  <drawOffset>(0,0,1.2)</drawOffset>
+	  <shadowData>
+		<volume>(0.6, 1, 0.6)</volume>
+	  </shadowData>
+	  <damageData>
+		<rect>(0.4,0.4,1.2,1.2)</rect>
+	  </damageData>
+	</graphicData>
+	<thingCategories>
+	  <li>BuildingsSpecial</li>
+	</thingCategories>
+	<!-- <holdsRoof>true</holdsRoof> -->
+	<building>
+	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	</building>
+	<comps Inherit="False">
+	  <!-- <li Class="CompProperties_Breakdownable"/> -->
+	  <li Class="CompProperties_Flickable"/>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>6</glowRadius>
+		<glowColor>(214,221,60)</glowColor>
+	  </li>
+	  <li Class="CompProperties_Power">
+		<compClass>CompPowerTrader</compClass>
+		<basePowerConsumption>0</basePowerConsumption>
+		<transmitsPower>true</transmitsPower>
+	  </li>
+	</comps>
+	<altitudeLayer>Building</altitudeLayer>
+	<statBases>
+	  <MarketValue>6500</MarketValue>
+	  <MaxHitPoints>5300</MaxHitPoints>
+	  <Beauty>-30</Beauty>
+	  <Mass>320</Mass>
+	</statBases>
+	<killedLeavings>
+	  <ChunkSlagSteel>33</ChunkSlagSteel>
+	</killedLeavings>
+	<costList>
+		<Plasteel>1950</Plasteel>
+		<Uranium>250</Uranium>
+		<WVC_ResourceNodes_Archotech MayRequire="wvc.sergkart.nodes">50</WVC_ResourceNodes_Archotech>
+		<VFE_ComponentMechanoid>30</VFE_ComponentMechanoid>
+		<!-- <VFE_ComponentMechanoid>15</VFE_ComponentMechanoid> -->
+		<VanometricPowerCell>1</VanometricPowerCell>
+	</costList>
+	<!-- <thingSetMakerTags> -->
+	  <!-- <li>RewardStandardHighFreq</li> -->
+	<!-- </thingSetMakerTags> -->
+	<tickerType>Normal</tickerType>
+	<fillPercent>1.0</fillPercent>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<passability>Impassable</passability>
+	<rotatable>false</rotatable>
+	<canOverlapZones>false</canOverlapZones>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<!-- <designatorDropdown>Valkyries_Replicators_WVC</designatorDropdown> -->
+	<researchPrerequisites Inherit="False">
+	  <li>ValkyriesTechs_ReplicatorII_WVC</li>
+	</researchPrerequisites>
+	<designationCategory>Misc</designationCategory>
+	<comps>
+	  <!-- <li Class="WVC.CompProperties_SpawnerItems"> -->
+		<!-- <approxMarketValuePerDay>300</approxMarketValuePerDay> -->
+		<!-- <categories> -->
+		  <!-- <li>WVC_MetalResources_Raw</li> -->
+		<!-- </categories> -->
+		<!-- <spawnInterval>300000</spawnInterval> -->
+	  <!-- </li> -->
+	  <li Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>Steel</thingToSpawn>
+		<spawnCount>50</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>Plasteel</thingToSpawn>
+		<spawnCount>36</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>Uranium</thingToSpawn>
+		<spawnCount>33</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>Jade</thingToSpawn>
+		<spawnCount>80</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>Silver</thingToSpawn>
+		<spawnCount>220</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>Gold</thingToSpawn>
+		<spawnCount>120</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <!-- ===========================Moyo-From the depth=========================== -->
+	  <!-- ===========================Moyo-From the depth=========================== -->
+	  <!-- ===========================Moyo-From the depth=========================== -->
+	  <li MayRequire="nemonian.my"  Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>Moyo_Abyssteel</thingToSpawn>
+		<spawnCount>33</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <!-- ===========================Medieval Overhaul=========================== -->
+	  <!-- ===========================Medieval Overhaul=========================== -->
+	  <!-- ===========================Medieval Overhaul=========================== -->
+	  <li MayRequire="dankpyon.medieval.overhaul" Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>DankPyon_IronIngot</thingToSpawn>
+		<spawnCount>60</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <!-- ===============Expanded Materials - Metals=============== -->
+	  <!-- ===============Expanded Materials - Metals=============== -->
+	  <!-- ===============Expanded Materials - Metals=============== -->
+	  <li MayRequire="argon.vmeu" Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>VMEu_RockPowder</thingToSpawn>
+		<spawnCount>60</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li MayRequire="argon.vmeu" Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>VMEu_Concrete</thingToSpawn>
+		<spawnCount>80</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li MayRequire="argon.vmeu" Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>VMEu_Iron</thingToSpawn>
+		<spawnCount>90</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li MayRequire="argon.vmeu" Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>VMEu_Lead</thingToSpawn>
+		<spawnCount>40</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li MayRequire="argon.vmeu" Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>VMEu_Bronze</thingToSpawn>
+		<spawnCount>42</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li MayRequire="argon.vmeu" Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>VMEu_Tin</thingToSpawn>
+		<spawnCount>25</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li MayRequire="argon.vmeu" Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>VMEu_Copper</thingToSpawn>
+		<spawnCount>69</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li MayRequire="argon.vmeu" Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>VMEu_Tungsten</thingToSpawn>
+		<spawnCount>46</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li MayRequire="argon.vmeu" Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>VMEu_Chromium</thingToSpawn>
+		<spawnCount>44</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li MayRequire="argon.vmeu" Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>VMEu_StainlessSteel</thingToSpawn>
+		<spawnCount>28</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li MayRequire="argon.vmeu" Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>VMEu_Titanium</thingToSpawn>
+		<spawnCount>26</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li MayRequire="argon.vmeu" Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>VMEu_Lithium</thingToSpawn>
+		<spawnCount>47</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li MayRequire="argon.vmeu" Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<thingToSpawn>VMEu_Germanium</thingToSpawn>
+		<spawnCount>35</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>240000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	</comps>
+  </ThingDef>
+  
+</Defs>

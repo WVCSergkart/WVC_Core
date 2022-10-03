@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XmlExtensions.SettingsMenuDef>
+		<defName>Settings_Valkyries_Mutations_WVC</defName>
+		<modId>honkai.girls.sergkart</modId>
+		<settings>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>WVC_Setting_Mutations_MainSwitch</key>
+				<label>Enable mutations</label>
+				<defaultValue>true</defaultValue>
+				<!-- <tooltip>Allows you to install mutated organs on any (humanoid) pawn.</tooltip> -->
+				<tKey>HGS_Setting_Mutations_MainSwitch_Label_WVC</tKey>
+				<!-- <tKeyTip>HGS_Setting_Mutations_MainSwitch_Desc_WVC</tKeyTip> -->
+			</li>
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Settings for unique abilities. Girls can spawn with them or get them over time.\n\nMutations can also be installed as part of the body, with the availability of technology and the appropriate item. The settings below only affect whether mutations will spawn in girls, not their overall appearance in the game.\n(&lt;color=#a2c8ff&gt;kemomimilike&lt;/color&gt;)</text>
+				<tKey>HGS_Humanoids_LegacyBirthday_Desc_WVC</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>SettingKL_BodyPartMutations_Enable_WVC</key>
+				<label>Can mutations be installed?</label>
+				<defaultValue>true</defaultValue>
+				<tooltip>Allows you to install mutated organs on any (humanoid) pawn.</tooltip>
+				<tKey>HGS_SettingKL_BodyPartMutations_Enable_Label_WVC</tKey>
+				<tKeyTip>HGS_SettingKL_BodyPartMutations_Enable_Desc_WVC</tKeyTip>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>AutoPatcher_MutationsCure_Enable_WVC</key>
+				<label>Can mutations be cured?</label>
+				<defaultValue>false</defaultValue>
+				<tooltip>Mutations can be cured with Glitter Medicine and Skill 12.</tooltip>
+				<tKey>HGS_AutoPatcher_MutationsCure_Enable_Label_WVC</tKey>
+				<tKeyTip>HGS_AutoPatcher_MutationsCure_Enable_Desc_WVC</tKeyTip>
+			</li>
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Mutations are divided into 3 types:\n&lt;color=#a2ff64&gt;Green - they are always positive and have no debuffs.&lt;/color&gt;\n&lt;color=#64a2ff&gt;Blue - has both a positive effect and a debuff.&lt;/color&gt;\n&lt;color=#ffa264&gt;Red - Quantitative mutations that cannot be manually selected. Their role is secondary.&lt;/color&gt;\n\nMutations:</text>
+				<tKey>HGS_Humanoids_LegacyBirthday_Desc2_WVC</tKey>
+			</li>
+			<!-- &lt;color=#ffc832&gt; - open -->
+			<!-- &lt;/color&gt; - close -->
+			<li Class="XmlExtensions.Setting.SplitColumns">
+				<drawLine>true</drawLine>
+				<splits>
+					<li>0.33</li>
+					<li>0.33</li>
+					<li>0.33</li>
+				</splits>
+				<settings>
+					<!-- ============================================== -->
+					<li WVC_MutationType="WVC_HediffMutation_Good">
+						<li Class="XmlExtensions.Setting.SetColor">
+							<color>(162,255,100)</color>
+						</li>
+					</li>
+					<!-- ============================================== -->
+					<li WVC_MutationType="WVC_HediffMutation_Neutral">
+						<li Class="XmlExtensions.Setting.SetColor">
+							<color>(100,162,255)</color>
+						</li>
+					</li>
+					<!-- ============================================== -->
+					<li>
+						<li Class="XmlExtensions.Setting.SetColor">
+							<color>(255,162,100)</color>
+						</li>
+						<li Class="XmlExtensions.Setting.Checkbox">
+							<key>Mutations_HediffGiverSet_SuperPowersAbilities_WVC</key>
+							<label>Mutations with abilities</label>
+							<defaultValue>true</defaultValue>
+							<tooltip>Adds a chance for mutations that grant a bonus to consciousness, psi sensitivity and one psycast. Not related to the list below.</tooltip>
+							<tKey>HGS_Humanlike_HediffGiverSet_SuperPowersAbilities_Label_WVC</tKey>
+							<tKeyTip>HGS_Humanlike_HediffGiverSet_SuperPowersAbilities_Desc_WVC</tKeyTip>
+						</li>
+						<li Class="XmlExtensions.Setting.Checkbox">
+							<key>Mutations_HediffGiverSet_VFEI_WVC</key>
+							<label>Mutations VFEI</label>
+							<defaultValue>true</defaultValue>
+							<tooltip>Adds a chance for mutations of the "VFE - Insectoids" mod.</tooltip>
+							<tKey>HGS_Humanlike_HediffGiverSet_VFEI_Label_WVC</tKey>
+							<tKeyTip>HGS_Humanlike_HediffGiverSet_VFEI_Desc_WVC</tKeyTip>
+						</li>
+					</li>
+					<!-- ============================================== -->
+				</settings>
+			</li>
+			<li Class="XmlExtensions.Setting.SetColor">
+				<color>(255,255,255)</color>
+			</li>
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+</Defs>

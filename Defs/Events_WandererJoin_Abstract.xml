@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<IncidentDef Name="IncidentMonsterGirl_WVC" Abstract="True">
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>IncidentWorker_WandererJoin</workerClass>
+		<letterText>This cute monster girl came to the settlement and ate all the sweet rolls and doesn't seem to be going away. You can kill her if you don't have a heart.</letterText>
+		<baseChance>1</baseChance>
+		<populationEffect>IncreaseEasy</populationEffect>
+		<pawnKind>Cat</pawnKind>
+		<minRefireDays>180</minRefireDays>
+	</IncidentDef>
+
+</Defs>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XmlExtensions.SettingsMenuDef>
+		<defName>Settings_Humanoids_ELFsSkins_WVC</defName>
+		<modId>honkai.girls.sergkart</modId>
+		<settings>
+
+			<!-- ================================================================= -->
+
+			<li Class="XmlExtensions.Setting.GapLine"/>
+			<li Class="XmlExtensions.Setting.SplitColumns">
+				<tag>ELF_SkinSelector</tag>
+				<gapSize>8</gapSize>
+				<drawLine>true</drawLine>
+				<splits>
+					<li>0.33</li>
+					<li>0.33</li>
+					<li>0.33</li>
+				</splits>
+				<settings>
+					<li WVC_Tag="ELF_SkinSelector_1">
+					</li>
+					<li WVC_Tag="ELF_SkinSelector_3">
+					</li>
+					<li WVC_Tag="ELF_SkinSelector_2">
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================================================================= -->
+
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+</Defs>

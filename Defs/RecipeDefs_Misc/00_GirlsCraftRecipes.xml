@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WorkTypeDef>
+	<defName>Valkyries_Work_WVC</defName>
+	<labelShort>Ultra</labelShort>
+	<pawnLabel>complex work</pawnLabel>
+	<gerundLabel>complex crafting</gerundLabel>
+	<description>Do complex work on ultra workbenches. This job may require a very high skill level.</description>
+	<verb>work</verb>
+	<naturalPriority>1</naturalPriority>
+	<alwaysStartActive>true</alwaysStartActive>
+	<requireCapableColonist>true</requireCapableColonist>
+	<relevantSkills>
+	  <li>Medicine</li>
+	  <li>Crafting</li>
+	  <li>Intellectual</li>
+	</relevantSkills>
+	<workTags>
+	  <!-- <li>Crafting</li> -->
+	  <li>Intellectual</li>
+	  <li>AllWork</li>
+	</workTags>
+  </WorkTypeDef>
+
+  <!-- ======================================================================= -->
+
+  <WorkGiverDef Name="WVC_WorkGiver_Base" Abstract="True">
+	<label>work at crafter</label>
+	<giverClass>WorkGiver_DoBill</giverClass>
+	<workType>Valkyries_Work_WVC</workType>
+	<priorityInType>10</priorityInType>
+	<fixedBillGiverDefs>
+	  <!-- <li>DefaultWorkSpot_WVC</li> -->
+	</fixedBillGiverDefs>
+	<workTags>
+	  <li>Intellectual</li>
+	</workTags>
+	<verb>work</verb>
+	<gerund>working at</gerund>
+	<requiredCapacities>
+	  <li>Manipulation</li>
+	</requiredCapacities>
+	<prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+  <WorkGiverDef ParentName="WVC_WorkGiver_Base">
+	<defName>DoBillsGirlyWorkbenchWVC</defName>
+	<label>work at mechaniser</label>
+	<priorityInType>10</priorityInType>
+	<fixedBillGiverDefs>
+	  <li>DefaultWorkSpot_WVC</li>
+	  <li MayRequire="wvc.sergkart.nodes">WVC_Node_MechaniteCrafter_Violet</li>
+	</fixedBillGiverDefs>
+  </WorkGiverDef>
+
+  <WorkGiverDef MayRequire="wvc.sergkart.nodes" ParentName="WVC_WorkGiver_Base">
+	<defName>WVC_NodeCrafterWork</defName>
+	<label>work at node-hybridizer</label>
+	<priorityInType>80</priorityInType>
+	<fixedBillGiverDefs>
+	  <li>WVC_NodeCraftingBench</li>
+	</fixedBillGiverDefs>
+	<workTags>
+	  <li>Crafting</li>
+	</workTags>
+  </WorkGiverDef>
+
+  <WorkGiverDef ParentName="WVC_WorkGiver_Base">
+	<defName>WVC_AdvancedCrafterWork</defName>
+	<label>work at mecha-hybridizer</label>
+	<priorityInType>90</priorityInType>
+	<fixedBillGiverDefs>
+	  <li>WVC_AdvancedCraftingBench</li>
+	</fixedBillGiverDefs>
+	<workTags>
+	  <li>Crafting</li>
+	</workTags>
+  </WorkGiverDef>
+
+  <WorkGiverDef ParentName="WVC_WorkGiver_Base">
+	<defName>WVC_BodyPartsCraftingWork</defName>
+	<label>work at implanter</label>
+	<priorityInType>100</priorityInType>
+	<fixedBillGiverDefs>
+	  <li>WVC_AncientCraftingBench</li>
+	</fixedBillGiverDefs>
+	<workTags>
+	  <li>Caring</li>
+	  <li>Crafting</li>
+	</workTags>
+  </WorkGiverDef>
+
+  <!-- ======================================================================= -->
+
+  <RecipeDef Name="GirlyWorkRecipeAbstract_WVC" Abstract="True">
+	<label>recycle</label>
+	<description>Recycle something useless into something useful.</description>
+	<jobString>Recycling.</jobString>
+	<workAmount>2000</workAmount>
+	<workSpeedStat>MechaniteCrafter_WorkSpeed_WVC</workSpeedStat>
+	<workTableEfficiencyStat>MechaniteCrafter_Efficiency_WVC</workTableEfficiencyStat>
+	<!-- <workTableSpeedStat>Intellectual</workTableSpeedStat> -->
+	<effectWorking>Cook</effectWorking>
+	<soundWorking>Recipe_Machining</soundWorking>
+	<recipeUsers>
+	  <li>DefaultWorkSpot_WVC</li>
+	  <li MayRequire="wvc.sergkart.nodes">WVC_Node_MechaniteCrafter_Violet</li>
+	</recipeUsers>
+	<!-- <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef> -->
+	<workSkill>Intellectual</workSkill>
+	<workSkillLearnFactor>2</workSkillLearnFactor>
+	<fixedIngredientFilter>
+	  <disallowedThingDefs>
+		<!-- <li>VFE_ComponentMechanoid</li> -->
+		<li MayRequire="vanillaexpanded.ideo.dryads">WVC_CapsuleILF</li>
+		<li>WVC_UniversalFuel</li>
+		<!-- <li>Apparel_GirlyUnderwear_WVC</li> -->
+	  </disallowedThingDefs>
+	</fixedIngredientFilter>
+  </RecipeDef>
+
+  <!-- ======================================================================= -->
+
+  <RecipeDef ParentName="GirlyWorkRecipeAbstract_WVC" Name="WVC_MakeComponents_Base" Abstract="True">
+	<label>Make components</label>
+	<jobString>transforming mechanites.</jobString>
+	<effectWorking>Tailor</effectWorking>
+	<workAmount>5000</workAmount>
+	<recipeUsers Inherit="False">
+	  <li>WVC_AdvancedCraftingBench</li>
+	</recipeUsers>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>WVC_UniversalFuel</li>
+		  </thingDefs>
+		</filter>
+		<count>110</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <disallowedThingDefs Inherit="False">
+	  </disallowedThingDefs>
+	</fixedIngredientFilter>
+	<!-- <products> -->
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+	  <!-- <ComponentIndustrial>6</ComponentIndustrial> -->
+	<!-- </products> -->
+  </RecipeDef>
+
+  <RecipeDef ParentName="WVC_MakeComponents_Base">
+	<defName>WVC_MakeComponents_Industrial</defName>
+	<label>Make components</label>
+	<products>
+	  <ComponentIndustrial>10</ComponentIndustrial>
+	</products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="WVC_MakeComponents_Base">
+	<defName>WVC_MakeComponents_Spacer</defName>
+	<label>Make advanced components</label>
+	<products>
+	  <ComponentSpacer>5</ComponentSpacer>
+	</products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="WVC_MakeComponents_Base">
+	<defName>WVC_MakeComponents_Ultra</defName>
+	<label>Make mechanoid components</label>
+	<products>
+	  <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+	</products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="WVC_MakeComponents_Base">
+	<defName>WVC_MakeMedicineMechanite</defName>
+	<label>Make medicine</label>
+	<recipeUsers Inherit="False">
+	  <li>WVC_AncientCraftingBench</li>
+	</recipeUsers>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>VFE_ComponentMechanoid</li>
+		  </thingDefs>
+		</filter>
+		<count>1</count>
+	  </li>
+	</ingredients>
+	<products>
+	  <WVC_MedicineMechanite>2</WVC_MedicineMechanite>
+	</products>
+  </RecipeDef>
+
+  <!-- <RecipeDef ParentName="WVC_MakeComponents_Base"> -->
+	<!-- <defName>WVC_DisassembleNaniteforge</defName> -->
+	<!-- <label>Disassemble naniteforge</label> -->
+	<!-- <ingredients Inherit="False"> -->
+	  <!-- <li> -->
+		<!-- <filter> -->
+		  <!-- <thingDefs> -->
+			<!-- <li>Apparel_GirlyUnderwear_WVC</li> -->
+		  <!-- </thingDefs> -->
+		<!-- </filter> -->
+		<!-- <count>1</count> -->
+	  <!-- </li> -->
+	<!-- </ingredients> -->
+	<!-- <products> -->
+	  <!-- <WVC_UniversalFuel>220</WVC_UniversalFuel> -->
+	<!-- </products> -->
+  <!-- </RecipeDef> -->
+
+  <!-- ======================================================================= -->
+
+  <!-- <RecipeDef ParentName="GirlyWorkRecipeAbstract_WVC"> -->
+	<!-- <defName>Make_FromComponents_MechaniteBelt_WVC</defName> -->
+	<!-- <label>recycle naniteforge</label> -->
+	<!-- <jobString>recycling naniteforge.</jobString> -->
+	<!-- <effectWorking>Tailor</effectWorking> -->
+	<!-- <workAmount>2500</workAmount> -->
+	<!-- <ingredients> -->
+	  <!-- <li> -->
+		<!-- <filter> -->
+		  <!-- <thingDefs> -->
+			<!-- <li>Apparel_GirlyUnderwear_WVC</li> -->
+		  <!-- </thingDefs> -->
+		<!-- </filter> -->
+		<!-- <count>1</count> -->
+	  <!-- </li> -->
+	<!-- </ingredients> -->
+	<!-- <products> -->
+	  <!-- <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid> -->
+	  <!-- <ComponentSpacer>2</ComponentSpacer> -->
+	  <!-- <ComponentIndustrial>2</ComponentIndustrial> -->
+	<!-- </products> -->
+  <!-- </RecipeDef> -->
+
+  <!-- ======================================================================= -->
+
+  <RecipeDef ParentName="GirlyWorkRecipeAbstract_WVC">
+	<defName>Recycle_Something_HG_WVC</defName>
+	<label>recycle stuff</label>
+	<uiIconThing>WVC_UniversalFuel</uiIconThing>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<workTableEfficiencyStat>MechaniteCrafter_Efficiency_RecycleStuff_WVC</workTableEfficiencyStat>
+	<description>Recycle something useless into something useful.\n\nThe maximum efficiency of this recipe is 0.5 (50%).</description>
+	<specialProducts>
+	  <li>Smelted</li>
+	  <li>Butchery</li>
+	</specialProducts>
+	<products>
+	  <WVC_UniversalFuel>9</WVC_UniversalFuel>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	  <!-- <WVC_UniversalFuel>6</WVC_UniversalFuel> -->
+	</products>
+	<ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>Apparel</li>
+			<li>Weapons</li>
+			<li>Corpses</li>
+			<li>StoneChunks</li>
+		  </categories>
+		  <thingDefs>
+			<li>ChunkSlagSteel</li>
+		  </thingDefs>
+		</filter>
+		<count>1</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>Apparel</li>
+		<li>Weapons</li>
+		<li>Corpses</li>
+		<li>StoneChunks</li>
+	  </categories>
+	  <thingDefs>
+		<li>ChunkSlagSteel</li>
+	  </thingDefs>
+	  <!-- <specialFiltersToDisallow> -->
+		<!-- <li>AllowNonSmeltableWeapons</li> -->
+	  <!-- </specialFiltersToDisallow> -->
+	  <disallowedCategories>
+		<li MayRequire="honkai.girls.sergkart">ValkyriesWeapon_WVC</li>
+		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_Hides</li>
+		<li>Foods</li>
+		<!-- <li>PlantMatter</li> -->
+		<!-- <li>Leathers</li> -->
+		<!-- <li>Textiles</li> -->
+		<!-- <li>Wools</li> -->
+		<li>ResourcesRaw</li>
+		<li>Items</li>
+		<li>Manufactured</li>
+	  </disallowedCategories>
+	</fixedIngredientFilter>
+  </RecipeDef>
+
+  <!-- ======================================================================= -->
+
+  <RecipeDef ParentName="GirlyWorkRecipeAbstract_WVC">
+	<defName>Make_componentsFromFoodX10_HG_WVC</defName>
+	<label>recycle organics</label>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+	<uiIconThing>WVC_UniversalFuel</uiIconThing>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>Foods</li>
+		<li>PlantMatter</li>
+	  </categories>
+	</fixedIngredientFilter>
+	<ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>Foods</li>
+			<li>PlantMatter</li>
+		  </categories>
+		</filter>
+		<count>5</count>
+	  </li>
+	</ingredients>
+	<products>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	  <!-- <WVC_MedicineMechanite>1</WVC_MedicineMechanite> -->
+	  <WVC_UniversalFuel>14</WVC_UniversalFuel>
+	</products>
+  </RecipeDef>
+
+  <!-- ======================================================================= -->
+
+  <RecipeDef ParentName="GirlyWorkRecipeAbstract_WVC">
+	<defName>Disposal_craftMaterial_WVC</defName>
+	<label>recycle materials</label>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<targetCountAdjustment>45</targetCountAdjustment>
+	<uiIconThing>WVC_UniversalFuel</uiIconThing>
+	<ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>Leathers</li>
+			<li>Textiles</li>
+			<li>Wools</li>
+			<li>ResourcesRaw</li>
+		  </categories>
+		</filter>
+		<count>45</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>Leathers</li>
+		<li>Textiles</li>
+		<li>Wools</li>
+		<li>ResourcesRaw</li>
+	  </categories>
+	  <disallowedCategories>
+		<li>PlantMatter</li>
+		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_Hides</li>
+	  </disallowedCategories>
+	</fixedIngredientFilter>
+	<products>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	  <!-- <WVC_UniversalFuel>5</WVC_UniversalFuel> -->
+	  <WVC_UniversalFuel>14</WVC_UniversalFuel>
+	  <!-- <WVC_MedicineMechanite>1</WVC_MedicineMechanite> -->
+	</products>
+  </RecipeDef>
+
+  <!-- ======================================================================= -->
+
+  <RecipeDef ParentName="GirlyWorkRecipeAbstract_WVC">
+	<defName>WVC_RecycleRecipe_Manufactured</defName>
+	<label>recycle manufactured</label>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<targetCountAdjustment>14</targetCountAdjustment>
+	<uiIconThing>WVC_UniversalFuel</uiIconThing>
+	<ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>Medicine</li>
+			<li>MortarShells</li>
+			<li>Drugs</li>
+			<li MayRequire="wvc.sergkart.nodes">WVC_ResourceNodes</li>
+			<li>WVC_ManufacturedComponents</li>
+		  </categories>
+		  <thingDefs>
+			<!-- <li>VFE_ComponentMechanoid</li> -->
+			<!-- <li>ComponentSpacer</li> -->
+			<!-- <li>ComponentIndustrial</li> -->
+		  </thingDefs>
+		</filter>
+		<count>14</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>Medicine</li>
+		<li>MortarShells</li>
+		<li>Drugs</li>
+		<li MayRequire="wvc.sergkart.nodes">WVC_ResourceNodes</li>
+		<li>WVC_ManufacturedComponents</li>
+	  </categories>
+	  <thingDefs>
+		<!-- <li>VFE_ComponentMechanoid</li> -->
+		<!-- <li>ComponentSpacer</li> -->
+		<!-- <li>ComponentIndustrial</li> -->
+		<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_Hides</li> -->
+	  </thingDefs>
+	  <disallowedCategories>
+		<!-- <li>PlantMatter</li> -->
+		<!-- <li>Textiles</li> -->
+		<!-- <li>Wools</li> -->
+		<!-- <li>ResourcesRaw</li> -->
+		<!-- <li>Leathers</li> -->
+		<!-- <li>Foods</li> -->
+		<!-- <li>Apparel</li> -->
+		<!-- <li>Weapons</li> -->
+		<!-- <li>Corpses</li> -->
+		<!-- <li>StoneChunks</li> -->
+	  </disallowedCategories>
+	</fixedIngredientFilter>
+	<products>
+	  <WVC_UniversalFuel>11</WVC_UniversalFuel>
+	</products>
+  </RecipeDef>
+
+  <!-- ======================================================================= -->
+  
+  <RecipeDef MayRequire="honkai.girls.sergkart" ParentName="GirlyWorkRecipeAbstract_WVC">
+	<defName>WVC_Recraft_ExoticWeaponComponents</defName>
+	<label>recraft</label>
+	<description>Refining ancient weapons to obtain rare components.</description>
+	<jobString>recrafting.</jobString>
+	<effectWorking>Tailor</effectWorking>
+	<workAmount>50000</workAmount>
+	<ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>ValkyriesWeapon_WVC</li>
+		  </categories>
+		</filter>
+		<count>1</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>ValkyriesWeapon_WVC</li>
+	  </categories>
+	</fixedIngredientFilter>
+	<products>
+	  <WVC_ExoticWeaponComponents>1</WVC_ExoticWeaponComponents>
+	</products>
+  </RecipeDef>
+
+</Defs>

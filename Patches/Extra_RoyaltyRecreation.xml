@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>honkai.girls.sergkart</modId>
+		<key>ExtraSetting_BuildableRoyaltyMusicalInstruments_WVC</key>
+		<defaultValue>false</defaultValue>
+		<caseTrue>
+			<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+			  <xpath>/Defs/ThingDef[@ParentName="MusicalInstrumentBase"]</xpath>
+			  <value>
+				<designationCategory>Joy</designationCategory>
+			  </value>
+			</Operation>
+		</caseTrue>
+		<caseFalse>
+		</caseFalse>
+	</Operation>
+</Patch>

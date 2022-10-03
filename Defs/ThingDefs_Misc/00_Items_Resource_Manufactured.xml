@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="WVC_UltraComponents_Base" ParentName="ResourceBase">
+	<!-- <defName>VFE_ComponentMechanoid</defName> -->
+	<defName>VFE_ComponentMechanoid</defName>
+	<label>mechanoid component</label>
+	<description>Very advanced processors and nano-calculators most often used in creation of mechanoid-tech on urbworld mechanoid swarm foundries.</description>
+	<techLevel>Ultra</techLevel>
+	<uiIconScale>1.0</uiIconScale>
+	<graphicData>
+	  <texPath>Things/Item/Resource/VFE_ComponentMechanoid</texPath>
+	  <graphicClass>Graphic_Random</graphicClass>
+	</graphicData>
+	<soundInteract>Metal_Drop</soundInteract>
+	<soundDrop>Standard_Drop</soundDrop>
+	<stackLimit>50</stackLimit>
+	<healthAffectsPrice>false</healthAffectsPrice>
+	<statBases>
+	  <MaxHitPoints>140</MaxHitPoints>
+	  <MarketValue>350</MarketValue>
+	  <Mass>0.8</Mass>
+	  <Flammability>0.2</Flammability>
+	  <DeteriorationRate>2.0</DeteriorationRate>
+	  <Bulk MayRequire="ceteam.combatextended">0.5</Bulk>
+	</statBases>
+	<intricate>true</intricate>
+	<thingCategories>
+	  <li>Manufactured</li>
+	</thingCategories>
+	<tradeTags>
+	  <li>ExoticMisc</li>
+	</tradeTags>
+	<thingSetMakerTags>
+		<li>RewardStandardLowFreq</li>
+	</thingSetMakerTags>
+  </ThingDef>
+
+  <ThingDef MayRequire="honkai.girls.sergkart" ParentName="WVC_UltraComponents_Base">
+	<defName>WVC_ExoticWeaponComponents</defName>
+	<label>exotic weapon blank</label>
+	<description>Very advanced components for equally advanced weapon.</description>
+	<graphicData>
+	  <texPath>WVC/Stuff/WeaponComponents</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.1</drawSize>
+	</graphicData>
+	<thingCategories Inherit="False">
+	  <li>Manufactured</li>
+	</thingCategories>
+	<stackLimit>5</stackLimit>
+	<statBases>
+	  <MaxHitPoints>210</MaxHitPoints>
+	  <MarketValue>2450</MarketValue>
+	</statBases>
+  </ThingDef>
+
+  <!-- ================================================================= -->
+
+  <ThingDef ParentName="ResourceBase">
+	<defName>WVC_UniversalFuel</defName>
+	<label>mechanites</label>
+	<description>Clustered mechanites that can be used as a general purpose fuel. Suitable for eating.</description>
+	<descriptionHyperlinks>
+	  <ConceptDef>WVC_MechanitesIsUniversalFuel</ConceptDef>
+	</descriptionHyperlinks>
+	<!-- <tickerType>Normal</tickerType> -->
+	<techLevel>Ultra</techLevel>
+	<graphicData>
+	  <texPath>WVC/Stuff/UniversalFuel</texPath>
+	  <graphicClass>Graphic_StackCount</graphicClass>
+	  <drawSize>1.2</drawSize>
+	</graphicData>
+	<stackLimit>500</stackLimit>
+	<healthAffectsPrice>false</healthAffectsPrice>
+	<socialPropernessMatters>true</socialPropernessMatters>
+	<!-- <smallVolume>true</smallVolume> -->
+	<statBases>
+	  <MaxHitPoints>50</MaxHitPoints>
+	  <MarketValue>0.7</MarketValue>
+	  <Mass>0.005</Mass>
+	  <Flammability>0.0</Flammability>
+	  <DeteriorationRate>0.0</DeteriorationRate>
+	  <Nutrition>0.06</Nutrition>
+	  <Bulk MayRequire="ceteam.combatextended">0.2</Bulk>
+	</statBases>
+	<intricate>true</intricate>
+	<thingCategories>
+	  <li>Manufactured</li>
+	  <li>FoodMeals</li>
+	  <!-- <li>ResourcesRaw</li> -->
+	</thingCategories>
+	<ingestible>
+	  <preferability>MealAwful</preferability>
+	  <foodType>Processed</foodType>
+	  <ateEvent>AteNutrientPaste</ateEvent>
+	  <ingestEffect>EatVegetarian</ingestEffect>
+	  <ingestSound>Meal_Eat</ingestSound>
+	  <!-- <outcomeDoers> -->
+		<!-- <li Class="IngestionOutcomeDoer_GiveHediff"> -->
+		  <!-- <hediffDef>WVC_MechanitesEaten_Rest</hediffDef> -->
+		  <!-- <severity>0.06</severity> -->
+		<!-- </li> -->
+		<!-- <li MayRequire="ahndemi.panieltheautomata" Class="IngestionOutcomeDoer_GiveHediff"> -->
+		  <!-- <hediffDef>WVC_MechanitesEaten_PN_Need_Fuel</hediffDef> -->
+		  <!-- <severity>0.05</severity> -->
+		<!-- </li> -->
+		<!-- <li MayRequire="ahndemi.panieltheautomata" Class="IngestionOutcomeDoer_GiveHediff"> -->
+		  <!-- <hediffDef>WVC_MechanitesEaten_PN_Need_Maintenance</hediffDef> -->
+		  <!-- <severity>0.02</severity> -->
+		<!-- </li> -->
+	  <!-- </outcomeDoers> -->
+	</ingestible>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>2</glowRadius>
+		<glowColor>(78, 226, 229, 0)</glowColor>
+	  </li>
+	</comps>
+	<allowedArchonexusCount>500</allowedArchonexusCount>
+  </ThingDef>
+
+  <!-- ================================================================= -->
+
+  <ThingDef ParentName="MedicineBase">
+	<defName>WVC_MedicineMechanite</defName>
+	<label>mechanite medicine</label>
+	<description>A kit of mechanite medical supplies, is a by-product of the mechanite crafter. It contains multi-directional mechanites with a device to control them, the effectiveness is almost equal to similar ultra-tech medicine.</description>
+	<descriptionHyperlinks>
+	  <ConceptDef>WVC_MedicineMechanite_BionicELF</ConceptDef>
+	</descriptionHyperlinks>
+	<graphicData>
+	  <texPath>WVC/Stuff/MedicineUltratech</texPath>
+	  <graphicClass>Graphic_StackCount</graphicClass>
+	  <drawSize>0.85</drawSize>
+	</graphicData>
+	<techLevel>Ultra</techLevel>
+	<statBases>
+	  <MarketValue>75</MarketValue>
+	  <Mass>0.50</Mass>
+	  <Flammability>0.0</Flammability>
+	  <MedicalPotency>1.50</MedicalPotency>
+	  <MedicalQualityMax>1.30</MedicalQualityMax>
+	  <DeteriorationRate>0.2</DeteriorationRate>
+	</statBases>
+	<tradeTags>
+	  <li>ExoticMisc</li>
+	</tradeTags>
+	<thingSetMakerTags>
+		<li>RewardStandardLowFreq</li>
+	</thingSetMakerTags>
+	<allowedArchonexusCount>5</allowedArchonexusCount>
+  </ThingDef>
+
+  <!-- ================================================================= -->
+
+  <ThingDef MayRequire="honkai.girls.sergkart" ParentName="ResourceBase">
+	<defName>VFEI_ValkyrieGenome_WVC</defName>
+	<!-- <label>valkyrie genetic material</label> -->
+	<label>living form genome</label>
+	<description>Genetic material of several different species, mixed into one payload of DNA.</description>
+	<descriptionHyperlinks>
+	  <ConceptDef>WVC_LivingFormGenome</ConceptDef>
+	</descriptionHyperlinks>
+	<graphicData>
+	  <texPath>Things/Item/GenomeIcons/VFEI_ValkyrieGenome_WVC</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>Standard_Drop</soundInteract>
+	<soundDrop>Standard_Drop</soundDrop>
+	<statBases>
+	  <MaxHitPoints>15</MaxHitPoints>
+	  <MarketValue>300</MarketValue>
+	  <Mass>0.10</Mass>
+	  <Flammability>0.0</Flammability>
+	  <DeteriorationRate>6</DeteriorationRate>
+	  <RoyalFavorValue MayRequire="ludeon.rimworld.royalty">1</RoyalFavorValue>
+	</statBases>
+	<thingCategories>
+	  <li>Manufactured</li>
+	</thingCategories>
+	<tickerType>Never</tickerType>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>2</glowRadius>
+		<glowColor>(78, 226, 229, 0)</glowColor>
+	  </li>
+	</comps>
+  </ThingDef>
+
+</Defs>

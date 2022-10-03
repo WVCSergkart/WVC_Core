@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XmlExtensions.SettingsMenuDef>
+		<defName>Settings_Humanoids_SkinsDescs_WVC</defName>
+		<modId>honkai.girls.sergkart</modId>
+		<settings>
+			<li Class="XmlExtensions.Setting.Gap"/>
+			<li Class="XmlExtensions.Setting.GapLine" />
+
+			<!--=====================================================================-->
+
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Skin selection settings. All are enabled by default.\n\n- Do not affect existing girls\n- Only affect humanoids\n- After enabling, a reboot is required for the list to appear</text>
+				<tKey>HGS_Humanoids_SkinSelectorTab_WVC</tKey>
+			</li>
+
+			<!--=====================================================================-->
+
+			<li Class="XmlExtensions.Setting.Gap" />
+			<li Class="XmlExtensions.Setting.SetColor">
+				<color>(50,255,0)</color>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>Valkyries_SkinSelector_MainSwitch_WVC</key>
+				<label>Enable skin selector</label>
+				<defaultValue>false</defaultValue>
+				<tooltip>After enabling, a reboot is required for the list to appear.</tooltip>
+				<tKey>HGS_Humanoids_SkinSelector_Checker_WVC</tKey>
+				<tKeyTip>HGS_Global_AutoPatcherSettings_Desc_WVC</tKeyTip>
+			</li>
+			<li Class="XmlExtensions.Setting.SetColor"/>
+			<li Class="XmlExtensions.Setting.GapLine" />
+
+			<!--=====================================================================-->
+
+			<li Class="XmlExtensions.Setting.TabView">
+				<tabs>
+					<li>
+						<label>Default</label>
+						<settings>
+							<li Class="XmlExtensions.Setting.EmbedMenu">
+								<menu>Settings_Humanoids_Skins_WVC</menu>
+							</li>
+						</settings>
+					</li>
+					<li>
+						<label>Image</label>
+						<settings>
+							<li Class="XmlExtensions.Setting.EmbedMenu">
+								<menu>Settings_Humanoids_SkinsWithImage_WVC</menu>
+							</li>
+						</settings>
+					</li>
+					<li>
+						<label>ELFs</label>
+						<settings>
+							<li Class="XmlExtensions.Setting.EmbedMenu">
+								<menu>Settings_Humanoids_ELFsSkins_WVC</menu>
+							</li>
+						</settings>
+					</li>
+				</tabs>
+			</li>
+
+			<!--=====================================================================-->
+
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+</Defs>

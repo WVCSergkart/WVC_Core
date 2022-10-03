@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseBullet">
+	<defName>Projectile_RangeSlash_WVC</defName>
+	<label>slash</label>
+	<graphicData>
+	  <texPath>WVC/projectile/Projectile_SlashInvisible</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+	  <drawSize>2</drawSize>
+	</graphicData>
+	<projectile>
+	  <damageDef>Bullet</damageDef>
+	  <damageAmountBase>20</damageAmountBase>
+	  <stoppingPower>1.5</stoppingPower>
+	  <speed>50</speed>
+	</projectile>
+  </ThingDef>
+  
+</Defs>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XmlExtensions.SettingsMenuDef>
+		<defName>Settings_BodyParts_WVC</defName>
+		<modId>honkai.girls.sergkart</modId>
+		<settings>
+			<li Class="XmlExtensions.Setting.Gap"/>
+			<li Class="XmlExtensions.Setting.GapLine" />
+
+			<!-- ================================================================= -->
+
+			<li Class="XmlExtensions.Setting.Text">
+				<text>The mod has several options for body parts that can be obtained as a reward or crafted. Cybernetic and experimental bionics are optional, ancient and mechanoid parts are recommended.\n\n*At the moment, the body parts are in development and lack descriptions, otherwise they are playable and do not cause bugs.*</text>
+				<tKey>HGS_Implants_MainInfo_WVC</tKey>
+			</li>
+
+			<!-- ================================================================= -->
+
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>WVC_EnableImplants_TortureBodyParts</key>
+				<label>Enable torture body parts</label>
+				<defaultValue>false</defaultValue>
+				<tKey>HGS_WVC_EnableImplants_TortureBodyParts_Label</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>WVC_EnableImplants_AdvancedBionicBodyParts</key>
+				<label>Enable experimental bionic body parts</label>
+				<defaultValue>false</defaultValue>
+				<tKey>HGS_WVC_EnableImplants_AdvancedBionicBodyParts_Label</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>WVC_EnableImplants_CyberneticBodyParts</key>
+				<label>Enable cybernetic body parts</label>
+				<defaultValue>false</defaultValue>
+				<tKey>HGS_WVC_EnableImplants_CyberneticBodyParts_Label</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>WVC_EnableImplants_AncientBodyParts</key>
+				<label>Enable ancient body parts</label>
+				<defaultValue>true</defaultValue>
+				<tKey>HGS_WVC_EnableImplants_AncientBodyParts_Label</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>WVC_EnableImplants_MechanoidBodyParts</key>
+				<label>Enable mechanoid body parts</label>
+				<defaultValue>true</defaultValue>
+				<tKey>HGS_WVC_EnableImplants_MechanoidBodyParts_Label</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>WVC_EnableImplants_NodeBodyParts</key>
+				<label>Enable node body parts</label>
+				<defaultValue>true</defaultValue>
+				<tKey>HGS_WVC_EnableImplants_NodeBodyParts_Label</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>WVC_AutoBodyPartsGenerator_GlobalVersion</key>
+				<label>Enable Auto Body Parts Generator (Experimantal)</label>
+				<tooltip>When activated, the autopatcher will create all sorts of organ replacements with parameters 100 (Bionic), 120 (Advanced), 130 (Cybernetic), 140 (Ultra) and 150 (Archotech). All of these parts will be sold by special orbital merchants or found in the world. These parts cannot be crafted.\n\nQ: How does the patch work?\nA: The patch checks all possible body parts, ignoring those that are considered brain, are indestructible and unusable. After that, a standard set is created: an item, a recipe and a hediff. After that, there is a check for "bodies" that is, for objects such as "torso" or "snake body" since the game considers them the same as fingers, they need to be sifted separately.\n\nQ: Why not add craft for body parts?\nA: The patch creates ON ALL possible body parts 5 of different implant efficiency. With a lot of mods, body parts will go over 200+, respectively, this will be 1000+ recipes that will be VERY difficult to navigate.\n\nAll these implants will be found on pawns, at merchants (including caravans), sometimes they will be given for quests. All of these implants can be removed and have a unique (white) color.</tooltip>
+				<defaultValue>false</defaultValue>
+				<tKey>HGS_WVC_AutoBodyPartsGenerator_GlobalVersion</tKey>
+				<tKeyTip>WVC_AutoBodyPartsGenerator_GlobalVersion_Desc</tKeyTip>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>WVC_BodyPartsGenerator_II_TEST</key>
+				<label>Enable test body part generator (only for tests)</label>
+				<defaultValue>false</defaultValue>
+				<tKey>HGS_WVC_AutoBodyPartsGenerator_GlobalVersion</tKey>
+			</li>
+
+			<!-- ================================================================= -->
+
+			<li Class="XmlExtensions.Setting.GapLine"/>
+			<li Class="XmlExtensions.Setting.EmbedMenu">
+				<menu>Settings_Valkyries_Mutations_WVC</menu>
+			</li>
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+</Defs>

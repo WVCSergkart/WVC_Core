@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XmlExtensions.SettingsMenuDef>
+		<defName>Settings_Humanoids_RoyalDryads_WVC</defName>
+		<modId>honkai.girls.sergkart</modId>
+		<settings>
+			<li Class="XmlExtensions.Setting.Gap"/>
+			<li Class="XmlExtensions.Setting.GapLine" />
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Royal Dryads - they are in many ways similar to the Valkyries and most of the parameters are inherited from them. But since they are dryads, they have some limitations.\n\n&lt;color=#E62700&gt;Most importantly, don't let dryads stop being dryads. Their AI (thinkTree) is not designed for them to go wild or be in a gang of raiders. They are completely designed for the player, not for the NPC.&lt;/color&gt;\n\nHere you will find settings for these dryads, don't confuse the classic royal dryads and the humanlike version.\n\n&lt;color=#5CA6E6&gt;- Humanlike dryads act as full-fledged pawns, can have an ideology, can hold weapons, can cook, craft, be drafted, etc.\n- The classic version of the most common dryad!&lt;/color&gt;\n\n&lt;color=#FCBD2B&gt;Fully compatible with saves. Dryads just evolve into the right pawn.\nDon't connect them to a tree.&lt;/color&gt;</text>
+				<tKey>HGS_Humanoids_RoyalDryadsTab_WVC</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.Gap" />
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>GirlsDryads_WVC</key>
+				<label>Enable dryad girls</label>
+				<defaultValue>false</defaultValue>
+				<tooltip>Activates receiving girls in an alternative way, as dryads. Doesn't cancel normal spawning. Dryad girls are unrestricted and have alternate abilities, they are also slightly smaller than the original ones.\n\nAlso contains visual styles "KemomimiHouse" and "Insect Girls".</tooltip>
+				<tKey>HGS_Dryads_General_GirlsChecker_WVC</tKey>
+				<tKeyTip>HGS_Dryads_General_GirlsChecker_Desc_WVC</tKeyTip>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>Global_Humanoids_RoyalDryad_WVC</key>
+				<label>Replace dryad girls with humanlike</label>
+				<defaultValue>false</defaultValue>
+				<tooltip>Replaces dryad girls with their humanoid counterpart, Valkyries required.\n\nSuch dryads are controlled like normal pawns, but will die if the tree dies. They cannot connect with trees and gain psi abilities.\n\nResource settings are inherited from Valkyries.\n\nCompatible with old saves.</tooltip>
+				<tKey>HGS_Global_Humanoids_RoyalDryad_Check_WVC</tKey>
+				<tKeyTip>HGS_Global_Humanoids_RoyalDryad_Desc_WVC</tKeyTip>
+			</li>
+			<li Class="XmlExtensions.Setting.SetColor">
+				<color>(255,50,0)</color>
+			</li>
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Not compatible with the "Real Faction Guest" mod as your dryads will turn into men from random factions.</text>
+				<tKey>HGS_Dryads_RealFactionGuest_Bug_WVC</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.SetColor">
+				<color>(255,255,255)</color>
+			</li>
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+</Defs>

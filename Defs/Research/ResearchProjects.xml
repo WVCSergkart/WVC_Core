@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef Name="ValkyriesTechs_Default_WVC" Abstract="True">
+	<label>Valkyries techs</label>
+	<description>No information available.</description>
+	<baseCost>2000</baseCost>
+	<techLevel>Ultra</techLevel>
+	<tags>
+	  <li>WVC_UltraTechBase</li>
+	  <!-- <li>ValkyriesStart_WVC</li> -->
+	</tags>
+	<researchViewX>0.00</researchViewX>
+	<researchViewY>0.00</researchViewY>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<tab>WVC_TechTab</tab>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+	  <li>MultiAnalyzer</li>
+	</requiredResearchFacilities>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>ValkyriesTechs_I_WVC</defName>
+	<label>Ancient techs</label>
+	<description>This "knowledge" has been passed from hand to hand, from researcher to researcher, and even a cursory glance at "it" will explain why these technologies have been lost. Slurred instructions, strange dashes, numbers and curses in all the languages of the empire. A large blot in the center perfectly complements this picture. It will take a lot of time to decipher these records.</description>
+	<techLevel>Spacer</techLevel>
+	<techprintCount>1</techprintCount>
+	<techprintCommonality>1</techprintCommonality>
+	<techprintMarketValue>800</techprintMarketValue>
+	<heldByFactionCategoryTags>
+		<li MayRequire="ludeon.rimworld.royalty">Empire</li>
+		<li>Outlander</li>
+		<li>Tribal</li>
+	</heldByFactionCategoryTags>
+	<tags>
+	  <li>ValkyriesStart_WVC</li>
+	</tags>
+	<researchViewX>0.00</researchViewX>
+	<researchViewY>2.70</researchViewY>
+	<hiddenPrerequisites>
+	  <!-- <li>AdvancedFabrication</li> -->
+	</hiddenPrerequisites>
+	<prerequisites>
+	  <li>Stonecutting</li>
+	  <li>ComplexFurniture</li>
+	  <li>SterileMaterials</li>
+	  <li>AirConditioning</li>
+	  <li>AdvancedFabrication</li>
+	  <li>MicroelectronicsBasics</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>ValkyriesTechs_II_WVC</defName>
+	<label>Mechanoid techs</label>
+	<description>Many incoherent circles, squares and stars. Frequent references to the words "mecha" and "nanites", a strange drawing of a witch and other nonsense. It is possible that this is one of the ciphers that only the initiates can understand, but the ancient drawing of an ass with wings hints that this is not the case.\n\nDeciphering these recordings will allow the simplest of machine technologies to be reproduced.</description>
+	  <researchViewX>1.00</researchViewX>
+	  <researchViewY>2.70</researchViewY>
+	<!-- <hiddenPrerequisites> -->
+	<!-- </hiddenPrerequisites> -->
+	<tags>
+	  <li>WVC_Assembled_ELF_Base</li>
+	</tags>
+	<prerequisites>
+	  <li>ValkyriesTechs_I_WVC</li>
+	  <li>ShipReactor</li>
+	  <li>ShipComputerCore</li>
+	  <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_MechanoidStructures</li>
+	  <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechStart</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>ValkyriesTechs_III_WVC</defName>
+	<label>Archotech techs</label>
+	<description>Using the knowledge of mechanoid nodes and the deciphering of ancient records, create a prototype of archotech nodes. This will allow us to repeat the simplest technological solutions of archotech.</description>
+	<researchViewX>7.00</researchViewX>
+	<researchViewY>2.55</researchViewY>
+	<techLevel>Archotech</techLevel>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<prerequisites>
+	  <li>ValkyriesTechs_ResourceConversionI_WVC</li>
+	  <li>ValkyriesTechs_II_WVC</li>
+	  <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechTierOne</li>
+	  <!-- Nodes -->
+	  <li MayRequire="wvc.sergkart.nodes">WVC_ResearchNodes_Blue</li>
+	  <li MayRequire="wvc.sergkart.nodes">WVC_ResearchNodes_Red</li>
+	  <li MayRequire="wvc.sergkart.nodes">WVC_ResearchNodes_Violet</li>
+	  <li MayRequire="wvc.sergkart.nodes">WVC_ResearchNodes_Green</li>
+	  <li MayRequire="wvc.sergkart.nodes">WVC_ResearchNodes_Yellow</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>ValkyriesTechs_MechaniteCrafterI_WVC</defName>
+	<label>Mechanite crafter</label>
+	<description>Complicated and illegible records of the use of mechaniteforge. Whoever left this information did not really hope that it would be found.</description>
+	<baseCost>12000</baseCost>
+	<techprintCount>1</techprintCount>
+	<techprintCommonality>1</techprintCommonality>
+	<techprintMarketValue>400</techprintMarketValue>
+	<heldByFactionCategoryTags>
+	  <li MayRequire="ludeon.rimworld.royalty">Empire</li>
+	  <li>Outlander</li>
+	  <li>Tribal</li>
+	</heldByFactionCategoryTags>
+	<tags>
+	  <li>ValkyriesStart_WVC</li>
+	  <li>WVC_Assembled_ELF_Base</li>
+	</tags>
+	<researchViewX>0.00</researchViewX>
+	<researchViewY>3.20</researchViewY>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<prerequisites>
+	  <li>AdvancedFabrication</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>ValkyriesTechs_ResourceConversionI_WVC</defName>
+	<label>Advanced crafter</label>
+	<description>A huge number of numbers with signatures, at first glance it could be some kind of code, but the drawing of a stick man and a swarm of "circles with a cross" suggests mechanites. Perhaps something is missing to fully understand this technology.</description>
+	<researchViewX>1.00</researchViewX>
+	<researchViewY>3.20</researchViewY>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<prerequisites>
+	  <li>ValkyriesTechs_I_WVC</li>
+	  <li>ValkyriesTechs_MechaniteCrafterI_WVC</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>ValkyriesTechs_ReplicatorI_WVC</defName>
+	<description>After a long deciphering of circles and stars, we can definitely say that this part of the recording describes a complex looping production plant. Judging by the next stupid drawing, we need a "smart" surface, so that the author of this "blueprint" does not mean it.</description>
+	<label>mechanites assembler</label>
+	<researchViewX>2.00</researchViewX>
+	<researchViewY>3.70</researchViewY>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<tags>
+	  <li>WVC_Assembled_ELF_Base</li>
+	</tags>
+	<prerequisites>
+	  <li>ValkyriesTechs_ResourceConversionI_WVC</li>
+	  <li>ValkyriesTechs_II_WVC</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>ValkyriesTechs_ReplicatorII_WVC</defName>
+	<label>resource replicator</label>
+	<description>In this part of the drawing of the ancients, the technology of vanometric transformations is described. This technology is incredibly complex, but our knowledge is enough to modify an existing vanometric generator.</description>
+	<techLevel>Archotech</techLevel>
+	<researchViewX>8.00</researchViewX>
+	<researchViewY>2.55</researchViewY>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<prerequisites>
+	  <li>ValkyriesTechs_ReplicatorI_WVC</li>
+	  <li>ValkyriesTechs_III_WVC</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>ValkyriesTechs_TurretsI_WVC</defName>
+	<label>Mechanoid defence systems</label>
+	<description>Lots of drawings and enthusiastic descriptions of mechanoid weapons, whoever was responsible for part of this entry was very fond of guns.</description>
+	<researchViewX>2.00</researchViewX>
+	<researchViewY>2.05</researchViewY>
+	<prerequisites>
+	  <li>HeavyTurrets</li>
+	  <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_AutomatedDefensiveMeasures</li>
+	  <li>ValkyriesTechs_II_WVC</li>
+	</prerequisites>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<tags>
+	  <li>WVC_Assembled_ELF_Base</li>
+	</tags>
+	<hideWhen>
+	  <turretsDisabled>true</turretsDisabled>
+	</hideWhen>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>ValkyriesTechs_GaurlerI_WVC</defName>
+	<label>Gaurler</label>
+	<description>This part of the record of the ancients describes the method of breeding dryads and imitation of the broodmind of these creatures, judging by the comments in the common imperial language, this is one of the few records that were not only successfully deciphered, but also repeated.</description>
+	  <researchViewX>2.00</researchViewX>
+	  <researchViewY>3.20</researchViewY>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<prerequisites>
+	  <li MayRequire="ludeon.rimworld.royalty">BrainWiring</li>
+	  <li MayRequire="ludeon.rimworld.ideology">NeuralSupercharger</li>
+	  <li MayRequire="ludeon.rimworld.ideology">Bioregeneration</li>
+	  <li>ValkyriesTechs_II_WVC</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>WVC_MechanoidTech_IncubatorLF</defName>
+	<label>Incubator</label>
+	<description>Using the decoding of the received data from previous studies, we can repeat the drawing of a complex structure designed to create hybrids of machines and organics.</description>
+	<researchViewX>3.00</researchViewX>
+	<researchViewY>3.20</researchViewY>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<tags>
+	  <li>WVC_Assembled_ELF_Base</li>
+	</tags>
+	<prerequisites>
+	  <!-- <li MayRequire="vanillaexpanded.vgeneticse">GR_InsectoidBioengineering</li> -->
+	  <li MayRequire="vanillaexpanded.vgeneticse">GR_GeneticMechahybridization</li>
+	  <li>ValkyriesTechs_GaurlerI_WVC</li>
+	  <li>ValkyriesTechs_ReplicatorI_WVC</li>
+	  <li>WVC_RaceResearching_ELFs</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC" Name="WVC_ExperimentalTechs_Base" Abstract="True">
+	<description>A series of experiments to reproduce the lost technologies of the ancients. This knowledge will help us recreate advanced bionics, weapons and some cloning technologies.</description>
+	<baseCost>5000</baseCost>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_ExperimentalTechs_Base">
+	<defName>WVC_RaceResearching_Valkyries</defName>
+	<label>experiment "AR.V"</label>
+	<techLevel>Spacer</techLevel>
+	<researchViewX>1.00</researchViewX>
+	<researchViewY>0.10</researchViewY>
+	<prerequisites>
+	  <li>Bionics</li>
+	  <li MayRequire="ludeon.rimworld.royalty">NeuralComputation</li>
+	  <li MayRequire="ludeon.rimworld.royalty">BrainWiring</li>
+	  <li MayRequire="ludeon.rimworld.royalty">CircadianInfluence</li>
+	  <li>ValkyriesTechs_I_WVC</li>
+	  <li MayRequire="vanillaexpanded.vgeneticse">GR_GeneticMechahybridization</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_ExperimentalTechs_Base">
+	<defName>WVC_RaceResearching_ELFs</defName>
+	<label>experiment "AR.E"</label>
+	<researchViewX>2.00</researchViewX>
+	<researchViewY>0.10</researchViewY>
+	<prerequisites>
+	  <li>ValkyriesTechs_II_WVC</li>
+	  <li>WVC_RaceResearching_Valkyries</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_ExperimentalTechs_Base">
+	<defName>WVC_RaceResearching_Dryad</defName>
+	<label>experiment "AR.D"</label>
+	<researchViewX>3.00</researchViewX>
+	<researchViewY>0.10</researchViewY>
+	<prerequisites>
+	  <li>ValkyriesTechs_GaurlerI_WVC</li>
+	  <li>WVC_RaceResearching_Valkyries</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef MayRequire="wvc.sergkart.nodes" ParentName="WVC_ExperimentalTechs_Base">
+	<defName>WVC_RaceResearching_Herrschers</defName>
+	<label>experiment "AR.H"</label>
+	<techLevel>Archotech</techLevel>
+	<baseCost>7000</baseCost>
+	<researchViewX>8.00</researchViewX>
+	<researchViewY>1.95</researchViewY>
+	<prerequisites>
+	  <li>ValkyriesTechs_III_WVC</li>
+	  <li>WVC_RaceResearching_Dryad</li>
+	  <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechTierThree</li>
+	  <!-- = -->
+	  <li MayRequire="wvc.sergkart.nodes">WVC_ResearchBodyParts_NodeBlue</li>
+	  <li MayRequire="wvc.sergkart.nodes">WVC_ResearchBodyParts_NodeGreen</li>
+	  <li MayRequire="wvc.sergkart.nodes">WVC_ResearchBodyParts_NodeRed</li>
+	  <li MayRequire="wvc.sergkart.nodes">WVC_ResearchBodyParts_NodeViolet</li>
+	  <li MayRequire="wvc.sergkart.nodes">WVC_ResearchBodyParts_NodeYellow</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef MayRequire="honkai.girls.sergkart" ParentName="WVC_ExperimentalTechs_Base">
+	<defName>WVC_Tech_ExoticWeaponCraft</defName>
+	<label>Ancient weapon</label>
+	<researchViewX>2.00</researchViewX>
+	<researchViewY>1.55</researchViewY>
+	<prerequisites>
+	  <!-- <li>Machining</li> -->
+	  <li>AdvancedFabrication</li>
+	  <li>ValkyriesTechs_II_WVC</li>
+	  <li>WVC_RaceResearching_Valkyries</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>WVC_BionicTech_Torture</defName>
+	<techLevel>Spacer</techLevel>
+	<label>torture bionic</label>
+	<researchViewX>0.00</researchViewX>
+	<researchViewY>0.45</researchViewY>
+	<prerequisites>
+	  <li>Bionics</li>
+	  <li MayRequire="vat.epoeforked">AdvancedBionics</li>
+	  <li MayRequire="ludeon.rimworld.royalty">BrainWiring</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>WVC_BionicTech_AdvancedBionic</defName>
+	<techLevel>Spacer</techLevel>
+	<label>experimental bionic</label>
+	<researchViewX>0.00</researchViewX>
+	<researchViewY>0.90</researchViewY>
+	<prerequisites>
+	  <li>Bionics</li>
+	  <li MayRequire="vat.epoeforked">AdvancedBionics</li>
+	  <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li>
+	  <li MayRequire="ludeon.rimworld.royalty">ArtificialMetabolism</li>
+	  <li MayRequire="ludeon.rimworld.royalty">HealingFactors</li>
+	  <li MayRequire="ludeon.rimworld.royalty">MolecularAnalysis</li>
+	  <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	  <li MayRequire="ludeon.rimworld.royalty">SpecializedLimbs</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>WVC_BionicTech_Cybernetic</defName>
+	<techLevel>Spacer</techLevel>
+	<label>cybernetic</label>
+	<researchViewX>0.50</researchViewX>
+	<researchViewY>1.35</researchViewY>
+	<prerequisites>
+	  <li>Bionics</li>
+	  <li MayRequire="vat.epoeforked">AdvancedBionics</li>
+	  <li MayRequire="vat.epoeforked">SyntheticOrgans</li>
+	  <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li>
+	  <li MayRequire="ludeon.rimworld.royalty">ArtificialMetabolism</li>
+	  <li MayRequire="ludeon.rimworld.royalty">HealingFactors</li>
+	  <li MayRequire="ludeon.rimworld.royalty">MolecularAnalysis</li>
+	  <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	  <li MayRequire="ludeon.rimworld.royalty">SpecializedLimbs</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>WVC_BionicTech_ScarsHealing</defName>
+	<techLevel>Spacer</techLevel>
+	<label>scar treatment</label>
+	<description>Allows you to treat scars or mutations (on animals too) with glitter medicine.</description>
+	<researchViewX>4.00</researchViewX>
+	<researchViewY>0.10</researchViewY>
+	<tags>
+	  <li>WVC_Assembled_ELF_Base</li>
+	</tags>
+	<prerequisites>
+	  <li>Bionics</li>
+	  <li MayRequire="spoonshortage.adogsaidanimalprosthetics">AnimalHeal</li>
+	  <li MayRequire="vat.epoeforked">EPOE_NeurologicalTreatment</li>
+	  <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li>
+	  <li MayRequire="ludeon.rimworld.royalty">HealingFactors</li>
+	  <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

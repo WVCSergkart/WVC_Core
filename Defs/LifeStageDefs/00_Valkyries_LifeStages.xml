@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <LifeStageDef Name="LifeStage_Valkyrie_General_WVC" Abstract="True">
+	<!-- <defName>Alien_RoyalDryad_Baby_WVC</defName> -->
+	<label>valkyrie</label>
+	<visible>false</visible>
+	<foodMaxFactor>1</foodMaxFactor>
+	<reproductive>true</reproductive>
+	<milkable>false</milkable>
+	<shearable>false</shearable>
+	<caravanRideable>false</caravanRideable>
+	<!-- <hungerRateFactor>1.0</hungerRateFactor> -->
+	<!-- <hungerRateFactor>1.0</hungerRateFactor> -->
+	<!-- <meleeDamageFactor>1.2</meleeDamageFactor> -->
+	<!-- <bodySizeFactor>1.2</bodySizeFactor> -->
+	<statFactors>
+	  <!-- <MoveSpeed>1.2</MoveSpeed> -->
+	  <PainShockThreshold>3.0</PainShockThreshold>
+	</statFactors>
+  </LifeStageDef>
+
+  <!-- ===================================================================== -->
+  <!-- C B A S SS SSS -->
+  
+  <!-- Default -->
+  <!-- <ArmorRating_Blunt>0.15</ArmorRating_Blunt> -->
+  <!-- <ArmorRating_Sharp>0.10</ArmorRating_Sharp> -->
+  <!-- <ArmorRating_Heat>0.20</ArmorRating_Heat> -->
+  
+  <LifeStageDef ParentName="LifeStage_Valkyrie_General_WVC">
+	<defName>LifeStage_Valkyrie_I_WVC</defName>
+	<label>12</label>
+	<healthScaleFactor>0.8</healthScaleFactor>
+	<hungerRateFactor>1.5</hungerRateFactor>
+	<meleeDamageFactor>0.8</meleeDamageFactor>
+	<statFactors>
+	  <!-- = -->
+	  <IncomingDamageFactor>1.2</IncomingDamageFactor>
+	  <!-- = -->
+	  <!-- <ArmorRating_Blunt>0.5</ArmorRating_Blunt> -->
+	  <!-- <ArmorRating_Sharp>0.5</ArmorRating_Sharp> -->
+	  <!-- <ArmorRating_Heat>0.5</ArmorRating_Heat> -->
+	  <!-- = -->
+	  <!-- <PainShockThreshold>1.1</PainShockThreshold> -->
+	</statFactors>
+  </LifeStageDef>
+  
+  <LifeStageDef ParentName="LifeStage_Valkyrie_General_WVC">
+	<defName>LifeStage_Valkyrie_II_WVC</defName>
+	<label>13</label>
+	<healthScaleFactor>1.0</healthScaleFactor>
+	<hungerRateFactor>1.2</hungerRateFactor>
+	<meleeDamageFactor>1.25</meleeDamageFactor>
+	<statFactors>
+	  <MoveSpeed>1.25</MoveSpeed>
+	  <ImmunityGainSpeed>1.05</ImmunityGainSpeed>
+	  <ToxicSensitivity>0.8</ToxicSensitivity>
+	  <!-- = -->
+	  <IncomingDamageFactor>1.0</IncomingDamageFactor>
+	 <!-- = -->
+	  <!-- <PsychicEntropyGain MayRequire="ludeon.rimworld.royalty">1.0</PsychicEntropyGain> -->
+	 <!-- = -->
+	  <!-- <ArmorRating_Blunt>1.0</ArmorRating_Blunt> -->
+	  <!-- <ArmorRating_Sharp>1.0</ArmorRating_Sharp> -->
+	  <!-- <ArmorRating_Heat>1.0</ArmorRating_Heat> -->
+	 <!-- = -->
+	  <!-- <MentalBreakThreshold>1.0</MentalBreakThreshold> -->
+	  <!-- <ToxicSensitivity>1.0</ToxicSensitivity> -->
+	  <!-- <ImmunityGainSpeed>1.0</ImmunityGainSpeed> -->
+	  <!-- <IncomingDamageFactor>1.0</IncomingDamageFactor> -->
+	  <!-- <MeleeDodgeChance>1.0</MeleeDodgeChance> -->
+	  <!-- <MeleeHitChance>1.0</MeleeHitChance> -->
+	  <!-- <MentalBreakThreshold>1.0</MentalBreakThreshold> -->
+	  <!-- <InjuryHealingFactor>1.0</InjuryHealingFactor> -->
+	  <!-- <Flammability>1</Flammability> -->
+	  <!-- <RestRateMultiplier>1.0</RestRateMultiplier> -->
+	  <!-- <ComfyTemperatureMin>-50</ComfyTemperatureMin> -->
+	  <!-- <ComfyTemperatureMax>50</ComfyTemperatureMax> -->
+	  <!-- <CarryingCapacity>1.0</CarryingCapacity> -->
+	  <!-- <ArrestSuccessChance>1.0</ArrestSuccessChance> -->
+	  <!-- <VEF_RangedCooldownFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.0</VEF_RangedCooldownFactor> -->
+	  <!-- <VEF_VerbRangeFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.0</VEF_VerbRangeFactor> -->
+	  <!-- = -->
+	  <!-- <PainShockThreshold>1.2</PainShockThreshold> -->
+	</statFactors>
+  </LifeStageDef>
+
+  <LifeStageDef ParentName="LifeStage_Valkyrie_General_WVC">
+	<defName>LifeStage_Valkyrie_III_WVC</defName>
+	<label>16</label>
+	<healthScaleFactor>1.2</healthScaleFactor>
+	<hungerRateFactor>1.0</hungerRateFactor>
+	<meleeDamageFactor>1.5</meleeDamageFactor>
+	<statFactors>
+	  <MoveSpeed>1.5</MoveSpeed>
+	  <ImmunityGainSpeed>1.10</ImmunityGainSpeed>
+	  <ToxicSensitivity>0.6</ToxicSensitivity>
+	  <!-- = -->
+	  <IncomingDamageFactor>0.8</IncomingDamageFactor>
+	 <!-- = -->
+	  <!-- <PsychicEntropyGain MayRequire="ludeon.rimworld.royalty">0.66</PsychicEntropyGain> -->
+	 <!-- = -->
+	  <!-- <ArmorRating_Blunt>2.0</ArmorRating_Blunt> -->
+	  <!-- <ArmorRating_Sharp>2.0</ArmorRating_Sharp> -->
+	  <!-- <ArmorRating_Heat>2.0</ArmorRating_Heat> -->
+	 <!-- = -->
+	  <MeleeDodgeChance>2.0</MeleeDodgeChance>
+	  <MeleeHitChance>2.0</MeleeHitChance>
+	 <!-- = -->
+	  <!-- <ComfyTemperatureMin>1.3</ComfyTemperatureMin> -->
+	  <!-- <ComfyTemperatureMax>1.3</ComfyTemperatureMax> -->
+	  <CarryingCapacity>1.2</CarryingCapacity>
+	  <InjuryHealingFactor>1.2</InjuryHealingFactor>
+	  <Flammability>0.8</Flammability>
+	  <MentalBreakThreshold>0.8</MentalBreakThreshold>
+	  <!-- = -->
+	  <!-- <VEF_RangedCooldownFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">0.8</VEF_RangedCooldownFactor> -->
+	  <!-- <VEF_VerbRangeFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.2</VEF_VerbRangeFactor> -->
+	  <!-- = -->
+	  <!-- <PainShockThreshold>1.3</PainShockThreshold> -->
+	</statFactors>
+  </LifeStageDef>
+
+  <LifeStageDef ParentName="LifeStage_Valkyrie_General_WVC">
+	<defName>LifeStage_Valkyrie_IV_WVC</defName>
+	<label>18</label>
+	<healthScaleFactor>1.35</healthScaleFactor>
+	<hungerRateFactor>0.8</hungerRateFactor>
+	<meleeDamageFactor>1.75</meleeDamageFactor>
+	<statFactors>
+	  <MoveSpeed>1.75</MoveSpeed>
+	  <ImmunityGainSpeed>1.15</ImmunityGainSpeed>
+	  <ToxicSensitivity>0.3</ToxicSensitivity>
+	  <!-- = -->
+	  <IncomingDamageFactor>0.6</IncomingDamageFactor>
+	 <!-- = -->
+	  <!-- <PsychicEntropyGain MayRequire="ludeon.rimworld.royalty">0.75</PsychicEntropyGain> -->
+	 <!-- = -->
+	  <!-- <ArmorRating_Blunt>3.5</ArmorRating_Blunt> -->
+	  <!-- <ArmorRating_Sharp>3.5</ArmorRating_Sharp> -->
+	  <!-- <ArmorRating_Heat>3.5</ArmorRating_Heat> -->
+	 <!-- = -->
+	  <MeleeDodgeChance>3.0</MeleeDodgeChance>
+	  <MeleeHitChance>3.0</MeleeHitChance>
+	 <!-- = -->
+	  <!-- <ComfyTemperatureMin>1.6</ComfyTemperatureMin> -->
+	  <!-- <ComfyTemperatureMax>1.6</ComfyTemperatureMax> -->
+	  <CarryingCapacity>1.3</CarryingCapacity>
+	  <InjuryHealingFactor>1.3</InjuryHealingFactor>
+	  <Flammability>0.5</Flammability>
+	  <MentalBreakThreshold>0.5</MentalBreakThreshold>
+	 <!-- = -->
+	  <!-- <VEF_RangedCooldownFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">0.7</VEF_RangedCooldownFactor> -->
+	  <!-- <VEF_VerbRangeFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.3</VEF_VerbRangeFactor> -->
+	  <!-- = -->
+	  <!-- <PainShockThreshold>1.4</PainShockThreshold> -->
+	</statFactors>
+  </LifeStageDef>
+
+  <LifeStageDef ParentName="LifeStage_Valkyrie_General_WVC">
+	<defName>LifeStage_Valkyrie_V_WVC</defName>
+	<label>20</label>
+	<healthScaleFactor>1.5</healthScaleFactor>
+	<hungerRateFactor>0.5</hungerRateFactor>
+	<meleeDamageFactor>2.0</meleeDamageFactor>
+	<statFactors>
+	  <MoveSpeed>2.0</MoveSpeed>
+	  <ImmunityGainSpeed>1.2</ImmunityGainSpeed>
+	  <ToxicSensitivity>0.0</ToxicSensitivity>
+	  <!-- = -->
+	  <IncomingDamageFactor>0.4</IncomingDamageFactor>
+	 <!-- = -->
+	  <!-- <PsychicEntropyGain MayRequire="ludeon.rimworld.royalty">0.5</PsychicEntropyGain> -->
+	 <!-- = -->
+	  <!-- <ArmorRating_Blunt>5.0</ArmorRating_Blunt> -->
+	  <!-- <ArmorRating_Sharp>5.0</ArmorRating_Sharp> -->
+	  <!-- <ArmorRating_Heat>5.0</ArmorRating_Heat> -->
+	 <!-- = -->
+	  <MeleeDodgeChance>4.0</MeleeDodgeChance>
+	  <MeleeHitChance>4.0</MeleeHitChance>
+	 <!-- = -->
+	  <!-- <ComfyTemperatureMin>2</ComfyTemperatureMin> -->
+	  <!-- <ComfyTemperatureMax>2</ComfyTemperatureMax> -->
+	  <CarryingCapacity>1.5</CarryingCapacity>
+	  <InjuryHealingFactor>1.5</InjuryHealingFactor>
+	  <Flammability>0.0</Flammability>
+	  <MentalBreakThreshold>0.2</MentalBreakThreshold>
+	 <!-- = -->
+	  <!-- <VEF_RangedCooldownFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">0.5</VEF_RangedCooldownFactor> -->
+	  <!-- <VEF_VerbRangeFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_VerbRangeFactor> -->
+	  <!-- = -->
+	  <!-- <PainShockThreshold>1.5</PainShockThreshold> -->
+	</statFactors>
+  </LifeStageDef>
+
+</Defs>

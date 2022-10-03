@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ManeuverDef Name="WVC_ManeuverCut_Base" Abstract="True">
+	<logEntryDef>MeleeAttack</logEntryDef>
+	<combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+	<combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+	<combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+	<combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+  <ManeuverDef Name="WVC_ManeuverBlunt_Base" Abstract="True">
+	<logEntryDef>MeleeAttack</logEntryDef>
+	<combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
+	<combatLogRulesDeflect>Maneuver_Smash_MeleeDeflect</combatLogRulesDeflect>
+	<combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
+	<combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+
+  <!--=====================================================================-->
+
+  <ManeuverDef ParentName="WVC_ManeuverBlunt_Base">
+	<defName>WVC_Blunt_FistBlue</defName>
+	<requiredCapacity>WVC_Blunt_FistBlue</requiredCapacity>
+	<verb>
+	  <verbClass>Verb_MeleeAttackDamage</verbClass>
+	  <meleeDamageDef>WVC_Blunt_FistBlue</meleeDamageDef>
+	</verb>
+  </ManeuverDef>
+  <ManeuverDef ParentName="WVC_ManeuverBlunt_Base">
+	<defName>WVC_Blunt_FistRed</defName>
+	<requiredCapacity>WVC_Blunt_FistRed</requiredCapacity>
+	<verb>
+	  <verbClass>Verb_MeleeAttackDamage</verbClass>
+	  <meleeDamageDef>WVC_Blunt_FistRed</meleeDamageDef>
+	</verb>
+  </ManeuverDef>
+
+  <ManeuverDef ParentName="WVC_ManeuverBlunt_Base">
+	<defName>WVC_Blunt_FeetBlue</defName>
+	<requiredCapacity>WVC_Blunt_FeetBlue</requiredCapacity>
+	<verb>
+	  <verbClass>Verb_MeleeAttackDamage</verbClass>
+	  <meleeDamageDef>WVC_Blunt_FeetBlue</meleeDamageDef>
+	</verb>
+  </ManeuverDef>
+  <ManeuverDef ParentName="WVC_ManeuverBlunt_Base">
+	<defName>WVC_Blunt_FeetRed</defName>
+	<requiredCapacity>WVC_Blunt_FeetRed</requiredCapacity>
+	<verb>
+	  <verbClass>Verb_MeleeAttackDamage</verbClass>
+	  <meleeDamageDef>WVC_Blunt_FeetRed</meleeDamageDef>
+	</verb>
+  </ManeuverDef>
+
+  <!--=====================================================================-->
+
+  <ManeuverDef ParentName="WVC_ManeuverCut_Base">
+	<defName>WVC_Cut_BlueLine</defName>
+	<requiredCapacity>WVC_Cut_BlueLine</requiredCapacity>
+	<verb>
+	  <verbClass>Verb_MeleeAttackDamage</verbClass>
+	  <meleeDamageDef>WVC_Cut_BlueLine</meleeDamageDef>
+	</verb>
+  </ManeuverDef>
+
+  <ManeuverDef ParentName="WVC_ManeuverCut_Base">
+	<defName>WVC_Cut_BlueArk</defName>
+	<requiredCapacity>WVC_Cut_BlueArk</requiredCapacity>
+	<verb>
+	  <verbClass>Verb_MeleeAttackDamage</verbClass>
+	  <meleeDamageDef>WVC_Cut_BlueArk</meleeDamageDef>
+	</verb>
+  </ManeuverDef>
+
+  <ManeuverDef ParentName="WVC_ManeuverCut_Base">
+	<defName>WVC_Cut_AngleBlue</defName>
+	<requiredCapacity>WVC_Cut_AngleBlue</requiredCapacity>
+	<verb>
+	  <verbClass>Verb_MeleeAttackDamage</verbClass>
+	  <meleeDamageDef>WVC_Cut_AngleBlue</meleeDamageDef>
+	</verb>
+  </ManeuverDef>
+
+  <ManeuverDef ParentName="WVC_ManeuverCut_Base">
+	<defName>WVC_Cut_LinesBlue</defName>
+	<requiredCapacity>WVC_Cut_LinesBlue</requiredCapacity>
+	<verb>
+	  <verbClass>Verb_MeleeAttackDamage</verbClass>
+	  <meleeDamageDef>WVC_Cut_LinesBlue</meleeDamageDef>
+	</verb>
+  </ManeuverDef>
+
+  <!--=====================================================================-->
+
+  <ManeuverDef ParentName="WVC_ManeuverCut_Base">
+	<defName>WVC_Cut_RedLine</defName>
+	<requiredCapacity>WVC_Cut_RedLine</requiredCapacity>
+	<verb>
+	  <verbClass>Verb_MeleeAttackDamage</verbClass>
+	  <meleeDamageDef>WVC_Cut_RedLine</meleeDamageDef>
+	</verb>
+  </ManeuverDef>
+
+  <ManeuverDef ParentName="WVC_ManeuverCut_Base">
+	<defName>WVC_Cut_RedArk</defName>
+	<requiredCapacity>WVC_Cut_RedArk</requiredCapacity>
+	<verb>
+	  <verbClass>Verb_MeleeAttackDamage</verbClass>
+	  <meleeDamageDef>WVC_Cut_RedArk</meleeDamageDef>
+	</verb>
+  </ManeuverDef>
+
+  <ManeuverDef ParentName="WVC_ManeuverCut_Base">
+	<defName>WVC_Cut_AngleRed</defName>
+	<requiredCapacity>WVC_Cut_AngleRed</requiredCapacity>
+	<verb>
+	  <verbClass>Verb_MeleeAttackDamage</verbClass>
+	  <meleeDamageDef>WVC_Cut_AngleRed</meleeDamageDef>
+	</verb>
+  </ManeuverDef>
+
+  <ManeuverDef ParentName="WVC_ManeuverCut_Base">
+	<defName>WVC_Cut_LinesRed</defName>
+	<requiredCapacity>WVC_Cut_LinesRed</requiredCapacity>
+	<verb>
+	  <verbClass>Verb_MeleeAttackDamage</verbClass>
+	  <meleeDamageDef>WVC_Cut_LinesRed</meleeDamageDef>
+	</verb>
+  </ManeuverDef>
+
+</Defs>

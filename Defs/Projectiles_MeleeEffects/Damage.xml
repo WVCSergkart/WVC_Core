@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DamageDef ParentName="BluntBase">
+	<defName>WVC_Blunt_FistBlue</defName>
+	<damageEffecter>WVC_BluntEffect_FistBlue</damageEffecter>
+  </DamageDef>
+  <DamageDef ParentName="BluntBase">
+	<defName>WVC_Blunt_FistRed</defName>
+	<damageEffecter>WVC_BluntEffect_FistRed</damageEffecter>
+  </DamageDef>
+
+  <DamageDef ParentName="BluntBase">
+	<defName>WVC_Blunt_FeetBlue</defName>
+	<damageEffecter>WVC_BluntEffect_FeetBlue</damageEffecter>
+  </DamageDef>
+  <DamageDef ParentName="BluntBase">
+	<defName>WVC_Blunt_FeetRed</defName>
+	<damageEffecter>WVC_BluntEffect_FeetRed</damageEffecter>
+  </DamageDef>
+
+  <!--=====================================================================-->
+
+  <DamageDef ParentName="CutBase">
+	<defName>WVC_Cut_BlueLine</defName>
+	<!-- <label>line</label> -->
+	<!-- <additionalHediffs> -->
+	  <!-- <li> -->
+		<!-- <hediff>AbyssCorruption_WVC</hediff> -->
+		<!-- <severityPerDamageDealt>0.015</severityPerDamageDealt> -->
+		<!-- <victimSeverityScaling>ToxicSensitivity</victimSeverityScaling> -->
+		<!-- <victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize> -->
+	  <!-- </li> -->
+	<!-- </additionalHediffs> -->
+	<!-- <applyAdditionalHediffsIfHuntingForFood>false</applyAdditionalHediffsIfHuntingForFood> -->
+	<!-- <impactSoundType>Toxic</impactSoundType> -->
+	<damageEffecter>WVC_CutEffect_BlueLine</damageEffecter>
+  </DamageDef>
+
+  <DamageDef ParentName="CutBase">
+	<defName>WVC_Cut_BlueArk</defName>
+	<damageEffecter>WVC_CutEffect_BlueArk</damageEffecter>
+  </DamageDef>
+
+  <DamageDef ParentName="CutBase">
+	<defName>WVC_Cut_AngleBlue</defName>
+	<damageEffecter>WVC_CutEffect_AngleBlue</damageEffecter>
+  </DamageDef>
+
+  <DamageDef ParentName="CutBase">
+	<defName>WVC_Cut_LinesBlue</defName>
+	<damageEffecter>WVC_CutEffect_LinesBlue</damageEffecter>
+  </DamageDef>
+
+  <!--=====================================================================-->
+
+  <DamageDef ParentName="CutBase">
+	<defName>WVC_Cut_RedLine</defName>
+	<damageEffecter>WVC_CutEffect_RedLine</damageEffecter>
+  </DamageDef>
+
+  <DamageDef ParentName="CutBase">
+	<defName>WVC_Cut_RedArk</defName>
+	<damageEffecter>WVC_CutEffect_RedArk</damageEffecter>
+  </DamageDef>
+
+  <DamageDef ParentName="CutBase">
+	<defName>WVC_Cut_AngleRed</defName>
+	<damageEffecter>WVC_CutEffect_AngleRed</damageEffecter>
+  </DamageDef>
+
+  <DamageDef ParentName="CutBase">
+	<defName>WVC_Cut_LinesRed</defName>
+	<damageEffecter>WVC_CutEffect_LinesRed</damageEffecter>
+  </DamageDef>
+
+
+</Defs>

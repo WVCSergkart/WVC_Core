@@ -1,0 +1,11 @@
+<loadFolders>
+	<v1.3>
+		<li>/</li>
+		<!-- Royalty -->
+		<li IfModActive="ludeon.rimworld.royalty">Royalty</li>
+		<!-- Ideology -->
+		<li IfModActive="ludeon.rimworld.ideology">Ideology</li>
+	</v1.3>
+</loadFolders>
+
+

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef MayRequire="honkai.girls.sergkart" ParentName="AncientBuildings_WVC" WVC_Tag="NoHeadsBeds">
+	<defName>WVC_SleepPod</defName>
+	<label>sleep pod</label>
+	<description>Capsule for serving humanoid creatures, organic or semi-organic. Also suitable for sleeping.</description>
+	<descriptionHyperlinks>
+	  <ConceptDef>WVC_HeadsInBedsBug</ConceptDef>
+	</descriptionHyperlinks>
+	<thingClass>Building_Bed</thingClass>
+	<drawGUIOverlay>true</drawGUIOverlay>
+	<defaultPlacingRot>South</defaultPlacingRot>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<graphicData>
+	  <texPath>WVC/Stuff/SleepPod/SleepPod</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(2,2)</drawSize>
+	  <damageData>
+		<rect>(0,0.05,2,1.95)</rect>
+	  </damageData>
+	</graphicData>
+	<comps>
+	  <li Class="CompProperties_AssignableToPawn">
+		<drawAssignmentOverlay>true</drawAssignmentOverlay>
+		<compClass>CompAssignableToPawn_Bed</compClass>
+	  </li>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(78, 226, 229, 0)</glowColor>
+	  </li>
+	  <li MayRequire="oskarpotocki.vfe.classical"><compClass>VFEC.Comps.CompTent</compClass></li>
+	</comps>
+	<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+	<statBases>
+	  <MarketValue>150</MarketValue>
+	  <MaxHitPoints>900</MaxHitPoints>
+	  <Flammability>0.0</Flammability>
+	  <Mass>120</Mass>
+	  <Beauty>5</Beauty>
+	  <BedRestEffectiveness>1.1</BedRestEffectiveness>
+	  <Comfort>2.0</Comfort>
+	  <ImmunityGainSpeedFactor>2.0</ImmunityGainSpeedFactor>
+	  <SurgerySuccessChanceFactor>2</SurgerySuccessChanceFactor>
+	</statBases>
+	<!-- <size>(1,2)</size> -->
+	<size>(2,1)</size>
+	<costList>
+	  <Plasteel>60</Plasteel>
+	  <Uranium>9</Uranium>
+	  <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+	</costList>
+	<building>
+	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	  <!-- <artificialForMeditationPurposes>false</artificialForMeditationPurposes> -->
+	  <bed_showSleeperBody>False</bed_showSleeperBody>
+	  <bed_healPerDay>50</bed_healPerDay>
+	  <bed_maxBodySize>0.71</bed_maxBodySize>
+	  <buildingTags>
+		<li>Bed</li>
+	  </buildingTags>
+	</building>
+	<thingCategories>
+	  <li>BuildingsFurniture</li>
+	</thingCategories>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<fillPercent>0.4</fillPercent>
+	<pathCost>42</pathCost>
+	<leaveResourcesWhenKilled>False</leaveResourcesWhenKilled>
+	<killedLeavings>
+	  <ChunkSlagSteel>2</ChunkSlagSteel>
+	</killedLeavings>
+	<staticSunShadowHeight>0.17</staticSunShadowHeight>
+	<castEdgeShadows>True</castEdgeShadows>
+	<designationCategory>Furniture</designationCategory>
+	<researchPrerequisites Inherit="False">
+	  <!-- <li>ValkyriesTechs_I_WVC</li> -->
+	  <li>WVC_RaceResearching_Valkyries</li>
+	</researchPrerequisites>
+	<uiIconScale>1.0</uiIconScale>
+	<designatorDropdown>HGS_Beds_WVC</designatorDropdown>
+  </ThingDef>
+
+  <!-- ===================================================================== -->
+
+  <ThingDef MayRequire="honkai.girls.sergkart" ParentName="MechanoidBuildings_WVC" WVC_Tag="NoHeadsBeds">
+	<defName>ELF_MendingStation_WVC</defName>
+	<label>mending capsule</label>
+	<description>Capsule for serving humanoid creatures, organic or semi-organic. The size of the capsule is able to accommodate up to three creatures at the same time.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
+	<descriptionHyperlinks>
+	  <ConceptDef>WVC_HeadsInBedsBug</ConceptDef>
+	</descriptionHyperlinks>
+	<thingClass>Building_Bed</thingClass>
+	<drawGUIOverlay>true</drawGUIOverlay>
+	<!-- Floor -->
+	<altitudeLayer>FloorCoverings</altitudeLayer>
+	<blockPlants>true</blockPlants>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<selectable>true</selectable>
+	<useHitPoints>true</useHitPoints>
+	<blocksAltitudes>
+	  <li>FloorCoverings</li>
+	</blocksAltitudes>
+	<building>
+	  <isEdifice>true</isEdifice>
+	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	  <!-- <artificialForMeditationPurposes>false</artificialForMeditationPurposes> -->
+	  <bed_showSleeperBody>False</bed_showSleeperBody>
+	  <bed_healPerDay>50</bed_healPerDay>
+	  <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+	  <ai_chillDestination>false</ai_chillDestination>
+	  <bed_maxBodySize>0.53</bed_maxBodySize>
+	  <buildingTags>
+		<li>Bed</li>
+	  </buildingTags>
+	</building>
+	<!-- Building -->
+	<!-- <altitudeLayer>Building</altitudeLayer> -->
+	<pathCost>14</pathCost>
+	<passability>PassThroughOnly</passability>
+	<graphicData>
+	  <texPath>WVC/Stuff/MendingStation</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3,3)</drawSize>
+	  <damageData>
+		<rect>(0.15, 0.15, 2.7, 2.7)</rect>
+	  </damageData>
+	</graphicData>
+	<killedLeavings>
+	  <ChunkSlagSteel>8</ChunkSlagSteel>
+	</killedLeavings>
+	<comps>
+	  <li Class="CompProperties_AssignableToPawn">
+		<drawAssignmentOverlay>true</drawAssignmentOverlay>
+		<compClass>CompAssignableToPawn_Bed</compClass>
+	  </li>
+	  <!-- <li Class="CompProperties_AffectedByFacilities"> -->
+		<!-- <linkableFacilities> -->
+		  <!-- <li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li> -->
+		<!-- </linkableFacilities> -->
+	  <!-- </li> -->
+	  <!-- <li Class="CompProperties_Glower"> -->
+		<!-- <glowRadius>3</glowRadius> -->
+		<!-- <glowColor>(200,200,255)</glowColor> -->
+	  <!-- </li> -->
+	  <li MayRequire="oskarpotocki.vfe.classical"><compClass>VFEC.Comps.CompTent</compClass></li>
+	</comps>
+	<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+	<designationCategory>Furniture</designationCategory>
+	<rotatable>false</rotatable>
+	<defaultPlacingRot>North</defaultPlacingRot>
+	<thingCategories>
+	  <li>BuildingsFurniture</li>
+	</thingCategories>
+	<statBases>
+	  <MarketValue>150</MarketValue>
+	  <MaxHitPoints>1600</MaxHitPoints>
+	  <Flammability>0.0</Flammability>
+	  <Mass>160</Mass>
+	  <Beauty>2</Beauty>
+	  <BedRestEffectiveness>1.1</BedRestEffectiveness>
+	  <Comfort>2.0</Comfort>
+	  <ImmunityGainSpeedFactor>2.0</ImmunityGainSpeedFactor>
+	  <SurgerySuccessChanceFactor>2</SurgerySuccessChanceFactor>
+	</statBases>
+	<size>(3,3)</size>
+	<costList>
+	  <Plasteel>120</Plasteel>
+	  <Uranium>12</Uranium>
+	  <ComponentSpacer>4</ComponentSpacer>
+	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	</costList>
+	<!-- <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded> -->
+	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<castEdgeShadows>false</castEdgeShadows>
+	<researchPrerequisites Inherit="False">
+	  <!-- <li>ValkyriesTechs_II_WVC</li> -->
+	  <li>WVC_RaceResearching_ELFs</li>
+	</researchPrerequisites>
+	<uiIconScale>1.0</uiIconScale>
+	<designatorDropdown>HGS_Beds_WVC</designatorDropdown>
+  </ThingDef>
+
+</Defs>
