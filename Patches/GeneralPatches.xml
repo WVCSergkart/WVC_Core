@@ -25,6 +25,8 @@
 	  </value>
 	</Operation>
 
+	<!--=====================================================================-->
+
 	<Operation Class="XmlExtensions.PatchOperationSafeAdd">
 	  <xpath>/Defs/ThingDef[defName="ComponentIndustrial" or defName="ComponentSpacer" or defName="VFE_ComponentMechanoid" or defName="RE_PrefabComponent" or defName="DankPyon_ComponentBasic"]</xpath>
 	  <safetyDepth>1</safetyDepth>
@@ -33,6 +35,43 @@
 		  <li>WVC_ManufacturedComponents</li>
 		</thingCategories>
 	  </value>
+	</Operation>
+
+	<Operation Class="XmlExtensions.FindMod">
+		<mods>
+			<li>dankpyon.medieval.overhaul</li>
+		</mods>
+		<packageId>true</packageId>
+		<caseTrue>
+
+			<Operation Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="DankPyon_BarrelComponentBasic"]/building/fixedStorageSettings</xpath>
+			  <value>
+				  <fixedStorageSettings>
+					<filter>
+						<categories>
+							<li>WVC_ManufacturedComponents</li>
+						</categories>
+					</filter>
+				  </fixedStorageSettings>
+			  </value>
+			</Operation>
+
+			<Operation Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="DankPyon_BarrelComponentBasic"]/building/defaultStorageSettings</xpath>
+			  <value>
+				  <defaultStorageSettings>
+					<priority>Important</priority>
+					<filter>
+						<categories>
+							<li>WVC_ManufacturedComponents</li>
+						</categories>
+					</filter>
+				  </defaultStorageSettings>
+			  </value>
+			</Operation>
+
+		</caseTrue>
 	</Operation>
 
 	<!--=====================================================================-->

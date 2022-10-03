@@ -218,6 +218,9 @@
 	<defName>WVC_TortureFormerPilon</defName>
 	<label>torture veil foundation</label>
 	<labelNoun>a veil foundation</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -242,6 +245,9 @@
 	<defName>WVC_TortureAutomatonTriangle</defName>
 	<label>torture triangle</label>
 	<labelNoun>a triangle</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -266,6 +272,9 @@
 	<defName>WVC_TortureFormerCore</defName>
 	<label>torture node core</label>
 	<labelNoun>a node core</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
 	<tags>
 		<li>WVC_FormerCore</li>
 	</tags>
@@ -275,6 +284,9 @@
 	<defName>WVC_TortureAutomatonSpike</defName>
 	<label>torture spike</label>
 	<labelNoun>a spike</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -299,6 +311,9 @@
 	<defName>WVC_TortureFormerVeil</defName>
 	<label>torture veil blade</label>
 	<labelNoun>a veil blade</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>

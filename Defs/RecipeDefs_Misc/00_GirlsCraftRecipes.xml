@@ -111,9 +111,12 @@
 	<workSkill>Intellectual</workSkill>
 	<workSkillLearnFactor>2</workSkillLearnFactor>
 	<fixedIngredientFilter>
+	  <disallowedCategories>
+		<li>WVC_MechanicalEggs</li>
+	  </disallowedCategories>
 	  <disallowedThingDefs>
 		<!-- <li>VFE_ComponentMechanoid</li> -->
-		<li MayRequire="vanillaexpanded.ideo.dryads">WVC_CapsuleILF</li>
+		<!-- <li MayRequire="honkai.girls.sergkart">WVC_CapsuleILF</li> -->
 		<li>WVC_UniversalFuel</li>
 		<!-- <li>Apparel_GirlyUnderwear_WVC</li> -->
 	  </disallowedThingDefs>

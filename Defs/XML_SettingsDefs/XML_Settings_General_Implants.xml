@@ -60,12 +60,12 @@
 				<tKey>HGS_WVC_AutoBodyPartsGenerator_GlobalVersion</tKey>
 				<tKeyTip>WVC_AutoBodyPartsGenerator_GlobalVersion_Desc</tKeyTip>
 			</li>
-			<li Class="XmlExtensions.Setting.Checkbox">
-				<key>WVC_BodyPartsGenerator_II_TEST</key>
-				<label>Enable test body part generator (only for tests)</label>
-				<defaultValue>false</defaultValue>
-				<tKey>HGS_WVC_AutoBodyPartsGenerator_GlobalVersion</tKey>
-			</li>
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>WVC_BodyPartsGenerator_II_TEST</key> -->
+				<!-- <label>Enable test body part generator (only for tests)</label> -->
+				<!-- <defaultValue>false</defaultValue> -->
+				<!-- <tKey>HGS_WVC_AutoBodyPartsGenerator_GlobalVersion</tKey> -->
+			<!-- </li> -->
 
 			<!-- ================================================================= -->
 

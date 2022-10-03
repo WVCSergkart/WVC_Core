@@ -28,4 +28,10 @@
 	<iconPath>Things/Item/Resource/ComponentIndustrial/ComponentIndustrial</iconPath>
   </ThingCategoryDef>
 
+  <ThingCategoryDef>
+	<defName>WVC_MechanicalEggs</defName>
+	<label>mechanical eggs</label>
+	<parent>Manufactured</parent>
+  </ThingCategoryDef>
+
 </Defs>

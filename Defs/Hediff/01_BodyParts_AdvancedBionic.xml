@@ -307,6 +307,9 @@
 	<defName>WVC_AdvancedFormerPilon</defName>
 	<label>experimental veil foundation</label>
 	<labelNoun>a veil foundation</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -331,6 +334,9 @@
 	<defName>WVC_AdvancedAutomatonTriangle</defName>
 	<label>experimental triangle</label>
 	<labelNoun>a triangle</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -355,6 +361,9 @@
 	<defName>WVC_AdvancedFormerCore</defName>
 	<label>experimental node core</label>
 	<labelNoun>a node core</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
 	<tags>
 		<li>WVC_FormerCore</li>
 	</tags>
@@ -364,6 +373,9 @@
 	<defName>WVC_AdvancedAutomatonSpike</defName>
 	<label>experimental spike</label>
 	<labelNoun>a spike</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -388,6 +400,9 @@
 	<defName>WVC_AdvancedFormerVeil</defName>
 	<label>experimental veil blade</label>
 	<labelNoun>a veil blade</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
