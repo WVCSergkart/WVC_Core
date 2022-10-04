@@ -162,7 +162,7 @@
 							<key>WVC_ResearchPatchForMainBranch_Enable</key>
 							<label>Enable technology patch</label>
 							<tooltip>If enabled, the technologies from the mod will have additional research requirements. For example, to learn "Ancient techs" beyond the standard requirements, all Neolithic technologies must also be researched. (Medieval for Mechanoid, Industrial for Nodes, Spacer for Archotech)</tooltip>
-							<defaultValue>true</defaultValue>
+							<defaultValue>false</defaultValue>
 							<tKey>HGS_WVC_ResearchPatchForMainBranch_Enable</tKey>
 							<tKeyTip>HGS_WVC_ResearchPatchForMainBranch_Enable_Desc</tKeyTip>
 						</li>

@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<!-- =============================FROZEN============================= -->
+	<!-- =============================FROZEN============================= -->
+	<!-- =============================FROZEN============================= -->
+
 	<XmlExtensions.SlateDef Name="WVC_BodyPartGeneratorII_PartsList" Abstract="True">
 		<bodyPart>
 			<li>Eye</li>
@@ -72,51 +76,40 @@
 						<xpath>{DEF}/bodyPart/li</xpath>
 					</Operation>
 
-					<Operation Class="XmlExtensions.CreateVariable">
-						<value>{DEF}/bodyPart/li</value>
-						<storeIn>DefName_bodyPart</storeIn>
-						<fromXml>true</fromXml>
+					<Operation Class="XmlExtensions.AggregateValues">
+						<valueOperations>
+
+							<Operation Class="XmlExtensions.CreateVariable">
+								<value>{DEF}/bodyPart/li</value>
+								<storeIn>DefName_bodyPart</storeIn>
+								<fromXml>true</fromXml>
+							</Operation>
+
+							<Operation Class="XmlExtensions.CreateVariable">
+								<value>{DEF}/bodyPart/bodyPartName/li</value>
+								<storeIn>Label_bodyPart</storeIn>
+								<fromXml>true</fromXml>
+							</Operation>
+
+						</valueOperations>
 						<apply>
 
 							<Operation Class="PatchOperationAdd">
 								<xpath>/Defs</xpath>
 								<value>
 
-								  <ThingDef ParentName="WVC_BodyPartAdvancedBionicBase" Abstract="True">
-									<description>Body part created using high technology.</description>
-									<techLevel>Spacer</techLevel>
-									<thingCategories>
-									  <li>WVC_BodyPartsTorture</li>
-									</thingCategories>
-									<graphicData>
-									  <color>(222,165,171)</color>
-									  <!-- <color>(255,188,196)</color> -->
-									</graphicData>
-									<costList>
-									  <!-- <Uranium>5</Uranium> -->
-									</costList>
-									<recipeMaker>
-									  <skillRequirements>
-										<Crafting>8</Crafting>
-										<Intellectual>4</Intellectual>
-										<Medicine>6</Medicine>
-									  </skillRequirements>
-									  <researchPrerequisite>WVC_BionicTech_Torture</researchPrerequisite>
-									  <recipeUsers>
-										<li>FabricationBench</li>
-									  </recipeUsers>
-									</recipeMaker>
+								  <ThingDef ParentName="WVC_BodyPartAdvancedBionicBase">
+									<defName>WVC_{BodyPartNamingValue}{DefName_bodyPart}</defName>
+									<label>{Label_bodyPart}</label>
+									<descriptionHyperlinks>
+										<!-- <RecipeDef>Install_{defName_DEF}</RecipeDef> -->
+									</descriptionHyperlinks>
 									<statBases>
-									  <WorkToMake>7000</WorkToMake>
-									  <!-- <MarketValue>1100</MarketValue> -->
-									  <DeteriorationRate>0.3</DeteriorationRate>
 									</statBases>
-									<tradeTags>
-									  <li>Bionic</li>
-									</tradeTags>
-									<techHediffsTags Inherit="False">
-									  <li>PainCauser</li>
-									</techHediffsTags>
+									<costList>
+										<!-- <Plasteel>25</Plasteel> -->
+										<!-- <ComponentSpacer>5</ComponentSpacer> -->
+									</costList>
 								  </ThingDef>
 
 								</value>
