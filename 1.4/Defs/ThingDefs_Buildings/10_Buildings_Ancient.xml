@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="AncientBuildings_WVC">
+	<defName>WVC_FloorLamp</defName>
+	<label>floor lamp</label>
+	<description>No information available.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
+	<!-- Floor -->
+	<altitudeLayer>FloorCoverings</altitudeLayer>
+	<blockPlants>true</blockPlants>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<selectable>true</selectable>
+	<useHitPoints>true</useHitPoints>
+	<blocksAltitudes>
+	  <li>FloorCoverings</li>
+	</blocksAltitudes>
+	<building>
+	  <isEdifice>false</isEdifice>
+	  <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+	</building>
+	<fillPercent>0</fillPercent>
+	<!-- Building -->
+	<graphicData>
+	  <texPath>WVC/Stuff/FloorLamp</texPath>
+	  <graphicClass>Graphic_Random</graphicClass>
+	  <drawSize>1</drawSize>
+	  <!-- <shadowData> -->
+		<!-- <volume>(0.5,0.3,0.7)</volume> -->
+		<!-- <offset>(0,0,-0.15)</offset> -->
+	  <!-- </shadowData> -->
+	  <damageData>
+		<rect>(0.234375,0,0.515625,0.984375)</rect>
+		<cornerTL>Damage/Corner</cornerTL>
+		<cornerTR>Damage/Corner</cornerTR>
+		<cornerBL>Damage/Corner</cornerBL>
+		<cornerBR>Damage/Corner</cornerBR>
+	  </damageData>
+	</graphicData>
+	<size>(1,1)</size>
+	<passability>Standable</passability>
+	<blockWind>false</blockWind>
+	<rotatable>false</rotatable>
+	<thingCategories>
+	  <li>BuildingsFurniture</li>
+	</thingCategories>
+	<statBases>
+	  <WorkToBuild>1000</WorkToBuild>
+	  <MaxHitPoints>35</MaxHitPoints>
+	  <Mass>12</Mass>
+	  <Flammability>0</Flammability>
+      <Beauty>1</Beauty>
+	  <MarketValue>10</MarketValue>
+	</statBases>
+	<!-- <damageMultipliers Inherit="False"> -->
+	<!-- </damageMultipliers> -->
+	<!-- <tickerType>Rare</tickerType> -->
+	<!-- <tickerType>Never</tickerType> -->
+	<costList>
+		<Plasteel>10</Plasteel>
+		<Uranium>3</Uranium>
+		<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	</costList>
+	<terrainAffordanceNeeded>WVC_AncientFloorLamp</terrainAffordanceNeeded>
+	<comps Inherit="False">
+	  <li Class="CompProperties_Flickable"/>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<!-- <glowColor>(200,200,255)</glowColor> -->
+		<glowColor>(78, 226, 229, 0)</glowColor>
+	  </li>
+	</comps>
+	<researchPrerequisites Inherit="False">
+	  <li>ValkyriesTechs_I_WVC</li>
+	  <!-- <li>Machining</li> -->
+	</researchPrerequisites>
+	<designationCategory>Furniture</designationCategory>
+  </ThingDef>
+
+</Defs>

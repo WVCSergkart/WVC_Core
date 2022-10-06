@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================================================ -->
+  
+	<ThingDef Name="WVC_BuildingBed_Node" ParentName="WVC_BuildingBed_Base" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<label>(Single) Node bed</label>
+		<statBases>
+		  <MaxHitPoints>1300</MaxHitPoints>
+		  <Mass>35</Mass>
+		</statBases>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<!-- <li>ValkyriesTechs_II_WVC</li> -->
+		</researchPrerequisites>
+	</ThingDef>
+
+  <!-- ============================================================ -->
+  
+  <ThingDef ParentName="WVC_BuildingBed_Node">
+	<defName>WVC_NodeBed_Blue</defName>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/Beds/NodeBedB</texPath>
+	  <!-- <color>(133,202,255)</color> -->
+	</graphicData>
+	<costList>
+	  <WVC_ResourceNodes_Blue>12</WVC_ResourceNodes_Blue>
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(133,202,255,0)</glowColor>
+	  </li>
+	</comps>
+	<researchPrerequisites>
+		<li>WVC_ResearchNodes_Blue</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="WVC_BuildingBed_Node">
+	<defName>WVC_NodeBed_Green</defName>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/Beds/NodeBedG</texPath>
+	  <!-- <color>(133,255,136)</color> -->
+	</graphicData>
+	<costList>
+	  <WVC_ResourceNodes_Green>12</WVC_ResourceNodes_Green>
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(133,255,136,0)</glowColor>
+	  </li>
+	</comps>
+	<researchPrerequisites>
+		<li>WVC_ResearchNodes_Green</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="WVC_BuildingBed_Node">
+	<defName>WVC_NodeBed_Red</defName>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/Beds/NodeBedR</texPath>
+	  <!-- <color>(255,133,133)</color> -->
+	</graphicData>
+	<costList>
+	  <WVC_ResourceNodes_Red>12</WVC_ResourceNodes_Red>
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(255,133,133,0)</glowColor>
+	  </li>
+	</comps>
+	<researchPrerequisites>
+		<li>WVC_ResearchNodes_Red</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="WVC_BuildingBed_Node">
+	<defName>WVC_NodeBed_Violet</defName>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/Beds/NodeBedV</texPath>
+	  <!-- <color>(142,133,255)</color> -->
+	</graphicData>
+	<costList>
+	  <WVC_ResourceNodes_Violet>12</WVC_ResourceNodes_Violet>
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(142,133,255,0)</glowColor>
+	  </li>
+	</comps>
+	<researchPrerequisites>
+		<li>WVC_ResearchNodes_Violet</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="WVC_BuildingBed_Node">
+	<defName>WVC_NodeBed_Yellow</defName>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/Beds/NodeBedY</texPath>
+	  <!-- <color>(255,248,133)</color> -->
+	</graphicData>
+	<costList>
+	  <WVC_ResourceNodes_Yellow>12</WVC_ResourceNodes_Yellow>
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(255,248,133,0)</glowColor>
+	  </li>
+	</comps>
+	<researchPrerequisites>
+		<li>WVC_ResearchNodes_Yellow</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+</Defs>

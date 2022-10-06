@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="ArchotechBuildings_WVC">
+	<defName>WVC_ArchotechArmoredNode</defName>
+	<label>archotech armored node</label>
+	<description>A complex system connected to an underground structure. Can be used as a barricade.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
+	<thingClass>Building</thingClass>
+	<category>Building</category>
+	<graphicData>
+	  <texPath>WVC/Stuff/WallsDoorsColumns/ArchotechTableBarricade/ArchotechTableBarricade_Atlas</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <linkType>Basic</linkType>
+	  <linkFlags>
+		<li>Barricades</li>
+	  </linkFlags>
+	</graphicData>
+	<uiIconPath>WVC/Stuff/WallsDoorsColumns/ArchotechTableBarricade_Icon</uiIconPath>
+	<uiIconScale>1.0</uiIconScale>
+	<altitudeLayer>Building</altitudeLayer>
+	<pathCost>42</pathCost>
+	<pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
+	<passability>PassThroughOnly</passability>
+	<castEdgeShadows>true</castEdgeShadows>
+	<fillPercent>0.55</fillPercent>
+	<canOverlapZones>false</canOverlapZones>
+	<statBases>
+	  <MarketValue>1</MarketValue>
+	  <MaxHitPoints>6000</MaxHitPoints>
+	  <Beauty>3</Beauty>
+	  <Mass>5</Mass>
+	</statBases>
+	<costList>
+	  <Plasteel>30</Plasteel>
+	  <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	</costList>
+	<building>
+	  <ai_chillDestination>false</ai_chillDestination>
+	  <isInert>true</isInert>
+	  <isFence>true</isFence>
+	  <isPlaceOverableWall>true</isPlaceOverableWall>
+	  <blueprintGraphicData>
+		<texPath>Things/Building/Linked/Barricade_Blueprint_Atlas</texPath>
+	  </blueprintGraphicData>
+	</building>
+	<placingDraggableDimensions>1</placingDraggableDimensions>
+	<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+	<rotatable>false</rotatable>
+	<selectable>true</selectable>
+	<neverMultiSelect>true</neverMultiSelect>
+	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+	<designationCategory>Security</designationCategory>
+	<staticSunShadowHeight>0.20</staticSunShadowHeight>
+	<researchPrerequisites Inherit="False">
+	  <li>ValkyriesTechs_III_WVC</li>
+	</researchPrerequisites>
+	<comps>
+	</comps>
+	<designatorDropdown>HGS_Nodes_WVC</designatorDropdown>
+  </ThingDef>
+
+</Defs>

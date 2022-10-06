@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- =================================================== -->
+
+  <AlienRace.ThingDef_AlienRace ParentName="WVC_NodeRacesFormers_Blue" Name="WVC_NodeRacesFormers_Red" Abstract="True">
+	<alienRace>
+
+		<!--=====================================================================-->
+
+		<graphicPaths Inherit="False">
+			<li>
+				<body>WVC/NodeRace/BodiesV3/</body>
+				<head>WVC/NodeRace/HeadV3/</head>
+				<skeleton>WVC/NodeRace/DeadV3</skeleton>
+				<!-- <skull>WVC/Pawns/Head/Head</skull> -->
+				<skinShader>CutoutComplex</skinShader>
+			</li>
+		</graphicPaths>
+
+	</alienRace>
+
+	<!-- ==================================Thing================================== -->
+
+	<statBases>
+	  <SocialImpact>0.4</SocialImpact>
+	  <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+	  <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+	  <MoveSpeed>7.9</MoveSpeed>
+	  <MarketValue>2350</MarketValue>
+	  <Mass>44</Mass>
+	  <VEF_VerbRangeFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_VerbRangeFactor>
+	</statBases>
+
+	<!-- ==================================================================== -->
+
+	<verbs>
+		<li>
+			<label>blaster</label>
+			<verbClass>Verb_Shoot</verbClass>
+			<accuracyTouch>1.0</accuracyTouch>
+			<accuracyShort>1.0</accuracyShort>
+			<accuracyMedium>1.0</accuracyMedium>
+			<accuracyLong>1.0</accuracyLong>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultCooldownTime>0.7</defaultCooldownTime>
+			<warmupTime>0.4</warmupTime>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+			<minRange>1</minRange>
+			<range>12.9</range>
+			<defaultProjectile>Bullet_RedFormerPlasma_WVC</defaultProjectile>
+			<soundCast>Shot_ChargeBlaster</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+			  <canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</li>
+	</verbs>
+
+	<!-- ==================================================================== -->
+
+	<race>
+	  <baseBodySize>0.8</baseBodySize>
+	  <body>WVC_Nodes_RedFormer</body>
+	  <specificMeatDef>WVC_ResourceNodes_Red</specificMeatDef>
+	</race>
+
+	<!-- ==================================================================== -->
+
+	<tradeTags>
+	</tradeTags>
+
+	<!-- ==================================================================== -->
+
+	<comps>
+	</comps>
+
+	<!-- ==================================================================== -->
+
+	<recipes>
+	</recipes>
+
+	<!-- ==================================================================== -->
+
+  </AlienRace.ThingDef_AlienRace>
+
+</Defs>

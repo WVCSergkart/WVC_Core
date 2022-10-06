@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef Name="WVC_Hediff_BodyPart_NodeViolet" ParentName="AddedBodyPartBase" Abstract="True">
+	<description>Body part created using sophisticated violet node technology.</description>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<!-- 8e85ff -->
+	<defaultLabelColor>(142,133,255)</defaultLabelColor>
+	<priceOffset>1400</priceOffset>
+	<addedPartProps>
+	  <solid>true</solid>
+	  <partEfficiency>1.40</partEfficiency>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+  </HediffDef>
+
+  <!--=====================================================================-->
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletEye</defName>
+	<label>violet node eye</label>
+	<labelNoun>an violet node eye</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>Eye</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletEar</defName>
+	<label>violet node ear</label>
+	<labelNoun>a violet node ear</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>Ear</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletJaw</defName>
+	<label>violet node jaw</label>
+	<labelNoun>a violet node jaw</labelNoun>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>teeth</label>
+			<capacities>
+			  <li>Bite</li>
+			</capacities>
+			<power>15</power>
+			<cooldownTime>1.5</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PawnBeauty>1</PawnBeauty>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>Jaw</li>
+	</tags>
+  </HediffDef>
+  
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletNose</defName>
+	<label>violet node nose</label>
+	<labelNoun>an violet node nose</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PawnBeauty>1</PawnBeauty>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>Nose</li>
+	</tags>
+  </HediffDef>
+
+  <!--=====================================================================-->
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletStomach</defName>
+	<label>violet node stomach</label>
+	<labelNoun>a violet node stomach</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+		</statOffsets>
+		<hungerRateFactor>0.01</hungerRateFactor>
+		<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+	  </li>
+	</stages>
+	<tags>
+		<li>Stomach</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletSpine</defName>
+	<label>violet node spine</label>
+	<labelNoun>a violet node spine</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>Spine</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletHeart</defName>
+	<label>violet node heart</label>
+	<labelNoun>a violet node heart</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+		</statOffsets>
+		<totalBleedFactor>0.5</totalBleedFactor>
+		<naturalHealingFactor>2</naturalHealingFactor>
+	  </li>
+	</stages>
+	<tags>
+		<li>Heart</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletKidney</defName>
+	<label>violet node kidney</label>
+	<labelNoun>a violet node kidney</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+		  <ImmunityGainSpeed>0.08</ImmunityGainSpeed>
+		  <ToxicSensitivity>-0.25</ToxicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>Kidney</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletLiver</defName>
+	<label>violet node liver</label>
+	<labelNoun>a violet node liver</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+		  <ToxicSensitivity>-0.5</ToxicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>Liver</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletLung</defName>
+	<label>violet node lung</label>
+	<labelNoun>a violet node lung</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>Lung</li>
+	</tags>
+  </HediffDef>
+
+  <!--=====================================================================-->
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletArm</defName>
+	<label>violet node arm</label>
+	<labelNoun>an violet node arm</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>fist</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>16</power>
+			<cooldownTime>1.5</cooldownTime>
+			<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+			<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>Shoulder</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletLeg</defName>
+	<label>violet node leg</label>
+	<labelNoun>an violet node leg</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>feet</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>17</power>
+			<cooldownTime>1.5</cooldownTime>
+			<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+			<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>Leg</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletTail</defName>
+	<label>violet node tail</label>
+	<labelNoun>a violet node tail</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>tail</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>18</power>
+			<cooldownTime>1.5</cooldownTime>
+			<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+			<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>Tail</li>
+	</tags>
+  </HediffDef>
+
+  <!-- =================================NODES================================= -->
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletFormerPilon</defName>
+	<label>violet node veil foundation</label>
+	<labelNoun>a veil foundation</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>veil blade</label>
+			<capacities>
+			  <li>Cut</li>
+			  <li>Stab</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>WVC_FormerPilon</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletAutomatonTriangle</defName>
+	<label>violet node triangle</label>
+	<labelNoun>a triangle</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>spike</label>
+			<capacities>
+			  <li>Cut</li>
+			  <li>Stab</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>WVC_Automaton_Triangle</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletFormerCore</defName>
+	<label>violet node core</label>
+	<labelNoun>a node core</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>WVC_FormerCore</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletAutomatonSpike</defName>
+	<label>violet node spike</label>
+	<labelNoun>a spike</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.002</IncomingDamageFactor>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>spike</label>
+			<capacities>
+			  <li>Cut</li>
+			  <li>Stab</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>WVC_Automaton_Spike</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
+	<defName>WVC_NodeVioletFormerVeil</defName>
+	<label>violet node veil blade</label>
+	<labelNoun>a veil blade</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.002</IncomingDamageFactor>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>veil blade</label>
+			<capacities>
+			  <li>Cut</li>
+			  <li>Stab</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>WVC_FormerVeil</li>
+	</tags>
+  </HediffDef>
+
+</Defs>

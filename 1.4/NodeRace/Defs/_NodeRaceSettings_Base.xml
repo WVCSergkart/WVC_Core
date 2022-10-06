@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AlienRace.RaceSettings>
+	<defName>NodeRaces_Base_RaceSettings_WVC</defName>
+	<pawnKindSettings>
+	  <startingColonists>
+		<li>
+		  <pawnKindEntries>
+			<li>
+			  <kindDefs>
+				<li>WVC_AlienRace_RedFormer</li>
+				<li MayRequire="honkai.girls.sergkart">WVC_AlienRace_Reshaper</li>
+			  </kindDefs>
+			  <chance>100.0</chance>
+			</li>
+		  </pawnKindEntries>
+		  <factionDefs>
+			<li>PlayerFaction_NodesFormers_WVC</li>
+		  </factionDefs>
+		</li>
+	  </startingColonists>
+	</pawnKindSettings>
+  </AlienRace.RaceSettings>
+
+</Defs>

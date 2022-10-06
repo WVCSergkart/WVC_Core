@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Standart -->
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_WVC" Name="Nodes_HumanoidBackstory_AdulthoodWorkDisable_WVC" Abstract="True">
+		<title>Former</title>
+		<titleShort>Former</titleShort>
+		<!-- <baseDescription>No available information.</baseDescription> -->
+		<slot>Adulthood</slot>
+		<skillGains Inherit="False">
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<!-- Standart -->
+
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodWorkDisable_WVC">
+		<defName>NodesBackstoryAdult_WorkDisable_FormerPlants_WVC</defName>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<!-- <li>Social</li> -->
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Plants</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodWorkDisable_WVC">
+		<defName>NodesBackstoryAdult_WorkDisable_FormerAnimals_WVC</defName>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<!-- <li>Social</li> -->
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Animals</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodWorkDisable_WVC">
+		<defName>NodesBackstoryAdult_WorkDisable_FormerCooking_WVC</defName>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<!-- <li>Social</li> -->
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Cooking</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodWorkDisable_WVC">
+		<defName>NodesBackstoryAdult_WorkDisable_FormerMining_WVC</defName>
+		<workDisables>
+			<li>Artistic</li>
+			<!-- <li>Intellectual</li> -->
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<li>Social</li>
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Mining</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodWorkDisable_WVC">
+		<defName>NodesBackstoryAdult_WorkDisable_FormerConstruction_WVC</defName>
+		<workDisables>
+			<!-- <li>Artistic</li> -->
+			<li>Intellectual</li>
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<li>Social</li>
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Construction</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodWorkDisable_WVC">
+		<defName>NodesBackstoryAdult_WorkDisable_FormerCrafting_WVC</defName>
+		<workDisables>
+			<!-- <li>Artistic</li> -->
+			<!-- <li>Intellectual</li> -->
+			<li>Animals</li>
+			<li>PlantWork</li>
+			<!-- <li>Social</li> -->
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Crafting</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodWorkDisable_WVC">
+		<defName>NodesBackstoryAdult_WorkDisable_FormerArtistic_WVC</defName>
+		<workDisables>
+			<!-- <li>Artistic</li> -->
+			<!-- <li>Intellectual</li> -->
+			<li>Animals</li>
+			<li>PlantWork</li>
+			<!-- <li>Social</li> -->
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Artistic</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodWorkDisable_WVC">
+		<defName>NodesBackstoryAdult_WorkDisable_FormerMedicine_WVC</defName>
+		<workDisables>
+			<!-- <li>Artistic</li> -->
+			<!-- <li>Intellectual</li> -->
+			<li>Animals</li>
+			<li>PlantWork</li>
+			<!-- <li>Social</li> -->
+			<li>Hunting</li>
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Medicine</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodWorkDisable_WVC">
+		<defName>NodesBackstoryAdult_WorkDisable_FormerSocial_WVC</defName>
+		<workDisables>
+			<!-- <li>Artistic</li> -->
+			<!-- <li>Intellectual</li> -->
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<!-- <li>Social</li> -->
+			<li>Hunting</li>
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Social</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodWorkDisable_WVC">
+		<defName>NodesBackstoryAdult_WorkDisable_FormerIntellectual_WVC</defName>
+		<workDisables>
+			<!-- <li>Artistic</li> -->
+			<!-- <li>Intellectual</li> -->
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<!-- <li>Social</li> -->
+			<li>Hunting</li>
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Intellectual</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodWorkDisable_WVC">
+		<defName>NodesBackstoryAdult_WorkDisable_FormerMelee_WVC</defName>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<li>Social</li>
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Melee</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodWorkDisable_WVC">
+		<defName>NodesBackstoryAdult_WorkDisable_FormerShooting_WVC</defName>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<li>Social</li>
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Shooting</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<!-- Standart -->
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_WVC" Name="Nodes_HumanoidBackstory_ChildhoodWorkDisable_WVC" Abstract="True">
+		<title>Former</title>
+		<titleShort>Former</titleShort>
+		<!-- <baseDescription>No available information.</baseDescription> -->
+		<slot>Childhood</slot>
+		<skillGains Inherit="False">
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<!-- Standart -->
+
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodWorkDisable_WVC">
+		<defName>NodesBackstoryChild_WorkDisable_FormerPlants_WVC</defName>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<!-- <li>Social</li> -->
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Plants</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodWorkDisable_WVC">
+		<defName>NodesBackstoryChild_WorkDisable_FormerAnimals_WVC</defName>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<!-- <li>Social</li> -->
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Animals</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodWorkDisable_WVC">
+		<defName>NodesBackstoryChild_WorkDisable_FormerCooking_WVC</defName>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<!-- <li>Social</li> -->
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Cooking</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodWorkDisable_WVC">
+		<defName>NodesBackstoryChild_WorkDisable_FormerMining_WVC</defName>
+		<workDisables>
+			<li>Artistic</li>
+			<!-- <li>Intellectual</li> -->
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<li>Social</li>
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Mining</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodWorkDisable_WVC">
+		<defName>NodesBackstoryChild_WorkDisable_FormerConstruction_WVC</defName>
+		<workDisables>
+			<!-- <li>Artistic</li> -->
+			<li>Intellectual</li>
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<li>Social</li>
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Construction</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodWorkDisable_WVC">
+		<defName>NodesBackstoryChild_WorkDisable_FormerCrafting_WVC</defName>
+		<workDisables>
+			<!-- <li>Artistic</li> -->
+			<!-- <li>Intellectual</li> -->
+			<li>Animals</li>
+			<li>PlantWork</li>
+			<!-- <li>Social</li> -->
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Crafting</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodWorkDisable_WVC">
+		<defName>NodesBackstoryChild_WorkDisable_FormerArtistic_WVC</defName>
+		<workDisables>
+			<!-- <li>Artistic</li> -->
+			<!-- <li>Intellectual</li> -->
+			<li>Animals</li>
+			<li>PlantWork</li>
+			<!-- <li>Social</li> -->
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Artistic</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodWorkDisable_WVC">
+		<defName>NodesBackstoryChild_WorkDisable_FormerMedicine_WVC</defName>
+		<workDisables>
+			<!-- <li>Artistic</li> -->
+			<!-- <li>Intellectual</li> -->
+			<li>Animals</li>
+			<li>PlantWork</li>
+			<!-- <li>Social</li> -->
+			<li>Hunting</li>
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Medicine</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodWorkDisable_WVC">
+		<defName>NodesBackstoryChild_WorkDisable_FormerSocial_WVC</defName>
+		<workDisables>
+			<!-- <li>Artistic</li> -->
+			<!-- <li>Intellectual</li> -->
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<!-- <li>Social</li> -->
+			<li>Hunting</li>
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Social</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodWorkDisable_WVC">
+		<defName>NodesBackstoryChild_WorkDisable_FormerIntellectual_WVC</defName>
+		<workDisables>
+			<!-- <li>Artistic</li> -->
+			<!-- <li>Intellectual</li> -->
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<!-- <li>Social</li> -->
+			<li>Hunting</li>
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Intellectual</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodWorkDisable_WVC">
+		<defName>NodesBackstoryChild_WorkDisable_FormerMelee_WVC</defName>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<li>Social</li>
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Melee</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodWorkDisable_WVC">
+		<defName>NodesBackstoryChild_WorkDisable_FormerShooting_WVC</defName>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Intellectual</li>
+			<!-- <li>Animals</li> -->
+			<!-- <li>PlantWork</li> -->
+			<li>Social</li>
+			<!-- <li>Hunting</li> -->
+		</workDisables>
+		<skillGains Inherit="False">
+		  <li>
+			<defName>Shooting</defName>
+			<amount>7</amount>
+		  </li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+  
+</Defs>

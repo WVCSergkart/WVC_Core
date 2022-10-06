@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XmlExtensions.SettingsMenuDef>
+		<defName>Settings_GeneralWVC</defName>
+		<modId>honkai.girls.sergkart</modId>
+		<settings>
+			<li Class="XmlExtensions.Setting.Gap"/>
+			<li Class="XmlExtensions.Setting.GapLine" />
+			<li MayRequire="honkai.girls.sergkart" Class="XmlExtensions.Setting.EmbedMenu">
+				<menu>NotSettings_Info_AboutAllGirls_WVC</menu>
+			</li>
+			<!-- =================================================== -->
+			<li MayRequire="honkai.girls.sergkart" Class="XmlExtensions.Setting.Gap" />
+			<li Class="XmlExtensions.Setting.SetColor">
+				<color>(200,200,255)</color>
+			</li>
+			<li Class="XmlExtensions.Setting.Text">
+				<text>"WVC - Core" only contains buildings and some extra settings. Everything under the "Humanlike" tab is only available with the "WVC - kemomimilike" mod. Some Extra settings and resource settings also require kemomimilike. The settings below are mixed.</text>
+				<tKey>HGS_General_GeneralTab_MainInfo_WVC</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.SetColor"/>
+			<!-- =================================================== -->
+			<!-- &lt;color=#ffc832&gt; - open -->
+			<!-- &lt;/color&gt; - close -->
+			<li Class="XmlExtensions.Setting.GapLine" />
+			<li Class="XmlExtensions.Setting.SplitColumns">
+				<drawLine>true</drawLine>
+				<splits>
+					<li>0.5</li>
+					<li>0.5</li>
+				</splits>
+				<settings>
+					<li>
+						<!-- <li Class="XmlExtensions.Setting.SetColor"> -->
+							<!-- <color>(255,162,162)</color> -->
+						<!-- </li> -->
+						<!-- <li Class="XmlExtensions.Setting.SetColor"> -->
+							<!-- <color>(162,200,255)</color> -->
+						<!-- </li> -->
+						<li Class="XmlExtensions.Setting.Checkbox">
+							<key>WVC_DesignationCategory_Patch</key>
+							<label>Enable designation category</label>
+							<defaultValue>false</defaultValue>
+							<tooltip>Creates a category in the architect tab and moves all buildings in the mod to it.</tooltip>
+							<tKey>HGS_WVC_DesignationCategory_Patch_label</tKey>
+							<tKeyTip>HGS_WVC_DesignationCategory_Patch_Desc</tKeyTip>
+						</li>
+						<li Class="XmlExtensions.Setting.Checkbox">
+							<key>WVC_NoKL_DisableUnderwear_Option</key>
+							<label>Disable underwear?</label>
+							<tooltip>The mod adds underwear - a cheap, invisible item of clothing that will help protect against temperatures. It can only be disabled if the KL mod is NOT installed.</tooltip>
+							<defaultValue>false</defaultValue>
+							<tKey>HGS_General_NoKL_DisableUnderwear_Option_Label_WVC</tKey>
+							<tKeyTip>HGS_General_NoKL_DisableUnderwear_Option_Desc_WVC</tKeyTip>
+						</li>
+						<li Class="XmlExtensions.Setting.Checkbox">
+							<key>WVC_ResearchPatchForMainBranch_Enable</key>
+							<label>Enable technology patch</label>
+							<tooltip>If enabled, the technologies from the mod will have additional research requirements. For example, to learn "Ancient techs" beyond the standard requirements, all Neolithic technologies must also be researched. (Medieval for Mechanoid, Industrial for Nodes, Spacer for Archotech)</tooltip>
+							<defaultValue>false</defaultValue>
+							<tKey>HGS_WVC_ResearchPatchForMainBranch_Enable</tKey>
+							<tKeyTip>HGS_WVC_ResearchPatchForMainBranch_Enable_Desc</tKeyTip>
+						</li>
+						<li Class="XmlExtensions.Setting.Checkbox">
+							<key>WVC_Nodes_EnableFormerWandererEvent</key>
+							<label>Enable former wanderer event</label>
+							<defaultValue>true</defaultValue>
+							<tKey>HGS_Nodes_EnableFormerWandererEvent_WVC</tKey>
+						</li>
+					</li>
+					<li>
+						<li Class="XmlExtensions.Setting.Text">
+							<text>The mod has several options for body parts that can be obtained as a reward or crafted. Ancient and mechanoid parts are recommended.\n\n*At the moment, the body parts are in development and lack descriptions, otherwise they are playable and do not cause bugs.*</text>
+							<tKey>HGS_Implants_MainInfo_WVC</tKey>
+						</li>
+
+						<!-- ================================================================= -->
+
+						<li Class="XmlExtensions.Setting.Checkbox">
+							<key>WVC_EnableImplants_TortureBodyParts</key>
+							<label>Enable torture body parts</label>
+							<defaultValue>false</defaultValue>
+							<tKey>HGS_WVC_EnableImplants_TortureBodyParts_Label</tKey>
+						</li>
+						<li Class="XmlExtensions.Setting.Checkbox">
+							<key>WVC_EnableImplants_AdvancedBionicBodyParts</key>
+							<label>Enable experimental bionic body parts</label>
+							<defaultValue>false</defaultValue>
+							<tKey>HGS_WVC_EnableImplants_AdvancedBionicBodyParts_Label</tKey>
+						</li>
+						<li Class="XmlExtensions.Setting.Checkbox">
+							<key>WVC_EnableImplants_CyberneticBodyParts</key>
+							<label>Enable cybernetic body parts</label>
+							<defaultValue>false</defaultValue>
+							<tKey>HGS_WVC_EnableImplants_CyberneticBodyParts_Label</tKey>
+						</li>
+						<li Class="XmlExtensions.Setting.Checkbox">
+							<key>WVC_EnableImplants_AncientBodyParts</key>
+							<label>Enable ancient body parts</label>
+							<defaultValue>true</defaultValue>
+							<tKey>HGS_WVC_EnableImplants_AncientBodyParts_Label</tKey>
+						</li>
+						<li Class="XmlExtensions.Setting.Checkbox">
+							<key>WVC_EnableImplants_MechanoidBodyParts</key>
+							<label>Enable mechanoid body parts</label>
+							<defaultValue>true</defaultValue>
+							<tKey>HGS_WVC_EnableImplants_MechanoidBodyParts_Label</tKey>
+						</li>
+						<li Class="XmlExtensions.Setting.Checkbox">
+							<key>WVC_EnableImplants_NodeBodyParts</key>
+							<label>Enable node body parts</label>
+							<defaultValue>true</defaultValue>
+							<tKey>HGS_WVC_EnableImplants_NodeBodyParts_Label</tKey>
+						</li>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================================================================= -->
+
+			<li MayRequire="honkai.girls.sergkart" Class="XmlExtensions.Setting.GapLine"/>
+			<li MayRequire="honkai.girls.sergkart" Class="XmlExtensions.Setting.EmbedMenu">
+				<menu>Settings_Valkyries_Mutations_WVC</menu>
+			</li>
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+</Defs>

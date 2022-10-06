@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- <Operation Class="XmlExtensions.PatchOperationAddOrReplace"> -->
+	  <!-- <xpath>/Defs/ThingDef[@Name="Marker_BuildingsWalls_Archo_WVC" or @Name="Marker_BuildingsDoors_Archo_WVC"]</xpath> -->
+	  <!-- <value> -->
+		<!-- <useHitPoints>false</useHitPoints> -->
+	  <!-- </value> -->
+	<!-- </Operation> -->
+
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>honkai.girls.sergkart</modId>
+		<key>WVC_EnableImplants_NodeBodyParts</key>
+		<defaultValue>true</defaultValue>
+		<caseFalse>
+
+			<li Class="XmlExtensions.PatchOperationSafeRemove">
+				<xpath>/Defs/HediffDef[@ParentName="WVC_Hediff_BodyPart_NodeYellow" or @ParentName="WVC_Hediff_BodyPart_NodeBlue" or @ParentName="WVC_Hediff_BodyPart_NodeGreen" or @ParentName="WVC_Hediff_BodyPart_NodeViolet" or @ParentName="WVC_Hediff_BodyPart_NodeRed" or @ParentName="WVC_Hediff_BodyPart_Archotech"]</xpath>
+			</li>
+			<!-- <li Class="XmlExtensions.PatchOperationSafeRemove"> -->
+				<!-- <xpath>/Defs/ThingCategoryDef[defName="WVC_BodyPartsMechanoid"]</xpath> -->
+			<!-- </li> -->
+
+		</caseFalse>
+		<caseTrue>
+
+			<Operation Class="XmlExtensions.ApplyPatch">
+				<patchName>WVC_BodyPartGenerator</patchName>
+				<arguments>
+					<li>WVC_Hediff_BodyPart_NodeBlue</li>
+					<li>WVC_BodyPartsNodes_Blue</li>
+				</arguments>
+			</Operation>
+			<Operation Class="XmlExtensions.ApplyPatch">
+				<patchName>WVC_BodyPartGenerator</patchName>
+				<arguments>
+					<li>WVC_Hediff_BodyPart_NodeGreen</li>
+					<li>WVC_BodyPartsNodes_Green</li>
+				</arguments>
+			</Operation>
+			<Operation Class="XmlExtensions.ApplyPatch">
+				<patchName>WVC_BodyPartGenerator</patchName>
+				<arguments>
+					<li>WVC_Hediff_BodyPart_NodeRed</li>
+					<li>WVC_BodyPartsNodes_Red</li>
+				</arguments>
+			</Operation>
+			<Operation Class="XmlExtensions.ApplyPatch">
+				<patchName>WVC_BodyPartGenerator</patchName>
+				<arguments>
+					<li>WVC_Hediff_BodyPart_NodeViolet</li>
+					<li>WVC_BodyPartsNodes_Violet</li>
+				</arguments>
+			</Operation>
+			<Operation Class="XmlExtensions.ApplyPatch">
+				<patchName>WVC_BodyPartGenerator</patchName>
+				<arguments>
+					<li>WVC_Hediff_BodyPart_NodeYellow</li>
+					<li>WVC_BodyPartsNodes_Yellow</li>
+				</arguments>
+			</Operation>
+			<Operation Class="XmlExtensions.ApplyPatch">
+				<patchName>WVC_BodyPartGenerator</patchName>
+				<arguments>
+					<li>WVC_Hediff_BodyPart_Archotech</li>
+					<li>WVC_BodyPartsNodes_Archotech</li>
+				</arguments>
+			</Operation>
+
+		</caseTrue>
+	</Operation>
+
+	<!--=====================================================================-->
+
+	<Operation Class="XmlExtensions.FindMod">
+		<mods>
+			<li>vanillaexpanded.outposts</li>
+		</mods>
+		<packageId>true</packageId>
+		<!-- <logic>or</logic> -->
+		<caseTrue>
+			<Operation Class="PatchOperationAdd">
+			  <xpath>/Defs/WorldObjectDef[defName="Outpost_Production"]/modExtensions/li[@Class="Outposts.OutpostExtension_Choose"]/ResultOptions</xpath>
+			  <value>
+				  <li>
+					<Thing>WVC_ResourceNodes_Blue</Thing>
+					<AmountsPerSkills>
+					  <Crafting>1</Crafting>
+					</AmountsPerSkills>
+					<MinSkills>
+					  <Crafting>50</Crafting>
+					  <Intellectual>60</Intellectual>
+					</MinSkills>
+				  </li>
+				  <li>
+					<Thing>WVC_ResourceNodes_Green</Thing>
+					<AmountsPerSkills>
+					  <Crafting>1</Crafting>
+					</AmountsPerSkills>
+					<MinSkills>
+					  <Crafting>50</Crafting>
+					  <Intellectual>60</Intellectual>
+					</MinSkills>
+				  </li>
+				  <li>
+					<Thing>WVC_ResourceNodes_Red</Thing>
+					<AmountsPerSkills>
+					  <Crafting>1</Crafting>
+					</AmountsPerSkills>
+					<MinSkills>
+					  <Crafting>50</Crafting>
+					  <Intellectual>60</Intellectual>
+					</MinSkills>
+				  </li>
+				  <li>
+					<Thing>WVC_ResourceNodes_Violet</Thing>
+					<AmountsPerSkills>
+					  <Crafting>1</Crafting>
+					</AmountsPerSkills>
+					<MinSkills>
+					  <Crafting>50</Crafting>
+					  <Intellectual>60</Intellectual>
+					</MinSkills>
+				  </li>
+				  <li>
+					<Thing>WVC_ResourceNodes_Yellow</Thing>
+					<AmountsPerSkills>
+					  <Crafting>1</Crafting>
+					</AmountsPerSkills>
+					<MinSkills>
+					  <Crafting>50</Crafting>
+					  <Intellectual>60</Intellectual>
+					</MinSkills>
+				  </li>
+				  <li>
+					<Thing>WVC_ResourceNodes_Archotech</Thing>
+					<AmountsPerSkills>
+					  <Crafting>1</Crafting>
+					</AmountsPerSkills>
+					<MinSkills>
+					  <Crafting>60</Crafting>
+					  <Intellectual>100</Intellectual>
+					</MinSkills>
+				  </li>
+			  </value>
+			</Operation>
+		</caseTrue>
+	</Operation>
+
+</Patch>

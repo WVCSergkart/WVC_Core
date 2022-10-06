@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- VIED -->
+	<VDE_DormantELF_WVC>Start the awakening process</VDE_DormantELF_WVC>
+	<VDE_EvolveELF_WVC>Evolve into ELF</VDE_EvolveELF_WVC>
+	<VDE_EvolveValkyrie_WVC>Evolve into Valkyrie</VDE_EvolveValkyrie_WVC>
+	<VDE_EvolveDryadMother_WVC>Evolve into Mother</VDE_EvolveDryadMother_WVC>
+	<VDE_EvolveDesc_WVC>Evolve into a sentient being.</VDE_EvolveDesc_WVC>
+
+	<!-- VFEI -->
+	<VFEI_ValkyrieGenome_WVC>Valkyrie Genome</VFEI_ValkyrieGenome_WVC>
+	<VFEI_ValkyrieGenome_WVC_InsertFirstGenome>First genome: Valkyrie</VFEI_ValkyrieGenome_WVC_InsertFirstGenome>
+	<VFEI_ValkyrieGenome_WVC_InsertSecondGenome>Second genome: Valkyrie</VFEI_ValkyrieGenome_WVC_InsertSecondGenome>
+	<VFEI_ValkyrieGenome_WVC_InsertThirdGenome>Third genome: Valkyrie</VFEI_ValkyrieGenome_WVC_InsertThirdGenome>
+
+</LanguageData>

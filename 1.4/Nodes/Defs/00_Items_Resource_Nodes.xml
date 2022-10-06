@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingCategoryDef>
+	<defName>WVC_ResourceNodes</defName>
+	<label>nodes</label>
+	<parent>Manufactured</parent>
+	<iconPath>WVC/Stuff/Nodes/Archotech/NodeA</iconPath>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+	<defName>WVC_ResourceSubNodes</defName>
+	<label>sub nodes</label>
+	<parent>WVC_ResourceNodes</parent>
+	<iconPath>WVC/Stuff/Nodes/Blue/NodeA</iconPath>
+  </ThingCategoryDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="ResourceBase" Name="WVC_ResourceNodes_Base" Abstract="True">
+	<!-- <defName>VFE_ComponentMechanoid</defName> -->
+	<!-- <defName>WVC_ResourceNodes_Blue</defName> -->
+	<!-- Ноды были задуманны в переводе буквально как "Ноды", не смотря на правильный вариант "Узлы" -->
+	<label>node</label>
+	<description>A strange mechanoid device that pulses when touched.</description>
+	<descriptionHyperlinks>
+	  <ConceptDef>WVC_AboutNodes</ConceptDef>
+	</descriptionHyperlinks>
+	<techLevel>Ultra</techLevel>
+	<uiIconScale>1.0</uiIconScale>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/Blue</texPath>
+	  <drawSize>0.8</drawSize>
+	  <graphicClass>Graphic_Random</graphicClass>
+	</graphicData>
+	<soundInteract>Metal_Drop</soundInteract>
+	<soundDrop>Standard_Drop</soundDrop>
+	<stackLimit>120</stackLimit>
+	<healthAffectsPrice>false</healthAffectsPrice>
+	<recipeMaker Inherit="False">
+	  <!-- <workSpeedStat>MechaniteCrafter_WorkSpeed_WVC</workSpeedStat> -->
+	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	  <workSkill>Crafting</workSkill>
+	  <effectWorking>Smith</effectWorking>
+	  <soundWorking>Recipe_Smith</soundWorking>
+	  <productCount>5</productCount>
+	  <recipeUsers>
+		<li>WVC_NodeCraftingBench</li>
+		<li>WVC_AdvancedCraftingBench</li>
+	  </recipeUsers>
+	  <skillRequirements>
+		<Crafting>12</Crafting>
+		<Intellectual>12</Intellectual>
+	  </skillRequirements>
+	  <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+	  <researchPrerequisite>WVC_ResearchNodes_Blue</researchPrerequisite>
+	  <useIngredientsForColor>false</useIngredientsForColor>
+	</recipeMaker>
+	<statBases>
+	  <MaxHitPoints>90</MaxHitPoints>
+	  <MarketValue>420</MarketValue>
+	  <WorkToMake>5000</WorkToMake>
+	  <Mass>0.5</Mass>
+	  <Flammability>0.0</Flammability>
+	  <DeteriorationRate>0.0</DeteriorationRate>
+	  <Bulk MayRequire="ceteam.combatextended">0.1</Bulk>
+	</statBases>
+	<intricate>true</intricate>
+	<thingCategories Inherit="False">
+	  <li>WVC_ResourceSubNodes</li>
+	</thingCategories>
+	<tradeTags>
+	  <li>ExoticMisc</li>
+	</tradeTags>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="WVC_ResourceNodes_Base">
+	<defName>WVC_ResourceNodes_Blue</defName>
+	<label>blue node</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/Blue</texPath>
+	</graphicData>
+	<recipeMaker>
+	  <researchPrerequisite>WVC_ResearchNodes_Blue</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <!-- <Plasteel>25</Plasteel> -->
+	  <!-- <Uranium>5</Uranium> -->
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	  <WVC_UniversalFuel>230</WVC_UniversalFuel>
+	  <!-- <Apparel_GirlyUnderwear_WVC>1</Apparel_GirlyUnderwear_WVC> -->
+	  <!-- <WVC_ResourceNodes_Green>1</WVC_ResourceNodes_Green> -->
+	  <!-- <WVC_ResourceNodes_Red>1</WVC_ResourceNodes_Red> -->
+	  <!-- <WVC_ResourceNodes_Violet>1</WVC_ResourceNodes_Violet> -->
+	  <!-- <WVC_ResourceNodes_Yellow>1</WVC_ResourceNodes_Yellow> -->
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>2</glowRadius>
+		<glowColor>(133,202,255)</glowColor>
+	  </li>
+	</comps>
+  </ThingDef>
+  <ThingDef ParentName="WVC_ResourceNodes_Base">
+	<defName>WVC_ResourceNodes_Green</defName>
+	<label>green node</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/Green</texPath>
+	</graphicData>
+	<recipeMaker>
+	  <researchPrerequisite>WVC_ResearchNodes_Green</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	  <!-- <WVC_UniversalFuel>200</WVC_UniversalFuel> -->
+	  <!-- <Plasteel>25</Plasteel> -->
+	  <!-- <Uranium>5</Uranium> -->
+	  <!-- <VFE_ComponentMechanoid>4</VFE_ComponentMechanoid> -->
+	  <!-- <WVC_UniversalFuel>50</WVC_UniversalFuel> -->
+	  <Apparel_GirlyUnderwear_WVC>1</Apparel_GirlyUnderwear_WVC>
+	  <!-- <WVC_ResourceNodes_Blue>1</WVC_ResourceNodes_Blue> -->
+	  <!-- <WVC_ResourceNodes_Red>1</WVC_ResourceNodes_Red> -->
+	  <!-- <WVC_ResourceNodes_Violet>1</WVC_ResourceNodes_Violet> -->
+	  <!-- <WVC_ResourceNodes_Yellow>1</WVC_ResourceNodes_Yellow> -->
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>2</glowRadius>
+		<glowColor>(133,255,136)</glowColor>
+	  </li>
+	</comps>
+  </ThingDef>
+  <ThingDef ParentName="WVC_ResourceNodes_Base">
+	<defName>WVC_ResourceNodes_Red</defName>
+	<label>red node</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/Red</texPath>
+	</graphicData>
+	<recipeMaker>
+	  <researchPrerequisite>WVC_ResearchNodes_Red</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <Plasteel>25</Plasteel>
+	  <Uranium>5</Uranium>
+	  <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+	  <WVC_UniversalFuel>120</WVC_UniversalFuel>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	  <!-- <WVC_UniversalFuel>200</WVC_UniversalFuel> -->
+	  <!-- <Apparel_GirlyUnderwear_WVC>1</Apparel_GirlyUnderwear_WVC> -->
+	  <!-- <WVC_ResourceNodes_Blue>1</WVC_ResourceNodes_Blue> -->
+	  <!-- <WVC_ResourceNodes_Green>1</WVC_ResourceNodes_Green> -->
+	  <!-- <WVC_ResourceNodes_Violet>1</WVC_ResourceNodes_Violet> -->
+	  <!-- <WVC_ResourceNodes_Yellow>1</WVC_ResourceNodes_Yellow> -->
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>2</glowRadius>
+		<glowColor>(255,133,133)</glowColor>
+	  </li>
+	</comps>
+  </ThingDef>
+  <ThingDef ParentName="WVC_ResourceNodes_Base">
+	<defName>WVC_ResourceNodes_Violet</defName>
+	<label>violet node</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/Violet</texPath>
+	</graphicData>
+	<recipeMaker>
+	  <researchPrerequisite>WVC_ResearchNodes_Violet</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <!-- <Plasteel>25</Plasteel> -->
+	  <!-- <Uranium>5</Uranium> -->
+	  <!-- <VFE_ComponentMechanoid>4</VFE_ComponentMechanoid> -->
+	  <!-- <WVC_UniversalFuel>50</WVC_UniversalFuel> -->
+	  <!-- <Apparel_GirlyUnderwear_WVC>1</Apparel_GirlyUnderwear_WVC> -->
+	  <WVC_ResourceNodes_Blue>2</WVC_ResourceNodes_Blue>
+	  <!-- <WVC_ResourceNodes_Green>1</WVC_ResourceNodes_Green> -->
+	  <WVC_ResourceNodes_Red>2</WVC_ResourceNodes_Red>
+	  <!-- <WVC_ResourceNodes_Yellow>1</WVC_ResourceNodes_Yellow> -->
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>2</glowRadius>
+		<glowColor>(142,133,255)</glowColor>
+	  </li>
+	</comps>
+  </ThingDef>
+  <ThingDef ParentName="WVC_ResourceNodes_Base">
+	<defName>WVC_ResourceNodes_Yellow</defName>
+	<label>yellow node</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/Yellow</texPath>
+	</graphicData>
+	<recipeMaker>
+	  <researchPrerequisite>WVC_ResearchNodes_Yellow</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <!-- <Plasteel>25</Plasteel> -->
+	  <!-- <Uranium>5</Uranium> -->
+	  <!-- <VFE_ComponentMechanoid>4</VFE_ComponentMechanoid> -->
+	  <!-- <WVC_UniversalFuel>50</WVC_UniversalFuel> -->
+	  <!-- <Apparel_GirlyUnderwear_WVC>1</Apparel_GirlyUnderwear_WVC> -->
+	  <!-- <WVC_ResourceNodes_Blue>1</WVC_ResourceNodes_Blue> -->
+	  <WVC_ResourceNodes_Green>2</WVC_ResourceNodes_Green>
+	  <WVC_ResourceNodes_Red>2</WVC_ResourceNodes_Red>
+	  <!-- <WVC_ResourceNodes_Violet>1</WVC_ResourceNodes_Violet> -->
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>2</glowRadius>
+		<glowColor>(255,248,133)</glowColor>
+	  </li>
+	</comps>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_ResourceNodes_Base">
+	<defName>WVC_ResourceNodes_Archotech</defName>
+	<techLevel>Archotech</techLevel>
+	<label>archotech node</label>
+	<description>A strange archotech device that pulses when touched.</description>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/Archotech</texPath>
+	</graphicData>
+	<recipeMaker>
+	  <researchPrerequisite>ValkyriesTechs_III_WVC</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+	  <WVC_ResourceNodes_Blue>1</WVC_ResourceNodes_Blue>
+	  <WVC_ResourceNodes_Green>1</WVC_ResourceNodes_Green>
+	  <WVC_ResourceNodes_Red>1</WVC_ResourceNodes_Red>
+	  <WVC_ResourceNodes_Violet>1</WVC_ResourceNodes_Violet>
+	  <WVC_ResourceNodes_Yellow>1</WVC_ResourceNodes_Yellow>
+	</costList>
+	<statBases>
+	  <MarketValue>540</MarketValue>
+	  <!-- <DeteriorationRate>1.0</DeteriorationRate> -->
+	</statBases>
+	<thingCategories Inherit="False">
+	  <li>WVC_ResourceNodes</li>
+	</thingCategories>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>2</glowRadius>
+		<glowColor>(200,200,50)</glowColor>
+	  </li>
+	</comps>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <RecipeDef>
+	<defName>WVC_Smelter_DestroyNodes</defName>
+	<label>destroy nodes</label>
+	<description>Using brute force to destroy the nodes.</description>
+	<jobString>destroing nodes.</jobString>
+	<workAmount>3000</workAmount>
+	<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	<effectWorking>CutStone</effectWorking>
+	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<targetCountAdjustment>5</targetCountAdjustment>
+	<recipeUsers>
+	  <li>CraftingSpot</li>
+	  <li>ElectricSmelter</li>
+	  <li MayRequire="vanillaexpanded.vfeproduction">VFE_FueledSmelter</li>
+	  <li MayRequire="vanillaexpanded.vfepower">VPE_GasSmelter</li>
+	</recipeUsers>
+	<ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>WVC_ResourceNodes</li>
+		  </categories>
+		</filter>
+		<count>5</count>
+	  </li>
+	</ingredients>
+	<products>
+	  <Plasteel>15</Plasteel>
+	</products>
+	<researchPrerequisites>
+	  <li>ValkyriesTechs_II_WVC</li>
+	</researchPrerequisites>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>WVC_ResourceNodes</li>
+	  </categories>
+	</fixedIngredientFilter>
+  </RecipeDef>
+
+</Defs>

@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingCategoryDef>
+	<defName>WVC_BodyPartsTorture</defName>
+	<label>torture</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+	<defName>WVC_BodyPartsAdvancedBionic</defName>
+	<label>experimental bionic</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+	<defName>WVC_BodyPartsCybernetic</defName>
+	<label>сybernetic</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+	<defName>WVC_BodyPartsAncient</defName>
+	<label>ancient</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+	<defName>WVC_BodyPartsMechanoid</defName>
+	<label>mechanoid</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+
+  <!--=====================================================================-->
+
+  <ThingDef Name="WVC_BodyParts_Base" ParentName="BodyPartBase" Abstract="True">
+	<description>Body part created using high technology.</description>
+	<techLevel>Ultra</techLevel>
+	<thingCategories>
+	</thingCategories>
+	<graphicData>
+	  <texPath>WVC/Implants/Implant</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.95</drawSize>
+	  <color>(165,169,165)</color>
+	</graphicData>
+	<costList>
+	  <Plasteel>25</Plasteel>
+	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
+	</costList>
+	<recipeMaker>
+	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	  <workSkill>Crafting</workSkill>
+	  <effectWorking>Smith</effectWorking>
+	  <soundWorking>Recipe_Smith</soundWorking>
+	  <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+	  <recipeUsers>
+		<li>WVC_AncientCraftingBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+	<tradeTags>
+	  <li>WVC_UltraBionic</li>
+	</tradeTags>
+	<techHediffsTags>
+	  <li>Advanced</li>
+	</techHediffsTags>
+	<statBases>
+	  <WorkToMake>15000</WorkToMake>
+	  <!-- <MarketValue>1000</MarketValue> -->
+	  <Mass>3</Mass>
+	  <DeteriorationRate>0</DeteriorationRate>
+	</statBases>
+  </ThingDef>
+
+  <!--=====================================================================-->
+
+  <ThingDef Name="WVC_BodyPartTortureBase" ParentName="WVC_BodyParts_Base" Abstract="True">
+	<description>Body part created using high technology.</description>
+	<techLevel>Spacer</techLevel>
+	<thingCategories>
+	  <li>WVC_BodyPartsTorture</li>
+	</thingCategories>
+	<graphicData>
+	  <color>(222,165,171)</color>
+	  <!-- <color>(255,188,196)</color> -->
+	</graphicData>
+	<costList>
+	  <!-- <Uranium>5</Uranium> -->
+	</costList>
+	<recipeMaker>
+	  <skillRequirements>
+		<Crafting>8</Crafting>
+		<Intellectual>4</Intellectual>
+		<Medicine>6</Medicine>
+	  </skillRequirements>
+	  <researchPrerequisite>WVC_BionicTech_Torture</researchPrerequisite>
+	  <recipeUsers>
+		<li>FabricationBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+	<statBases>
+	  <WorkToMake>7000</WorkToMake>
+	  <!-- <MarketValue>1100</MarketValue> -->
+	  <DeteriorationRate>0.3</DeteriorationRate>
+	</statBases>
+	<tradeTags>
+	  <li>Bionic</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>PainCauser</li>
+	</techHediffsTags>
+  </ThingDef>
+
+  <ThingDef Name="WVC_BodyPartAdvancedBionicBase" ParentName="WVC_BodyParts_Base" Abstract="True">
+	<description>Body part created using high technology.</description>
+	<techLevel>Spacer</techLevel>
+	<thingCategories>
+	  <li>WVC_BodyPartsAdvancedBionic</li>
+	</thingCategories>
+	<graphicData>
+	  <color>(195,224,174)</color>
+	  <!-- <color>(198,255,163)</color> -->
+	</graphicData>
+	<costList>
+	  <!-- <Uranium>5</Uranium> -->
+	</costList>
+	<recipeMaker>
+	  <skillRequirements>
+		<Crafting>8</Crafting>
+		<Intellectual>6</Intellectual>
+		<!-- <Medicine>6</Medicine> -->
+	  </skillRequirements>
+	  <researchPrerequisite>WVC_BionicTech_AdvancedBionic</researchPrerequisite>
+	  <recipeUsers>
+		<li>FabricationBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+	<statBases>
+	  <WorkToMake>9000</WorkToMake>
+	  <!-- <MarketValue>1100</MarketValue> -->
+	  <DeteriorationRate>0.3</DeteriorationRate>
+	</statBases>
+	<tradeTags>
+	  <li>Bionic</li>
+	</tradeTags>
+  </ThingDef>
+
+  <ThingDef Name="WVC_BodyPartCyberneticBase" ParentName="WVC_BodyParts_Base" Abstract="True">
+	<description>Body part created using high technology.</description>
+	<techLevel>Spacer</techLevel>
+	<thingCategories>
+	  <li>WVC_BodyPartsCybernetic</li>
+	</thingCategories>
+	<graphicData>
+	  <color>(165,179,222)</color>
+	  <!-- <color>(163,187,255)</color> -->
+	</graphicData>
+	<costList>
+	  <Uranium>5</Uranium>
+	  <Gold>5</Gold>
+	</costList>
+	<recipeMaker>
+	  <skillRequirements>
+		<Crafting>8</Crafting>
+		<Intellectual>8</Intellectual>
+		<!-- <Medicine>6</Medicine> -->
+	  </skillRequirements>
+	  <researchPrerequisite>WVC_BionicTech_Cybernetic</researchPrerequisite>
+	  <recipeUsers>
+		<li>FabricationBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+	<statBases>
+	  <WorkToMake>15000</WorkToMake>
+	  <!-- <MarketValue>1100</MarketValue> -->
+	  <DeteriorationRate>0.1</DeteriorationRate>
+	</statBases>
+	<tradeTags>
+	  <li>Bionic</li>
+	</tradeTags>
+  </ThingDef>
+
+  <ThingDef Name="WVC_BodyPartAncientBase" ParentName="WVC_BodyParts_Base" Abstract="True">
+	<description>A body part created using long-lost technology.</description>
+	<techLevel>Ultra</techLevel>
+	<thingCategories>
+	  <li>WVC_BodyPartsAncient</li>
+	</thingCategories>
+	<graphicData>
+	  <color>(165,169,165)</color>
+	</graphicData>
+	<costList>
+	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	  <WVC_UniversalFuel>30</WVC_UniversalFuel>
+	  <Uranium>5</Uranium>
+	</costList>
+	<recipeMaker>
+	  <skillRequirements>
+		<Crafting>12</Crafting>
+		<Intellectual>12</Intellectual>
+		<Medicine>8</Medicine>
+	  </skillRequirements>
+	  <researchPrerequisite>WVC_RaceResearching_Valkyries</researchPrerequisite>
+	  <recipeUsers>
+		<li>WVC_AncientCraftingBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+	<statBases>
+	  <WorkToMake>33000</WorkToMake>
+	  <!-- <MarketValue>1500</MarketValue> -->
+	</statBases>
+	<tradeTags>
+	  <li>ImplantEmpireRoyal</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>ImplantEmpireRoyal</li>
+	</techHediffsTags>
+  </ThingDef>
+
+  <ThingDef Name="WVC_BodyPartMechanoidBase" ParentName="WVC_BodyParts_Base" Abstract="True">
+	<description>Body part created using mechanoid technology. These body parts have been modified to be used by humans.</description>
+	<techLevel>Ultra</techLevel>
+	<thingCategories>
+	  <li>WVC_BodyPartsMechanoid</li>
+	</thingCategories>
+	<graphicData>
+	  <texPath>WVC/Implants/ImplantMecha</texPath>
+	  <color>(179,163,151)</color>
+	</graphicData>
+	<costList>
+	  <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+	  <WVC_UniversalFuel>50</WVC_UniversalFuel>
+	  <Uranium>7</Uranium>
+	</costList>
+	<recipeMaker>
+	  <skillRequirements>
+		<Crafting>16</Crafting>
+		<Intellectual>16</Intellectual>
+		<Medicine>8</Medicine>
+	  </skillRequirements>
+	  <researchPrerequisite>WVC_RaceResearching_ELFs</researchPrerequisite>
+	  <recipeUsers>
+		<li>WVC_AncientCraftingBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+	<statBases>
+	  <WorkToMake>52000</WorkToMake>
+	  <!-- <MarketValue>1800</MarketValue> -->
+	</statBases>
+	<tradeTags>
+	  <li>ImplantEmpireRoyal</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>ImplantEmpireRoyal</li>
+	</techHediffsTags>
+  </ThingDef>
+
+  <!--=====================================================================-->
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase" Name="WVC_SurgeryInstall_BodyPartBase" Abstract="True">
+	<recipeUsers>
+	  <li>Human</li>
+	</recipeUsers>
+  </RecipeDef>
+
+</Defs>

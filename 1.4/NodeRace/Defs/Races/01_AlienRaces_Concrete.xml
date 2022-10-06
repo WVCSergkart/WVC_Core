@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ========================================= -->
+
+	<AlienRace.ThingDef_AlienRace ParentName="WVC_NodeRacesFormers_Blue">
+		<defName>WVC_AlienRace_BlueFormer</defName>
+		<label>former: Hornad</label>
+		<alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+					<alienbodytypes>
+					</alienbodytypes>
+				</alienPartGenerator>
+			</generalSettings>
+		</alienRace>
+		<comps>
+		</comps>
+		<race>
+		</race>
+	</AlienRace.ThingDef_AlienRace>
+
+	<AlienRace.ThingDef_AlienRace ParentName="WVC_NodeRacesFormers_Red">
+		<defName>WVC_AlienRace_RedFormer</defName>
+		<label>former: Nautil</label>
+		<alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+					<alienbodytypes>
+					</alienbodytypes>
+				</alienPartGenerator>
+			</generalSettings>
+		</alienRace>
+		<comps>
+		</comps>
+		<race>
+		</race>
+	</AlienRace.ThingDef_AlienRace>
+
+	<!-- ================================================================== -->
+
+	<PawnKindDef ParentName="WVC_BasePawn_Nodes">
+		<defName>WVC_AlienRace_BlueFormer</defName>
+		<label>hornad</label>
+		<race>WVC_AlienRace_BlueFormer</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="WVC_BasePawn_Nodes">
+		<defName>WVC_AlienRace_RedFormer</defName>
+		<label>nautil</label>
+		<race>WVC_AlienRace_RedFormer</race>
+	</PawnKindDef>
+
+</Defs>

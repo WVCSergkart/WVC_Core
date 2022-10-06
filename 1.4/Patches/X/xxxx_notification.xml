@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>honkai.girls.sergkart</modId>
+		<key>Dryads_NotificationDisable_wvc</key>
+		<defaultValue>false</defaultValue>
+		<caseTrue>
+			<Operation Class="XmlExtensions.PatchOperationSafeReplace">
+				<xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Spawner"]</xpath>
+				<value>
+					<showMessageIfOwned>false</showMessageIfOwned>
+				</value>
+			</Operation>
+		</caseTrue>
+		<caseFalse>
+		</caseFalse>
+	</Operation>
+</Patch>

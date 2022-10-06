@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MechanoidBuildings_WVC">
+	<defName>ComponentSpawner_WVC</defName>
+	<label>mechanites assembler</label>
+	<description>Underground complex for mechanites replication. Slowly produces mechanites from literally nothing, but requires a lot of energy.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
+	<size>(3,3)</size>
+	<uiIconScale>1.0</uiIconScale>
+	<!-- Floor -->
+	<altitudeLayer>FloorCoverings</altitudeLayer>
+	<blockPlants>true</blockPlants>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<selectable>true</selectable>
+	<useHitPoints>true</useHitPoints>
+	<blocksAltitudes>
+	  <li>FloorCoverings</li>
+	</blocksAltitudes>
+	<building>
+	  <isEdifice>true</isEdifice>
+	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+	</building>
+	<graphicData>
+	  <texPath>WVC/Stuff/ComponentAssembler</texPath>
+	  <graphicClass>Graphic_Random</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+	  <damageData>
+		<rect>(0.15, 0.15, 2.7, 2.7)</rect>
+	  </damageData>
+	</graphicData>
+	<thingCategories>
+	  <li>BuildingsSpecial</li>
+	</thingCategories>
+	<comps>
+	  <!-- <li Class="CompProperties_Breakdownable"/> -->
+	  <li Class="CompProperties_Power">
+		<compClass>CompPowerTrader</compClass>
+		<basePowerConsumption>1200</basePowerConsumption>
+		<transmitsPower>true</transmitsPower>
+	  </li>
+	  <li Class="CompProperties_Flickable"/>
+	  <li Class="CompProperties_Spawner">
+		<requiresPower>true</requiresPower>
+		<!-- <thingToSpawn>VFE_ComponentMechanoid</thingToSpawn> -->
+		<thingToSpawn>WVC_UniversalFuel</thingToSpawn>
+		<spawnCount>75</spawnCount>
+		<spawnIntervalRange><min>240000</min><max>540000</max></spawnIntervalRange>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+	  </li>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>4</glowRadius>
+		<glowColor>(78, 226, 229, 0)</glowColor>
+	  </li>
+	</comps>
+	<statBases>
+	  <MarketValue>1200</MarketValue>
+	  <MaxHitPoints>1000</MaxHitPoints>
+	  <Beauty>-3</Beauty>
+	  <Mass>165</Mass>
+	</statBases>
+	<killedLeavings>
+	  <ChunkSlagSteel>5</ChunkSlagSteel>
+	</killedLeavings>
+	<costList>
+		<Plasteel>210</Plasteel>
+		<Uranium>33</Uranium>
+		<!-- <ComponentSpacer>7</ComponentSpacer> -->
+		<!-- <WVC_UniversalFuel>333</WVC_UniversalFuel> -->
+		<VFE_ComponentMechanoid>6</VFE_ComponentMechanoid>
+	</costList>
+	<thingSetMakerTags>
+	  <li>RewardStandardQualitySuper</li>
+	</thingSetMakerTags>
+	<tickerType>Normal</tickerType>
+	<fillPercent>0.2</fillPercent>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<!-- <terrainAffordanceNeeded>Light</terrainAffordanceNeeded> -->
+	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+	<passability>PassThroughOnly</passability>
+	<!-- <passability>Impassable</passability> -->
+	<pathCost>34</pathCost>
+	<rotatable>false</rotatable>
+	<canOverlapZones>false</canOverlapZones>
+	<tradeability>Sellable</tradeability>
+	<tradeTags>
+	  <li>ExoticBuilding</li>
+	</tradeTags>
+	<!-- <designatorDropdown>Valkyries_Replicators_WVC</designatorDropdown> -->
+	<researchPrerequisites Inherit="False">
+		<li>ValkyriesTechs_ReplicatorI_WVC</li>
+	</researchPrerequisites>
+	<designationCategory>Misc</designationCategory>
+  </ThingDef>
+  
+</Defs>

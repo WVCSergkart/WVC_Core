@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingCategoryDef>
+	<defName>WVC_ExoticMetals</defName>
+	<label>exotic alloys</label>
+	<parent>ResourcesRaw</parent>
+	<iconPath>WVC/Resource/Vruum/Vruum_b</iconPath>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+	<defName>WVC_Underwear</defName>
+	<label>underwear</label>
+	<parent>Apparel</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+	<defName>WVC_MetalResources_Raw</defName>
+	<label>metals</label>
+	<parent>ResourcesRaw</parent>
+	<iconPath>WVC/Resource/Plasteel/Plasteel_c</iconPath>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+	<defName>WVC_ManufacturedComponents</defName>
+	<label>components</label>
+	<parent>Manufactured</parent>
+	<iconPath>Things/Item/Resource/ComponentIndustrial/ComponentIndustrial</iconPath>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+	<defName>WVC_MechanicalEggs</defName>
+	<label>mechanical eggs</label>
+	<parent>Manufactured</parent>
+  </ThingCategoryDef>
+
+</Defs>

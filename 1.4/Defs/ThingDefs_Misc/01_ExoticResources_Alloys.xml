@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="WVC_ExoticResources_Base">
+	<defName>WVC_Resource_Redil</defName>
+	<label>Redil</label>
+	<graphicData>
+	  <texPath>WVC/Resource/Alloy</texPath>
+	  <color>(175,78,78)</color>
+	</graphicData>
+	<statBases>
+	  <MarketValue>2.6</MarketValue>
+	  <Mass>1.1</Mass>
+	  <StuffPower_Armor_Sharp>1.1</StuffPower_Armor_Sharp>
+	  <StuffPower_Armor_Blunt>1.34</StuffPower_Armor_Blunt>
+	  <StuffPower_Armor_Heat>1.1</StuffPower_Armor_Heat>
+	  <StuffPower_Insulation_Cold>2</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>2</StuffPower_Insulation_Heat>
+	  <SharpDamageMultiplier>0.9</SharpDamageMultiplier>
+	  <BluntDamageMultiplier>0.9</BluntDamageMultiplier>
+	</statBases>
+	<stuffProps>
+	  <color>(175,78,78)</color>
+	  <statFactors>
+		<MaxHitPoints>1.7</MaxHitPoints>
+		<Beauty>0.9</Beauty>
+		<Flammability>0.5</Flammability>
+		<WorkToMake>1.9</WorkToMake>
+		<WorkToBuild>1.9</WorkToBuild>
+		<MeleeWeapon_CooldownMultiplier>1.1</MeleeWeapon_CooldownMultiplier>
+		<DoorOpenSpeed>1.1</DoorOpenSpeed>
+	  </statFactors>
+	  <statOffsets>
+		<!-- <PainShockThreshold>0.2</PainShockThreshold> -->
+	  </statOffsets>
+	</stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_ExoticResources_Base">
+	<defName>WVC_Resource_Skilum</defName>
+	<label>Skilum</label>
+	<graphicData>
+	  <texPath>WVC/Resource/Alloy</texPath>
+	  <color>(78,175,151)</color>
+	</graphicData>
+	<statBases>
+	  <MarketValue>1.6</MarketValue>
+	  <Mass>1.1</Mass>
+	  <StuffPower_Armor_Sharp>0.56</StuffPower_Armor_Sharp>
+	  <StuffPower_Armor_Blunt>1.08</StuffPower_Armor_Blunt>
+	  <StuffPower_Armor_Heat>0.8</StuffPower_Armor_Heat>
+	  <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+	  <SharpDamageMultiplier>0.76</SharpDamageMultiplier>
+	  <BluntDamageMultiplier>0.87</BluntDamageMultiplier>
+	</statBases>
+	<stuffProps>
+	  <color>(78,175,151)</color>
+	  <statFactors>
+		<MaxHitPoints>0.9</MaxHitPoints>
+		<Beauty>1.2</Beauty>
+		<Flammability>0.0</Flammability>
+		<WorkToMake>1.1</WorkToMake>
+		<WorkToBuild>1.1</WorkToBuild>
+		<MeleeWeapon_CooldownMultiplier>0.9</MeleeWeapon_CooldownMultiplier>
+		<DoorOpenSpeed>1.0</DoorOpenSpeed>
+	  </statFactors>
+	  <statOffsets>
+		<!-- <PainShockThreshold>0.2</PainShockThreshold> -->
+	  </statOffsets>
+	</stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_ExoticResources_Base">
+	<defName>WVC_Resource_Swarmur</defName>
+	<label>Swarmur</label>
+	<graphicData>
+	  <texPath>WVC/Resource/Alloy</texPath>
+	  <color>(165,125,99)</color>
+	</graphicData>
+	<statBases>
+	  <MarketValue>1.2</MarketValue>
+	  <Mass>0.25</Mass>
+	  <StuffPower_Armor_Sharp>0.75</StuffPower_Armor_Sharp>
+	  <StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
+	  <StuffPower_Armor_Heat>0.65</StuffPower_Armor_Heat>
+	  <StuffPower_Insulation_Cold>2</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>2</StuffPower_Insulation_Heat>
+	  <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+	  <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
+	</statBases>
+	<stuffProps>
+	  <color>(165,125,99)</color>
+	  <statFactors>
+		<MaxHitPoints>0.76</MaxHitPoints>
+		<Beauty>3.5</Beauty>
+		<Flammability>0.0</Flammability>
+		<WorkToMake>0.8</WorkToMake>
+		<WorkToBuild>0.8</WorkToBuild>
+		<MeleeWeapon_CooldownMultiplier>0.87</MeleeWeapon_CooldownMultiplier>
+		<DoorOpenSpeed>1.6</DoorOpenSpeed>
+	  </statFactors>
+	  <statOffsets>
+		<!-- <PainShockThreshold>0.2</PainShockThreshold> -->
+	  </statOffsets>
+	</stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_ExoticResources_Base">
+	<defName>WVC_Resource_Feeolik</defName>
+	<label>Feeolik</label>
+	<graphicData>
+	  <texPath>WVC/Resource/Alloy</texPath>
+	  <color>(107,99,165)</color>
+	</graphicData>
+	<statBases>
+	  <MarketValue>1.9</MarketValue>
+	  <Mass>1.9</Mass>
+	  <StuffPower_Armor_Sharp>0.66</StuffPower_Armor_Sharp>
+	  <StuffPower_Armor_Blunt>1.2</StuffPower_Armor_Blunt>
+	  <StuffPower_Armor_Heat>0.89</StuffPower_Armor_Heat>
+	  <StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
+	  <SharpDamageMultiplier>1.2</SharpDamageMultiplier>
+	  <BluntDamageMultiplier>1.2</BluntDamageMultiplier>
+	</statBases>
+	<stuffProps>
+	  <color>(107,99,165)</color>
+	  <statFactors>
+		<MaxHitPoints>2.1</MaxHitPoints>
+		<Beauty>2.0</Beauty>
+		<Flammability>0.5</Flammability>
+		<WorkToMake>0.8</WorkToMake>
+		<WorkToBuild>0.8</WorkToBuild>
+		<MeleeWeapon_CooldownMultiplier>1.6</MeleeWeapon_CooldownMultiplier>
+		<DoorOpenSpeed>0.9</DoorOpenSpeed>
+	  </statFactors>
+	  <statOffsets>
+		<!-- <PainShockThreshold>0.2</PainShockThreshold> -->
+	  </statOffsets>
+	</stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_ExoticResources_Base">
+	<defName>WVC_Resource_Pinkush</defName>
+	<label>Pinkush</label>
+	<graphicData>
+	  <texPath>WVC/Resource/Alloy</texPath>
+	  <color>(165,99,138)</color>
+	</graphicData>
+	<statBases>
+	  <MarketValue>1.7</MarketValue>
+	  <Mass>0.9</Mass>
+	  <StuffPower_Armor_Sharp>0.85</StuffPower_Armor_Sharp>
+	  <StuffPower_Armor_Blunt>0.78</StuffPower_Armor_Blunt>
+	  <StuffPower_Armor_Heat>0.84</StuffPower_Armor_Heat>
+	  <StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
+	  <SharpDamageMultiplier>1.0</SharpDamageMultiplier>
+	  <BluntDamageMultiplier>1.2</BluntDamageMultiplier>
+	</statBases>
+	<stuffProps>
+	  <color>(165,99,138)</color>
+	  <statFactors>
+		<MaxHitPoints>1.1</MaxHitPoints>
+		<Beauty>1.5</Beauty>
+		<Flammability>0.3</Flammability>
+		<WorkToMake>1.2</WorkToMake>
+		<WorkToBuild>1.8</WorkToBuild>
+		<MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
+		<DoorOpenSpeed>1.0</DoorOpenSpeed>
+	  </statFactors>
+	  <statOffsets>
+		<!-- <PainShockThreshold>0.2</PainShockThreshold> -->
+	  </statOffsets>
+	</stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_ExoticResources_Base">
+	<defName>WVC_Resource_Grelenum</defName>
+	<label>Grelenum</label>
+	<graphicData>
+	  <texPath>WVC/Resource/Alloy</texPath>
+	  <color>(127,165,99)</color>
+	</graphicData>
+	<statBases>
+	  <MarketValue>1.6</MarketValue>
+	  <Mass>1.4</Mass>
+	  <StuffPower_Armor_Sharp>0.56</StuffPower_Armor_Sharp>
+	  <StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
+	  <StuffPower_Armor_Heat>0.9</StuffPower_Armor_Heat>
+	  <StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>9</StuffPower_Insulation_Heat>
+	  <SharpDamageMultiplier>0.7</SharpDamageMultiplier>
+	  <BluntDamageMultiplier>1.7</BluntDamageMultiplier>
+	</statBases>
+	<stuffProps>
+	  <color>(127,165,99)</color>
+	  <statFactors>
+		<MaxHitPoints>1.5</MaxHitPoints>
+		<Beauty>1.0</Beauty>
+		<Flammability>0.8</Flammability>
+		<WorkToMake>1.5</WorkToMake>
+		<WorkToBuild>0.9</WorkToBuild>
+		<MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
+		<DoorOpenSpeed>1.0</DoorOpenSpeed>
+	  </statFactors>
+	  <statOffsets>
+		<!-- <PainShockThreshold>0.2</PainShockThreshold> -->
+	  </statOffsets>
+	</stuffProps>
+  </ThingDef>
+
+</Defs>

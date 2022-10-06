@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef Name="WVC_Hediff_BodyPart_Archotech" ParentName="AddedBodyPartBase" Abstract="True">
+	<description>Body part created using sophisticated archotech technology.</description>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<defaultLabelColor>(249,255,123)</defaultLabelColor>
+	<priceOffset>2000</priceOffset>
+	<addedPartProps>
+	  <solid>true</solid>
+	  <partEfficiency>1.50</partEfficiency>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+  </HediffDef>
+
+  <!--=====================================================================-->
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechEye</defName>
+	<label>archotech eye</label>
+	<labelNoun>an archotech eye</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.10</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.1</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>Eye</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechEar</defName>
+	<label>archotech ear</label>
+	<labelNoun>a archotech ear</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.10</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.1</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>Ear</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechJaw</defName>
+	<label>archotech jaw</label>
+	<labelNoun>a archotech jaw</labelNoun>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>teeth</label>
+			<capacities>
+			  <li>Bite</li>
+			</capacities>
+			<power>15</power>
+			<cooldownTime>1.5</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.10</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.1</PsychicSensitivity>
+			<PawnBeauty>1</PawnBeauty>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>Jaw</li>
+	</tags>
+  </HediffDef>
+  
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechNose</defName>
+	<label>archotech nose</label>
+	<labelNoun>an archotech nose</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.10</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.1</PsychicSensitivity>
+			<PawnBeauty>1</PawnBeauty>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>Nose</li>
+	</tags>
+  </HediffDef>
+
+  <!--=====================================================================-->
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechStomach</defName>
+	<label>archotech stomach</label>
+	<labelNoun>a archotech stomach</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.20</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.07</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.07</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.20</PsychicSensitivity>
+		</statOffsets>
+		<hungerRateFactor>0.01</hungerRateFactor>
+		<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+	  </li>
+	</stages>
+	<tags>
+		<li>Stomach</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechSpine</defName>
+	<label>archotech spine</label>
+	<labelNoun>a archotech spine</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.20</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.14</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.14</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.20</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>Spine</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechHeart</defName>
+	<label>archotech heart</label>
+	<labelNoun>a archotech heart</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.25</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.05</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.25</PsychicSensitivity>
+		</statOffsets>
+		<totalBleedFactor>0.5</totalBleedFactor>
+		<naturalHealingFactor>2</naturalHealingFactor>
+	  </li>
+	</stages>
+	<tags>
+		<li>Heart</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechKidney</defName>
+	<label>archotech kidney</label>
+	<labelNoun>a archotech kidney</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.03</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.10</PsychicSensitivity>
+		  <ImmunityGainSpeed>0.08</ImmunityGainSpeed>
+		  <ToxicSensitivity>-0.25</ToxicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>Kidney</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechLiver</defName>
+	<label>archotech liver</label>
+	<labelNoun>a archotech liver</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.10</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.04</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.15</PsychicSensitivity>
+		  <ToxicSensitivity>-0.5</ToxicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>Liver</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechLung</defName>
+	<label>archotech lung</label>
+	<labelNoun>a archotech lung</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.10</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.03</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.1</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>Lung</li>
+	</tags>
+  </HediffDef>
+
+  <!--=====================================================================-->
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechArm</defName>
+	<label>archotech arm</label>
+	<labelNoun>an archotech arm</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.15</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>fist</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>16</power>
+			<cooldownTime>1.5</cooldownTime>
+			<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+			<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>Shoulder</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechLeg</defName>
+	<label>archotech leg</label>
+	<labelNoun>an archotech leg</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.15</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>feet</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>17</power>
+			<cooldownTime>1.5</cooldownTime>
+			<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+			<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>Leg</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechTail</defName>
+	<label>archotech tail</label>
+	<labelNoun>a archotech tail</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.2</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>tail</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>18</power>
+			<cooldownTime>1.5</cooldownTime>
+			<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+			<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>Tail</li>
+	</tags>
+  </HediffDef>
+
+  <!-- =================================NODES================================= -->
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechFormerPilon</defName>
+	<label>archotech veil foundation</label>
+	<labelNoun>a veil foundation</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.2</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>veil blade</label>
+			<capacities>
+			  <li>Cut</li>
+			  <li>Stab</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>WVC_FormerPilon</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechAutomatonTriangle</defName>
+	<label>archotech triangle</label>
+	<labelNoun>a triangle</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.2</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>spike</label>
+			<capacities>
+			  <li>Cut</li>
+			  <li>Stab</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>WVC_Automaton_Triangle</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechFormerCore</defName>
+	<label>archotech node core</label>
+	<labelNoun>a node core</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.20</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.25</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>WVC_FormerCore</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechAutomatonSpike</defName>
+	<label>archotech spike</label>
+	<labelNoun>a spike</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.002</IncomingDamageFactor>
+			<PsychicSensitivity>0.02</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>spike</label>
+			<capacities>
+			  <li>Cut</li>
+			  <li>Stab</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>WVC_Automaton_Spike</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechFormerVeil</defName>
+	<label>archotech veil blade</label>
+	<labelNoun>a veil blade</labelNoun>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.015</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.002</IncomingDamageFactor>
+			<PsychicSensitivity>0.02</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>veil blade</label>
+			<capacities>
+			  <li>Cut</li>
+			  <li>Stab</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>WVC_FormerVeil</li>
+	</tags>
+  </HediffDef>
+
+</Defs>

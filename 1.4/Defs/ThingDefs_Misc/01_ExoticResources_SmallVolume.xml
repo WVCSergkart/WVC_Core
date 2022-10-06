@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="WVC_ExoticResources_Base">
+	<defName>WVC_Resource_Volium</defName>
+	<label>Volium</label>
+	<graphicData>
+	  <texPath>WVC/Resource/SmallVolume</texPath>
+	  <color>(185,221,255)</color>
+	</graphicData>
+	<stackLimit>500</stackLimit>
+	<smallVolume>true</smallVolume>
+	<statBases>
+	  <MarketValue>1.2</MarketValue>
+	  <Mass>0.01</Mass>
+	  <StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
+	  <StuffPower_Armor_Blunt>1.1</StuffPower_Armor_Blunt>
+	  <StuffPower_Armor_Heat>1.0</StuffPower_Armor_Heat>
+	  <StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
+	  <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+	  <BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+	</statBases>
+	<stuffProps>
+	  <color>(185,221,255)</color>
+	  <statFactors>
+		<MaxHitPoints>0.7</MaxHitPoints>
+		<Beauty>1.9</Beauty>
+		<Flammability>0.0</Flammability>
+		<WorkToMake>1.1</WorkToMake>
+		<WorkToBuild>0.9</WorkToBuild>
+		<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+		<DoorOpenSpeed>1.2</DoorOpenSpeed>
+	  </statFactors>
+	  <statOffsets>
+		<!-- <PainShockThreshold>0.2</PainShockThreshold> -->
+	  </statOffsets>
+	</stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_ExoticResources_Base">
+	<defName>WVC_Resource_Virum</defName>
+	<label>Virum</label>
+	<graphicData>
+	  <texPath>WVC/Resource/SmallVolume</texPath>
+	  <color>(185,255,195)</color>
+	</graphicData>
+	<stackLimit>500</stackLimit>
+	<smallVolume>true</smallVolume>
+	<statBases>
+	  <MarketValue>1.4</MarketValue>
+	  <Mass>0.02</Mass>
+	  <StuffPower_Armor_Sharp>1.3</StuffPower_Armor_Sharp>
+	  <StuffPower_Armor_Blunt>1.3</StuffPower_Armor_Blunt>
+	  <StuffPower_Armor_Heat>1.3</StuffPower_Armor_Heat>
+	  <StuffPower_Insulation_Cold>9</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>9</StuffPower_Insulation_Heat>
+	  <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+	  <BluntDamageMultiplier>0.6</BluntDamageMultiplier>
+	</statBases>
+	<stuffProps>
+	  <color>(185,255,195)</color>
+	  <statFactors>
+		<MaxHitPoints>0.8</MaxHitPoints>
+		<Beauty>1.2</Beauty>
+		<Flammability>0.1</Flammability>
+		<WorkToMake>1.5</WorkToMake>
+		<WorkToBuild>1.1</WorkToBuild>
+		<MeleeWeapon_CooldownMultiplier>0.9</MeleeWeapon_CooldownMultiplier>
+		<DoorOpenSpeed>1.1</DoorOpenSpeed>
+	  </statFactors>
+	  <statOffsets>
+		<!-- <PainShockThreshold>0.2</PainShockThreshold> -->
+	  </statOffsets>
+	</stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_ExoticResources_Base">
+	<defName>WVC_Resource_Monet</defName>
+	<label>Monet</label>
+	<graphicData>
+	  <texPath>WVC/Resource/SmallVolume</texPath>
+	  <color>(255,233,185)</color>
+	</graphicData>
+	<stackLimit>500</stackLimit>
+	<smallVolume>true</smallVolume>
+	<statBases>
+	  <MarketValue>1.6</MarketValue>
+	  <Mass>0.015</Mass>
+	  <StuffPower_Armor_Sharp>0.56</StuffPower_Armor_Sharp>
+	  <StuffPower_Armor_Blunt>0.76</StuffPower_Armor_Blunt>
+	  <StuffPower_Armor_Heat>0.86</StuffPower_Armor_Heat>
+	  <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>3</StuffPower_Insulation_Heat>
+	  <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+	  <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
+	</statBases>
+	<stuffProps>
+	  <color>(255,233,185)</color>
+	  <statFactors>
+		<MaxHitPoints>0.9</MaxHitPoints>
+		<Beauty>1.7</Beauty>
+		<Flammability>0.3</Flammability>
+		<WorkToMake>1.1</WorkToMake>
+		<WorkToBuild>1.6</WorkToBuild>
+		<MeleeWeapon_CooldownMultiplier>0.9</MeleeWeapon_CooldownMultiplier>
+		<DoorOpenSpeed>1.4</DoorOpenSpeed>
+	  </statFactors>
+	  <statOffsets>
+		<!-- <PainShockThreshold>0.2</PainShockThreshold> -->
+	  </statOffsets>
+	</stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_ExoticResources_Base">
+	<defName>WVC_Resource_Pururum</defName>
+	<label>Pururum</label>
+	<graphicData>
+	  <texPath>WVC/Resource/SmallVolume</texPath>
+	  <color>(223,185,255)</color>
+	</graphicData>
+	<stackLimit>500</stackLimit>
+	<smallVolume>true</smallVolume>
+	<statBases>
+	  <MarketValue>1.5</MarketValue>
+	  <Mass>0.011</Mass>
+	  <StuffPower_Armor_Sharp>1.56</StuffPower_Armor_Sharp>
+	  <StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
+	  <StuffPower_Armor_Heat>0.46</StuffPower_Armor_Heat>
+	  <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>2</StuffPower_Insulation_Heat>
+	  <SharpDamageMultiplier>1.5</SharpDamageMultiplier>
+	  <BluntDamageMultiplier>0.9</BluntDamageMultiplier>
+	</statBases>
+	<stuffProps>
+	  <color>(255,233,185)</color>
+	  <statFactors>
+		<MaxHitPoints>1.1</MaxHitPoints>
+		<Beauty>3.5</Beauty>
+		<Flammability>1.1</Flammability>
+		<WorkToMake>1.5</WorkToMake>
+		<WorkToBuild>1.0</WorkToBuild>
+		<MeleeWeapon_CooldownMultiplier>0.85</MeleeWeapon_CooldownMultiplier>
+		<DoorOpenSpeed>1.2</DoorOpenSpeed>
+	  </statFactors>
+	  <statOffsets>
+		<!-- <PainShockThreshold>0.2</PainShockThreshold> -->
+	  </statOffsets>
+	</stuffProps>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef MayRequire="ludeon.rimworld.ideology" ParentName="Gauranlen_Assembler_WVC">
+	<defName>WVC_NodeGaurler_Yellow</defName>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/Gaurler</texPath>
+	</graphicData>
+	<costList Inherit="False">
+		<Plasteel>320</Plasteel>
+		<Uranium>33</Uranium>
+		<!-- <ComponentSpacer>9</ComponentSpacer> -->
+		<!-- <VFE_ComponentMechanoid>15</VFE_ComponentMechanoid> -->
+		<WVC_ResourceNodes_Yellow>54</WVC_ResourceNodes_Yellow>
+	</costList>
+	<comps Inherit="False">
+	  <li Class="CompProperties_Glower">
+		<glowRadius>4</glowRadius>
+		<glowColor>(255,248,133,0)</glowColor>
+	  </li>
+	  <li Class="CompProperties_TreeConnection">
+		<pawnKind>Dryad_Biomass_WVC</pawnKind>
+		<spawnDays>6</spawnDays>
+		<initialConnectionStrengthRange>1</initialConnectionStrengthRange>
+		<connectionStrengthLossPerDryadDeath>0</connectionStrengthLossPerDryadDeath>
+		<connectionStrengthGainPerHourPruningBase>1</connectionStrengthGainPerHourPruningBase>
+		<spawningPodOffset>(-0.15, 0, -0.55)</spawningPodOffset>
+		<spawningPodSizeRange>0</spawningPodSizeRange>
+		<maxDryadsWild>0</maxDryadsWild>
+		<maxDryadsPerConnectionStrengthCurve>
+		  <points>
+			<li>(0, 8)</li>
+		  </points>
+		</maxDryadsPerConnectionStrengthCurve>
+		<connectionLossPerLevelCurve>
+		  <points>
+			<li>(0, 0)</li>
+		  </points>
+		</connectionLossPerLevelCurve>
+		<connectionLossDailyPerBuildingDistanceCurve>
+		  <points>
+			<li>(0,0)</li>
+		  </points>
+		</connectionLossDailyPerBuildingDistanceCurve>
+		<connectionStrengthGainPerPlantSkill>
+		  <points>
+			<li>(0, 1)</li>
+		  </points>
+		</connectionStrengthGainPerPlantSkill>
+	  </li>
+	  <!-- conditioner -->
+	  <li Class="CompProperties_HeatPusher">
+		<compClass>CompHeatPusherPowered</compClass>
+		<heatPerSecond>40</heatPerSecond>
+		<heatPushMaxTemperature>17</heatPushMaxTemperature>
+	  </li>
+	  <li Class="CompProperties_HeatPusher">
+		<compClass>CompHeatPusherPowered</compClass>
+		<heatPerSecond>-40</heatPerSecond>
+		<heatPushMinTemperature>21</heatPushMinTemperature>
+	  </li>
+	  <!-- conditioner -->
+	</comps>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_ResearchNodes_Yellow</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+</Defs>

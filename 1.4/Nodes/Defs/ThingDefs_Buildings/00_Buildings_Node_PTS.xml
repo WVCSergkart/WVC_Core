@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="NodeBuildings_WVC">
+	<defName>WVC_PionTemperatureStabilizer</defName>
+	<label>PTS</label>
+	<description>Pion Temperature Stabilizer - A small device partially hidden under the floor. Stabilizes the temperature using a node pion generator.</description>
+	<thingClass>Building_Heater</thingClass>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/PTS</texPath>
+	  <graphicClass>Graphic_Random</graphicClass>
+	  <shadowData>
+		<volume>(0.5,0.3,0.7)</volume>
+		<offset>(0,0,-0.15)</offset>
+	  </shadowData>
+	  <damageData>
+		<rect>(0.234375,0,0.515625,0.984375)</rect>
+		<cornerTL>Damage/Corner</cornerTL>
+		<cornerTR>Damage/Corner</cornerTR>
+		<cornerBL>Damage/Corner</cornerBL>
+		<cornerBR>Damage/Corner</cornerBR>
+	  </damageData>
+	</graphicData>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<altitudeLayer>Building</altitudeLayer>
+	<passability>PassThroughOnly</passability>
+	<pathCost>30</pathCost>
+	<blockWind>false</blockWind>
+	<rotatable>false</rotatable>
+	<fillPercent>0.3</fillPercent>
+	<thingCategories>
+	  <li>BuildingsTemperature</li>
+	</thingCategories>
+	<statBases>
+	  <MaxHitPoints>110</MaxHitPoints>
+	  <Mass>6</Mass>
+	  <Beauty>2</Beauty>
+	</statBases>
+	<!-- <tickerType>Rare</tickerType> -->
+	<tickerType>Normal</tickerType>
+	<building>
+	  <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+	</building>
+	<costList>
+		<Plasteel>50</Plasteel>
+		<Uranium>8</Uranium>
+		<WVC_ResourceNodes_Blue>5</WVC_ResourceNodes_Blue>
+	</costList>
+	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+	<placeWorkers>
+	  <li>PlaceWorker_Heater</li>
+	  <li>PlaceWorker_CoolerSimple</li>
+	</placeWorkers>
+	<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	<comps Inherit="False">
+	  <li Class="CompProperties_Flickable"/>
+	  <li Class="CompProperties_HeatPusher">
+		<compClass>CompHeatPusherPowered</compClass>
+		<heatPerSecond>40</heatPerSecond>
+		<heatPushMaxTemperature>17</heatPushMaxTemperature>
+	  </li>
+	  <li Class="CompProperties_HeatPusher">
+		<compClass>CompHeatPusherPowered</compClass>
+		<heatPerSecond>-40</heatPerSecond>
+		<heatPushMinTemperature>21</heatPushMinTemperature>
+	  </li>
+	  <!-- <li Class="CompProperties_TempControl"> -->
+		<!-- <energyPerSecond>40</energyPerSecond> -->
+	  <!-- </li> -->
+	  <!-- <li Class="CompProperties_TempControl"> -->
+		<!-- <energyPerSecond>-40</energyPerSecond> -->
+	  <!-- </li> -->
+	  <li Class="CompProperties_Glower">
+		<glowRadius>5</glowRadius>
+		<glowColor>(133,202,255,0)</glowColor>
+	  </li>
+	</comps>
+	<designationCategory>Temperature</designationCategory>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Blue</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+</Defs>

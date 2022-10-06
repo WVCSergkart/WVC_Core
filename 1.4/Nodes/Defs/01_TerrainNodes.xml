@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DesignatorDropdownGroupDef>
+	<defName>Nodes_Floors_WVC</defName>
+  </DesignatorDropdownGroupDef>
+
+  <TerrainDef Abstract="True" Name="BaseFloor_Node_WVC" ParentName="Marker_BaseFloor_WVC">
+	<costList>
+	  <!-- <Plasteel>10</Plasteel> -->
+	</costList>
+	<researchPrerequisites Inherit="False">
+		<!-- <li>ValkyriesTechs_I_WVC</li> -->
+	</researchPrerequisites>
+	<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	<designatorDropdown>Nodes_Floors_WVC</designatorDropdown>
+  </TerrainDef>
+
+  <!-- ======================== -->
+
+  <TerrainDef ParentName="BaseFloor_Node_WVC">
+	<defName>WVC_Floor_NodeB</defName>
+	<label>(Floor) Node SX</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorB</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Blue>1</WVC_ResourceNodes_Blue>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Blue</li>
+	</researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseFloor_Node_WVC">
+	<defName>WVC_Floor_NodeG</defName>
+	<label>(Floor) Node GB</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorG</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Green>1</WVC_ResourceNodes_Green>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Green</li>
+	</researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseFloor_Node_WVC">
+	<defName>WVC_Floor_NodeR</defName>
+	<label>(Floor) Node HJ</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorR</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Red>1</WVC_ResourceNodes_Red>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Red</li>
+	</researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseFloor_Node_WVC">
+	<defName>WVC_Floor_NodeV</defName>
+	<label>(Floor) Node CV</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorV</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Violet>1</WVC_ResourceNodes_Violet>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Violet</li>
+	</researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseFloor_Node_WVC">
+	<defName>WVC_Floor_NodeY</defName>
+	<label>(Floor) Node WR</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorY</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Yellow>1</WVC_ResourceNodes_Yellow>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Yellow</li>
+	</researchPrerequisites>
+  </TerrainDef>
+
+  <!-- ============================================================= -->
+
+  <TerrainDef Abstract="True" Name="BaseBridges_Node_WVC" ParentName="Marker_BaseBridge_WVC">
+	<renderPrecedence>100</renderPrecedence>
+	<costList>
+	  <!-- <Plasteel>12</Plasteel> -->
+	</costList>
+	<affordances>
+	</affordances>
+	<researchPrerequisites Inherit="False">
+		<!-- <li>ValkyriesTechs_I_WVC</li> -->
+	</researchPrerequisites>
+	<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	<designatorDropdown>Nodes_Floors_WVC</designatorDropdown>
+  </TerrainDef>
+
+  <!-- ======================== -->
+
+  <TerrainDef ParentName="BaseBridges_Node_WVC">
+	<defName>WVC_Bridge_NodeB</defName>
+	<label>(Bridge) Node SX</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorB</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Blue>1</WVC_ResourceNodes_Blue>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Blue</li>
+	</researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseBridges_Node_WVC">
+	<defName>WVC_Bridge_NodeG</defName>
+	<label>(Bridge) Node GB</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorG</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Green>1</WVC_ResourceNodes_Green>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Green</li>
+	</researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseBridges_Node_WVC">
+	<defName>WVC_Bridge_NodeR</defName>
+	<label>(Bridge) Node HJ</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorR</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Red>1</WVC_ResourceNodes_Red>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Red</li>
+	</researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseBridges_Node_WVC">
+	<defName>WVC_Bridge_NodeV</defName>
+	<label>(Bridge) Node CV</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorV</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Violet>1</WVC_ResourceNodes_Violet>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Violet</li>
+	</researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseBridges_Node_WVC">
+	<defName>WVC_Bridge_NodeY</defName>
+	<label>(Bridge) Node WR</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorY</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Yellow>1</WVC_ResourceNodes_Yellow>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Yellow</li>
+	</researchPrerequisites>
+  </TerrainDef>
+
+</Defs>

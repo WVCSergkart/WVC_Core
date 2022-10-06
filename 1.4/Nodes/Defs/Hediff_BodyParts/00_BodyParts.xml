@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingCategoryDef>
+	<defName>WVC_BodyPartsNodes_Base</defName>
+	<label>nodes</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+	<defName>WVC_BodyPartsNodes_Blue</defName>
+	<label>blue nodes</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+	<defName>WVC_BodyPartsNodes_Green</defName>
+	<label>green nodes</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+	<defName>WVC_BodyPartsNodes_Red</defName>
+	<label>red nodes</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+	<defName>WVC_BodyPartsNodes_Violet</defName>
+	<label>violet nodes</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+	<defName>WVC_BodyPartsNodes_Yellow</defName>
+	<label>yellow nodes</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+	<defName>WVC_BodyPartsNodes_Archotech</defName>
+	<label>atchotech nodes</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+
+  <!--=====================================================================-->
+
+  <ThingDef Name="WVC_BodyPartsNodes_Base" ParentName="WVC_BodyParts_Base" Abstract="True">
+	<description>Body part created using high technology.</description>
+	<techLevel>Ultra</techLevel>
+	<thingCategories>
+	  <li>WVC_BodyPartsNodes_Base</li>
+	</thingCategories>
+	<graphicData>
+	  <texPath>WVC/Implants/ImplantMecha</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.95</drawSize>
+	  <color>(79,80,81)</color>
+	</graphicData>
+	<costList>
+	  <Uranium>14</Uranium>
+	  <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+	</costList>
+	<recipeMaker>
+	  <skillRequirements>
+		<Crafting>16</Crafting>
+		<Intellectual>16</Intellectual>
+		<Medicine>12</Medicine>
+	  </skillRequirements>
+	  <!-- <researchPrerequisite>WVC_RaceResearching_ELFs</researchPrerequisite> -->
+	  <recipeUsers Inherit="False">
+		<li>WVC_NodeCraftingBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+	<tradeTags>
+	  <li>ImplantEmpireRoyal</li>
+	  <li>WVC_NodeImplant</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>ImplantEmpireRoyal</li>
+	  <li>WVC_NodeImplants</li>
+	</techHediffsTags>
+	<statBases>
+	  <WorkToMake>35000</WorkToMake>
+	  <Mass>3</Mass>
+	  <DeteriorationRate>0</DeteriorationRate>
+	</statBases>
+  </ThingDef>
+
+  <!--=====================================================================-->
+
+  <ThingDef Name="WVC_BodyPartsNodes_Blue" ParentName="WVC_BodyPartsNodes_Base" Abstract="True">
+	<thingCategories>
+	  <li>WVC_BodyPartsNodes_Blue</li>
+	</thingCategories>
+	<costList>
+	  <WVC_ResourceNodes_Blue>4</WVC_ResourceNodes_Blue>
+	</costList>
+	<recipeMaker>
+	  <researchPrerequisite>WVC_ResearchBodyParts_NodeBlue</researchPrerequisite>
+	</recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="WVC_BodyPartsNodes_Green" ParentName="WVC_BodyPartsNodes_Base" Abstract="True">
+	<thingCategories>
+	  <li>WVC_BodyPartsNodes_Green</li>
+	</thingCategories>
+	<costList>
+	  <WVC_ResourceNodes_Green>4</WVC_ResourceNodes_Green>
+	</costList>
+	<recipeMaker>
+	  <researchPrerequisite>WVC_ResearchBodyParts_NodeGreen</researchPrerequisite>
+	</recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="WVC_BodyPartsNodes_Red" ParentName="WVC_BodyPartsNodes_Base" Abstract="True">
+	<thingCategories>
+	  <li>WVC_BodyPartsNodes_Red</li>
+	</thingCategories>
+	<costList>
+	  <WVC_ResourceNodes_Red>4</WVC_ResourceNodes_Red>
+	</costList>
+	<recipeMaker>
+	  <researchPrerequisite>WVC_ResearchBodyParts_NodeRed</researchPrerequisite>
+	</recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="WVC_BodyPartsNodes_Violet" ParentName="WVC_BodyPartsNodes_Base" Abstract="True">
+	<thingCategories>
+	  <li>WVC_BodyPartsNodes_Violet</li>
+	</thingCategories>
+	<costList>
+	  <WVC_ResourceNodes_Violet>4</WVC_ResourceNodes_Violet>
+	</costList>
+	<recipeMaker>
+	  <researchPrerequisite>WVC_ResearchBodyParts_NodeViolet</researchPrerequisite>
+	</recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="WVC_BodyPartsNodes_Yellow" ParentName="WVC_BodyPartsNodes_Base" Abstract="True">
+	<thingCategories>
+	  <li>WVC_BodyPartsNodes_Yellow</li>
+	</thingCategories>
+	<costList>
+	  <WVC_ResourceNodes_Yellow>4</WVC_ResourceNodes_Yellow>
+	</costList>
+	<recipeMaker>
+	  <researchPrerequisite>WVC_ResearchBodyParts_NodeYellow</researchPrerequisite>
+	</recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="WVC_BodyPartsNodes_Archotech" ParentName="WVC_BodyPartsNodes_Base" Abstract="True">
+	<thingCategories>
+	  <li>WVC_BodyPartsNodes_Archotech</li>
+	</thingCategories>
+	<graphicData>
+	  <color>(178,178,139)</color>
+	</graphicData>
+	<costList>
+	  <WVC_ResourceNodes_Archotech>6</WVC_ResourceNodes_Archotech>
+	</costList>
+	<!-- <recipeMaker Inherit="False"/> -->
+	<recipeMaker>
+	  <skillRequirements>
+		<Crafting>18</Crafting>
+		<Intellectual>20</Intellectual>
+		<Medicine>16</Medicine>
+	  </skillRequirements>
+	  <researchPrerequisite>WVC_RaceResearching_Herrschers</researchPrerequisite>
+	</recipeMaker>
+  </ThingDef>
+
+  <!--=====================================================================-->
+
+</Defs>

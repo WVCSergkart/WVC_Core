@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TraderKindDef>
+	<defName>WVC_Orbital_NodeTrader</defName>
+	<label>node trader</label>
+	<orbital>true</orbital>
+	<stockGenerators>
+	  
+	  <!-- Resources -->
+	  <li Class="StockGenerator_SingleDef">
+		<thingDef>Silver</thingDef>
+		<countRange>14000~22000</countRange>
+	  </li>
+	  <li Class="StockGenerator_SingleDef">
+		<thingDef>MedicineIndustrial</thingDef>
+		<countRange>16~50</countRange>
+	  </li>
+	  <li Class="StockGenerator_SingleDef">
+		<thingDef>MedicineUltratech</thingDef>
+		<countRange>12~35</countRange>
+	  </li>
+	  <li Class="StockGenerator_SingleDef">
+		<thingDef>WVC_MedicineMechanite</thingDef>
+		<countRange>12~35</countRange>
+	  </li>
+	  <li Class="StockGenerator_SingleDef">
+		<thingDef>WVC_ResourceNodes_Blue</thingDef>
+		<countRange>20~60</countRange>
+	  </li>
+	  <li Class="StockGenerator_SingleDef">
+		<thingDef>WVC_ResourceNodes_Green</thingDef>
+		<countRange>20~60</countRange>
+	  </li>
+	  <li Class="StockGenerator_SingleDef">
+		<thingDef>WVC_ResourceNodes_Red</thingDef>
+		<countRange>20~60</countRange>
+	  </li>
+	  <li Class="StockGenerator_SingleDef">
+		<thingDef>WVC_ResourceNodes_Violet</thingDef>
+		<countRange>20~60</countRange>
+	  </li>
+	  <li Class="StockGenerator_SingleDef">
+		<thingDef>WVC_ResourceNodes_Archotech</thingDef>
+		<countRange>0~20</countRange>
+	  </li>
+
+	  <!-- BodyParts -->
+	  <li Class="StockGenerator_Tag">
+		<tradeTag>WVC_NodeImplant</tradeTag>
+		<thingDefCountRange>8~18</thingDefCountRange>
+		<countRange>1~2</countRange>
+	  </li>
+
+	  <!-- Buying -->
+	  <li Class="StockGenerator_BuyExpensiveSimple" />
+	  <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
+	  <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
+	  <li Class="StockGenerator_BuyTradeTag"><tag>PsylinkNeuroformer</tag></li>
+	  
+	</stockGenerators>
+  </TraderKindDef>
+
+</Defs>

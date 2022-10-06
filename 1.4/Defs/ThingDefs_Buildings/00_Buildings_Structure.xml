@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ============================================================ -->
+
+	<ThingDef Name="BaseBuildings_WVC" ParentName="BuildingBase" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<description>No information available.</description>
+		<graphicData>
+		  <shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<!-- <designationCategory>CardboardStuff_WVC</designationCategory> -->
+		<designationCategory>Misc</designationCategory>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<thingCategories>
+		  <!-- <li>BuildingsSpecial</li> -->
+		</thingCategories>
+		<killedLeavings>
+		  <ChunkSlagSteel>1</ChunkSlagSteel>
+		</killedLeavings>
+		<researchPrerequisites Inherit="False">
+		</researchPrerequisites>
+		<tickerType>Never</tickerType>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<fillPercent>1</fillPercent>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0.2</resourcesFractionWhenDeconstructed>
+		<tradeability>None</tradeability>
+		<!-- <tradeability>Sellable</tradeability> -->
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<WorkToBuild>20000</WorkToBuild>
+			<Flammability>0.0</Flammability>
+		</statBases>
+		<building>
+		  <!-- <artificialForMeditationPurposes>false</artificialForMeditationPurposes> -->
+		</building>
+		<damageMultipliers>
+		  <li>
+			<damageDef>Arrow</damageDef>
+			<multiplier>0.1</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Flame</damageDef>
+			<multiplier>0</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Blunt</damageDef>
+			<multiplier>0.5</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Cut</damageDef>
+			<multiplier>0.2</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Crush</damageDef>
+			<multiplier>0.5</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Scratch</damageDef>
+			<multiplier>0.5</multiplier>
+		  </li>
+		  <li>
+			<damageDef>Bite</damageDef>
+			<multiplier>0.5</multiplier>
+		  </li>
+		</damageMultipliers>
+	</ThingDef>
+
+	<!-- ============================================================ -->
+
+	<ThingDef Name="AncientBuildings_WVC" ParentName="BaseBuildings_WVC" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ValkyriesTechs_I_WVC</li>
+		</researchPrerequisites>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	</ThingDef>
+	<ThingDef Name="MechanoidBuildings_WVC" ParentName="BaseBuildings_WVC" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ValkyriesTechs_II_WVC</li>
+		</researchPrerequisites>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	</ThingDef>
+	<ThingDef Name="ArchotechBuildings_WVC" ParentName="BaseBuildings_WVC" Abstract="True">
+		<techLevel>Archotech</techLevel>
+		<!-- <tickerType>Long</tickerType> -->
+		<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+		<comps>
+		  <li Class="CompProperties_Glower">
+			<glowRadius>3</glowRadius>
+			<glowColor>(200,200,50)</glowColor>
+		  </li>
+		  <li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<basePowerConsumption>-5</basePowerConsumption>
+			<transmitsPower>true</transmitsPower>
+		  </li>
+		  <!-- <li Class="CompProperties_SelfhealHitpoints"> -->
+			<!-- <ticksPerHeal>2000</ticksPerHeal> -->
+		  <!-- </li> -->
+		</comps>
+		<researchPrerequisites>
+			<li>ValkyriesTechs_III_WVC</li>
+		</researchPrerequisites>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	</ThingDef>
+
+	<ThingDef Name="NotMinified_Archotech_Buildings_WVC" ParentName="ArchotechBuildings_WVC" Abstract="True">
+		<descriptionHyperlinks>
+		  <ConceptDef>WVC_WallsDoorsFloors</ConceptDef>
+		</descriptionHyperlinks>
+		<statBases>
+		  <MarketValue>1</MarketValue>
+		  <Beauty>2</Beauty>
+		</statBases>
+		<thingCategories Inherit="False"/>
+		<designationCategory>Structure</designationCategory>
+		<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+	</ThingDef>
+
+	<!-- ============================================================ -->
+
+	<ThingDef Name="Marker_BuildingsWalls_WVC" ParentName="NotMinified_Archotech_Buildings_WVC" Abstract="True">
+		<!-- <defName>ArchotechWall_WVC</defName> -->
+		<label>archotech wall</label>
+		<description>An impassable wall. Capable of holding up a roof.</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/ArchotechWall</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/ArchotechWallIcon</uiIconPath>
+		<statBases>
+			<MaxHitPoints>5000</MaxHitPoints>
+		</statBases>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<coversFloor>true</coversFloor>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+		<!-- <terrainAffordanceNeeded>Light</terrainAffordanceNeeded> -->
+		<holdsRoof>true</holdsRoof>
+		<staticSunShadowHeight>1.0</staticSunShadowHeight>
+		<blockLight>true</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<fertility>0</fertility>
+		<costList>
+			<Plasteel>22</Plasteel>
+			<!-- <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid> -->
+		</costList>
+		<building>
+			<isInert>true</isInert>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isPlaceOverableWall>true</isPlaceOverableWall>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+			<relatedBuildCommands>
+				<li>AncientDoor_WVC</li>
+				<li>MechanoidDoorA_WVC</li>
+				<li>MechanoidDoorB_WVC</li>
+				<li>ArchotechDoor_WVC</li>
+			</relatedBuildCommands>
+		</building>
+		<!-- <researchPrerequisites> -->
+		  <!-- <li>ValkyriesTechs_III_WVC</li> -->
+		<!-- </researchPrerequisites> -->
+		<designatorDropdown>HGS_Walls_WVC</designatorDropdown>
+	</ThingDef>
+
+	<!-- ============================================================ -->
+
+	<ThingDef Name="Marker_BuildingsWalls_Ancient_WVC" ParentName="Marker_BuildingsWalls_WVC" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+		</costList>
+		<comps Inherit="False">
+		</comps>
+		<researchPrerequisites Inherit="False">
+		  <li>ValkyriesTechs_I_WVC</li>
+		</researchPrerequisites>
+		<statBases>
+			<MaxHitPoints>8000</MaxHitPoints>
+		</statBases>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	</ThingDef>
+	<ThingDef Name="Marker_BuildingsWalls_Mecha_WVC" ParentName="Marker_BuildingsWalls_WVC" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<costList>
+			<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+		</costList>
+		<comps Inherit="False">
+		</comps>
+		<researchPrerequisites Inherit="False">
+		  <li>ValkyriesTechs_II_WVC</li>
+		</researchPrerequisites>
+		<statBases>
+			<MaxHitPoints>10000</MaxHitPoints>
+		</statBases>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+	</ThingDef>
+	<ThingDef Name="Marker_BuildingsWalls_Archo_WVC" ParentName="Marker_BuildingsWalls_WVC" Abstract="True">
+		<techLevel>Archotech</techLevel>
+		<costList>
+			<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+			<WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech>
+		</costList>
+		<useHitPoints>false</useHitPoints>
+		<!-- <comps Inherit="False"> -->
+		<!-- </comps> -->
+		<researchPrerequisites Inherit="False">
+		  <li>ValkyriesTechs_III_WVC</li>
+		</researchPrerequisites>
+		<statBases>
+			<MaxHitPoints>12000</MaxHitPoints>
+		</statBases>
+		<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<!-- ============================================================ -->
+
+	<ThingDef ParentName="Marker_BuildingsWalls_Ancient_WVC">
+		<defName>AncientWall_WVC</defName>
+		<label>ancient wall</label>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/AncientWall_Icon</uiIconPath>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/AncientWall</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="Marker_BuildingsWalls_Mecha_WVC">
+		<defName>MechanoidWallA_WVC</defName>
+		<label>mechanoid wall A</label>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidIconA</uiIconPath>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidWallA</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="Marker_BuildingsWalls_Mecha_WVC">
+		<defName>MechanoidWallB_WVC</defName>
+		<label>mechanoid wall B</label>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidIconB</uiIconPath>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidWallB</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="Marker_BuildingsWalls_Archo_WVC">
+		<defName>ArchotechWall_WVC</defName>
+		<label>archotech wall</label>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/ArchotechWallIcon</uiIconPath>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/ArchotechWall</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<!-- ============================================================ -->
+
+	<ThingDef Name="Marker_BuildingsDoors_WVC" ParentName="NotMinified_Archotech_Buildings_WVC" Abstract="True">
+		<!-- <defName>ArchotechDoor_WVC</defName> -->
+		<label>archotech door</label>
+		<description>Divides rooms.</description>
+		<thingClass>Building_Door</thingClass>
+		<category>Building</category>
+		<altitudeLayer>DoorMoveable</altitudeLayer>
+		<fillPercent>1</fillPercent>
+		<statBases>
+		  <MaxHitPoints>3600</MaxHitPoints>
+		  <DoorOpenSpeed>5.0</DoorOpenSpeed>
+		</statBases>
+		<graphicData>
+		  <texPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_Mover</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <damageData>
+			<enabled>false</enabled>
+		  </damageData>
+		</graphicData>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_MenuIcon</uiIconPath>
+		<costList>
+			<Plasteel>75</Plasteel>
+		  <!-- <VFE_ComponentMechanoid>7</VFE_ComponentMechanoid> -->
+		</costList>
+		<comps>
+			<li Class="CompProperties_Forbiddable">
+				<allowNonPlayer>false</allowNonPlayer>
+			</li>
+			<!-- <li Class="CompProperties_Breakdownable"/> -->
+		</comps>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<selectable>true</selectable>
+		<tickerType>Normal</tickerType>
+		<rotatable>false</rotatable>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+		<!-- <terrainAffordanceNeeded>Light</terrainAffordanceNeeded> -->
+		<holdsRoof>true</holdsRoof>
+		<staticSunShadowHeight>1.0</staticSunShadowHeight>
+		<blockLight>true</blockLight>
+		<drawerType>RealtimeOnly</drawerType>
+		<building>
+		  <isInert>true</isInert>
+		  <canPlaceOverWall>true</canPlaceOverWall>
+		  <soundDoorOpenPowered>Door_OpenPowered</soundDoorOpenPowered>
+		  <soundDoorClosePowered>Door_ClosePowered</soundDoorClosePowered>
+		  <soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+		  <soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
+		  <blueprintClass>Blueprint_Door</blueprintClass>
+		  <blueprintGraphicData>
+			<texPath>Things/Building/Door/Door_Blueprint</texPath>
+		  </blueprintGraphicData>
+		  <ai_chillDestination>false</ai_chillDestination>
+			<relatedBuildCommands>
+				<li>AncientWall_WVC</li>
+				<li>MechanoidWallA_WVC</li>
+				<li>MechanoidWallB_WVC</li>
+				<li>ArchotechWall_WVC</li>
+			</relatedBuildCommands>
+		</building>
+		<placeWorkers>
+		  <li>PlaceWorker_DoorLearnOpeningSpeed</li>
+		</placeWorkers>
+		<researchPrerequisites>
+		  <li>ValkyriesTechs_III_WVC</li>
+		</researchPrerequisites>
+		<designatorDropdown>HGS_Doors_WVC</designatorDropdown>
+	</ThingDef>
+
+	<ThingDef Name="Marker_BuildingsDoors_Ancient_WVC" ParentName="Marker_BuildingsDoors_WVC" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+		</costList>
+		<comps Inherit="False">
+		  <li Class="CompProperties_Forbiddable">
+			<allowNonPlayer>false</allowNonPlayer>
+		  </li>
+		</comps>
+		<researchPrerequisites Inherit="False">
+		  <li>ValkyriesTechs_I_WVC</li>
+		</researchPrerequisites>
+		<statBases>
+		  <MaxHitPoints>6000</MaxHitPoints>
+		  <DoorOpenSpeed>0.8</DoorOpenSpeed>
+		</statBases>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	</ThingDef>
+	<ThingDef Name="Marker_BuildingsDoors_Mecha_WVC" ParentName="Marker_BuildingsDoors_WVC" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<costList>
+			<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+		</costList>
+		<comps Inherit="False">
+		  <li Class="CompProperties_Forbiddable">
+			<allowNonPlayer>false</allowNonPlayer>
+		  </li>
+		</comps>
+		<researchPrerequisites Inherit="False">
+		  <li>ValkyriesTechs_II_WVC</li>
+		</researchPrerequisites>
+		<statBases>
+		  <MaxHitPoints>8000</MaxHitPoints>
+		</statBases>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+	</ThingDef>
+	<ThingDef Name="Marker_BuildingsDoors_Archo_WVC" ParentName="Marker_BuildingsDoors_WVC" Abstract="True">
+		<techLevel>Archotech</techLevel>
+		<costList>
+			<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+			<WVC_ResourceNodes_Archotech>2</WVC_ResourceNodes_Archotech>
+		</costList>
+		<useHitPoints>false</useHitPoints>
+		<!-- <comps Inherit="False"> -->
+		<!-- </comps> -->
+		<researchPrerequisites Inherit="False">
+		  <li>ValkyriesTechs_III_WVC</li>
+		</researchPrerequisites>
+		<statBases>
+		  <MaxHitPoints>10000</MaxHitPoints>
+		</statBases>
+		<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<!-- ============================================================ -->
+
+	<ThingDef ParentName="Marker_BuildingsDoors_Ancient_WVC">
+		<defName>AncientDoor_WVC</defName>
+		<label>ancient door</label>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/AncientDoor_Icon</uiIconPath>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/AncientDoor_Mover</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="Marker_BuildingsDoors_Mecha_WVC">
+		<defName>MechanoidDoorA_WVC</defName>
+		<label>mechanoid door A</label>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorA_MenuIcon</uiIconPath>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorA_Mover</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="Marker_BuildingsDoors_Mecha_WVC">
+		<defName>MechanoidDoorB_WVC</defName>
+		<label>mechanoid door B</label>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorB_MenuIcon</uiIconPath>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorB_Mover</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="Marker_BuildingsDoors_Archo_WVC">
+		<defName>ArchotechDoor_WVC</defName>
+		<label>archotech door</label>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_MenuIcon</uiIconPath>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_Mover</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<!-- ============================================================ -->
+
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="AncientBuildings_WVC">
+	<defName>AncientColumn_WVC</defName>
+	<label>ancient column</label>
+	<description>A column capable of holding a roof.</description>
+	<size>(1,1)</size>
+	<uiIconScale>0.75</uiIconScale>
+	<graphicData>
+	  <texPath>WVC/Stuff/WallsDoorsColumns/AncientColumn</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1.25,1.25)</drawSize>
+	  <drawOffset>(0,0,0.2)</drawOffset>
+	  <shadowData>
+		<volume>(0.3, 0.5, 0.3)</volume>
+		<offset>(0,0,-0.23)</offset>
+	  </shadowData>
+	  <damageData>
+		<rect>(0.2,0.2,0.6,0.6)</rect>
+	  </damageData>
+	</graphicData>
+	<thingCategories>
+	  <li>BuildingsSpecial</li>
+	</thingCategories>
+	<holdsRoof>true</holdsRoof>
+	<specialDisplayRadius>6.9</specialDisplayRadius>
+	<building>
+	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	</building>
+	<altitudeLayer>Building</altitudeLayer>
+	<statBases>
+	  <MarketValue>1</MarketValue>
+	  <MaxHitPoints>8000</MaxHitPoints>
+	  <Beauty>1</Beauty>
+	  <Mass>32</Mass>
+	</statBases>
+	<costList>
+	  <Plasteel>30</Plasteel>
+	  <!-- <Uranium>12</Uranium> -->
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	</costList>
+	<!-- <thingSetMakerTags> -->
+	  <!-- <li>RewardStandardHighFreq</li> -->
+	<!-- </thingSetMakerTags> -->
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<passability>PassThroughOnly</passability>
+	<fillPercent>0.25</fillPercent>
+	<pathCost>0</pathCost>
+	<rotatable>false</rotatable>
+	<canOverlapZones>false</canOverlapZones>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<researchPrerequisites Inherit="False">
+	  <li>ValkyriesTechs_I_WVC</li>
+	</researchPrerequisites>
+	<designationCategory>Structure</designationCategory>
+	<designatorDropdown>HGS_Columns_WVC</designatorDropdown>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="MechanoidBuildings_WVC">
+	<defName>MechanoidColumn_WVC</defName>
+	<label>mechanoid column</label>
+	<description>A column capable of holding a roof.</description>
+	<size>(1,1)</size>
+	<uiIconScale>0.75</uiIconScale>
+	<graphicData>
+	  <texPath>WVC/Stuff/WallsDoorsColumns/MechanoidColumn</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1.25,1.25)</drawSize>
+	  <drawOffset>(0,0,0.2)</drawOffset>
+	  <shadowData>
+		<volume>(0.3, 0.5, 0.3)</volume>
+		<offset>(0,0,-0.23)</offset>
+	  </shadowData>
+	  <damageData>
+		<rect>(0.2,0.2,0.6,0.6)</rect>
+	  </damageData>
+	</graphicData>
+	<thingCategories>
+	  <li>BuildingsSpecial</li>
+	</thingCategories>
+	<holdsRoof>true</holdsRoof>
+	<specialDisplayRadius>6.9</specialDisplayRadius>
+	<building>
+	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	</building>
+	<altitudeLayer>Building</altitudeLayer>
+	<statBases>
+	  <MarketValue>1</MarketValue>
+	  <MaxHitPoints>10000</MaxHitPoints>
+	  <Beauty>1</Beauty>
+	  <Mass>12</Mass>
+	</statBases>
+	<costList>
+	  <Plasteel>30</Plasteel>
+	  <!-- <Uranium>12</Uranium> -->
+	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	</costList>
+	<!-- <thingSetMakerTags> -->
+	  <!-- <li>RewardStandardHighFreq</li> -->
+	<!-- </thingSetMakerTags> -->
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<passability>PassThroughOnly</passability>
+	<fillPercent>0.25</fillPercent>
+	<pathCost>0</pathCost>
+	<rotatable>false</rotatable>
+	<canOverlapZones>false</canOverlapZones>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<researchPrerequisites Inherit="False">
+	  <li>ValkyriesTechs_II_WVC</li>
+	</researchPrerequisites>
+	<designationCategory>Structure</designationCategory>
+	<designatorDropdown>HGS_Columns_WVC</designatorDropdown>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="ArchotechBuildings_WVC">
+	<defName>ArchotechColumn_WVC</defName>
+	<label>archotech column</label>
+	<description>A column capable of holding a roof.</description>
+	<size>(1,1)</size>
+	<uiIconScale>0.75</uiIconScale>
+	<graphicData>
+	  <texPath>WVC/Stuff/WallsDoorsColumns/ArchotechColumn</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1.25,1.25)</drawSize>
+	  <drawOffset>(0,0,0.2)</drawOffset>
+	  <shadowData>
+		<volume>(0.3, 0.5, 0.3)</volume>
+		<offset>(0,0,-0.23)</offset>
+	  </shadowData>
+	  <damageData>
+		<rect>(0.2,0.2,0.6,0.6)</rect>
+	  </damageData>
+	</graphicData>
+	<thingCategories>
+	  <li>BuildingsSpecial</li>
+	</thingCategories>
+	<holdsRoof>true</holdsRoof>
+	<specialDisplayRadius>6.9</specialDisplayRadius>
+	<building>
+	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	</building>
+	<altitudeLayer>Building</altitudeLayer>
+	<statBases>
+	  <MarketValue>1</MarketValue>
+	  <MaxHitPoints>12000</MaxHitPoints>
+	  <Beauty>2</Beauty>
+	  <Mass>12</Mass>
+	</statBases>
+	<costList>
+	  <Plasteel>30</Plasteel>
+	  <!-- <Uranium>12</Uranium> -->
+	  <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech>
+	</costList>
+	<!-- <thingSetMakerTags> -->
+	  <!-- <li>RewardStandardHighFreq</li> -->
+	<!-- </thingSetMakerTags> -->
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	<passability>PassThroughOnly</passability>
+	<fillPercent>0.25</fillPercent>
+	<pathCost>0</pathCost>
+	<rotatable>false</rotatable>
+	<canOverlapZones>false</canOverlapZones>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<researchPrerequisites Inherit="False">
+	  <li>ValkyriesTechs_III_WVC</li>
+	</researchPrerequisites>
+	<designationCategory>Structure</designationCategory>
+	<designatorDropdown>HGS_Columns_WVC</designatorDropdown>
+  </ThingDef>
+
+</Defs>

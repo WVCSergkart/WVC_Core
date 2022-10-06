@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DesignatorDropdownGroupDef>
+		<defName>Nodes_Stools_WVC</defName>
+	</DesignatorDropdownGroupDef>
+	<DesignatorDropdownGroupDef>
+		<defName>Nodes_Tables_WVC</defName>
+	</DesignatorDropdownGroupDef>
+
+	<ThingDef Name="NodeBuildings_WVC" ParentName="BaseBuildings_WVC" Abstract="True">
+		<techLevel>Ultra</techLevel>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<!-- <li>ValkyriesTechs_I_WVC</li> -->
+		</researchPrerequisites>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	</ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="NodeBuildings_WVC" Name="WVC_NodeStool_Base" Abstract="True">
+	<!-- <defName>WVC_NodeStool</defName> -->
+	<label>node stool</label>
+	<description>A simple platform on which to sit. Can be used at tables, work stations, and elsewhere.</description>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/NodeStool</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(175,78,78)</color>
+	  <damageData>
+		<rectN>(0.125,0.296875,0.734375,0.421875)</rectN>
+		<rectS>(0.125,0.296875,0.734375,0.421875)</rectS>
+		<rectE>(0.234375,0.296875,0.5,0.546875)</rectE>
+		<rectW>(0.234375,0.296875,0.5,0.546875)</rectW>
+		<cornerTL>Damage/Corner</cornerTL>
+		<cornerTR>Damage/Corner</cornerTR>
+		<cornerBL>Damage/Corner</cornerBL>
+		<cornerBR>Damage/Corner</cornerBR>
+	  </damageData>
+	  <shadowData>
+		<volume>(0.18, 0.23, 0.18)</volume>
+	  </shadowData>
+	</graphicData>
+	<rotatable>false</rotatable>
+	<defaultPlacingRot>North</defaultPlacingRot>
+	<altitudeLayer>Building</altitudeLayer>
+	<statBases>
+	  <MarketValue>90</MarketValue>
+	  <MaxHitPoints>300</MaxHitPoints>
+	  <Mass>12</Mass>
+	  <Flammability>0.0</Flammability>
+	  <Beauty>2</Beauty>
+	  <Comfort>1.5</Comfort>
+	</statBases>
+	<socialPropernessMatters>true</socialPropernessMatters>
+	<costList Inherit="False">
+	  <Plasteel>15</Plasteel>
+	</costList>
+	<pathCost>30</pathCost>
+	<fillPercent>0.20</fillPercent>
+	<building>
+	  <isSittable>true</isSittable>
+	</building>
+	<uiIconOffset>(0, -0.05)</uiIconOffset>
+	<comps>
+	</comps>
+	<designationCategory>Furniture</designationCategory>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+	  <li>BuildingsFurniture</li>
+	</thingCategories>
+	<researchPrerequisites Inherit="False">
+	</researchPrerequisites>
+	<designatorDropdown>Nodes_Stools_WVC</designatorDropdown>
+	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_NodeStool_Base">
+	<defName>WVC_NodeStool_Blue</defName>
+	<graphicData>
+	  <color>(133,202,255)</color>
+	</graphicData>
+	<costList>
+	  <WVC_ResourceNodes_Blue>6</WVC_ResourceNodes_Blue>
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(133,202,255)</glowColor>
+	  </li>
+	</comps>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Blue</li>
+	</researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="WVC_NodeStool_Base">
+	<defName>WVC_NodeStool_Green</defName>
+	<graphicData>
+	  <color>(133,255,136)</color>
+	</graphicData>
+	<costList>
+	  <WVC_ResourceNodes_Green>6</WVC_ResourceNodes_Green>
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(133,255,136)</glowColor>
+	  </li>
+	</comps>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Green</li>
+	</researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="WVC_NodeStool_Base">
+	<defName>WVC_NodeStool_Red</defName>
+	<graphicData>
+	  <color>(255,133,133)</color>
+	</graphicData>
+	<costList>
+	  <WVC_ResourceNodes_Red>6</WVC_ResourceNodes_Red>
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(255,133,133)</glowColor>
+	  </li>
+	</comps>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Red</li>
+	</researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="WVC_NodeStool_Base">
+	<defName>WVC_NodeStool_Violet</defName>
+	<graphicData>
+	  <color>(142,133,255)</color>
+	</graphicData>
+	<costList>
+	  <WVC_ResourceNodes_Violet>6</WVC_ResourceNodes_Violet>
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(142,133,255)</glowColor>
+	  </li>
+	</comps>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Violet</li>
+	</researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="WVC_NodeStool_Base">
+	<defName>WVC_NodeStool_Yellow</defName>
+	<graphicData>
+	  <color>(255,248,133)</color>
+	</graphicData>
+	<costList>
+	  <WVC_ResourceNodes_Yellow>6</WVC_ResourceNodes_Yellow>
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(255,248,133)</glowColor>
+	  </li>
+	</comps>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Yellow</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="NodeBuildings_WVC" Name="WVC_NodeTable2x2c_Base" Abstract="True">
+	<!-- <defName>WVC_AncientTable2x2c</defName> -->
+	<label>node table (2x2)</label>
+	<description>People eat off tables when chairs are placed facing them.</description>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/NodeTable</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(175,78,78)</color>
+	  <drawSize>(4,4)</drawSize>
+	  <damageData>
+		<cornerTL>Damage/Corner</cornerTL>
+		<cornerTR>Damage/Corner</cornerTR>
+		<cornerBL>Damage/Corner</cornerBL>
+		<cornerBR>Damage/Corner</cornerBR>
+	  </damageData>
+	</graphicData>
+	<rotatable>false</rotatable>
+	<defaultPlacingRot>North</defaultPlacingRot>
+	<uiIconScale>0.8</uiIconScale>
+	<statBases>
+	  <MarketValue>120</MarketValue>
+	  <MaxHitPoints>1200</MaxHitPoints>
+	  <Mass>22</Mass>
+	  <Flammability>0.0</Flammability>
+	  <Beauty>2</Beauty>
+	  <JoyGainFactor>1.5</JoyGainFactor>
+	</statBases>
+	<size>(2,2)</size>
+	<thingClass>Building</thingClass>
+	<altitudeLayer>Building</altitudeLayer>
+	<passability>PassThroughOnly</passability>
+	<castEdgeShadows>true</castEdgeShadows>
+	<pathCost>42</pathCost>
+	<fillPercent>0.4</fillPercent>
+	<socialPropernessMatters>true</socialPropernessMatters>
+	<canOverlapZones>false</canOverlapZones>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<staticSunShadowHeight>0.20</staticSunShadowHeight>
+	<surfaceType>Eat</surfaceType>
+	<costList Inherit="False">
+	  <Plasteel>30</Plasteel>
+	</costList>
+	<comps>
+	  <li>
+		<compClass>CompGatherSpot</compClass>
+	  </li>
+	</comps>
+	<building>
+	  <joyKind>Gaming_Cerebral</joyKind>
+	  <buildingTags>
+		<li>RitualFocus</li>
+	  </buildingTags>
+	</building>
+	<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	<placeWorkers>
+	  <li>PlaceWorker_RitualFocus</li>
+	</placeWorkers>
+	<designationCategory>Furniture</designationCategory>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<thingCategories>
+	  <li>BuildingsFurniture</li>
+	</thingCategories>
+	<researchPrerequisites Inherit="False">
+	</researchPrerequisites>
+	<designatorDropdown>Nodes_Tables_WVC</designatorDropdown>
+	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_NodeTable2x2c_Base">
+	<defName>WVC_NodeTable2x2c_Blue</defName>
+	<graphicData>
+	  <color>(133,202,255)</color>
+	</graphicData>
+	<costList>
+	  <WVC_ResourceNodes_Blue>12</WVC_ResourceNodes_Blue>
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(133,202,255)</glowColor>
+	  </li>
+	</comps>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Blue</li>
+	</researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="WVC_NodeTable2x2c_Base">
+	<defName>WVC_NodeTable2x2c_Green</defName>
+	<graphicData>
+	  <color>(133,255,136)</color>
+	</graphicData>
+	<costList>
+	  <WVC_ResourceNodes_Green>12</WVC_ResourceNodes_Green>
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(133,255,136)</glowColor>
+	  </li>
+	</comps>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Green</li>
+	</researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="WVC_NodeTable2x2c_Base">
+	<defName>WVC_NodeTable2x2c_Red</defName>
+	<graphicData>
+	  <color>(255,133,133)</color>
+	</graphicData>
+	<costList>
+	  <WVC_ResourceNodes_Red>12</WVC_ResourceNodes_Red>
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(255,133,133)</glowColor>
+	  </li>
+	</comps>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Red</li>
+	</researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="WVC_NodeTable2x2c_Base">
+	<defName>WVC_NodeTable2x2c_Violet</defName>
+	<graphicData>
+	  <color>(142,133,255)</color>
+	</graphicData>
+	<costList>
+	  <WVC_ResourceNodes_Violet>12</WVC_ResourceNodes_Violet>
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(142,133,255)</glowColor>
+	  </li>
+	</comps>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Violet</li>
+	</researchPrerequisites>
+  </ThingDef>
+  <ThingDef ParentName="WVC_NodeTable2x2c_Base">
+	<defName>WVC_NodeTable2x2c_Yellow</defName>
+	<graphicData>
+	  <color>(255,248,133)</color>
+	</graphicData>
+	<costList>
+	  <WVC_ResourceNodes_Yellow>12</WVC_ResourceNodes_Yellow>
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(255,248,133)</glowColor>
+	  </li>
+	</comps>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Yellow</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+</Defs>
