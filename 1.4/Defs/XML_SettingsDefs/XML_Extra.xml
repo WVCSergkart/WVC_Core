@@ -54,20 +54,6 @@
 						<color>(132,255,0)</color>
 					</li>
 					<li Class="XmlExtensions.Setting.Checkbox">
-						<key>WVC_ExoticResources_RenamePlaSteel</key>
-						<label>Rename steel and plasteel</label>
-						<defaultValue>false</defaultValue>
-						<tooltip>Renames steel to "Alloy" and plasteel to "Advanced alloy".</tooltip>
-						<tKey>HGS_ExoticResources_RenamePlaSteel_Label_WVC</tKey>
-						<tKeyTip>HGS_ExoticResources_RenamePlaSteel_Desc_WVC</tKeyTip>
-					</li>
-					<li Class="XmlExtensions.Setting.Checkbox">
-						<key>WVC_ExoticResources_ChangeTexturePlaSteel</key>
-						<label>Change the texture of steel and plasteel</label>
-						<defaultValue>false</defaultValue>
-						<tKey>HGS_ExoticResources_ChangeTexturePlaSteel_Label_WVC</tKey>
-					</li>
-					<li Class="XmlExtensions.Setting.Checkbox">
 						<key>WVC_ExoticResources_MainPatch</key>
 						<label>Enable exotic resources</label>
 						<defaultValue>false</defaultValue>

@@ -1,6 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <ThingDef ParentName="ResourceBase">
+	<defName>WVC_LivingMetall</defName>
+	<label>living metall</label>
+	<description>The metal behind node technologies. It is flesh-like, flexible and has regenerative properties. One way to get it is to rip it off a dead semi-organic being.\n\nIn its current state, it is unable to regenerate.</description>
+	<techLevel>Ultra</techLevel>
+	<graphicData>
+	  <texPath>WVC/Resource/Plasteel</texPath>
+	  <graphicClass>Graphic_StackCount</graphicClass>
+	</graphicData>
+	<soundInteract>Metal_Drop</soundInteract>
+	<soundDrop>Metal_Drop</soundDrop>
+	<useHitPoints>false</useHitPoints>
+	<healthAffectsPrice>false</healthAffectsPrice>
+	<statBases>
+	  <MarketValue>14</MarketValue>
+	  <Mass>0.08</Mass>
+	  <DeteriorationRate>0</DeteriorationRate>
+	  <StuffPower_Armor_Sharp>1.24</StuffPower_Armor_Sharp>
+	  <StuffPower_Armor_Blunt>1.05</StuffPower_Armor_Blunt>
+	  <StuffPower_Armor_Heat>1.15</StuffPower_Armor_Heat>
+	  <StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>23</StuffPower_Insulation_Heat>
+	  <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+	  <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+	</statBases>
+	<thingCategories>
+	  <li>ResourcesRaw</li>
+	  <li>WVC_MetalResources_Raw</li>
+	</thingCategories>
+	<!-- <deepCommonality>0</deepCommonality> -->
+	<!-- <deepCountPerPortion>10</deepCountPerPortion> -->
+	<!-- <deepLumpSizeRange>2~10</deepLumpSizeRange> -->
+	<burnableByRecipe>false</burnableByRecipe>
+	<smeltable>true</smeltable>
+	<stuffProps>
+	  <categories>
+		<li>Stony</li>
+		<li>Fabric</li>
+		<li>Woody</li>
+		<li>Metallic</li>
+	  </categories>
+	  <appearance>living metal</appearance>
+	  <commonality>0.001</commonality>
+	  <constructEffect>ConstructMetal</constructEffect>
+	  <color>(255,224,200)</color>
+	  <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+	  <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+	  <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+	  <statFactors>
+		<MaxHitPoints>3.0</MaxHitPoints>
+		<Beauty>5</Beauty>
+		<Flammability>0</Flammability>
+		<WorkToMake>3.5</WorkToMake>
+		<WorkToBuild>3.5</WorkToBuild>
+		<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+	  </statFactors>
+	</stuffProps>
+	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	<allowedArchonexusCount>80</allowedArchonexusCount>
+	<!-- =living part= -->
+	<rotatable>true</rotatable>
+	<comps>
+	  <li Class="CompProperties_Rottable">
+		<daysToRotStart>60</daysToRotStart>
+		<rotDestroys>true</rotDestroys>
+	  </li>
+	</comps>
+  </ThingDef>
+
+  <!-- ================================================================= -->
+
   <ThingDef Name="WVC_UltraComponents_Base" ParentName="ResourceBase">
 	<!-- <defName>VFE_ComponentMechanoid</defName> -->
 	<defName>VFE_ComponentMechanoid</defName>

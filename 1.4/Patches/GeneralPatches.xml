@@ -6,7 +6,7 @@
 	  <value>
 		  <li Class="StockGenerator_SingleDef">
 			<thingDef>VFE_ComponentMechanoid</thingDef>
-			<countRange>0~5</countRange>
+			<countRange>0~8</countRange>
 		  </li>
 	  </value>
 	</Operation>

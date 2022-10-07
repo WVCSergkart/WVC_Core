@@ -8,15 +8,15 @@
 
 			<!--=====================================================================-->
 
-			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-				<xpath>Defs/StatDef[defName="MeditationFocusGain" or defName="PsychicEntropyRecoveryRate"]</xpath>
-				<safetyDepth>1</safetyDepth>
-				<value>
-					<statFactors>
-					  <li>PsychicSensitivity</li>
-					</statFactors>
-				</value>
-			</Operation>
+			<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
+				<!-- <xpath>Defs/StatDef[defName="MeditationFocusGain" or defName="PsychicEntropyRecoveryRate"]</xpath> -->
+				<!-- <safetyDepth>1</safetyDepth> -->
+				<!-- <value> -->
+					<!-- <statFactors> -->
+					  <!-- <li>PsychicSensitivity</li> -->
+					<!-- </statFactors> -->
+				<!-- </value> -->
+			<!-- </Operation> -->
 			<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
 				<!-- <xpath>Defs/StatDef[defName="PsychicEntropyMax" or defName="RE_BioticEnergyMax"]</xpath> -->
 				<!-- <safetyDepth>1</safetyDepth> -->
@@ -32,7 +32,7 @@
 					<capacityFactors>
 					  <li>
 						<capacity>Consciousness</capacity>
-						<weight>1</weight>
+						<weight>0.5</weight>
 						<!-- <max>2</max> -->
 					  </li>
 					</capacityFactors>
@@ -40,7 +40,7 @@
 					  <li Class="SkillNeed_BaseBonus">
 						<skill>Intellectual</skill>
 						<baseValue>1</baseValue>
-						<bonusPerLevel>0.05</bonusPerLevel>
+						<bonusPerLevel>0.02</bonusPerLevel>
 					  </li>
 					</skillNeedFactors>
 				</value>
@@ -71,7 +71,7 @@
 
 					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
 						<xpath>Defs/HediffDef[defName="PsychicAmplifier"]</xpath>
-						<safetyDepth>1</safetyDepth>
+						<safetyDepth>2</safetyDepth>
 						<value>
 							<stages>
 								<li>
@@ -79,7 +79,7 @@
 									<capMods>
 									  <li>
 										<capacity>Consciousness</capacity>
-										<offset>0.2</offset>
+										<offset>0.1</offset>
 									  </li>
 									</capMods>
 								</li>
@@ -279,7 +279,7 @@
 							  <li Class="SkillNeed_BaseBonus">
 								<skill>Intellectual</skill>
 								<baseValue>1</baseValue>
-								<bonusPerLevel>-0.02</bonusPerLevel>
+								<bonusPerLevel>-0.01</bonusPerLevel>
 							  </li>
 							</skillNeedFactors>
 						</value>
@@ -289,20 +289,20 @@
 						<safetyDepth>1</safetyDepth>
 						<value>
 							<neverDisabled>true</neverDisabled>
-							<statFactors>
-							  <li>PsychicSensitivity</li>
-							</statFactors>
+							<!-- <statFactors> -->
+							  <!-- <li>PsychicSensitivity</li> -->
+							<!-- </statFactors> -->
 							<capacityFactors>
 							  <li>
 								<capacity>Consciousness</capacity>
-								<weight>1</weight>
+								<weight>0.5</weight>
 							  </li>
 							</capacityFactors>
 							<skillNeedFactors>
 							  <li Class="SkillNeed_BaseBonus">
 								<skill>Intellectual</skill>
 								<baseValue>1</baseValue>
-								<bonusPerLevel>0.05</bonusPerLevel>
+								<bonusPerLevel>0.01</bonusPerLevel>
 							  </li>
 							</skillNeedFactors>
 						</value>

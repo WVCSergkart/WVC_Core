@@ -21,12 +21,12 @@
 				<defaultValue>false</defaultValue>
 				<tKey>HGS_GauranlenTreeCustom_Gurler_WVC</tKey>
 			</li>
-			<li Class="XmlExtensions.Setting.Checkbox">
-				<key>GauranlenTreeCustom_Mother_WVC</key>
-				<label>|- Affect Mothers</label>
-				<defaultValue>false</defaultValue>
-				<tKey>HGS_GauranlenTreeCustom_Mother_WVC</tKey>
-			</li>
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>GauranlenTreeCustom_Mother_WVC</key> -->
+				<!-- <label>|- Affect Mothers</label> -->
+				<!-- <defaultValue>false</defaultValue> -->
+				<!-- <tKey>HGS_GauranlenTreeCustom_Mother_WVC</tKey> -->
+			<!-- </li> -->
 			<li Class="XmlExtensions.Setting.Checkbox">
 				<key>AnimaTree_DryadsConnection_wvc</key>
 				<label>|- Affect Anima tree</label>

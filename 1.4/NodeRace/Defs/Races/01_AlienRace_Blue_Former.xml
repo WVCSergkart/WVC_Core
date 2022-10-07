@@ -435,7 +435,7 @@
       <!-- <useMeatFrom>Mech_Centipede</useMeatFrom> -->
 	  <!-- <leatherDef>Plasteel</leatherDef> -->
 	  <specificMeatDef>WVC_ResourceNodes_Blue</specificMeatDef>
-	  <leatherDef>Plasteel</leatherDef>
+	  <leatherDef>WVC_LivingMetall</leatherDef>
 	  <wildness>0.0</wildness>
 	  <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
 	  <manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>

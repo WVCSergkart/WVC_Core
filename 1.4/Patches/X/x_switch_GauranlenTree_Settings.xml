@@ -165,64 +165,6 @@
 
 					<!-- ================================================================= -->
 
-					<Operation Class="XmlExtensions.FindMod">
-						<mods>
-							<li>honkai.girls.sergkart</li>
-						</mods>
-						<packageId>true</packageId>
-						<caseTrue>
-
-					<Operation Class="XmlExtensions.OptionalPatch">
-						<modId>honkai.girls.sergkart</modId>
-						<key>GauranlenTreeCustom_Mother_WVC</key>
-						<defaultValue>false</defaultValue>
-						<caseTrue>
-
-							<Operation Class="XmlExtensions.ApplyPatch">
-								<patchName>Autopatcher_GauranlenSettingsTree_Patch_WVC</patchName>
-								<arguments>
-									<li>AlienRace.ThingDef_AlienRace</li>
-									<!-- 0 -->
-									<li>[@Name="BaseDryadMother_WVC"]</li>
-									<!-- 1 -->
-									<li>{GauranlenTreeCustom_MaxDryads90_WVC}</li>
-									<li>{GauranlenTreeCustom_MaxDryads90_WVC}</li>
-									<li>{GauranlenTreeCustom_MaxDryads90_WVC}</li>
-									<li>{GauranlenTreeCustom_MaxDryads90_WVC}</li>
-									<li>{GauranlenTreeCustom_MaxDryads90_WVC}</li>
-									<li>{GauranlenTreeCustom_MaxDryads90_WVC}</li>
-									<!-- 2 -->
-									<li>0</li>
-									<li>1</li>
-									<li>{GauranlenTreeCustom_spawnDays_WVC}</li>
-									<li>0</li>
-									<li>1</li>
-									<li>1</li>
-									<!-- 3 -->
-									<li>0</li>
-									<li>0</li>
-									<li>0</li>
-									<li>0</li>
-									<!-- 4 -->
-									<li>0</li>
-									<li>0</li>
-									<!-- 5 -->
-									<li>{GauranlenTreeCustom_GainPerPlantSkill0_WVC}</li>
-									<li>{GauranlenTreeCustom_GainPerPlantSkill8_WVC}</li>
-									<li>{GauranlenTreeCustom_GainPerPlantSkill20_WVC}</li>
-									<!-- 5 -->
-									<li>0</li>
-								</arguments>
-							</Operation>
-
-						</caseTrue>
-					</Operation>
-
-						</caseTrue>
-					</Operation>
-
-					<!-- ================================================================= -->
-
 					<Operation Class="XmlExtensions.OptionalPatch">
 						<modId>honkai.girls.sergkart</modId>
 						<key>AnimaTree_DryadsConnection_wvc</key>
