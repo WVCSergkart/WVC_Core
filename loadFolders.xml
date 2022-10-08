@@ -10,10 +10,10 @@
 	<v1.4>
 		<li>/</li>
 		<li>1.4</li>
-		<li>1.4/Nodes</li>
 		<li IfModActive="erdelf.humanoidalienraces">1.4/NodeRace</li>
 		<li IfModActive="ludeon.rimworld.royalty">1.4/Royalty</li>
 		<li IfModActive="ludeon.rimworld.ideology">1.4/Ideology</li>
+		<!-- <li IfModActive="imranfish.xmlextensions">1.4/XML_Extensions</li> -->
 	</v1.4>
 </loadFolders>
 
