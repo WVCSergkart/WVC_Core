@@ -35,7 +35,7 @@
 	<canOverlapZones>false</canOverlapZones>
 	<holdsRoof>true</holdsRoof>
 	<statBases>
-	  <!-- <MarketValue>1</MarketValue> -->
+	  <MarketValue>2340</MarketValue>
 	  <MaxHitPoints>5000</MaxHitPoints>
 	  <WorkToBuild>50000</WorkToBuild>
 	  <Flammability>0.0</Flammability>

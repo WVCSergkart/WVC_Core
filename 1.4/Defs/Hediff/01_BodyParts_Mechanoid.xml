@@ -324,6 +324,9 @@
 	<defName>WVC_MechanoidFormerPilon</defName>
 	<label>mechanoid veil foundation</label>
 	<labelNoun>a veil foundation</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.1</partEfficiency>
+	</addedPartProps>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -348,6 +351,9 @@
 	<defName>WVC_MechanoidAutomatonTriangle</defName>
 	<label>mechanoid triangle</label>
 	<labelNoun>a triangle</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.1</partEfficiency>
+	</addedPartProps>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -372,6 +378,9 @@
 	<defName>WVC_MechanoidFormerCore</defName>
 	<label>mechanoid node core</label>
 	<labelNoun>a node core</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.1</partEfficiency>
+	</addedPartProps>
 	<tags>
 		<li>WVC_FormerCore</li>
 	</tags>
@@ -381,6 +390,9 @@
 	<defName>WVC_MechanoidAutomatonSpike</defName>
 	<label>mechanoid spike</label>
 	<labelNoun>a spike</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.1</partEfficiency>
+	</addedPartProps>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -405,6 +417,9 @@
 	<defName>WVC_MechanoidFormerVeil</defName>
 	<label>mechanoid veil blade</label>
 	<labelNoun>a veil blade</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.1</partEfficiency>
+	</addedPartProps>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>

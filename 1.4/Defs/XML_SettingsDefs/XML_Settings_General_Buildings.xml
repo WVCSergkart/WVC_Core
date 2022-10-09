@@ -20,7 +20,7 @@
 				<key>Buildings_AncientsFromRubbish_Module_WVC</key>
 				<label>Enable ancient buildings (VFEA)</label>
 				<tooltip>Allows you to build ancient structures from the mod "Vanilla Factions Expanded - Ancients"\nAlso makes some changes to the logic of buildings.\n\nAll buildings require "Multi-analyzer" and "Ancient techs" technologies. The computer table allows you to conduct research. Some buildings require additional researchs.\n\n(Conflicts with all mods that significantly change the buildings of the ancients)</tooltip>
-				<defaultValue>false</defaultValue>
+				<defaultValue>true</defaultValue>
 				<tKey>HGS_Buildings_AncientsFromRubbish_WVC</tKey>
 				<tKeyTip>HGS_Buildings_AncientsFromRubbish_Desc_WVC</tKeyTip>
 			</li>

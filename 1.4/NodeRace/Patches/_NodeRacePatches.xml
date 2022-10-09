@@ -79,14 +79,14 @@
 	<Operation Class="XmlExtensions.ApplyPatch">
 		<patchName>Autopatcher_ApparelPatch_Utility_WVC</patchName>
 		<arguments>
-			<li>WVC_AlienRace_Former</li>
+			<li>WVC_AlienRace_BlueFormer</li>
 		</arguments>
 	</Operation>
 
 	<Operation Class="XmlExtensions.ApplyPatch">
 		<patchName>ThoughtsOpinion_Autopatcher_WVC</patchName>
 		<arguments>
-			<li>WVC_AlienRace_Former</li>
+			<li>WVC_AlienRace_BlueFormer</li>
 		</arguments>
 	</Operation>
 	<Operation Class="XmlExtensions.ApplyPatch">

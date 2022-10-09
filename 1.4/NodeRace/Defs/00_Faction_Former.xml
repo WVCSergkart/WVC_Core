@@ -6,7 +6,7 @@
 		<label>formers</label>
 		<description>A group of wanderers traveling aimlessly.</description>
 		<isPlayer>true</isPlayer>
-		<basicMemberKind>WVC_AlienRace_Former</basicMemberKind>
+		<basicMemberKind>WVC_AlienRace_BlueFormer</basicMemberKind>
 		<pawnSingular>wanderer</pawnSingular>
 		<pawnsPlural>wanderers</pawnsPlural>
 		<techLevel>Ultra</techLevel>

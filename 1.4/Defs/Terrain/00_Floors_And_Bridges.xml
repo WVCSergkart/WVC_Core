@@ -87,6 +87,9 @@
 	<costList>
 	  <Plasteel>10</Plasteel>
 	</costList>
+	<statBases>
+	  <FilthMultiplier>0.2</FilthMultiplier>
+	</statBases>
 	<affordances>
 	  <li>WVC_AncientFloorLamp</li>
 	</affordances>
@@ -112,7 +115,7 @@
   
   <TerrainDef Abstract="True" Name="BaseFloor_Archo_WVC" ParentName="Marker_BaseFloor_WVC">
 	<costList>
-	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
 	  <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech>
 	</costList>
 	<researchPrerequisites>
@@ -197,6 +200,9 @@
 	<costList>
 	  <Plasteel>12</Plasteel>
 	</costList>
+	<statBases>
+	  <FilthMultiplier>0.2</FilthMultiplier>
+	</statBases>
 	<affordances>
 	  <li>WVC_AncientFloorLamp</li>
 	</affordances>
@@ -222,7 +228,7 @@
   
   <TerrainDef Abstract="True" Name="BaseBridges_Archo_WVC" ParentName="Marker_BaseBridge_WVC">
 	<costList>
-	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
 	  <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech>
 	</costList>
 	<researchPrerequisites>

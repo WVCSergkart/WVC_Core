@@ -325,7 +325,7 @@
 	<label>cybernetic veil foundation</label>
 	<labelNoun>a veil foundation</labelNoun>
 	<addedPartProps>
-	  <partEfficiency>1.10</partEfficiency>
+	  <partEfficiency>1.0</partEfficiency>
 	</addedPartProps>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
@@ -352,7 +352,7 @@
 	<label>cybernetic triangle</label>
 	<labelNoun>a triangle</labelNoun>
 	<addedPartProps>
-	  <partEfficiency>1.10</partEfficiency>
+	  <partEfficiency>1.0</partEfficiency>
 	</addedPartProps>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
@@ -379,7 +379,7 @@
 	<label>cybernetic node core</label>
 	<labelNoun>a node core</labelNoun>
 	<addedPartProps>
-	  <partEfficiency>1.10</partEfficiency>
+	  <partEfficiency>1.0</partEfficiency>
 	</addedPartProps>
 	<tags>
 		<li>WVC_FormerCore</li>
@@ -391,7 +391,7 @@
 	<label>cybernetic spike</label>
 	<labelNoun>a spike</labelNoun>
 	<addedPartProps>
-	  <partEfficiency>1.10</partEfficiency>
+	  <partEfficiency>1.0</partEfficiency>
 	</addedPartProps>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
@@ -418,7 +418,7 @@
 	<label>cybernetic veil blade</label>
 	<labelNoun>a veil blade</labelNoun>
 	<addedPartProps>
-	  <partEfficiency>1.10</partEfficiency>
+	  <partEfficiency>1.0</partEfficiency>
 	</addedPartProps>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">

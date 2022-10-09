@@ -72,7 +72,7 @@
 			</Operation>
 
 			<Operation Class="XmlExtensions.ForEach">
-				<xpath>/Defs/ResearchProjectDef[techLevel="Spacer"]</xpath>
+				<xpath>/Defs/ResearchProjectDef[techLevel="Industrial"]</xpath>
 				<storeIn>DEF</storeIn>
 				<apply>
 					<Operation Class="XmlExtensions.ConditionalInherited">
@@ -86,7 +86,7 @@
 						<apply>
 
 							<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-							  <xpath>/Defs/ResearchProjectDef[defName="ValkyriesTechs_III_WVC"]</xpath>
+							  <xpath>/Defs/ResearchProjectDef[@Name="WVC_NodeTechs_Base"]</xpath>
 							  <safetyDepth>1</safetyDepth>
 							  <value>
 								<hiddenPrerequisites>
@@ -103,7 +103,7 @@
 			</Operation>
 
 			<Operation Class="XmlExtensions.ForEach">
-				<xpath>/Defs/ResearchProjectDef[techLevel="Industrial"]</xpath>
+				<xpath>/Defs/ResearchProjectDef[techLevel="Spacer"]</xpath>
 				<storeIn>DEF</storeIn>
 				<apply>
 					<Operation Class="XmlExtensions.ConditionalInherited">
@@ -117,7 +117,7 @@
 						<apply>
 
 							<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-							  <xpath>/Defs/ResearchProjectDef[@Name="WVC_NodeTechs_Base"]</xpath>
+							  <xpath>/Defs/ResearchProjectDef[defName="ValkyriesTechs_III_WVC"]</xpath>
 							  <safetyDepth>1</safetyDepth>
 							  <value>
 								<hiddenPrerequisites>

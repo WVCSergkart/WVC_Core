@@ -436,6 +436,9 @@
 	<defName>WVC_AncientFormerPilon</defName>
 	<label>ancient veil foundation</label>
 	<labelNoun>a veil foundation</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -470,6 +473,9 @@
 	<defName>WVC_AncientAutomatonTriangle</defName>
 	<label>ancient triangle</label>
 	<labelNoun>a triangle</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -504,6 +510,9 @@
 	<defName>WVC_AncientFormerCore</defName>
 	<label>ancient node core</label>
 	<labelNoun>a node core</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -523,6 +532,9 @@
 	<defName>WVC_AncientAutomatonSpike</defName>
 	<label>ancient spike</label>
 	<labelNoun>a spike</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -557,6 +569,9 @@
 	<defName>WVC_AncientFormerVeil</defName>
 	<label>ancient veil blade</label>
 	<labelNoun>a veil blade</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
 	<stages>
 	  <li>
 		<statOffsets>

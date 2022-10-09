@@ -3,7 +3,7 @@
 	<Operation Class="XmlExtensions.OptionalPatch">
 		<modId>honkai.girls.sergkart</modId>
 		<key>Buildings_AncientsFromRubbish_Module_WVC</key>
-		<defaultValue>false</defaultValue>
+		<defaultValue>true</defaultValue>
 		<caseTrue>
 			<Operation Class="XmlExtensions.FindMod">
 				<mods>
@@ -212,7 +212,7 @@
 						<safetyDepth>1</safetyDepth>
 						<value>
 							<researchPrerequisites>
-								<li>MultiAnalyzer</li>
+								<!-- <li>MultiAnalyzer</li> -->
 								<li>ValkyriesTechs_I_WVC</li>
 							</researchPrerequisites>
 						</value>
@@ -433,20 +433,20 @@
 							<!-- </comps> -->
 						<!-- </value> -->
 					<!-- </Operation> -->
-					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-						<xpath>/Defs/ThingDef[defName="VFEA_AncientShuttle"]
-						</xpath>
-						<safetyDepth>1</safetyDepth>
-						<value>
-							<comps>
-							  <li Class="CompProperties_Power">
-								<compClass>CompPowerTrader</compClass>
-								<basePowerConsumption>-500</basePowerConsumption>
-								<transmitsPower>true</transmitsPower>
-							  </li>
-							</comps>
-						</value>
-					</Operation>
+					<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
+						<!-- <xpath>/Defs/ThingDef[defName="VFEA_AncientShuttle"] -->
+						<!-- </xpath> -->
+						<!-- <safetyDepth>1</safetyDepth> -->
+						<!-- <value> -->
+							<!-- <comps> -->
+							  <!-- <li Class="CompProperties_Power"> -->
+								<!-- <compClass>CompPowerTrader</compClass> -->
+								<!-- <basePowerConsumption>-500</basePowerConsumption> -->
+								<!-- <transmitsPower>true</transmitsPower> -->
+							  <!-- </li> -->
+							<!-- </comps> -->
+						<!-- </value> -->
+					<!-- </Operation> -->
 					<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
 						<!-- <xpath>/Defs/ThingDef[defName="VFEA_AncientMachinery"] -->
 						<!-- </xpath> -->
