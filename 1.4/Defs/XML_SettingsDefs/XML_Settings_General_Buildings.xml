@@ -191,7 +191,7 @@
 							<height>64</height>
 							<settings>
 								<li Class="XmlExtensions.Setting.Text">
-									<text>Incubator - In a random period of time from 15 to 30 days, ELF (Cat without &lt;color=#a2c8ff&gt;kemomimilike&lt;/color&gt; mod) will spawn. Can only be built underground.\n\nRequirement: Vanilla Ideology Expanded - Dryads</text>
+									<text>Node machine - Stably produces nodes. Nodes needed for building and crafting implants. Also, nodes can be broken into plasteel.</text>
 									<tKey>HGS_Buildings_Incubator_Info_WVC</tKey>
 								</li>
 							</settings>

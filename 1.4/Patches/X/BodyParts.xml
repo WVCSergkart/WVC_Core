@@ -4,7 +4,7 @@
 	<Operation Class="XmlExtensions.OptionalPatch">
 		<modId>honkai.girls.sergkart</modId>
 		<key>WVC_EnableImplants_TortureBodyParts</key>
-		<defaultValue>false</defaultValue>
+		<defaultValue>true</defaultValue>
 		<caseFalse>
 
 			<li Class="XmlExtensions.PatchOperationSafeRemove">
@@ -13,9 +13,9 @@
 			<li Class="XmlExtensions.PatchOperationSafeRemove">
 				<xpath>/Defs/ThingCategoryDef[defName="WVC_BodyPartsTorture"]</xpath>
 			</li>
-			<li Class="XmlExtensions.PatchOperationSafeRemove">
-				<xpath>/Defs/ResearchProjectDef[defName="WVC_BionicTech_Torture"]</xpath>
-			</li>
+			<!-- <li Class="XmlExtensions.PatchOperationSafeRemove"> -->
+				<!-- <xpath>/Defs/ResearchProjectDef[defName="WVC_BionicTech_Torture"]</xpath> -->
+			<!-- </li> -->
 
 		</caseFalse>
 		<caseTrue>
@@ -36,7 +36,7 @@
 	<Operation Class="XmlExtensions.OptionalPatch">
 		<modId>honkai.girls.sergkart</modId>
 		<key>WVC_EnableImplants_AdvancedBionicBodyParts</key>
-		<defaultValue>false</defaultValue>
+		<defaultValue>true</defaultValue>
 		<caseFalse>
 
 			<li Class="XmlExtensions.PatchOperationSafeRemove">
@@ -45,9 +45,9 @@
 			<li Class="XmlExtensions.PatchOperationSafeRemove">
 				<xpath>/Defs/ThingCategoryDef[defName="WVC_BodyPartsAdvancedBionic"]</xpath>
 			</li>
-			<li Class="XmlExtensions.PatchOperationSafeRemove">
-				<xpath>/Defs/ResearchProjectDef[defName="WVC_BionicTech_AdvancedBionic"]</xpath>
-			</li>
+			<!-- <li Class="XmlExtensions.PatchOperationSafeRemove"> -->
+				<!-- <xpath>/Defs/ResearchProjectDef[defName="WVC_BionicTech_AdvancedBionic"]</xpath> -->
+			<!-- </li> -->
 
 		</caseFalse>
 		<caseTrue>
@@ -82,7 +82,7 @@
 	<Operation Class="XmlExtensions.OptionalPatch">
 		<modId>honkai.girls.sergkart</modId>
 		<key>WVC_EnableImplants_CyberneticBodyParts</key>
-		<defaultValue>false</defaultValue>
+		<defaultValue>true</defaultValue>
 		<caseFalse>
 
 			<li Class="XmlExtensions.PatchOperationSafeRemove">
@@ -91,9 +91,9 @@
 			<li Class="XmlExtensions.PatchOperationSafeRemove">
 				<xpath>/Defs/ThingCategoryDef[defName="WVC_BodyPartsCybernetic"]</xpath>
 			</li>
-			<li Class="XmlExtensions.PatchOperationSafeRemove">
-				<xpath>/Defs/ResearchProjectDef[defName="WVC_BionicTech_Cybernetic"]</xpath>
-			</li>
+			<!-- <li Class="XmlExtensions.PatchOperationSafeRemove"> -->
+				<!-- <xpath>/Defs/ResearchProjectDef[defName="WVC_BionicTech_Cybernetic"]</xpath> -->
+			<!-- </li> -->
 
 		</caseFalse>
 		<caseTrue>

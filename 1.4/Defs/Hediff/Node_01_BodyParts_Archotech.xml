@@ -381,21 +381,6 @@
 		</statOffsets>
 	  </li>
 	</stages>
-	<comps>
-	  <li Class="HediffCompProperties_VerbGiver">
-		<tools>
-		  <li>
-			<label>veil blade</label>
-			<capacities>
-			  <li>Cut</li>
-			  <li>Stab</li>
-			</capacities>
-			<power>22</power>
-			<cooldownTime>1.2</cooldownTime>
-		  </li>
-		</tools>
-	  </li>
-	</comps>
 	<tags>
 		<li>WVC_FormerPilon</li>
 	</tags>
@@ -417,21 +402,6 @@
 		</statOffsets>
 	  </li>
 	</stages>
-	<comps>
-	  <li Class="HediffCompProperties_VerbGiver">
-		<tools>
-		  <li>
-			<label>spike</label>
-			<capacities>
-			  <li>Cut</li>
-			  <li>Stab</li>
-			</capacities>
-			<power>22</power>
-			<cooldownTime>1.2</cooldownTime>
-		  </li>
-		</tools>
-	  </li>
-	</comps>
 	<tags>
 		<li>WVC_Automaton_Triangle</li>
 	</tags>
@@ -466,11 +436,11 @@
 	  <li>
 		<statOffsets>
 			<InjuryHealingFactor>0.15</InjuryHealingFactor>
-			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.01</ArmorRating_Heat>
-			<IncomingDamageFactor>-0.002</IncomingDamageFactor>
-			<PsychicSensitivity>0.02</PsychicSensitivity>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.2</PsychicSensitivity>
 		</statOffsets>
 	  </li>
 	</stages>
@@ -501,12 +471,12 @@
 	<stages>
 	  <li>
 		<statOffsets>
-			<InjuryHealingFactor>0.015</InjuryHealingFactor>
-			<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.01</ArmorRating_Heat>
-			<IncomingDamageFactor>-0.002</IncomingDamageFactor>
-			<PsychicSensitivity>0.02</PsychicSensitivity>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.2</PsychicSensitivity>
 		</statOffsets>
 	  </li>
 	</stages>

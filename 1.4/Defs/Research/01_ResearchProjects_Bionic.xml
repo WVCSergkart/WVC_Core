@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>WVC_BionicTech_AdvancedBionic</defName>
+	<techLevel>Spacer</techLevel>
+	<label>experimental bionic</label>
+	<researchViewX>0.00</researchViewX>
+	<researchViewY>0.90</researchViewY>
+	<prerequisites>
+	  <li>Bionics</li>
+	  <li MayRequire="vat.epoeforked">AdvancedBionics</li>
+	  <li MayRequire="vat.epoeforked">SyntheticOrgans</li>
+	  <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">ArtificialMetabolism</li> -->
+	  <li MayRequire="ludeon.rimworld.royalty">HealingFactors</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">MolecularAnalysis</li> -->
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
+	  <li MayRequire="ludeon.rimworld.royalty">SpecializedLimbs</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>WVC_BionicTech_Torture</defName>
+	<techLevel>Spacer</techLevel>
+	<label>torture bionic</label>
+	<researchViewX>0.00</researchViewX>
+	<researchViewY>0.45</researchViewY>
+	<prerequisites>
+	  <li>WVC_BionicTech_AdvancedBionic</li>
+	  <!-- <li MayRequire="vat.epoeforked">AdvancedBionics</li> -->
+	  <li MayRequire="ludeon.rimworld.royalty">BrainWiring</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>WVC_BionicTech_Cybernetic</defName>
+	<techLevel>Spacer</techLevel>
+	<label>alternative cybernetic</label>
+	<researchViewX>0.50</researchViewX>
+	<researchViewY>1.35</researchViewY>
+	<prerequisites>
+	  <!-- <li>Bionics</li> -->
+	  <li>WVC_BionicTech_AdvancedBionic</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li> -->
+	  <li MayRequire="ludeon.rimworld.royalty">ArtificialMetabolism</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">HealingFactors</li> -->
+	  <li MayRequire="ludeon.rimworld.royalty">MolecularAnalysis</li>
+	  <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">SpecializedLimbs</li> -->
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="WVC_ExperimentalTechs_Base">
+	<defName>WVC_RaceResearching_Valkyries</defName>
+	<label>ancient bionic</label>
+	<description>Recreate long-lost prosthetic technologies.</description>
+	<techLevel>Spacer</techLevel>
+	<researchViewX>1.00</researchViewX>
+	<researchViewY>0.10</researchViewY>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<prerequisites>
+	  <li>WVC_BionicTech_Cybernetic</li>
+	  <li>ValkyriesTechs_I_WVC</li>
+	  <li MayRequire="ludeon.rimworld.royalty">NeuralComputation</li>
+	  <li MayRequire="ludeon.rimworld.royalty">BrainWiring</li>
+	  <li MayRequire="ludeon.rimworld.royalty">CircadianInfluence</li>
+	  <li MayRequire="vanillaexpanded.vgeneticse">GR_GeneticMechahybridization</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_ExperimentalTechs_Base">
+	<defName>WVC_RaceResearching_ELFs</defName>
+	<label>mechanoidization</label>
+	<description>Technologies of hybridization of organics and machines.</description>
+	<researchViewX>2.00</researchViewX>
+	<researchViewY>0.10</researchViewY>
+	<prerequisites>
+	  <li>ValkyriesTechs_II_WVC</li>
+	  <li>WVC_RaceResearching_Valkyries</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_ExperimentalTechs_Base">
+	<defName>WVC_RaceResearching_Dryad</defName>
+	<label>mutations</label>
+	<description>Creation of conditions for artificial evolution.</description>
+	<researchViewX>3.00</researchViewX>
+	<researchViewY>0.10</researchViewY>
+	<prerequisites>
+	  <li>ValkyriesTechs_GaurlerI_WVC</li>
+	  <li>WVC_RaceResearching_Valkyries</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
+	<defName>WVC_BionicTech_ScarsHealing</defName>
+	<techLevel>Spacer</techLevel>
+	<label>scar treatment</label>
+	<description>Allows you to treat scars or mutations (on animals too) with glitter medicine.</description>
+	<researchViewX>4.00</researchViewX>
+	<researchViewY>0.10</researchViewY>
+	<tags>
+	  <li>WVC_Assembled_ELF_Base</li>
+	</tags>
+	<prerequisites>
+	  <li>Bionics</li>
+	  <li MayRequire="spoonshortage.adogsaidanimalprosthetics">AnimalHeal</li>
+	  <li MayRequire="vat.epoeforked">EPOE_NeurologicalTreatment</li>
+	  <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li>
+	  <li MayRequire="ludeon.rimworld.royalty">HealingFactors</li>
+	  <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
+	<defName>WVC_ResearchBodyParts_NodeBlue</defName>
+	<label>node body parts SX</label>
+	<researchViewX>6.00</researchViewX>
+	<researchViewY>1.20</researchViewY>
+	<prerequisites>
+	  <li>WVC_ResearchNodes_Blue</li>
+	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
+	  <li>WVC_BionicTech_ScarsHealing</li>
+	</prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
+	<defName>WVC_ResearchBodyParts_NodeRed</defName>
+	<label>node body parts HJ</label>
+	<researchViewX>6.00</researchViewX>
+	<researchViewY>1.65</researchViewY>
+	<prerequisites>
+	  <li>WVC_ResearchNodes_Red</li>
+	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
+	  <li>WVC_BionicTech_ScarsHealing</li>
+	</prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
+	<defName>WVC_ResearchBodyParts_NodeViolet</defName>
+	<label>node body parts CV</label>
+	<researchViewX>6.00</researchViewX>
+	<researchViewY>2.55</researchViewY>
+	<prerequisites>
+	  <li>WVC_ResearchNodes_Violet</li>
+	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
+	  <li>WVC_BionicTech_ScarsHealing</li>
+	</prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
+	<defName>WVC_ResearchBodyParts_NodeGreen</defName>
+	<label>node body parts GB</label>
+	<researchViewX>6.00</researchViewX>
+	<researchViewY>2.10</researchViewY>
+	<prerequisites>
+	  <li>WVC_ResearchNodes_Green</li>
+	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
+	  <li>WVC_BionicTech_ScarsHealing</li>
+	</prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
+	<defName>WVC_ResearchBodyParts_NodeYellow</defName>
+	<label>node body parts WR</label>
+	<researchViewX>6.00</researchViewX>
+	<researchViewY>3.00</researchViewY>
+	<prerequisites>
+	  <li>WVC_ResearchNodes_Yellow</li>
+	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
+	  <li>WVC_BionicTech_ScarsHealing</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="WVC_ExperimentalTechs_Base">
+	<defName>WVC_RaceResearching_Herrschers</defName>
+	<label>experiment "AR.H"</label>
+	<description>Combining all the knowledge gained in order to create prototypes of archotech technologies.</description>
+	<techLevel>Archotech</techLevel>
+	<baseCost>7000</baseCost>
+	<researchViewX>8.00</researchViewX>
+	<researchViewY>1.95</researchViewY>
+	<prerequisites>
+	  <li>ValkyriesTechs_III_WVC</li>
+	  <li>WVC_RaceResearching_Dryad</li>
+	  <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechTierThree</li>
+	  <!-- = -->
+	  <li>WVC_ResearchBodyParts_NodeBlue</li>
+	  <li>WVC_ResearchBodyParts_NodeGreen</li>
+	  <li>WVC_ResearchBodyParts_NodeRed</li>
+	  <li>WVC_ResearchBodyParts_NodeViolet</li>
+	  <li>WVC_ResearchBodyParts_NodeYellow</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

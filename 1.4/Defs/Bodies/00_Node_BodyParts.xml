@@ -14,9 +14,36 @@
   <!-- </BodyPartDef> -->
 
   <BodyPartDef>
+	<defName>WVC_Automaton_Spike</defName>
+	<label>spike</label>
+	<hitPoints>35</hitPoints>
+	<skinCovered>false</skinCovered>
+	<solid>true</solid>
+	<bleedRate>0</bleedRate>
+    <alive>false</alive>
+	<canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+
+  <BodyPartDef>
+	<defName>WVC_Automaton_Triangle</defName>
+	<label>triangle</label>
+	<hitPoints>125</hitPoints>
+	<skinCovered>false</skinCovered>
+	<solid>true</solid>
+	<bleedRate>0</bleedRate>
+    <alive>false</alive>
+	<canSuggestAmputation>false</canSuggestAmputation>
+	<tags>
+	  <li>Spine</li>
+	</tags>
+  </BodyPartDef>
+
+  <!-- ================================= -->
+
+  <BodyPartDef>
 	<defName>WVC_SightSensor</defName>
 	<label>visual sensor</label>
-	<hitPoints>15</hitPoints>
+	<hitPoints>22</hitPoints>
 	<frostbiteVulnerability>2</frostbiteVulnerability>
 	<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 	<skinCovered>false</skinCovered>
@@ -32,7 +59,7 @@
   <BodyPartDef>
 	<defName>WVC_HearingSensor</defName>
 	<label>sound sensor</label>
-	<hitPoints>12</hitPoints>
+	<hitPoints>22</hitPoints>
 	<frostbiteVulnerability>2</frostbiteVulnerability>
 	<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 	<skinCovered>false</skinCovered>
@@ -47,7 +74,7 @@
   <BodyPartDef>
 	<defName>WVC_SmellSensor</defName>
 	<label>chemical analyzer</label>
-	<hitPoints>7</hitPoints>
+	<hitPoints>12</hitPoints>
 	<frostbiteVulnerability>2</frostbiteVulnerability>
 	<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 	<skinCovered>false</skinCovered>
@@ -62,7 +89,7 @@
   <BodyPartDef>
 	<defName>WVC_FormerJaw</defName>
 	<label>jaw</label>
-	<hitPoints>20</hitPoints>
+	<hitPoints>24</hitPoints>
 	<skinCovered>false</skinCovered>
 	<canScarify>false</canScarify>
     <bleedRate>0</bleedRate>
@@ -93,7 +120,7 @@
   <BodyPartDef>
 	<defName>WVC_FormerHearth</defName>
 	<label>former hearth</label>
-	<hitPoints>40</hitPoints>
+	<hitPoints>36</hitPoints>
 	<skinCovered>false</skinCovered>
 	<canScarify>false</canScarify>
     <bleedRate>1</bleedRate>
@@ -123,7 +150,7 @@
   <BodyPartDef>
 	<defName>WVC_FormerPilon</defName>
 	<label>pilon</label>
-	<hitPoints>60</hitPoints>
+	<hitPoints>55</hitPoints>
 	<!-- <permanentInjuryChanceFactor>6</permanentInjuryChanceFactor> -->
 	<skinCovered>false</skinCovered>
 	<solid>true</solid>
@@ -138,7 +165,7 @@
   <BodyPartDef>
 	<defName>WVC_FormerVeil</defName>
 	<label>veil</label>
-	<hitPoints>30</hitPoints>
+	<hitPoints>35</hitPoints>
 	<!-- <permanentInjuryChanceFactor>6</permanentInjuryChanceFactor> -->
 	<skinCovered>false</skinCovered>
 	<solid>true</solid>

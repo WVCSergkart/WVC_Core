@@ -141,68 +141,66 @@
 			<li>Waist</li>
 			<li>Torso</li>
 		  </groups>
-		  <parts>
-			<li>
-			  <def>WVC_FormerVeil</def>
-			  <customLabel>first veil ring</customLabel>
-			  <coverage>0.125</coverage>
-			  <depth>Outside</depth>
-			  <groups>
-				<li>Torso</li>
-				<li>WVC_VeilBlade</li>
-			  </groups>
-			</li>
-			<li>
-			  <def>WVC_FormerVeil</def>
-			  <customLabel>second veil ring</customLabel>
-			  <coverage>0.125</coverage>
-			  <depth>Outside</depth>
-			  <groups>
-				<li>Torso</li>
-				<li>WVC_VeilBlade</li>
-			  </groups>
-			</li>
-			<li>
-			  <def>WVC_FormerVeil</def>
-			  <customLabel>third veil ring</customLabel>
-			  <coverage>0.125</coverage>
-			  <depth>Outside</depth>
-			  <groups>
-				<li>Torso</li>
-				<li>WVC_VeilBlade</li>
-			  </groups>
-			</li>
-			<li>
-			  <def>WVC_FormerVeil</def>
-			  <customLabel>fourth veil ring</customLabel>
-			  <coverage>0.125</coverage>
-			  <depth>Outside</depth>
-			  <groups>
-				<li>Torso</li>
-				<li>WVC_VeilBlade</li>
-			  </groups>
-			</li>
-			<li>
-			  <def>WVC_FormerVeil</def>
-			  <customLabel>fifth veil ring</customLabel>
-			  <coverage>0.125</coverage>
-			  <depth>Outside</depth>
-			  <groups>
-				<li>Torso</li>
-				<li>WVC_VeilBlade</li>
-			  </groups>
-			</li>
-			<li>
-			  <def>WVC_FormerVeil</def>
-			  <customLabel>sixth veil ring</customLabel>
-			  <coverage>0.125</coverage>
-			  <depth>Outside</depth>
-			  <groups>
-				<li>Torso</li>
-				<li>WVC_VeilBlade</li>
-			  </groups>
-			</li>
-		  </parts>
+		</li>
+		<li>
+		  <def>WVC_FormerVeil</def>
+		  <customLabel>first veil</customLabel>
+		  <coverage>0.025</coverage>
+		  <depth>Outside</depth>
+		  <groups>
+			<li>Torso</li>
+			<li>WVC_VeilBlade</li>
+		  </groups>
+		</li>
+		<li>
+		  <def>WVC_FormerVeil</def>
+		  <customLabel>second veil</customLabel>
+		  <coverage>0.025</coverage>
+		  <depth>Outside</depth>
+		  <groups>
+			<li>Torso</li>
+			<li>WVC_VeilBlade</li>
+		  </groups>
+		</li>
+		<li>
+		  <def>WVC_FormerVeil</def>
+		  <customLabel>third veil</customLabel>
+		  <coverage>0.025</coverage>
+		  <depth>Outside</depth>
+		  <groups>
+			<li>Torso</li>
+			<li>WVC_VeilBlade</li>
+		  </groups>
+		</li>
+		<li>
+		  <def>WVC_FormerVeil</def>
+		  <customLabel>fourth veil</customLabel>
+		  <coverage>0.025</coverage>
+		  <depth>Outside</depth>
+		  <groups>
+			<li>Torso</li>
+			<li>WVC_VeilBlade</li>
+		  </groups>
+		</li>
+		<li>
+		  <def>WVC_FormerVeil</def>
+		  <customLabel>fifth veil</customLabel>
+		  <coverage>0.025</coverage>
+		  <depth>Outside</depth>
+		  <groups>
+			<li>Torso</li>
+			<li>WVC_VeilBlade</li>
+		  </groups>
+		</li>
+		<li>
+		  <def>WVC_FormerVeil</def>
+		  <customLabel>sixth veil</customLabel>
+		  <coverage>0.025</coverage>
+		  <depth>Outside</depth>
+		  <groups>
+			<li>Torso</li>
+			<li>WVC_VeilBlade</li>
+		  </groups>
 		</li>
 	  </parts>
 	</corePart>

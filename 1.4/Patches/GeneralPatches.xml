@@ -139,6 +139,7 @@
 			<Operation Class="PatchOperationAdd">
 			  <xpath>/Defs/WorldObjectDef[defName="Outpost_Production"]/modExtensions/li[@Class="Outposts.OutpostExtension_Choose"]/ResultOptions</xpath>
 			  <value>
+				  <!-- ======================== -->
 				  <li>
 					<Thing>VFE_ComponentMechanoid</Thing>
 					<AmountsPerSkills>
@@ -149,6 +150,68 @@
 					  <Intellectual>20</Intellectual>
 					</MinSkills>
 				  </li>
+				  <!-- ============Nodes============ -->
+				  <li>
+					<Thing>WVC_ResourceNodes_Blue</Thing>
+					<AmountsPerSkills>
+					  <Crafting>1</Crafting>
+					</AmountsPerSkills>
+					<MinSkills>
+					  <Crafting>50</Crafting>
+					  <Intellectual>60</Intellectual>
+					</MinSkills>
+				  </li>
+				  <li>
+					<Thing>WVC_ResourceNodes_Green</Thing>
+					<AmountsPerSkills>
+					  <Crafting>1</Crafting>
+					</AmountsPerSkills>
+					<MinSkills>
+					  <Crafting>50</Crafting>
+					  <Intellectual>60</Intellectual>
+					</MinSkills>
+				  </li>
+				  <li>
+					<Thing>WVC_ResourceNodes_Red</Thing>
+					<AmountsPerSkills>
+					  <Crafting>1</Crafting>
+					</AmountsPerSkills>
+					<MinSkills>
+					  <Crafting>50</Crafting>
+					  <Intellectual>60</Intellectual>
+					</MinSkills>
+				  </li>
+				  <li>
+					<Thing>WVC_ResourceNodes_Violet</Thing>
+					<AmountsPerSkills>
+					  <Crafting>1</Crafting>
+					</AmountsPerSkills>
+					<MinSkills>
+					  <Crafting>50</Crafting>
+					  <Intellectual>60</Intellectual>
+					</MinSkills>
+				  </li>
+				  <li>
+					<Thing>WVC_ResourceNodes_Yellow</Thing>
+					<AmountsPerSkills>
+					  <Crafting>1</Crafting>
+					</AmountsPerSkills>
+					<MinSkills>
+					  <Crafting>50</Crafting>
+					  <Intellectual>60</Intellectual>
+					</MinSkills>
+				  </li>
+				  <li>
+					<Thing>WVC_ResourceNodes_Archotech</Thing>
+					<AmountsPerSkills>
+					  <Crafting>1</Crafting>
+					</AmountsPerSkills>
+					<MinSkills>
+					  <Crafting>60</Crafting>
+					  <Intellectual>100</Intellectual>
+					</MinSkills>
+				  </li>
+				  <!-- ======================== -->
 			  </value>
 			</Operation>
 		</caseTrue>
@@ -177,6 +240,38 @@
 
 	<!--=====================================================================-->
 
+	<Operation Class="XmlExtensions.FindMod">
+		<mods>
+			<li>ludeon.rimworld.ideology</li>
+			<li>ludeon.rimworld.royalty</li>
+		</mods>
+		<packageId>true</packageId>
+		<logic>and</logic>
+		<caseTrue>
+
+			<Operation Class="PatchOperationAdd">
+				  <xpath>Defs/ThingDef[defName="Plant_TreeAnima"]/comps</xpath>
+				  <value>
+					<li Class="CompProperties_Spawner">
+						<thingToSpawn>AnimaSeed_WVC</thingToSpawn>
+						<spawnCount>1</spawnCount>
+						<spawnIntervalRange><min>2400000</min><max>4200000</max></spawnIntervalRange>
+						<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+						<showMessageIfOwned>false</showMessageIfOwned>
+					</li>
+				  </value>
+			</Operation>
+
+			<!-- <Operation Class="XmlExtensions.PatchOperationAddOrReplace"> -->
+				  <!-- <xpath>Defs/ThingDef[defName="Plant_TreeGauranlen" or defName="Plant_TreeAnima"]/plant</xpath> -->
+				  <!-- <value> -->
+					<!-- <minSpacingBetweenSamePlant>1.9</minSpacingBetweenSamePlant> -->
+				  <!-- </value> -->
+			<!-- </Operation> -->
+
+		</caseTrue>
+	</Operation>
+
 	<!-- <Operation Class="XmlExtensions.FindMod"> -->
 		<!-- <mods> -->
 			<!-- <li>oskarpotocki.vfe.classical</li> -->
@@ -187,25 +282,6 @@
 			<!-- <li Class="XmlExtensions.PatchOperationSafeRemove"> -->
 				<!-- <xpath>/Defs/ThingDef[@WVC_Tag="NoHeadsBeds"]/building/bed_maxBodySize</xpath> -->
 			<!-- </li> -->
-
-		<!-- </caseTrue> -->
-	<!-- </Operation> -->
-
-	<!-- <Operation Class="XmlExtensions.FindMod"> -->
-		<!-- <mods> -->
-			<!-- <li>ludeon.rimworld.ideology</li> -->
-			<!-- <li>ludeon.rimworld.royalty</li> -->
-		<!-- </mods> -->
-		<!-- <packageId>true</packageId> -->
-		<!-- <logic>and</logic> -->
-		<!-- <caseTrue> -->
-
-			<!-- <Operation Class="XmlExtensions.PatchOperationAddOrReplace"> -->
-				  <!-- <xpath>Defs/ThingDef[defName="Plant_TreeGauranlen" or defName="Plant_TreeAnima"]/plant</xpath> -->
-				  <!-- <value> -->
-					<!-- <minSpacingBetweenSamePlant>1.9</minSpacingBetweenSamePlant> -->
-				  <!-- </value> -->
-			<!-- </Operation> -->
 
 		<!-- </caseTrue> -->
 	<!-- </Operation> -->

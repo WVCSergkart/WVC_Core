@@ -70,7 +70,7 @@
 					</li>
 					<li>
 						<li Class="XmlExtensions.Setting.Text">
-							<text>The mod has several options for body parts that can be obtained as a reward or crafted. Ancient and mechanoid parts are recommended.\n\n*At the moment, the body parts are in development and lack descriptions, otherwise they are playable and do not cause bugs.*</text>
+							<text>The mod has several options for body parts that can be obtained as a reward or crafted. Ancient, mechanoid and node parts are recommended.</text>
 							<tKey>HGS_Implants_MainInfo_WVC</tKey>
 						</li>
 
@@ -79,19 +79,19 @@
 						<li Class="XmlExtensions.Setting.Checkbox">
 							<key>WVC_EnableImplants_TortureBodyParts</key>
 							<label>Enable torture body parts</label>
-							<defaultValue>false</defaultValue>
+							<defaultValue>true</defaultValue>
 							<tKey>HGS_WVC_EnableImplants_TortureBodyParts_Label</tKey>
 						</li>
 						<li Class="XmlExtensions.Setting.Checkbox">
 							<key>WVC_EnableImplants_AdvancedBionicBodyParts</key>
 							<label>Enable experimental bionic body parts</label>
-							<defaultValue>false</defaultValue>
+							<defaultValue>true</defaultValue>
 							<tKey>HGS_WVC_EnableImplants_AdvancedBionicBodyParts_Label</tKey>
 						</li>
 						<li Class="XmlExtensions.Setting.Checkbox">
 							<key>WVC_EnableImplants_CyberneticBodyParts</key>
 							<label>Enable cybernetic body parts</label>
-							<defaultValue>false</defaultValue>
+							<defaultValue>true</defaultValue>
 							<tKey>HGS_WVC_EnableImplants_CyberneticBodyParts_Label</tKey>
 						</li>
 						<li Class="XmlExtensions.Setting.Checkbox">

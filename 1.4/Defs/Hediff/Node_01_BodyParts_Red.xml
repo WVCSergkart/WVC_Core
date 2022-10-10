@@ -340,21 +340,6 @@
 		</statOffsets>
 	  </li>
 	</stages>
-	<comps>
-	  <li Class="HediffCompProperties_VerbGiver">
-		<tools>
-		  <li>
-			<label>veil blade</label>
-			<capacities>
-			  <li>Cut</li>
-			  <li>Stab</li>
-			</capacities>
-			<power>22</power>
-			<cooldownTime>1.2</cooldownTime>
-		  </li>
-		</tools>
-	  </li>
-	</comps>
 	<tags>
 		<li>WVC_FormerPilon</li>
 	</tags>
@@ -373,21 +358,6 @@
 		</statOffsets>
 	  </li>
 	</stages>
-	<comps>
-	  <li Class="HediffCompProperties_VerbGiver">
-		<tools>
-		  <li>
-			<label>spike</label>
-			<capacities>
-			  <li>Cut</li>
-			  <li>Stab</li>
-			</capacities>
-			<power>22</power>
-			<cooldownTime>1.2</cooldownTime>
-		  </li>
-		</tools>
-	  </li>
-	</comps>
 	<tags>
 		<li>WVC_Automaton_Triangle</li>
 	</tags>
@@ -418,9 +388,9 @@
 	<stages>
 	  <li>
 		<statOffsets>
-			<ArmorRating_Sharp>0.015</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.015</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.015</ArmorRating_Heat>
+			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.10</ArmorRating_Heat>
 		</statOffsets>
 	  </li>
 	</stages>
@@ -451,9 +421,9 @@
 	<stages>
 	  <li>
 		<statOffsets>
-			<ArmorRating_Sharp>0.015</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.015</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.015</ArmorRating_Heat>
+			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.10</ArmorRating_Heat>
 		</statOffsets>
 	  </li>
 	</stages>

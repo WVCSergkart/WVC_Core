@@ -312,21 +312,6 @@
 		</statOffsets>
 	  </li>
 	</stages>
-	<comps>
-	  <li Class="HediffCompProperties_VerbGiver">
-		<tools>
-		  <li>
-			<label>veil blade</label>
-			<capacities>
-			  <li>Cut</li>
-			  <li>Stab</li>
-			</capacities>
-			<power>22</power>
-			<cooldownTime>1.2</cooldownTime>
-		  </li>
-		</tools>
-	  </li>
-	</comps>
 	<tags>
 		<li>WVC_FormerPilon</li>
 	</tags>
@@ -343,21 +328,6 @@
 		</statOffsets>
 	  </li>
 	</stages>
-	<comps>
-	  <li Class="HediffCompProperties_VerbGiver">
-		<tools>
-		  <li>
-			<label>spike</label>
-			<capacities>
-			  <li>Cut</li>
-			  <li>Stab</li>
-			</capacities>
-			<power>22</power>
-			<cooldownTime>1.2</cooldownTime>
-		  </li>
-		</tools>
-	  </li>
-	</comps>
 	<tags>
 		<li>WVC_Automaton_Triangle</li>
 	</tags>
@@ -386,7 +356,7 @@
 	<stages>
 	  <li>
 		<statOffsets>
-			<IncomingDamageFactor>-0.002</IncomingDamageFactor>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
 		</statOffsets>
 	  </li>
 	</stages>
@@ -417,7 +387,7 @@
 	<stages>
 	  <li>
 		<statOffsets>
-			<IncomingDamageFactor>-0.002</IncomingDamageFactor>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
 		</statOffsets>
 	  </li>
 	</stages>

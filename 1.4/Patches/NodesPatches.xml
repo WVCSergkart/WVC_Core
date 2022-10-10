@@ -82,66 +82,6 @@
 			<Operation Class="PatchOperationAdd">
 			  <xpath>/Defs/WorldObjectDef[defName="Outpost_Production"]/modExtensions/li[@Class="Outposts.OutpostExtension_Choose"]/ResultOptions</xpath>
 			  <value>
-				  <li>
-					<Thing>WVC_ResourceNodes_Blue</Thing>
-					<AmountsPerSkills>
-					  <Crafting>1</Crafting>
-					</AmountsPerSkills>
-					<MinSkills>
-					  <Crafting>50</Crafting>
-					  <Intellectual>60</Intellectual>
-					</MinSkills>
-				  </li>
-				  <li>
-					<Thing>WVC_ResourceNodes_Green</Thing>
-					<AmountsPerSkills>
-					  <Crafting>1</Crafting>
-					</AmountsPerSkills>
-					<MinSkills>
-					  <Crafting>50</Crafting>
-					  <Intellectual>60</Intellectual>
-					</MinSkills>
-				  </li>
-				  <li>
-					<Thing>WVC_ResourceNodes_Red</Thing>
-					<AmountsPerSkills>
-					  <Crafting>1</Crafting>
-					</AmountsPerSkills>
-					<MinSkills>
-					  <Crafting>50</Crafting>
-					  <Intellectual>60</Intellectual>
-					</MinSkills>
-				  </li>
-				  <li>
-					<Thing>WVC_ResourceNodes_Violet</Thing>
-					<AmountsPerSkills>
-					  <Crafting>1</Crafting>
-					</AmountsPerSkills>
-					<MinSkills>
-					  <Crafting>50</Crafting>
-					  <Intellectual>60</Intellectual>
-					</MinSkills>
-				  </li>
-				  <li>
-					<Thing>WVC_ResourceNodes_Yellow</Thing>
-					<AmountsPerSkills>
-					  <Crafting>1</Crafting>
-					</AmountsPerSkills>
-					<MinSkills>
-					  <Crafting>50</Crafting>
-					  <Intellectual>60</Intellectual>
-					</MinSkills>
-				  </li>
-				  <li>
-					<Thing>WVC_ResourceNodes_Archotech</Thing>
-					<AmountsPerSkills>
-					  <Crafting>1</Crafting>
-					</AmountsPerSkills>
-					<MinSkills>
-					  <Crafting>60</Crafting>
-					  <Intellectual>100</Intellectual>
-					</MinSkills>
-				  </li>
 			  </value>
 			</Operation>
 		</caseTrue>
