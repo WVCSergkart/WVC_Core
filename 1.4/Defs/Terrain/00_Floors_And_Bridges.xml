@@ -259,7 +259,7 @@
   </TerrainDef>
 
   <TerrainDef ParentName="BaseBridges_Mech_WVC">
-	<defName>Bridge_MechanoidGravel_WVC</defName>
+	<defName>Bridge_MechanoidFungalGravel_WVC</defName>
 	<label>(Bridge) Mechanoid gravel</label>
 	<texturePath>WVC/Stuff/Floors/Gravel_MechanoidA</texturePath>
 	<fertility>0.9</fertility>
@@ -287,7 +287,7 @@
   </TerrainDef>
 
   <TerrainDef ParentName="BaseBridges_Archo_WVC">
-	<defName>Bridge_ArchotechGravel_WVC</defName>
+	<defName>Bridge_ArchotechFungalGravel_WVC</defName>
 	<label>(Bridge) Archotech gravel</label>
 	<texturePath>WVC/Stuff/Floors/Gravel_ArchotechA</texturePath>
 	<fertility>0.9</fertility>

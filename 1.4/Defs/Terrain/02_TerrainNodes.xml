@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef ParentName="BaseFloor_Node_WVC">
+	<defName>WVC_Floor_NodeB_A</defName>
+	<label>(Floor) Node SX_A</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorB_A</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Blue>1</WVC_ResourceNodes_Blue>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Blue</li>
+	</researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseFloor_Node_WVC">
+	<defName>WVC_Floor_NodeG_A</defName>
+	<label>(Floor) Node GB_A</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorG_A</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Green>1</WVC_ResourceNodes_Green>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Green</li>
+	</researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseFloor_Node_WVC">
+	<defName>WVC_Floor_NodeR_A</defName>
+	<label>(Floor) Node HJ_A</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorR_A</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Red>1</WVC_ResourceNodes_Red>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Red</li>
+	</researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseFloor_Node_WVC">
+	<defName>WVC_Floor_NodeV_A</defName>
+	<label>(Floor) Node CV_A</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorV_A</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Violet>1</WVC_ResourceNodes_Violet>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Violet</li>
+	</researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseFloor_Node_WVC">
+	<defName>WVC_Floor_NodeY_A</defName>
+	<label>(Floor) Node WR_A</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorY_A</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Yellow>1</WVC_ResourceNodes_Yellow>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Yellow</li>
+	</researchPrerequisites>
+  </TerrainDef>
+
+  <!-- ============================================================= -->
+
+  <TerrainDef ParentName="BaseBridges_Node_WVC">
+	<defName>WVC_Bridge_NodeB_A</defName>
+	<label>(Bridge) Node SX_A</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorB_A</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Blue>1</WVC_ResourceNodes_Blue>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Blue</li>
+	</researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseBridges_Node_WVC">
+	<defName>WVC_Bridge_NodeG_A</defName>
+	<label>(Bridge) Node GB_A</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorG_A</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Green>1</WVC_ResourceNodes_Green>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Green</li>
+	</researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseBridges_Node_WVC">
+	<defName>WVC_Bridge_NodeR_A</defName>
+	<label>(Bridge) Node HJ_A</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorR_A</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Red>1</WVC_ResourceNodes_Red>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Red</li>
+	</researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseBridges_Node_WVC">
+	<defName>WVC_Bridge_NodeV_A</defName>
+	<label>(Bridge) Node CV_A</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorV_A</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Violet>1</WVC_ResourceNodes_Violet>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Violet</li>
+	</researchPrerequisites>
+  </TerrainDef>
+  <TerrainDef ParentName="BaseBridges_Node_WVC">
+	<defName>WVC_Bridge_NodeY_A</defName>
+	<label>(Bridge) Node WR_A</label>
+	<texturePath>WVC/Stuff/Nodes/NodeFloorY_A</texturePath>
+	<costList>
+	  <WVC_ResourceNodes_Yellow>1</WVC_ResourceNodes_Yellow>
+	</costList>
+	<researchPrerequisites>
+	  <li>WVC_ResearchNodes_Yellow</li>
+	</researchPrerequisites>
+  </TerrainDef>
+
+</Defs>
