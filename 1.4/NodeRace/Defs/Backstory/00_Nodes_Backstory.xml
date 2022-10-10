@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<AlienRace.BackstoryDef Name="Nodes_HumanoidBackstory_WVC" Abstract="True">
+	<AlienRace.AlienBackstoryDef Name="Nodes_HumanoidBackstory_WVC" Abstract="True">
 		<title>Former</title>
 		<titleShort>Former</titleShort>
-		<!-- <baseDescription>No available information.</baseDescription> -->
-		<baseDescription>No available information.</baseDescription>
+		<!-- <baseDesc>No available information.</baseDesc> -->
+		<baseDesc>No available information.</baseDesc>
 		<slot>Childhood</slot>
 		<shuffleable>true</shuffleable>
 		<maleCommonality>100</maleCommonality>
@@ -17,7 +17,7 @@
 		<spawnCategories>
 		  <li>WVC_NodesBackstory_Former</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 <!-- [PAWN_nameDef] Bobby -->
 <!-- [PAWN_nameFull] Juan Bobby Fisher -->
@@ -28,277 +28,277 @@
 	<!-- ================================================================== -->
 
 	<!-- Base -->
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_WVC">
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_WVC">
 		<defName>NodesBackstoryChild_Former_WVC</defName>
 		<title>Forgotten past</title>
 		<titleShort>Forgotten</titleShort>
-		<baseDescription>[PAWN_nameDef]'s past is unknown.</baseDescription>
+		<baseDesc>[PAWN_nameDef]'s past is unknown.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains Inherit="False">
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_WVC">
 		<defName>NodesBackstoryAdult_Former_WVC</defName>
 		<slot>Adulthood</slot>
 		<skillGains>
 		  <!-- <li> -->
 			<!-- <defName>Shooting</defName> -->
-			<!-- <amount>3</amount> -->
+			<!-- <value>3</value> -->
 		  <!-- </li> -->
 		  <!-- <li> -->
 			<!-- <defName>Melee</defName> -->
-			<!-- <amount>3</amount> -->
+			<!-- <value>3</value> -->
 		  <!-- </li> -->
 		  <li>
-			<defName>Intellectual</defName>
-			<amount>5</amount>
+			<key>Intellectual</key>
+			<value>5</value>
 		  </li>
 		  <li>
-			<defName>Crafting</defName>
-			<amount>2</amount>
+			<key>Crafting</key>
+			<value>2</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 	<!-- Standart -->
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_WVC" Name="Nodes_HumanoidBackstory_AdulthoodBase_WVC" Abstract="True">
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_WVC" Name="Nodes_HumanoidBackstory_AdulthoodBase_WVC" Abstract="True">
 		<title>Former</title>
 		<titleShort>Former</titleShort>
-		<!-- <baseDescription>No available information.</baseDescription> -->
+		<!-- <baseDesc>No available information.</baseDesc> -->
 		<slot>Adulthood</slot>
 		<skillGains Inherit="False">
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- Standart -->
 
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
 		<defName>NodesBackstoryAdult_FormerPlants_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Plants</defName>
-			<amount>3</amount>
+			<key>Plants</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
 		<defName>NodesBackstoryAdult_FormerAnimals_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Animals</defName>
-			<amount>3</amount>
+			<key>Animals</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
 		<defName>NodesBackstoryAdult_FormerCooking_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Cooking</defName>
-			<amount>3</amount>
+			<key>Cooking</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
 		<defName>NodesBackstoryAdult_FormerMining_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Mining</defName>
-			<amount>3</amount>
+			<key>Mining</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
 		<defName>NodesBackstoryAdult_FormerConstruction_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Construction</defName>
-			<amount>3</amount>
+			<key>Construction</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
 		<defName>NodesBackstoryAdult_FormerCrafting_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Crafting</defName>
-			<amount>3</amount>
+			<key>Crafting</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
 		<defName>NodesBackstoryAdult_FormerArtistic_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Artistic</defName>
-			<amount>3</amount>
+			<key>Artistic</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
 		<defName>NodesBackstoryAdult_FormerMedicine_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Medicine</defName>
-			<amount>3</amount>
+			<key>Medicine</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
 		<defName>NodesBackstoryAdult_FormerSocial_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Social</defName>
-			<amount>3</amount>
+			<key>Social</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
 		<defName>NodesBackstoryAdult_FormerIntellectual_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Intellectual</defName>
-			<amount>3</amount>
+			<key>Intellectual</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
 		<defName>NodesBackstoryAdult_FormerMelee_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Melee</defName>
-			<amount>3</amount>
+			<key>Melee</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodBase_WVC">
 		<defName>NodesBackstoryAdult_FormerShooting_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Shooting</defName>
-			<amount>3</amount>
+			<key>Shooting</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 	<!-- Standart -->
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_WVC" Name="Nodes_HumanoidBackstory_ChildhoodBase_WVC" Abstract="True">
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_WVC" Name="Nodes_HumanoidBackstory_ChildhoodBase_WVC" Abstract="True">
 		<title>Former</title>
 		<titleShort>Former</titleShort>
-		<!-- <baseDescription>No available information.</baseDescription> -->
+		<!-- <baseDesc>No available information.</baseDesc> -->
 		<slot>Childhood</slot>
 		<skillGains Inherit="False">
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	<!-- Standart -->
 
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
 		<defName>NodesBackstoryChild_FormerPlants_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Plants</defName>
-			<amount>3</amount>
+			<key>Plants</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
 		<defName>NodesBackstoryChild_FormerAnimals_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Animals</defName>
-			<amount>3</amount>
+			<key>Animals</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
 		<defName>NodesBackstoryChild_FormerCooking_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Cooking</defName>
-			<amount>3</amount>
+			<key>Cooking</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
 		<defName>NodesBackstoryChild_FormerMining_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Mining</defName>
-			<amount>3</amount>
+			<key>Mining</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
 		<defName>NodesBackstoryChild_FormerConstruction_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Construction</defName>
-			<amount>3</amount>
+			<key>Construction</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
 		<defName>NodesBackstoryChild_FormerCrafting_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Crafting</defName>
-			<amount>3</amount>
+			<key>Crafting</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
 		<defName>NodesBackstoryChild_FormerArtistic_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Artistic</defName>
-			<amount>3</amount>
+			<key>Artistic</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
 		<defName>NodesBackstoryChild_FormerMedicine_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Medicine</defName>
-			<amount>3</amount>
+			<key>Medicine</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
 		<defName>NodesBackstoryChild_FormerSocial_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Social</defName>
-			<amount>3</amount>
+			<key>Social</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
 		<defName>NodesBackstoryChild_FormerIntellectual_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Intellectual</defName>
-			<amount>3</amount>
+			<key>Intellectual</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
 		<defName>NodesBackstoryChild_FormerMelee_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Melee</defName>
-			<amount>3</amount>
+			<key>Melee</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
-	<AlienRace.BackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
+	</AlienRace.AlienBackstoryDef>
+	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_ChildhoodBase_WVC">
 		<defName>NodesBackstoryChild_FormerShooting_WVC</defName>
 		<skillGains Inherit="False">
 		  <li>
-			<defName>Shooting</defName>
-			<amount>3</amount>
+			<key>Shooting</key>
+			<value>3</value>
 		  </li>
 		</skillGains>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
   
 </Defs>

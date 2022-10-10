@@ -111,7 +111,7 @@
 				<atlasScale>4</atlasScale>
 				<borderScale>1</borderScale>
 				<aliencrowntypes>
-					<li>HeadA</li>
+					<li>WVC_FormerHead_BlueA</li>
 				</aliencrowntypes>
 				<alienbodytypes>
 					<li>Female</li>
@@ -364,7 +364,7 @@
       <ComfyTemperatureMax>250</ComfyTemperatureMax>
 	  <FilthRate>1</FilthRate>
 	  <LeatherAmount>12</LeatherAmount>
-	  <ToxicSensitivity>0.0</ToxicSensitivity>
+	  <ToxicResistance>0.0</ToxicResistance>
 	  <PsychicSensitivity>0.5</PsychicSensitivity>
 	  <Flammability>0</Flammability>
 	  <ArmorRating_Blunt>0.85</ArmorRating_Blunt>

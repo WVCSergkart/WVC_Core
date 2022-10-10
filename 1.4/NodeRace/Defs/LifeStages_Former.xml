@@ -14,6 +14,7 @@
 	<!-- <hungerRateFactor>1.0</hungerRateFactor> -->
 	<!-- <marketValueFactor>1.1</marketValueFactor> -->
 	<meleeDamageFactor>0.8</meleeDamageFactor>
+	<canDoRandomMentalBreaks>false</canDoRandomMentalBreaks>
 	<statFactors>
 	  <PainShockThreshold>5.0</PainShockThreshold>
 	  <MentalBreakThreshold>0.0</MentalBreakThreshold>

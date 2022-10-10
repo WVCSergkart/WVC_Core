@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HeadTypeDef>
+	<defName>WVC_FormerHead_BlueA</defName>
+	<graphicPath>WVC/NodeRace/Head/HeadA</graphicPath>
+	<gender>None</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef>
+	<defName>WVC_FormerHead_RedA</defName>
+	<graphicPath>WVC/NodeRace/HeadV3/HeadA</graphicPath>
+	<gender>None</gender>
+  </HeadTypeDef>
+
+</Defs>
