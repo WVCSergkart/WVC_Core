@@ -15,6 +15,9 @@
 			</generalSettings>
 		</alienRace>
 		<comps>
+			<li MayRequire="oskarpotocki.vanillafactionsexpanded.core" Class="AnimalBehaviours.CompProperties_Floating">
+				<canCrossWater>true</canCrossWater>
+			</li>
 		</comps>
 		<race>
 		</race>
@@ -32,6 +35,29 @@
 			</generalSettings>
 		</alienRace>
 		<comps>
+			<li MayRequire="oskarpotocki.vanillafactionsexpanded.core" Class="AnimalBehaviours.CompProperties_Floating">
+				<canCrossWater>true</canCrossWater>
+			</li>
+		</comps>
+		<race>
+		</race>
+	</AlienRace.ThingDef_AlienRace>
+
+	<AlienRace.ThingDef_AlienRace ParentName="WVC_NodeRacesFormers_Yellow">
+		<defName>WVC_AlienRace_YellowFormer</defName>
+		<label>former: Filon</label>
+		<alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+					<alienbodytypes>
+					</alienbodytypes>
+				</alienPartGenerator>
+			</generalSettings>
+		</alienRace>
+		<comps>
+			<li MayRequire="oskarpotocki.vanillafactionsexpanded.core" Class="AnimalBehaviours.CompProperties_Floating">
+				<canCrossWater>true</canCrossWater>
+			</li>
 		</comps>
 		<race>
 		</race>
@@ -49,6 +75,12 @@
 		<defName>WVC_AlienRace_RedFormer</defName>
 		<label>nautil</label>
 		<race>WVC_AlienRace_RedFormer</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="WVC_BasePawn_Nodes">
+		<defName>WVC_AlienRace_YellowFormer</defName>
+		<label>filon</label>
+		<race>WVC_AlienRace_YellowFormer</race>
 	</PawnKindDef>
 
 </Defs>

@@ -48,8 +48,11 @@
 			  <!-- </points> -->
 			<!-- </lovinIntervalHoursFromAge> -->
 			<notXenophobistTowards>
-				<li>WVC_AlienRace_Former</li>
+				<li>WVC_AlienRace_BlueFormer</li>
 				<li>WVC_AlienRace_RedFormer</li>
+				<!-- <li>WVC_AlienRace_GreenFormer</li> -->
+				<!-- <li>WVC_AlienRace_VioletFormer</li> -->
+				<li>WVC_AlienRace_YellowFormer</li>
 			</notXenophobistTowards>
 			<!-- <forcedRaceTraitEntries> -->
 				<!-- <li> -->
@@ -503,10 +506,6 @@
 	<!-- ==================================================================== -->
 
 	<comps>
-		<li MayRequire="oskarpotocki.vanillafactionsexpanded.core" Class="AnimalBehaviours.CompProperties_Floating">
-			<!-- <isFloater>true</isFloater> -->
-			<canCrossWater>true</canCrossWater>
-		</li>
 		<li MayRequire="oskarpotocki.vanillafactionsexpanded.core" Class="AnimalBehaviours.CompProperties_DiseaseEventImmunity"/>
 	</comps>
 

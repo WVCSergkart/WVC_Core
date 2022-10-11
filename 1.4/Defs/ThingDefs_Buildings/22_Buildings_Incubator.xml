@@ -4,7 +4,7 @@
   <ThingDef ParentName="MechanoidBuildings_WVC" Name="WVC_MechanoidIncubator_Base">
 	<defName>WVC_IncubatorLF</defName>
 	<label>Node machine</label>
-	<description>A complex mechanism for creating nodes. Most of this machine is located deep underground.\n\n&lt;color=#f5ffa2&gt;Note2:&lt;/color&gt; The node machine is a constant source of nodes.</description>
+	<description>A complex mechanism for creating nodes. Most of this machine is located deep underground.\n\n&lt;color=#f5ffa2&gt;Note:&lt;/color&gt; The node machine is a constant source of nodes.</description>
 	<descriptionHyperlinks>
 	  <ThingDef>WVC_ResourceNodes_Blue</ThingDef>
 	  <ThingDef>WVC_ResourceNodes_Green</ThingDef>

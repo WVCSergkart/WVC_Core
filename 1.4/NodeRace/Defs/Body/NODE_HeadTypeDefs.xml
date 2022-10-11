@@ -13,4 +13,35 @@
 	<gender>None</gender>
   </HeadTypeDef>
 
+  <!-- ===================== -->
+
+  <HeadTypeDef ParentName="AverageBase">
+	<defName>WVC_FormerHead_VioletA</defName>
+	<graphicPath>WVC/NodeRace/HeadViolet/HeadA</graphicPath>
+	<gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+	<defName>WVC_FormerHead_VioletB</defName>
+	<graphicPath>WVC/NodeRace/HeadViolet/HeadB</graphicPath>
+	<gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+	<defName>WVC_FormerHead_VioletC</defName>
+	<graphicPath>WVC/NodeRace/HeadViolet/HeadC</graphicPath>
+	<gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+	<defName>WVC_FormerHead_VioletD</defName>
+	<graphicPath>WVC/NodeRace/HeadViolet/HeadD</graphicPath>
+	<gender>None</gender>
+  </HeadTypeDef>
+
+  <!-- ===================== -->
+
+  <HeadTypeDef>
+	<defName>WVC_FormerHead_YellowA</defName>
+	<graphicPath>WVC/NodeRace/HeadYellow/HeadA</graphicPath>
+	<gender>None</gender>
+  </HeadTypeDef>
+
 </Defs>

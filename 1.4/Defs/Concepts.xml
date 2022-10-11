@@ -51,16 +51,6 @@
 	<helpText>By default, mechanites are used only as crafting material, food, and for the construction of some buildings. In the setting in the "Resources" tab this can be changed.\n\nHowever, the important point is that this can be very unbalanced, so use this feature only if you are sure that there is nowhere to break the balance.\n\nFor example, with the help of mechanites, you can refuel the "Gene-tailoring Pod" from the "VFE - Ancients" mod and gain access to the essentially endless use of this device. From myself I will say that the balance of this thing is so terrible that the abilities that can be obtained from it are often useless or harmful if not rerolled.</helpText>
   </ConceptDef>
 
-  <ConceptDef ParentName="WVC_ConceptsBase">
-	<defName>WVC_MedicineMechanite_BionicELF</defName>
-	<label>WVC - About mechanite augmentation</label>
-	<priority>-1000</priority>
-	<!-- In-game -->
-	<description>In the mod "WVC - kemomimilike" there are a number of augmentations created specifically for ELF and Herrscher. These limbs are stronger than bionics but weaker than archotech, but add (to all parts, no exclusions) a mechanites attack that inflicts pain on the victim, with each hit intensifying the pain.\n\nTo be able to install these augments, you need 7 mechanite medecine and two technologies "AR.E" and "Bionics".\n\nMaybe in the future the race restriction will be lifted.</description>
-	<!-- Tutorial -->
-	<helpText>In the mod "WVC - kemomimilike" there are a number of augmentations created specifically for ELF and Herrscher. These limbs are stronger than bionics but weaker than archotech, but add (to all parts, no exclusions) a mechanites attack that inflicts pain on the victim, with each hit intensifying the pain.\n\nTo be able to install these augments, you need 7 mechanite medecine and two technologies "AR.E" and "Bionics".\n\nMaybe in the future the race restriction will be lifted.</helpText>
-  </ConceptDef>
-
   <ConceptDef MayRequire="honkai.girls.sergkart" ParentName="WVC_ConceptsBase">
 	<defName>WVC_LivingFormGenome</defName>
 	<label>WVC - About living form genomen</label>

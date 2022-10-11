@@ -6,11 +6,13 @@
   <AlienRace.ThingDef_AlienRace ParentName="WVC_NodeRacesFormers_Blue" Name="WVC_NodeRacesFormers_Red" Abstract="True">
 	<alienRace>
 		
+		<generalSettings>
 			<alienPartGenerator>
 				<aliencrowntypes Inherit="False">
 					<li>WVC_FormerHead_RedA</li>
 				</aliencrowntypes>
 			</alienPartGenerator>
+		</generalSettings>
 
 		<!--=====================================================================-->
 

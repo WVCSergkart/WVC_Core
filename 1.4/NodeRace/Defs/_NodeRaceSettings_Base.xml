@@ -10,6 +10,7 @@
 			<li>
 			  <kindDefs>
 				<li>WVC_AlienRace_RedFormer</li>
+				<li>WVC_AlienRace_YellowFormer</li>
 				<li MayRequire="honkai.girls.sergkart">WVC_AlienRace_Reshaper</li>
 			  </kindDefs>
 			  <chance>100.0</chance>
@@ -20,6 +21,14 @@
 		  </factionDefs>
 		</li>
 	  </startingColonists>
+	  <!-- <alienrefugeekinds> -->
+			<!-- <li> -->
+				<!-- <kindDefs> -->
+					<!-- <li>WVC_AlienRace_RedFormer</li> -->
+				<!-- </kindDefs> -->
+				<!-- <chance>10.0</chance> -->
+			<!-- </li> -->
+	  <!-- </alienrefugeekinds> -->
 	</pawnKindSettings>
   </AlienRace.RaceSettings>
 

@@ -179,7 +179,7 @@
 	<label>mechanite medicine</label>
 	<description>A kit of mechanite medical supplies, is a by-product of the mechanite crafter. It contains multi-directional mechanites with a device to control them, the effectiveness is almost equal to similar ultra-tech medicine.</description>
 	<descriptionHyperlinks>
-	  <ConceptDef>WVC_MedicineMechanite_BionicELF</ConceptDef>
+	  <!-- <ConceptDef>WVC_MedicineMechanite_BionicELF</ConceptDef> -->
 	</descriptionHyperlinks>
 	<graphicData>
 	  <texPath>WVC/Stuff/MedicineUltratech</texPath>

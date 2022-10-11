@@ -13,12 +13,13 @@
 	<!-- <healthScaleFactor>1.0</healthScaleFactor> -->
 	<!-- <hungerRateFactor>1.0</hungerRateFactor> -->
 	<!-- <marketValueFactor>1.1</marketValueFactor> -->
-	<meleeDamageFactor>0.8</meleeDamageFactor>
+	<meleeDamageFactor>1.0</meleeDamageFactor>
 	<canDoRandomMentalBreaks>false</canDoRandomMentalBreaks>
+	<customMoodTipString>Formers do not experience emotions.</customMoodTipString>
 	<statFactors>
 	  <PainShockThreshold>5.0</PainShockThreshold>
 	  <MentalBreakThreshold>0.0</MentalBreakThreshold>
-	  <PsychicEntropyGain MayRequire="ludeon.rimworld.royalty">0.25</PsychicEntropyGain>
+	  <PsychicEntropyGain MayRequire="ludeon.rimworld.royalty">0.5</PsychicEntropyGain>
 	</statFactors>
   </LifeStageDef>
 
