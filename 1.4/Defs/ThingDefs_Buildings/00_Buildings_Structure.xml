@@ -94,11 +94,11 @@
 			<glowRadius>3</glowRadius>
 			<glowColor>(200,200,50)</glowColor>
 		  </li>
-		  <li Class="CompProperties_Power">
-			<compClass>CompPowerTrader</compClass>
-			<basePowerConsumption>-5</basePowerConsumption>
-			<transmitsPower>true</transmitsPower>
-		  </li>
+		  <!-- <li Class="CompProperties_Power"> -->
+			<!-- <compClass>CompPowerTrader</compClass> -->
+			<!-- <basePowerConsumption>-5</basePowerConsumption> -->
+			<!-- <transmitsPower>true</transmitsPower> -->
+		  <!-- </li> -->
 		  <!-- <li Class="CompProperties_SelfhealHitpoints"> -->
 			<!-- <ticksPerHeal>2000</ticksPerHeal> -->
 		  <!-- </li> -->
@@ -293,7 +293,7 @@
 		<fillPercent>1</fillPercent>
 		<statBases>
 		  <MaxHitPoints>3600</MaxHitPoints>
-		  <DoorOpenSpeed>5.0</DoorOpenSpeed>
+		  <DoorOpenSpeed>1.0</DoorOpenSpeed>
 		</statBases>
 		<graphicData>
 		  <texPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_Mover</texPath>
@@ -361,6 +361,11 @@
 		  <li Class="CompProperties_Forbiddable">
 			<allowNonPlayer>false</allowNonPlayer>
 		  </li>
+		  <li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<shortCircuitInRain>true</shortCircuitInRain>
+			<basePowerConsumption>50</basePowerConsumption>
+		  </li>
 		</comps>
 		<researchPrerequisites Inherit="False">
 		  <li>ValkyriesTechs_I_WVC</li>
@@ -381,6 +386,11 @@
 		  <li Class="CompProperties_Forbiddable">
 			<allowNonPlayer>false</allowNonPlayer>
 		  </li>
+		  <li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<shortCircuitInRain>true</shortCircuitInRain>
+			<basePowerConsumption>0</basePowerConsumption>
+		  </li>
 		</comps>
 		<researchPrerequisites Inherit="False">
 		  <li>ValkyriesTechs_II_WVC</li>
@@ -397,8 +407,13 @@
 			<WVC_ResourceNodes_Archotech>2</WVC_ResourceNodes_Archotech>
 		</costList>
 		<useHitPoints>false</useHitPoints>
-		<!-- <comps Inherit="False"> -->
-		<!-- </comps> -->
+		<comps>
+		  <li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<shortCircuitInRain>true</shortCircuitInRain>
+			<basePowerConsumption>0</basePowerConsumption>
+		  </li>
+		</comps>
 		<researchPrerequisites Inherit="False">
 		  <li>ValkyriesTechs_III_WVC</li>
 		</researchPrerequisites>

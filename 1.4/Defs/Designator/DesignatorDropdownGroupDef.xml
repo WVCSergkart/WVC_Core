@@ -25,6 +25,12 @@
   <DesignatorDropdownGroupDef>
 	<defName>HGS_Tables_WVC</defName>
   </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+	<defName>HGS_Workbenches_WVC</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+	<defName>HGS_Mechanizer_WVC</defName>
+  </DesignatorDropdownGroupDef>
   
   <DesignatorDropdownGroupDef>
 	<defName>Mechanoids_MiniTurrets_WVC</defName>

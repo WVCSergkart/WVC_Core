@@ -235,7 +235,8 @@
 		<statOffsets>
 			<Mass>5</Mass>
 			<ImmunityGainSpeed>0.08</ImmunityGainSpeed>
-			<ToxicSensitivity>-0.25</ToxicSensitivity>
+			<ToxicResistance>0.25</ToxicResistance>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.25</ToxicEnvironmentResistance>
 			<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.02</ArmorRating_Heat>
@@ -255,7 +256,8 @@
 	  <li>
 		<statOffsets>
 			<Mass>5</Mass>
-			<ToxicSensitivity>-0.5</ToxicSensitivity>
+			<ToxicResistance>0.5</ToxicResistance>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance>
 			<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.02</ArmorRating_Heat>

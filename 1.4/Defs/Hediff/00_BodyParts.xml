@@ -55,7 +55,7 @@
 	  <soundWorking>Recipe_Smith</soundWorking>
 	  <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
 	  <recipeUsers>
-		<li>WVC_AncientCraftingBench</li>
+		<!-- <li>WVC_AncientCraftingBench</li> -->
 	  </recipeUsers>
 	</recipeMaker>
 	<tradeTags>
@@ -95,7 +95,7 @@
 	  </skillRequirements>
 	  <researchPrerequisite>WVC_BionicTech_Torture</researchPrerequisite>
 	  <recipeUsers>
-		<li>FabricationBench</li>
+		<li>WVC_ExperimentalCraftingBench</li>
 	  </recipeUsers>
 	</recipeMaker>
 	<statBases>
@@ -132,7 +132,7 @@
 	  </skillRequirements>
 	  <researchPrerequisite>WVC_BionicTech_AdvancedBionic</researchPrerequisite>
 	  <recipeUsers>
-		<li>FabricationBench</li>
+		<li>WVC_ExperimentalCraftingBench</li>
 	  </recipeUsers>
 	</recipeMaker>
 	<statBases>
@@ -167,7 +167,7 @@
 	  </skillRequirements>
 	  <researchPrerequisite>WVC_BionicTech_Cybernetic</researchPrerequisite>
 	  <recipeUsers>
-		<li>FabricationBench</li>
+		<li>WVC_CyberneticCraftingBench</li>
 	  </recipeUsers>
 	</recipeMaker>
 	<statBases>
@@ -240,7 +240,7 @@
 	  </skillRequirements>
 	  <researchPrerequisite>WVC_RaceResearching_ELFs</researchPrerequisite>
 	  <recipeUsers>
-		<li>WVC_AncientCraftingBench</li>
+		<li>WVC_AdvancedCraftingBench</li>
 	  </recipeUsers>
 	</recipeMaker>
 	<statBases>

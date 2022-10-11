@@ -51,7 +51,7 @@
 		<costList>
 			<WVC_ResourceNodes_Blue>3</WVC_ResourceNodes_Blue>
 		</costList>
-		<comps Inherit="False">
+		<comps>
 		  <li Class="CompProperties_Glower">
 			<glowRadius>3</glowRadius>
 			<glowColor>(133,202,255)</glowColor>
@@ -71,7 +71,7 @@
 		<costList>
 			<WVC_ResourceNodes_Green>3</WVC_ResourceNodes_Green>
 		</costList>
-		<comps Inherit="False">
+		<comps>
 		  <li Class="CompProperties_Glower">
 			<glowRadius>3</glowRadius>
 			<glowColor>(133,255,136)</glowColor>
@@ -91,7 +91,7 @@
 		<costList>
 			<WVC_ResourceNodes_Red>3</WVC_ResourceNodes_Red>
 		</costList>
-		<comps Inherit="False">
+		<comps>
 		  <li Class="CompProperties_Glower">
 			<glowRadius>3</glowRadius>
 			<glowColor>(255,133,133)</glowColor>
@@ -111,7 +111,7 @@
 		<costList>
 			<WVC_ResourceNodes_Violet>3</WVC_ResourceNodes_Violet>
 		</costList>
-		<comps Inherit="False">
+		<comps>
 		  <li Class="CompProperties_Glower">
 			<glowRadius>3</glowRadius>
 			<glowColor>(142,133,255)</glowColor>
@@ -131,7 +131,7 @@
 		<costList>
 			<WVC_ResourceNodes_Yellow>3</WVC_ResourceNodes_Yellow>
 		</costList>
-		<comps Inherit="False">
+		<comps>
 		  <li Class="CompProperties_Glower">
 			<glowRadius>3</glowRadius>
 			<glowColor>(255,248,133)</glowColor>
@@ -154,13 +154,18 @@
 		  <li Class="CompProperties_Forbiddable">
 			<allowNonPlayer>false</allowNonPlayer>
 		  </li>
+		  <li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<shortCircuitInRain>true</shortCircuitInRain>
+			<basePowerConsumption>0</basePowerConsumption>
+		  </li>
 		</comps>
 		<researchPrerequisites Inherit="False">
 		  <!-- <li>ValkyriesTechs_I_WVC</li> -->
 		</researchPrerequisites>
 		<statBases>
 		  <MaxHitPoints>3000</MaxHitPoints>
-		  <DoorOpenSpeed>2.0</DoorOpenSpeed>
+		  <!-- <DoorOpenSpeed>1.0</DoorOpenSpeed> -->
 		</statBases>
 		<building>
 			<relatedBuildCommands Inherit="False">

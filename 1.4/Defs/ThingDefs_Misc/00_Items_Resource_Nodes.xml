@@ -249,46 +249,4 @@
 	</comps>
   </ThingDef>
 
-  <!-- ============================================================ -->
-
-  <RecipeDef>
-	<defName>WVC_Smelter_DestroyNodes</defName>
-	<label>destroy nodes</label>
-	<description>Using brute force to destroy the nodes.</description>
-	<jobString>destroing nodes.</jobString>
-	<workAmount>3000</workAmount>
-	<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-	<effectWorking>CutStone</effectWorking>
-	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-	<allowMixingIngredients>true</allowMixingIngredients>
-	<targetCountAdjustment>5</targetCountAdjustment>
-	<recipeUsers>
-	  <li>CraftingSpot</li>
-	  <li>ElectricSmelter</li>
-	  <li MayRequire="vanillaexpanded.vfeproduction">VFE_FueledSmelter</li>
-	  <li MayRequire="vanillaexpanded.vfepower">VPE_GasSmelter</li>
-	</recipeUsers>
-	<ingredients>
-	  <li>
-		<filter>
-		  <categories>
-			<li>WVC_ResourceNodes</li>
-		  </categories>
-		</filter>
-		<count>5</count>
-	  </li>
-	</ingredients>
-	<products>
-	  <Plasteel>15</Plasteel>
-	</products>
-	<researchPrerequisites>
-	  <li>ValkyriesTechs_II_WVC</li>
-	</researchPrerequisites>
-	<fixedIngredientFilter>
-	  <categories>
-		<li>WVC_ResourceNodes</li>
-	  </categories>
-	</fixedIngredientFilter>
-  </RecipeDef>
-
 </Defs>

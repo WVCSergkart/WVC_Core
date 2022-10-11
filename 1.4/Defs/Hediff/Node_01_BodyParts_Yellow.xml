@@ -159,7 +159,8 @@
 		<statOffsets>
 			<PsychicSensitivity>0.10</PsychicSensitivity>
 		  <ImmunityGainSpeed>0.08</ImmunityGainSpeed>
-		  <ToxicSensitivity>-0.25</ToxicSensitivity>
+		  <ToxicResistance>0.25</ToxicResistance>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.25</ToxicEnvironmentResistance>
 		</statOffsets>
 	  </li>
 	</stages>
@@ -176,7 +177,8 @@
 	  <li>
 		<statOffsets>
 			<PsychicSensitivity>0.15</PsychicSensitivity>
-		  <ToxicSensitivity>-0.5</ToxicSensitivity>
+		  <ToxicResistance>0.5</ToxicResistance>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance>
 		</statOffsets>
 	  </li>
 	</stages>

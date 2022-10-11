@@ -55,10 +55,11 @@
   </WorkGiverDef>
 
   <WorkGiverDef ParentName="WVC_WorkGiver_Base">
-	<defName>WVC_NodeCrafterWork</defName>
-	<label>work at node-hybridizer</label>
-	<priorityInType>80</priorityInType>
+	<defName>WVC_AdvancedCrafterWork</defName>
+	<label>work at hybridizer</label>
+	<priorityInType>60</priorityInType>
 	<fixedBillGiverDefs>
+	  <li>WVC_AdvancedCraftingBench</li>
 	  <li>WVC_NodeCraftingBench</li>
 	</fixedBillGiverDefs>
 	<workTags>
@@ -67,22 +68,12 @@
   </WorkGiverDef>
 
   <WorkGiverDef ParentName="WVC_WorkGiver_Base">
-	<defName>WVC_AdvancedCrafterWork</defName>
-	<label>work at mecha-hybridizer</label>
-	<priorityInType>90</priorityInType>
-	<fixedBillGiverDefs>
-	  <li>WVC_AdvancedCraftingBench</li>
-	</fixedBillGiverDefs>
-	<workTags>
-	  <li>Crafting</li>
-	</workTags>
-  </WorkGiverDef>
-
-  <WorkGiverDef ParentName="WVC_WorkGiver_Base">
 	<defName>WVC_BodyPartsCraftingWork</defName>
-	<label>work at implanter</label>
+	<label>work at implant workbench</label>
 	<priorityInType>100</priorityInType>
 	<fixedBillGiverDefs>
+	  <li>WVC_ExperimentalCraftingBench</li>
+	  <li>WVC_CyberneticCraftingBench</li>
 	  <li>WVC_AncientCraftingBench</li>
 	</fixedBillGiverDefs>
 	<workTags>
@@ -132,6 +123,7 @@
 	<workAmount>5000</workAmount>
 	<recipeUsers Inherit="False">
 	  <li>WVC_AdvancedCraftingBench</li>
+	  <li>WVC_NodeCraftingBench</li>
 	</recipeUsers>
 	<ingredients>
 	  <li>
@@ -420,6 +412,52 @@
 	<products>
 	  <WVC_ExoticWeaponComponents>1</WVC_ExoticWeaponComponents>
 	</products>
+  </RecipeDef>
+
+  <!-- ============================================================ -->
+
+  <RecipeDef>
+	<defName>WVC_Smelter_DestroyNodes</defName>
+	<label>destroy nodes</label>
+	<description>Using brute force to destroy the nodes.</description>
+	<jobString>destroing nodes.</jobString>
+	<workAmount>3000</workAmount>
+	<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	<effectWorking>CutStone</effectWorking>
+	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<targetCountAdjustment>5</targetCountAdjustment>
+	<recipeUsers>
+	  <li>CraftingSpot</li>
+	  <li>ElectricSmelter</li>
+	  <li MayRequire="vanillaexpanded.vfeproduction">VFE_FueledSmelter</li>
+	  <li MayRequire="vanillaexpanded.vfepower">VPE_GasSmelter</li>
+	  <!-- <li>DefaultWorkSpot_WVC</li> -->
+	  <!-- <li>WVC_Node_MechaniteCrafter_Violet</li> -->
+	  <li>WVC_AdvancedCraftingBench</li>
+	  <li>WVC_NodeCraftingBench</li>
+	</recipeUsers>
+	<ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>WVC_ResourceNodes</li>
+		  </categories>
+		</filter>
+		<count>5</count>
+	  </li>
+	</ingredients>
+	<products>
+	  <Plasteel>15</Plasteel>
+	</products>
+	<researchPrerequisites>
+	  <li>ValkyriesTechs_II_WVC</li>
+	</researchPrerequisites>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>WVC_ResourceNodes</li>
+	  </categories>
+	</fixedIngredientFilter>
   </RecipeDef>
 
 </Defs>
