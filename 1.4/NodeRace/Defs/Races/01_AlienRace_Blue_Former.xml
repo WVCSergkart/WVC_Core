@@ -364,7 +364,7 @@
       <ComfyTemperatureMax>250</ComfyTemperatureMax>
 	  <FilthRate>1</FilthRate>
 	  <LeatherAmount>12</LeatherAmount>
-	  <ToxicResistance>0.0</ToxicResistance>
+	  <ToxicResistance>1.0</ToxicResistance>
 	  <PsychicSensitivity>0.5</PsychicSensitivity>
 	  <Flammability>0</Flammability>
 	  <ArmorRating_Blunt>0.85</ArmorRating_Blunt>
