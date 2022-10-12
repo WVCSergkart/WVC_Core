@@ -103,7 +103,7 @@
 	<workSkillLearnFactor>2</workSkillLearnFactor>
 	<fixedIngredientFilter>
 	  <disallowedCategories>
-		<li>WVC_MechanicalEggs</li>
+		<!-- <li>WVC_MechanicalEggs</li> -->
 	  </disallowedCategories>
 	  <disallowedThingDefs>
 		<!-- <li>VFE_ComponentMechanoid</li> -->

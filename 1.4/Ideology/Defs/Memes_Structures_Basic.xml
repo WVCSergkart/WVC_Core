@@ -66,7 +66,7 @@
 		<!-- <exclusionTags> -->
 		<!-- </exclusionTags> -->
 		<category>Structure</category>
-		<iconPath>WVC/Icons/Structure_Hybridism</iconPath>
+		<iconPath>WVC/Icons/Faction</iconPath>
 		<impact>0</impact>
 		<randomizationSelectionWeightFactor>0.1</randomizationSelectionWeightFactor>
 		<deityCount>0</deityCount>
@@ -149,10 +149,10 @@
 				<!-- <li>Apostasy_Abhorrent</li> -->
 				<!-- <li MayRequire="vanillaexpanded.vmemese">Apostasy_Despicable</li> -->
 			</li>
-			<li>
+			<li MayRequire="erdelf.humanoidalienraces">
 				<li>HAR_AlienRaces_Respected</li>
 			</li>
-			<li>
+			<li MayRequire="erdelf.humanoidalienraces">
 				<li>HAR_AlienDating_Preferred</li>
 			</li>
 			<li>

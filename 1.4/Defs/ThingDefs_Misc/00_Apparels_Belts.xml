@@ -5,7 +5,7 @@
 	<defName>WVC_Apparel_MechanoidShieldBelt</defName>
 	<label>mechanoid shield belt</label>
 	<description>A projectile-repulsion device. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP.</description>
-	<thingClass>ShieldBelt</thingClass>
+	<thingClass>Apparel</thingClass>
 	<graphicData>
 	  <texPath>WVC/Apparels/ShieldBelt</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
@@ -61,6 +61,7 @@
 		<li>Belt</li>
 	  </layers>
 	  <tags>
+		<li>BeltDefense</li>
 		<!-- <li>BeltDefense</li> -->
 		<li>WVC_BeltDefense_Ultra</li>
 		<li>VAEA_Utility_Spacer</li>

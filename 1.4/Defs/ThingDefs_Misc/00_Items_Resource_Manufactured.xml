@@ -42,7 +42,7 @@
 		<li>Woody</li>
 		<li>Metallic</li>
 	  </categories>
-	  <appearance>living metal</appearance>
+	  <appearance>Metal</appearance>
 	  <commonality>0.001</commonality>
 	  <constructEffect>ConstructMetal</constructEffect>
 	  <color>(255,224,200)</color>
@@ -62,6 +62,7 @@
 	<allowedArchonexusCount>80</allowedArchonexusCount>
 	<!-- =living part= -->
 	<rotatable>true</rotatable>
+	<tickerType>Rare</tickerType>
 	<comps>
 	  <li Class="CompProperties_Rottable">
 		<daysToRotStart>60</daysToRotStart>

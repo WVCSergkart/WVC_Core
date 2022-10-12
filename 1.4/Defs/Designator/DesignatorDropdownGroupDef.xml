@@ -5,6 +5,9 @@
 	<defName>HGS_Floors_WVC</defName>
   </DesignatorDropdownGroupDef>
   <DesignatorDropdownGroupDef>
+	<defName>HGS_Bridges_WVC</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
 	<defName>HGS_Doors_WVC</defName>
   </DesignatorDropdownGroupDef>
   <DesignatorDropdownGroupDef>

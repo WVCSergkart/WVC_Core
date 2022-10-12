@@ -8,7 +8,7 @@
 	<label>mecha-hybridizer</label>
 	<!-- <label>Advanced crafter</label> -->
 	<description>The mecha-hybridizer uses mechanites and advanced multidirectional hybrid power plants to process various materials. Most of the crafter is located underground where all the magic happens, the part located on the surface is used for final processing.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
-	<altitudeLayer>Building</altitudeLayer>
+	<!-- <altitudeLayer>Building</altitudeLayer> -->
 	<techLevel>Ultra</techLevel>
 	<descriptionHyperlinks Inherit="False">
 	  <!-- <ThingDef>WVC_ExoticWeaponComponents</ThingDef> -->
@@ -32,7 +32,6 @@
 	  </buildingTags>
 	  <isEdifice>true</isEdifice>
 	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
-	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 	</building>
 	<!-- Floor -->
 	<graphicData>
@@ -136,7 +135,7 @@
 	<defName>WVC_NodeCraftingBench</defName>
 	<label>node-hybridizer</label>
 	<description>The node-hybridizer works on a similar principle to the mechahybridizer, but unlike it, the node-hybridizer uses only mechanites.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
-	<altitudeLayer>Building</altitudeLayer>
+	<!-- <altitudeLayer>Building</altitudeLayer> -->
 	<techLevel>Ultra</techLevel>
 	<descriptionHyperlinks Inherit="False">
 	</descriptionHyperlinks>
@@ -159,7 +158,6 @@
 	  </buildingTags>
 	  <isEdifice>true</isEdifice>
 	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
-	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 	</building>
 	<!-- Floor -->
 	<graphicData>

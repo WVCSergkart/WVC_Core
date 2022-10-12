@@ -117,9 +117,9 @@
 	  <!-- <WVC_UniversalFuel>200</WVC_UniversalFuel> -->
 	  <!-- <Plasteel>25</Plasteel> -->
 	  <!-- <Uranium>5</Uranium> -->
-	  <!-- <VFE_ComponentMechanoid>4</VFE_ComponentMechanoid> -->
-	  <!-- <WVC_UniversalFuel>50</WVC_UniversalFuel> -->
-	  <Apparel_GirlyUnderwear_WVC>1</Apparel_GirlyUnderwear_WVC>
+	  <VFE_ComponentMechanoid>12</VFE_ComponentMechanoid>
+	  <WVC_UniversalFuel>33</WVC_UniversalFuel>
+	  <!-- <Apparel_GirlyUnderwear_WVC>1</Apparel_GirlyUnderwear_WVC> -->
 	  <!-- <WVC_ResourceNodes_Blue>1</WVC_ResourceNodes_Blue> -->
 	  <!-- <WVC_ResourceNodes_Red>1</WVC_ResourceNodes_Red> -->
 	  <!-- <WVC_ResourceNodes_Violet>1</WVC_ResourceNodes_Violet> -->

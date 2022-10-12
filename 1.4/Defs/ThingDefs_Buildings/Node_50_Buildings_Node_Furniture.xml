@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<DesignatorDropdownGroupDef>
-		<defName>Nodes_Stools_WVC</defName>
-	</DesignatorDropdownGroupDef>
-	<DesignatorDropdownGroupDef>
-		<defName>Nodes_Tables_WVC</defName>
-	</DesignatorDropdownGroupDef>
+	<!-- <DesignatorDropdownGroupDef> -->
+		<!-- <defName>Nodes_Stools_WVC</defName> -->
+	<!-- </DesignatorDropdownGroupDef> -->
+	<!-- <DesignatorDropdownGroupDef> -->
+		<!-- <defName>Nodes_Tables_WVC</defName> -->
+	<!-- </DesignatorDropdownGroupDef> -->
 
 	<ThingDef Name="NodeBuildings_WVC" ParentName="BaseBuildings_WVC" Abstract="True">
 		<techLevel>Ultra</techLevel>
@@ -72,7 +72,7 @@
 	</thingCategories>
 	<researchPrerequisites Inherit="False">
 	</researchPrerequisites>
-	<designatorDropdown>Nodes_Stools_WVC</designatorDropdown>
+	<designatorDropdown>HGS_Stools_WVC</designatorDropdown>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
   </ThingDef>
 
@@ -234,7 +234,7 @@
 	</thingCategories>
 	<researchPrerequisites Inherit="False">
 	</researchPrerequisites>
-	<designatorDropdown>Nodes_Tables_WVC</designatorDropdown>
+	<designatorDropdown>HGS_Tables_WVC</designatorDropdown>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
   </ThingDef>
 

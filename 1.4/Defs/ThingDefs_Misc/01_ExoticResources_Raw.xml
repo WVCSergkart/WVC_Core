@@ -169,7 +169,7 @@
 		<DoorOpenSpeed>0.9</DoorOpenSpeed>
 	  </statFactors>
 	  <statOffsets>
-		<ToxicSensitivity>-0.2</ToxicSensitivity>
+		<!-- <ToxicSensitivity>-0.2</ToxicSensitivity> -->
 	  </statOffsets>
 	</stuffProps>
   </ThingDef>

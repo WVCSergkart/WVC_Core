@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <DesignatorDropdownGroupDef>
-	<defName>Nodes_Floors_WVC</defName>
-  </DesignatorDropdownGroupDef>
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>Nodes_Floors_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
 
   <TerrainDef Abstract="True" Name="BaseFloor_Node_WVC" ParentName="Marker_BaseFloor_WVC">
 	<costList>
@@ -13,7 +13,7 @@
 		<!-- <li>ValkyriesTechs_I_WVC</li> -->
 	</researchPrerequisites>
 	<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
-	<designatorDropdown>Nodes_Floors_WVC</designatorDropdown>
+	<!-- <designatorDropdown>HGS_Floors_WVC</designatorDropdown> -->
   </TerrainDef>
 
   <!-- ======================== -->
@@ -87,7 +87,7 @@
 		<!-- <li>ValkyriesTechs_I_WVC</li> -->
 	</researchPrerequisites>
 	<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
-	<designatorDropdown>Nodes_Floors_WVC</designatorDropdown>
+	<!-- <designatorDropdown>HGS_Bridges_WVC</designatorDropdown> -->
   </TerrainDef>
 
   <!-- ======================== -->

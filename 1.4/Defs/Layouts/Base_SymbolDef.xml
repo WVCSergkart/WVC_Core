@@ -3,261 +3,9 @@
 <Defs>
 
 	<KCSG.SymbolDef>
-	  <defName>Bridge_MechanoidGravel_WVC</defName>
-	  <isTerrain>true</isTerrain>
-	  <terrain>Bridge_MechanoidGravel_WVC</terrain>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>Bridge_MechanoidFloorB_WVC</defName>
-	  <isTerrain>true</isTerrain>
-	  <terrain>Bridge_MechanoidFloorB_WVC</terrain>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>Bridge_MechanoidFloor_WVC</defName>
-	  <isTerrain>true</isTerrain>
-	  <terrain>Bridge_MechanoidFloor_WVC</terrain>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_MechanoidArmoredNode</defName>
-	  <thing>WVC_MechanoidArmoredNode</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>Turret_InfernoTurret_WVC</defName>
-	  <thing>Turret_InfernoTurret_WVC</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_ArchotechTable2x2c</defName>
-	  <thing>WVC_ArchotechTable2x2c</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>FloorHeater_WVC</defName>
-	  <thing>FloorHeater_WVC</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>Turret_ChargeBlasterTurret_WVC</defName>
-	  <thing>Turret_ChargeBlasterTurret_WVC</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>Turret_AutoMiniTurret_WVC</defName>
-	  <thing>Turret_AutoMiniTurret_WVC</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>Turret_AutoMortar_WVC</defName>
-	  <thing>Turret_AutoMortar_WVC</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>Bridge_ArchotechGravel_WVC</defName>
-	  <isTerrain>true</isTerrain>
-	  <terrain>Bridge_ArchotechGravel_WVC</terrain>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_MechanoidTable2x2c</defName>
-	  <thing>WVC_MechanoidTable2x2c</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>Bridge_ArchotechFloor_WVC</defName>
-	  <isTerrain>true</isTerrain>
-	  <terrain>Bridge_ArchotechFloor_WVC</terrain>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_ArchotechArmoredNode</defName>
-	  <thing>WVC_ArchotechArmoredNode</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>Bridge_AncientFloor_WVC</defName>
-	  <isTerrain>true</isTerrain>
-	  <terrain>Bridge_AncientFloor_WVC</terrain>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_UniversalFuel</defName>
-	  <thing>WVC_UniversalFuel</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_AncientStool</defName>
-	  <thing>WVC_AncientStool</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_SleepPod_North</defName>
-	  <thing>WVC_SleepPod</thing>
-	  <rotation>North</rotation>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_SleepPod_East</defName>
-	  <thing>WVC_SleepPod</thing>
+	  <defName>WVC_NodeHealingBed_East</defName>
+	  <thing>WVC_NodeHealingBed</thing>
 	  <rotation>East</rotation>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_SleepPod_West</defName>
-	  <thing>WVC_SleepPod</thing>
-	  <rotation>West</rotation>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_MechanoidStool</defName>
-	  <thing>WVC_MechanoidStool</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_AncientTable2x2c</defName>
-	  <thing>WVC_AncientTable2x2c</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_SleepPod_South</defName>
-	  <thing>WVC_SleepPod</thing>
-	  <rotation>South</rotation>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_ArchotechStool</defName>
-	  <thing>WVC_ArchotechStool</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_ExoticWeaponComponents</defName>
-	  <thing>WVC_ExoticWeaponComponents</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>DefaultWorkSpot_WVC_North</defName>
-	  <thing>DefaultWorkSpot_WVC</thing>
-	  <rotation>North</rotation>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>Floor_AncientFloor_WVC</defName>
-	  <isTerrain>true</isTerrain>
-	  <terrain>Floor_AncientFloor_WVC</terrain>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>Floor_ArchotechGravel_WVC</defName>
-	  <isTerrain>true</isTerrain>
-	  <terrain>Floor_ArchotechGravel_WVC</terrain>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>Floor_ArchotechFloor_WVC</defName>
-	  <isTerrain>true</isTerrain>
-	  <terrain>Floor_ArchotechFloor_WVC</terrain>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>Gauranlen_Assembler_WVC</defName>
-	  <thing>Gauranlen_Assembler_WVC</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>Floor_MechanoidFloorB_WVC</defName>
-	  <isTerrain>true</isTerrain>
-	  <terrain>Floor_MechanoidFloorB_WVC</terrain>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_UniversalConduit</defName>
-	  <thing>WVC_UniversalConduit</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>Floor_MechanoidFloor_WVC</defName>
-	  <isTerrain>true</isTerrain>
-	  <terrain>Floor_MechanoidFloor_WVC</terrain>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_AdvancedCraftingBench</defName>
-	  <thing>WVC_AdvancedCraftingBench</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>UnstablePowerCell_WVC</defName>
-	  <thing>UnstablePowerCell_WVC</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>Floor_MechanoidGravel_WVC</defName>
-	  <isTerrain>true</isTerrain>
-	  <terrain>Floor_MechanoidGravel_WVC</terrain>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>DefaultWorkSpot_WVC_West</defName>
-	  <thing>DefaultWorkSpot_WVC</thing>
-	  <rotation>West</rotation>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>ELF_MendingStation_WVC</defName>
-	  <thing>ELF_MendingStation_WVC</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_IncubatorLF</defName>
-	  <thing>WVC_IncubatorLF</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>ResourceReplicator_WVC</defName>
-	  <thing>ResourceReplicator_WVC</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>MechanoidDoorA_WVC</defName>
-	  <thing>MechanoidDoorA_WVC</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_CapsuleILF</defName>
-	  <thing>WVC_CapsuleILF</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>MechanoidWallA_WVC</defName>
-	  <thing>MechanoidWallA_WVC</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>WVC_FloorLamp</defName>
-	  <thing>WVC_FloorLamp</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>AncientColumn_WVC</defName>
-	  <thing>AncientColumn_WVC</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>AncientDoor_WVC</defName>
-	  <thing>AncientDoor_WVC</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>AncientWall_WVC</defName>
-	  <thing>AncientWall_WVC</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>MechanoidColumn_WVC</defName>
-	  <thing>MechanoidColumn_WVC</thing>
 	</KCSG.SymbolDef>
 
 	<KCSG.SymbolDef>
@@ -266,29 +14,53 @@
 	</KCSG.SymbolDef>
 
 	<KCSG.SymbolDef>
-	  <defName>MechanoidWallB_WVC</defName>
-	  <thing>MechanoidWallB_WVC</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
-	  <defName>ArchotechColumn_WVC</defName>
-	  <thing>ArchotechColumn_WVC</thing>
-	</KCSG.SymbolDef>
-
-	<KCSG.SymbolDef>
 	  <defName>ArchotechDoor_WVC</defName>
 	  <thing>ArchotechDoor_WVC</thing>
 	</KCSG.SymbolDef>
 
 	<KCSG.SymbolDef>
-	  <defName>VFE_ComponentMechanoid</defName>
-	  <thing>VFE_ComponentMechanoid</thing>
+	  <defName>MechanoidDoorA_WVC</defName>
+	  <thing>MechanoidDoorA_WVC</thing>
 	</KCSG.SymbolDef>
 
 	<KCSG.SymbolDef>
-	  <defName>Gloomlight_WVC_North</defName>
-	  <thing>Gloomlight_WVC</thing>
-	  <rotation>North</rotation>
+	  <defName>AncientDoor_WVC</defName>
+	  <thing>AncientDoor_WVC</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_IncubatorNode</defName>
+	  <thing>WVC_IncubatorNode</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeDoorV</defName>
+	  <thing>WVC_NodeDoorV</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeDoorY</defName>
+	  <thing>WVC_NodeDoorY</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeDoorB</defName>
+	  <thing>WVC_NodeDoorB</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeDoorG</defName>
+	  <thing>WVC_NodeDoorG</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeDoorR</defName>
+	  <thing>WVC_NodeDoorR</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>MechanoidWallB_WVC</defName>
+	  <thing>MechanoidWallB_WVC</thing>
 	</KCSG.SymbolDef>
 
 	<KCSG.SymbolDef>
@@ -297,8 +69,389 @@
 	</KCSG.SymbolDef>
 
 	<KCSG.SymbolDef>
+	  <defName>AncientColumn_WVC</defName>
+	  <thing>AncientColumn_WVC</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeHealingBed_North</defName>
+	  <thing>WVC_NodeHealingBed</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>MechanoidWallA_WVC</defName>
+	  <thing>MechanoidWallA_WVC</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>AncientWall_WVC</defName>
+	  <thing>AncientWall_WVC</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeWallV</defName>
+	  <thing>WVC_NodeWallV</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeWallY</defName>
+	  <thing>WVC_NodeWallY</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeWallB</defName>
+	  <thing>WVC_NodeWallB</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeWallG</defName>
+	  <thing>WVC_NodeWallG</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeWallR</defName>
+	  <thing>WVC_NodeWallR</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeGaurler_Yellow</defName>
+	  <thing>WVC_NodeGaurler_Yellow</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeCraftingBench</defName>
+	  <thing>WVC_NodeCraftingBench</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
 	  <defName>ComponentSpawner_WVC</defName>
 	  <thing>ComponentSpawner_WVC</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>MechanoidColumn_WVC</defName>
+	  <thing>MechanoidColumn_WVC</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_Node_MechaniteCrafter_Violet_North</defName>
+	  <thing>WVC_Node_MechaniteCrafter_Violet</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>DefaultWorkSpot_WVC_North</defName>
+	  <thing>DefaultWorkSpot_WVC</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_AncientCraftingBench_North</defName>
+	  <thing>WVC_AncientCraftingBench</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>ArchotechColumn_WVC</defName>
+	  <thing>ArchotechColumn_WVC</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_ArchotechBed_West</defName>
+	  <thing>WVC_ArchotechBed</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeHealingBed_West</defName>
+	  <thing>WVC_NodeHealingBed</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Red_West</defName>
+	  <thing>WVC_NodeBed_Red</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_ArchotechBed_East</defName>
+	  <thing>WVC_ArchotechBed</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Red_East</defName>
+	  <thing>WVC_NodeBed_Red</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>Gauranlen_Assembler_WVC</defName>
+	  <thing>Gauranlen_Assembler_WVC</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_CyberneticCraftingBench_North</defName>
+	  <thing>WVC_CyberneticCraftingBench</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_AdvancedCraftingBench</defName>
+	  <thing>WVC_AdvancedCraftingBench</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Red_North</defName>
+	  <thing>WVC_NodeBed_Red</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeHealingBed_South</defName>
+	  <thing>WVC_NodeHealingBed</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Red_South</defName>
+	  <thing>WVC_NodeBed_Red</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_ArchotechBed_North</defName>
+	  <thing>WVC_ArchotechBed</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_ArchotechBed_South</defName>
+	  <thing>WVC_ArchotechBed</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_ArchotechTable2x2c</defName>
+	  <thing>WVC_ArchotechTable2x2c</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_ArchotechStool</defName>
+	  <thing>WVC_ArchotechStool</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_IncubatorLF</defName>
+	  <thing>WVC_IncubatorLF</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_ExperimentalCraftingBench_North</defName>
+	  <thing>WVC_ExperimentalCraftingBench</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_MechanoidBed_West</defName>
+	  <thing>WVC_MechanoidBed</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Yellow_West</defName>
+	  <thing>WVC_NodeBed_Yellow</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Green_West</defName>
+	  <thing>WVC_NodeBed_Green</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Yellow_East</defName>
+	  <thing>WVC_NodeBed_Yellow</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_MechanoidTable2x2c</defName>
+	  <thing>WVC_MechanoidTable2x2c</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_MechanoidStool</defName>
+	  <thing>WVC_MechanoidStool</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Green_East</defName>
+	  <thing>WVC_NodeBed_Green</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_MechanoidBed_East</defName>
+	  <thing>WVC_MechanoidBed</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Yellow_South</defName>
+	  <thing>WVC_NodeBed_Yellow</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Yellow_North</defName>
+	  <thing>WVC_NodeBed_Yellow</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Green_North</defName>
+	  <thing>WVC_NodeBed_Green</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Green_South</defName>
+	  <thing>WVC_NodeBed_Green</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_MechanoidBed_North</defName>
+	  <thing>WVC_MechanoidBed</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_MechanoidBed_South</defName>
+	  <thing>WVC_MechanoidBed</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_AncientTable2x2c</defName>
+	  <thing>WVC_AncientTable2x2c</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_AncientStool</defName>
+	  <thing>WVC_AncientStool</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Violet_West</defName>
+	  <thing>WVC_NodeBed_Violet</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Blue_West</defName>
+	  <thing>WVC_NodeBed_Blue</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_AncientBed_East</defName>
+	  <thing>WVC_AncientBed</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeStool_Red</defName>
+	  <thing>WVC_NodeStool_Red</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeStool_Violet</defName>
+	  <thing>WVC_NodeStool_Violet</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeStool_Yellow</defName>
+	  <thing>WVC_NodeStool_Yellow</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Blue_East</defName>
+	  <thing>WVC_NodeBed_Blue</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Violet_East</defName>
+	  <thing>WVC_NodeBed_Violet</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_AncientBed_West</defName>
+	  <thing>WVC_AncientBed</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeTable2x2c_Green</defName>
+	  <thing>WVC_NodeTable2x2c_Green</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeTable2x2c_Yellow</defName>
+	  <thing>WVC_NodeTable2x2c_Yellow</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeStool_Blue</defName>
+	  <thing>WVC_NodeStool_Blue</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeTable2x2c_Blue</defName>
+	  <thing>WVC_NodeTable2x2c_Blue</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeTable2x2c_Red</defName>
+	  <thing>WVC_NodeTable2x2c_Red</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeTable2x2c_Violet</defName>
+	  <thing>WVC_NodeTable2x2c_Violet</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeStool_Green</defName>
+	  <thing>WVC_NodeStool_Green</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Violet_South</defName>
+	  <thing>WVC_NodeBed_Violet</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Blue_North</defName>
+	  <thing>WVC_NodeBed_Blue</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Blue_South</defName>
+	  <thing>WVC_NodeBed_Blue</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_AncientBed_North</defName>
+	  <thing>WVC_AncientBed</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_AncientBed_South</defName>
+	  <thing>WVC_AncientBed</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_NodeBed_Violet_North</defName>
+	  <thing>WVC_NodeBed_Violet</thing>
 	</KCSG.SymbolDef>
 
 	<!-- ================================================================= -->

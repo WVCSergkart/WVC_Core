@@ -117,11 +117,11 @@
 			<glowRadius>3</glowRadius>
 			<glowColor>(200,200,50)</glowColor>
 		  </li>
-		  <li Class="CompProperties_Power">
-			<compClass>CompPowerTrader</compClass>
-			<basePowerConsumption>-5</basePowerConsumption>
-			<transmitsPower>true</transmitsPower>
-		  </li>
+		  <!-- <li Class="CompProperties_Power"> -->
+			<!-- <compClass>CompPowerTrader</compClass> -->
+			<!-- <basePowerConsumption>-5</basePowerConsumption> -->
+			<!-- <transmitsPower>true</transmitsPower> -->
+		  <!-- </li> -->
 		</comps>
 		<researchPrerequisites>
 			<li>ValkyriesTechs_III_WVC</li>

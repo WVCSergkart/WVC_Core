@@ -67,7 +67,6 @@
 		<WVC_ResourceNodes_Green>36</WVC_ResourceNodes_Green>
 		<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
 	</costList>
-	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
 	<placeWorkers>
 	</placeWorkers>
 	<comps Inherit="False">

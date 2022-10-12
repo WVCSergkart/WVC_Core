@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<DesignatorDropdownGroupDef>
-		<defName>Nodes_Walls_WVC</defName>
-	</DesignatorDropdownGroupDef>
-	<DesignatorDropdownGroupDef>
-		<defName>Nodes_Doors_WVC</defName>
-	</DesignatorDropdownGroupDef>
+	<!-- <DesignatorDropdownGroupDef> -->
+		<!-- <defName>Nodes_Walls_WVC</defName> -->
+	<!-- </DesignatorDropdownGroupDef> -->
+	<!-- <DesignatorDropdownGroupDef> -->
+		<!-- <defName>Nodes_Doors_WVC</defName> -->
+	<!-- </DesignatorDropdownGroupDef> -->
 
 	<!-- ============================================================ -->
 
@@ -36,7 +36,7 @@
 		</building>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 		<!-- <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded> -->
-		<designatorDropdown>Nodes_Walls_WVC</designatorDropdown>
+		<!-- <designatorDropdown>Nodes_Walls_WVC</designatorDropdown> -->
 	</ThingDef>
 
 	<!-- ============================================================ -->
@@ -178,7 +178,7 @@
 		</building>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designatorDropdown>Nodes_Doors_WVC</designatorDropdown>
+		<!-- <designatorDropdown>Nodes_Doors_WVC</designatorDropdown> -->
 	</ThingDef>
 
 	<!-- ============================================================ -->
