@@ -14,7 +14,7 @@
 	<costList Inherit="False">
 	  <Plasteel>1250</Plasteel>
 	  <Uranium>333</Uranium>
-	  <WVC_ResourceNodes_Violet>65</WVC_ResourceNodes_Violet>
+	  <WVC_ResourceNodes_Violet>33</WVC_ResourceNodes_Violet>
 	  <!-- <VFE_ComponentMechanoid>12</VFE_ComponentMechanoid> -->
 	  <!-- <VFE_ComponentMechanoid>15</VFE_ComponentMechanoid> -->
 	</costList>

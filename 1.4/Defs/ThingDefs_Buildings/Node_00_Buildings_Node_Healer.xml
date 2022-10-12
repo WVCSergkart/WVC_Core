@@ -64,7 +64,7 @@
 	<costList>
 		<Plasteel>230</Plasteel>
 		<Uranium>30</Uranium>
-		<WVC_ResourceNodes_Green>36</WVC_ResourceNodes_Green>
+		<WVC_ResourceNodes_Green>12</WVC_ResourceNodes_Green>
 		<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
 	</costList>
 	<placeWorkers>

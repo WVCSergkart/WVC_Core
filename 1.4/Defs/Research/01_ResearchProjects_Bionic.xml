@@ -11,6 +11,7 @@
 	<researchViewY>0.90</researchViewY>
 	<prerequisites>
 	  <li>Bionics</li>
+	  <li>MedicineProduction</li>
 	  <li MayRequire="vat.epoeforked">AdvancedBionics</li>
 	  <li MayRequire="vat.epoeforked">SyntheticOrgans</li>
 	  <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li>

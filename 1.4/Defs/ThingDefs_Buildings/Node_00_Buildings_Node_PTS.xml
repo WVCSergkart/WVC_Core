@@ -44,7 +44,7 @@
 	<costList>
 		<Plasteel>50</Plasteel>
 		<Uranium>8</Uranium>
-		<WVC_ResourceNodes_Blue>5</WVC_ResourceNodes_Blue>
+		<WVC_ResourceNodes_Blue>1</WVC_ResourceNodes_Blue>
 	</costList>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
 	<placeWorkers>

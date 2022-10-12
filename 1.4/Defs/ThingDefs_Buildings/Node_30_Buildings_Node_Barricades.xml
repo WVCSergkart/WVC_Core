@@ -34,7 +34,7 @@
 	</statBases>
 	<costList>
 	  <Plasteel>30</Plasteel>
-	  <WVC_ResourceNodes_Red MayRequire="wvc.sergkart.nodes">6</WVC_ResourceNodes_Red>
+	  <WVC_ResourceNodes_Red>1</WVC_ResourceNodes_Red>
 	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
 	</costList>
 	<building>

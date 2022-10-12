@@ -105,15 +105,33 @@
 		<li>ValkyriesTechs_MechaniteCrafterI_WVC</li>
 	</researchPrerequisites>
 	<designationCategory>Production</designationCategory>
-	<designatorDropdown>HGS_Mechanizer_WVC</designatorDropdown>
+	<designatorDropdown>HGS_Workbenches_WVC</designatorDropdown>
 	<thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_MechaniteCrafter_Base">
+	<defName>WVC_Node_MechaniteCrafter_Violet</defName>
+	<graphicData>
+	  <texPath>WVC/Stuff/Nodes/NodeMechaniteCrafter</texPath>
+	</graphicData>
+	<statBases>
+		<WorkTableEfficiencyFactor>1.5</WorkTableEfficiencyFactor>
+	</statBases>
+	<costList Inherit="False">
+	  <Plasteel>120</Plasteel>
+	  <WVC_ResourceNodes_Violet>32</WVC_ResourceNodes_Violet>
+	</costList>
+	<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	<researchPrerequisites>
+		<li>WVC_ResearchNodes_Violet</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <!-- ============================================================ -->
 
   <ThingDef ParentName="AncientBuildings_WVC" Name="WVC_ImplantWorkBenches_Base" Abstract="True">
 	<label>implant workbench</label>
-	<description>An experimentally recreated workbench of the ancients. This workbench contains everything you need to create complex body parts.</description>
+	<description>An experimentally workbench. This workbench contains everything you need to create complex body parts.</description>
 	<!-- = -->
 	<thingClass>Building_WorkTable</thingClass>
 	<canOverlapZones>false</canOverlapZones>
@@ -146,8 +164,8 @@
 	<costList>
 	  <Plasteel>150</Plasteel>
 	  <Uranium>23</Uranium>
-	  <ComponentSpacer>5</ComponentSpacer>
-	  <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
+	  <!-- <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid> -->
 	</costList>
 	<altitudeLayer>Building</altitudeLayer>
 	<fillPercent>0.5</fillPercent>
@@ -163,14 +181,15 @@
 	</statBases>
 	<size>(3,1)</size>
 	<designationCategory>Production</designationCategory>
-	<designatorDropdown>HGS_Workbenches_WVC</designatorDropdown>
+	<designatorDropdown>HGS_BionicWorkbenches_WVC</designatorDropdown>
 	<passability>PassThroughOnly</passability>
 	<pathCost>50</pathCost>
 	<hasInteractionCell>True</hasInteractionCell>
 	<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 	<surfaceType>Item</surfaceType>
 	<recipes>
-	  <!-- <li>ButcherCorpseMechanoid</li> -->
+	  <!-- <li>WVC_MakeMedicineMechanite</li> -->
+	  <!-- <li>WVC_MakeMedicineMechanite_Bulk</li> -->
 	</recipes>
 	<inspectorTabs>
 	  <li>ITab_Bills</li>
@@ -201,7 +220,16 @@
 	  <li>PlaceWorker_ShowFacilitiesConnections</li>
 	  <li>PlaceWorker_PreventInteractionSpotOverlap</li>
 	</placeWorkers>
+	<modExtensions>
+	  <li Class="RecipeInheritance.ThingDefExtension">
+		<inheritRecipesFrom>
+		  <li>DrugLab</li>
+		</inheritRecipesFrom>
+	  </li>
+	</modExtensions>
   </ThingDef>
+
+  <!-- ============================================================ -->
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
 	<defName>WVC_ExperimentalCraftingBench</defName>
@@ -209,6 +237,12 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/ExperimentalCraftingBench</texPath>
 	</graphicData>
+	<statBases>
+	  <WorkTableEfficiencyFactor>1.0</WorkTableEfficiencyFactor>
+	</statBases>
+	<costList>
+	  <ComponentSpacer>3</ComponentSpacer>
+	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_BionicTech_AdvancedBionic</li>
 	</researchPrerequisites>
@@ -220,10 +254,19 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/CyberneticCraftingBench</texPath>
 	</graphicData>
+	<statBases>
+	  <WorkTableEfficiencyFactor>1.1</WorkTableEfficiencyFactor>
+	</statBases>
+	<costList>
+	  <ComponentSpacer>3</ComponentSpacer>
+	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_BionicTech_Cybernetic</li>
 	</researchPrerequisites>
   </ThingDef>
+
+  <!-- ============================================================ -->
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
 	<defName>WVC_AncientCraftingBench</defName>
@@ -231,8 +274,145 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/AncientCraftingBench</texPath>
 	</graphicData>
+	<statBases>
+	  <WorkTableEfficiencyFactor>1.2</WorkTableEfficiencyFactor>
+	</statBases>
+	<costList>
+	  <ComponentSpacer>5</ComponentSpacer>
+	  <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_RaceResearching_Valkyries</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+	<defName>WVC_MechanoidCraftingBench</defName>
+	<label>mechanoid implant workbench</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/MechanoidCraftingBench</texPath>
+	</graphicData>
+	<statBases>
+	  <WorkTableEfficiencyFactor>1.3</WorkTableEfficiencyFactor>
+	</statBases>
+	<costList>
+	  <ComponentSpacer>5</ComponentSpacer>
+	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
+	</costList>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_RaceResearching_ELFs</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+	<defName>WVC_BlueCraftingBench</defName>
+	<label>blue implant workbench</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/BlueCraftingBench</texPath>
+	</graphicData>
+	<statBases>
+	  <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor>
+	</statBases>
+	<costList>
+	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
+	  <WVC_ResourceNodes_Blue>1</WVC_ResourceNodes_Blue>
+	</costList>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_ResearchBodyParts_NodeBlue</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+	<defName>WVC_GreenCraftingBench</defName>
+	<label>green implant workbench</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/GreenCraftingBench</texPath>
+	</graphicData>
+	<statBases>
+	  <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor>
+	</statBases>
+	<costList>
+	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
+	  <WVC_ResourceNodes_Green>1</WVC_ResourceNodes_Green>
+	</costList>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_ResearchBodyParts_NodeGreen</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+	<defName>WVC_RedCraftingBench</defName>
+	<label>red implant workbench</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/RedCraftingBench</texPath>
+	</graphicData>
+	<statBases>
+	  <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor>
+	</statBases>
+	<costList>
+	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
+	  <WVC_ResourceNodes_Red>1</WVC_ResourceNodes_Red>
+	</costList>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_ResearchBodyParts_NodeRed</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+	<defName>WVC_VioletCraftingBench</defName>
+	<label>violet implant workbench</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/VioletCraftingBench</texPath>
+	</graphicData>
+	<statBases>
+	  <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor>
+	</statBases>
+	<costList>
+	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
+	  <WVC_ResourceNodes_Violet>1</WVC_ResourceNodes_Violet>
+	</costList>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_ResearchBodyParts_NodeViolet</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+	<defName>WVC_YellowCraftingBench</defName>
+	<label>yellow implant workbench</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/YellowCraftingBench</texPath>
+	</graphicData>
+	<statBases>
+	  <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor>
+	</statBases>
+	<costList>
+	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
+	  <WVC_ResourceNodes_Yellow>1</WVC_ResourceNodes_Yellow>
+	</costList>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_ResearchBodyParts_NodeYellow</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+	<defName>WVC_ArchotechCraftingBench</defName>
+	<label>archotech implant workbench</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/ArchotechCraftingBench</texPath>
+	</graphicData>
+	<statBases>
+	  <WorkTableEfficiencyFactor>1.5</WorkTableEfficiencyFactor>
+	</statBases>
+	<costList>
+	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
+	  <WVC_ResourceNodes_Archotech>5</WVC_ResourceNodes_Archotech>
+	</costList>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_RaceResearching_Herrschers</li>
 	</researchPrerequisites>
   </ThingDef>
 

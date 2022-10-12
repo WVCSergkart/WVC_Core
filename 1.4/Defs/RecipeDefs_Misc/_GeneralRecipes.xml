@@ -75,6 +75,13 @@
 	  <li>WVC_ExperimentalCraftingBench</li>
 	  <li>WVC_CyberneticCraftingBench</li>
 	  <li>WVC_AncientCraftingBench</li>
+	  <li>WVC_MechanoidCraftingBench</li>
+	  <li>WVC_BlueCraftingBench</li>
+	  <li>WVC_GreenCraftingBench</li>
+	  <li>WVC_RedCraftingBench</li>
+	  <li>WVC_VioletCraftingBench</li>
+	  <li>WVC_YellowCraftingBench</li>
+	  <li>WVC_ArchotechCraftingBench</li>
 	</fixedBillGiverDefs>
 	<workTags>
 	  <li>Caring</li>
@@ -167,27 +174,6 @@
 	<label>Make mechanoid components</label>
 	<products>
 	  <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
-	</products>
-  </RecipeDef>
-
-  <RecipeDef ParentName="WVC_MakeComponents_Base">
-	<defName>WVC_MakeMedicineMechanite</defName>
-	<label>Make medicine</label>
-	<recipeUsers Inherit="False">
-	  <li>WVC_AncientCraftingBench</li>
-	</recipeUsers>
-	<ingredients>
-	  <li>
-		<filter>
-		  <thingDefs>
-			<li>VFE_ComponentMechanoid</li>
-		  </thingDefs>
-		</filter>
-		<count>1</count>
-	  </li>
-	</ingredients>
-	<products>
-	  <WVC_MedicineMechanite>2</WVC_MedicineMechanite>
 	</products>
   </RecipeDef>
 

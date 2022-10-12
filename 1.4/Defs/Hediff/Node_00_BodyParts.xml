@@ -65,7 +65,7 @@
 	  </skillRequirements>
 	  <!-- <researchPrerequisite>WVC_RaceResearching_ELFs</researchPrerequisite> -->
 	  <recipeUsers Inherit="False">
-		<li>WVC_NodeCraftingBench</li>
+		<!-- <li>WVC_NodeCraftingBench</li> -->
 	  </recipeUsers>
 	</recipeMaker>
 	<tradeTags>
@@ -94,6 +94,9 @@
 	</costList>
 	<recipeMaker>
 	  <researchPrerequisite>WVC_ResearchBodyParts_NodeBlue</researchPrerequisite>
+	  <recipeUsers>
+		<li>WVC_BlueCraftingBench</li>
+	  </recipeUsers>
 	</recipeMaker>
   </ThingDef>
 
@@ -106,6 +109,9 @@
 	</costList>
 	<recipeMaker>
 	  <researchPrerequisite>WVC_ResearchBodyParts_NodeGreen</researchPrerequisite>
+	  <recipeUsers>
+		<li>WVC_GreenCraftingBench</li>
+	  </recipeUsers>
 	</recipeMaker>
   </ThingDef>
 
@@ -118,6 +124,9 @@
 	</costList>
 	<recipeMaker>
 	  <researchPrerequisite>WVC_ResearchBodyParts_NodeRed</researchPrerequisite>
+	  <recipeUsers>
+		<li>WVC_RedCraftingBench</li>
+	  </recipeUsers>
 	</recipeMaker>
   </ThingDef>
 
@@ -130,6 +139,9 @@
 	</costList>
 	<recipeMaker>
 	  <researchPrerequisite>WVC_ResearchBodyParts_NodeViolet</researchPrerequisite>
+	  <recipeUsers>
+		<li>WVC_VioletCraftingBench</li>
+	  </recipeUsers>
 	</recipeMaker>
   </ThingDef>
 
@@ -142,6 +154,9 @@
 	</costList>
 	<recipeMaker>
 	  <researchPrerequisite>WVC_ResearchBodyParts_NodeYellow</researchPrerequisite>
+	  <recipeUsers>
+		<li>WVC_YellowCraftingBench</li>
+	  </recipeUsers>
 	</recipeMaker>
   </ThingDef>
 
@@ -163,6 +178,9 @@
 		<Medicine>16</Medicine>
 	  </skillRequirements>
 	  <researchPrerequisite>WVC_RaceResearching_Herrschers</researchPrerequisite>
+	  <recipeUsers>
+		<li>WVC_ArchotechCraftingBench</li>
+	  </recipeUsers>
 	</recipeMaker>
   </ThingDef>
 

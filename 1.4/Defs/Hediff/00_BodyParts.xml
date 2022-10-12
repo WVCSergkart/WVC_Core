@@ -240,7 +240,7 @@
 	  </skillRequirements>
 	  <researchPrerequisite>WVC_RaceResearching_ELFs</researchPrerequisite>
 	  <recipeUsers>
-		<li>WVC_AdvancedCraftingBench</li>
+		<li>WVC_MechanoidCraftingBench</li>
 	  </recipeUsers>
 	</recipeMaker>
 	<statBases>

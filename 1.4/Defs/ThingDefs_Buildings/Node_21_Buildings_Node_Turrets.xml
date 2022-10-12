@@ -26,7 +26,7 @@
 	<costList>
 		<Plasteel>60</Plasteel>
 		<Uranium>12</Uranium>
-		<WVC_ResourceNodes_Red>6</WVC_ResourceNodes_Red>
+		<WVC_ResourceNodes_Red>2</WVC_ResourceNodes_Red>
 	</costList>
 	<thingCategories>
 	  <li>BuildingsSecurity</li>

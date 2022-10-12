@@ -58,6 +58,13 @@
 	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 	<allowedArchonexusCount>80</allowedArchonexusCount>
 	<!-- Steel -->
+	<!-- <modExtensions> -->
+		<!-- <li Class="VFECore.StuffExtension"> -->
+			<!-- <structureGenerationCommonalityFactor>5</structureGenerationCommonalityFactor> -->
+			<!-- <weaponGenerationCommonalityFactor>20</weaponGenerationCommonalityFactor> -->
+			<!-- <apparelGenerationCommonalityFactor>10</apparelGenerationCommonalityFactor> -->
+		<!-- </li> -->
+	<!-- </modExtensions> -->
   </ThingDef>
 
 </Defs>

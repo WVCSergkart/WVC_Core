@@ -456,4 +456,227 @@
 
 	<!-- ================================================================= -->
 
+	<KCSG.SymbolDef>
+	  <defName>WVC_RedCraftingBench_South</defName>
+	  <thing>WVC_RedCraftingBench</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_VioletCraftingBench_South</defName>
+	  <thing>WVC_VioletCraftingBench</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_RedCraftingBench_West</defName>
+	  <thing>WVC_RedCraftingBench</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_YellowCraftingBench_West</defName>
+	  <thing>WVC_YellowCraftingBench</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_YellowCraftingBench_South</defName>
+	  <thing>WVC_YellowCraftingBench</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_VioletCraftingBench_West</defName>
+	  <thing>WVC_VioletCraftingBench</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_RedCraftingBench_East</defName>
+	  <thing>WVC_RedCraftingBench</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_YellowCraftingBench_East</defName>
+	  <thing>WVC_YellowCraftingBench</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_VioletCraftingBench_East</defName>
+	  <thing>WVC_VioletCraftingBench</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_RedCraftingBench_North</defName>
+	  <thing>WVC_RedCraftingBench</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_VioletCraftingBench_North</defName>
+	  <thing>WVC_VioletCraftingBench</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_YellowCraftingBench_North</defName>
+	  <thing>WVC_YellowCraftingBench</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_MechanoidCraftingBench_South</defName>
+	  <thing>WVC_MechanoidCraftingBench</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_MechanoidCraftingBench_West</defName>
+	  <thing>WVC_MechanoidCraftingBench</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_BlueCraftingBench_West</defName>
+	  <thing>WVC_BlueCraftingBench</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_BlueCraftingBench_South</defName>
+	  <thing>WVC_BlueCraftingBench</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_GreenCraftingBench_West</defName>
+	  <thing>WVC_GreenCraftingBench</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_GreenCraftingBench_South</defName>
+	  <thing>WVC_GreenCraftingBench</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_MechanoidCraftingBench_East</defName>
+	  <thing>WVC_MechanoidCraftingBench</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_GreenCraftingBench_East</defName>
+	  <thing>WVC_GreenCraftingBench</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_BlueCraftingBench_East</defName>
+	  <thing>WVC_BlueCraftingBench</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_MechanoidCraftingBench_North</defName>
+	  <thing>WVC_MechanoidCraftingBench</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_BlueCraftingBench_North</defName>
+	  <thing>WVC_BlueCraftingBench</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_GreenCraftingBench_North</defName>
+	  <thing>WVC_GreenCraftingBench</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_ArchotechCraftingBench_South</defName>
+	  <thing>WVC_ArchotechCraftingBench</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_ArchotechCraftingBench_East</defName>
+	  <thing>WVC_ArchotechCraftingBench</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_ExperimentalCraftingBench_West</defName>
+	  <thing>WVC_ExperimentalCraftingBench</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_ExperimentalCraftingBench_South</defName>
+	  <thing>WVC_ExperimentalCraftingBench</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_CyberneticCraftingBench_West</defName>
+	  <thing>WVC_CyberneticCraftingBench</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_CyberneticCraftingBench_South</defName>
+	  <thing>WVC_CyberneticCraftingBench</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_AncientCraftingBench_West</defName>
+	  <thing>WVC_AncientCraftingBench</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_AncientCraftingBench_South</defName>
+	  <thing>WVC_AncientCraftingBench</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_ExperimentalCraftingBench_East</defName>
+	  <thing>WVC_ExperimentalCraftingBench</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_ArchotechCraftingBench_West</defName>
+	  <thing>WVC_ArchotechCraftingBench</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_CyberneticCraftingBench_East</defName>
+	  <thing>WVC_CyberneticCraftingBench</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_AncientCraftingBench_East</defName>
+	  <thing>WVC_AncientCraftingBench</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_ArchotechCraftingBench_North</defName>
+	  <thing>WVC_ArchotechCraftingBench</thing>
+	</KCSG.SymbolDef>
+
+	<!-- ================================================================= -->
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_ArmoredNode</defName>
+	  <thing>WVC_ArmoredNode</thing>
+	</KCSG.SymbolDef>
+
+
 </Defs>

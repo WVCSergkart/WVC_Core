@@ -127,6 +127,16 @@
 	<designatorDropdown>HGS_Workbenches_WVC</designatorDropdown>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
 	<thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
+	<modExtensions>
+	  <li Class="RecipeInheritance.ThingDefExtension">
+		<inheritRecipesFrom>
+		  <li>TableMachining</li>
+		  <li>ElectricSmithy</li>
+		  <li>ElectricSmelter</li>
+		  <li>FabricationBench</li>
+		</inheritRecipesFrom>
+	  </li>
+	</modExtensions>
   </ThingDef>
 
   <!-- ============================================================ -->
@@ -233,24 +243,16 @@
 	<designationCategory>Production</designationCategory>
 	<designatorDropdown>HGS_Workbenches_WVC</designatorDropdown>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
-  </ThingDef>
-
-  <ThingDef ParentName="WVC_MechaniteCrafter_Base">
-	<defName>WVC_Node_MechaniteCrafter_Violet</defName>
-	<graphicData>
-	  <texPath>WVC/Stuff/Nodes/NodeMechaniteCrafter</texPath>
-	</graphicData>
-	<statBases>
-		<WorkTableEfficiencyFactor>1.5</WorkTableEfficiencyFactor>
-	</statBases>
-	<costList Inherit="False">
-	  <Plasteel>120</Plasteel>
-	  <WVC_ResourceNodes_Violet>32</WVC_ResourceNodes_Violet>
-	</costList>
-	<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
-	<researchPrerequisites>
-		<li>WVC_ResearchNodes_Violet</li>
-	</researchPrerequisites>
+	<modExtensions>
+	  <li Class="RecipeInheritance.ThingDefExtension">
+		<inheritRecipesFrom>
+		  <li>TableMachining</li>
+		  <li>ElectricSmithy</li>
+		  <li>ElectricSmelter</li>
+		  <li>FabricationBench</li>
+		</inheritRecipesFrom>
+	  </li>
+	</modExtensions>
   </ThingDef>
 
 </Defs>

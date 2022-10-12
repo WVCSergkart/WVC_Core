@@ -178,7 +178,7 @@
   <ThingDef ParentName="MedicineBase">
 	<defName>WVC_MedicineMechanite</defName>
 	<label>mechanite medicine</label>
-	<description>A kit of mechanite medical supplies, is a by-product of the mechanite crafter. It contains multi-directional mechanites with a device to control them, the effectiveness is almost equal to similar ultra-tech medicine.</description>
+	<description>A kit of mechanite medical supplies. It contains multi-directional mechanites with a device to control them, the effectiveness is almost equal to similar ultra-tech medicine.</description>
 	<descriptionHyperlinks>
 	  <!-- <ConceptDef>WVC_MedicineMechanite_BionicELF</ConceptDef> -->
 	</descriptionHyperlinks>
@@ -196,6 +196,30 @@
 	  <MedicalQualityMax>1.30</MedicalQualityMax>
 	  <DeteriorationRate>0.2</DeteriorationRate>
 	</statBases>
+	<recipeMaker>
+	  <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+	  <workSkill>Intellectual</workSkill>
+	  <effectWorking>Cook</effectWorking>
+	  <soundWorking>Recipe_CookMeal</soundWorking>
+	  <bulkRecipeCount>4</bulkRecipeCount>
+	  <researchPrerequisite>WVC_RaceResearching_ELFs</researchPrerequisite>
+	  <recipeUsers>
+		<li>WVC_ExperimentalCraftingBench</li>
+		<li>WVC_CyberneticCraftingBench</li>
+		<li>WVC_AncientCraftingBench</li>
+		<li>WVC_MechanoidCraftingBench</li>
+		<li>WVC_BlueCraftingBench</li>
+		<li>WVC_GreenCraftingBench</li>
+		<li>WVC_RedCraftingBench</li>
+		<li>WVC_VioletCraftingBench</li>
+		<li>WVC_YellowCraftingBench</li>
+		<li>WVC_ArchotechCraftingBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+	<costList>
+	  <WVC_UniversalFuel>34</WVC_UniversalFuel>
+	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	</costList>
 	<tradeTags>
 	  <li>ExoticMisc</li>
 	</tradeTags>
