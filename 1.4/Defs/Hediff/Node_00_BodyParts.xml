@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingCategoryDef>
+  <ThingCategoryDef WVC_Tag="NodeBodyPartsCategory">
 	<defName>WVC_BodyPartsNodes_Base</defName>
-	<label>nodes</label>
+	<label>nodes body parts</label>
 	<parent>BodyParts</parent>
   </ThingCategoryDef>
 
-  <ThingCategoryDef>
+  <ThingCategoryDef WVC_Tag="NodeBodyPartsCategory">
 	<defName>WVC_BodyPartsNodes_Blue</defName>
-	<label>blue nodes</label>
-	<parent>BodyParts</parent>
+	<label>blue</label>
+	<parent>WVC_BodyPartsNodes_Base</parent>
   </ThingCategoryDef>
-  <ThingCategoryDef>
+  <ThingCategoryDef WVC_Tag="NodeBodyPartsCategory">
 	<defName>WVC_BodyPartsNodes_Green</defName>
-	<label>green nodes</label>
-	<parent>BodyParts</parent>
+	<label>green</label>
+	<parent>WVC_BodyPartsNodes_Base</parent>
   </ThingCategoryDef>
-  <ThingCategoryDef>
+  <ThingCategoryDef WVC_Tag="NodeBodyPartsCategory">
 	<defName>WVC_BodyPartsNodes_Red</defName>
-	<label>red nodes</label>
-	<parent>BodyParts</parent>
+	<label>red</label>
+	<parent>WVC_BodyPartsNodes_Base</parent>
   </ThingCategoryDef>
-  <ThingCategoryDef>
+  <ThingCategoryDef WVC_Tag="NodeBodyPartsCategory">
 	<defName>WVC_BodyPartsNodes_Violet</defName>
-	<label>violet nodes</label>
-	<parent>BodyParts</parent>
+	<label>violet</label>
+	<parent>WVC_BodyPartsNodes_Base</parent>
   </ThingCategoryDef>
-  <ThingCategoryDef>
+  <ThingCategoryDef WVC_Tag="NodeBodyPartsCategory">
 	<defName>WVC_BodyPartsNodes_Yellow</defName>
-	<label>yellow nodes</label>
-	<parent>BodyParts</parent>
+	<label>yellow</label>
+	<parent>WVC_BodyPartsNodes_Base</parent>
   </ThingCategoryDef>
 
-  <ThingCategoryDef>
+  <ThingCategoryDef WVC_Tag="NodeBodyPartsCategory">
 	<defName>WVC_BodyPartsNodes_Archotech</defName>
-	<label>atchotech nodes</label>
-	<parent>BodyParts</parent>
+	<label>atchotech</label>
+	<parent>WVC_BodyPartsNodes_Base</parent>
   </ThingCategoryDef>
 
   <!--=====================================================================-->

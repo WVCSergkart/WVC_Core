@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="WVC_StorageSpot_Base" ParentName="MechanoidBuildings_WVC" Abstract="True">
+	<label>storage spot</label>
+	<description>Simple storage spot.</description>
+	<techLevel>Ultra</techLevel>
+	<thingClass>Building_Storage</thingClass>
+	<!-- Floor -->
+	<altitudeLayer>Building</altitudeLayer>
+	<blockPlants>true</blockPlants>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<selectable>true</selectable>
+	<useHitPoints>true</useHitPoints>
+	<!-- <blocksAltitudes> -->
+	  <!-- <li>FloorCoverings</li> -->
+	<!-- </blocksAltitudes> -->
+	<canOverlapZones>false</canOverlapZones>
+	<building>
+	  <!-- <isEdifice>false</isEdifice> -->
+	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	  <!-- <artificialForMeditationPurposes>false</artificialForMeditationPurposes> -->
+	  <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+	  <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+	  <maxItemsInCell>7</maxItemsInCell>
+	  <storageGroupTag>Shelf</storageGroupTag>
+	  <blueprintClass>Blueprint_Storage</blueprintClass>
+	  <fixedStorageSettings>
+		<filter>
+		  <disallowNotEverStorable>true</disallowNotEverStorable>
+		  <categories>
+			<li>Root</li>
+		  </categories>
+		  <disallowedCategories>
+			<li>Chunks</li>
+			<li>Plants</li>
+			<li>Buildings</li>
+		  </disallowedCategories>
+		  <disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
+			<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+		  </disallowedThingDefs>
+		  <specialFiltersToDisallow>
+			<!-- <li>AllowLargeCorpses</li> -->
+		  </specialFiltersToDisallow>
+		</filter>
+	  </fixedStorageSettings>
+	  <defaultStorageSettings>
+		<priority>Preferred</priority>
+		<filter>
+		  <categories>
+			<li>Foods</li>
+			<li>Manufactured</li>
+			<li>ResourcesRaw</li>
+			<li>Items</li>
+			<li>Weapons</li>
+			<li>Apparel</li>
+			<li>BodyParts</li>
+		  </categories>
+		</filter>
+	  </defaultStorageSettings>
+	</building>
+	<inspectorTabs>
+	  <li>ITab_Storage</li>
+	</inspectorTabs>
+	<surfaceType>Item</surfaceType>
+	<fillPercent>0</fillPercent>
+	<!-- Building -->
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<size>(3,3)</size>
+	<statBases>
+	  <MarketValue>570</MarketValue>
+	  <WorkToBuild>50000</WorkToBuild>
+	  <MaxHitPoints>260</MaxHitPoints>
+	  <Flammability>0</Flammability>
+	  <Mass>220</Mass>
+      <Beauty>0</Beauty>
+	</statBases>
+	<rotatable>false</rotatable>
+	<castEdgeShadows>false</castEdgeShadows>
+	<graphicData>
+	  <texPath>WVC/Stuff/MechanoidStorage</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3,3)</drawSize>
+	  <damageData>
+		<rect>(0.15, 0.15, 2.7, 2.7)</rect>
+	  </damageData>
+	</graphicData>
+	<costList>
+		<Plasteel>80</Plasteel>
+	</costList>
+	<thingCategories>
+	  <li>BuildingsFurniture</li>
+	</thingCategories>
+	<killedLeavings>
+	  <ChunkSlagSteel>5</ChunkSlagSteel>
+	</killedLeavings>
+	<pathCost>5</pathCost>
+	<passability>PassThroughOnly</passability>
+	<comps Inherit="False">
+	  <!-- <li> -->
+		<!-- <compClass>CompQuality</compClass> -->
+	  <!-- </li> -->
+	</comps>
+	<researchPrerequisites Inherit="False">
+	  <li>ValkyriesTechs_II_WVC</li>
+	</researchPrerequisites>
+	<designationCategory>Furniture</designationCategory>
+	<designatorDropdown>HGS_Storage_WVC</designatorDropdown>
+	<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+  </ThingDef>
+
+  <!-- ========================================================== -->
+
+  <ThingDef ParentName="WVC_StorageSpot_Base">
+	<defName>WVC_AncientStorageSpot</defName>
+	<label>ancient storage spot</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientStorage</texPath>
+	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>ValkyriesTechs_I_WVC</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_StorageSpot_Base">
+	<defName>WVC_MechanoidStorageSpot</defName>
+	<label>mechanoid storage spot</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/MechanoidStorage</texPath>
+	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>ValkyriesTechs_I_WVC</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+</Defs>

@@ -37,14 +37,14 @@
 						<!-- <li Class="XmlExtensions.Setting.SetColor"> -->
 							<!-- <color>(162,200,255)</color> -->
 						<!-- </li> -->
-						<li Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_DesignationCategory_Patch</key>
-							<label>Enable designation category</label>
-							<defaultValue>false</defaultValue>
-							<tooltip>Creates a category in the architect tab and moves all buildings in the mod to it.</tooltip>
-							<tKey>HGS_WVC_DesignationCategory_Patch_label</tKey>
-							<tKeyTip>HGS_WVC_DesignationCategory_Patch_Desc</tKeyTip>
-						</li>
+						<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+							<!-- <key>WVC_DesignationCategory_Patch</key> -->
+							<!-- <label>Enable designation category</label> -->
+							<!-- <defaultValue>false</defaultValue> -->
+							<!-- <tooltip>Creates a category in the architect tab and moves all buildings in the mod to it.</tooltip> -->
+							<!-- <tKey>HGS_WVC_DesignationCategory_Patch_label</tKey> -->
+							<!-- <tKeyTip>HGS_WVC_DesignationCategory_Patch_Desc</tKeyTip> -->
+						<!-- </li> -->
 						<li Class="XmlExtensions.Setting.Checkbox">
 							<key>WVC_NoKL_DisableUnderwear_Option</key>
 							<label>Disable underwear?</label>

@@ -41,7 +41,7 @@
 	<!-- <minifiedDef>Apparel_GirlyUnderwear_WVC</minifiedDef> -->
 	<!-- <tickerType>Normal</tickerType> -->
 	<thingCategories>
-	  <li>BuildingsSpecial</li>
+	  <li>BuildingsProduction</li>
 	</thingCategories>
 	<building>
 	  <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>

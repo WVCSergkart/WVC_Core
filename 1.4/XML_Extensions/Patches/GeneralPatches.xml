@@ -458,48 +458,48 @@
 		</caseTrue>
 	</Operation>
 
-	<Operation Class="XmlExtensions.OptionalPatch">
-		<modId>honkai.girls.sergkart</modId>
-		<key>WVC_DesignationCategory_Patch</key>
-		<defaultValue>false</defaultValue>
-		<caseFalse>
+	<!-- <Operation Class="XmlExtensions.OptionalPatch"> -->
+		<!-- <modId>honkai.girls.sergkart</modId> -->
+		<!-- <key>WVC_DesignationCategory_Patch</key> -->
+		<!-- <defaultValue>false</defaultValue> -->
+		<!-- <caseFalse> -->
 
-			<li Class="XmlExtensions.PatchOperationSafeRemove">
-				<xpath>/Defs/DesignationCategoryDef[defName="WVC_Category"]</xpath>
-			</li>
+			<!-- <li Class="XmlExtensions.PatchOperationSafeRemove"> -->
+				<!-- <xpath>/Defs/DesignationCategoryDef[defName="WVC_Category"]</xpath> -->
+			<!-- </li> -->
 
-		</caseFalse>
-		<caseTrue>
+		<!-- </caseFalse> -->
+		<!-- <caseTrue> -->
 
-			<Operation Class="XmlExtensions.ForEachDescendant">
-				<xpathParent>/Defs/ThingDef[@Name="BaseBuildings_WVC"]</xpathParent>
-				<concreteOnly>true</concreteOnly>
-				<storeIn>WVC_Def</storeIn>
-				<apply>
-					<Operation Class="XmlExtensions.CreateVariable">
-						<value>{WVC_Def}/defName</value>
-						<storeIn>WVC_Name</storeIn>
-						<fromXml>true</fromXml>
-						<apply>
-							<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
-								<xpath>/Defs/ThingDef[defName="{WVC_Name}"]</xpath>
-								<value>
-									<designationCategory>WVC_Category</designationCategory>
-								</value>
-							</Operation>
-						</apply>
-					</Operation>
-				</apply>
-			</Operation>
-			<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
-				<xpath>/Defs/TerrainDef[@Name="Marker_Floor_WVC"]</xpath>
-				<value>
-					<designationCategory>WVC_Category</designationCategory>
-				</value>
-			</Operation>
+			<!-- <Operation Class="XmlExtensions.ForEachDescendant"> -->
+				<!-- <xpathParent>/Defs/ThingDef[@Name="BaseBuildings_WVC"]</xpathParent> -->
+				<!-- <concreteOnly>true</concreteOnly> -->
+				<!-- <storeIn>WVC_Def</storeIn> -->
+				<!-- <apply> -->
+					<!-- <Operation Class="XmlExtensions.CreateVariable"> -->
+						<!-- <value>{WVC_Def}/defName</value> -->
+						<!-- <storeIn>WVC_Name</storeIn> -->
+						<!-- <fromXml>true</fromXml> -->
+						<!-- <apply> -->
+							<!-- <Operation Class="XmlExtensions.PatchOperationAddOrReplace"> -->
+								<!-- <xpath>/Defs/ThingDef[defName="{WVC_Name}"]</xpath> -->
+								<!-- <value> -->
+									<!-- <designationCategory>WVC_Category</designationCategory> -->
+								<!-- </value> -->
+							<!-- </Operation> -->
+						<!-- </apply> -->
+					<!-- </Operation> -->
+				<!-- </apply> -->
+			<!-- </Operation> -->
+			<!-- <Operation Class="XmlExtensions.PatchOperationAddOrReplace"> -->
+				<!-- <xpath>/Defs/TerrainDef[@Name="Marker_Floor_WVC"]</xpath> -->
+				<!-- <value> -->
+					<!-- <designationCategory>WVC_Category</designationCategory> -->
+				<!-- </value> -->
+			<!-- </Operation> -->
 
-		</caseTrue>
-	</Operation>
+		<!-- </caseTrue> -->
+	<!-- </Operation> -->
 
 	<!--=====================================================================-->
 

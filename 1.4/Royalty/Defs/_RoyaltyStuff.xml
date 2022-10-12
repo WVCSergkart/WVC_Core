@@ -20,7 +20,7 @@
 	  <drawSize>(0.6, 0.6)</drawSize>
 	</graphicData>
 	<thingCategories>
-	  <li>Items</li>
+	  <li>ItemsMisc</li>
 	</thingCategories>
 	<comps>
 	  <li MayRequire="ludeon.rimworld.ideology" Class="CompProperties_Plantable">
