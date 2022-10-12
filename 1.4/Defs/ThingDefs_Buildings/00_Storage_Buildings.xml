@@ -7,14 +7,14 @@
 	<techLevel>Ultra</techLevel>
 	<thingClass>Building_Storage</thingClass>
 	<!-- Floor -->
-	<altitudeLayer>Building</altitudeLayer>
+	<altitudeLayer>FloorCoverings</altitudeLayer>
 	<blockPlants>true</blockPlants>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<selectable>true</selectable>
 	<useHitPoints>true</useHitPoints>
-	<!-- <blocksAltitudes> -->
-	  <!-- <li>FloorCoverings</li> -->
-	<!-- </blocksAltitudes> -->
+	<blocksAltitudes>
+	  <li>FloorCoverings</li>
+	</blocksAltitudes>
 	<canOverlapZones>false</canOverlapZones>
 	<building>
 	  <!-- <isEdifice>false</isEdifice> -->

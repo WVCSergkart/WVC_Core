@@ -108,7 +108,7 @@
   <ConceptDef MayRequire="honkai.girls.sergkart" ParentName="WVC_ConceptsBase">
 	<defName>WVC_AlienRace_Valkyrie</defName>
 	<label>WVC - About race (Valkyries)</label>
-	<!-- <priority>-1000</priority> -->
+	<priority>-1000</priority>
 	<!-- In-game -->
 	<description>For a basic introduction to the rimworld, the Valkyries are not well suited because they are less fastidious, less likely to get sick, less likely to break down, more tenacious and generally smart and beautiful. However, this does not make them invulnerable.\n\nIf you lose a pawn, this is sad and insulting, but you can quickly find a replacement in its place, in the event of the death of the Valkyrie, this is a tragedy for the colony. These girls are the best fighters and their adult representatives can stand alone against hundreds of enemies (Tested on a large insect hive). But in order to become truly invincible, the Valkyrie must live to be 20 years old, and the average age at which they spawn is 13-15. And the younger they are, the less tenacious they are.\n\nThe Valkyries have a number of flaws that I, the mod developer, are still working on. The first and most notable is the dress restrictions, Valks cannot wear normal clothes and it is not possible to equip them with armor, however fortunately they can wear hats, but they will not be visible.</description>
 	<!-- Tutorial -->
@@ -118,7 +118,7 @@
   <ConceptDef MayRequire="honkai.girls.sergkart" ParentName="WVC_ConceptsBase">
 	<defName>WVC_AlienRace_ELF</defName>
 	<label>WVC - About race (ELFs)</label>
-	<!-- <priority>-1000</priority> -->
+	<priority>-1000</priority>
 	<!-- In-game -->
 	<description>Unlike their older sisters, ELFs are very fragile. Any fight for them will end with the loss of their little limbs, and the settlement of these little helpers will not be able to fight normally.\n\nHowever, these babes have a huge advantage in non-combat areas. Like the Valkyries, they grow and improve. And the older they are, the less sleep they need and the faster they work. They also have a significant bonus to psycast, they are not affected by entropy and always spawn with the first level of psylink.\n\nA bonus to all this is that they spawn about once a year an Anemo tree seed. The seed can be eaten to get a psylink.</description>
 	<!-- Tutorial -->
@@ -128,7 +128,7 @@
   <ConceptDef MayRequire="honkai.girls.sergkart" ParentName="WVC_ConceptsBase">
 	<defName>WVC_AlienRace_DryadMother</defName>
 	<label>WVC - About race (Dryad Mothers)</label>
-	<!-- <priority>-1000</priority> -->
+	<priority>-1000</priority>
 	<!-- In-game -->
 	<description>These girls, compared to their sisters, are incredibly strong. In close combat, they have a huge bonus to damage, and the ability to have a crowd of dryads in support (up to 6 pieces) makes them even stronger.\n\nHowever, they are brutally slow. Even just moving around the base, they do it slowly, in order to be in time for the start of the battle, they need to be sent there in advance, as soon as the enemy appears on the map. Despite almost impenetrable natural armor and huge HP compared to humans, they have a debuff to fire protection, which makes them vulnerable to flamethrowing enemies.\n\nThey are not vulnerable to extreme temperatures, but they make them even slower. Mothers will also spawn Gauranlen seeds.\n\nLike other girls from my mod, they become stronger with age, however, their vulnerability to fire also increases.</description>
 	<!-- Tutorial -->
