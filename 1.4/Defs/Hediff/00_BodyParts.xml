@@ -48,6 +48,12 @@
 	  <Plasteel>25</Plasteel>
 	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
 	</costList>
+	<statBases>
+	  <WorkToMake>15000</WorkToMake>
+	  <!-- <MarketValue>1000</MarketValue> -->
+	  <Mass>3</Mass>
+	  <DeteriorationRate>0</DeteriorationRate>
+	</statBases>
 	<recipeMaker>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 	  <workSkill>Crafting</workSkill>
@@ -58,18 +64,15 @@
 		<!-- <li>WVC_AncientCraftingBench</li> -->
 	  </recipeUsers>
 	</recipeMaker>
-	<tradeTags>
+	<tradeTags Inherit="False">
 	  <li>WVC_UltraBionic</li>
 	</tradeTags>
-	<techHediffsTags>
+	<techHediffsTags Inherit="False">
 	  <li>Advanced</li>
 	</techHediffsTags>
-	<statBases>
-	  <WorkToMake>15000</WorkToMake>
-	  <!-- <MarketValue>1000</MarketValue> -->
-	  <Mass>3</Mass>
-	  <DeteriorationRate>0</DeteriorationRate>
-	</statBases>
+	<thingSetMakerTags>
+	  <li>RewardStandardLowFreq</li>
+	</thingSetMakerTags>
   </ThingDef>
 
   <!--=====================================================================-->

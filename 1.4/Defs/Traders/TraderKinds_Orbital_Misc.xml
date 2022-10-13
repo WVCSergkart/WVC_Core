@@ -29,7 +29,7 @@
 
 	  <!-- BodyParts -->
 	  <li Class="StockGenerator_Tag">
-		<tradeTag>TechHediff</tradeTag>
+		<tradeTag>Bionic</tradeTag>
 		<thingDefCountRange>3~9</thingDefCountRange>
 		<countRange>1~3</countRange>
 	  </li>
