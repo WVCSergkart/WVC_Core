@@ -25,51 +25,12 @@
 										<value>{AlienDefName}</value>
 										<!-- <defaultCase>DefNameDefaultCase</defaultCase> -->
 										<cases>
-											<li>
-												<value>WVC_AlienRace_BlueFormer</value>
-												<apply>
-
-													<Operation Class="PatchOperationAdd">
-														<xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="Settings_ExtraWVC"]/settings/li[@WVC_Tag="ApparelPatchMenu"]/settings</xpath>
-														<value>
-															<li Class="XmlExtensions.Setting.Text">
-																<text>Does not support the "{AlienDefName}" race</text>
-															</li>
-														</value>
-													</Operation>
-
-												</apply>
-											</li>
-											<li>
-												<value>WVC_AlienRace_RedFormer</value>
-												<apply>
-
-													<Operation Class="PatchOperationAdd">
-														<xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="Settings_ExtraWVC"]/settings/li[@WVC_Tag="ApparelPatchMenu"]/settings</xpath>
-														<value>
-															<li Class="XmlExtensions.Setting.Text">
-																<text>Does not support the "{AlienDefName}" race</text>
-															</li>
-														</value>
-													</Operation>
-
-												</apply>
-											</li>
-											<li>
-												<value>WVC_AlienRace_Reshaper</value>
-												<apply>
-
-													<Operation Class="PatchOperationAdd">
-														<xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="Settings_ExtraWVC"]/settings/li[@WVC_Tag="ApparelPatchMenu"]/settings</xpath>
-														<value>
-															<li Class="XmlExtensions.Setting.Text">
-																<text>Does not support the "{AlienDefName}" race</text>
-															</li>
-														</value>
-													</Operation>
-
-												</apply>
-											</li>
+											<li><value>WVC_AlienRace_BlueFormer</value><apply></apply></li>
+											<li><value>WVC_AlienRace_RedFormer</value><apply></apply></li>
+											<li><value>WVC_AlienRace_GreenFormer</value><apply></apply></li>
+											<li><value>WVC_AlienRace_YellowFormer</value><apply></apply></li>
+											<li><value>WVC_AlienRace_VioletFormer</value><apply></apply></li>
+											<li><value>WVC_AlienRace_Reshaper</value><apply></apply></li>
 											<!-- ======================== -->
 											<li>
 												<value>{AlienDefName}</value>

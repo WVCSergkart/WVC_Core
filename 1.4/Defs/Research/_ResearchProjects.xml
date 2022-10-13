@@ -102,7 +102,7 @@
 	<defName>ValkyriesTechs_MechaniteCrafterI_WVC</defName>
 	<label>Mechanizer</label>
 	<description>Reconstruction of matter converter based on mechanite nanotechnologies.</description>
-	<baseCost>12000</baseCost>
+	<baseCost>5000</baseCost>
 	<techprintCount>1</techprintCount>
 	<techprintCommonality>1</techprintCommonality>
 	<techprintMarketValue>400</techprintMarketValue>

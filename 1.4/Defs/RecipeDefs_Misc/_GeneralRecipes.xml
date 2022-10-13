@@ -225,7 +225,7 @@
 		<!-- <li>AllowNonSmeltableWeapons</li> -->
 	  <!-- </specialFiltersToDisallow> -->
 	  <disallowedCategories>
-		<li MayRequire="honkai.girls.sergkart">ValkyriesWeapon_WVC</li>
+		<!-- <li MayRequire="honkai.girls.sergkart">ValkyriesWeapon_WVC</li> -->
 		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_Hides</li>
 		<li>Foods</li>
 		<!-- <li>PlantMatter</li> -->
@@ -373,32 +373,32 @@
 
   <!-- ======================================================================= -->
   
-  <RecipeDef MayRequire="honkai.girls.sergkart" ParentName="GirlyWorkRecipeAbstract_WVC">
-	<defName>WVC_Recraft_ExoticWeaponComponents</defName>
-	<label>recraft</label>
-	<description>Refining ancient weapons to obtain rare components.</description>
-	<jobString>recrafting.</jobString>
-	<effectWorking>Tailor</effectWorking>
-	<workAmount>50000</workAmount>
-	<ingredients>
-	  <li>
-		<filter>
-		  <categories>
-			<li>ValkyriesWeapon_WVC</li>
-		  </categories>
-		</filter>
-		<count>1</count>
-	  </li>
-	</ingredients>
-	<fixedIngredientFilter>
-	  <categories>
-		<li>ValkyriesWeapon_WVC</li>
-	  </categories>
-	</fixedIngredientFilter>
-	<products>
-	  <WVC_ExoticWeaponComponents>1</WVC_ExoticWeaponComponents>
-	</products>
-  </RecipeDef>
+  <!-- <RecipeDef MayRequire="honkai.girls.sergkart" ParentName="GirlyWorkRecipeAbstract_WVC"> -->
+	<!-- <defName>WVC_Recraft_ExoticWeaponComponents</defName> -->
+	<!-- <label>recraft</label> -->
+	<!-- <description>Refining ancient weapons to obtain rare components.</description> -->
+	<!-- <jobString>recrafting.</jobString> -->
+	<!-- <effectWorking>Tailor</effectWorking> -->
+	<!-- <workAmount>50000</workAmount> -->
+	<!-- <ingredients> -->
+	  <!-- <li> -->
+		<!-- <filter> -->
+		  <!-- <categories> -->
+			<!-- <li>ValkyriesWeapon_WVC</li> -->
+		  <!-- </categories> -->
+		<!-- </filter> -->
+		<!-- <count>1</count> -->
+	  <!-- </li> -->
+	<!-- </ingredients> -->
+	<!-- <fixedIngredientFilter> -->
+	  <!-- <categories> -->
+		<!-- <li>ValkyriesWeapon_WVC</li> -->
+	  <!-- </categories> -->
+	<!-- </fixedIngredientFilter> -->
+	<!-- <products> -->
+	  <!-- <WVC_ExoticWeaponComponents>1</WVC_ExoticWeaponComponents> -->
+	<!-- </products> -->
+  <!-- </RecipeDef> -->
 
   <!-- ============================================================ -->
 

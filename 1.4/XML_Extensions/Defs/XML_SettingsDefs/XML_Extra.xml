@@ -171,19 +171,19 @@
 				<defaultValue>false</defaultValue>
 				<tKey>HGS_Hardwork_AllAnimalsTrainable_wvc</tKey>
 			</li>
-			<li Class="XmlExtensions.Setting.Checkbox">
-				<key>Dryads_NotificationDisable_wvc</key>
-				<label>Disable notification about resources?</label>
-				<defaultValue>false</defaultValue>
-				<tooltip>Removes resource spawn notification from ALL resource spawners.</tooltip>
-				<tKey>HGS_Extra_Dryads_NotificationDisable_WVC</tKey>
-				<tKeyTip>HGS_Extra_Dryads_NotificationDisable_Desc_WVC</tKeyTip>
-			</li>
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>Dryads_NotificationDisable_wvc</key> -->
+				<!-- <label>Disable notification about resources?</label> -->
+				<!-- <defaultValue>false</defaultValue> -->
+				<!-- <tooltip>Removes resource spawn notification from ALL resource spawners.</tooltip> -->
+				<!-- <tKey>HGS_Extra_Dryads_NotificationDisable_WVC</tKey> -->
+				<!-- <tKeyTip>HGS_Extra_Dryads_NotificationDisable_Desc_WVC</tKeyTip> -->
+			<!-- </li> -->
 			<li Class="XmlExtensions.Setting.Checkbox">
 				<key>Valkyries_RemoveDodgeLimit_WVC</key>
 				<label>Disable dodge limit</label>
 				<defaultValue>false</defaultValue>
-				<tooltip>Removes the dodge limit, allowing it to be increased to 100. Useful for Valkyries.\n(Does not support CE)</tooltip>
+				<tooltip>Removes the dodge limit, allowing it to be increased to 100.\n(Does not support CE)</tooltip>
 				<tKey>HGS_Humanoids_RemoveDodgeLimit_Checker_WVC</tKey>
 				<tKeyTip>HGS_Humanoids_RemoveDodgeLimit_Checker_Desc_WVC</tKeyTip>
 			</li>

@@ -12,7 +12,7 @@
 	<statBases>
 	  <!-- <MechaniteCrafter_WorkSpeed_WVC>1.5</MechaniteCrafter_WorkSpeed_WVC> -->
 	  <IncomingDamageFactor>1.0</IncomingDamageFactor>
-	  <WVC_CorruptionSensitivity>0.2</WVC_CorruptionSensitivity>
+	  <!-- <WVC_CorruptionSensitivity>0.2</WVC_CorruptionSensitivity> -->
 	  <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1.0</ToxicEnvironmentResistance>
 	</statBases>
 

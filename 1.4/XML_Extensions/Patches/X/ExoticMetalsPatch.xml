@@ -81,6 +81,9 @@
 				<xpath>/Defs/ThingDef[@ParentName="WVC_ExoticResources_Base" or @WVC_Tag="ExoticAlloysRecipeSmelter"]</xpath>
 			</li>
 			<li Class="XmlExtensions.PatchOperationSafeRemove">
+				<xpath>/Defs/RecipeDef[@WVC_Tag="ExoticAlloysRecipeSmelter"]</xpath>
+			</li>
+			<li Class="XmlExtensions.PatchOperationSafeRemove">
 				<xpath>/Defs/TraderKindDef[defName="WVC_Orbital_ExoticAlloysTrader"]</xpath>
 			</li>
 

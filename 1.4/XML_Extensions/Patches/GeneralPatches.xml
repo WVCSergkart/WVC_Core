@@ -326,11 +326,18 @@
 		<packageId>true</packageId>
 		<caseTrue>
 
-			<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
-				  <xpath>Defs/ThingDef[@Name="DryadBase"]/statBases</xpath>
-				  <value>
-					<WVC_CorruptionSensitivity>0.0</WVC_CorruptionSensitivity>
-				  </value>
+			<!-- <Operation Class="XmlExtensions.PatchOperationAddOrReplace"> -->
+				  <!-- <xpath>Defs/ThingDef[@Name="DryadBase"]/statBases</xpath> -->
+				  <!-- <value> -->
+					<!-- <WVC_CorruptionSensitivity>0.0</WVC_CorruptionSensitivity> -->
+				  <!-- </value> -->
+			<!-- </Operation> -->
+
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Spawner"]/showMessageIfOwned</xpath>
+				<value>
+					<showMessageIfOwned>false</showMessageIfOwned>
+				</value>
 			</Operation>
 
 		</caseTrue>
@@ -347,18 +354,18 @@
 
 	<!--=====================================================================-->
 
-	<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
-		  <xpath>Defs/ThingDef[@Name="BaseMechanoid"]/statBases</xpath>
-		  <value>
-			<WVC_CorruptionSensitivity>0.05</WVC_CorruptionSensitivity>
-		  </value>
-	</Operation>
-	<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
-		  <xpath>Defs/ThingDef[@Name="BaseInsect"]/statBases</xpath>
-		  <value>
-			<WVC_CorruptionSensitivity>0.1</WVC_CorruptionSensitivity>
-		  </value>
-	</Operation>
+	<!-- <Operation Class="XmlExtensions.PatchOperationAddOrReplace"> -->
+		  <!-- <xpath>Defs/ThingDef[@Name="BaseMechanoid"]/statBases</xpath> -->
+		  <!-- <value> -->
+			<!-- <WVC_CorruptionSensitivity>0.05</WVC_CorruptionSensitivity> -->
+		  <!-- </value> -->
+	<!-- </Operation> -->
+	<!-- <Operation Class="XmlExtensions.PatchOperationAddOrReplace"> -->
+		  <!-- <xpath>Defs/ThingDef[@Name="BaseInsect"]/statBases</xpath> -->
+		  <!-- <value> -->
+			<!-- <WVC_CorruptionSensitivity>0.1</WVC_CorruptionSensitivity> -->
+		  <!-- </value> -->
+	<!-- </Operation> -->
 
 	<!--=====================================================================-->
 

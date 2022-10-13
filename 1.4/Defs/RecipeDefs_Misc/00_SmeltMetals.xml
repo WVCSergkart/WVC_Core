@@ -4,76 +4,6 @@
   <!-- ======================================================================= -->
 
   <RecipeDef WVC_Tag="ExoticAlloysRecipeSmelter">
-	<defName>WVC_SmeltExoticMetals_Plasteel</defName>
-	<label>smelt exotic alloys (Plasteel)</label>
-	<description>Use heat and strong electromagnets to get useful alloys</description>
-	<jobString>Smelting alloy.</jobString>
-	<workAmount>3000</workAmount>
-	<workSpeedStat>SmeltingSpeed</workSpeedStat>
-	<effectWorking>Smelt</effectWorking>
-	<soundWorking>Recipe_Smelt</soundWorking>
-	<allowMixingIngredients>true</allowMixingIngredients>
-	<targetCountAdjustment>75</targetCountAdjustment>
-	<recipeUsers>
-	  <li>WVC_AdvancedCraftingBench</li>
-	</recipeUsers>
-	<ingredients>
-	  <li>
-		<filter>
-		  <categories>
-			<li>WVC_ExoticMetals</li>
-		  </categories>
-		</filter>
-		<count>75</count>
-	  </li>
-	</ingredients>
-	<products>
-	  <Plasteel>75</Plasteel>
-	</products>
-	<fixedIngredientFilter>
-	  <categories>
-		<li>WVC_ExoticMetals</li>
-	  </categories>
-	</fixedIngredientFilter>
-  </RecipeDef>
-
-  <RecipeDef WVC_Tag="ExoticAlloysRecipeSmelter">
-	<defName>WVC_SmeltExoticMetals_Steel</defName>
-	<label>smelt exotic alloys (Steel)</label>
-	<description>Use heat and strong electromagnets to get useful alloys</description>
-	<jobString>Smelting alloy.</jobString>
-	<workAmount>3000</workAmount>
-	<workSpeedStat>SmeltingSpeed</workSpeedStat>
-	<effectWorking>Smelt</effectWorking>
-	<soundWorking>Recipe_Smelt</soundWorking>
-	<allowMixingIngredients>true</allowMixingIngredients>
-	<targetCountAdjustment>75</targetCountAdjustment>
-	<recipeUsers>
-	  <li>WVC_AdvancedCraftingBench</li>
-	</recipeUsers>
-	<ingredients>
-	  <li>
-		<filter>
-		  <categories>
-			<li>WVC_ExoticMetals</li>
-		  </categories>
-		</filter>
-		<count>75</count>
-	  </li>
-	</ingredients>
-	<products>
-	  <Steel>75</Steel>
-	</products>
-	<fixedIngredientFilter>
-	  <categories>
-		<li>WVC_ExoticMetals</li>
-	  </categories>
-	</fixedIngredientFilter>
-  </RecipeDef>
-
-  <!-- ======================================================================= -->
-
-  <RecipeDef WVC_Tag="ExoticAlloysRecipeSmelter">
 	<defName>WVC_SmeltExoticMetals_Steel_Smelter</defName>
 	<label>smelt exotic alloys (Steel)</label>
 	<description>Use heat and strong electromagnets to get useful alloys</description>
@@ -100,7 +30,7 @@
 	  </li>
 	</ingredients>
 	<products>
-	  <Steel>60</Steel>
+	  <Steel>50</Steel>
 	</products>
 	<fixedIngredientFilter>
 	  <categories>
@@ -136,7 +66,7 @@
 	  </li>
 	</ingredients>
 	<products>
-	  <Plasteel>40</Plasteel>
+	  <Plasteel>25</Plasteel>
 	</products>
 	<fixedIngredientFilter>
 	  <categories>
