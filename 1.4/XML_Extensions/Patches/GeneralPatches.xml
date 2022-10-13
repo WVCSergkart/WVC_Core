@@ -2,17 +2,33 @@
 <Patch>
 
 	<Operation Class="PatchOperationAdd">
-	  <xpath>/Defs/TraderKindDef[defName="Orbital_BulkGoods" or defName="Orbital_Exotic" or defName="Empire_Caravan_TraderGeneral" or defName="Orbital_Empire"]/stockGenerators</xpath>
+	  <xpath>/Defs/TraderKindDef/stockGenerators[li[thingDef="ComponentSpacer"]]</xpath>
 	  <value>
 		  <li Class="StockGenerator_SingleDef">
 			<thingDef>VFE_ComponentMechanoid</thingDef>
-			<countRange>0~8</countRange>
+			<countRange>0~5</countRange>
 		  </li>
 	  </value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/TraderKindDef/stockGenerators[li[tradeTag="TechHediff"]]</xpath>
+	  <value>
+		  <li Class="StockGenerator_Tag">
+			<tradeTag>WVC_UltraBionic</tradeTag>
+			<thingDefCountRange>1~6</thingDefCountRange>
+			<countRange>1~1</countRange>
+		  </li>
+	  </value>
+	</Operation>
+
+	<!--=====================================================================-->
+
+	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
+		<xpath>/Defs/ThingDef[stuffProps[categories[li="Metallic"]]]/thingCategories[li="ResourcesRaw"]</xpath>
+	</Operation>
 	<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-	  <xpath>/Defs/ThingDef[defName="Steel" or defName="Plasteel" or defName="Gold" or defName="Uranium" or defName="Silver" or defName="Moyo_Abyssteel" or defName="DankPyon_IronIngot" or defName="VMEu_Iron" or defName="VMEu_Lead" or defName="VMEu_Bronze" or defName="VFEC_Bronze" or defName="VMEu_Tin" or defName="VMEu_Copper" or defName="VMEu_Tungsten" or defName="VMEu_Chromium" or defName="VMEu_StainlessSteel" or defName="VMEu_Titanium" or defName="VMEu_Lithium" or defName="VMEu_Germanium"]</xpath>
+	  <xpath>/Defs/ThingDef[stuffProps[categories[li="Metallic"]]]</xpath>
 	  <safetyDepth>1</safetyDepth>
 	  <value>
 		<thingCategories>
@@ -21,8 +37,9 @@
 	  </value>
 	</Operation>
 
-	<!--=====================================================================-->
-
+	<Operation Class="XmlExtensions.PatchOperationSafeRemove">
+		<xpath>/Defs/ThingDef[defName="ComponentIndustrial" or defName="ComponentSpacer" or defName="VFE_ComponentMechanoid" or defName="RE_PrefabComponent" or defName="DankPyon_ComponentBasic"]/thingCategories[li="Manufactured"]</xpath>
+	</Operation>
 	<Operation Class="XmlExtensions.PatchOperationSafeAdd">
 	  <xpath>/Defs/ThingDef[defName="ComponentIndustrial" or defName="ComponentSpacer" or defName="VFE_ComponentMechanoid" or defName="RE_PrefabComponent" or defName="DankPyon_ComponentBasic"]</xpath>
 	  <safetyDepth>1</safetyDepth>
@@ -32,6 +49,8 @@
 		</thingCategories>
 	  </value>
 	</Operation>
+
+	<!--=====================================================================-->
 
 	<Operation Class="XmlExtensions.FindMod">
 		<mods>
@@ -100,6 +119,7 @@
 							<li>WVC_Apparel_SummerUnderwear</li>
 							<li>WVC_Apparel_ThermalUnderwear</li>
 							<li>WVC_Apparel_ExoticUnderwear</li>
+							<li>WVC_Apparel_Shibari</li>
 						</value>
 					</Operation>
 

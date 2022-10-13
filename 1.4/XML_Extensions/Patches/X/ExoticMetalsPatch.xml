@@ -90,6 +90,10 @@
 		</caseFalse>
 		<caseTrue>
 
+			<Operation Class="XmlExtensions.PatchOperationSafeRemove">
+				<xpath>/Defs/ThingDef[@ParentName="WVC_ExoticResources_Base" or @Name="WVC_ExoticResources_Base"]/thingCategories[li="WVC_MetalResources_Raw"]</xpath>
+			</Operation>
+
 			<!-- ===================================================================== -->
 
 			<Operation Class="XmlExtensions.OptionalPatch">

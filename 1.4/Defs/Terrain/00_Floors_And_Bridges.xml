@@ -20,7 +20,7 @@
   <!-- ======================================================================= -->
 
   <TerrainDef Abstract="True" Name="Marker_Floor_WVC">
-	<description>Floor covering that allows you to place complex communications underground, so you can save space on the surface.</description>
+	<description>Floor covering.</description>
 	<descriptionHyperlinks>
 	  <ConceptDef>WVC_WallsDoorsFloors</ConceptDef>
 	</descriptionHyperlinks>

@@ -23,9 +23,6 @@
 	<!-- Ноды были задуманны в переводе буквально как "Ноды", не смотря на правильный вариант "Узлы" -->
 	<label>node</label>
 	<description>A strange mechanoid device that pulses when touched.</description>
-	<descriptionHyperlinks>
-	  <ConceptDef>WVC_AboutNodes</ConceptDef>
-	</descriptionHyperlinks>
 	<techLevel>Ultra</techLevel>
 	<uiIconScale>1.0</uiIconScale>
 	<graphicData>

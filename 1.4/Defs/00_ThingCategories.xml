@@ -9,12 +9,6 @@
   </ThingCategoryDef>
 
   <ThingCategoryDef>
-	<defName>WVC_Underwear</defName>
-	<label>underwear</label>
-	<parent>Apparel</parent>
-  </ThingCategoryDef>
-
-  <ThingCategoryDef>
 	<defName>WVC_MetalResources_Raw</defName>
 	<label>metals</label>
 	<parent>ResourcesRaw</parent>
@@ -27,11 +21,5 @@
 	<parent>Manufactured</parent>
 	<iconPath>Things/Item/Resource/ComponentIndustrial/ComponentIndustrial</iconPath>
   </ThingCategoryDef>
-
-  <!-- <ThingCategoryDef> -->
-	<!-- <defName>WVC_MechanicalEggs</defName> -->
-	<!-- <label>mechanical eggs</label> -->
-	<!-- <parent>Manufactured</parent> -->
-  <!-- </ThingCategoryDef> -->
 
 </Defs>

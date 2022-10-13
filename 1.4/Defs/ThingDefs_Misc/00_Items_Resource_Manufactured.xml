@@ -28,7 +28,7 @@
 	</statBases>
 	<thingCategories>
 	  <li>ResourcesRaw</li>
-	  <li>WVC_MetalResources_Raw</li>
+	  <!-- <li>WVC_MetalResources_Raw</li> -->
 	</thingCategories>
 	<!-- <deepCommonality>0</deepCommonality> -->
 	<!-- <deepCountPerPortion>10</deepCountPerPortion> -->
