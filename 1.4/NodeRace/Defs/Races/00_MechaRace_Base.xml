@@ -19,7 +19,7 @@
 			<minAgeForAdulthood>16</minAgeForAdulthood>
 			<humanRecipeImport>true</humanRecipeImport>
 			<immuneToXenophobia>false</immuneToXenophobia>
-			<traitCount>1~2</traitCount>
+			<traitCount>0~2</traitCount>
 			<additionalTraits>0</additionalTraits>
 			<notXenophobistTowards>
 			</notXenophobistTowards>
@@ -98,17 +98,17 @@
 							</options>
 						</first>
 					</li>
-					<li>
-						<name>tattoo</name>
-						<first Class="ColorGenerator_Options">
-							<options>
-								<li>
-									<weight>10</weight>
-									<only>RGBA(0.30, 0.30, 0.30, 0.5)</only>
-								</li>
-							</options>
-						</first>
-					</li>
+					<!-- <li> -->
+						<!-- <name>tattoo</name> -->
+						<!-- <first Class="ColorGenerator_Options"> -->
+							<!-- <options> -->
+								<!-- <li> -->
+									<!-- <weight>10</weight> -->
+									<!-- <only>RGBA(0.30, 0.30, 0.30, 0.5)</only> -->
+								<!-- </li> -->
+							<!-- </options> -->
+						<!-- </first> -->
+					<!-- </li> -->
 				</colorChannels>
 			</alienPartGenerator>
 		</generalSettings>
@@ -259,7 +259,7 @@
 	  <FoodPoisonChance>0.4</FoodPoisonChance>
 	  <PawnBeauty>1</PawnBeauty>
 	  <SocialImpact>1.2</SocialImpact>
-	  <MentalBreakThreshold>0.2</MentalBreakThreshold>
+	  <!-- <MentalBreakThreshold>0.2</MentalBreakThreshold> -->
 	  <!-- <DrugSynthesisSpeed>0.8</DrugSynthesisSpeed> -->
 	  <MedicalTendSpeed>1.2</MedicalTendSpeed>
 	  <MedicalTendQuality>1.2</MedicalTendQuality>
@@ -313,7 +313,7 @@
 	  </litterSizeCurve>
 	  <lifeStageAges Inherit="False">
 		<li>
-		  <def>WVC_Nodes_Former</def>
+		  <def>WVC_MechaRace</def>
 		  <minAge>0</minAge>
 		  <soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
 		  <soundDeath>Pawn_Mech_Scyther_Death</soundDeath>

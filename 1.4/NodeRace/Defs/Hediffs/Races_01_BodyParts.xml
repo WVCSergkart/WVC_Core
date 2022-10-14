@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- =================================NODES================================= -->
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
+	<defName>WVC_NodeBlueSensor</defName>
+	<label>node sensor</label>
+	<labelNoun>a sensor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.1</partEfficiency>
+	</addedPartProps>
+	<tags>
+		<li>WVC_SightSensor</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
+	<defName>WVC_NodeBlueReprocessor</defName>
+	<label>node reprocessor</label>
+	<labelNoun>a reprocessor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.1</partEfficiency>
+	</addedPartProps>
+	<tags>
+		<li>WVC_OrganicReprocessor</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
+	<defName>WVC_NodeBlueFormerPilon</defName>
+	<label>node veil foundation</label>
+	<labelNoun>a veil foundation</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.1</partEfficiency>
+	</addedPartProps>
+	<tags>
+		<li>WVC_FormerPilon</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
+	<defName>WVC_NodeBlueMechanicalLeg</defName>
+	<label>node mechanica leg</label>
+	<labelNoun>a mechanica leg</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.1</partEfficiency>
+	</addedPartProps>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>mechanical leg</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.0</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>MechanicalLeg</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
+	<defName>WVC_NodeBlueFormerCore</defName>
+	<label>node reactor</label>
+	<labelNoun>a reactor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.1</partEfficiency>
+	</addedPartProps>
+	<tags>
+		<li>WVC_FormerCore</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
+	<defName>WVC_NodeBlueMechanicalShoulder</defName>
+	<label>node mechanical arm</label>
+	<labelNoun>a mechanical arm</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.1</partEfficiency>
+	</addedPartProps>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>mechanical arm</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.0</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>MechanicalShoulder</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
+	<defName>WVC_NodeBlueFormerVeil</defName>
+	<label>node veil blade</label>
+	<labelNoun>a veil blade</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.15</partEfficiency>
+	</addedPartProps>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>veil blade</label>
+			<capacities>
+			  <li>Cut</li>
+			  <li>Stab</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.0</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>WVC_FormerVeil</li>
+	</tags>
+  </HediffDef>
+
+  <!-- =================================NODES================================= -->
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechSensor</defName>
+	<label>archotech sensor</label>
+	<labelNoun>a sensor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.2</partEfficiency>
+	</addedPartProps>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.05</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.05</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.01</IncomingDamageFactor>
+			<PsychicSensitivity>0.1</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>WVC_SightSensor</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechReprocessor</defName>
+	<label>archotech reprocessor</label>
+	<labelNoun>a reprocessor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.2</partEfficiency>
+	</addedPartProps>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.2</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>WVC_OrganicReprocessor</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechFormerPilon</defName>
+	<label>archotech veil foundation</label>
+	<labelNoun>a veil foundation</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.2</partEfficiency>
+	</addedPartProps>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.2</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>WVC_FormerPilon</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechMechanicalLeg</defName>
+	<label>archotech mechanica leg</label>
+	<labelNoun>a mechanica leg</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.2</partEfficiency>
+	</addedPartProps>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.2</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>mechanical leg</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>0.8</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>MechanicalLeg</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechFormerCore</defName>
+	<label>archotech reactor</label>
+	<labelNoun>a reactor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.2</partEfficiency>
+	</addedPartProps>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.20</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.25</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>WVC_FormerCore</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechMechanicalShoulder</defName>
+	<label>archotech mechanical arm</label>
+	<labelNoun>a mechanical arm</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.2</partEfficiency>
+	</addedPartProps>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.2</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>mechanical arm</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>0.8</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>MechanicalShoulder</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
+	<defName>WVC_ArchotechFormerVeil</defName>
+	<label>archotech veil blade</label>
+	<labelNoun>a veil blade</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.2</partEfficiency>
+	</addedPartProps>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.15</InjuryHealingFactor>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
+			<PsychicSensitivity>0.2</PsychicSensitivity>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>veil blade</label>
+			<capacities>
+			  <li>Cut</li>
+			  <li>Stab</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>0.8</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>WVC_FormerVeil</li>
+	</tags>
+  </HediffDef>
+
+  <!-- =================================NODES================================= -->
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
+	<defName>WVC_MechanoidSensor</defName>
+	<label>mechanoid sensor</label>
+	<labelNoun>a sensor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+	<tags>
+		<li>WVC_SightSensor</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
+	<defName>WVC_MechanoidReprocessor</defName>
+	<label>mechanoid reprocessor</label>
+	<labelNoun>a reprocessor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+	<tags>
+		<li>WVC_OrganicReprocessor</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
+	<defName>WVC_MechanoidFormerPilon</defName>
+	<label>mechanoid veil foundation</label>
+	<labelNoun>a veil foundation</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+	<tags>
+		<li>WVC_FormerPilon</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
+	<defName>WVC_MechanoidMechanicalLeg</defName>
+	<label>mechanoid mechanica leg</label>
+	<labelNoun>a mechanica leg</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>mechanical leg</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>MechanicalLeg</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
+	<defName>WVC_MechanoidFormerCore</defName>
+	<label>mechanoid reactor</label>
+	<labelNoun>a reactor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+	<tags>
+		<li>WVC_FormerCore</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
+	<defName>WVC_MechanoidMechanicalShoulder</defName>
+	<label>mechanoid mechanical arm</label>
+	<labelNoun>a mechanical arm</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>mechanical arm</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>MechanicalShoulder</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
+	<defName>WVC_MechanoidFormerVeil</defName>
+	<label>mechanoid veil blade</label>
+	<labelNoun>a veil blade</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>veil blade</label>
+			<capacities>
+			  <li>Cut</li>
+			  <li>Stab</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>WVC_FormerVeil</li>
+	</tags>
+  </HediffDef>
+
+  <!-- =================================NODES================================= -->
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
+	<defName>WVC_CyberneticSensor</defName>
+	<label>cybernetic sensor</label>
+	<labelNoun>a sensor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>0.9</partEfficiency>
+	</addedPartProps>
+	<tags>
+		<li>WVC_SightSensor</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
+	<defName>WVC_CyberneticReprocessor</defName>
+	<label>cybernetic reprocessor</label>
+	<labelNoun>a reprocessor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>0.9</partEfficiency>
+	</addedPartProps>
+	<tags>
+		<li>WVC_OrganicReprocessor</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
+	<defName>WVC_CyberneticFormerPilon</defName>
+	<label>cybernetic veil foundation</label>
+	<labelNoun>a veil foundation</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>0.9</partEfficiency>
+	</addedPartProps>
+	<tags>
+		<li>WVC_FormerPilon</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
+	<defName>WVC_CyberneticMechanicalLeg</defName>
+	<label>cybernetic mechanica leg</label>
+	<labelNoun>a mechanica leg</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>0.9</partEfficiency>
+	</addedPartProps>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>mechanical leg</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>19</power>
+			<cooldownTime>2.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>MechanicalLeg</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
+	<defName>WVC_CyberneticFormerCore</defName>
+	<label>cybernetic reactor</label>
+	<labelNoun>a reactor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>0.9</partEfficiency>
+	</addedPartProps>
+	<tags>
+		<li>WVC_FormerCore</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
+	<defName>WVC_CyberneticMechanicalShoulder</defName>
+	<label>cybernetic mechanical arm</label>
+	<labelNoun>a mechanical arm</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>0.9</partEfficiency>
+	</addedPartProps>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>mechanical arm</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>19</power>
+			<cooldownTime>2.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>MechanicalShoulder</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
+	<defName>WVC_CyberneticFormerVeil</defName>
+	<label>cybernetic veil blade</label>
+	<labelNoun>a veil blade</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>0.9</partEfficiency>
+	</addedPartProps>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>veil blade</label>
+			<capacities>
+			  <li>Cut</li>
+			  <li>Stab</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>2.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>WVC_FormerVeil</li>
+	</tags>
+  </HediffDef>
+
+  <!-- =================================NODES================================= -->
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
+	<defName>WVC_AncientSensor</defName>
+	<label>ancient sensor</label>
+	<labelNoun>a sensor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+	<stages>
+	  <li>
+		<statOffsets>
+			<Mass>3</Mass>
+			<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.02</ArmorRating_Heat>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>WVC_SightSensor</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
+	<defName>WVC_AncientReprocessor</defName>
+	<label>ancient reprocessor</label>
+	<labelNoun>a reprocessor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+	<stages>
+	  <li>
+		<statOffsets>
+			<Mass>5</Mass>
+			<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.03</ArmorRating_Heat>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>WVC_OrganicReprocessor</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
+	<defName>WVC_AncientFormerPilon</defName>
+	<label>ancient veil foundation</label>
+	<labelNoun>a veil foundation</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+	<stages>
+	  <li>
+		<statOffsets>
+			<Mass>5</Mass>
+			<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.06</ArmorRating_Heat>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>WVC_FormerPilon</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
+	<defName>WVC_AncientMechanicalLeg</defName>
+	<label>ancient mechanica leg</label>
+	<labelNoun>a mechanica leg</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+	<stages>
+	  <li>
+		<statOffsets>
+			<Mass>5</Mass>
+			<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.06</ArmorRating_Heat>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>mechanical leg</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.6</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>MechanicalLeg</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
+	<defName>WVC_AncientFormerCore</defName>
+	<label>ancient reactor</label>
+	<labelNoun>a reactor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+	<stages>
+	  <li>
+		<statOffsets>
+			<Mass>12</Mass>
+			<ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.12</ArmorRating_Heat>
+		</statOffsets>
+	  </li>
+	</stages>
+	<tags>
+		<li>WVC_FormerCore</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
+	<defName>WVC_AncientMechanicalShoulder</defName>
+	<label>ancient mechanical arm</label>
+	<labelNoun>a mechanical arm</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+	<stages>
+	  <li>
+		<statOffsets>
+			<Mass>4</Mass>
+			<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.04</ArmorRating_Heat>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>mechanical arm</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.6</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>MechanicalShoulder</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
+	<defName>WVC_AncientFormerVeil</defName>
+	<label>ancient veil blade</label>
+	<labelNoun>a veil blade</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+	<stages>
+	  <li>
+		<statOffsets>
+			<Mass>4</Mass>
+			<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.04</ArmorRating_Heat>
+		</statOffsets>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>veil blade</label>
+			<capacities>
+			  <li>Cut</li>
+			  <li>Stab</li>
+			</capacities>
+			<power>22</power>
+			<cooldownTime>1.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>WVC_FormerVeil</li>
+	</tags>
+  </HediffDef>
+
+  <!-- =================================NODES================================= -->
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_AdvancedBionic">
+	<defName>WVC_AdvancedSensor</defName>
+	<label>experimental sensor</label>
+	<labelNoun>a sensor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>0.8</partEfficiency>
+	</addedPartProps>
+	<tags>
+		<li>WVC_SightSensor</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_AdvancedBionic">
+	<defName>WVC_AdvancedReprocessor</defName>
+	<label>experimental reprocessor</label>
+	<labelNoun>a reprocessor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>0.8</partEfficiency>
+	</addedPartProps>
+	<tags>
+		<li>WVC_OrganicReprocessor</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_AdvancedBionic">
+	<defName>WVC_AdvancedFormerPilon</defName>
+	<label>experimental veil foundation</label>
+	<labelNoun>a veil foundation</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>0.8</partEfficiency>
+	</addedPartProps>
+	<tags>
+		<li>WVC_FormerPilon</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_AdvancedBionic">
+	<defName>WVC_AdvancedMechanicalLeg</defName>
+	<label>experimental mechanica leg</label>
+	<labelNoun>a mechanica leg</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>0.8</partEfficiency>
+	</addedPartProps>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>mechanical leg</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>15</power>
+			<cooldownTime>2.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>MechanicalLeg</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_AdvancedBionic">
+	<defName>WVC_AdvancedFormerCore</defName>
+	<label>experimental reactor</label>
+	<labelNoun>a reactor</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>0.8</partEfficiency>
+	</addedPartProps>
+	<tags>
+		<li>WVC_FormerCore</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_AdvancedBionic">
+	<defName>WVC_AdvancedMechanicalShoulder</defName>
+	<label>experimental mechanical arm</label>
+	<labelNoun>a mechanical arm</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>0.8</partEfficiency>
+	</addedPartProps>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>mechanical arm</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>15</power>
+			<cooldownTime>2.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>MechanicalShoulder</li>
+	</tags>
+  </HediffDef>
+
+  <HediffDef ParentName="WVC_Hediff_BodyPart_AdvancedBionic">
+	<defName>WVC_AdvancedFormerVeil</defName>
+	<label>experimental veil blade</label>
+	<labelNoun>a veil blade</labelNoun>
+	<addedPartProps>
+	  <partEfficiency>0.8</partEfficiency>
+	</addedPartProps>
+	<comps>
+	  <li Class="HediffCompProperties_VerbGiver">
+		<tools>
+		  <li>
+			<label>veil blade</label>
+			<capacities>
+			  <li>Cut</li>
+			  <li>Stab</li>
+			</capacities>
+			<power>15</power>
+			<cooldownTime>2.2</cooldownTime>
+		  </li>
+		</tools>
+	  </li>
+	</comps>
+	<tags>
+		<li>WVC_FormerVeil</li>
+	</tags>
+  </HediffDef>
+
+</Defs>
