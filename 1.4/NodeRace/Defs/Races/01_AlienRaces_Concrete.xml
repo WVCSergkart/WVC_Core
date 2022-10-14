@@ -100,25 +100,30 @@
 		<defName>WVC_AlienRace_BlueFormer</defName>
 		<label>hornad</label>
 		<race>WVC_AlienRace_BlueFormer</race>
+		<favoriteColor>(133,202,255)</favoriteColor>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="WVC_BasePawn_Nodes">
 		<defName>WVC_AlienRace_RedFormer</defName>
 		<label>nautil</label>
 		<race>WVC_AlienRace_RedFormer</race>
+		<favoriteColor>(255,133,133)</favoriteColor>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="WVC_BasePawn_Nodes">
 		<defName>WVC_AlienRace_YellowFormer</defName>
 		<label>filon</label>
 		<race>WVC_AlienRace_YellowFormer</race>
+		<favoriteColor>(255,248,133)</favoriteColor>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="WVC_BasePawn_Nodes">
 		<defName>WVC_AlienRace_Meka</defName>
 		<label>meka</label>
 		<race>WVC_AlienRace_Meka</race>
-		<apparelMoney>300~1200</apparelMoney>
+		<apparelMoney>600~1200</apparelMoney>
+		<forcedHair>Scrapper</forcedHair>
+		<favoriteColor>(94,163,255)</favoriteColor>
 		<apparelTags>
 		  <li>IndustrialBasic</li>
 		</apparelTags>

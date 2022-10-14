@@ -69,6 +69,9 @@
 		<!-- <statFactors> -->
 		  <!-- <IncomingDamageFactor>1.2</IncomingDamageFactor> -->
 		<!-- </statFactors> -->
+		<makeImmuneTo>
+		  <li>WoundInfection</li>
+		</makeImmuneTo>
 	  </li>
 	</stages>
   </HediffDef>
@@ -93,12 +96,12 @@
 	<stages>
 	  <li>
 		<becomeVisible>true</becomeVisible>
-		<totalBleedFactor>0.2</totalBleedFactor>
+		<totalBleedFactor>0.0</totalBleedFactor>
 		<painFactor>0.5</painFactor>
 		<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
-		<!-- <statFactors> -->
-		  <!-- <IncomingDamageFactor>1.2</IncomingDamageFactor> -->
-		<!-- </statFactors> -->
+		<makeImmuneTo>
+		  <li>WoundInfection</li>
+		</makeImmuneTo>
 	  </li>
 	</stages>
   </HediffDef>

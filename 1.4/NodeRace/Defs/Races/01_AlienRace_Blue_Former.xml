@@ -392,7 +392,7 @@
 	  <MeleeHitChance>1.0</MeleeHitChance>
 	  <Mass>54</Mass>
 	  <!-- custom -->
-	  <ImmunityGainSpeed>1.2</ImmunityGainSpeed>
+	  <ImmunityGainSpeed>2.0</ImmunityGainSpeed>
 	  <InjuryHealingFactor>2.0</InjuryHealingFactor>
 	  <PruningSpeed MayRequire="ludeon.rimworld.ideology">2.0</PruningSpeed>
 	  <MentalBreakThreshold>0.0</MentalBreakThreshold>

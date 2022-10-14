@@ -129,7 +129,7 @@
 				  <parts>
 					<li>
 					  <def>Brain</def>
-					  <customLabel>mind matrix</customLabel>
+					  <customLabel>artificial brain</customLabel>
 					  <coverage>0.8</coverage>
 					  <groups>
 						<li>UpperHead</li>

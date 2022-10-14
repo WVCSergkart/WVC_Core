@@ -678,5 +678,39 @@
 	  <thing>WVC_ArmoredNode</thing>
 	</KCSG.SymbolDef>
 
+	<KCSG.SymbolDef>
+	  <defName>WVC_UniversalConduit</defName>
+	  <thing>WVC_UniversalConduit</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>UnstablePowerCell_WVC</defName>
+	  <thing>UnstablePowerCell_WVC</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>Gloomlight_WVC_North</defName>
+	  <thing>Gloomlight_WVC</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>DefaultWorkSpot_WVC_East</defName>
+	  <thing>DefaultWorkSpot_WVC</thing>
+	  <rotation>East</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>DefaultWorkSpot_WVC_West</defName>
+	  <thing>DefaultWorkSpot_WVC</thing>
+	  <rotation>West</rotation>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>DefaultWorkSpot_WVC_South</defName>
+	  <thing>DefaultWorkSpot_WVC</thing>
+	  <rotation>South</rotation>
+	</KCSG.SymbolDef>
+
+
 
 </Defs>
