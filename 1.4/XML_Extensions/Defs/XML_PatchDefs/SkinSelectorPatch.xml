@@ -141,12 +141,6 @@
 													<defaultValue>{defaultValue}</defaultValue>
 													<tKey>HGS_Alien_DryadMother_Global_SingleWordEnable_WVC</tKey>
 												</li>
-												<li Class="XmlExtensions.Setting.Checkbox">
-													<key>Alien_RoyalDryad_WVC_SkinSelector_{defName_DEF}_WVC</key>
-													<label>Royal dryad</label>
-													<defaultValue>{defaultValue}</defaultValue>
-													<tKey>HGS_Alien_RoyalDryad_Global_SingleWordEnable_WVC</tKey>
-												</li>
 												<li Class="XmlExtensions.Setting.GapLine"/>
 											</value>
 										</Operation>
@@ -182,12 +176,6 @@
 													<label>Mother</label>
 													<defaultValue>{defaultValue}</defaultValue>
 													<tKey>HGS_Alien_DryadMother_Global_SingleWordEnable_WVC</tKey>
-												</li>
-												<li Class="XmlExtensions.Setting.Checkbox">
-													<key>Alien_RoyalDryad_WVC_SkinSelector_{defName_DEF}_WVC</key>
-													<label>Royal dryad</label>
-													<defaultValue>{defaultValue}</defaultValue>
-													<tKey>HGS_Alien_RoyalDryad_Global_SingleWordEnable_WVC</tKey>
 												</li>
 												<li Class="XmlExtensions.Setting.GapLine"/>
 											</value>
@@ -225,12 +213,6 @@
 													<defaultValue>{defaultValue}</defaultValue>
 													<tKey>HGS_Alien_DryadMother_Global_SingleWordEnable_WVC</tKey>
 												</li>
-												<li Class="XmlExtensions.Setting.Checkbox">
-													<key>Alien_RoyalDryad_WVC_SkinSelector_{defName_DEF}_WVC</key>
-													<label>Royal dryad</label>
-													<defaultValue>{defaultValue}</defaultValue>
-													<tKey>HGS_Alien_RoyalDryad_Global_SingleWordEnable_WVC</tKey>
-												</li>
 												<li Class="XmlExtensions.Setting.GapLine"/>
 											</value>
 										</Operation>
@@ -267,12 +249,6 @@
 													<defaultValue>{defaultValue}</defaultValue>
 													<tKey>HGS_Alien_DryadMother_Global_SingleWordEnable_WVC</tKey>
 												</li>
-												<li Class="XmlExtensions.Setting.Checkbox">
-													<key>Alien_RoyalDryad_WVC_SkinSelector_{defName_DEF}_WVC</key>
-													<label>Royal dryad</label>
-													<defaultValue>{defaultValue}</defaultValue>
-													<tKey>HGS_Alien_RoyalDryad_Global_SingleWordEnable_WVC</tKey>
-												</li>
 												<li Class="XmlExtensions.Setting.GapLine"/>
 											</value>
 										</Operation>
@@ -308,12 +284,6 @@
 													<label>Mother</label>
 													<defaultValue>{defaultValue}</defaultValue>
 													<tKey>HGS_Alien_DryadMother_Global_SingleWordEnable_WVC</tKey>
-												</li>
-												<li Class="XmlExtensions.Setting.Checkbox">
-													<key>Alien_RoyalDryad_WVC_SkinSelector_{defName_DEF}_WVC</key>
-													<label>Royal dryad</label>
-													<defaultValue>{defaultValue}</defaultValue>
-													<tKey>HGS_Alien_RoyalDryad_Global_SingleWordEnable_WVC</tKey>
 												</li>
 												<li Class="XmlExtensions.Setting.GapLine"/>
 											</value>
@@ -354,7 +324,7 @@
 			<li>SpeciesType_defOrName</li>
 			<li>SpeciesType_First</li>
 			<li>SpeciesType_Second</li>
-			<li>SpeciesType_Third</li>
+			<!-- <li>SpeciesType_Third</li> -->
 			<li>MayRequireId</li>
 			<li>ColumnField</li>
 			<li>defaultValue</li>
@@ -382,17 +352,17 @@
 					<li>{defaultValue}</li>
 				</arguments>
 			</Operation>
-			<Operation Class="XmlExtensions.ApplyPatch">
-				<patchName>Autopatcher_SkinSelector_Patch_WVC</patchName>
-				<arguments>
-					<li>{MarkerName}</li>
-					<li>{SpeciesType_defOrName}</li>
-					<li>{SpeciesType_Third}</li>
-					<li>{MayRequireId}</li>
-					<li>{ColumnField}</li>
-					<li>{defaultValue}</li>
-				</arguments>
-			</Operation>
+			<!-- <Operation Class="XmlExtensions.ApplyPatch"> -->
+				<!-- <patchName>Autopatcher_SkinSelector_Patch_WVC</patchName> -->
+				<!-- <arguments> -->
+					<!-- <li>{MarkerName}</li> -->
+					<!-- <li>{SpeciesType_defOrName}</li> -->
+					<!-- <li>{SpeciesType_Third}</li> -->
+					<!-- <li>{MayRequireId}</li> -->
+					<!-- <li>{ColumnField}</li> -->
+					<!-- <li>{defaultValue}</li> -->
+				<!-- </arguments> -->
+			<!-- </Operation> -->
 		</apply>
 	</XmlExtensions.PatchDef>
 

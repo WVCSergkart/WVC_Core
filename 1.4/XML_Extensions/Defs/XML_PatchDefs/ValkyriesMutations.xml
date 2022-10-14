@@ -99,7 +99,6 @@
 								<value>{Mutation}/label</value>
 								<storeIn>label_DEF</storeIn>
 								<fromXml>true</fromXml>
-								<apply>
 							</Operation>
 							<Operation Class="XmlExtensions.CreateVariable">
 								<value>{Mutation}/defName</value>
@@ -370,7 +369,7 @@
 								<defaultValue>true</defaultValue>
 								<caseTrue>
 									<Operation Class="PatchOperationAdd">
-										<xpath>/Defs/HediffGiverSetDef[defName="HediffGiverSet_Mutations{MutationTarget_DEF}_WVC"]/hediffGivers</xpath>
+										<xpath>/Defs/HediffGiverSetDef[defName="HediffGiverSet_MutationsBase_WVC"]/hediffGivers</xpath>
 										<value>
 											<li Class="HediffGiver_Birthday">
 												<hediff>{defName_DEF}</hediff>

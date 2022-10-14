@@ -120,7 +120,7 @@
 			  <xpath>/Defs/ThinkTreeDef[defName="Dryad"]/thinkRoot/subNodes/li[@Class="ThinkNode_ConditionalOfPlayerFaction"]/subNodes</xpath> 
 			  <value>
 				<li Class="ThinkNode_ConditionalPawnKind">
-				  <pawnKind>DryadGirlWVC</pawnKind>
+				  <pawnKind>WVC_RoyalDryad_KL</pawnKind>
 				  <subNodes>
 
 					<li Class="ThinkNode_ConditionalRequireCapacities">

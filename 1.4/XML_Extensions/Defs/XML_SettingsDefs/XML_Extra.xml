@@ -453,15 +453,15 @@
 						<decimals>3</decimals>
 						<tKey>HGS_Extra_QoLPatches_SkillsPlusStats_LearningPlusIntellectual_WVC</tKey>
 					</li>
-					<li Class="XmlExtensions.Setting.Slider">
-						<key>WVC_SkillsPlusStats_MedicinePlusToxic_Bonus</key>
-						<label>Toxin immunity + Medicine bonus: {WVC_SkillsPlusStats_MedicinePlusToxic_Bonus}</label>
-						<defaultValue>0.02</defaultValue>
-						<min>0</min>
-						<max>1</max>
-						<decimals>3</decimals>
-						<tKey>HGS_Extra_QoLPatches_SkillsPlusStats_MedicinePlusToxic_WVC</tKey>
-					</li>
+					<!-- <li Class="XmlExtensions.Setting.Slider"> -->
+						<!-- <key>WVC_SkillsPlusStats_MedicinePlusToxic_Bonus</key> -->
+						<!-- <label>Toxin immunity + Medicine bonus: {WVC_SkillsPlusStats_MedicinePlusToxic_Bonus}</label> -->
+						<!-- <defaultValue>0.02</defaultValue> -->
+						<!-- <min>0</min> -->
+						<!-- <max>1</max> -->
+						<!-- <decimals>3</decimals> -->
+						<!-- <tKey>HGS_Extra_QoLPatches_SkillsPlusStats_MedicinePlusToxic_WVC</tKey> -->
+					<!-- </li> -->
 					<li Class="XmlExtensions.Setting.Slider">
 						<key>WVC_SkillsPlusStats_ShootingPlusVerbRange_Bonus</key>
 						<label>Range + Shooting bonus: {WVC_SkillsPlusStats_ShootingPlusVerbRange_Bonus}</label>
@@ -486,7 +486,7 @@
 						<keys>
 							<li>WVC_SkillsPlusStats_ShootingPlusVerbCD_Bonus</li>
 							<li>WVC_SkillsPlusStats_ShootingPlusVerbRange_Bonus</li>
-							<li>WVC_SkillsPlusStats_MedicinePlusToxic_Bonus</li>
+							<!-- <li>WVC_SkillsPlusStats_MedicinePlusToxic_Bonus</li> -->
 							<li>WVC_SkillsPlusStats_LearningPlusIntellectual_Bonus</li>
 							<li>WVC_SkillsPlusStats_MentalPlusIntellectual_Bonus</li>
 							<li>WVC_SkillsPlusStats_MeleePlusSpeed_Bonus</li>

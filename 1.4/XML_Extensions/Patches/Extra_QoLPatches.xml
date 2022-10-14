@@ -16,7 +16,7 @@
 				<!-- = -->
 				<li>WVC_SkillsPlusStats_LearningPlusIntellectual_Bonus</li>
 				<!-- = -->
-				<li>WVC_SkillsPlusStats_MedicinePlusToxic_Bonus</li>
+				<!-- <li>WVC_SkillsPlusStats_MedicinePlusToxic_Bonus</li> -->
 				<!-- = -->
 				<li>WVC_SkillsPlusStats_ShootingPlusVerbRange_Bonus</li>
 				<li>WVC_SkillsPlusStats_ShootingPlusVerbCD_Bonus</li>
@@ -28,7 +28,7 @@
 				<!-- = -->
 				<li>0.05</li>
 				<!-- = -->
-				<li>0.02</li>
+				<!-- <li>0.02</li> -->
 				<!-- = -->
 				<li>0.05</li>
 				<li>0.01</li>
@@ -91,20 +91,20 @@
 					</skillNeedFactors>
 				</value>
 			  </li>
-			  <li Class="XmlExtensions.PatchOperationSafeAdd">
-				<xpath>Defs/StatDef[defName="ToxicSensitivity"]</xpath>
-				<safetyDepth>1</safetyDepth>
-				<value>
-					<neverDisabled>true</neverDisabled>
-					<skillNeedFactors>
-					  <li Class="SkillNeed_BaseBonus">
-						<skill>Medicine</skill>
-						<baseValue>1</baseValue>
-						<bonusPerLevel>-{WVC_SkillsPlusStats_MedicinePlusToxic_Bonus}</bonusPerLevel>
-					  </li>
-					</skillNeedFactors>
-				</value>
-			  </li>
+			  <!-- <li Class="XmlExtensions.PatchOperationSafeAdd"> -->
+				<!-- <xpath>Defs/StatDef[defName="ToxicSensitivity"]</xpath> -->
+				<!-- <safetyDepth>1</safetyDepth> -->
+				<!-- <value> -->
+					<!-- <neverDisabled>true</neverDisabled> -->
+					<!-- <skillNeedFactors> -->
+					  <!-- <li Class="SkillNeed_BaseBonus"> -->
+						<!-- <skill>Medicine</skill> -->
+						<!-- <baseValue>1</baseValue> -->
+						<!-- <bonusPerLevel>-{WVC_SkillsPlusStats_MedicinePlusToxic_Bonus}</bonusPerLevel> -->
+					  <!-- </li> -->
+					<!-- </skillNeedFactors> -->
+				<!-- </value> -->
+			  <!-- </li> -->
 			  <li Class="XmlExtensions.PatchOperationSafeAdd">
 				<xpath>Defs/StatDef[defName="VEF_VerbRangeFactor"]</xpath>
 				<safetyDepth>1</safetyDepth>
