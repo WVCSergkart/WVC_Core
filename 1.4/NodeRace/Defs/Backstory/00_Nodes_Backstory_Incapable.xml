@@ -3,9 +3,9 @@
 
 	<!-- Standart -->
 	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_WVC" Name="Nodes_HumanoidBackstory_AdulthoodWorkDisable_WVC" Abstract="True">
-		<title>Former</title>
-		<titleShort>Former</titleShort>
-		<!-- <baseDesc>No available information.</baseDesc> -->
+		<title>Gestated</title>
+		<titleShort>Gestated</titleShort>
+		<baseDesc>No available information.</baseDesc>
 		<slot>Adulthood</slot>
 		<skillGains Inherit="False">
 		</skillGains>
@@ -219,9 +219,9 @@
 
 	<!-- Standart -->
 	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_WVC" Name="Nodes_HumanoidBackstory_ChildhoodWorkDisable_WVC" Abstract="True">
-		<title>Former</title>
-		<titleShort>Former</titleShort>
-		<!-- <baseDesc>No available information.</baseDesc> -->
+		<title>Gestated</title>
+		<titleShort>Gestated</titleShort>
+		<baseDesc>[PAWN_nameDef] was gestated in mechanoid gestator.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains Inherit="False">
 		</skillGains>

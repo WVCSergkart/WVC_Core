@@ -31,4 +31,31 @@
 		</rulePack>
 	</RulePackDef>
 
+	<RulePackDef>
+		<defName>WVC_MekaRaceNamer</defName>
+		<include>
+			<li>EmpireNameUtility</li>
+			<li>TribalWordUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[Color] [Imperial_Last]</li>
+				<li>r_name->[Color] '[Animal]' [Imperial_Last]</li>
+				<li>r_name->[WordTribal] '[Animal]' [Imperial_Last]</li>
+				<li>r_name->[WordTribal] '[AnimalBadass]' [Imperial_Last]</li>
+				<li>r_name->[WordTribal] '[Color]' [Imperial_Last]</li>
+				<li>r_name->[Imperial_First_Female] [Imperial_Last]</li>
+				<li>r_name->[Imperial_First_Female] '[WordTribal]' [Imperial_Last]</li>
+				<li>r_name->[Imperial_First_Female] '[AnimalBadass]' [Imperial_Last]</li>
+				<!-- = -->
+				<li>r_name(p=2)->[WordTribal] [WordTribal]</li>
+				<li>r_name->[WordTribal] '[AnimalBadass]' [WordTribal]</li>
+				<li>r_name->[Color] [WordTribal]</li>
+				<li>r_name->[WordTribal] [Animal]</li>
+				<li>r_name->[Animal] [WordTribal]</li>
+				<li>r_name->[Color] [Animal]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
 </Defs>

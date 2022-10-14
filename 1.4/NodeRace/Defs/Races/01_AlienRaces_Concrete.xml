@@ -9,8 +9,8 @@
 		<alienRace>
 			<generalSettings>
 				<alienPartGenerator>
-					<alienbodytypes>
-					</alienbodytypes>
+					<bodytypes>
+					</bodytypes>
 				</alienPartGenerator>
 			</generalSettings>
 		</alienRace>
@@ -29,8 +29,8 @@
 		<alienRace>
 			<generalSettings>
 				<alienPartGenerator>
-					<alienbodytypes>
-					</alienbodytypes>
+					<bodytypes>
+					</bodytypes>
 				</alienPartGenerator>
 			</generalSettings>
 		</alienRace>
@@ -49,8 +49,8 @@
 		<alienRace>
 			<generalSettings>
 				<alienPartGenerator>
-					<alienbodytypes>
-					</alienbodytypes>
+					<bodytypes>
+					</bodytypes>
 				</alienPartGenerator>
 			</generalSettings>
 		</alienRace>
@@ -60,6 +60,37 @@
 			</li>
 		</comps>
 		<race>
+		</race>
+	</AlienRace.ThingDef_AlienRace>
+
+	<AlienRace.ThingDef_AlienRace ParentName="WVC_MechaRace_Base">
+		<defName>WVC_AlienRace_Meka</defName>
+		<label>meka</label>
+		<descriptionHyperlinks>
+		</descriptionHyperlinks>
+		<alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+					<bodytypes>
+					</bodytypes>
+				</alienPartGenerator>
+			</generalSettings>
+			<raceRestriction>
+				<conceptList>
+				</conceptList>
+			</raceRestriction>
+		</alienRace>
+		<comps>
+			<!-- <li MayRequire="oskarpotocki.vanillafactionsexpanded.core" Class="AnimalBehaviours.CompProperties_InitialHediff"> -->
+				<!-- <hediffname>SpecialHediff_AlienInitial_Valkyrie_WVC</hediffname> -->
+				<!-- <hediffseverity>1</hediffseverity> -->
+			<!-- </li> -->
+		</comps>
+		<race>
+		  <hediffGiverSets>
+			<!-- <li>WVC_OrganicBase</li> -->
+			<!-- <li>HediffGiverSet_MutationsBase_WVC</li> -->
+		  </hediffGiverSets>
 		</race>
 	</AlienRace.ThingDef_AlienRace>
 
@@ -81,6 +112,16 @@
 		<defName>WVC_AlienRace_YellowFormer</defName>
 		<label>filon</label>
 		<race>WVC_AlienRace_YellowFormer</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="WVC_BasePawn_Nodes">
+		<defName>WVC_AlienRace_Meka</defName>
+		<label>meka</label>
+		<race>WVC_AlienRace_Meka</race>
+		<apparelMoney>300~1200</apparelMoney>
+		<apparelTags>
+		  <li>IndustrialBasic</li>
+		</apparelTags>
 	</PawnKindDef>
 
 </Defs>

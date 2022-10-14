@@ -35,7 +35,7 @@
 			</relatedBuildCommands>
 		</building>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
-		<!-- <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded> -->
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<!-- <designatorDropdown>Nodes_Walls_WVC</designatorDropdown> -->
 	</ThingDef>
 

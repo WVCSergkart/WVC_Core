@@ -119,7 +119,7 @@
 		</statBases>
 		<thingCategories Inherit="False"/>
 		<designationCategory>Structure</designationCategory>
-		<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	</ThingDef>
 
 	<!-- ============================================================ -->

@@ -61,9 +61,9 @@
 										<xpath>/Defs/AlienRace.ThingDef_AlienRace[{SpeciesType_defOrName}="{SpeciesType}"]/alienRace/generalSettings/alienPartGenerator</xpath>
 										<safetyDepth>1</safetyDepth>
 										<value>
-											<alienbodytypes>
+											<bodytypes>
 												<li MayRequire="{MayRequireId}">{defName_DEF}</li>
-											</alienbodytypes>
+											</bodytypes>
 										</value>
 									</Operation>
 
@@ -466,9 +466,9 @@
 										<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_ELF_WVC"]/alienRace/generalSettings/alienPartGenerator</xpath>
 										<safetyDepth>1</safetyDepth>
 										<value>
-											<alienbodytypes>
+											<bodytypes>
 												<li>{defName_DEF}</li>
-											</alienbodytypes>
+											</bodytypes>
 										</value>
 									</Operation>
 

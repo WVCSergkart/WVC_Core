@@ -31,7 +31,8 @@
 								<xpath>/Defs/RecipeDef[defName="Install_{defName_DEF}"]/appliedOnFixedBodyParts</xpath>
 								<value>
 									<li MayRequire="sarg.alphaanimals">AA_BoatEye</li>
-									<li MayRequire="wvc.sergkart.nodes">WVC_SightSensor</li>
+									<li>WVC_SightSensor</li>
+									<li>SightSensor</li>
 								</value>
 							</Operation>
 
@@ -55,7 +56,8 @@
 							<Operation Class="PatchOperationAdd">
 								<xpath>/Defs/RecipeDef[defName="Install_{defName_DEF}"]/appliedOnFixedBodyParts</xpath>
 								<value>
-									<li MayRequire="wvc.sergkart.nodes">WVC_HearingSensor</li>
+									<li>WVC_HearingSensor</li>
+									<li>HearingSensor</li>
 								</value>
 							</Operation>
 
@@ -81,7 +83,7 @@
 								<value>
 									<li>AnimalJaw</li>
 									<li>Beak</li>
-									<li MayRequire="wvc.sergkart.nodes">WVC_FormerJaw</li>
+									<li>WVC_FormerJaw</li>
 									<!-- <li MayRequire="sarg.alphaanimals">AA_CrocodileJaw</li> -->
 								</value>
 							</Operation>
@@ -106,7 +108,8 @@
 							<Operation Class="PatchOperationAdd">
 								<xpath>/Defs/RecipeDef[defName="Install_{defName_DEF}"]/appliedOnFixedBodyParts</xpath>
 								<value>
-									<li MayRequire="wvc.sergkart.nodes">WVC_SmellSensor</li>
+									<li>WVC_SmellSensor</li>
+									<li>SmellSensor</li>
 								</value>
 							</Operation>
 
@@ -144,6 +147,13 @@
 								<operation>-</operation>
 							</Operation>
 
+							<Operation Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[defName="Install_{defName_DEF}"]/appliedOnFixedBodyParts</xpath>
+								<value>
+									<li>WVC_OrganicReprocessor</li>
+								</value>
+							</Operation>
+
 						</apply>
 					</li>
 					<li>
@@ -173,7 +183,8 @@
 								<value>
 									<li MayRequire="nemonian.my">MoyoHeart</li>
 									<li>InsectHeart</li>
-									<li MayRequire="wvc.sergkart.nodes">WVC_FormerHearth</li>
+									<li>WVC_FormerHearth</li>
+									<li>Reactor</li>
 								</value>
 							</Operation>
 
@@ -211,6 +222,13 @@
 								<operation>-</operation>
 							</Operation>
 
+							<Operation Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[defName="Install_{defName_DEF}"]/appliedOnFixedBodyParts</xpath>
+								<value>
+									<li>FluidReprocessor</li>
+								</value>
+							</Operation>
+
 						</apply>
 					</li>
 					<li>
@@ -244,6 +262,7 @@
 								<xpath>/Defs/RecipeDef[defName="Install_{defName_DEF}"]/appliedOnFixedBodyParts</xpath>
 								<value>
 									<li MayRequire="vanillaexpanded.vaecaves">VAE_InsectArm</li>
+									<li>MechanicalShoulder</li>
 								</value>
 							</Operation>
 
@@ -264,6 +283,7 @@
 								<value>
 									<li>InsectLeg</li>
 									<li MayRequire="sarg.alphaanimals">AA_SmallInsectLeg</li>
+									<li>MechanicalLeg</li>
 								</value>
 							</Operation>
 

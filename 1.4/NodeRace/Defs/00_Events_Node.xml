@@ -17,9 +17,9 @@
 	<!-- ========================================================== -->
 
 	<IncidentDef ParentName="WVC_Nodes_WandererEventFormer_Base">
-		<defName>WandererJoin_NodeFormer_WVC</defName>
+		<defName>WandererJoin_NodeBlueFormer_WVC</defName>
 		<label>(WVC) Wanderer joins: Blue Former</label>
-		<pawnKind>WVC_AlienRace_Former</pawnKind>
+		<pawnKind>WVC_AlienRace_BlueFormer</pawnKind>
 	</IncidentDef>
 
 	<IncidentDef ParentName="WVC_Nodes_WandererEventFormer_Base">
@@ -32,6 +32,12 @@
 		<defName>WandererJoin_NodeYellowFormer_WVC</defName>
 		<label>(WVC) Wanderer joins: Yellow Former</label>
 		<pawnKind>WVC_AlienRace_YellowFormer</pawnKind>
+	</IncidentDef>
+
+	<IncidentDef ParentName="WVC_Nodes_WandererEventFormer_Base">
+		<defName>WandererJoin_MechaRace_WVC</defName>
+		<label>(WVC) Wanderer joins: Meka</label>
+		<pawnKind>WVC_AlienRace_Meka</pawnKind>
 	</IncidentDef>
   
 </Defs>

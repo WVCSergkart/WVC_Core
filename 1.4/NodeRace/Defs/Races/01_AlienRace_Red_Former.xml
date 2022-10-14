@@ -8,9 +8,9 @@
 		
 		<generalSettings>
 			<alienPartGenerator>
-				<aliencrowntypes Inherit="False">
+				<headTypes Inherit="False">
 					<li>WVC_FormerHead_RedA</li>
-				</aliencrowntypes>
+				</headTypes>
 			</alienPartGenerator>
 		</generalSettings>
 

@@ -8,12 +8,12 @@
 		
 		<generalSettings>
 			<alienPartGenerator>
-				<aliencrowntypes Inherit="False">
-					<li>WVC_FormerHead_VioletA</li>
-					<li>WVC_FormerHead_VioletB</li>
-					<li>WVC_FormerHead_VioletC</li>
-					<li>WVC_FormerHead_VioletD</li>
-				</aliencrowntypes>
+				<headTypes Inherit="False">
+					<!-- <li>WVC_FormerHead_VioletA</li> -->
+					<!-- <li>WVC_FormerHead_VioletB</li> -->
+					<!-- <li>WVC_FormerHead_VioletC</li> -->
+					<!-- <li>WVC_FormerHead_VioletD</li> -->
+				</headTypes>
 				<!-- <colorChannels Inherit="False"> -->
 					<!-- <li> -->
 						<!-- <name>skin</name> -->

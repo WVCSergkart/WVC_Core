@@ -95,5 +95,11 @@
 			<li>WVC_AlienRace_RedFormer</li>
 		</arguments>
 	</Operation>
+	<Operation Class="XmlExtensions.ApplyPatch">
+		<patchName>Autopatcher_ApparelPatch_Utility_WVC</patchName>
+		<arguments>
+			<li>WVC_AlienRace_YellowFormer</li>
+		</arguments>
+	</Operation>
 
 </Patch>

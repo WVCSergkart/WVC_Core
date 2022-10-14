@@ -2,10 +2,10 @@
 <Defs>
 
 	<AlienRace.AlienBackstoryDef Name="Nodes_HumanoidBackstory_WVC" Abstract="True">
-		<title>Former</title>
-		<titleShort>Former</titleShort>
-		<!-- <baseDesc>No available information.</baseDesc> -->
+		<title>Gestated</title>
+		<titleShort>Gestated</titleShort>
 		<baseDesc>No available information.</baseDesc>
+		<!-- <baseDesc>[PAWN_nameDef] was gestated in mechanoid gestator.</baseDesc> -->
 		<slot>Childhood</slot>
 		<shuffleable>true</shuffleable>
 		<maleCommonality>100</maleCommonality>
@@ -30,9 +30,9 @@
 	<!-- Base -->
 	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_WVC">
 		<defName>NodesBackstoryChild_Former_WVC</defName>
-		<title>Forgotten past</title>
-		<titleShort>Forgotten</titleShort>
-		<baseDesc>[PAWN_nameDef]'s past is unknown.</baseDesc>
+		<title>Gestated</title>
+		<titleShort>Gestated</titleShort>
+		<!-- <baseDesc>[PAWN_nameDef]'s past is unknown.</baseDesc> -->
 		<slot>Childhood</slot>
 		<skillGains Inherit="False">
 		</skillGains>
@@ -62,9 +62,9 @@
 
 	<!-- Standart -->
 	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_WVC" Name="Nodes_HumanoidBackstory_AdulthoodBase_WVC" Abstract="True">
-		<title>Former</title>
-		<titleShort>Former</titleShort>
-		<!-- <baseDesc>No available information.</baseDesc> -->
+		<title>Gestated</title>
+		<titleShort>Gestated</titleShort>
+		<baseDesc>No available information.</baseDesc>
 		<slot>Adulthood</slot>
 		<skillGains Inherit="False">
 		</skillGains>
@@ -182,9 +182,9 @@
 
 	<!-- Standart -->
 	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_WVC" Name="Nodes_HumanoidBackstory_ChildhoodBase_WVC" Abstract="True">
-		<title>Former</title>
-		<titleShort>Former</titleShort>
-		<!-- <baseDesc>No available information.</baseDesc> -->
+		<title>Gestated</title>
+		<titleShort>Gestated</titleShort>
+		<baseDesc>[PAWN_nameDef] was gestated in mechanoid gestator.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains Inherit="False">
 		</skillGains>

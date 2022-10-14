@@ -12,6 +12,7 @@
 				<li>WVC_AlienRace_RedFormer</li>
 				<li>WVC_AlienRace_YellowFormer</li>
 				<li MayRequire="honkai.girls.sergkart">WVC_AlienRace_Reshaper</li>
+				<li>WVC_AlienRace_Meka</li>
 			  </kindDefs>
 			  <chance>100.0</chance>
 			</li>

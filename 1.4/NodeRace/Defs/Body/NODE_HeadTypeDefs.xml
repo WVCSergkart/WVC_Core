@@ -16,25 +16,46 @@
   <!-- ===================== -->
 
   <HeadTypeDef ParentName="AverageBase">
-	<defName>WVC_FormerHead_VioletA</defName>
-	<graphicPath>WVC/NodeRace/HeadViolet/HeadA</graphicPath>
+	<defName>WVC_MechaRace_HeadA</defName>
+	<graphicPath>WVC/MechaRace/MechaHeadA</graphicPath>
 	<gender>None</gender>
   </HeadTypeDef>
-  <HeadTypeDef ParentName="AverageBase">
-	<defName>WVC_FormerHead_VioletB</defName>
-	<graphicPath>WVC/NodeRace/HeadViolet/HeadB</graphicPath>
-	<gender>None</gender>
-  </HeadTypeDef>
-  <HeadTypeDef ParentName="AverageBase">
-	<defName>WVC_FormerHead_VioletC</defName>
-	<graphicPath>WVC/NodeRace/HeadViolet/HeadC</graphicPath>
-	<gender>None</gender>
-  </HeadTypeDef>
-  <HeadTypeDef ParentName="AverageBase">
-	<defName>WVC_FormerHead_VioletD</defName>
-	<graphicPath>WVC/NodeRace/HeadViolet/HeadD</graphicPath>
-	<gender>None</gender>
-  </HeadTypeDef>
+  <!-- <HeadTypeDef ParentName="AverageBase"> -->
+	<!-- <defName>WVC_MechaRace_HeadB</defName> -->
+	<!-- <graphicPath>WVC/MechaRace/HeadMecha/HeadB</graphicPath> -->
+	<!-- <gender>None</gender> -->
+  <!-- </HeadTypeDef> -->
+  <!-- <HeadTypeDef ParentName="AverageBase"> -->
+	<!-- <defName>WVC_MechaRace_HeadC</defName> -->
+	<!-- <graphicPath>WVC/MechaRace/HeadMecha/HeadC</graphicPath> -->
+	<!-- <gender>None</gender> -->
+  <!-- </HeadTypeDef> -->
+  <!-- <HeadTypeDef ParentName="AverageBase"> -->
+	<!-- <defName>WVC_MechaRace_HeadD</defName> -->
+	<!-- <graphicPath>WVC/MechaRace/HeadMecha/HeadD</graphicPath> -->
+	<!-- <gender>None</gender> -->
+  <!-- </HeadTypeDef> -->
+
+  <!-- <HeadTypeDef ParentName="AverageBase"> -->
+	<!-- <defName>WVC_FormerHead_VioletA</defName> -->
+	<!-- <graphicPath>WVC/NodeRace/HeadViolet/HeadA</graphicPath> -->
+	<!-- <gender>None</gender> -->
+  <!-- </HeadTypeDef> -->
+  <!-- <HeadTypeDef ParentName="AverageBase"> -->
+	<!-- <defName>WVC_FormerHead_VioletB</defName> -->
+	<!-- <graphicPath>WVC/NodeRace/HeadViolet/HeadB</graphicPath> -->
+	<!-- <gender>None</gender> -->
+  <!-- </HeadTypeDef> -->
+  <!-- <HeadTypeDef ParentName="AverageBase"> -->
+	<!-- <defName>WVC_FormerHead_VioletC</defName> -->
+	<!-- <graphicPath>WVC/NodeRace/HeadViolet/HeadC</graphicPath> -->
+	<!-- <gender>None</gender> -->
+  <!-- </HeadTypeDef> -->
+  <!-- <HeadTypeDef ParentName="AverageBase"> -->
+	<!-- <defName>WVC_FormerHead_VioletD</defName> -->
+	<!-- <graphicPath>WVC/NodeRace/HeadViolet/HeadD</graphicPath> -->
+	<!-- <gender>None</gender> -->
+  <!-- </HeadTypeDef> -->
 
   <!-- ===================== -->
 

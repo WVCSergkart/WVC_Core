@@ -3,7 +3,7 @@
 
   <!--=====================================================================-->
 
-  <ScenarioDef" Name="WVC_BaseScenarioSettings" Abstract="True">
+  <ScenarioDef Name="WVC_BaseScenarioSettings" Abstract="True">
 	<label>&lt;color=#FFF885&gt;WVC&lt;/color&gt;</label>
 	<description>This is a template for scenarios with races from WVC mods.</description>
 	<scenario>

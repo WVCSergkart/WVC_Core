@@ -113,12 +113,12 @@
 			<alienPartGenerator>
 				<atlasScale>4</atlasScale>
 				<borderScale>1</borderScale>
-				<aliencrowntypes>
+				<headTypes>
 					<li>WVC_FormerHead_BlueA</li>
-				</aliencrowntypes>
-				<alienbodytypes>
+				</headTypes>
+				<bodytypes>
 					<li>Female</li>
-				</alienbodytypes>
+				</bodytypes>
 				<colorChannels>
 					<li>
 						<!-- always white or cause visual bugs -->
@@ -390,7 +390,6 @@
 	  <RestRateMultiplier>1.0</RestRateMultiplier>
 	  <MeleeDodgeChance>2.0</MeleeDodgeChance>
 	  <MeleeHitChance>1.0</MeleeHitChance>
-	  <WVC_CorruptionSensitivity>0.0</WVC_CorruptionSensitivity>
 	  <Mass>54</Mass>
 	  <!-- custom -->
 	  <ImmunityGainSpeed>1.2</ImmunityGainSpeed>
@@ -455,9 +454,9 @@
 		<li>
 			<def>WVC_Nodes_Former</def>
 			<minAge>0</minAge>
-			<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
-			<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
-			<soundCall>Pawn_Mech_Centipede_Call</soundCall>
+			<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
+			<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
+			<soundCall>Pawn_Mech_Scyther_Call</soundCall>
 		</li>
 	  </lifeStageAges>
 	  <!-- <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn> -->

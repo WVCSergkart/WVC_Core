@@ -8,9 +8,10 @@
 		
 		<generalSettings>
 			<alienPartGenerator>
-				<aliencrowntypes Inherit="False">
+				<headTypes Inherit="False">
 					<li>WVC_FormerHead_YellowA</li>
-				</aliencrowntypes>
+				</headTypes>
+				<headOffset>(-0.1, 0.00)</headOffset>
 			</alienPartGenerator>
 		</generalSettings>
 

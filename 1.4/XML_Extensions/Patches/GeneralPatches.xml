@@ -282,13 +282,6 @@
 				  </value>
 			</Operation>
 
-			<!-- <Operation Class="XmlExtensions.PatchOperationAddOrReplace"> -->
-				  <!-- <xpath>Defs/ThingDef[defName="Plant_TreeGauranlen" or defName="Plant_TreeAnima"]/plant</xpath> -->
-				  <!-- <value> -->
-					<!-- <minSpacingBetweenSamePlant>1.9</minSpacingBetweenSamePlant> -->
-				  <!-- </value> -->
-			<!-- </Operation> -->
-
 		</caseTrue>
 	</Operation>
 
@@ -314,8 +307,6 @@
 		<packageId>true</packageId>
 		<logic>and</logic>
 		<caseTrue>
-
-			<!-- SoS + Gaurler patch -->
 
 			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
 				<xpath>/Defs/ThingDef[@Name="DryadBase"]</xpath>

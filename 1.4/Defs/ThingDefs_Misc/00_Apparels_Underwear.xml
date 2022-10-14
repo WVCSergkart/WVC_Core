@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=====================================================================-->
+
+  <ApparelLayerDef Name="WVC_LayerApparelBase" Abstract="True">
+	<label>skin</label>
+	<drawOrder>0</drawOrder>
+  </ApparelLayerDef>
+
+  <!-- <ApparelLayerDef ParentName="WVC_LayerApparelBase"> -->
+	<!-- <defName>WVC_Invisible</defName> -->
+  <!-- </ApparelLayerDef> -->
+  <ApparelLayerDef ParentName="WVC_LayerApparelBase">
+	<defName>WVC_Underwear</defName>
+  </ApparelLayerDef>
+
+  <!--=====================================================================-->
+
+  <ThingDef Name="Marker_WVC_ApparelMakeableBase" ParentName="ApparelMakeableBase" Abstract="True">
+	<graphicData Inherit="False">
+	  <!-- <texPath>WVC/Apparels/MechaniteForge</texPath> -->
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <!-- <shaderType>CutoutComplex</shaderType> -->
+	  <drawSize>0.75</drawSize>
+	</graphicData>
+	<thingCategories>
+	</thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="Marker_WVC_ApparelMakeableBase" Name="WVC_Apparel_PerfectUnderwear">
+	<defName>WVC_Apparel_PerfectUnderwear</defName>
+	<label>simple underwear</label>
+	<description>The pair of pants and top.</description>
+	<techLevel>Industrial</techLevel>
+	<recipeMaker>
+	  <researchPrerequisite>ComplexClothing</researchPrerequisite>
+	</recipeMaker>
+	<graphicData>
+	  <texPath>WVC/Apparels/PerfectUnderwear</texPath>
+	</graphicData>
+	<costStuffCount>10</costStuffCount>
+	<stuffCategories>
+	  <li>Fabric</li>
+	  <li>Leathery</li>
+	</stuffCategories>
+	<thingCategories>
+	  <li>WVC_Underwear</li>
+	</thingCategories>
+	<statBases>
+	  <MarketValue>3</MarketValue>
+	  <MaxHitPoints>50</MaxHitPoints>
+	  <WorkToMake>1600</WorkToMake>
+	  <Mass>0.07</Mass>
+	  <StuffEffectMultiplierArmor>0.01</StuffEffectMultiplierArmor>
+	  <StuffEffectMultiplierInsulation_Cold>0.01</StuffEffectMultiplierInsulation_Cold>
+	  <StuffEffectMultiplierInsulation_Heat>0.04</StuffEffectMultiplierInsulation_Heat>
+	  <EquipDelay>1</EquipDelay>
+	  <Insulation_Cold>1</Insulation_Cold>
+	  <Insulation_Heat>1</Insulation_Heat>
+	</statBases>
+	<apparel>
+	  <bodyPartGroups>
+		<!-- <li>FullHead</li> -->
+		<!-- <li>Neck</li> -->
+		<li>Torso</li>
+		<!-- <li>Shoulders</li> -->
+		<!-- <li>Arms</li> -->
+		<li>Legs</li>
+		<!-- <li>Hands</li> -->
+		<!-- <li>Feet</li> -->
+	  </bodyPartGroups>
+	  <layers Inherit="False">
+		<li>WVC_Underwear</li>
+	  </layers>
+	  <tags Inherit="False">
+		<li MayRequire="ludeon.rimworld.royalty">Royal</li>
+		<li MayRequire="ludeon.rimworld.royalty">RoyalTier1</li>
+		<li MayRequire="ludeon.rimworld.royalty">RoyalTier2</li>
+		<li MayRequire="ludeon.rimworld.royalty">RoyalTier3</li>
+		<li MayRequire="ludeon.rimworld.royalty">RoyalTier4</li>
+		<li MayRequire="ludeon.rimworld.royalty">RoyalTier5</li>
+		<li MayRequire="ludeon.rimworld.royalty">RoyalTier6</li>
+		<li MayRequire="ludeon.rimworld.royalty">RoyalTier7</li>
+		<!-- <li>Neolithic</li> -->
+		<li>IndustrialBasic</li>
+		<li>ValkyriesBase_WVC</li>
+		<!-- <li MayRequire="kentington.saveourship2">Spacer</li> -->
+		<!-- <li MayRequire="kentington.saveourship2">EVA</li> -->
+	  </tags>
+	  <defaultOutfitTags Inherit="False">
+		<li>Worker</li>
+		<li>Soldier</li>
+	  </defaultOutfitTags>
+	  <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+	  <careIfWornByCorpse>true</careIfWornByCorpse>
+	  <careIfDamaged>false</careIfDamaged>
+	  <countsAsClothingForNudity>true</countsAsClothingForNudity>
+	</apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Apparel_PerfectUnderwear">
+	<defName>WVC_Apparel_WarmUnderwear</defName>
+	<label>warm underwear</label>
+	<costStuffCount>45</costStuffCount>
+	<statBases>
+	  <WorkToMake>3000</WorkToMake>
+	  <Insulation_Cold>25</Insulation_Cold>
+	  <!-- <Insulation_Heat>0</Insulation_Heat> -->
+	</statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Apparel_PerfectUnderwear">
+	<defName>WVC_Apparel_SummerUnderwear</defName>
+	<label>summer underwear</label>
+	<costStuffCount>45</costStuffCount>
+	<statBases>
+	  <WorkToMake>3000</WorkToMake>
+	  <!-- <Insulation_Cold>30</Insulation_Cold> -->
+	  <Insulation_Heat>25</Insulation_Heat>
+	</statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Apparel_PerfectUnderwear">
+	<defName>WVC_Apparel_ThermalUnderwear</defName>
+	<label>thermal underwear</label>
+	<costStuffCount>60</costStuffCount>
+	<statBases>
+	  <WorkToMake>5000</WorkToMake>
+	  <Insulation_Cold>20</Insulation_Cold>
+	  <Insulation_Heat>20</Insulation_Heat>
+	</statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Apparel_PerfectUnderwear">
+	<defName>WVC_Apparel_ExoticUnderwear</defName>
+	<label>exotic underwear</label>
+	<costStuffCount>70</costStuffCount>
+	<statBases>
+	  <WorkToMake>5000</WorkToMake>
+	  <Insulation_Cold>15</Insulation_Cold>
+	  <Insulation_Heat>15</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+	  <NegotiationAbility>0.2</NegotiationAbility>
+	</equippedStatOffsets>
+  </ThingDef>
+
+  <ThingDef MayRequire="ludeon.rimworld.ideology" ParentName="WVC_Apparel_PerfectUnderwear">
+	<defName>WVC_Apparel_Shibari</defName>
+	<label>shibari</label>
+	<description>Rough and prickly ropes digging into the skin, not everyone will be ready to walk in this everyday.</description>
+	<costStuffCount>35</costStuffCount>
+	<statBases>
+	  <WorkToMake>5000</WorkToMake>
+	  <Insulation_Cold>5</Insulation_Cold>
+	  <Insulation_Heat>5</Insulation_Heat>
+	</statBases>
+	<apparel>
+	  <slaveApparel>true</slaveApparel>
+	  <tags Inherit="False">
+		<li>Slave</li>
+	  </tags>
+	  <defaultOutfitTags Inherit="False">
+		<li>Slave</li>
+	  </defaultOutfitTags>
+	  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+	</apparel>
+	<equippedStatOffsets>
+	  <SlaveSuppressionOffset>0.15</SlaveSuppressionOffset>
+	</equippedStatOffsets>
+  </ThingDef>
+
+</Defs>
