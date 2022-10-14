@@ -711,6 +711,14 @@
 	  <rotation>South</rotation>
 	</KCSG.SymbolDef>
 
+	<KCSG.SymbolDef>
+	  <defName>FloorHeater_WVC</defName>
+	  <thing>FloorHeater_WVC</thing>
+	</KCSG.SymbolDef>
 
+	<KCSG.SymbolDef>
+	  <defName>WVC_MechanoidStorageSpot</defName>
+	  <thing>WVC_MechanoidStorageSpot</thing>
+	</KCSG.SymbolDef>
 
 </Defs>

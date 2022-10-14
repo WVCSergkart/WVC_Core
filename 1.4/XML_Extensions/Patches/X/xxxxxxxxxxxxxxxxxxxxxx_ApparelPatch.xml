@@ -12,16 +12,10 @@
 			<Operation Class="XmlExtensions.FindMod">
 				<mods>
 					<li>erdelf.humanoidalienraces</li>
+					<li>erdelf.humanoidalienraces.dev</li>
 				</mods>
 				<packageId>true</packageId>
 				<caseTrue>
-
-			<Operation Class="XmlExtensions.FindMod">
-				<mods>
-					<li>ceteam.combatextended</li>
-				</mods>
-				<packageId>true</packageId>
-				<caseFalse>
 
 					<Operation Class="XmlExtensions.ApplyPatch">
 						<patchName>Autopatcher_ApparelPatchChooseRace_WVC</patchName>
@@ -30,9 +24,6 @@
 							<!-- <li>[@Name="BaseValkyrie_WVC"]</li> -->
 						</arguments>
 					</Operation>
-
-				</caseFalse>
-			</Operation>
 
 				</caseTrue>
 			</Operation>
