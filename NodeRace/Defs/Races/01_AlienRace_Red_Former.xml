@@ -37,6 +37,8 @@
 	  <MoveSpeed>7.9</MoveSpeed>
 	  <MarketValue>2350</MarketValue>
 	  <Mass>44</Mass>
+	  <ShootingAccuracyPawn>3.0</ShootingAccuracyPawn>
+	  <!-- <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown> -->
 	  <VEF_VerbRangeFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_VerbRangeFactor>
 	</statBases>
 
@@ -84,7 +86,7 @@
 
 	<comps>
 		<li MayRequire="oskarpotocki.vanillafactionsexpanded.core" Class="VFECore.CompProperties_ShieldBubble">
-		  <EnergyShieldRechargeRate>0.08</EnergyShieldRechargeRate>
+		  <EnergyShieldRechargeRate>2.5</EnergyShieldRechargeRate>
 		  <EnergyShieldEnergyMax>120</EnergyShieldEnergyMax>
 		  <blockRangedAttack>true</blockRangedAttack>
 		  <blockMeleeAttack>true</blockMeleeAttack>
@@ -96,8 +98,8 @@
 		  <maxShieldSize>1.8</maxShieldSize>
 		  <minShieldSize>1.4</minShieldSize>
 		  <shieldColor>(255,133,133)</shieldColor>
-		  <EnergyLossPerDamage>1</EnergyLossPerDamage>
-		  <disableRotation>true</disableRotation>
+		  <!-- <EnergyLossPerDamage>5</EnergyLossPerDamage> -->
+		  <!-- <disableRotation>true</disableRotation> -->
 		  <absorbDamageSound>EnergyShield_AbsorbDamage</absorbDamageSound>
 		  <brokenSound>EnergyShield_Broken</brokenSound>
 		  <resetSound>EnergyShield_Reset</resetSound>
