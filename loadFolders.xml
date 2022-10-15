@@ -1,20 +1,11 @@
 <loadFolders>
-	<v1.3>
-		<li>/</li>
-		<li>1.3</li>
-		<!-- Royalty -->
-		<li IfModActive="ludeon.rimworld.royalty">1.3/Royalty</li>
-		<!-- Ideology -->
-		<li IfModActive="ludeon.rimworld.ideology">1.3/Ideology</li>
-	</v1.3>
 	<v1.4>
 		<li>/</li>
-		<li>1.4</li>
-		<li IfModActive="erdelf.humanoidalienraces.dev">1.4/NodeRace</li>
-		<li IfModActive="erdelf.humanoidalienraces">1.4/NodeRace</li>
-		<li IfModActive="ludeon.rimworld.royalty">1.4/Royalty</li>
-		<li IfModActive="ludeon.rimworld.ideology">1.4/Ideology</li>
-		<li IfModActive="imranfish.xmlextensions">1.4/XML_Extensions</li>
+		<!-- <li>1.4</li> -->
+		<li IfModActive="erdelf.humanoidalienraces.dev">NodeRace</li>
+		<li IfModActive="erdelf.humanoidalienraces">NodeRace</li>
+		<li IfModActive="ludeon.rimworld.royalty">Royalty</li>
+		<li IfModActive="ludeon.rimworld.ideology">Ideology</li>
 	</v1.4>
 </loadFolders>
 
