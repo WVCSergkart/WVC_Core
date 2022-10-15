@@ -72,6 +72,63 @@
 				<xpath>/Defs/IncidentDef[@ParentName="WVC_Nodes_WandererEventFormer_Base"]</xpath>
 			</Operation>
 		</caseFalse>
+		<caseTrue>
+
+			<Operation Class="PatchOperationAdd">
+				<xpath>/Defs</xpath>
+				<value>
+
+				  <AlienRace.RaceSettings>
+					<defName>NodeRaces_Additional_RaceSettings_WVC</defName>
+					<pawnKindSettings>
+					  <startingColonists>
+						<li>
+						  <pawnKindEntries>
+							<li>
+							  <kindDefs>
+								<li>WVC_AlienRace_Meka</li>
+							  </kindDefs>
+							  <chance>10.0</chance>
+							</li>
+						  </pawnKindEntries>
+						  <factionDefs>
+							<li>PlayerColony</li>
+						  </factionDefs>
+						</li>
+					  </startingColonists>
+					  <alienrefugeekinds>
+						<li>
+							<kindDefs>
+								<li>WVC_AlienRace_Meka</li>
+								<li>WVC_AlienRace_RedFormer</li>
+								<li>WVC_AlienRace_YellowFormer</li>
+								<li>WVC_AlienRace_BlueFormer</li>
+							</kindDefs>
+							<chance>10.0</chance>
+						</li>
+					  </alienrefugeekinds>
+					  <alienwandererkinds>
+						<li>
+							<pawnKindEntries>
+								<li>
+									<kindDefs>
+										<li>WVC_AlienRace_Meka</li>
+									</kindDefs>
+									<chance>10.0</chance>
+								</li>
+							</pawnKindEntries>
+							<factionDefs>
+								<li>PlayerColony</li> 
+							</factionDefs>
+						</li>
+					  </alienwandererkinds>
+					</pawnKindSettings>
+				  </AlienRace.RaceSettings>
+
+				</value>
+			</Operation>
+
+		</caseTrue>
 	</Operation>
 
 	<!--=====================================================================-->

@@ -48,7 +48,7 @@
 						<li Class="XmlExtensions.Setting.Checkbox">
 							<key>WVC_NoKL_DisableUnderwear_Option</key>
 							<label>Disable underwear?</label>
-							<tooltip>The mod adds underwear - a cheap, invisible item of clothing that will help protect against temperatures. It can only be disabled if the KL mod is NOT installed.</tooltip>
+							<tooltip>The mod adds underwear - a cheap, invisible item of clothing that will help protect against temperatures.</tooltip>
 							<defaultValue>false</defaultValue>
 							<tKey>HGS_General_NoKL_DisableUnderwear_Option_Label_WVC</tKey>
 							<tKeyTip>HGS_General_NoKL_DisableUnderwear_Option_Desc_WVC</tKeyTip>

@@ -98,18 +98,6 @@
 						<!-- =============================================== -->
 						<li Class="XmlExtensions.Setting.GapLine"/>
 						<li Class="XmlExtensions.Setting.DrawImage">
-							<texPath>WVC/Stuff/MendingStation_north</texPath>
-							<scale>0.25</scale>
-						</li>
-						<!-- =============================================== -->
-						<li Class="XmlExtensions.Setting.GapLine"/>
-						<li Class="XmlExtensions.Setting.DrawImage">
-							<texPath>WVC/Stuff/SleepPod/SleepPod_north</texPath>
-							<scale>0.25</scale>
-						</li>
-						<!-- =============================================== -->
-						<li Class="XmlExtensions.Setting.GapLine"/>
-						<li Class="XmlExtensions.Setting.DrawImage">
 							<texPath>WVC/Stuff/WeaponBench/WeaponBench</texPath>
 							<scale>0.25</scale>
 						</li>
@@ -226,29 +214,6 @@
 								<li Class="XmlExtensions.Setting.Text">
 									<text>Stable power cell - Like the vanilla unstable power cell, but does not explode.</text>
 									<tKey>HGS_Buildings_StablePowerCell_Info_WVC</tKey>
-								</li>
-							</settings>
-						</li>
-						<!-- =============================================== -->
-						<li Class="XmlExtensions.Setting.GapLine"/>
-						<li Class="XmlExtensions.Setting.ScrollView">
-							<height>64</height>
-							<settings>
-								<li Class="XmlExtensions.Setting.Text">
-									<text>Mending capsule - A triple bed for the &lt;color=#a2c8ff&gt;kemomimilike&lt;/color&gt; mod, but it can be used by all creatures with a body less than 0.51 (Only sentient ones). Significantly increases the rate of wound healing.</text>
-									<tKey>HGS_Buildings_MendingStation_Info_WVC</tKey>
-								</li>
-							</settings>
-						</li>
-						<!-- =============================================== -->
-						<li Class="XmlExtensions.Setting.GapLine"/>
-						<li Class="XmlExtensions.Setting.ScrollView">
-							<height>64</height>
-							<settings>
-								<li Class="XmlExtensions.Setting.Text">
-									<text>Sleep pod - Single bed, parameters similar to Mending capsule.
-									</text>
-									<tKey>HGS_Buildings_SleepPod_Info_WVC</tKey>
 								</li>
 							</settings>
 						</li>

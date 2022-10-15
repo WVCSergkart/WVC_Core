@@ -97,33 +97,8 @@
 		<defaultValue>false</defaultValue>
 		<caseTrue>
 
-			<Operation Class="XmlExtensions.FindMod">
-				<mods>
-					<li>honkai.girls.sergkart</li>
-				</mods>
-				<packageId>true</packageId>
-				<caseFalse>
-
-					<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-						<xpath>/Defs/ThingDef[@ParentName="WVC_Apparel_PerfectUnderwear" or @Name="WVC_Apparel_PerfectUnderwear"]</xpath>
-					</Operation>
-
-				</caseFalse>
-				<caseTrue>
-
-					<Operation Class="PatchOperationAdd">
-						<xpath>/Defs/AlienRace.ThingDef_AlienRace[@Name="BaseValkyrie_WVC"]/alienRace/raceRestriction/apparelList</xpath>
-						<value>
-							<li>WVC_Apparel_PerfectUnderwear</li>
-							<li>WVC_Apparel_WarmUnderwear</li>
-							<li>WVC_Apparel_SummerUnderwear</li>
-							<li>WVC_Apparel_ThermalUnderwear</li>
-							<li>WVC_Apparel_ExoticUnderwear</li>
-							<li>WVC_Apparel_Shibari</li>
-						</value>
-					</Operation>
-
-				</caseTrue>
+			<Operation Class="XmlExtensions.PatchOperationSafeRemove">
+				<xpath>/Defs/ThingDef[@ParentName="WVC_Apparel_PerfectUnderwear" or @Name="WVC_Apparel_PerfectUnderwear"]</xpath>
 			</Operation>
 
 		</caseTrue>

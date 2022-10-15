@@ -20,7 +20,7 @@
 	<priority>-1000</priority>
 	<!-- Описание используется внутри игры -->
 	<!-- Description used inside the game -->
-	<description>Beds have limits for body size. This is done to limit them for pawns from KL. However, races that are less than 0.71 or 0.51 can also use them, but this comes with a visual bug.</description>
+	<description>This bed is based on the tents from the "VFE - Classic" mod and pawns should not be displayed when sleeping. However, a bug is possible due to which pawns become visible, both in tents and in these beds.</description>
 	<!-- ========================================================== -->
 	<!-- Текст используется в обучалке -->
 	<!-- Они могут быть совершенно разными или полностью одинаковыми. В поле для туториала я пишу более полную информацию, поэтому для перевода важней текст отсюда. -->
@@ -28,7 +28,7 @@
 	<!-- Text used in tutorial -->
 	<!-- They can be completely different or completely the same. In the tutorial field, I write more complete information, so the text from here is more important for translation. -->
 	<!-- However, the chance that the player will see it is less. -->
-	<helpText>Mod "WVC - Core" adds several beds that are designed for races from the mod "WVC - kemomimilike".\n\nBy default, beds have limits for body size. This is done to limit them for pawns from KL. However, races that are less than 0.71 or 0.51 can also use them, but this comes with a visual bug.</helpText>
+	<helpText>This bed is based on the tents from the "VFE - Classic" mod and pawns should not be displayed when sleeping. However, a bug is possible due to which pawns become visible, both in tents and in these beds.</helpText>
   </ConceptDef>
 
   <ConceptDef ParentName="WVC_ConceptsBase">
