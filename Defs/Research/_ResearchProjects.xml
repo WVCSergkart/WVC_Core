@@ -25,7 +25,7 @@
 
   <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
 	<defName>ValkyriesTechs_I_WVC</defName>
-	<label>Ancient techs</label>
+	<label>ancient basic</label>
 	<description>Recreate long-lost technologies in order to replicate the achievements of the ancients.</description>
 	<techLevel>Spacer</techLevel>
 	<techprintCount>1</techprintCount>
@@ -50,13 +50,13 @@
 	  <li>SterileMaterials</li>
 	  <li>AirConditioning</li>
 	  <li>AdvancedFabrication</li>
-	  <li>MicroelectronicsBasics</li>
+	  <!-- <li>MicroelectronicsBasics</li> -->
 	</prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
 	<defName>ValkyriesTechs_II_WVC</defName>
-	<label>Mechanoid techs</label>
+	<label>mechanoid basic</label>
 	<description>To study and repeat the perfection of machines.</description>
 	  <researchViewX>1.00</researchViewX>
 	  <researchViewY>2.70</researchViewY>
@@ -70,23 +70,24 @@
 	  <li>ShipReactor</li>
 	  <li>ShipComputerCore</li>
 	  <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_MechanoidStructures</li>
-	  <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechStart</li>
+	  <!-- <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechStart</li> -->
 	</prerequisites>
   </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
 	<defName>ValkyriesTechs_III_WVC</defName>
-	<label>Archotech techs</label>
+	<label>archotech basic</label>
 	<description>Recreating patterns that could bring us closer to archotechs.</description>
-	<researchViewX>7.00</researchViewX>
-	<researchViewY>2.55</researchViewY>
+	<researchViewX>6.00</researchViewX>
+	<researchViewY>3.50</researchViewY>
 	<techLevel>Archotech</techLevel>
 	<hiddenPrerequisites>
 	</hiddenPrerequisites>
 	<prerequisites>
-	  <li>ValkyriesTechs_ResourceConversionI_WVC</li>
-	  <li>ValkyriesTechs_II_WVC</li>
-	  <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechTierOne</li>
+	  <!-- <li>ValkyriesTechs_ResourceConversionI_WVC</li> -->
+	  <!-- <li>ValkyriesTechs_II_WVC</li> -->
+	  <!-- <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechTierOne</li> -->
+	  <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechStart</li>
 	  <!-- Nodes -->
 	  <li>WVC_ResearchNodes_Blue</li>
 	  <li>WVC_ResearchNodes_Red</li>
@@ -100,7 +101,7 @@
 
   <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
 	<defName>ValkyriesTechs_MechaniteCrafterI_WVC</defName>
-	<label>Mechanizer</label>
+	<label>mechanizer</label>
 	<description>Reconstruction of matter converter based on mechanite nanotechnologies.</description>
 	<baseCost>5000</baseCost>
 	<techprintCount>1</techprintCount>
@@ -126,14 +127,14 @@
 
   <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
 	<defName>ValkyriesTechs_ResourceConversionI_WVC</defName>
-	<label>Hybridizer</label>
+	<label>hybridizer</label>
 	<description>Expansion of the technological capabilities of the mechanizer and its improvement.</description>
 	<researchViewX>1.00</researchViewX>
 	<researchViewY>3.20</researchViewY>
 	<hiddenPrerequisites>
 	</hiddenPrerequisites>
 	<prerequisites>
-	  <li>ValkyriesTechs_I_WVC</li>
+	  <!-- <li>ValkyriesTechs_I_WVC</li> -->
 	  <li>ValkyriesTechs_MechaniteCrafterI_WVC</li>
 	</prerequisites>
   </ResearchProjectDef>
@@ -159,7 +160,7 @@
 
   <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
 	<defName>ValkyriesTechs_TurretsI_WVC</defName>
-	<label>Mechanoid defence systems</label>
+	<label>mechanoid defence systems</label>
 	<description>Create protection systems similar to mechanods.</description>
 	<researchViewX>2.00</researchViewX>
 	<researchViewY>2.05</researchViewY>
@@ -182,7 +183,7 @@
 
   <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
 	<defName>ValkyriesTechs_GaurlerI_WVC</defName>
-	<label>Gaurler</label>
+	<label>gaurler</label>
 	<description>Experiments on the hybridization of organics and machines.</description>
 	  <researchViewX>2.00</researchViewX>
 	  <researchViewY>3.20</researchViewY>
@@ -190,7 +191,7 @@
 	</hiddenPrerequisites>
 	<prerequisites>
 	  <li MayRequire="ludeon.rimworld.royalty">BrainWiring</li>
-	  <li MayRequire="ludeon.rimworld.ideology">NeuralSupercharger</li>
+	  <!-- <li MayRequire="ludeon.rimworld.ideology">NeuralSupercharger</li> -->
 	  <li MayRequire="ludeon.rimworld.ideology">Bioregeneration</li>
 	  <li>ValkyriesTechs_II_WVC</li>
 	</prerequisites>
@@ -200,19 +201,20 @@
 	<defName>WVC_MechanoidTech_IncubatorLF</defName>
 	<label>node machine</label>
 	<description>Using the data of previous studies to create a complex machine that will allow you to get a living metal.</description>
-	<researchViewX>3.00</researchViewX>
-	<researchViewY>3.20</researchViewY>
+	<researchViewX>2.00</researchViewX>
+	<researchViewY>2.70</researchViewY>
 	<hiddenPrerequisites>
 	</hiddenPrerequisites>
 	<tags>
 	  <li>WVC_Assembled_ELF_Base</li>
 	</tags>
 	<prerequisites>
+	  <li>ValkyriesTechs_II_WVC</li>
+	  <li>ValkyriesTechs_ResourceConversionI_WVC</li>
+	  <!-- <li MayRequire="vanillaexpanded.vgeneticse">GR_GeneticMechahybridization</li> -->
 	  <!-- <li MayRequire="vanillaexpanded.vgeneticse">GR_InsectoidBioengineering</li> -->
-	  <li MayRequire="vanillaexpanded.vgeneticse">GR_GeneticMechahybridization</li>
-	  <li>ValkyriesTechs_GaurlerI_WVC</li>
-	  <li>ValkyriesTechs_ReplicatorI_WVC</li>
-	  <li>WVC_RaceResearching_ELFs</li>
+	  <!-- <li>ValkyriesTechs_GaurlerI_WVC</li> -->
+	  <!-- <li>WVC_RaceResearching_ELFs</li> -->
 	</prerequisites>
   </ResearchProjectDef>
 
@@ -229,12 +231,12 @@
 	<defName>WVC_Tech_ExoticWeaponCraft</defName>
 	<label>ancient weapon</label>
 	<researchViewX>2.00</researchViewX>
-	<researchViewY>1.55</researchViewY>
+	<researchViewY>4.35</researchViewY>
 	<prerequisites>
 	  <!-- <li>Machining</li> -->
 	  <!-- <li>AdvancedFabrication</li> -->
-	  <li>ValkyriesTechs_II_WVC</li>
-	  <li>WVC_RaceResearching_Valkyries</li>
+	  <li>ValkyriesTechs_I_WVC</li>
+	  <li>ValkyriesTechs_ResourceConversionI_WVC</li>
 	</prerequisites>
   </ResearchProjectDef>
 

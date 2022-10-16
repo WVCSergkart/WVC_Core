@@ -15,8 +15,8 @@
 	  <li MayRequire="vat.epoeforked">AdvancedBionics</li>
 	  <li MayRequire="vat.epoeforked">SyntheticOrgans</li>
 	  <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li>
-	  <!-- <li MayRequire="ludeon.rimworld.royalty">ArtificialMetabolism</li> -->
-	  <li MayRequire="ludeon.rimworld.royalty">HealingFactors</li>
+	  <li MayRequire="ludeon.rimworld.royalty">ArtificialMetabolism</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">HealingFactors</li> -->
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">MolecularAnalysis</li> -->
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
 	  <li MayRequire="ludeon.rimworld.royalty">SpecializedLimbs</li>
@@ -46,10 +46,10 @@
 	  <!-- <li>Bionics</li> -->
 	  <li>WVC_BionicTech_AdvancedBionic</li>
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li> -->
-	  <li MayRequire="ludeon.rimworld.royalty">ArtificialMetabolism</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">ArtificialMetabolism</li> -->
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">HealingFactors</li> -->
 	  <li MayRequire="ludeon.rimworld.royalty">MolecularAnalysis</li>
-	  <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">SpecializedLimbs</li> -->
 	</prerequisites>
   </ResearchProjectDef>
@@ -68,10 +68,11 @@
 	<prerequisites>
 	  <li>WVC_BionicTech_Cybernetic</li>
 	  <li>ValkyriesTechs_I_WVC</li>
-	  <li MayRequire="ludeon.rimworld.royalty">NeuralComputation</li>
-	  <li MayRequire="ludeon.rimworld.royalty">BrainWiring</li>
-	  <li MayRequire="ludeon.rimworld.royalty">CircadianInfluence</li>
-	  <li MayRequire="vanillaexpanded.vgeneticse">GR_GeneticMechahybridization</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">NeuralComputation</li> -->
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">BrainWiring</li> -->
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">CircadianInfluence</li> -->
+	  <!-- <li MayRequire="vanillaexpanded.vgeneticse">GR_GeneticMechahybridization</li> -->
+	  <li MayRequire="ludeon.rimworld.royalty">CompactWeaponry</li>
 	</prerequisites>
   </ResearchProjectDef>
 
@@ -84,10 +85,11 @@
 	<prerequisites>
 	  <li>ValkyriesTechs_II_WVC</li>
 	  <li>WVC_RaceResearching_Valkyries</li>
+	  <li MayRequire="vanillaexpanded.vgeneticse">GR_GeneticMechahybridization</li>
 	</prerequisites>
   </ResearchProjectDef>
 
-  <ResearchProjectDef ParentName="WVC_ExperimentalTechs_Base">
+  <ResearchProjectDef MayRequire="honkai.girls.sergkart" ParentName="WVC_ExperimentalTechs_Base">
 	<defName>WVC_RaceResearching_Dryad</defName>
 	<label>mutations</label>
 	<description>Creation of conditions for artificial evolution.</description>
@@ -96,6 +98,7 @@
 	<prerequisites>
 	  <li>ValkyriesTechs_GaurlerI_WVC</li>
 	  <li>WVC_RaceResearching_Valkyries</li>
+	  <li MayRequire="ludeon.rimworld.royalty">VenomSynthesis</li>
 	</prerequisites>
   </ResearchProjectDef>
 
@@ -115,9 +118,9 @@
 	  <li>Bionics</li>
 	  <li MayRequire="spoonshortage.adogsaidanimalprosthetics">AnimalHeal</li>
 	  <li MayRequire="vat.epoeforked">EPOE_NeurologicalTreatment</li>
-	  <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li> -->
 	  <li MayRequire="ludeon.rimworld.royalty">HealingFactors</li>
-	  <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
 	</prerequisites>
   </ResearchProjectDef>
 
@@ -130,8 +133,10 @@
 	<researchViewY>1.20</researchViewY>
 	<prerequisites>
 	  <li>WVC_ResearchNodes_Blue</li>
+	  <li>WVC_RaceResearching_ELFs</li>
+	  <li MayRequire="ludeon.rimworld.royalty">NeuralComputation</li>
 	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
-	  <li>WVC_BionicTech_ScarsHealing</li>
+	  <!-- <li>WVC_BionicTech_ScarsHealing</li> -->
 	</prerequisites>
   </ResearchProjectDef>
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
@@ -141,8 +146,10 @@
 	<researchViewY>1.65</researchViewY>
 	<prerequisites>
 	  <li>WVC_ResearchNodes_Red</li>
+	  <li>WVC_RaceResearching_ELFs</li>
 	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
-	  <li>WVC_BionicTech_ScarsHealing</li>
+	  <!-- <li>WVC_BionicTech_ScarsHealing</li> -->
+	  <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
 	</prerequisites>
   </ResearchProjectDef>
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
@@ -152,8 +159,9 @@
 	<researchViewY>2.55</researchViewY>
 	<prerequisites>
 	  <li>WVC_ResearchNodes_Violet</li>
+	  <li>WVC_RaceResearching_ELFs</li>
 	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
-	  <li>WVC_BionicTech_ScarsHealing</li>
+	  <!-- <li>WVC_BionicTech_ScarsHealing</li> -->
 	</prerequisites>
   </ResearchProjectDef>
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
@@ -163,6 +171,7 @@
 	<researchViewY>2.10</researchViewY>
 	<prerequisites>
 	  <li>WVC_ResearchNodes_Green</li>
+	  <li>WVC_RaceResearching_ELFs</li>
 	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
 	  <li>WVC_BionicTech_ScarsHealing</li>
 	</prerequisites>
@@ -174,8 +183,10 @@
 	<researchViewY>3.00</researchViewY>
 	<prerequisites>
 	  <li>WVC_ResearchNodes_Yellow</li>
+	  <li>WVC_RaceResearching_ELFs</li>
+	  <li MayRequire="ludeon.rimworld.royalty">CircadianInfluence</li>
 	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
-	  <li>WVC_BionicTech_ScarsHealing</li>
+	  <!-- <li>WVC_BionicTech_ScarsHealing</li> -->
 	</prerequisites>
   </ResearchProjectDef>
 
@@ -183,16 +194,16 @@
 
   <ResearchProjectDef ParentName="WVC_ExperimentalTechs_Base">
 	<defName>WVC_RaceResearching_Herrschers</defName>
-	<label>experiment "AR.H"</label>
+	<label>archotech-node  bionic</label>
 	<description>Combining all the knowledge gained in order to create prototypes of archotech technologies.</description>
 	<techLevel>Archotech</techLevel>
 	<baseCost>7000</baseCost>
-	<researchViewX>8.00</researchViewX>
-	<researchViewY>1.95</researchViewY>
+	<researchViewX>7.00</researchViewX>
+	<researchViewY>2.10</researchViewY>
 	<prerequisites>
 	  <li>ValkyriesTechs_III_WVC</li>
-	  <li>WVC_RaceResearching_Dryad</li>
-	  <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechTierThree</li>
+	  <li MayRequire="honkai.girls.sergkart">WVC_RaceResearching_Dryad</li>
+	  <!-- <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechTierThree</li> -->
 	  <!-- = -->
 	  <li>WVC_ResearchBodyParts_NodeBlue</li>
 	  <li>WVC_ResearchBodyParts_NodeGreen</li>

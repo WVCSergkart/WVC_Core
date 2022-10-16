@@ -130,7 +130,7 @@
 	  <texPath>WVC/Stuff/MechanoidStorage</texPath>
 	</graphicData>
 	<researchPrerequisites Inherit="False">
-	  <li>ValkyriesTechs_I_WVC</li>
+	  <li>ValkyriesTechs_II_WVC</li>
 	</researchPrerequisites>
   </ThingDef>
 
