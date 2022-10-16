@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XmlExtensions.SettingsMenuDef>
+		<defName>NotSettings_Info_AboutRaces_WVC</defName>
+		<modId>honkai.girls.sergkart</modId>
+		<settings>
+			<li Class="XmlExtensions.Setting.Text">
+				<text>About Formers:
+
+&lt;color=#85caff&gt;Blue Former (Hornad) - Significantly superior to the human pawn as it does not experience nervous breakdowns, works 1.5 times faster and has a strong basic attacks. However, they do very poorly with social stats, they are easy to change ideology, they have a harder time making relationships with pawns, and they have a passive beauty debuff.&lt;/color&gt;
+
+&lt;color=#FF8585&gt;Red Former (Nautil) - Inherit parameters from blue ones. Except: they have reduced armor, worse social impact. But they have a nice bonus to range and accuracy.&lt;/color&gt;
+
+&lt;color=#FFF885&gt;Yellow Former (Filon) - Inherit the parameters from the blue ones. Except: reduced armor, slightly worse social impact. They have a significant bonus to meditation and psi sensitivity, making them good psycasters.&lt;/color&gt;
+
+&lt;color=#ffe6d4&gt;Colorless Former (Meka) - Do not inherit any parameters from regular Formers, except for backstories. Has the female body and support all vanilla hairstyles, tattoos and clothes. All parameters of this race are significantly superior to both Formers and Human pawns. They have a nice social impact bonus, strong basic attacks, and a high defense stats. Of the debuffs, they have a reduced psi sensitivity and work speed. They can also be xenophobic towards other Formers.&lt;/color&gt;
+
+Finding implants for the listed races can be problematic, as they don't support vanilla implants, and all implants below the ancient ones provide debuffs.</text>
+				<tKey>HGS_NotSettings_Info_AboutRaces_WVC</tKey>
+			</li>
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+</Defs>

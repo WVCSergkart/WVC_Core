@@ -5,7 +5,7 @@
 
 	<AlienRace.ThingDef_AlienRace ParentName="WVC_NodeRacesFormers_Blue">
 		<defName>WVC_AlienRace_BlueFormer</defName>
-		<label>former: Hornad</label>
+		<label>hornad</label>
 		<alienRace>
 			<generalSettings>
 				<alienPartGenerator>
@@ -25,7 +25,7 @@
 
 	<AlienRace.ThingDef_AlienRace ParentName="WVC_NodeRacesFormers_Red">
 		<defName>WVC_AlienRace_RedFormer</defName>
-		<label>former: Nautil</label>
+		<label>nautil</label>
 		<alienRace>
 			<generalSettings>
 				<alienPartGenerator>
@@ -45,7 +45,7 @@
 
 	<AlienRace.ThingDef_AlienRace ParentName="WVC_NodeRacesFormers_Yellow">
 		<defName>WVC_AlienRace_YellowFormer</defName>
-		<label>former: Filon</label>
+		<label>filon</label>
 		<alienRace>
 			<generalSettings>
 				<alienPartGenerator>

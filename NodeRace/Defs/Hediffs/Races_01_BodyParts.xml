@@ -41,8 +41,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
 	<defName>WVC_NodeBlueMechanicalLeg</defName>
-	<label>node mechanica leg</label>
-	<labelNoun>a mechanica leg</labelNoun>
+	<label>node mechanical leg</label>
+	<labelNoun>a mechanical leg</labelNoun>
 	<addedPartProps>
 	  <partEfficiency>1.1</partEfficiency>
 	</addedPartProps>
@@ -206,8 +206,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechMechanicalLeg</defName>
-	<label>archotech mechanica leg</label>
-	<labelNoun>a mechanica leg</labelNoun>
+	<label>archotech mechanical leg</label>
+	<labelNoun>a mechanical leg</labelNoun>
 	<addedPartProps>
 	  <partEfficiency>1.2</partEfficiency>
 	</addedPartProps>
@@ -383,8 +383,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidMechanicalLeg</defName>
-	<label>mechanoid mechanica leg</label>
-	<labelNoun>a mechanica leg</labelNoun>
+	<label>mechanoid mechanical leg</label>
+	<labelNoun>a mechanical leg</labelNoun>
 	<addedPartProps>
 	  <partEfficiency>1.0</partEfficiency>
 	</addedPartProps>
@@ -512,8 +512,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticMechanicalLeg</defName>
-	<label>cybernetic mechanica leg</label>
-	<labelNoun>a mechanica leg</labelNoun>
+	<label>cybernetic mechanical leg</label>
+	<labelNoun>a mechanical leg</labelNoun>
 	<addedPartProps>
 	  <partEfficiency>0.9</partEfficiency>
 	</addedPartProps>
@@ -671,8 +671,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_AncientMechanicalLeg</defName>
-	<label>ancient mechanica leg</label>
-	<labelNoun>a mechanica leg</labelNoun>
+	<label>ancient mechanical leg</label>
+	<labelNoun>a mechanical leg</labelNoun>
 	<addedPartProps>
 	  <partEfficiency>1.0</partEfficiency>
 	</addedPartProps>
@@ -840,8 +840,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_AdvancedBionic">
 	<defName>WVC_AdvancedMechanicalLeg</defName>
-	<label>experimental mechanica leg</label>
-	<labelNoun>a mechanica leg</labelNoun>
+	<label>experimental mechanical leg</label>
+	<labelNoun>a mechanical leg</labelNoun>
 	<addedPartProps>
 	  <partEfficiency>0.8</partEfficiency>
 	</addedPartProps>

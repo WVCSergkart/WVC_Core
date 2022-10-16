@@ -6,6 +6,10 @@
 		<settings>
 			<li Class="XmlExtensions.Setting.Gap"/>
 			<li Class="XmlExtensions.Setting.GapLine" />
+			<li Class="XmlExtensions.Setting.EmbedMenu">
+				<menu>NotSettings_Info_AboutRaces_WVC</menu>
+			</li>
+			<li MayRequire="honkai.girls.sergkart" Class="XmlExtensions.Setting.Gap" />
 			<li MayRequire="honkai.girls.sergkart" Class="XmlExtensions.Setting.EmbedMenu">
 				<menu>NotSettings_Info_AboutAllGirls_WVC</menu>
 			</li>
