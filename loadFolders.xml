@@ -6,6 +6,7 @@
 		<li IfModActive="erdelf.humanoidalienraces">NodeRace</li>
 		<li IfModActive="ludeon.rimworld.royalty">Royalty</li>
 		<li IfModActive="ludeon.rimworld.ideology">Ideology</li>
+		<li IfModActive="imranfish.xmlextensions">XML_Extensions</li>
 	</v1.4>
 </loadFolders>
 
