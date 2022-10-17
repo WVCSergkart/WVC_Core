@@ -3,13 +3,13 @@
 
   <HeadTypeDef>
 	<defName>WVC_FormerHead_BlueA</defName>
-	<graphicPath>WVC/NodeRace/Head/HeadA</graphicPath>
+	<graphicPath>WVC/NodeRace/Head/WVC_FormerHead_BlueA</graphicPath>
 	<gender>None</gender>
   </HeadTypeDef>
 
   <HeadTypeDef>
 	<defName>WVC_FormerHead_RedA</defName>
-	<graphicPath>WVC/NodeRace/HeadV3/HeadA</graphicPath>
+	<graphicPath>WVC/NodeRace/HeadV3/WVC_FormerHead_RedA</graphicPath>
 	<gender>None</gender>
   </HeadTypeDef>
 
@@ -17,7 +17,7 @@
 
   <HeadTypeDef ParentName="AverageBase">
 	<defName>WVC_MechaRace_HeadA</defName>
-	<graphicPath>WVC/MechaRace/MechaHeadA</graphicPath>
+	<graphicPath>WVC/MechaRace/WVC_MechaRace_HeadA</graphicPath>
 	<gender>None</gender>
   </HeadTypeDef>
   <!-- <HeadTypeDef ParentName="AverageBase"> -->
@@ -61,7 +61,7 @@
 
   <HeadTypeDef>
 	<defName>WVC_FormerHead_YellowA</defName>
-	<graphicPath>WVC/NodeRace/HeadYellow/HeadA</graphicPath>
+	<graphicPath>WVC/NodeRace/HeadYellow/WVC_FormerHead_YellowA</graphicPath>
 	<gender>None</gender>
   </HeadTypeDef>
 
