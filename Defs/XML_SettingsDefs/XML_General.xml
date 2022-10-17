@@ -68,8 +68,18 @@
 						<li Class="XmlExtensions.Setting.Checkbox">
 							<key>WVC_Nodes_EnableFormerWandererEvent</key>
 							<label>Enable former wanderer event</label>
+							<tooltip>Only affects events related to the Former race. Does not affect spawning as members of the Nomad faction.</tooltip>
 							<defaultValue>true</defaultValue>
 							<tKey>HGS_Nodes_EnableFormerWandererEvent_WVC</tKey>
+							<tKeyTip>HGS_Nodes_EnableFormerWandererEvent_Desc_WVC</tKeyTip>
+						</li>
+						<li Class="XmlExtensions.Setting.Checkbox">
+							<key>WVC_General_FactionNomads_Main</key>
+							<label>Enable Nomads faction</label>
+							<tooltip>The mod has a faction that includes all the races from my mods. This faction does not have settlements, but functions like a regular full-fledged faction (caravans, raids, reputation, etc.). The faction also has several unique traders.</tooltip>
+							<defaultValue>true</defaultValue>
+							<tKey>HGS_General_FactionNomads_Main_WVC</tKey>
+							<tKeyTip>HGS_General_FactionNomads_Main_Desc_WVC</tKeyTip>
 						</li>
 					</li>
 					<li>

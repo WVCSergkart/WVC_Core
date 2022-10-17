@@ -18,8 +18,8 @@
 	<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
 	<configurationListOrderPriority>1</configurationListOrderPriority>
 	<!-- test -->
-	<!-- <startingCountAtWorldCreation>1</startingCountAtWorldCreation> -->
-	<startingCountAtWorldCreation>0</startingCountAtWorldCreation>
+	<startingCountAtWorldCreation>1</startingCountAtWorldCreation>
+	<!-- <startingCountAtWorldCreation>0</startingCountAtWorldCreation> -->
 	<!-- test -->
 	<canMakeRandomly>true</canMakeRandomly>
 	<canSiege>true</canSiege>

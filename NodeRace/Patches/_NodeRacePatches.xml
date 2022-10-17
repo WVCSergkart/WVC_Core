@@ -133,30 +133,32 @@
 
 	<!--=====================================================================-->
 
-	<Operation Class="XmlExtensions.ApplyPatch">
-		<patchName>Autopatcher_ApparelPatch_Utility_WVC</patchName>
-		<arguments>
-			<li>WVC_AlienRace_BlueFormer</li>
-		</arguments>
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>honkai.girls.sergkart</modId>
+		<key>WVC_General_FactionNomads_Main</key>
+		<defaultValue>true</defaultValue>
+		<caseFalse>
+
+			<Operation Class="XmlExtensions.PatchOperationSafeRemove">
+				<xpath>/Defs/PawnKindDef[@WVC_Tag="NomadFactionMain"]</xpath>
+			</Operation>
+			<Operation Class="XmlExtensions.PatchOperationSafeRemove">
+				<xpath>/Defs/FactionDef[@WVC_Tag="NomadFactionMain"]</xpath>
+			</Operation>
+			<Operation Class="XmlExtensions.PatchOperationSafeRemove">
+				<xpath>/Defs/TraderKindDef[@WVC_Tag="NomadFactionMain"]</xpath>
+			</Operation>
+
+		</caseFalse>
 	</Operation>
 
+	<!--=====================================================================-->
+
+	<Operation Class="XmlExtensions.ApplyPatch">
+		<patchName>Autopatcher_ApparelPatch_Utility_WVC</patchName>
+	</Operation>
 	<Operation Class="XmlExtensions.ApplyPatch">
 		<patchName>ThoughtsOpinion_Autopatcher_WVC</patchName>
-		<arguments>
-			<li>WVC_AlienRace_BlueFormer</li>
-		</arguments>
-	</Operation>
-	<Operation Class="XmlExtensions.ApplyPatch">
-		<patchName>Autopatcher_ApparelPatch_Utility_WVC</patchName>
-		<arguments>
-			<li>WVC_AlienRace_RedFormer</li>
-		</arguments>
-	</Operation>
-	<Operation Class="XmlExtensions.ApplyPatch">
-		<patchName>Autopatcher_ApparelPatch_Utility_WVC</patchName>
-		<arguments>
-			<li>WVC_AlienRace_YellowFormer</li>
-		</arguments>
 	</Operation>
 
 </Patch>

@@ -3,7 +3,7 @@
 
 	<XmlExtensions.PatchDef Name="ThoughtsOpinion_Autopatcher_WVC" Abstract="True">
 		<parameters>
-			<li>RaceDefName</li> <!-- WVC_AlienRace_Former -->
+			<!-- <li>RaceDefName</li> -->
 		</parameters>
 		<apply>
 
@@ -22,7 +22,7 @@
 								<apply>
 
 									<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-										<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="{RaceDefName}"]</xpath>
+										<xpath>/Defs/AlienRace.ThingDef_AlienRace[@WVC_AutoPatchTag="OpinionPatcherTarget"]</xpath>
 										<safetyDepth>3</safetyDepth>
 										<value>
 											<alienRace>

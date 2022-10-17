@@ -3,7 +3,7 @@
 
 	<!-- ========================================= -->
 
-	<AlienRace.ThingDef_AlienRace ParentName="WVC_NodeRacesFormers_Blue">
+	<AlienRace.ThingDef_AlienRace ParentName="WVC_NodeRacesFormers_Blue" WVC_AutoPatchTag="OpinionPatcherTarget">
 		<defName>WVC_AlienRace_BlueFormer</defName>
 		<label>hornad</label>
 		<alienRace>
@@ -23,7 +23,7 @@
 		</race>
 	</AlienRace.ThingDef_AlienRace>
 
-	<AlienRace.ThingDef_AlienRace ParentName="WVC_NodeRacesFormers_Red">
+	<AlienRace.ThingDef_AlienRace ParentName="WVC_NodeRacesFormers_Red" WVC_AutoPatchTag="OpinionPatcherTarget">
 		<defName>WVC_AlienRace_RedFormer</defName>
 		<label>nautil</label>
 		<alienRace>
@@ -43,7 +43,7 @@
 		</race>
 	</AlienRace.ThingDef_AlienRace>
 
-	<AlienRace.ThingDef_AlienRace ParentName="WVC_NodeRacesFormers_Yellow">
+	<AlienRace.ThingDef_AlienRace ParentName="WVC_NodeRacesFormers_Yellow" WVC_AutoPatchTag="OpinionPatcherTarget">
 		<defName>WVC_AlienRace_YellowFormer</defName>
 		<label>filon</label>
 		<alienRace>

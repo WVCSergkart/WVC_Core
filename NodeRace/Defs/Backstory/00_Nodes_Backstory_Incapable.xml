@@ -12,8 +12,17 @@
 	</AlienRace.AlienBackstoryDef>
 	<!-- Standart -->
 
+<!-- [PAWN_nameDef] Bobby -->
+<!-- [PAWN_nameFull] Juan Bobby Fisher -->
+<!-- [PAWN_pronoun] he/she -->
+<!-- [PAWN_possessive] his/her -->
+<!-- [PAWN_objective] him/her -->
+
 	<AlienRace.AlienBackstoryDef ParentName="Nodes_HumanoidBackstory_AdulthoodWorkDisable_WVC">
 		<defName>NodesBackstoryAdult_WorkDisable_FormerPlants_WVC</defName>
+		<title>insane gardener</title>
+		<titleShort>gardener</titleShort>
+		<baseDesc>[PAWN_nameDef] has devoted 10 years of [PAWN_possessive] life to growing the biggest pumpkin ever to win the annual Royal Pumpkin Festival. But as it turned out, the [PAWN_nameDef]`s pumpkin was a giant man-eating insect.</baseDesc>
 		<workDisables>
 			<li>Artistic</li>
 			<li>Intellectual</li>
@@ -24,8 +33,12 @@
 		</workDisables>
 		<skillGains Inherit="False">
 		  <li>
+			<key>Animals</key>
+			<value>12</value>
+		  </li>
+		  <li>
 			<key>Plants</key>
-			<value>7</value>
+			<value>-5</value>
 		  </li>
 		</skillGains>
 	</AlienRace.AlienBackstoryDef>
