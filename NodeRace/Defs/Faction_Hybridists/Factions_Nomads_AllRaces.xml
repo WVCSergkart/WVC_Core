@@ -18,8 +18,8 @@
 	<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
 	<configurationListOrderPriority>1</configurationListOrderPriority>
 	<!-- test -->
-	<startingCountAtWorldCreation>1</startingCountAtWorldCreation>
-	<!-- <startingCountAtWorldCreation>0</startingCountAtWorldCreation> -->
+	<!-- <startingCountAtWorldCreation>1</startingCountAtWorldCreation> -->
+	<startingCountAtWorldCreation>0</startingCountAtWorldCreation>
 	<!-- test -->
 	<canMakeRandomly>true</canMakeRandomly>
 	<canSiege>true</canSiege>
@@ -103,109 +103,109 @@
 	  <li MayRequire="honkai.girls.sergkart">
 		<kindDef>Combat</kindDef>
 		<options>
-		  <WVC_AlienRace_NomadVillager_Reshaper>5</WVC_AlienRace_NomadVillager_Reshaper>
-		  <WVC_AlienRace_NomadGuard_Reshaper>5</WVC_AlienRace_NomadGuard_Reshaper>
-		  <WVC_AlienRace_NomadCouncilman_Reshaper>5</WVC_AlienRace_NomadCouncilman_Reshaper>
+		  <WVC_ARF_Nomad_Villager_Reshaper>5</WVC_ARF_Nomad_Villager_Reshaper>
+		  <WVC_ARF_Nomad_Guard_Reshaper>5</WVC_ARF_Nomad_Guard_Reshaper>
+		  <WVC_ARF_Nomad_Councilman_Reshaper>5</WVC_ARF_Nomad_Councilman_Reshaper>
 		</options>
 	  </li>
 	  <li MayRequire="honkai.girls.sergkart">
 		<kindDef>Combat</kindDef>
 		<options>
-		  <WVC_AlienRace_NomadVillager_Valkyrie>5</WVC_AlienRace_NomadVillager_Valkyrie>
-		  <WVC_AlienRace_NomadGuard_Valkyrie>5</WVC_AlienRace_NomadGuard_Valkyrie>
+		  <WVC_ARF_Nomad_Villager_Valkyrie>5</WVC_ARF_Nomad_Villager_Valkyrie>
+		  <WVC_ARF_Nomad_Guard_Valkyrie>5</WVC_ARF_Nomad_Guard_Valkyrie>
 		</options>
 	  </li>
 	  <li MayRequire="honkai.girls.sergkart">
 		<kindDef>Combat</kindDef>
 		<options>
-		  <WVC_AlienRace_NomadVillager_Valkyrie>5</WVC_AlienRace_NomadVillager_Valkyrie>
-		  <WVC_AlienRace_NomadVillager_ELF>5</WVC_AlienRace_NomadVillager_ELF>
-		  <WVC_AlienRace_NomadVillager_Gaurkyrie>2</WVC_AlienRace_NomadVillager_Gaurkyrie>
-		  <WVC_AlienRace_NomadGuard_Valkyrie>5</WVC_AlienRace_NomadGuard_Valkyrie>
+		  <WVC_ARF_Nomad_Villager_Valkyrie>5</WVC_ARF_Nomad_Villager_Valkyrie>
+		  <WVC_ARF_Nomad_Villager_ELF>5</WVC_ARF_Nomad_Villager_ELF>
+		  <WVC_ARF_Nomad_Villager_Gaurkyrie>2</WVC_ARF_Nomad_Villager_Gaurkyrie>
+		  <WVC_ARF_Nomad_Guard_Valkyrie>5</WVC_ARF_Nomad_Guard_Valkyrie>
 		  <Grenadier_Destructive>0.5</Grenadier_Destructive>
 		  <Mercenary_Slasher>1</Mercenary_Slasher>
 		  <Mercenary_Gunner>2</Mercenary_Gunner>
 		  <Mercenary_Elite>2</Mercenary_Elite>
-		  <WVC_AlienRace_NomadCouncilman_ELF>5</WVC_AlienRace_NomadCouncilman_ELF>
-		  <WVC_AlienRace_NomadCouncilman_Reshaper>6</WVC_AlienRace_NomadCouncilman_Reshaper>
+		  <WVC_ARF_Nomad_Councilman_ELF>5</WVC_ARF_Nomad_Councilman_ELF>
+		  <WVC_ARF_Nomad_Councilman_Reshaper>6</WVC_ARF_Nomad_Councilman_Reshaper>
 		</options>
 	  </li>
 	  <!-- KL -->
 	  <li>
 		<kindDef>Combat</kindDef>
 		<options>
-		  <WVC_AlienRace_NomadVillager_YellowFormer>5</WVC_AlienRace_NomadVillager_YellowFormer>
-		  <WVC_AlienRace_NomadVillager_BlueFormer>5</WVC_AlienRace_NomadVillager_BlueFormer>
-		  <WVC_AlienRace_NomadGuard_RedFormer>5</WVC_AlienRace_NomadGuard_RedFormer>
+		  <WVC_ARF_Nomad_Villager_YellowFormer>5</WVC_ARF_Nomad_Villager_YellowFormer>
+		  <WVC_ARF_Nomad_Villager_BlueFormer>5</WVC_ARF_Nomad_Villager_BlueFormer>
+		  <WVC_ARF_Nomad_Guard_RedFormer>5</WVC_ARF_Nomad_Guard_RedFormer>
 		</options>
 	  </li>
 	  <li>
 		<kindDef>Combat</kindDef>
 		<options>
-		  <WVC_AlienRace_NomadVillager_BlueFormer>5</WVC_AlienRace_NomadVillager_BlueFormer>
-		  <WVC_AlienRace_NomadVillager_RedFormer>5</WVC_AlienRace_NomadVillager_RedFormer>
-		  <WVC_AlienRace_NomadGuard_BlueFormer>7</WVC_AlienRace_NomadGuard_BlueFormer>
-		  <WVC_AlienRace_NomadGuard_RedFormer>7</WVC_AlienRace_NomadGuard_RedFormer>
+		  <WVC_ARF_Nomad_Villager_BlueFormer>5</WVC_ARF_Nomad_Villager_BlueFormer>
+		  <WVC_ARF_Nomad_Villager_RedFormer>5</WVC_ARF_Nomad_Villager_RedFormer>
+		  <WVC_ARF_Nomad_Guard_BlueFormer>7</WVC_ARF_Nomad_Guard_BlueFormer>
+		  <WVC_ARF_Nomad_Guard_RedFormer>7</WVC_ARF_Nomad_Guard_RedFormer>
 		  <Grenadier_Destructive>0.5</Grenadier_Destructive>
 		  <Mercenary_Slasher>1</Mercenary_Slasher>
 		  <Mercenary_Gunner>2</Mercenary_Gunner>
 		  <Mercenary_Elite>2</Mercenary_Elite>
-		  <WVC_AlienRace_NomadCouncilman_BlueFormer>5</WVC_AlienRace_NomadCouncilman_BlueFormer>
-		  <WVC_AlienRace_NomadCouncilman_BlueFormer>5</WVC_AlienRace_NomadCouncilman_BlueFormer>
+		  <WVC_ARF_Nomad_Councilman_BlueFormer>5</WVC_ARF_Nomad_Councilman_BlueFormer>
+		  <WVC_ARF_Nomad_Councilman_BlueFormer>5</WVC_ARF_Nomad_Councilman_BlueFormer>
 		</options>
 	  </li>
 	  <li>
 		<kindDef>Combat</kindDef>
 		<options>
-		  <WVC_AlienRace_NomadVillager_YellowFormer>4</WVC_AlienRace_NomadVillager_YellowFormer>
-		  <WVC_AlienRace_NomadVillager_Meka>5</WVC_AlienRace_NomadVillager_Meka>
-		  <WVC_AlienRace_NomadGuard_Meka>7</WVC_AlienRace_NomadGuard_Meka>
+		  <WVC_ARF_Nomad_Villager_YellowFormer>4</WVC_ARF_Nomad_Villager_YellowFormer>
+		  <WVC_ARF_Nomad_Villager_Meka>5</WVC_ARF_Nomad_Villager_Meka>
+		  <WVC_ARF_Nomad_Guard_Meka>7</WVC_ARF_Nomad_Guard_Meka>
 		  <Grenadier_Destructive>0.5</Grenadier_Destructive>
 		  <Mercenary_Slasher>1</Mercenary_Slasher>
 		  <Mercenary_Gunner>2</Mercenary_Gunner>
 		  <Mercenary_Elite>2</Mercenary_Elite>
-		  <WVC_AlienRace_NomadCouncilman_Meka>6</WVC_AlienRace_NomadCouncilman_Meka>
-		  <WVC_AlienRace_NomadCouncilman_YellowFormer>6</WVC_AlienRace_NomadCouncilman_YellowFormer>
+		  <WVC_ARF_Nomad_Councilman_Meka>6</WVC_ARF_Nomad_Councilman_Meka>
+		  <WVC_ARF_Nomad_Councilman_YellowFormer>6</WVC_ARF_Nomad_Councilman_YellowFormer>
 		</options>
 	  </li>
 	  <!-- ====================================================== -->
 	  <li>
 		<kindDef>Peaceful</kindDef>
 		<options>
-		  <WVC_AlienRace_NomadVillager_YellowFormer>3</WVC_AlienRace_NomadVillager_YellowFormer>
-		  <WVC_AlienRace_NomadGuard_Meka>3</WVC_AlienRace_NomadGuard_Meka>
-		  <WVC_AlienRace_NomadCouncilman_YellowFormer>2</WVC_AlienRace_NomadCouncilman_YellowFormer>
+		  <WVC_ARF_Nomad_Villager_YellowFormer>3</WVC_ARF_Nomad_Villager_YellowFormer>
+		  <WVC_ARF_Nomad_Guard_Meka>3</WVC_ARF_Nomad_Guard_Meka>
+		  <WVC_ARF_Nomad_Councilman_YellowFormer>2</WVC_ARF_Nomad_Councilman_YellowFormer>
 		</options>
 	  </li>
 	  <li>
 		<kindDef>Peaceful</kindDef>
 		<options>
-		  <WVC_AlienRace_NomadVillager_RedFormer>3</WVC_AlienRace_NomadVillager_RedFormer>
-		  <WVC_AlienRace_NomadGuard_Meka>3</WVC_AlienRace_NomadGuard_Meka>
-		  <WVC_AlienRace_NomadCouncilman_RedFormer>2</WVC_AlienRace_NomadCouncilman_RedFormer>
+		  <WVC_ARF_Nomad_Villager_RedFormer>3</WVC_ARF_Nomad_Villager_RedFormer>
+		  <WVC_ARF_Nomad_Guard_Meka>3</WVC_ARF_Nomad_Guard_Meka>
+		  <WVC_ARF_Nomad_Councilman_RedFormer>2</WVC_ARF_Nomad_Councilman_RedFormer>
 		</options>
 	  </li>
 	  <li>
 		<kindDef>Peaceful</kindDef>
 		<options>
-		  <WVC_AlienRace_NomadVillager_BlueFormer>3</WVC_AlienRace_NomadVillager_BlueFormer>
-		  <WVC_AlienRace_NomadGuard_Meka>3</WVC_AlienRace_NomadGuard_Meka>
-		  <WVC_AlienRace_NomadCouncilman_BlueFormer>2</WVC_AlienRace_NomadCouncilman_BlueFormer>
+		  <WVC_ARF_Nomad_Villager_BlueFormer>3</WVC_ARF_Nomad_Villager_BlueFormer>
+		  <WVC_ARF_Nomad_Guard_Meka>3</WVC_ARF_Nomad_Guard_Meka>
+		  <WVC_ARF_Nomad_Councilman_BlueFormer>2</WVC_ARF_Nomad_Councilman_BlueFormer>
 		</options>
 	  </li>
 	  <li MayRequire="honkai.girls.sergkart">
 		<kindDef>Peaceful</kindDef>
 		<options>
-		  <WVC_AlienRace_NomadVillager_Valkyrie>3</WVC_AlienRace_NomadVillager_Valkyrie>
-		  <WVC_AlienRace_NomadGuard_Valkyrie>2</WVC_AlienRace_NomadGuard_Valkyrie>
-		  <WVC_AlienRace_NomadCouncilman_ELF>2</WVC_AlienRace_NomadCouncilman_ELF>
+		  <WVC_ARF_Nomad_Villager_Valkyrie>3</WVC_ARF_Nomad_Villager_Valkyrie>
+		  <WVC_ARF_Nomad_Guard_Valkyrie>2</WVC_ARF_Nomad_Guard_Valkyrie>
+		  <WVC_ARF_Nomad_Councilman_ELF>2</WVC_ARF_Nomad_Councilman_ELF>
 		</options>
 	  </li>
 	  <!-- ====================================================== -->
 	  <li>
 		<kindDef>Trader</kindDef>
 		<traders>
-		  <WVC_AlienRace_NomadTrader_BlueFormer>1</WVC_AlienRace_NomadTrader_BlueFormer>
+		  <WVC_ARF_Nomad_Trader_BlueFormer>1</WVC_ARF_Nomad_Trader_BlueFormer>
 		</traders>
 		<carriers>
 		  <Muffalo>6</Muffalo>
@@ -214,8 +214,8 @@
 		  <Elephant>1</Elephant>
 		</carriers>
 		<guards>
-		  <WVC_AlienRace_NomadVillager_BlueFormer>3</WVC_AlienRace_NomadVillager_BlueFormer>
-		  <WVC_AlienRace_NomadGuard_Meka>5</WVC_AlienRace_NomadGuard_Meka>
+		  <WVC_ARF_Nomad_Villager_BlueFormer>3</WVC_ARF_Nomad_Villager_BlueFormer>
+		  <WVC_ARF_Nomad_Guard_Meka>5</WVC_ARF_Nomad_Guard_Meka>
 		  <Grenadier_Destructive>0.5</Grenadier_Destructive>
 		  <Mercenary_Slasher>1</Mercenary_Slasher>
 		  <Mercenary_Gunner>1</Mercenary_Gunner>
@@ -225,7 +225,7 @@
 	  <li>
 		<kindDef>Trader</kindDef>
 		<traders>
-		  <WVC_AlienRace_NomadTrader_YellowFormer>1</WVC_AlienRace_NomadTrader_YellowFormer>
+		  <WVC_ARF_Nomad_Trader_YellowFormer>1</WVC_ARF_Nomad_Trader_YellowFormer>
 		</traders>
 		<carriers>
 		  <Muffalo>6</Muffalo>
@@ -234,8 +234,8 @@
 		  <Elephant>1</Elephant>
 		</carriers>
 		<guards>
-		  <WVC_AlienRace_NomadVillager_YellowFormer>3</WVC_AlienRace_NomadVillager_YellowFormer>
-		  <WVC_AlienRace_NomadGuard_Meka>5</WVC_AlienRace_NomadGuard_Meka>
+		  <WVC_ARF_Nomad_Villager_YellowFormer>3</WVC_ARF_Nomad_Villager_YellowFormer>
+		  <WVC_ARF_Nomad_Guard_Meka>5</WVC_ARF_Nomad_Guard_Meka>
 		  <Grenadier_Destructive>0.5</Grenadier_Destructive>
 		  <Mercenary_Slasher>1</Mercenary_Slasher>
 		  <Mercenary_Gunner>1</Mercenary_Gunner>
@@ -245,7 +245,7 @@
 	  <li>
 		<kindDef>Trader</kindDef>
 		<traders>
-		  <WVC_AlienRace_NomadTrader_Meka>1</WVC_AlienRace_NomadTrader_Meka>
+		  <WVC_ARF_Nomad_Trader_Meka>1</WVC_ARF_Nomad_Trader_Meka>
 		</traders>
 		<carriers>
 		  <Muffalo>6</Muffalo>
@@ -254,8 +254,8 @@
 		  <Elephant>1</Elephant>
 		</carriers>
 		<guards>
-		  <WVC_AlienRace_NomadVillager_Meka>3</WVC_AlienRace_NomadVillager_Meka>
-		  <WVC_AlienRace_NomadGuard_Meka>5</WVC_AlienRace_NomadGuard_Meka>
+		  <WVC_ARF_Nomad_Villager_Meka>3</WVC_ARF_Nomad_Villager_Meka>
+		  <WVC_ARF_Nomad_Guard_Meka>5</WVC_ARF_Nomad_Guard_Meka>
 		  <Grenadier_Destructive>0.5</Grenadier_Destructive>
 		  <Mercenary_Slasher>1</Mercenary_Slasher>
 		  <Mercenary_Gunner>1</Mercenary_Gunner>
@@ -266,7 +266,7 @@
 	  <li MayRequire="honkai.girls.sergkart">
 		<kindDef>Trader</kindDef>
 		<traders>
-		  <WVC_AlienRace_NomadTrader_ELF>1</WVC_AlienRace_NomadTrader_ELF>
+		  <WVC_ARF_Nomad_Trader_ELF>1</WVC_ARF_Nomad_Trader_ELF>
 		</traders>
 		<carriers>
 		  <Muffalo>6</Muffalo>
@@ -275,15 +275,15 @@
 		  <Elephant>1</Elephant>
 		</carriers>
 		<guards>
-		  <WVC_AlienRace_NomadVillager_ELF>3</WVC_AlienRace_NomadVillager_ELF>
-		  <WVC_AlienRace_NomadGuard_Valkyrie>5</WVC_AlienRace_NomadGuard_Valkyrie>
-		  <WVC_AlienRace_NomadGuard_Reshaper>8</WVC_AlienRace_NomadGuard_Reshaper>
+		  <WVC_ARF_Nomad_Villager_ELF>3</WVC_ARF_Nomad_Villager_ELF>
+		  <WVC_ARF_Nomad_Guard_Valkyrie>5</WVC_ARF_Nomad_Guard_Valkyrie>
+		  <WVC_ARF_Nomad_Guard_Reshaper>8</WVC_ARF_Nomad_Guard_Reshaper>
 		</guards>
 	  </li>
 	  <li MayRequire="honkai.girls.sergkart">
 		<kindDef>Trader</kindDef>
 		<traders>
-		  <WVC_AlienRace_NomadTrader_Valkyrie>1</WVC_AlienRace_NomadTrader_Valkyrie>
+		  <WVC_ARF_Nomad_Trader_Valkyrie>1</WVC_ARF_Nomad_Trader_Valkyrie>
 		</traders>
 		<carriers>
 		  <Muffalo>6</Muffalo>
@@ -292,15 +292,15 @@
 		  <Elephant>1</Elephant>
 		</carriers>
 		<guards>
-		  <WVC_AlienRace_NomadVillager_Valkyrie>3</WVC_AlienRace_NomadVillager_Valkyrie>
-		  <WVC_AlienRace_NomadGuard_Valkyrie>5</WVC_AlienRace_NomadGuard_Valkyrie>
-		  <WVC_AlienRace_NomadGuard_Reshaper>8</WVC_AlienRace_NomadGuard_Reshaper>
+		  <WVC_ARF_Nomad_Villager_Valkyrie>3</WVC_ARF_Nomad_Villager_Valkyrie>
+		  <WVC_ARF_Nomad_Guard_Valkyrie>5</WVC_ARF_Nomad_Guard_Valkyrie>
+		  <WVC_ARF_Nomad_Guard_Reshaper>8</WVC_ARF_Nomad_Guard_Reshaper>
 		</guards>
 	  </li>
 	  <li MayRequire="honkai.girls.sergkart">
 		<kindDef>Trader</kindDef>
 		<traders>
-		  <WVC_AlienRace_NomadTrader_Gaurkyrie>1</WVC_AlienRace_NomadTrader_Gaurkyrie>
+		  <WVC_ARF_Nomad_Trader_Gaurkyrie>1</WVC_ARF_Nomad_Trader_Gaurkyrie>
 		</traders>
 		<carriers>
 		  <Muffalo>6</Muffalo>
@@ -309,9 +309,9 @@
 		  <Elephant>1</Elephant>
 		</carriers>
 		<guards>
-		  <WVC_AlienRace_NomadVillager_Gaurkyrie>3</WVC_AlienRace_NomadVillager_Gaurkyrie>
-		  <WVC_AlienRace_NomadGuard_Valkyrie>5</WVC_AlienRace_NomadGuard_Valkyrie>
-		  <WVC_AlienRace_NomadGuard_Reshaper>8</WVC_AlienRace_NomadGuard_Reshaper>
+		  <WVC_ARF_Nomad_Villager_Gaurkyrie>3</WVC_ARF_Nomad_Villager_Gaurkyrie>
+		  <WVC_ARF_Nomad_Guard_Valkyrie>5</WVC_ARF_Nomad_Guard_Valkyrie>
+		  <WVC_ARF_Nomad_Guard_Reshaper>8</WVC_ARF_Nomad_Guard_Reshaper>
 		</guards>
 	  </li>
 	  <!-- KL -->

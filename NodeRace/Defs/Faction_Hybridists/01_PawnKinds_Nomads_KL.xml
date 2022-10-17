@@ -4,7 +4,7 @@
 	<!-- ===================================================== -->
 
 	<PawnKindDef MayRequire="honkai.girls.sergkart" ParentName="WVC_Nomad_Villager" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadVillager_Valkyrie</defName>
+		<defName>WVC_ARF_Nomad_Villager_Valkyrie</defName>
 		<label>valkyrie</label>
 		<race>Alien_Valkyrie_WVC</race>
 		<backstoryCryptosleepCommonality>0.5</backstoryCryptosleepCommonality>
@@ -30,7 +30,7 @@
 	</PawnKindDef>
 
 	<PawnKindDef MayRequire="honkai.girls.sergkart" ParentName="WVC_Nomad_Villager" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadVillager_Gaurkyrie</defName>
+		<defName>WVC_ARF_Nomad_Villager_Gaurkyrie</defName>
 		<label>gaurkyrie</label>
 		<race>Alien_DryadMother_WVC</race>
 		<backstoryCryptosleepCommonality>0.0</backstoryCryptosleepCommonality>
@@ -47,7 +47,7 @@
 	</PawnKindDef>
 
 	<PawnKindDef MayRequire="honkai.girls.sergkart" ParentName="WVC_Nomad_Villager" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadVillager_ELF</defName>
+		<defName>WVC_ARF_Nomad_Villager_ELF</defName>
 		<label>ELF</label>
 		<race>Alien_ELF_WVC</race>
 		<extraSkillLevels>5</extraSkillLevels>
@@ -69,7 +69,7 @@
 	<!-- ===================================================== -->
 
 	<PawnKindDef MayRequire="honkai.girls.sergkart" ParentName="WVC_Nomad_Guard" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadGuard_Valkyrie</defName>
+		<defName>WVC_ARF_Nomad_Guard_Valkyrie</defName>
 		<label>valkyrie</label>
 		<race>Alien_Valkyrie_WVC</race>
 		<backstoryCryptosleepCommonality>0.5</backstoryCryptosleepCommonality>
@@ -97,7 +97,7 @@
 	<!-- ===================================================== -->
 
 	<PawnKindDef MayRequire="honkai.girls.sergkart" ParentName="WVC_Nomad_Trader" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadTrader_Valkyrie</defName>
+		<defName>WVC_ARF_Nomad_Trader_Valkyrie</defName>
 		<label>valkyrie</label>
 		<race>Alien_Valkyrie_WVC</race>
 		<backstoryCryptosleepCommonality>0.5</backstoryCryptosleepCommonality>
@@ -123,7 +123,7 @@
 	</PawnKindDef>
 
 	<PawnKindDef MayRequire="honkai.girls.sergkart" ParentName="WVC_Nomad_Trader" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadTrader_ELF</defName>
+		<defName>WVC_ARF_Nomad_Trader_ELF</defName>
 		<label>ELF</label>
 		<race>Alien_ELF_WVC</race>
 		<extraSkillLevels>5</extraSkillLevels>
@@ -143,7 +143,7 @@
 	</PawnKindDef>
 
 	<PawnKindDef MayRequire="honkai.girls.sergkart" ParentName="WVC_Nomad_Trader" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadTrader_Gaurkyrie</defName>
+		<defName>WVC_ARF_Nomad_Trader_Gaurkyrie</defName>
 		<label>gaurkyrie</label>
 		<race>Alien_DryadMother_WVC</race>
 		<backstoryCryptosleepCommonality>0.0</backstoryCryptosleepCommonality>
@@ -162,7 +162,7 @@
 	<!-- ===================================================== -->
 
 	<PawnKindDef MayRequire="honkai.girls.sergkart" ParentName="WVC_Nomad_Councilman" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadCouncilman_ELF</defName>
+		<defName>WVC_ARF_Nomad_Councilman_ELF</defName>
 		<label>ELF</label>
 		<race>Alien_ELF_WVC</race>
 		<extraSkillLevels>5</extraSkillLevels>

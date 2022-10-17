@@ -15,31 +15,31 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="WVC_Nomad_Villager_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadVillager_BlueFormer</defName>
+		<defName>WVC_ARF_Nomad_Villager_BlueFormer</defName>
 		<label>hornad</label>
 		<race>WVC_AlienRace_BlueFormer</race>
 		<favoriteColor>(133,202,255)</favoriteColor>
 	</PawnKindDef>
 	<PawnKindDef ParentName="WVC_Nomad_Villager_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadVillager_RedFormer</defName>
+		<defName>WVC_ARF_Nomad_Villager_RedFormer</defName>
 		<label>nautil</label>
 		<race>WVC_AlienRace_RedFormer</race>
 		<favoriteColor>(255,133,133)</favoriteColor>
 	</PawnKindDef>
 	<PawnKindDef ParentName="WVC_Nomad_Villager_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadVillager_YellowFormer</defName>
+		<defName>WVC_ARF_Nomad_Villager_YellowFormer</defName>
 		<label>filon</label>
 		<race>WVC_AlienRace_YellowFormer</race>
 		<favoriteColor>(255,248,133)</favoriteColor>
 	</PawnKindDef>
 	<PawnKindDef ParentName="WVC_Nomad_Villager_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadVillager_Meka</defName>
+		<defName>WVC_ARF_Nomad_Villager_Meka</defName>
 		<label>meka</label>
 		<race>WVC_AlienRace_Meka</race>
 		<forcedHair>Scrapper</forcedHair>
 	</PawnKindDef>
 	<PawnKindDef MayRequire="honkai.girls.sergkart" ParentName="WVC_Nomad_Villager_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadVillager_Reshaper</defName>
+		<defName>WVC_ARF_Nomad_Villager_Reshaper</defName>
 		<label>reshaper</label>
 		<race>WVC_AlienRace_Reshaper</race>
 	</PawnKindDef>
@@ -58,25 +58,25 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="WVC_Nomad_Guard_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadGuard_BlueFormer</defName>
+		<defName>WVC_ARF_Nomad_Guard_BlueFormer</defName>
 		<label>hornad</label>
 		<race>WVC_AlienRace_BlueFormer</race>
 		<favoriteColor>(133,202,255)</favoriteColor>
 	</PawnKindDef>
 	<PawnKindDef ParentName="WVC_Nomad_Guard_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadGuard_RedFormer</defName>
+		<defName>WVC_ARF_Nomad_Guard_RedFormer</defName>
 		<label>nautil</label>
 		<race>WVC_AlienRace_RedFormer</race>
 		<favoriteColor>(255,133,133)</favoriteColor>
 	</PawnKindDef>
 	<PawnKindDef ParentName="WVC_Nomad_Guard_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadGuard_Meka</defName>
+		<defName>WVC_ARF_Nomad_Guard_Meka</defName>
 		<label>meka</label>
 		<race>WVC_AlienRace_Meka</race>
 		<forcedHair>Scrapper</forcedHair>
 	</PawnKindDef>
 	<PawnKindDef MayRequire="honkai.girls.sergkart" ParentName="WVC_Nomad_Guard_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadGuard_Reshaper</defName>
+		<defName>WVC_ARF_Nomad_Guard_Reshaper</defName>
 		<label>reshaper</label>
 		<race>WVC_AlienRace_Reshaper</race>
 	</PawnKindDef>
@@ -95,19 +95,19 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="WVC_Nomad_Trader_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadTrader_BlueFormer</defName>
+		<defName>WVC_ARF_Nomad_Trader_BlueFormer</defName>
 		<label>hornad</label>
 		<race>WVC_AlienRace_BlueFormer</race>
 		<favoriteColor>(133,202,255)</favoriteColor>
 	</PawnKindDef>
 	<PawnKindDef ParentName="WVC_Nomad_Trader_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadTrader_YellowFormer</defName>
+		<defName>WVC_ARF_Nomad_Trader_YellowFormer</defName>
 		<label>filon</label>
 		<race>WVC_AlienRace_YellowFormer</race>
 		<favoriteColor>(255,248,133)</favoriteColor>
 	</PawnKindDef>
 	<PawnKindDef ParentName="WVC_Nomad_Trader_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadTrader_Meka</defName>
+		<defName>WVC_ARF_Nomad_Trader_Meka</defName>
 		<label>meka</label>
 		<race>WVC_AlienRace_Meka</race>
 		<forcedHair>Scrapper</forcedHair>
@@ -127,31 +127,31 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="WVC_Nomad_Councilman_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadCouncilman_BlueFormer</defName>
+		<defName>WVC_ARF_Nomad_Councilman_BlueFormer</defName>
 		<label>hornad</label>
 		<race>WVC_AlienRace_BlueFormer</race>
 		<favoriteColor>(133,202,255)</favoriteColor>
 	</PawnKindDef>
 	<PawnKindDef ParentName="WVC_Nomad_Councilman_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadCouncilman_RedFormer</defName>
+		<defName>WVC_ARF_Nomad_Councilman_RedFormer</defName>
 		<label>nautil</label>
 		<race>WVC_AlienRace_RedFormer</race>
 		<favoriteColor>(255,133,133)</favoriteColor>
 	</PawnKindDef>
 	<PawnKindDef ParentName="WVC_Nomad_Councilman_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadCouncilman_YellowFormer</defName>
+		<defName>WVC_ARF_Nomad_Councilman_YellowFormer</defName>
 		<label>filon</label>
 		<race>WVC_AlienRace_YellowFormer</race>
 		<favoriteColor>(255,248,133)</favoriteColor>
 	</PawnKindDef>
 	<PawnKindDef ParentName="WVC_Nomad_Councilman_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadCouncilman_Meka</defName>
+		<defName>WVC_ARF_Nomad_Councilman_Meka</defName>
 		<label>meka</label>
 		<race>WVC_AlienRace_Meka</race>
 		<forcedHair>Scrapper</forcedHair>
 	</PawnKindDef>
 	<PawnKindDef MayRequire="honkai.girls.sergkart" ParentName="WVC_Nomad_Councilman_Former" WVC_Tag="NomadFactionMain">
-		<defName>WVC_AlienRace_NomadCouncilman_Reshaper</defName>
+		<defName>WVC_ARF_Nomad_Councilman_Reshaper</defName>
 		<label>reshaper</label>
 		<race>WVC_AlienRace_Reshaper</race>
 	</PawnKindDef>

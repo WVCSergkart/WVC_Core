@@ -10,7 +10,7 @@
 		<li>r_name->[WVCNomadsFaction]</li>
 	  </rulesStrings>
 	  <rulesFiles>
-		<li>WVCNomadsFaction->Names/WVCNomadsFaction</li>
+		<li>WVCNomadsFaction->Names/WVC/NomadsFaction</li>
 	  </rulesFiles>
 	</rulePack>
   </RulePackDef>
