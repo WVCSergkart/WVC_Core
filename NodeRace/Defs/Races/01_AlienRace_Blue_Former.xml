@@ -41,12 +41,6 @@
 			<immuneToXenophobia>false</immuneToXenophobia>
 			<traitCount>0~1</traitCount>
 			<additionalTraits>0</additionalTraits>
-			<!-- <lovinIntervalHoursFromAge> -->
-			  <!-- <points> -->
-				<!-- <li>(0, 2)</li> -->
-				<!-- <li>(16, 1)</li> -->
-			  <!-- </points> -->
-			<!-- </lovinIntervalHoursFromAge> -->
 			<notXenophobistTowards>
 				<li>WVC_AlienRace_BlueFormer</li>
 				<li>WVC_AlienRace_RedFormer</li>
@@ -54,71 +48,18 @@
 				<!-- <li>WVC_AlienRace_VioletFormer</li> -->
 				<li>WVC_AlienRace_YellowFormer</li>
 			</notXenophobistTowards>
-			<!-- <forcedRaceTraitEntries> -->
-				<!-- <li> -->
-					<!-- <defName>Bisexual</defName> -->
-					<!-- <chance>100</chance> -->
-				<!-- </li> -->
-				<!-- <li> -->
-					<!-- <defName>Gay</defName> -->
-					<!-- <chance>100</chance> -->
-				<!-- </li> -->
-				<!-- <li MayRequire="rimeffect.core"> -->
-					<!-- <defName>RE_BioticGod</defName> -->
-					<!-- <chance>1</chance> -->
-				<!-- </li> -->
-			<!-- </forcedRaceTraitEntries> -->
-			<!-- <disallowedTraits> -->
-				<!-- <li MayRequire="rimeffect.core"> -->
-					<!-- <defName>RE_BioticRecoveryOffset</defName> -->
-					<!-- <degree>-2</degree> -->
-					<!-- <chance>100</chance> -->
-				<!-- </li> -->
-				<!-- <li MayRequire="rimeffect.core"> -->
-					<!-- <defName>RE_BioticRecoveryOffset</defName> -->
-					<!-- <degree>-1</degree> -->
-					<!-- <chance>100</chance> -->
-				<!-- </li> -->
-				<!-- <li> -->
-					<!-- <defName>PsychicSensitivity</defName> -->
-					<!-- <degree>-2</degree> -->
-					<!-- <chance>100</chance> -->
-				<!-- </li> -->
-				<!-- <li> -->
-					<!-- <defName>PsychicSensitivity</defName> -->
-					<!-- <degree>-1</degree> -->
-					<!-- <chance>100</chance> -->
-				<!-- </li> -->
-				<!-- <li> -->
-					<!-- <defName>BodyPurist</defName> -->
-				<!-- </li> -->
-				<!-- <li> -->
-					<!-- <defName>Beauty</defName> -->
-				<!-- </li> -->
-			<!-- </disallowedTraits> -->
-			<!-- <factionRelations> -->
-				<!-- <li> -->
-					<!-- <factions> -->
-					   <!-- <li>Empire</li> -->
-					<!-- </factions> -->
-					<!-- <goodwill> -->
-					   <!-- <min>100</min> -->
-					   <!-- <max>100</max> -->
-					<!-- </goodwill> -->
-				<!-- </li> -->
-			<!-- </factionRelations> -->
 		
 			<!--=====================================================================-->
 		
 			<alienPartGenerator>
 				<atlasScale>4</atlasScale>
 				<borderScale>1</borderScale>
-				<headTypes>
+				<headTypes Inherit="False">
 					<li>WVC_FormerHead_BlueA</li>
 				</headTypes>
-				<bodytypes>
+				<bodyTypes Inherit="False">
 					<li>Female</li>
-				</bodytypes>
+				</bodyTypes>
 				<colorChannels>
 					<li>
 						<!-- always white or cause visual bugs -->
@@ -135,28 +76,27 @@
 				</colorChannels>
 				<!-- <headOffset>(-0.03, -0.06)</headOffset> -->
 				<headOffset>(-0.03, 0.00)</headOffset>
-				<useGenderedHeads>false</useGenderedHeads>
-				<useGenderedBodies>false</useGenderedBodies>
+				<!-- <useGenderedHeads>false</useGenderedHeads> -->
+				<!-- <useGenderedBodies>false</useGenderedBodies> -->
 				<customDrawSize>(1.0, 1.0)</customDrawSize>
 				<customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
 				<customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
 				<customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
 				<headBodyPartDef>MechanicalHead</headBodyPartDef>
-				<bodyAddons>
-				</bodyAddons>
+				<bodyAddons></bodyAddons>
 			</alienPartGenerator>
 		</generalSettings>
 
 		<!--=====================================================================-->
 
 		<graphicPaths>
-			<li>
+			<!-- <li> -->
 				<body>WVC/NodeRace/Bodies/</body>
 				<head>WVC/NodeRace/Head/</head>
 				<skeleton>WVC/NodeRace/Dead</skeleton>
 				<!-- <skull>WVC/Pawns/Head/Head</skull> -->
 				<skinShader>CutoutComplex</skinShader>
-			</li>
+			<!-- </li> -->
 		</graphicPaths>
 		<styleSettings>
 			<li>

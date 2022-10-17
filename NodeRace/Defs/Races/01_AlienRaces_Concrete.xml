@@ -9,8 +9,8 @@
 		<alienRace>
 			<generalSettings>
 				<alienPartGenerator>
-					<bodytypes>
-					</bodytypes>
+					<bodyTypes>
+					</bodyTypes>
 				</alienPartGenerator>
 			</generalSettings>
 		</alienRace>
@@ -29,8 +29,8 @@
 		<alienRace>
 			<generalSettings>
 				<alienPartGenerator>
-					<bodytypes>
-					</bodytypes>
+					<bodyTypes>
+					</bodyTypes>
 				</alienPartGenerator>
 			</generalSettings>
 		</alienRace>
@@ -49,8 +49,8 @@
 		<alienRace>
 			<generalSettings>
 				<alienPartGenerator>
-					<bodytypes>
-					</bodytypes>
+					<bodyTypes>
+					</bodyTypes>
 				</alienPartGenerator>
 			</generalSettings>
 		</alienRace>
@@ -71,8 +71,8 @@
 		<alienRace>
 			<generalSettings>
 				<alienPartGenerator>
-					<bodytypes>
-					</bodytypes>
+					<bodyTypes>
+					</bodyTypes>
 				</alienPartGenerator>
 			</generalSettings>
 			<raceRestriction>
@@ -81,15 +81,9 @@
 			</raceRestriction>
 		</alienRace>
 		<comps>
-			<!-- <li MayRequire="oskarpotocki.vanillafactionsexpanded.core" Class="AnimalBehaviours.CompProperties_InitialHediff"> -->
-				<!-- <hediffname>SpecialHediff_AlienInitial_Valkyrie_WVC</hediffname> -->
-				<!-- <hediffseverity>1</hediffseverity> -->
-			<!-- </li> -->
 		</comps>
 		<race>
 		  <hediffGiverSets>
-			<!-- <li>WVC_OrganicBase</li> -->
-			<!-- <li>HediffGiverSet_MutationsBase_WVC</li> -->
 		  </hediffGiverSets>
 		</race>
 	</AlienRace.ThingDef_AlienRace>

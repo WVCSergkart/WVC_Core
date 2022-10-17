@@ -183,7 +183,7 @@
 								<value>
 									<li MayRequire="nemonian.my">MoyoHeart</li>
 									<li>InsectHeart</li>
-									<li>WVC_FormerHearth</li>
+									<!-- <li>WVC_FormerHearth</li> -->
 									<!-- <li>Reactor</li> -->
 								</value>
 							</Operation>
@@ -433,6 +433,7 @@
 								<value>
 									<!-- <li>WVC_OrganicReprocessor</li> -->
 									<li>FluidReprocessor</li>
+									<li>WVC_FormerHearth</li>
 								</value>
 							</Operation>
 
