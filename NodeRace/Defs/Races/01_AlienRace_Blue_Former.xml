@@ -92,7 +92,7 @@
 		<graphicPaths>
 			<!-- <li> -->
 				<body>WVC/NodeRace/Bodies/</body>
-				<head>WVC/NodeRace/Head/</head>
+				<!-- <head>WVC/NodeRace/Head/</head> -->
 				<skeleton>WVC/NodeRace/Dead</skeleton>
 				<!-- <skull>WVC/Pawns/Head/Head</skull> -->
 				<skinShader>CutoutComplex</skinShader>

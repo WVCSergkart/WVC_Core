@@ -20,7 +20,7 @@
 		<graphicPaths Inherit="False">
 			<!-- <li> -->
 				<body>WVC/NodeRace/BodyYellow/</body>
-				<head>WVC/NodeRace/HeadYellow/</head>
+				<!-- <head>WVC/NodeRace/HeadYellow/</head> -->
 				<skeleton>WVC/NodeRace/DeadV3</skeleton>
 				<!-- <skull>WVC/Pawns/Head/Head</skull> -->
 				<skinShader>CutoutComplex</skinShader>

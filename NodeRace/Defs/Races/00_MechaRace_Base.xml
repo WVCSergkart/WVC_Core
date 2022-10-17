@@ -119,7 +119,7 @@
 		<graphicPaths>
 			<!-- <li> -->
 				<body>WVC/MechaRace/</body>
-				<head>WVC/MechaRace/</head>
+				<!-- <head>WVC/MechaRace/</head> -->
 				<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
 				<!-- <skull>WVC/BaseInvisibleHead/Head</skull> -->
 				<!-- <skinShader>CutoutComplex</skinShader> -->
