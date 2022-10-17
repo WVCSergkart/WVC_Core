@@ -5,8 +5,8 @@
 		<defName>WVC_Automaton_NamerUtility</defName>
 		<rulePack>
 			<rulesFiles>
-				<li>AutomatonNamesFirst->Names/AutomatonNamesFirst</li>
-				<li>AutomatonNamesSecond->Names/AutomatonNamesSecond</li>
+				<li>AutomatonNamesFirst->Names/WVCAutomatonNamesFirst</li>
+				<li>AutomatonNamesSecond->Names/WVCAutomatonNamesSecond</li>
 			</rulesFiles>
 		</rulePack>
 	</RulePackDef>

@@ -25,7 +25,7 @@
 
   <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
 	<defName>ValkyriesTechs_I_WVC</defName>
-	<label>ancient basic</label>
+	<label>ancient basics</label>
 	<description>Recreate long-lost technologies in order to replicate the achievements of the ancients.</description>
 	<techLevel>Spacer</techLevel>
 	<techprintCount>1</techprintCount>
@@ -56,7 +56,7 @@
 
   <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
 	<defName>ValkyriesTechs_II_WVC</defName>
-	<label>mechanoid basic</label>
+	<label>mechanoid basics</label>
 	<description>To study and repeat the perfection of machines.</description>
 	  <researchViewX>1.00</researchViewX>
 	  <researchViewY>2.70</researchViewY>
@@ -76,7 +76,7 @@
 
   <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
 	<defName>ValkyriesTechs_III_WVC</defName>
-	<label>archotech basic</label>
+	<label>archotech basics</label>
 	<description>Recreating patterns that could bring us closer to archotechs.</description>
 	<researchViewX>6.00</researchViewX>
 	<researchViewY>3.50</researchViewY>

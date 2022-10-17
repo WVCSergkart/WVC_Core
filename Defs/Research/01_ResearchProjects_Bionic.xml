@@ -194,7 +194,7 @@
 
   <ResearchProjectDef ParentName="WVC_ExperimentalTechs_Base">
 	<defName>WVC_RaceResearching_Herrschers</defName>
-	<label>archotech-node  bionic</label>
+	<label>archotech-node bionic</label>
 	<description>Combining all the knowledge gained in order to create prototypes of archotech technologies.</description>
 	<techLevel>Archotech</techLevel>
 	<baseCost>7000</baseCost>
