@@ -18,8 +18,8 @@
 
 		<graphicPaths Inherit="False">
 			<!-- <li> -->
+				<head>WVC/NodeRace/HeadV3/</head>
 				<body>WVC/NodeRace/BodiesV3/</body>
-				<!-- <head>WVC/NodeRace/HeadV3/</head> -->
 				<skeleton>WVC/NodeRace/DeadV3</skeleton>
 				<!-- <skull>WVC/Pawns/Head/Head</skull> -->
 				<skinShader>CutoutComplex</skinShader>
