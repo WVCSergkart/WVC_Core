@@ -351,6 +351,7 @@
 	<!-- ==================================================================== -->
 
 	<race>
+	  <deathActionWorkerClass>WVC.DeathActionWorker_ReplaceCorpse_BlueNode</deathActionWorkerClass>
 	  <thinkTreeMain>Humanlike</thinkTreeMain>
 	  <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 	  <intelligence>Humanlike</intelligence>
@@ -368,7 +369,8 @@
 	  <!-- <meatMarketValue>0.7</meatMarketValue> -->
 	  <!-- <useMeatFrom>Human</useMeatFrom> -->
 	  <!-- <baseBodySize>1</baseBodySize> -->
-	  <!-- <corpseDef>Corpse_Automaton_WVC</corpseDef> -->
+	  <!-- <corpseDef>WVC_FormerRace_Corpse</corpseDef> -->
+	  <!-- <corpseDef>Mech_CentipedeBurner_corpse</corpseDef> -->
 	  <baseBodySize>1.0</baseBodySize>
 	  <baseHealthScale>1.0</baseHealthScale>
 	  <baseHungerRate>0.2</baseHungerRate>

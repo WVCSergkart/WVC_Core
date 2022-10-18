@@ -28,4 +28,18 @@
 	<parent>Apparel</parent>
   </ThingCategoryDef>
 
+  <ThingCategoryDef>
+	<defName>WVC_ResourceNodes</defName>
+	<label>nodes</label>
+	<parent>Manufactured</parent>
+	<iconPath>WVC/Stuff/Nodes/Archotech/NodeA</iconPath>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+	<defName>WVC_ResourceSubNodes</defName>
+	<label>sub nodes</label>
+	<parent>WVC_ResourceNodes</parent>
+	<iconPath>WVC/Stuff/Nodes/Blue/NodeA</iconPath>
+  </ThingCategoryDef>
+
 </Defs>

@@ -1,20 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingCategoryDef>
-	<defName>WVC_ResourceNodes</defName>
-	<label>nodes</label>
-	<parent>Manufactured</parent>
-	<iconPath>WVC/Stuff/Nodes/Archotech/NodeA</iconPath>
-  </ThingCategoryDef>
-
-  <ThingCategoryDef>
-	<defName>WVC_ResourceSubNodes</defName>
-	<label>sub nodes</label>
-	<parent>WVC_ResourceNodes</parent>
-	<iconPath>WVC/Stuff/Nodes/Blue/NodeA</iconPath>
-  </ThingCategoryDef>
-
   <!-- ============================================================ -->
 
   <ThingDef ParentName="ResourceBase" Name="WVC_ResourceNodes_Base" Abstract="True">

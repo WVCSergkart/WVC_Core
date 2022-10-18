@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="ResourceBase">
 	<defName>WVC_LivingMetall</defName>
-	<label>living metall</label>
+	<label>living metal</label>
 	<description>The metal behind node technologies. It is flesh-like, flexible and has regenerative properties. One way to get it is to rip it off a dead semi-organic being.\n\nIn its current state, it is unable to regenerate.</description>
 	<techLevel>Ultra</techLevel>
 	<graphicData>
