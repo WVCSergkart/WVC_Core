@@ -73,7 +73,8 @@
 	<thingSetMakerTags>
 	  <li>RewardStandardQualitySuper</li>
 	</thingSetMakerTags>
-	<tickerType>Normal</tickerType>
+	<!-- <tickerType>Normal</tickerType> -->
+	<tickerType>Rare</tickerType>
 	<fillPercent>0.2</fillPercent>
 	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	<!-- <terrainAffordanceNeeded>Light</terrainAffordanceNeeded> -->
@@ -137,7 +138,7 @@
 	  <Flammability>0.0</Flammability>
 	  <Beauty>-30</Beauty>
 	</statBases>
-	<tickerType>Normal</tickerType>
+	<tickerType>Rare</tickerType>
 	<size>(6,6)</size>
 	<costList>
 	  <Plasteel>1250</Plasteel>
@@ -152,7 +153,7 @@
 	  <li Class="CompProperties_Flickable"/>
 	  <li Class="CompProperties_Power">
 		<compClass>CompPowerTrader</compClass>
-		<basePowerConsumption>3100</basePowerConsumption>
+		<basePowerConsumption>2400</basePowerConsumption>
 		<transmitsPower>true</transmitsPower>
 	  </li>
 	  <!-- <li MayRequire="honkai.girls.sergkart" Class="CompProperties_Spawner" WVC_Tag="RemoveItFromIncubator"> -->
@@ -163,53 +164,55 @@
 		<!-- <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn> -->
 		<!-- <showMessageIfOwned>false</showMessageIfOwned> -->
 	  <!-- </li> -->
-	  <!-- <li Class="WVC.CompProperties_SpawnerItems"> -->
-		<!-- <approxMarketValuePerDay>5000</approxMarketValuePerDay> -->
-		<!-- <categories> -->
-		  <!-- <li>WVC_ResourceSubNodes</li> -->
-		<!-- </categories> -->
-		<!-- <spawnInterval>300000</spawnInterval> -->
+	  <li Class="WVC.CompProperties_SpawnerItems">
+		<approxMarketValuePerDay>5000</approxMarketValuePerDay>
+		<requiresPower>true</requiresPower>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<categories>
+		  <li>WVC_ResourceSubNodes</li>
+		</categories>
+		<spawnIntervalRange><min>120000</min><max>380000</max></spawnIntervalRange>
+	  </li>
+	  <!-- <li Class="CompProperties_Spawner"> -->
+		<!-- <requiresPower>true</requiresPower> -->
+		<!-- <thingToSpawn>WVC_ResourceNodes_Blue</thingToSpawn> -->
+		<!-- <spawnCount>12</spawnCount> -->
+		<!-- <spawnIntervalRange><min>600000</min><max>600000</max></spawnIntervalRange> -->
+		<!-- <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn> -->
+		<!-- <showMessageIfOwned>false</showMessageIfOwned> -->
 	  <!-- </li> -->
-	  <li Class="CompProperties_Spawner">
-		<requiresPower>true</requiresPower>
-		<thingToSpawn>WVC_ResourceNodes_Blue</thingToSpawn>
-		<spawnCount>12</spawnCount>
-		<spawnIntervalRange><min>600000</min><max>600000</max></spawnIntervalRange>
-		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
-		<showMessageIfOwned>false</showMessageIfOwned>
-	  </li>
-	  <li Class="CompProperties_Spawner">
-		<requiresPower>true</requiresPower>
-		<thingToSpawn>WVC_ResourceNodes_Green</thingToSpawn>
-		<spawnCount>10</spawnCount>
-		<spawnIntervalRange><min>600000</min><max>600000</max></spawnIntervalRange>
-		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
-		<showMessageIfOwned>false</showMessageIfOwned>
-	  </li>
-	  <li Class="CompProperties_Spawner">
-		<requiresPower>true</requiresPower>
-		<thingToSpawn>WVC_ResourceNodes_Red</thingToSpawn>
-		<spawnCount>9</spawnCount>
-		<spawnIntervalRange><min>600000</min><max>600000</max></spawnIntervalRange>
-		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
-		<showMessageIfOwned>false</showMessageIfOwned>
-	  </li>
-	  <li Class="CompProperties_Spawner">
-		<requiresPower>true</requiresPower>
-		<thingToSpawn>WVC_ResourceNodes_Violet</thingToSpawn>
-		<spawnCount>8</spawnCount>
-		<spawnIntervalRange><min>600000</min><max>600000</max></spawnIntervalRange>
-		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
-		<showMessageIfOwned>false</showMessageIfOwned>
-	  </li>
-	  <li Class="CompProperties_Spawner">
-		<requiresPower>true</requiresPower>
-		<thingToSpawn>WVC_ResourceNodes_Yellow</thingToSpawn>
-		<spawnCount>11</spawnCount>
-		<spawnIntervalRange><min>600000</min><max>600000</max></spawnIntervalRange>
-		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
-		<showMessageIfOwned>false</showMessageIfOwned>
-	  </li>
+	  <!-- <li Class="CompProperties_Spawner"> -->
+		<!-- <requiresPower>true</requiresPower> -->
+		<!-- <thingToSpawn>WVC_ResourceNodes_Green</thingToSpawn> -->
+		<!-- <spawnCount>10</spawnCount> -->
+		<!-- <spawnIntervalRange><min>600000</min><max>600000</max></spawnIntervalRange> -->
+		<!-- <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn> -->
+		<!-- <showMessageIfOwned>false</showMessageIfOwned> -->
+	  <!-- </li> -->
+	  <!-- <li Class="CompProperties_Spawner"> -->
+		<!-- <requiresPower>true</requiresPower> -->
+		<!-- <thingToSpawn>WVC_ResourceNodes_Red</thingToSpawn> -->
+		<!-- <spawnCount>9</spawnCount> -->
+		<!-- <spawnIntervalRange><min>600000</min><max>600000</max></spawnIntervalRange> -->
+		<!-- <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn> -->
+		<!-- <showMessageIfOwned>false</showMessageIfOwned> -->
+	  <!-- </li> -->
+	  <!-- <li Class="CompProperties_Spawner"> -->
+		<!-- <requiresPower>true</requiresPower> -->
+		<!-- <thingToSpawn>WVC_ResourceNodes_Violet</thingToSpawn> -->
+		<!-- <spawnCount>8</spawnCount> -->
+		<!-- <spawnIntervalRange><min>600000</min><max>600000</max></spawnIntervalRange> -->
+		<!-- <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn> -->
+		<!-- <showMessageIfOwned>false</showMessageIfOwned> -->
+	  <!-- </li> -->
+	  <!-- <li Class="CompProperties_Spawner"> -->
+		<!-- <requiresPower>true</requiresPower> -->
+		<!-- <thingToSpawn>WVC_ResourceNodes_Yellow</thingToSpawn> -->
+		<!-- <spawnCount>11</spawnCount> -->
+		<!-- <spawnIntervalRange><min>600000</min><max>600000</max></spawnIntervalRange> -->
+		<!-- <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn> -->
+		<!-- <showMessageIfOwned>false</showMessageIfOwned> -->
+	  <!-- </li> -->
 	</comps>
 	<rotatable>false</rotatable>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
