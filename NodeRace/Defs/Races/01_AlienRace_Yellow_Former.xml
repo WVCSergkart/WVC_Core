@@ -47,6 +47,7 @@
 	<!-- ==================================================================== -->
 
 	<race>
+	  <deathActionWorkerClass>WVC.DeathActionWorker_ReplaceCorpse_YellowNode</deathActionWorkerClass>
 	  <baseBodySize>0.8</baseBodySize>
 	  <baseHealthScale>1.25</baseHealthScale>
 	  <body>WVC_Nodes_YellowFormer</body>

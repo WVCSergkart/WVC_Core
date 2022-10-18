@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!-- MayRequireAnyOf="wvc.sergkart.races,honkai.girls.sergkart" -->
   <FactionDef ParentName="FactionBase" WVC_Tag="NomadFactionMain">
 	<defName>WVC_Nomads</defName>
 	<label>nomads</label>
