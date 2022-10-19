@@ -222,7 +222,7 @@
 	<statBases>
 	  <MeatAmount>28</MeatAmount>
 	  <MoveSpeed>5.9</MoveSpeed>
-	  <GlobalLearningFactor>2.0</GlobalLearningFactor>
+	  <GlobalLearningFactor>0.8</GlobalLearningFactor>
 	  <!-- <MoveSpeed>5.6</MoveSpeed> -->
 	  <MarketValue>3150</MarketValue>
 	  <ComfyTemperatureMin>-100</ComfyTemperatureMin>
