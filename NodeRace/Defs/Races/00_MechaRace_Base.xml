@@ -77,14 +77,14 @@
 				<colorChannels>
 					<li>
 						<name>skin</name>
-						<first Class="ColorGenerator_Options">
-							<options>
-								<li>
-									<weight>10</weight>
-									<only>RGBA(1.0, 0.902, 0.827, 1.0)</only>
-								</li>
-							</options>
+						<!-- red -->
+						<first Class="ColorGenerator_Single">
+						  <color>RGBA(1.0, 0.902, 0.827, 1.0)</color>
 						</first>
+						<!-- green -->
+						<second Class="ColorGenerator_Single">
+						  <color>RGBA(1.0, 0.902, 0.827, 1.0)</color>
+						</second>
 					</li>
 					<li>
 						<name>hair</name>
@@ -110,7 +110,11 @@
 						<!-- </first> -->
 					<!-- </li> -->
 				</colorChannels>
-				<bodyAddons></bodyAddons>
+				<bodyAddons>
+					<!-- <li> -->
+						<!-- <debug>false</debug> -->
+					<!-- </li> -->
+				</bodyAddons>
 			</alienPartGenerator>
 		</generalSettings>
 
@@ -122,7 +126,7 @@
 				<body>WVC/MechaRace/</body>
 				<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
 				<!-- <skull>WVC/BaseInvisibleHead/Head</skull> -->
-				<!-- <skinShader>CutoutComplex</skinShader> -->
+				<skinShader>CutoutComplex</skinShader>
 			<!-- </li> -->
 		</graphicPaths>
 		<styleSettings>
@@ -220,7 +224,7 @@
 	<!-- ==================================Thing================================== -->
 
 	<statBases>
-	  <MeatAmount>28</MeatAmount>
+	  <MeatAmount>12</MeatAmount>
 	  <MoveSpeed>5.9</MoveSpeed>
 	  <GlobalLearningFactor>0.8</GlobalLearningFactor>
 	  <!-- <MoveSpeed>5.6</MoveSpeed> -->
@@ -228,7 +232,7 @@
 	  <ComfyTemperatureMin>-100</ComfyTemperatureMin>
 	  <ComfyTemperatureMax>250</ComfyTemperatureMax>
 	  <FilthRate>0.8</FilthRate>
-	  <LeatherAmount>64</LeatherAmount>
+	  <LeatherAmount>48</LeatherAmount>
 	  <ToxicResistance>1.0</ToxicResistance>
 	  <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1.0</ToxicEnvironmentResistance>
 	  <PsychicSensitivity>0.75</PsychicSensitivity>
@@ -236,6 +240,7 @@
 	  <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
 	  <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
 	  <ArmorRating_Heat>2.0</ArmorRating_Heat>
+	  <!-- <DeteriorationRate>0.0</DeteriorationRate> -->
 	  <!-- custom -->
 	  <PawnTrapSpringChance>0.5</PawnTrapSpringChance>
 	  <WorkSpeedGlobal>0.6</WorkSpeedGlobal>
@@ -275,7 +280,7 @@
 	  <body>WVC_MekaRace</body>
 	  <baseBodySize>1.0</baseBodySize>
 	  <baseHealthScale>1.0</baseHealthScale>
-	  <baseHungerRate>0.5</baseHungerRate>
+	  <baseHungerRate>1.2</baseHungerRate>
 	  <foodType>OmnivoreHuman</foodType>
 	  <!-- <leatherDef>Leather_Human</leatherDef> -->
 	  <specificMeatDef>WVC_ResourceNodes_Yellow</specificMeatDef>
@@ -284,8 +289,8 @@
 	  <gestationPeriodDays>18</gestationPeriodDays>
 	  <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
 	  <manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
-	  <bloodDef>Filth_MachineBits</bloodDef>
-	  <!-- <bloodDef>WVC_Filth_AbyssBlood</bloodDef> -->
+	  <!-- <bloodDef>Filth_MachineBits</bloodDef> -->
+	  <bloodDef>WVC_Filth_AbyssBlood</bloodDef>
 	  <lifeExpectancy>2500</lifeExpectancy>
 	  <litterSizeCurve>
 		<points>
@@ -470,6 +475,12 @@
 	</butcherProducts>
 
 	<!-- ==================================================================== -->
+
+	<modExtensions>
+		<li Class="WVC.CorpseRotTweak">
+			<tweakCorpseRot>true</tweakCorpseRot>
+		</li>
+	</modExtensions>
 
   </AlienRace.ThingDef_AlienRace>
 

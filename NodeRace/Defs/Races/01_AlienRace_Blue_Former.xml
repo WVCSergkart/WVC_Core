@@ -3,7 +3,7 @@
 
   <FleshTypeDef>
 	<defName>WVC_NodeRaces_MechFlesh</defName>
-	<corpseCategory>CorpsesHumanlike</corpseCategory>
+	<corpseCategory>CorpsesMechanoid</corpseCategory>
 	<damageEffecter>Damage_HitMechanoid</damageEffecter>
 	<genericWounds>
 	  <li>
@@ -83,7 +83,11 @@
 				<customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
 				<customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
 				<headBodyPartDef>MechanicalHead</headBodyPartDef>
-				<bodyAddons></bodyAddons>
+				<bodyAddons>
+					<!-- <li> -->
+						<!-- <debug>false</debug> -->
+					<!-- </li> -->
+				</bodyAddons>
 			</alienPartGenerator>
 		</generalSettings>
 
@@ -339,7 +343,7 @@
 	  <ConversionPower MayRequire="ludeon.rimworld.ideology">0.5</ConversionPower>
 	  <CertaintyLossFactor MayRequire="ludeon.rimworld.ideology">1.5</CertaintyLossFactor>
 	  <RoyalFavorValue MayRequire="ludeon.rimworld.royalty">5</RoyalFavorValue>
-	  <VPE_PsyfocusCostFactor MayRequire="vanillaexpanded.vpsycastse">0.75</VPE_PsyfocusCostFactor>
+	  <VPE_PsyfocusCostFactor MayRequire="vanillaexpanded.vpsycastse">1.0</VPE_PsyfocusCostFactor>
 	  <VEF_VerbRangeFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.0</VEF_VerbRangeFactor>
 	  <!-- CE test -->
 	  <!-- <MeleeParryChance MayRequire="ceteam.combatextended">20.0</MeleeParryChance> -->
@@ -463,6 +467,12 @@
 	</butcherProducts>
 
 	<!-- ==================================================================== -->
+
+	<!-- <modExtensions> -->
+		<!-- <li Class="WVC.CorpseRotTweak"> -->
+			<!-- <tweakCorpseRot>true</tweakCorpseRot> -->
+		<!-- </li> -->
+	<!-- </modExtensions> -->
 
   </AlienRace.ThingDef_AlienRace>
 
