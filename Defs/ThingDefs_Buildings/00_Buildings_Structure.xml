@@ -6,9 +6,9 @@
 	<ThingDef Name="BaseBuildings_WVC" ParentName="BuildingBase" Abstract="True">
 		<techLevel>Ultra</techLevel>
 		<description>No information available.</description>
-		<graphicData>
-		  <shaderType>CutoutComplex</shaderType>
-		</graphicData>
+		<!-- <graphicData> -->
+		  <!-- <shaderType>CutoutComplex</shaderType> -->
+		<!-- </graphicData> -->
 		<!-- <designationCategory>CardboardStuff_WVC</designationCategory> -->
 		<designationCategory>Misc</designationCategory>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
@@ -72,6 +72,9 @@
 	<ThingDef Name="AncientBuildings_WVC" ParentName="BaseBuildings_WVC" Abstract="True">
 		<techLevel>Spacer</techLevel>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<!-- <graphicData> -->
+		  <!-- <shaderType>CutoutComplex</shaderType> -->
+		<!-- </graphicData> -->
 		<researchPrerequisites>
 			<li>ValkyriesTechs_I_WVC</li>
 		</researchPrerequisites>
@@ -80,6 +83,9 @@
 	<ThingDef Name="MechanoidBuildings_WVC" ParentName="BaseBuildings_WVC" Abstract="True">
 		<techLevel>Ultra</techLevel>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<!-- <graphicData> -->
+		  <!-- <shaderType>CutoutComplex</shaderType> -->
+		<!-- </graphicData> -->
 		<researchPrerequisites>
 			<li>ValkyriesTechs_II_WVC</li>
 		</researchPrerequisites>
@@ -89,6 +95,9 @@
 		<techLevel>Archotech</techLevel>
 		<!-- <tickerType>Long</tickerType> -->
 		<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+		<!-- <graphicData> -->
+		  <!-- <shaderType>CutoutComplex</shaderType> -->
+		<!-- </graphicData> -->
 		<comps>
 		  <li Class="CompProperties_Glower">
 			<glowRadius>3</glowRadius>
@@ -109,7 +118,7 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	</ThingDef>
 
-	<ThingDef Name="NotMinified_Archotech_Buildings_WVC" ParentName="ArchotechBuildings_WVC" Abstract="True">
+	<ThingDef Name="NotMinified_Archotech_Buildings_WVC" ParentName="BaseBuildings_WVC" Abstract="True">
 		<descriptionHyperlinks>
 		  <ConceptDef>WVC_WallsDoorsFloors</ConceptDef>
 		</descriptionHyperlinks>
@@ -120,6 +129,20 @@
 		<thingCategories Inherit="False"/>
 		<designationCategory>Structure</designationCategory>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<!-- = -->
+		<techLevel>Archotech</techLevel>
+		<!-- <tickerType>Long</tickerType> -->
+		<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+		<comps>
+		  <li Class="CompProperties_Glower">
+			<glowRadius>3</glowRadius>
+			<glowColor>(200,200,50)</glowColor>
+		  </li>
+		</comps>
+		<researchPrerequisites>
+			<li>ValkyriesTechs_III_WVC</li>
+		</researchPrerequisites>
+		<!-- <terrainAffordanceNeeded>Light</terrainAffordanceNeeded> -->
 	</ThingDef>
 
 	<!-- ============================================================ -->
@@ -252,24 +275,36 @@
 		<defName>AncientWall_WVC</defName>
 		<label>ancient wall</label>
 		<uiIconPath>WVC/Stuff/WallsDoorsColumns/AncientWall_Icon</uiIconPath>
+		<building>
+			<paintable>true</paintable>
+		</building>
 		<graphicData>
 			<texPath>WVC/Stuff/WallsDoorsColumns/AncientWall</texPath>
+			<color>(65,69,65)</color>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="Marker_BuildingsWalls_Mecha_WVC">
 		<defName>MechanoidWallA_WVC</defName>
 		<label>mechanoid wall A</label>
 		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidIconA</uiIconPath>
+		<building>
+			<paintable>true</paintable>
+		</building>
 		<graphicData>
-			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidWallA</texPath>
+			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidWall</texPath>
+			<color>(164,164,145)</color>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="Marker_BuildingsWalls_Mecha_WVC">
 		<defName>MechanoidWallB_WVC</defName>
 		<label>mechanoid wall B</label>
 		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidIconB</uiIconPath>
+		<building>
+			<paintable>true</paintable>
+		</building>
 		<graphicData>
-			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidWallB</texPath>
+			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidWall</texPath>
+			<color>(181,165,153)</color>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="Marker_BuildingsWalls_Archo_WVC">
@@ -429,24 +464,36 @@
 		<defName>AncientDoor_WVC</defName>
 		<label>ancient door</label>
 		<uiIconPath>WVC/Stuff/WallsDoorsColumns/AncientDoor_Icon</uiIconPath>
+		<building>
+			<paintable>true</paintable>
+		</building>
 		<graphicData>
 			<texPath>WVC/Stuff/WallsDoorsColumns/AncientDoor_Mover</texPath>
+			<color>(65,69,65)</color>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="Marker_BuildingsDoors_Mecha_WVC">
 		<defName>MechanoidDoorA_WVC</defName>
 		<label>mechanoid door A</label>
 		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorA_MenuIcon</uiIconPath>
+		<building>
+			<paintable>true</paintable>
+		</building>
 		<graphicData>
 			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorA_Mover</texPath>
+			<color>(164,164,145)</color>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="Marker_BuildingsDoors_Mecha_WVC">
 		<defName>MechanoidDoorB_WVC</defName>
 		<label>mechanoid door B</label>
 		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorB_MenuIcon</uiIconPath>
+		<building>
+			<paintable>true</paintable>
+		</building>
 		<graphicData>
-			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorB_Mover</texPath>
+			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorA_Mover</texPath>
+			<color>(181,165,153)</color>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="Marker_BuildingsDoors_Archo_WVC">

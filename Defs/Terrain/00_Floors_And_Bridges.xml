@@ -131,6 +131,8 @@
 	<defName>Floor_AncientFloor_WVC</defName>
 	<label>(Floor) Ancient floor</label>
 	<texturePath>WVC/Stuff/Floors/AncientFloor</texturePath>
+	<color>(65,69,65)</color>
+	<isPaintable>true</isPaintable>
   </TerrainDef>
 
   <!-- ======================== -->
@@ -138,12 +140,16 @@
   <TerrainDef  ParentName="BaseFloor_Mech_WVC">
 	<defName>Floor_MechanoidFloor_WVC</defName>
 	<label>(Floor) Mechanoid floor A</label>
-	<texturePath>WVC/Stuff/Floors/Floor_MechanoidA</texturePath>
+	<texturePath>WVC/Stuff/Floors/Floor_Mechanoid</texturePath>
+	<color>(164,164,145)</color>
+	<isPaintable>true</isPaintable>
   </TerrainDef>
   <TerrainDef  ParentName="BaseFloor_Mech_WVC">
 	<defName>Floor_MechanoidFloorB_WVC</defName>
 	<label>(Floor) Mechanoid floor B</label>
-	<texturePath>WVC/Stuff/Floors/Floor_MechanoidB</texturePath>
+	<texturePath>WVC/Stuff/Floors/Floor_Mechanoid</texturePath>
+	<color>(181,165,153)</color>
+	<isPaintable>true</isPaintable>
   </TerrainDef>
 
   <TerrainDef ParentName="BaseFloor_Mech_WVC">
@@ -244,6 +250,8 @@
 	<defName>Bridge_AncientFloor_WVC</defName>
 	<label>(Bridge) Ancient floor</label>
 	<texturePath>WVC/Stuff/Floors/AncientFloor</texturePath>
+	<color>(65,69,65)</color>
+	<isPaintable>true</isPaintable>
   </TerrainDef>
 
   <!-- ======================== -->
@@ -251,12 +259,16 @@
   <TerrainDef ParentName="BaseBridges_Mech_WVC">
 	<defName>Bridge_MechanoidFloor_WVC</defName>
 	<label>(Bridge) Mechanoid floor A</label>
-	<texturePath>WVC/Stuff/Floors/Floor_MechanoidA</texturePath>
+	<texturePath>WVC/Stuff/Floors/Floor_Mechanoid</texturePath>
+	<color>(164,164,145)</color>
+	<isPaintable>true</isPaintable>
   </TerrainDef>
   <TerrainDef ParentName="BaseBridges_Mech_WVC">
 	<defName>Bridge_MechanoidFloorB_WVC</defName>
 	<label>(Bridge) Mechanoid floor B</label>
-	<texturePath>WVC/Stuff/Floors/Floor_MechanoidB</texturePath>
+	<texturePath>WVC/Stuff/Floors/Floor_Mechanoid</texturePath>
+	<color>(181,165,153)</color>
+	<isPaintable>true</isPaintable>
   </TerrainDef>
 
   <TerrainDef ParentName="BaseBridges_Mech_WVC">
