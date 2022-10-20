@@ -516,7 +516,7 @@
 		<caseFalse>
 
 			<li Class="XmlExtensions.PatchOperationSafeRemove">
-				<xpath>/Defs/ThingDef[defName="WVC_UniversalConduit"]/comps/li[@MayRequire="vanillaexpanded.vfepower"]</xpath>
+				<xpath>/Defs/ThingDef[defName="WVC_UniversalConduit"]/comps/li[@MayRequire="vanillaexpanded.helixiengas"]</xpath>
 			</li>
 
 		</caseFalse>

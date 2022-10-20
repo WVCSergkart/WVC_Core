@@ -185,8 +185,11 @@
 	  <li MayRequire="vanillaexpanded.vchemfuele" Class="PipeSystem.CompProperties_Resource">
 		<pipeNet>VCHE_DeepchemNet</pipeNet>
 	  </li>
-	  <li MayRequire="vanillaexpanded.vfepower" Class="GasNetwork.CompProperties_Gas">
-		<compClass>GasNetwork.CompGas</compClass>
+	  <!-- <li MayRequire="vanillaexpanded.vfepower" Class="GasNetwork.CompProperties_Gas"> -->
+		<!-- <compClass>GasNetwork.CompGas</compClass> -->
+	  <!-- </li> -->
+	  <li MayRequire="vanillaexpanded.helixiengas" Class="PipeSystem.CompProperties_ResourceTrader">
+		<pipeNet>VHGE_HelixienNet</pipeNet>
 	  </li>
 	</comps>
 	<placeWorkers>

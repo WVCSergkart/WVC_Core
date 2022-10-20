@@ -239,17 +239,17 @@
 								</li>
 								<li Class="XmlExtensions.Setting.Checkbox">
 									<key>WVC_Buildings_UniversalConduit_SupportPatch_VCHE</key>
-									<label>VCHE</label>
+									<label>Fuel (VE)</label>
 									<defaultValue>True</defaultValue>
 								</li>
 								<li Class="XmlExtensions.Setting.Checkbox">
 									<key>WVC_Buildings_UniversalConduit_SupportPatch_VFEP</key>
-									<label>VFEP</label>
+									<label>Gas (VE)</label>
 									<defaultValue>True</defaultValue>
 								</li>
 								<li Class="XmlExtensions.Setting.Checkbox">
 									<key>WVC_Buildings_UniversalConduit_SupportPatch_SOS</key>
-									<label>SOS2</label>
+									<label>Heat (SoS)</label>
 									<defaultValue>True</defaultValue>
 								</li>
 							</settings>
