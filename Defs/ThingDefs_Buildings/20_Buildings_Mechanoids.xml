@@ -179,10 +179,10 @@
 	  <li MayRequire="kentington.saveourship2" Class="CompProperties_ShipHeat">
 		<compClass>CompShipHeat</compClass>
 	  </li>
-	  <li MayRequire="vanillaexpanded.vchemfuele" Class="PipeSystem.CompProperties_Resource">
+	  <li MayRequire="vanillaexpanded.vchemfuele" Class="PipeSystem.CompProperties_ResourceTrader">
 		<pipeNet>VCHE_ChemfuelNet</pipeNet>
 	  </li>
-	  <li MayRequire="vanillaexpanded.vchemfuele" Class="PipeSystem.CompProperties_Resource">
+	  <li MayRequire="vanillaexpanded.vchemfuele" Class="PipeSystem.CompProperties_ResourceTrader">
 		<pipeNet>VCHE_DeepchemNet</pipeNet>
 	  </li>
 	  <!-- <li MayRequire="vanillaexpanded.vfepower" Class="GasNetwork.CompProperties_Gas"> -->
