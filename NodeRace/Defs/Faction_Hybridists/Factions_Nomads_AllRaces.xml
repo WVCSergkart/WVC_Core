@@ -44,13 +44,13 @@
 	</structureMemeWeights>
 	<xenotypeSet>
 	  <xenotypeChances>
-		<Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.2</Neanderthal>
-		<Hussar MayRequire="Ludeon.RimWorld.Biotech">0.2</Hussar>
-		<Pigskin MayRequire="Ludeon.RimWorld.Biotech">0.2</Pigskin>
-		<Yttakin MayRequire="Ludeon.RimWorld.Biotech">0.2</Yttakin>
-		<Genie MayRequire="Ludeon.RimWorld.Biotech">0.2</Genie>
-		<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0.2</Dirtmole>
-		<Highmate MayRequire="Ludeon.RimWorld.Biotech">0.2</Highmate>
+		<Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.05</Neanderthal>
+		<Hussar MayRequire="Ludeon.RimWorld.Biotech">0.05</Hussar>
+		<Pigskin MayRequire="Ludeon.RimWorld.Biotech">0.05</Pigskin>
+		<Yttakin MayRequire="Ludeon.RimWorld.Biotech">0.05</Yttakin>
+		<Genie MayRequire="Ludeon.RimWorld.Biotech">0.05</Genie>
+		<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0.05</Dirtmole>
+		<Highmate MayRequire="Ludeon.RimWorld.Biotech">0.05</Highmate>
 	  </xenotypeChances>
 	</xenotypeSet>
 	<backstoryFilters>

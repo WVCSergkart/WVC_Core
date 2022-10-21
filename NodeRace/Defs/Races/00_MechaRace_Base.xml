@@ -88,15 +88,14 @@
 					</li>
 					<li>
 						<name>hair</name>
-						<first Class="ColorGenerator_Options">
-							<options>
-								<li>
-									<weight>10</weight>
-									<only>RGBA(0.20, 0.20, 0.20, 1.0)</only>
-									<!-- <only>RGBA(1.0, 0.902, 0.827, 1.0)</only> -->
-								</li>
-							</options>
+						<!-- red -->
+						<first Class="ColorGenerator_Single">
+						  <color>RGBA(0.20, 0.20, 0.20, 1.0)</color>
 						</first>
+						<!-- green -->
+						<second Class="ColorGenerator_Single">
+						  <color>RGBA(0.20, 0.20, 0.20, 1.0)</color>
+						</second>
 					</li>
 					<!-- <li> -->
 						<!-- <name>tattoo</name> -->

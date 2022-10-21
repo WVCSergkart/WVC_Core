@@ -54,7 +54,7 @@
 	  <li Class="CompProperties_Flickable"/>
 	  <li Class="CompProperties_Glower">
 		<glowRadius>3</glowRadius>
-		<glowColor>(255,133,133)</glowColor>
+		<glowColor>(255,133,133, 0)</glowColor>
 	  </li>
 	</comps>
 	<killedLeavings>

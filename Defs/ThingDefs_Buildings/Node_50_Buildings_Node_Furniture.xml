@@ -87,7 +87,7 @@
 	<comps>
 	  <li Class="CompProperties_Glower">
 		<glowRadius>3</glowRadius>
-		<glowColor>(133,202,255)</glowColor>
+		<glowColor>(133,202,255, 0)</glowColor>
 	  </li>
 	</comps>
 	<researchPrerequisites>
@@ -105,7 +105,7 @@
 	<comps>
 	  <li Class="CompProperties_Glower">
 		<glowRadius>3</glowRadius>
-		<glowColor>(133,255,136)</glowColor>
+		<glowColor>(133,255,136, 0)</glowColor>
 	  </li>
 	</comps>
 	<researchPrerequisites>
@@ -123,7 +123,7 @@
 	<comps>
 	  <li Class="CompProperties_Glower">
 		<glowRadius>3</glowRadius>
-		<glowColor>(255,133,133)</glowColor>
+		<glowColor>(255,133,133, 0)</glowColor>
 	  </li>
 	</comps>
 	<researchPrerequisites>
@@ -141,7 +141,7 @@
 	<comps>
 	  <li Class="CompProperties_Glower">
 		<glowRadius>3</glowRadius>
-		<glowColor>(142,133,255)</glowColor>
+		<glowColor>(142,133,255, 0)</glowColor>
 	  </li>
 	</comps>
 	<researchPrerequisites>
@@ -159,7 +159,7 @@
 	<comps>
 	  <li Class="CompProperties_Glower">
 		<glowRadius>3</glowRadius>
-		<glowColor>(255,248,133)</glowColor>
+		<glowColor>(255,248,133, 0)</glowColor>
 	  </li>
 	</comps>
 	<researchPrerequisites>
@@ -249,7 +249,7 @@
 	<comps>
 	  <li Class="CompProperties_Glower">
 		<glowRadius>3</glowRadius>
-		<glowColor>(133,202,255)</glowColor>
+		<glowColor>(133,202,255, 0)</glowColor>
 	  </li>
 	</comps>
 	<researchPrerequisites>
@@ -267,7 +267,7 @@
 	<comps>
 	  <li Class="CompProperties_Glower">
 		<glowRadius>3</glowRadius>
-		<glowColor>(133,255,136)</glowColor>
+		<glowColor>(133,255,136, 0)</glowColor>
 	  </li>
 	</comps>
 	<researchPrerequisites>
@@ -285,7 +285,7 @@
 	<comps>
 	  <li Class="CompProperties_Glower">
 		<glowRadius>3</glowRadius>
-		<glowColor>(255,133,133)</glowColor>
+		<glowColor>(255,133,133, 0)</glowColor>
 	  </li>
 	</comps>
 	<researchPrerequisites>
@@ -303,7 +303,7 @@
 	<comps>
 	  <li Class="CompProperties_Glower">
 		<glowRadius>3</glowRadius>
-		<glowColor>(142,133,255)</glowColor>
+		<glowColor>(142,133,255, 0)</glowColor>
 	  </li>
 	</comps>
 	<researchPrerequisites>
@@ -321,7 +321,7 @@
 	<comps>
 	  <li Class="CompProperties_Glower">
 		<glowRadius>3</glowRadius>
-		<glowColor>(255,248,133)</glowColor>
+		<glowColor>(255,248,133, 0)</glowColor>
 	  </li>
 	</comps>
 	<researchPrerequisites>

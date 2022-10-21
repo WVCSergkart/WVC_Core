@@ -60,7 +60,7 @@
 	<comps>
 	  <li Class="CompProperties_Glower">
 		<glowRadius>3</glowRadius>
-		<glowColor>(255,133,133)</glowColor>
+		<glowColor>(255,133,133, 0)</glowColor>
 	  </li>
 	</comps>
 	<designatorDropdown>HGS_Nodes_WVC</designatorDropdown>

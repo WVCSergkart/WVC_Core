@@ -21,7 +21,7 @@
 	<comps>
 	  <li Class="CompProperties_Glower">
 		<glowRadius>7</glowRadius>
-		<glowColor>(142,133,255)</glowColor>
+		<glowColor>(142,133,255, 0)</glowColor>
 	  </li>
 	</comps>
 	<researchPrerequisites Inherit="False">
