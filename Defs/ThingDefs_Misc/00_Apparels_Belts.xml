@@ -17,7 +17,7 @@
 	  <Mass>3</Mass>
 	  <WorkToMake>25000</WorkToMake>
 	  <Flammability>0.0</Flammability>
-	  <EnergyShieldRechargeRate>0.10</EnergyShieldRechargeRate>
+	  <EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
 	  <EnergyShieldEnergyMax>2.0</EnergyShieldEnergyMax>
 	  <EquipDelay>1</EquipDelay>
 	</statBases>
@@ -67,6 +67,9 @@
 		<li>VAEA_Utility_Spacer</li>
 	  </tags>
 	</apparel>
+	<comps>
+	  <li Class="CompProperties_Shield" />
+	</comps>
 	<allowedArchonexusCount>1</allowedArchonexusCount>
   </ThingDef>
 

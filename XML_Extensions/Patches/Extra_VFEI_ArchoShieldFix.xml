@@ -12,32 +12,41 @@
 				<packageId>true</packageId>
 				<caseTrue>
 
-					<Operation Class="XmlExtensions.FindMod">
-						<mods>
-							<li>vanillaexpanded.vaeaccessories</li>
-						</mods>
-						<packageId>true</packageId>
-						<caseTrue>
+					<!-- <Operation Class="XmlExtensions.FindMod"> -->
+						<!-- <mods> -->
+							<!-- <li>vanillaexpanded.vaeaccessories</li> -->
+						<!-- </mods> -->
+						<!-- <packageId>true</packageId> -->
+						<!-- <caseTrue> -->
 
-							<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
-								  <xpath>Defs/ThingDef[defName="VFEI_Apparel_ArchotechShieldBelt"]</xpath>
-								  <value>
-									<thingClass>VAE_Accessories.RangedShieldBelt</thingClass>
-								  </value>
-							</Operation>
+							<!-- <Operation Class="XmlExtensions.PatchOperationAddOrReplace"> -->
+								  <!-- <xpath>Defs/ThingDef[defName="VFEI_Apparel_ArchotechShieldBelt"]</xpath> -->
+								  <!-- <value> -->
+									<!-- <thingClass>VAE_Accessories.RangedShieldBelt</thingClass> -->
+								  <!-- </value> -->
+							<!-- </Operation> -->
 
-						</caseTrue>
-						<caseFalse>
-
-							<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
-								  <xpath>Defs/ThingDef[defName="VFEI_Apparel_ArchotechShieldBelt"]</xpath>
-								  <value>
-									<thingClass>ShieldBelt</thingClass>
-								  </value>
-							</Operation>
-
-						</caseFalse>
+						<!-- </caseTrue> -->
+						<!-- <caseFalse> -->
+					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+					  <xpath>Defs/ThingDef[defName="VFEI_Apparel_ArchotechShieldBelt"]</xpath>
+					  <safetyDepth>1</safetyDepth>
+					  <value>
+						<comps>
+						  <li Class="CompProperties_Shield" />
+						</comps>
+					  </value>
 					</Operation>
+
+					<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+						  <xpath>Defs/ThingDef[defName="VFEI_Apparel_ArchotechShieldBelt"]</xpath>
+						  <value>
+							<thingClass>Apparel</thingClass>
+						  </value>
+					</Operation>
+
+						<!-- </caseFalse> -->
+					<!-- </Operation> -->
 
 					<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
 					  <xpath>/Defs/ThingDef[defName="VFEI_Apparel_ArchotechShieldBelt"]</xpath>
@@ -58,7 +67,7 @@
 					  <xpath>/Defs/ThingDef[defName="VFEI_Apparel_ArchotechShieldBelt"]/statBases</xpath>
 					  <value>
 						<MarketValue>3270</MarketValue>
-						<EnergyShieldRechargeRate>0.10</EnergyShieldRechargeRate>
+						<EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
 					  </value>
 					</Operation>
 

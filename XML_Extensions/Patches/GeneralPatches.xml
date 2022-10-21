@@ -355,22 +355,22 @@
 
 	<!--=====================================================================-->
 
-	<Operation Class="XmlExtensions.FindMod">
-		<mods>
-			<li>vanillaexpanded.vaeaccessories</li>
-		</mods>
-		<packageId>true</packageId>
-		<caseTrue>
+	<!-- <Operation Class="XmlExtensions.FindMod"> -->
+		<!-- <mods> -->
+			<!-- <li>vanillaexpanded.vaeaccessories</li> -->
+		<!-- </mods> -->
+		<!-- <packageId>true</packageId> -->
+		<!-- <caseTrue> -->
 
-			<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
-				  <xpath>Defs/ThingDef[defName="WVC_Apparel_MechanoidShieldBelt"]</xpath>
-				  <value>
-					<thingClass>VAE_Accessories.RangedShieldBelt</thingClass>
-				  </value>
-			</Operation>
+			<!-- <Operation Class="XmlExtensions.PatchOperationAddOrReplace"> -->
+				  <!-- <xpath>Defs/ThingDef[defName="WVC_Apparel_MechanoidShieldBelt"]</xpath> -->
+				  <!-- <value> -->
+					<!-- <thingClass>VAE_Accessories.RangedShieldBelt</thingClass> -->
+				  <!-- </value> -->
+			<!-- </Operation> -->
 
-		</caseTrue>
-	</Operation>
+		<!-- </caseTrue> -->
+	<!-- </Operation> -->
 
 	<!--=====================================================================-->
 
