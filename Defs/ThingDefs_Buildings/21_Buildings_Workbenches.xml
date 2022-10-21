@@ -107,6 +107,14 @@
 	<designationCategory>Production</designationCategory>
 	<designatorDropdown>HGS_Workbenches_WVC</designatorDropdown>
 	<thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
+	<modExtensions>
+	  <li Class="RecipeInheritance.ThingDefExtension">
+		<inheritRecipesFrom>
+		  <li>TableButcher</li>
+		  <li>TableStonecutter</li>
+		</inheritRecipesFrom>
+	  </li>
+	</modExtensions>
   </ThingDef>
 
   <ThingDef ParentName="WVC_MechaniteCrafter_Base">

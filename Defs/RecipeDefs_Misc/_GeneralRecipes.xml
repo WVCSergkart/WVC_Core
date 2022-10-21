@@ -119,6 +119,7 @@
 		<!-- <li>Apparel_GirlyUnderwear_WVC</li> -->
 	  </disallowedThingDefs>
 	</fixedIngredientFilter>
+	<displayPriority>1</displayPriority>
   </RecipeDef>
 
   <!-- ======================================================================= -->
@@ -183,13 +184,13 @@
 	<defName>WVC_RecycleRecipe_WeaponsApparelsCorpsesChunks</defName>
 	<label>recycle stuff</label>
 	<uiIconThing>WVC_UniversalFuel</uiIconThing>
-	<allowMixingIngredients>true</allowMixingIngredients>
-	<workTableEfficiencyStat>MechaniteCrafter_Efficiency_RecycleStuff_WVC</workTableEfficiencyStat>
-	<description>Recycle something useless into something useful.\n\nThe maximum efficiency of this recipe is 0.5 (50%).</description>
-	<specialProducts>
-	  <li>Smelted</li>
-	  <li>Butchery</li>
-	</specialProducts>
+	<allowMixingIngredients>false</allowMixingIngredients>
+	<!-- <workTableEfficiencyStat>MechaniteCrafter_Efficiency_RecycleStuff_WVC</workTableEfficiencyStat> -->
+	<description>Recycle something useless into something useful.</description>
+	<!-- <specialProducts> -->
+	  <!-- <li>Smelted</li> -->
+	  <!-- <li>Butchery</li> -->
+	<!-- </specialProducts> -->
 	<products>
 	  <WVC_UniversalFuel>9</WVC_UniversalFuel>
 	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
@@ -417,7 +418,7 @@
 	  <li>CraftingSpot</li>
 	  <li>ElectricSmelter</li>
 	  <li MayRequire="vanillaexpanded.vfeproduction">VFE_FueledSmelter</li>
-	  <li MayRequire="vanillaexpanded.vfepower">VPE_GasSmelter</li>
+	  <!-- <li MayRequire="vanillaexpanded.vfepower">VPE_GasSmelter</li> -->
 	  <!-- <li>DefaultWorkSpot_WVC</li> -->
 	  <!-- <li>WVC_Node_MechaniteCrafter_Violet</li> -->
 	  <li>WVC_AdvancedCraftingBench</li>

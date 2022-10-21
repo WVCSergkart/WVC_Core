@@ -17,7 +17,7 @@
 	<recipeUsers>
 	  <li>ElectricSmelter</li>
 	  <li MayRequire="vanillaexpanded.vfeproduction">VFE_FueledSmelter</li>
-	  <li MayRequire="vanillaexpanded.vfepower">VPE_GasSmelter</li>
+	  <!-- <li MayRequire="vanillaexpanded.vfepower">VPE_GasSmelter</li> -->
 	</recipeUsers>
 	<ingredients>
 	  <li>
@@ -53,7 +53,7 @@
 	<recipeUsers>
 	  <li>ElectricSmelter</li>
 	  <li MayRequire="vanillaexpanded.vfeproduction">VFE_FueledSmelter</li>
-	  <li MayRequire="vanillaexpanded.vfepower">VPE_GasSmelter</li>
+	  <!-- <li MayRequire="vanillaexpanded.vfepower">VPE_GasSmelter</li> -->
 	</recipeUsers>
 	<ingredients>
 	  <li>
