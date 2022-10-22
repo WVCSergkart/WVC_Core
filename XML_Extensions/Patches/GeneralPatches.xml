@@ -257,6 +257,13 @@
 				  </value>
 			</Operation>
 
+			<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+				<xpath>Defs/ThingDef[defName="Plant_TreeAnima"]</xpath>
+				<value>
+					<tickerType>Rare</tickerType>
+				</value>
+			</Operation>
+
 		</caseTrue>
 	</Operation>
 

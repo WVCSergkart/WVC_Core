@@ -150,7 +150,7 @@
 						<radius>{ArtificialBuildings_Radius}</radius>
 						<curve>
 						  <points>
-							<li>(0,   0</li>
+							<li>(0,   0)</li>
 							<li>(5,  -{ArtificialBuildings_Curve_2})</li>
 							<li>(10, -{ArtificialBuildings_Curve_3})</li>
 							<li>(50, -{ArtificialBuildings_Curve_4})</li>
@@ -172,6 +172,22 @@
 					  </li>
 					</offsets>
 				</value>
+			</Operation>
+			<Operation Class="PatchOperationReplace">
+			  <xpath>/Defs/StatDef[defName="MeditationPlantGrowthOffset"]/parts/li[@Class="StatPart_ArtificialBuildingsNearbyOffset"]</xpath> 
+			  <value>
+				  <li Class="StatPart_ArtificialBuildingsNearbyOffset">
+					<radius>{ArtificialBuildings_Radius}</radius>
+					<curve>
+					  <points>
+						<li>(0,   0)</li>
+						<li>(5,  -{ArtificialBuildings_Curve_2})</li>
+						<li>(10, -{ArtificialBuildings_Curve_3})</li>
+						<li>(50, -{ArtificialBuildings_Curve_4})</li>
+					  </points>
+					</curve>
+				  </li>
+			  </value>
 			</Operation>
 		</apply>
 	</XmlExtensions.PatchDef>
