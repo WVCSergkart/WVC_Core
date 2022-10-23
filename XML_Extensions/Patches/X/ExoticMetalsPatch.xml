@@ -93,6 +93,16 @@
 			<Operation Class="XmlExtensions.PatchOperationSafeRemove">
 				<xpath>/Defs/ThingDef[@ParentName="WVC_ExoticResources_Base" or @Name="WVC_ExoticResources_Base"]/thingCategories[li="WVC_MetalResources_Raw"]</xpath>
 			</Operation>
+			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+			  <xpath>/Defs/ThingDef[@Name="WVC_ExoticResources_Base"]</xpath> 
+			  <safetyDepth>1</safetyDepth>
+			  <value>
+				<thingCategories>
+				  <li>WVC_ExoticMetals</li>
+				  <!-- <li>WVC_MetalResources_Raw</li> -->
+				</thingCategories>
+			  </value>
+			</Operation>
 
 			<!-- ===================================================================== -->
 
