@@ -260,7 +260,7 @@
 			<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
 				<xpath>Defs/ThingDef[defName="Plant_TreeAnima"]</xpath>
 				<value>
-					<tickerType>Rare</tickerType>
+					<tickerType>Normal</tickerType>
 				</value>
 			</Operation>
 
