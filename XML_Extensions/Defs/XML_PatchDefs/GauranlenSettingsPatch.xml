@@ -54,10 +54,10 @@
 						  <points>
 							<li>(0, {GauranlenTreeCustom_MaxDryads0_WVC})</li>
 							<li>(0.05, {GauranlenTreeCustom_MaxDryads05_WVC})</li>
-							<li>(0.25, {GauranlenTreeCustom_MaxDryads25_WVC})</li>
-							<li>(0.50, {GauranlenTreeCustom_MaxDryads50_WVC})</li>
-							<li>(0.75, {GauranlenTreeCustom_MaxDryads75_WVC})</li>
-							<li>(0.90, {GauranlenTreeCustom_MaxDryads90_WVC})</li>
+							<li>(0.20, {GauranlenTreeCustom_MaxDryads25_WVC})</li>
+							<li>(0.40, {GauranlenTreeCustom_MaxDryads50_WVC})</li>
+							<li>(0.60, {GauranlenTreeCustom_MaxDryads75_WVC})</li>
+							<li>(0.80, {GauranlenTreeCustom_MaxDryads90_WVC})</li>
 						  </points>
 						</maxDryadsPerConnectionStrengthCurve>
 						<connectionLossPerLevelCurve>

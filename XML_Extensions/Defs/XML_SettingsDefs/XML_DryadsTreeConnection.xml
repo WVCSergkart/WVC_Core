@@ -168,7 +168,7 @@
 					</li>
 					<li Class="XmlExtensions.Setting.Slider">
 						<key>GauranlenTreeCustom_MaxDryads25_WVC</key>
-						<label>Max dryads at 25%: {GauranlenTreeCustom_MaxDryads25_WVC}</label>
+						<label>Max dryads at 20%: {GauranlenTreeCustom_MaxDryads25_WVC}</label>
 						<defaultValue>2</defaultValue>
 						<min>0</min>
 						<max>24</max>
@@ -177,7 +177,7 @@
 					</li>
 					<li Class="XmlExtensions.Setting.Slider">
 						<key>GauranlenTreeCustom_MaxDryads50_WVC</key>
-						<label>Max dryads at 50%: {GauranlenTreeCustom_MaxDryads50_WVC}</label>
+						<label>Max dryads at 40%: {GauranlenTreeCustom_MaxDryads50_WVC}</label>
 						<defaultValue>3</defaultValue>
 						<min>0</min>
 						<max>24</max>
@@ -186,7 +186,7 @@
 					</li>
 					<li Class="XmlExtensions.Setting.Slider">
 						<key>GauranlenTreeCustom_MaxDryads75_WVC</key>
-						<label>Max dryads at 75%: {GauranlenTreeCustom_MaxDryads75_WVC}</label>
+						<label>Max dryads at 60%: {GauranlenTreeCustom_MaxDryads75_WVC}</label>
 						<defaultValue>4</defaultValue>
 						<min>0</min>
 						<max>24</max>
@@ -195,7 +195,7 @@
 					</li>
 					<li Class="XmlExtensions.Setting.Slider">
 						<key>GauranlenTreeCustom_MaxDryads90_WVC</key>
-						<label>Max dryads at 90%: {GauranlenTreeCustom_MaxDryads90_WVC}</label>
+						<label>Max dryads at 80%: {GauranlenTreeCustom_MaxDryads90_WVC}</label>
 						<defaultValue>5</defaultValue>
 						<min>0</min>
 						<max>24</max>

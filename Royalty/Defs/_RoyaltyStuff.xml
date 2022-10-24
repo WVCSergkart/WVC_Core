@@ -29,7 +29,7 @@
 	  <li Class="CompProperties_Usable">
 		<compClass>CompUsableImplant</compClass>
 		<useJob>UseItem</useJob>
-		<useLabel>Use seed to form psylink</useLabel>
+		<useLabel>Use anima seed to form psylink</useLabel>
 	  </li>
 	  <li Class="CompProperties_UseEffectInstallImplant">
 		<hediffDef>PsychicAmplifier</hediffDef>
@@ -39,9 +39,8 @@
 	  <li Class="CompProperties_UseEffectPlaySound">
 		<soundOnUsed>PsyAmpInstalled</soundOnUsed>
 	  </li>
-	  <li Class="CompProperties_UseEffect">
-		<compClass>CompUseEffect_DestroySelf</compClass>
-	  </li>
+	  <li Class="CompProperties_UseEffectDestroySelf" />
+	  <li Class="CompProperties_Forbiddable"/>
 	</comps>
   </ThingDef>
 
