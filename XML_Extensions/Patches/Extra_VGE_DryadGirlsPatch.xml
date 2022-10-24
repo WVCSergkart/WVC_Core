@@ -15,7 +15,7 @@
 			  <xpath>/Defs/ThinkTreeDef[defName="Dryad"]/thinkRoot/subNodes/li[@Class="ThinkNode_ConditionalOfPlayerFaction"]/subNodes</xpath> 
 			  <value>
 
-				<li Class="ThinkNode_ConditionalRequireCapacities">
+				<li Class="ThinkNode_ConditionalRequireCapacities" WVC_Tag="SpecialPatchHook">
 				  <requiredCapacities>
 					<li>Manipulation</li>
 				  </requiredCapacities>
@@ -119,7 +119,7 @@
 			<li Class="PatchOperationAdd">
 			  <xpath>/Defs/ThinkTreeDef[defName="Dryad"]/thinkRoot/subNodes/li[@Class="ThinkNode_ConditionalOfPlayerFaction"]/subNodes</xpath> 
 			  <value>
-				<li Class="ThinkNode_ConditionalPawnKind">
+				<li Class="ThinkNode_ConditionalPawnKind" WVC_Tag="SpecialPatchHook">
 				  <pawnKind>WVC_RoyalDryad_KL</pawnKind>
 				  <subNodes>
 
