@@ -37,9 +37,9 @@
 	<smeltable>true</smeltable>
 	<stuffProps>
 	  <categories>
-		<li>Stony</li>
-		<li>Fabric</li>
-		<li>Woody</li>
+		<!-- <li>Stony</li> -->
+		<!-- <li>Fabric</li> -->
+		<!-- <li>Woody</li> -->
 		<li>Metallic</li>
 	  </categories>
 	  <appearance>Metal</appearance>
