@@ -9,10 +9,10 @@
 		<defaultValue>false</defaultValue>
 		<caseTrue>
 			<Operation Class="XmlExtensions.PatchOperationSafeRemove">
-				<xpath>/Defs/ThingDef[defName="Plant_TreeGauranlen" or defName="Plant_TreeAnima"]/minifiedDef</xpath>
+				<xpath>/Defs/ThingDef[defName="Plant_TreeGauranlen" or defName="Plant_TreeAnima" or defName="Plant_TreePolux"]/minifiedDef</xpath>
 			</Operation>
 			<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
-			  <xpath>/Defs/ThingDef[defName="Plant_TreeGauranlen" or defName="Plant_MossGauranlen" or defName="Plant_TreeAnima" or defName="Plant_GrassAnima" or defName="Plant_PodGauranlen"]/plant</xpath>
+			  <xpath>/Defs/ThingDef[defName="Plant_TreeGauranlen" or defName="Plant_MossGauranlen" or defName="Plant_TreeAnima" or defName="Plant_GrassAnima" or defName="Plant_PodGauranlen" or defName="Plant_TreePolux"]/plant</xpath>
 			  <value>
 				  <interferesWithRoof>false</interferesWithRoof>
 				  <growMinGlow>0</growMinGlow>
