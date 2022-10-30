@@ -86,7 +86,8 @@
 		<!-- <li Class="WVC.HediffCompProperties_Healing" > -->
 			<!-- <tickBeforeHeal>897500</tickBeforeHeal> -->
 		<!-- </li> -->
-		<li Class="HediffCompProperties_HealPermanentWounds" />
+		<!-- <li Class="HediffCompProperties_HealPermanentWounds" /> -->
+		<li Class="WVC.HediffCompProperties_HealBodyParts" />
 	</comps>
 	<stages>
 	  <li>
