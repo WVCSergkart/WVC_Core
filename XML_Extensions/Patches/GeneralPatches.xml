@@ -542,6 +542,19 @@
 		</caseFalse>
 	</Operation>
 
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>honkai.girls.sergkart</modId>
+		<key>WVC_Buildings_UniversalConduit_SupportPatch_DBH</key>
+		<defaultValue>True</defaultValue>
+		<caseFalse>
+
+			<li Class="XmlExtensions.PatchOperationSafeRemove">
+				<xpath>/Defs/ThingDef[defName="WVC_UniversalConduit"]/comps/li[@MayRequire="dubwise.dubsbadhygiene"]</xpath>
+			</li>
+
+		</caseFalse>
+	</Operation>
+
 	<!--=====================================================================-->
 
 	<!-- <Operation Class="XmlExtensions.FindMod"> -->

@@ -191,6 +191,12 @@
 	  <li MayRequire="vanillaexpanded.helixiengas" Class="PipeSystem.CompProperties_ResourceTrader">
 		<pipeNet>VHGE_HelixienNet</pipeNet>
 	  </li>
+	  <li MayRequire="dubwise.dubsbadhygiene" Class="DubsBadHygiene.CompProperties_Pipe">
+		<mode>Sewage</mode>
+	  </li>
+	  <li MayRequire="dubwise.dubsbadhygiene" Class="DubsBadHygiene.CompProperties_Pipe">
+		<mode>Air</mode>
+	  </li>
 	</comps>
 	<placeWorkers>
 	  <li>PlaceWorker_Conduit</li>
