@@ -5,8 +5,8 @@
 		<modId>honkai.girls.sergkart</modId>
 		<settings>
 			<li Class="XmlExtensions.Setting.Gap"/>
-			<li Class="XmlExtensions.Setting.GapLine" />
-			<li Class="XmlExtensions.Setting.EmbedMenu">
+			<li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.GapLine" />
+			<li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.EmbedMenu">
 				<menu>NotSettings_Info_AboutRaces_WVC</menu>
 			</li>
 			<li MayRequire="honkai.girls.sergkart" Class="XmlExtensions.Setting.Gap" />
@@ -19,7 +19,7 @@
 				<color>(200,200,255)</color>
 			</li>
 			<li Class="XmlExtensions.Setting.Text">
-				<text>"WVC - Core" contains buildings, races and some extra settings. Everything under the "KL" tab is only available with the "WVC - kemomimilike" mod. The settings below are mixed.</text>
+				<text>"WVC - Core" contains buildings and some extra settings. Everything under the "KL" tab is only available with the "WVC - kemomimilike" mod. The settings below are mixed.</text>
 				<tKey>HGS_General_GeneralTab_MainInfo_WVC</tKey>
 			</li>
 			<li Class="XmlExtensions.Setting.SetColor"/>
@@ -65,7 +65,7 @@
 							<tKey>HGS_WVC_ResearchPatchForMainBranch_Enable</tKey>
 							<tKeyTip>HGS_WVC_ResearchPatchForMainBranch_Enable_Desc</tKeyTip>
 						</li>
-						<li Class="XmlExtensions.Setting.Checkbox">
+						<li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.Checkbox">
 							<key>WVC_Nodes_EnableFormerWandererEvent</key>
 							<label>Enable former wanderer event</label>
 							<tooltip>Only affects events related to the Former race. Does not affect spawning as members of the Nomad faction.</tooltip>
@@ -73,7 +73,7 @@
 							<tKey>HGS_Nodes_EnableFormerWandererEvent_WVC</tKey>
 							<tKeyTip>HGS_Nodes_EnableFormerWandererEvent_Desc_WVC</tKeyTip>
 						</li>
-						<li Class="XmlExtensions.Setting.Checkbox">
+						<li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.Checkbox">
 							<key>WVC_General_FactionNomads_Main</key>
 							<label>Enable Nomads faction</label>
 							<tooltip>The mod has a faction that includes all the races from my mods. This faction does not have settlements, but functions like a regular full-fledged faction (caravans, raids, reputation, etc.). The faction also has several unique traders.</tooltip>
