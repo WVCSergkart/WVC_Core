@@ -33,7 +33,10 @@
 					  <safetyDepth>1</safetyDepth>
 					  <value>
 						<comps>
-						  <li Class="CompProperties_Shield" />
+						  <!-- <li Class="CompProperties_Shield" /> -->
+						  <li Class="CompProperties_Shield">
+							<blocksRangedWeapons>false</blocksRangedWeapons>
+						  </li>
 						</comps>
 					  </value>
 					</Operation>

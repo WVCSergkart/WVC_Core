@@ -68,7 +68,10 @@
 	  </tags>
 	</apparel>
 	<comps>
-	  <li Class="CompProperties_Shield" />
+	  <!-- <li Class="CompProperties_Shield" /> -->
+	  <li Class="CompProperties_Shield">
+		<blocksRangedWeapons>false</blocksRangedWeapons>
+	  </li>
 	</comps>
 	<allowedArchonexusCount>1</allowedArchonexusCount>
   </ThingDef>

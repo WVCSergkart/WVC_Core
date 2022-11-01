@@ -18,11 +18,23 @@
 					<li>0.13</li>
 					<li>0.13</li>
 					<li>0.13</li>
+					<li>0.13</li>
+					<li>0.13</li>
 				</splits>
 				<settings>
 					<li>
 						<li Class="XmlExtensions.Setting.EmbedMenu">
 							<menu>VersionInfo_Core_WVC</menu>
+						</li>
+					</li>
+					<li MayRequire="wvc.sergkart.races">
+						<li Class="XmlExtensions.Setting.EmbedMenu">
+							<menu>VersionInfo_Race_WVC</menu>
+						</li>
+					</li>
+					<li MayRequire="wvc.sergkart.races.biotech">
+						<li Class="XmlExtensions.Setting.EmbedMenu">
+							<menu>VersionInfo_RaceBiotech_WVC</menu>
 						</li>
 					</li>
 					<li MayRequire="honkai.girls.sergkart">
