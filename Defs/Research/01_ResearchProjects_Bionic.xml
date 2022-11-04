@@ -203,6 +203,7 @@
 	<prerequisites>
 	  <li>ValkyriesTechs_III_WVC</li>
 	  <li MayRequire="honkai.girls.sergkart">WVC_RaceResearching_Dryad</li>
+	  <li MayRequire="ludeon.rimworld.biotech">Archogenetics</li>
 	  <!-- <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechTierThree</li> -->
 	  <!-- = -->
 	  <li>WVC_ResearchBodyParts_NodeBlue</li>
