@@ -3,8 +3,8 @@
 
 	<Operation Class="XmlExtensions.FindMod">
 		<mods>
-			<!-- <li>erdelf.humanoidalienraces</li> -->
-			<!-- <li>erdelf.humanoidalienraces.dev</li> -->
+			<li>erdelf.humanoidalienraces</li>
+			<li>erdelf.humanoidalienraces.dev</li>
 			<li>wvc.sergkart.races</li>
 		</mods>
 		<packageId>true</packageId>
@@ -170,22 +170,22 @@
 				<!-- <patchName>ThoughtsOpinion_Autopatcher_WVC</patchName> -->
 			<!-- </Operation> -->
 
-		</caseTrue>
-	</Operation>
+			<Operation Class="XmlExtensions.FindMod">
+				<mods>
+					<li>wvc.sergkart.races</li>
+					<li>honkai.girls.sergkart</li>
+				</mods>
+				<packageId>true</packageId>
+				<caseTrue>
 
-	<Operation Class="XmlExtensions.FindMod">
-		<mods>
-			<li>wvc.sergkart.races</li>
-			<li>honkai.girls.sergkart</li>
-		</mods>
-		<packageId>true</packageId>
-		<caseTrue>
+					<Operation Class="XmlExtensions.ApplyPatch">
+						<patchName>Autopatcher_ApparelPatch_Utility_WVC</patchName>
+					</Operation>
+					<Operation Class="XmlExtensions.ApplyPatch">
+						<patchName>ThoughtsOpinion_Autopatcher_WVC</patchName>
+					</Operation>
 
-			<Operation Class="XmlExtensions.ApplyPatch">
-				<patchName>Autopatcher_ApparelPatch_Utility_WVC</patchName>
-			</Operation>
-			<Operation Class="XmlExtensions.ApplyPatch">
-				<patchName>ThoughtsOpinion_Autopatcher_WVC</patchName>
+				</caseTrue>
 			</Operation>
 
 		</caseTrue>
