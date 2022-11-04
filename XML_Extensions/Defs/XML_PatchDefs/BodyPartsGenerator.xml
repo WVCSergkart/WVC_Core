@@ -126,7 +126,7 @@
 					<!--=====================================================================-->
 
 					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-						<xpath>/Defs/ThingDef[@Name="AnimalThingBase"]</xpath>
+						<xpath>/Defs/ThingDef[@Name="AnimalThingBase" or @Name="BaseMechanoid"]</xpath>
 						<safetyDepth>1</safetyDepth>
 						<value>
 							<recipes>

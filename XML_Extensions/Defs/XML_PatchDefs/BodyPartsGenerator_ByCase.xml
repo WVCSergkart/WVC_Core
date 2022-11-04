@@ -335,7 +335,7 @@
 							<Operation Class="PatchOperationAdd">
 								<xpath>/Defs/RecipeDef[defName="Install_{defName_DEF}"]/appliedOnFixedBodyParts</xpath>
 								<value>
-									<li MayRequire="wvc.sergkart.races">WVC_Automaton_Triangle</li>
+									<li>WVC_Automaton_Triangle</li>
 								</value>
 							</Operation>
 
@@ -407,7 +407,7 @@
 							<Operation Class="PatchOperationAdd">
 								<xpath>/Defs/RecipeDef[defName="Install_{defName_DEF}"]/appliedOnFixedBodyParts</xpath>
 								<value>
-									<li MayRequire="wvc.sergkart.races">WVC_Automaton_Spike</li>
+									<li>WVC_Automaton_Spike</li>
 								</value>
 							</Operation>
 
@@ -433,7 +433,7 @@
 								<value>
 									<!-- <li>WVC_OrganicReprocessor</li> -->
 									<li>FluidReprocessor</li>
-									<li MayRequire="wvc.sergkart.races">WVC_FormerHearth</li>
+									<li>WVC_FormerHearth</li>
 								</value>
 							</Operation>
 
@@ -458,8 +458,8 @@
 								<xpath>/Defs/RecipeDef[defName="Install_{defName_DEF}"]/appliedOnFixedBodyParts</xpath>
 								<value>
 									<!-- <li>WVC_SightSensor</li> -->
-									<li MayRequire="wvc.sergkart.races">WVC_HearingSensor</li>
-									<li MayRequire="wvc.sergkart.races">WVC_SmellSensor</li>
+									<li>WVC_HearingSensor</li>
+									<li>WVC_SmellSensor</li>
 									<li>SightSensor</li>
 									<li>SmellSensor</li>
 									<li>HearingSensor</li>
