@@ -14,6 +14,21 @@
   <!-- </BodyPartDef> -->
 
   <BodyPartDef>
+	<defName>WVC_OrganicReprocessor</defName>
+	<label>organic reprocessor</label>
+	<hitPoints>20</hitPoints>
+	<skinCovered>false</skinCovered>
+	<solid>true</solid>
+	<alive>false</alive>
+	<bleedRate>0</bleedRate>
+	<tags>
+	  <li>MetabolismSource</li>
+	</tags>
+  </BodyPartDef>
+
+  <!-- ================================= -->
+
+  <BodyPartDef>
 	<defName>WVC_Automaton_Spike</defName>
 	<label>spike</label>
 	<hitPoints>35</hitPoints>
