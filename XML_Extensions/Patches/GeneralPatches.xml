@@ -267,6 +267,74 @@
 		</caseTrue>
 	</Operation>
 
+	<!--=====================================================================-->
+
+	<Operation Class="XmlExtensions.FindMod">
+		<mods>
+			<li>ludeon.rimworld.biotech</li>
+		</mods>
+		<packageId>true</packageId>
+		<logic>and</logic>
+		<caseTrue>
+
+			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+			  <xpath>/Defs/HediffDef[@ParentName="WVC_Hediff_BodyPart_Mechanoid"]</xpath>
+			  <safetyDepth>3</safetyDepth>
+			  <value>
+				<stages>
+					<li>
+						<statOffsets>
+							<MechBandwidth>1</MechBandwidth>
+						</statOffsets>
+					</li>
+				</stages>
+			  </value>
+			</Operation>
+			<!-- = -->
+			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+			  <xpath>/Defs/HediffDef[@ParentName="WVC_Hediff_BodyPart_NodeBlue"]</xpath>
+			  <safetyDepth>3</safetyDepth>
+			  <value>
+				<stages>
+					<li>
+						<statOffsets>
+							<MechBandwidth>3</MechBandwidth>
+						</statOffsets>
+					</li>
+				</stages>
+			  </value>
+			</Operation>
+			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+			  <xpath>/Defs/HediffDef[@ParentName="WVC_Hediff_BodyPart_NodeRed" or @ParentName="WVC_Hediff_BodyPart_NodeGreen" or @ParentName="WVC_Hediff_BodyPart_NodeViolet" or @ParentName="WVC_Hediff_BodyPart_NodeYellow"]</xpath>
+			  <safetyDepth>3</safetyDepth>
+			  <value>
+				<stages>
+					<li>
+						<statOffsets>
+							<MechBandwidth>2</MechBandwidth>
+						</statOffsets>
+					</li>
+				</stages>
+			  </value>
+			</Operation>
+			<!-- = -->
+			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+			  <xpath>/Defs/HediffDef[@ParentName="WVC_Hediff_BodyPart_Archotech"]</xpath>
+			  <safetyDepth>3</safetyDepth>
+			  <value>
+				<stages>
+					<li>
+						<statOffsets>
+							<MechBandwidth>4</MechBandwidth>
+						</statOffsets>
+					</li>
+				</stages>
+			  </value>
+			</Operation>
+
+		</caseTrue>
+	</Operation>
+
 	<!-- <Operation Class="XmlExtensions.FindMod"> -->
 		<!-- <mods> -->
 			<!-- <li>oskarpotocki.vfe.classical</li> -->
