@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!--=====================================================================-->
+
+	<Operation Class="XmlExtensions.FindMod">
+		<mods>
+			<li>frozensnowfox.advancedbionicsexpansion</li>
+		</mods>
+		<packageId>true</packageId>
+		<caseTrue>
+
+			<Operation Class="PatchOperationReplace">
+			  <xpath>/Defs/HediffDef[@Name="WVC_Hediff_BodyPart_Ancient"]/addedPartProps/partEfficiency</xpath>
+			  <value>
+				  <partEfficiency>1.4</partEfficiency>
+			  </value>
+			</Operation>
+			<Operation Class="PatchOperationReplace">
+			  <xpath>/Defs/HediffDef[@Name="WVC_Hediff_BodyPart_Mechanoid"]/addedPartProps/partEfficiency</xpath>
+			  <value>
+				  <partEfficiency>1.6</partEfficiency>
+			  </value>
+			</Operation>
+			<Operation Class="PatchOperationReplace">
+			  <xpath>/Defs/HediffDef[@Name="WVC_Hediff_BodyPart_NodeGreen" or @Name="WVC_Hediff_BodyPart_NodeRed" or @Name="WVC_Hediff_BodyPart_NodeViolet" or @Name="WVC_Hediff_BodyPart_NodeYellow"]/addedPartProps/partEfficiency</xpath>
+			  <value>
+				  <partEfficiency>1.75</partEfficiency>
+			  </value>
+			</Operation>
+			<Operation Class="PatchOperationReplace">
+			  <xpath>/Defs/HediffDef[@Name="WVC_Hediff_BodyPart_NodeBlue"]/addedPartProps/partEfficiency</xpath>
+			  <value>
+				  <partEfficiency>1.9</partEfficiency>
+			  </value>
+			</Operation>
+			<Operation Class="PatchOperationReplace">
+			  <xpath>/Defs/HediffDef[@Name="WVC_Hediff_BodyPart_Archotech"]/addedPartProps/partEfficiency</xpath>
+			  <value>
+				  <partEfficiency>2.0</partEfficiency>
+			  </value>
+			</Operation>
+
+		</caseTrue>
+	</Operation>
+
+	<!--=====================================================================-->
+
+
+</Patch>

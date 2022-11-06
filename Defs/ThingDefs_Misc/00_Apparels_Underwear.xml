@@ -164,12 +164,36 @@
 	  <defaultOutfitTags Inherit="False">
 		<li>Slave</li>
 	  </defaultOutfitTags>
-	  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+	  <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
 	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+	  <scoreOffset>-10</scoreOffset>
 	</apparel>
 	<equippedStatOffsets>
 	  <SlaveSuppressionOffset>0.15</SlaveSuppressionOffset>
 	</equippedStatOffsets>
+	<comps>
+	  <li Class="CompProperties_CauseHediff_Apparel">
+		<hediff>WVC_Shibari</hediff>
+		<part>Head</part>
+	  </li>
+	</comps>
   </ThingDef>
+
+  <HediffDef>
+	<defName>WVC_Shibari</defName>
+	<label>shibari</label>
+	<description>Rough and prickly ropes digging into the skin. It is used to put the wearer in pain.</description>
+	<hediffClass>HediffWithComps</hediffClass>
+	<stages>
+	  <li>
+		<painOffset>0.05</painOffset>
+	  </li>
+	</stages>
+	<comps>
+	  <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+	</comps>
+	<isBad>false</isBad>
+  </HediffDef>
 
 </Defs>
