@@ -53,7 +53,7 @@
 				<color>(255,255,255)</color>
 			</li>
 			<li Class="XmlExtensions.Setting.TabView">
-				<rows>2</rows>
+				<rows>1</rows>
 				<tabs>
 
 					<!-- ===================================================================== -->
@@ -69,10 +69,28 @@
 
 					<!-- ===================================================================== -->
 
-					<li>
-						<label>&lt;color=#a2c8ff&gt;KL&lt;/color&gt;</label>
+					<li MayRequire="wvc.sergkart.races.biotech">
+						<label>&lt;color=#a2c8ff&gt;Biotech&lt;/color&gt;</label>
 						<settings>
 							<li Class="XmlExtensions.Setting.Gap" />
+							<li MayRequire="wvc.sergkart.races.biotech" Class="XmlExtensions.Setting.EmbedMenu">
+								<menu>Settings_Biotech_Races_WVC</menu>
+							</li>
+						</settings>
+					</li>
+
+					<!-- ===================================================================== -->
+
+					<li MayRequire="honkai.girls.sergkart">
+						<label>&lt;color=#b979e6&gt;KL&lt;/color&gt;</label>
+						<settings>
+							<li Class="XmlExtensions.Setting.Gap" />
+							<!-- <li MayRequire="ludeon.rimworld.ideology" Class="XmlExtensions.Setting.EmbedMenu"> -->
+								<!-- <menu>Settings_Ideology_Races_KL_WVC</menu> -->
+							<!-- </li> -->
+							<!-- <li MayRequire="wvc.sergkart.races.biotech" Class="XmlExtensions.Setting.EmbedMenu"> -->
+								<!-- <menu>Settings_Biotech_Races_KL_WVC</menu> -->
+							<!-- </li> -->
 							<li MayRequire="honkai.girls.sergkart" Class="XmlExtensions.Setting.EmbedMenu">
 								<menu>Settings_KL_Races_WVC</menu>
 							</li>
@@ -106,25 +124,25 @@
 
 					<!-- ===================================================================== -->
 
-					<li>
-						<label>&lt;color=#f3ffa2&gt;Buildings&lt;/color&gt;</label>
-						<settings>
-							<li Class="XmlExtensions.Setting.EmbedMenu">
-								<menu>Settings_Buildings_WVC</menu>
-							</li>
-						</settings>
-					</li>
+					<!-- <li> -->
+						<!-- <label>&lt;color=#f3ffa2&gt;Buildings&lt;/color&gt;</label> -->
+						<!-- <settings> -->
+							<!-- <li Class="XmlExtensions.Setting.EmbedMenu"> -->
+								<!-- <menu>Settings_Buildings_WVC</menu> -->
+							<!-- </li> -->
+						<!-- </settings> -->
+					<!-- </li> -->
 
 					<!-- ===================================================================== -->
 
-					<li>
-						<label>&lt;color=#ccffa2&gt;Resources&lt;/color&gt;</label>
-						<settings>
-							<li Class="XmlExtensions.Setting.EmbedMenu">
-								<menu>Settings_ResourcesBoxesWVC</menu>
-							</li>
-						</settings>
-					</li>
+					<!-- <li> -->
+						<!-- <label>&lt;color=#ccffa2&gt;Resources&lt;/color&gt;</label> -->
+						<!-- <settings> -->
+							<!-- <li Class="XmlExtensions.Setting.EmbedMenu"> -->
+								<!-- <menu>Settings_ResourcesBoxesWVC</menu> -->
+							<!-- </li> -->
+						<!-- </settings> -->
+					<!-- </li> -->
 
 					<!-- ===================================================================== -->
 
