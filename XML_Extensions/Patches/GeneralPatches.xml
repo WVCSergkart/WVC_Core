@@ -277,6 +277,13 @@
 		<logic>and</logic>
 		<caseTrue>
 
+			<Operation Class="PatchOperationAdd">
+			  <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings</xpath>
+			  <value>
+				  <WVC_ComplexWork>13</WVC_ComplexWork>
+			  </value>
+			</Operation>
+
 			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
 			  <xpath>/Defs/HediffDef[@ParentName="WVC_Hediff_BodyPart_Mechanoid"]</xpath>
 			  <safetyDepth>3</safetyDepth>
