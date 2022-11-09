@@ -42,6 +42,7 @@
 	<researchViewX>0.00</researchViewX>
 	<researchViewY>2.70</researchViewY>
 	<hiddenPrerequisites>
+	  <li>AdvancedFabrication</li>
 	  <!-- <li>AdvancedFabrication</li> -->
 	</hiddenPrerequisites>
 	<prerequisites>
@@ -49,7 +50,6 @@
 	  <li>ComplexFurniture</li>
 	  <li>SterileMaterials</li>
 	  <li>AirConditioning</li>
-	  <li>AdvancedFabrication</li>
 	  <!-- <li>MicroelectronicsBasics</li> -->
 	</prerequisites>
   </ResearchProjectDef>
@@ -60,16 +60,17 @@
 	<description>To study and repeat the perfection of machines.</description>
 	  <researchViewX>1.00</researchViewX>
 	  <researchViewY>2.70</researchViewY>
-	<!-- <hiddenPrerequisites> -->
-	<!-- </hiddenPrerequisites> -->
+	<hiddenPrerequisites>
+	  <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_MechanoidStructures</li>
+	  <li>ShipReactor</li>
+	</hiddenPrerequisites>
 	<tags>
 	  <li>WVC_Assembled_ELF_Base</li>
+	  <li MayRequire="wvc.wvcmod.wvcspecific">WVC_TEST_StartHook</li>
 	</tags>
 	<prerequisites>
 	  <li>ValkyriesTechs_I_WVC</li>
-	  <li>ShipReactor</li>
 	  <li>ShipComputerCore</li>
-	  <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_MechanoidStructures</li>
 	  <!-- <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechStart</li> -->
 	</prerequisites>
   </ResearchProjectDef>
@@ -115,6 +116,7 @@
 	<tags>
 	  <li>ValkyriesStart_WVC</li>
 	  <li>WVC_Assembled_ELF_Base</li>
+	  <li MayRequire="wvc.wvcmod.wvcspecific">WVC_TEST_StartHook</li>
 	</tags>
 	<researchViewX>0.00</researchViewX>
 	<researchViewY>3.20</researchViewY>
@@ -165,11 +167,11 @@
 	<researchViewX>2.00</researchViewX>
 	<researchViewY>2.05</researchViewY>
 	<prerequisites>
-	  <li>HeavyTurrets</li>
-	  <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_AutomatedDefensiveMeasures</li>
 	  <li>ValkyriesTechs_II_WVC</li>
 	</prerequisites>
 	<hiddenPrerequisites>
+	  <li>HeavyTurrets</li>
+	  <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_AutomatedDefensiveMeasures</li>
 	</hiddenPrerequisites>
 	<tags>
 	  <li>WVC_Assembled_ELF_Base</li>
@@ -188,11 +190,11 @@
 	  <researchViewX>2.00</researchViewX>
 	  <researchViewY>3.20</researchViewY>
 	<hiddenPrerequisites>
-	</hiddenPrerequisites>
-	<prerequisites>
 	  <li MayRequire="ludeon.rimworld.royalty">BrainWiring</li>
 	  <!-- <li MayRequire="ludeon.rimworld.ideology">NeuralSupercharger</li> -->
 	  <li MayRequire="ludeon.rimworld.ideology">Bioregeneration</li>
+	</hiddenPrerequisites>
+	<prerequisites>
 	  <li>ValkyriesTechs_II_WVC</li>
 	</prerequisites>
   </ResearchProjectDef>
@@ -232,6 +234,21 @@
 	<label>ancient weapon</label>
 	<researchViewX>2.00</researchViewX>
 	<researchViewY>4.35</researchViewY>
+	<hiddenPrerequisites>
+		<li MayRequire="nemonian.my">MoyoChargedBolt</li>
+		<li MayRequire="aoba.redmoyo">RedMoyoWeaponT3</li>
+		<li MayRequire="rimeffect.n7">REN7_N7Weaponry</li>
+		<!-- = -->
+		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleSpears</li>
+		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_NoblePolearms</li>
+		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleMaces</li>
+		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleHammers</li>
+		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleAxes</li>
+		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleCleavers</li>
+		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_MilitarySwords</li>
+		<!-- = -->
+		<li>LongBlades</li>
+	</hiddenPrerequisites>
 	<prerequisites>
 	  <!-- <li>Machining</li> -->
 	  <!-- <li>AdvancedFabrication</li> -->
