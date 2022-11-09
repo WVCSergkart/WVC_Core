@@ -28,7 +28,7 @@
 	<label>ancient basics</label>
 	<description>Recreate long-lost technologies in order to replicate the achievements of the ancients.</description>
 	<techLevel>Spacer</techLevel>
-	<techprintCount>1</techprintCount>
+	<techprintCount>2</techprintCount>
 	<techprintCommonality>1</techprintCommonality>
 	<techprintMarketValue>800</techprintMarketValue>
 	<heldByFactionCategoryTags>
@@ -63,6 +63,7 @@
 	<hiddenPrerequisites>
 	  <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_MechanoidStructures</li>
 	  <li>ShipReactor</li>
+	  <li>ShipComputerCore</li>
 	</hiddenPrerequisites>
 	<tags>
 	  <li>WVC_Assembled_ELF_Base</li>
@@ -70,7 +71,6 @@
 	</tags>
 	<prerequisites>
 	  <li>ValkyriesTechs_I_WVC</li>
-	  <li>ShipComputerCore</li>
 	  <!-- <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechStart</li> -->
 	</prerequisites>
   </ResearchProjectDef>
@@ -105,7 +105,7 @@
 	<label>mechanizer</label>
 	<description>Reconstruction of matter converter based on mechanite nanotechnologies.</description>
 	<baseCost>5000</baseCost>
-	<techprintCount>1</techprintCount>
+	<techprintCount>3</techprintCount>
 	<techprintCommonality>1</techprintCommonality>
 	<techprintMarketValue>400</techprintMarketValue>
 	<heldByFactionCategoryTags>
@@ -121,9 +121,9 @@
 	<researchViewX>0.00</researchViewX>
 	<researchViewY>3.20</researchViewY>
 	<hiddenPrerequisites>
+	  <li>AdvancedFabrication</li>
 	</hiddenPrerequisites>
 	<prerequisites>
-	  <li>AdvancedFabrication</li>
 	</prerequisites>
   </ResearchProjectDef>
 
