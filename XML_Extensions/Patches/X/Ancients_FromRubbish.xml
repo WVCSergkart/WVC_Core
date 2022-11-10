@@ -87,7 +87,7 @@
 							
 							or defName="VFEA_AncientVitalsMonitor" or defName="VFEA_AncientSupplySlingshot"
 							
-							or defName="VFEA_AncientBed" or @Name="VFEA_WallLampBaseA" or defName="VFEA_AncientCryptosleepSuspender"
+							or defName="VFEA_AncientBed" or defName="VFEA_AncientCryptosleepSuspender"
 
 							or defName="VFEA_AncientComputerDesk"
 							]
@@ -178,7 +178,7 @@
 							
 							or defName="VFEA_AncientVitalsMonitor" or defName="VFEA_AncientSupplySlingshot"
 							
-							or defName="VFEA_AncientBed" or @Name="VFEA_WallLampBaseA" or defName="VFEA_AncientCryptosleepSuspender"
+							or defName="VFEA_AncientBed" or defName="VFEA_AncientCryptosleepSuspender"
 
 							or defName="VFEA_AncientComputerDesk"
 							]/statBases
@@ -204,7 +204,7 @@
 							
 							or defName="VFEA_AncientVitalsMonitor" or defName="VFEA_AncientSupplySlingshot"
 							
-							or defName="VFEA_AncientBed" or @Name="VFEA_WallLampBaseA" or defName="VFEA_AncientCryptosleepSuspender"
+							or defName="VFEA_AncientBed" or defName="VFEA_AncientCryptosleepSuspender"
 
 							or defName="VFEA_AncientComputerDesk"
 							]
