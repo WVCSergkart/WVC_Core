@@ -24,6 +24,12 @@
 	<descriptionHyperlinks>
 	  <ConceptDef>WVC_WallsDoorsFloors</ConceptDef>
 	</descriptionHyperlinks>
+	<!-- <pollutedTexturePath>Terrain/Surfaces/SoilPolluted</pollutedTexturePath> -->
+	<!-- <pollutionOverlayTexturePath>Terrain/Surfaces/RoughStonePollutionOverlay</pollutionOverlayTexturePath> -->
+	<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughLinearBurn</pollutionShaderType>
+	<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
+	<pollutionColor>(1, 1, 1, 0.8)</pollutionColor>
+	<pollutionOverlayScale>(0.75, 0.75)</pollutionOverlayScale>
 	<layerable>true</layerable>
 	<affordances>
 	  <li>Light</li>
