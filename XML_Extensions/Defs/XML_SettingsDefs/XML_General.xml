@@ -94,6 +94,14 @@
 							<tKey>HGS_General_FactionNomads_Main_WVC</tKey>
 							<tKeyTip>HGS_General_FactionNomads_Main_Desc_WVC</tKeyTip>
 						</li>
+						<li MayRequire="ludeon.rimworld.biotech" Class="XmlExtensions.Setting.Checkbox">
+							<key>WVC_General_BiotechTechsPatch</key>
+							<label>Enable Biotech patch</label>
+							<tooltip>Adds a number of patches that will significantly delay the mechanist branch, making it dependent on the "Mechanoid basics" technology, and adds mechanoid components to the crafting cost of mechanoids.</tooltip>
+							<defaultValue>false</defaultValue>
+							<tKey>HGS_General_BiotechTechsPatch_WVC</tKey>
+							<tKeyTip>HGS_General_BiotechTechsPatch_Desc_WVC</tKeyTip>
+						</li>
 					</li>
 					<li>
 						<li Class="XmlExtensions.Setting.Text">

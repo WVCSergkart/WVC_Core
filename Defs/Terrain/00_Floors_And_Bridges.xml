@@ -26,10 +26,14 @@
 	</descriptionHyperlinks>
 	<!-- <pollutedTexturePath>Terrain/Surfaces/SoilPolluted</pollutedTexturePath> -->
 	<!-- <pollutionOverlayTexturePath>Terrain/Surfaces/RoughStonePollutionOverlay</pollutionOverlayTexturePath> -->
-	<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughLinearBurn</pollutionShaderType>
-	<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
-	<pollutionColor>(1, 1, 1, 0.8)</pollutionColor>
-	<pollutionOverlayScale>(0.75, 0.75)</pollutionOverlayScale>
+	<!-- <pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughLinearBurn</pollutionShaderType> -->
+	<!-- <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> -->
+	<!-- <pollutionColor>(1, 1, 1, 0.8)</pollutionColor> -->
+	<!-- <pollutionOverlayScale>(0.75, 0.75)</pollutionOverlayScale> -->
+	<pollutionOverlayTexturePath>Terrain/Surfaces/RoughStonePollutionOverlay</pollutionOverlayTexturePath>
+	<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughLinearAdd</pollutionShaderType>
+	<pollutionColor>(1, 1, 1, 0.43)</pollutionColor>
+	<pollutionOverlayScale>(0.66, 0.66)</pollutionOverlayScale>
 	<layerable>true</layerable>
 	<affordances>
 	  <li>Light</li>

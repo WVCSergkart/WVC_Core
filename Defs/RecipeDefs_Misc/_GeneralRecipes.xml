@@ -178,6 +178,91 @@
 	</products>
   </RecipeDef>
 
+  <RecipeDef MayRequire="ludeon.rimworld.biotech" ParentName="WVC_MakeComponents_Base">
+	<defName>WVC_MakeComponents_SignalChip</defName>
+	<label>Make signal chip</label>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>WVC_LivingMetall</li>
+		  </thingDefs>
+		</filter>
+		<count>15</count>
+	  </li>
+	</ingredients>
+	<products>
+	  <SignalChip>1</SignalChip>
+	</products>
+	<researchPrerequisites>
+	  <li MayRequire="ludeon.rimworld.biotech">StandardMechtech</li>
+	</researchPrerequisites>
+  </RecipeDef>
+  <RecipeDef MayRequire="ludeon.rimworld.biotech" ParentName="WVC_MakeComponents_Base">
+	<defName>WVC_MakeComponents_PowerfocusChip</defName>
+	<label>Make powerfocus chip</label>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>WVC_LivingMetall</li>
+		  </thingDefs>
+		</filter>
+		<count>15</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>ComponentSpacer</li>
+		  </thingDefs>
+		</filter>
+		<count>3</count>
+	  </li>
+	</ingredients>
+	<products>
+	  <PowerfocusChip>1</PowerfocusChip>
+	</products>
+	<researchPrerequisites>
+	  <li MayRequire="ludeon.rimworld.biotech">HighMechtech</li>
+	</researchPrerequisites>
+  </RecipeDef>
+  <RecipeDef MayRequire="ludeon.rimworld.biotech" ParentName="WVC_MakeComponents_Base">
+	<defName>WVC_MakeComponents_NanostructuringChip</defName>
+	<label>Make nano structuring chip</label>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>WVC_LivingMetall</li>
+		  </thingDefs>
+		</filter>
+		<count>15</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>ComponentSpacer</li>
+		  </thingDefs>
+		</filter>
+		<count>3</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>VFE_ComponentMechanoid</li>
+		  </thingDefs>
+		</filter>
+		<count>2</count>
+	  </li>
+	</ingredients>
+	<products>
+	  <NanostructuringChip>1</NanostructuringChip>
+	</products>
+	<researchPrerequisites>
+	  <li MayRequire="ludeon.rimworld.biotech">UltraMechtech</li>
+	</researchPrerequisites>
+  </RecipeDef>
+
   <!-- ======================================================================= -->
 
   <RecipeDef ParentName="GirlyWorkRecipeAbstract_WVC">
@@ -192,7 +277,7 @@
 	  <!-- <li>Butchery</li> -->
 	<!-- </specialProducts> -->
 	<products>
-	  <WVC_UniversalFuel>9</WVC_UniversalFuel>
+	  <WVC_UniversalFuel>16</WVC_UniversalFuel>
 	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
 	  <!-- <WVC_UniversalFuel>6</WVC_UniversalFuel> -->
 	</products>
@@ -370,6 +455,37 @@
 	<products>
 	  <WVC_UniversalFuel>11</WVC_UniversalFuel>
 	</products>
+  </RecipeDef>
+
+  <!-- ======================================================================= -->
+
+  <RecipeDef MayRequire="ludeon.rimworld.biotech" ParentName="GirlyWorkRecipeAbstract_WVC">
+	<defName>WVC_RecycleRecipe_Wastepack</defName>
+	<label>recycle toxic wastepack</label>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<targetCountAdjustment>14</targetCountAdjustment>
+	<uiIconThing>WVC_UniversalFuel</uiIconThing>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Wastepack</li>
+		  </thingDefs>
+		</filter>
+		<count>5</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>Wastepack</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products>
+	  <WVC_UniversalFuel>11</WVC_UniversalFuel>
+	</products>
+	<researchPrerequisites>
+	  <li MayRequire="ludeon.rimworld.biotech">WastepackAtomizer</li>
+	</researchPrerequisites>
   </RecipeDef>
 
   <!-- ======================================================================= -->
