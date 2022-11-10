@@ -744,6 +744,27 @@
 		</caseFalse>
 	</Operation>
 
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>honkai.girls.sergkart</modId>
+		<key>WVC_Buildings_UniversalConduit_IsUndergroudConduit</key>
+		<defaultValue>false</defaultValue>
+		<caseTrue>
+
+			<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+				<xpath>Defs/ThingDef[defName="WVC_UniversalConduit"]</xpath>
+				<value>
+					<graphicData>
+					  <texPath>WVC/Stuff/InvisibleThing</texPath>
+					  <graphicClass>Graphic_Single</graphicClass>
+					  <drawSize>(1,1)</drawSize>
+					</graphicData>
+					<useHitPoints>false</useHitPoints>
+				</value>
+			</Operation>
+
+		</caseTrue>
+	</Operation>
+
 	<!--=====================================================================-->
 
 	<!-- <Operation Class="XmlExtensions.FindMod"> -->

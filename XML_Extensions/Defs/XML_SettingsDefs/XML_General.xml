@@ -156,6 +156,11 @@
 							<tKey>HGS_Buildings_UniversalConduit_Info_WVC</tKey>
 						</li>
 						<li Class="XmlExtensions.Setting.Checkbox">
+							<key>WVC_Buildings_UniversalConduit_IsUndergroudConduit</key>
+							<label>Undergroud</label>
+							<defaultValue>false</defaultValue>
+						</li>
+						<li Class="XmlExtensions.Setting.Checkbox">
 							<key>WVC_Buildings_UniversalConduit_SupportPatch_VCHE</key>
 							<label>Fuel (VE)</label>
 							<defaultValue>True</defaultValue>
