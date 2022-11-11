@@ -20,6 +20,8 @@
 	  <!-- <li>Crafting</li> -->
 	  <li>Intellectual</li>
 	  <li>AllWork</li>
+	  <li>Commoner</li>
+	  <li>ManualSkilled</li>
 	</workTags>
   </WorkTypeDef>
 
