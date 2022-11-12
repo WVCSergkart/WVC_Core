@@ -54,6 +54,7 @@
 	  <FilthMultiplier>0.0</FilthMultiplier>
 	  <MarketValue>1</MarketValue>
 	  <Cleanliness>2</Cleanliness>
+	  <CleaningTimeFactor>0.8</CleaningTimeFactor>
 	</statBases>
 	<costList>
 	  <Plasteel>5</Plasteel>
