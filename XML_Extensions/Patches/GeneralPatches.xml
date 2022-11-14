@@ -1,17 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-	<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-	  <xpath>/Defs/ThingDef[@Name="BaseMechanoid"]</xpath>
-	  <safetyDepth>1</safetyDepth>
-	  <value>
-		<butcherProducts>
-		  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
-		  <WVC_LivingMetall>5</WVC_LivingMetall>
-		</butcherProducts>
-	  </value>
-	</Operation>
-
 	<Operation Class="PatchOperationAdd">
 	  <xpath>/Defs/TraderKindDef/stockGenerators[li[thingDef="ComponentSpacer"]]</xpath>
 	  <value>
@@ -63,42 +52,42 @@
 
 	<!--=====================================================================-->
 
-	<Operation Class="XmlExtensions.FindMod">
-		<mods>
-			<li>dankpyon.medieval.overhaul</li>
-		</mods>
-		<packageId>true</packageId>
-		<caseTrue>
+	<!-- <Operation Class="XmlExtensions.FindMod"> -->
+		<!-- <mods> -->
+			<!-- <li>dankpyon.medieval.overhaul</li> -->
+		<!-- </mods> -->
+		<!-- <packageId>true</packageId> -->
+		<!-- <caseTrue> -->
 
-			<Operation Class="PatchOperationReplace">
-			  <xpath>/Defs/ThingDef[defName="DankPyon_BarrelComponentBasic"]/building/fixedStorageSettings</xpath>
-			  <value>
-				  <fixedStorageSettings>
-					<filter>
-						<categories>
-							<li>WVC_ManufacturedComponents</li>
-						</categories>
-					</filter>
-				  </fixedStorageSettings>
-			  </value>
-			</Operation>
+			<!-- <Operation Class="PatchOperationReplace"> -->
+			  <!-- <xpath>/Defs/ThingDef[defName="DankPyon_BarrelComponentBasic"]/building/fixedStorageSettings</xpath> -->
+			  <!-- <value> -->
+				  <!-- <fixedStorageSettings> -->
+					<!-- <filter> -->
+						<!-- <categories> -->
+							<!-- <li>WVC_ManufacturedComponents</li> -->
+						<!-- </categories> -->
+					<!-- </filter> -->
+				  <!-- </fixedStorageSettings> -->
+			  <!-- </value> -->
+			<!-- </Operation> -->
 
-			<Operation Class="PatchOperationReplace">
-			  <xpath>/Defs/ThingDef[defName="DankPyon_BarrelComponentBasic"]/building/defaultStorageSettings</xpath>
-			  <value>
-				  <defaultStorageSettings>
-					<priority>Important</priority>
-					<filter>
-						<categories>
-							<li>WVC_ManufacturedComponents</li>
-						</categories>
-					</filter>
-				  </defaultStorageSettings>
-			  </value>
-			</Operation>
+			<!-- <Operation Class="PatchOperationReplace"> -->
+			  <!-- <xpath>/Defs/ThingDef[defName="DankPyon_BarrelComponentBasic"]/building/defaultStorageSettings</xpath> -->
+			  <!-- <value> -->
+				  <!-- <defaultStorageSettings> -->
+					<!-- <priority>Important</priority> -->
+					<!-- <filter> -->
+						<!-- <categories> -->
+							<!-- <li>WVC_ManufacturedComponents</li> -->
+						<!-- </categories> -->
+					<!-- </filter> -->
+				  <!-- </defaultStorageSettings> -->
+			  <!-- </value> -->
+			<!-- </Operation> -->
 
-		</caseTrue>
-	</Operation>
+		<!-- </caseTrue> -->
+	<!-- </Operation> -->
 
 	<!--=====================================================================-->
 
@@ -111,109 +100,6 @@
 			<Operation Class="XmlExtensions.PatchOperationSafeRemove">
 				<xpath>/Defs/ThingDef[@ParentName="WVC_Apparel_PerfectUnderwear" or @Name="WVC_Apparel_PerfectUnderwear"]</xpath>
 			</Operation>
-
-		</caseTrue>
-	</Operation>
-
-	<!--=====================================================================-->
-
-	<Operation Class="XmlExtensions.OptionalPatch">
-		<modId>honkai.girls.sergkart</modId>
-		<key>WVC_General_BiotechTechsPatch</key>
-		<defaultValue>false</defaultValue>
-		<caseTrue>
-
-			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-			  <xpath>/Defs/RecipeDef[@ParentName="LightMechanoidRecipe" or @ParentName="WVC_MechaMachineRecipe"]</xpath> 
-			  <safetyDepth>1</safetyDepth>
-			  <value>
-				<ingredients>
-				  <li>
-					<filter>
-					  <thingDefs>
-						<li>VFE_ComponentMechanoid</li>
-					  </thingDefs>
-					</filter>
-					<count>3</count>
-				  </li>
-				</ingredients>
-			  </value>
-			</Operation>
-			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-			  <xpath>/Defs/RecipeDef[@ParentName="MediumMechanoidRecipe" or @ParentName="WVC_MechaAnimalsRecipe" or defName="Tesseron"]</xpath> 
-			  <safetyDepth>1</safetyDepth>
-			  <value>
-				<ingredients>
-				  <li>
-					<filter>
-					  <thingDefs>
-						<li>VFE_ComponentMechanoid</li>
-					  </thingDefs>
-					</filter>
-					<count>5</count>
-				  </li>
-				</ingredients>
-			  </value>
-			</Operation>
-			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-			  <xpath>/Defs/RecipeDef[@ParentName="HeavyMechanoidRecipe" or @ParentName="WVC_NodesMechanoidRecipe" or @ParentName="WVC_KLMechanoidRecipe" or defName="CentipedeBlaster"]</xpath> 
-			  <safetyDepth>1</safetyDepth>
-			  <value>
-				<ingredients>
-				  <li>
-					<filter>
-					  <thingDefs>
-						<li>VFE_ComponentMechanoid</li>
-					  </thingDefs>
-					</filter>
-					<count>7</count>
-				  </li>
-				</ingredients>
-			  </value>
-			</Operation>
-			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-			  <xpath>/Defs/RecipeDef[@ParentName="SuperHeavyMechanoidRecipe"]</xpath> 
-			  <safetyDepth>1</safetyDepth>
-			  <value>
-				<ingredients>
-				  <li>
-					<filter>
-					  <thingDefs>
-						<li>VFE_ComponentMechanoid</li>
-					  </thingDefs>
-					</filter>
-					<count>12</count>
-				  </li>
-				</ingredients>
-			  </value>
-			</Operation>
-
-			<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
-			  <xpath>/Defs/ResearchProjectDef[@ParentName="MechtechBase" or @Name="MechtechBase"]</xpath> 
-			  <value>
-				  <techLevel>Ultra</techLevel>
-			  </value>
-			</Operation>
-
-			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-			  <xpath>/Defs/ResearchProjectDef[defName="BasicMechtech"]</xpath> 
-			  <safetyDepth>1</safetyDepth>
-			  <value>
-				<hiddenPrerequisites>
-				  <li>ValkyriesTechs_II_WVC</li>
-				</hiddenPrerequisites>
-			  </value>
-			</Operation>
-
-			<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
-			  <!-- <xpath>/Defs/ThingDef[defName="StandardMechtech"]</xpath>  -->
-			  <!-- <safetyDepth>1</safetyDepth> -->
-			  <!-- <value> -->
-				<!-- <hiddenPrerequisites> -->
-				  <!-- <li>ValkyriesTechs_II_WVC</li> -->
-				<!-- </hiddenPrerequisites> -->
-			  <!-- </value> -->
-			<!-- </Operation> -->
 
 		</caseTrue>
 	</Operation>
@@ -451,6 +337,163 @@
 					</li>
 				</stages>
 			  </value>
+			</Operation>
+
+			<!--=====================================================================-->
+
+			<Operation Class="XmlExtensions.OptionalPatch">
+				<modId>honkai.girls.sergkart</modId>
+				<key>WVC_General_BiotechTechsPatch</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+
+					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+					  <xpath>/Defs/ThingDef[@Name="BaseMechanoid"]</xpath>
+					  <safetyDepth>1</safetyDepth>
+					  <value>
+						<butcherProducts>
+						  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+						  <WVC_LivingMetall>5</WVC_LivingMetall>
+						</butcherProducts>
+					  </value>
+					</Operation>
+
+					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+					  <xpath>/Defs/ThingDef[@Name="LightMechanoid"]</xpath>
+					  <safetyDepth>1</safetyDepth>
+					  <value>
+						<butcherProducts>
+						  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+						  <WVC_LivingMetall>5</WVC_LivingMetall>
+						</butcherProducts>
+					  </value>
+					</Operation>
+					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+					  <xpath>/Defs/ThingDef[@Name="BaseMechanoidWalker"]</xpath>
+					  <safetyDepth>1</safetyDepth>
+					  <value>
+						<butcherProducts>
+						  <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+						  <WVC_LivingMetall>10</WVC_LivingMetall>
+						</butcherProducts>
+					  </value>
+					</Operation>
+					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+					  <xpath>/Defs/ThingDef[@Name="HeavyMechanoid"]</xpath>
+					  <safetyDepth>1</safetyDepth>
+					  <value>
+						<butcherProducts>
+						  <VFE_ComponentMechanoid>3</VFE_ComponentMechanoid>
+						  <WVC_LivingMetall>15</WVC_LivingMetall>
+						</butcherProducts>
+					  </value>
+					</Operation>
+					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+					  <xpath>/Defs/ThingDef[@Name="SuperHeavyMechanoid"]</xpath>
+					  <safetyDepth>1</safetyDepth>
+					  <value>
+						<butcherProducts>
+						  <VFE_ComponentMechanoid>4</VFE_ComponentMechanoid>
+						  <WVC_LivingMetall>20</WVC_LivingMetall>
+						</butcherProducts>
+					  </value>
+					</Operation>
+
+					<!-- = -->
+
+					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+					  <xpath>/Defs/RecipeDef[@ParentName="LightMechanoidRecipe" or @ParentName="WVC_MechaMachineRecipe"]</xpath> 
+					  <safetyDepth>1</safetyDepth>
+					  <value>
+						<ingredients>
+						  <li>
+							<filter>
+							  <thingDefs>
+								<li>VFE_ComponentMechanoid</li>
+							  </thingDefs>
+							</filter>
+							<count>3</count>
+						  </li>
+						</ingredients>
+					  </value>
+					</Operation>
+					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+					  <xpath>/Defs/RecipeDef[@ParentName="MediumMechanoidRecipe" or @ParentName="WVC_MechaAnimalsRecipe" or defName="Tesseron"]</xpath> 
+					  <safetyDepth>1</safetyDepth>
+					  <value>
+						<ingredients>
+						  <li>
+							<filter>
+							  <thingDefs>
+								<li>VFE_ComponentMechanoid</li>
+							  </thingDefs>
+							</filter>
+							<count>5</count>
+						  </li>
+						</ingredients>
+					  </value>
+					</Operation>
+					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+					  <xpath>/Defs/RecipeDef[@ParentName="HeavyMechanoidRecipe" or @ParentName="WVC_NodesMechanoidRecipe" or @ParentName="WVC_KLMechanoidRecipe" or defName="CentipedeBlaster"]</xpath> 
+					  <safetyDepth>1</safetyDepth>
+					  <value>
+						<ingredients>
+						  <li>
+							<filter>
+							  <thingDefs>
+								<li>VFE_ComponentMechanoid</li>
+							  </thingDefs>
+							</filter>
+							<count>7</count>
+						  </li>
+						</ingredients>
+					  </value>
+					</Operation>
+					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+					  <xpath>/Defs/RecipeDef[@ParentName="SuperHeavyMechanoidRecipe"]</xpath> 
+					  <safetyDepth>1</safetyDepth>
+					  <value>
+						<ingredients>
+						  <li>
+							<filter>
+							  <thingDefs>
+								<li>VFE_ComponentMechanoid</li>
+							  </thingDefs>
+							</filter>
+							<count>12</count>
+						  </li>
+						</ingredients>
+					  </value>
+					</Operation>
+
+					<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+					  <xpath>/Defs/ResearchProjectDef[@ParentName="MechtechBase" or @Name="MechtechBase"]</xpath> 
+					  <value>
+						  <techLevel>Ultra</techLevel>
+					  </value>
+					</Operation>
+
+					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+					  <xpath>/Defs/ResearchProjectDef[defName="BasicMechtech"]</xpath> 
+					  <safetyDepth>1</safetyDepth>
+					  <value>
+						<hiddenPrerequisites>
+						  <li>ValkyriesTechs_II_WVC</li>
+						</hiddenPrerequisites>
+					  </value>
+					</Operation>
+
+					<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
+					  <!-- <xpath>/Defs/ThingDef[defName="StandardMechtech"]</xpath>  -->
+					  <!-- <safetyDepth>1</safetyDepth> -->
+					  <!-- <value> -->
+						<!-- <hiddenPrerequisites> -->
+						  <!-- <li>ValkyriesTechs_II_WVC</li> -->
+						<!-- </hiddenPrerequisites> -->
+					  <!-- </value> -->
+					<!-- </Operation> -->
+
+				</caseTrue>
 			</Operation>
 
 		</caseTrue>
