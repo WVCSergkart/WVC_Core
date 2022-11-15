@@ -8,13 +8,21 @@
 		<description>Forgetting our teachings and goals is something that should never be discussed. There is no ideology more true than ours.</description>
 		<impact>High</impact>
 		<displayOrderInIssue>100</displayOrderInIssue>
+		<!-- <enabledForNPCFactions>false</enabledForNPCFactions> -->
+		<!-- <canGenerateAsSpecialPrecept>false</canGenerateAsSpecialPrecept> -->
 		<conflictingMemes>
 			<li>Guilty</li>
 		</conflictingMemes>
 		<associatedMemes>
-			<li>Loyalist</li>
-			<li>Proselytizer</li>
+			<!-- <li>Loyalist</li> -->
+			<!-- <li>Proselytizer</li> -->
+			<li>WVC_Structure_Hybridism</li>
 		</associatedMemes>
+		<requiredMemes>
+			<!-- <li>Loyalist</li> -->
+			<!-- <li>Proselytizer</li> -->
+			<!-- <li>WVC_Structure_Hybridism</li> -->
+		</requiredMemes>
 		<statFactors>
 			<CertaintyLossFactor>0.1</CertaintyLossFactor>
 		</statFactors>
