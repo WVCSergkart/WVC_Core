@@ -5,8 +5,9 @@
 		<key>DryadsExtra_VenerableDryads_WVC</key>
 		<defaultValue>false</defaultValue>
 		<caseTrue>
-			<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
 			  <xpath>/Defs/ThingDef[@Name="DryadBase"]/race</xpath>
+			  <safetyDepth>1</safetyDepth>
 			  <value>
 				  <hediffGiverSets>
 					<li>Extra_VenerableDryads_WVC</li>

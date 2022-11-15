@@ -6,23 +6,14 @@
 	<hediffGivers>
 		<li Class="HediffGiver_Birthday">
 			<hediff>Extra_VenerableDryads_WVC</hediff>
-			<!-- <ageFractionChanceCurve> -->
-			  <!-- <points> -->
-				<!-- <li>(0.0, 0.5)</li> -->
-				<!-- <li>(0.04, 1)</li> -->
-				<!-- <li>(0.1, 1)</li> -->
-				<!-- <li>(1, 1)</li> -->
-			  <!-- </points> -->
-			<!-- </ageFractionChanceCurve> -->
-			<!-- <averageSeverityPerDayBeforeGeneration>0.05</averageSeverityPerDayBeforeGeneration> -->
 			<ageFractionChanceCurve>
 			  <points>
-				<li>(0, 1)</li>
-				<li>(1, 1)</li>
+				<li>(0, 0.5)</li>
+				<li>(1, 0.5)</li>
 			  </points>
 			</ageFractionChanceCurve>
 		</li>
-		<!-- invisible -->
+		<!-- rare -->
 		<li Class="HediffGiver_Birthday">
 			<hediff>Extra_VenerableDryads_Flammability_WVC</hediff>
 			<ageFractionChanceCurve>
@@ -59,9 +50,128 @@
 			  </points>
 			</ageFractionChanceCurve>
 		</li>
-		<!-- extreme temperature -->
 		<li Class="HediffGiver_Birthday">
 			<hediff>Extra_VenerableDryads_ExtTemp_WVC</hediff>
+			<ageFractionChanceCurve>
+			  <points>
+				<li>(0, 0.01)</li>
+				<li>(1, 0.01)</li>
+			  </points>
+			</ageFractionChanceCurve>
+		</li>
+		<!-- = -->
+		<li Class="HediffGiver_Birthday">
+			<hediff>WVC_Extra_VenerableDryads_Consciousness</hediff>
+			<ageFractionChanceCurve>
+			  <points>
+				<li>(0, 0.01)</li>
+				<li>(1, 0.01)</li>
+			  </points>
+			</ageFractionChanceCurve>
+		</li>
+		<li Class="HediffGiver_Birthday">
+			<hediff>WVC_Extra_VenerableDryads_Moving</hediff>
+			<ageFractionChanceCurve>
+			  <points>
+				<li>(0, 0.01)</li>
+				<li>(1, 0.01)</li>
+			  </points>
+			</ageFractionChanceCurve>
+		</li>
+		<li Class="HediffGiver_Birthday">
+			<hediff>WVC_Extra_VenerableDryads_Manipulation</hediff>
+			<ageFractionChanceCurve>
+			  <points>
+				<li>(0, 0.01)</li>
+				<li>(1, 0.01)</li>
+			  </points>
+			</ageFractionChanceCurve>
+		</li>
+		<li Class="HediffGiver_Birthday">
+			<hediff>WVC_Extra_VenerableDryads_Hearing</hediff>
+			<ageFractionChanceCurve>
+			  <points>
+				<li>(0, 0.01)</li>
+				<li>(1, 0.01)</li>
+			  </points>
+			</ageFractionChanceCurve>
+		</li>
+		<!-- = -->
+		<li Class="HediffGiver_Birthday">
+			<hediff>WVC_Extra_VenerableDryads_PawnTrapSpringChance</hediff>
+			<ageFractionChanceCurve>
+			  <points>
+				<li>(0, 0.01)</li>
+				<li>(1, 0.01)</li>
+			  </points>
+			</ageFractionChanceCurve>
+		</li>
+		<li Class="HediffGiver_Birthday">
+			<hediff>WVC_Extra_VenerableDryads_ImmunityGainSpeed</hediff>
+			<ageFractionChanceCurve>
+			  <points>
+				<li>(0, 0.01)</li>
+				<li>(1, 0.01)</li>
+			  </points>
+			</ageFractionChanceCurve>
+		</li>
+		<li Class="HediffGiver_Birthday">
+			<hediff>WVC_Extra_VenerableDryads_IncomingDamageFactor</hediff>
+			<ageFractionChanceCurve>
+			  <points>
+				<li>(0, 0.01)</li>
+				<li>(1, 0.01)</li>
+			  </points>
+			</ageFractionChanceCurve>
+		</li>
+		<li Class="HediffGiver_Birthday">
+			<hediff>WVC_Extra_VenerableDryads_InjuryHealingFactor</hediff>
+			<ageFractionChanceCurve>
+			  <points>
+				<li>(0, 0.01)</li>
+				<li>(1, 0.01)</li>
+			  </points>
+			</ageFractionChanceCurve>
+		</li>
+		<li Class="HediffGiver_Birthday">
+			<hediff>WVC_Extra_VenerableDryads_totalBleedFactor</hediff>
+			<ageFractionChanceCurve>
+			  <points>
+				<li>(0, 0.01)</li>
+				<li>(1, 0.01)</li>
+			  </points>
+			</ageFractionChanceCurve>
+		</li>
+		<li Class="HediffGiver_Birthday">
+			<hediff>WVC_Extra_VenerableDryads_ArmorRating_Blunt</hediff>
+			<ageFractionChanceCurve>
+			  <points>
+				<li>(0, 0.01)</li>
+				<li>(1, 0.01)</li>
+			  </points>
+			</ageFractionChanceCurve>
+		</li>
+		<!-- = -->
+		<li Class="HediffGiver_Birthday">
+			<hediff>WVC_Extra_VenerableDryads_ArmorRating_Sharp</hediff>
+			<ageFractionChanceCurve>
+			  <points>
+				<li>(0, 0.01)</li>
+				<li>(1, 0.01)</li>
+			  </points>
+			</ageFractionChanceCurve>
+		</li>
+		<li Class="HediffGiver_Birthday">
+			<hediff>WVC_Extra_VenerableDryads_ArmorRating_Heat</hediff>
+			<ageFractionChanceCurve>
+			  <points>
+				<li>(0, 0.01)</li>
+				<li>(1, 0.01)</li>
+			  </points>
+			</ageFractionChanceCurve>
+		</li>
+		<li Class="HediffGiver_Birthday">
+			<hediff>WVC_Extra_VenerableDryads_MoveSpeed</hediff>
 			<ageFractionChanceCurve>
 			  <points>
 				<li>(0, 0.01)</li>
@@ -194,12 +304,166 @@
 	  <li>
 		<!-- <becomeVisible>false</becomeVisible> -->
 		<statOffsets>
-			<ComfyTemperatureMin>-1000</ComfyTemperatureMin>
-			<ComfyTemperatureMax>1000</ComfyTemperatureMax>
+			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
+			<ComfyTemperatureMax>100</ComfyTemperatureMax>
 		</statOffsets>
 		<statFactors>
 			<Flammability>0.0</Flammability>
 		</statFactors>
+	  </li>
+	</stages>
+  </HediffDef>
+
+  <!-- === -->
+
+  <HediffDef ParentName="Hediff_VenerableDryads_Other_WVC">
+	<defName>WVC_Extra_VenerableDryads_Consciousness</defName>
+	<stages>
+	  <li>
+		<capMods>
+		  <li>
+			<capacity>Consciousness</capacity>
+			<offset>0.1</offset>
+		  </li>
+		</capMods>
+	  </li>
+	</stages>
+  </HediffDef>
+  <HediffDef ParentName="Hediff_VenerableDryads_Other_WVC">
+	<defName>WVC_Extra_VenerableDryads_Moving</defName>
+	<stages>
+	  <li>
+		<capMods>
+		  <li>
+			<capacity>Moving</capacity>
+			<offset>0.1</offset>
+		  </li>
+		</capMods>
+	  </li>
+	</stages>
+  </HediffDef>
+  <HediffDef ParentName="Hediff_VenerableDryads_Other_WVC">
+	<defName>WVC_Extra_VenerableDryads_Manipulation</defName>
+	<stages>
+	  <li>
+		<capMods>
+		  <li>
+			<capacity>Manipulation</capacity>
+			<offset>0.1</offset>
+		  </li>
+		</capMods>
+	  </li>
+	</stages>
+  </HediffDef>
+  <HediffDef ParentName="Hediff_VenerableDryads_Other_WVC">
+	<defName>WVC_Extra_VenerableDryads_Hearing</defName>
+	<stages>
+	  <li>
+		<capMods>
+		  <li>
+			<capacity>Hearing</capacity>
+			<offset>0.1</offset>
+		  </li>
+		</capMods>
+	  </li>
+	</stages>
+  </HediffDef>
+
+  <!-- === -->
+
+  <HediffDef ParentName="Hediff_VenerableDryads_Other_WVC">
+	<defName>WVC_Extra_VenerableDryads_PawnTrapSpringChance</defName>
+	<stages>
+	  <li>
+		<statOffsets>
+			<PawnTrapSpringChance>-0.7</PawnTrapSpringChance>
+		</statOffsets>
+	  </li>
+	</stages>
+  </HediffDef>
+  <HediffDef ParentName="Hediff_VenerableDryads_Other_WVC">
+	<defName>WVC_Extra_VenerableDryads_ImmunityGainSpeed</defName>
+	<stages>
+	  <li>
+		<statOffsets>
+			<ImmunityGainSpeed>0.25</ImmunityGainSpeed>
+		</statOffsets>
+	  </li>
+	</stages>
+  </HediffDef>
+  <HediffDef ParentName="Hediff_VenerableDryads_Other_WVC">
+	<defName>WVC_Extra_VenerableDryads_IncomingDamageFactor</defName>
+	<stages>
+	  <li>
+		<statOffsets>
+			<IncomingDamageFactor>-0.10</IncomingDamageFactor>
+		</statOffsets>
+	  </li>
+	</stages>
+  </HediffDef>
+  <HediffDef ParentName="Hediff_VenerableDryads_Other_WVC">
+	<defName>WVC_Extra_VenerableDryads_InjuryHealingFactor</defName>
+	<stages>
+	  <li>
+		<statOffsets>
+			<InjuryHealingFactor>0.2</InjuryHealingFactor>
+		</statOffsets>
+	  </li>
+	</stages>
+  </HediffDef>
+  <HediffDef ParentName="Hediff_VenerableDryads_Other_WVC">
+	<defName>WVC_Extra_VenerableDryads_totalBleedFactor</defName>
+	<stages>
+	  <li>
+		<totalBleedFactor>0.2</totalBleedFactor>
+	  </li>
+	</stages>
+  </HediffDef>
+  <HediffDef ParentName="Hediff_VenerableDryads_Other_WVC">
+	<defName>WVC_Extra_VenerableDryads_restFallFactor</defName>
+	<stages>
+	  <li>
+		<restFallFactor>0.2</restFallFactor>
+	  </li>
+	</stages>
+  </HediffDef>
+  <HediffDef ParentName="Hediff_VenerableDryads_Other_WVC">
+	<defName>WVC_Extra_VenerableDryads_MoveSpeed</defName>
+	<stages>
+	  <li>
+		<statOffsets>
+			<MoveSpeed>1.0</MoveSpeed>
+		</statOffsets>
+	  </li>
+	</stages>
+  </HediffDef>
+  <HediffDef ParentName="Hediff_VenerableDryads_Other_WVC">
+	<defName>WVC_Extra_VenerableDryads_ArmorRating_Heat</defName>
+	<stages>
+	  <li>
+		<statOffsets>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+		</statOffsets>
+	  </li>
+	</stages>
+  </HediffDef>
+  <HediffDef ParentName="Hediff_VenerableDryads_Other_WVC">
+	<defName>WVC_Extra_VenerableDryads_ArmorRating_Sharp</defName>
+	<stages>
+	  <li>
+		<statOffsets>
+			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+		</statOffsets>
+	  </li>
+	</stages>
+  </HediffDef>
+  <HediffDef ParentName="Hediff_VenerableDryads_Other_WVC">
+	<defName>WVC_Extra_VenerableDryads_ArmorRating_Blunt</defName>
+	<stages>
+	  <li>
+		<statOffsets>
+			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+		</statOffsets>
 	  </li>
 	</stages>
   </HediffDef>
