@@ -721,4 +721,14 @@
 	  <thing>WVC_MechanoidStorageSpot</thing>
 	</KCSG.SymbolDef>
 
+	<KCSG.SymbolDef>
+	  <defName>WVC_FloorLamp</defName>
+	  <thing>WVC_FloorLamp</thing>
+	</KCSG.SymbolDef>
+
+	<KCSG.SymbolDef>
+	  <defName>WVC_AncientStorageSpot</defName>
+	  <thing>WVC_AncientStorageSpot</thing>
+	</KCSG.SymbolDef>
+
 </Defs>

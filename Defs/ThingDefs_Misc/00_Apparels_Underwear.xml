@@ -60,6 +60,7 @@
 	  <Insulation_Heat>1</Insulation_Heat>
 	</statBases>
 	<apparel>
+	  <developmentalStageFilter>Child, Adult</developmentalStageFilter>
 	  <bodyPartGroups>
 		<!-- <li>FullHead</li> -->
 		<!-- <li>Neck</li> -->
@@ -96,6 +97,7 @@
 	  <careIfWornByCorpse>true</careIfWornByCorpse>
 	  <careIfDamaged>false</careIfDamaged>
 	  <countsAsClothingForNudity>true</countsAsClothingForNudity>
+	  <scoreOffset>10</scoreOffset>
 	</apparel>
   </ThingDef>
 
@@ -180,7 +182,7 @@
 	</comps>
   </ThingDef>
 
-  <HediffDef>
+  <HediffDef MayRequire="ludeon.rimworld.ideology">
 	<defName>WVC_Shibari</defName>
 	<label>shibari</label>
 	<description>Rough and prickly ropes digging into the skin. It is used to put the wearer in pain.</description>
