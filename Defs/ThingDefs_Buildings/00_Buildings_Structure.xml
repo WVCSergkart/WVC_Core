@@ -556,7 +556,7 @@
 	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<passability>PassThroughOnly</passability>
 	<fillPercent>0.25</fillPercent>
-	<pathCost>0</pathCost>
+	<pathCost>25</pathCost>
 	<rotatable>false</rotatable>
 	<canOverlapZones>false</canOverlapZones>
 	<minifiedDef>MinifiedThing</minifiedDef>
@@ -615,7 +615,7 @@
 	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<passability>PassThroughOnly</passability>
 	<fillPercent>0.25</fillPercent>
-	<pathCost>0</pathCost>
+	<pathCost>25</pathCost>
 	<rotatable>false</rotatable>
 	<canOverlapZones>false</canOverlapZones>
 	<minifiedDef>MinifiedThing</minifiedDef>
@@ -674,7 +674,7 @@
 	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	<passability>PassThroughOnly</passability>
 	<fillPercent>0.25</fillPercent>
-	<pathCost>0</pathCost>
+	<pathCost>25</pathCost>
 	<rotatable>false</rotatable>
 	<canOverlapZones>false</canOverlapZones>
 	<minifiedDef>MinifiedThing</minifiedDef>
