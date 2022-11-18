@@ -3,7 +3,7 @@
 
   <StatDef>
 	<defName>MechaniteCrafter_WorkSpeed_WVC</defName>
-	<label>Mechaniser work speed</label>
+	<label>Mechanizer work speed</label>
 	<description>The speed of work on a mechaniser.</description>
 	<category>PawnWork</category>
 	<defaultBaseValue>1.0</defaultBaseValue>
@@ -40,7 +40,7 @@
 
   <StatDef Name="WVC_MechaniteCrafter_EfficiencyBase" Abstract="True">
 	<!-- <defName>MechaniteCrafter_Efficiency_WVC</defName> -->
-	<label>Mechaniser efficiency</label>
+	<label>Mechanizer efficiency</label>
 	<description>The efficiency of work on a mechaniser.</description>
 	<category>PawnWork</category>
 	<defaultBaseValue>1.0</defaultBaseValue>
