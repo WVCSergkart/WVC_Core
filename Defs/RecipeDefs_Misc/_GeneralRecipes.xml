@@ -48,7 +48,7 @@
 
   <WorkGiverDef ParentName="WVC_WorkGiver_Base">
 	<defName>WVC_MechanizerWork</defName>
-	<label>work at mechaniser</label>
+	<label>work at mechanizer</label>
 	<priorityInType>10</priorityInType>
 	<fixedBillGiverDefs>
 	  <li>DefaultWorkSpot_WVC</li>
