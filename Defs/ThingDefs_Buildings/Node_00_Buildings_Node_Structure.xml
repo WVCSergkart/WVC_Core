@@ -156,7 +156,7 @@
 		  </li>
 		  <li Class="CompProperties_Power">
 			<compClass>CompPowerTrader</compClass>
-			<shortCircuitInRain>true</shortCircuitInRain>
+			<shortCircuitInRain>false</shortCircuitInRain>
 			<basePowerConsumption>0</basePowerConsumption>
 		  </li>
 		</comps>
