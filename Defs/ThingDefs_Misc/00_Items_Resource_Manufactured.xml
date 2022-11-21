@@ -4,7 +4,7 @@
   <ThingDef ParentName="ResourceBase">
 	<defName>WVC_LivingMetall</defName>
 	<label>living metal</label>
-	<description>The metal behind node technologies. It is flesh-like, flexible and has regenerative properties. One way to get it is to rip it off a dead semi-organic being.\n\nIn its current state, it is unable to regenerate.</description>
+	<description>The metal behind ultra technologies. It is flesh-like, flexible and has regenerative properties. One way to get it is to rip it off a dead semi-organic being.\n\nIn its current state, it is unable to regenerate.</description>
 	<techLevel>Ultra</techLevel>
 	<graphicData>
 	  <texPath>WVC/Resource/Plasteel</texPath>
@@ -16,7 +16,7 @@
 	<healthAffectsPrice>false</healthAffectsPrice>
 	<statBases>
 	  <MarketValue>14</MarketValue>
-	  <Mass>0.08</Mass>
+	  <Mass>0.13</Mass>
 	  <DeteriorationRate>0</DeteriorationRate>
 	  <StuffPower_Armor_Sharp>1.24</StuffPower_Armor_Sharp>
 	  <StuffPower_Armor_Blunt>1.05</StuffPower_Armor_Blunt>
