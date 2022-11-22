@@ -277,6 +277,20 @@
 		<logic>and</logic>
 		<caseTrue>
 
+			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+			  <xpath>/Defs/RecipeDef[defName="ResurrectMediumMech"]</xpath>
+			  <safetyDepth>2</safetyDepth>
+			  <value>
+				<fixedIngredientFilter>
+					<thingDefs>
+					  <li>Corpse_WVC_Mech_Hornad</li>
+					  <li>Corpse_WVC_Mech_Nautil</li>
+					  <li>Corpse_WVC_Mech_Fion</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+			  </value>
+			</Operation>
+
 			<Operation Class="PatchOperationAdd">
 			  <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings</xpath>
 			  <value>

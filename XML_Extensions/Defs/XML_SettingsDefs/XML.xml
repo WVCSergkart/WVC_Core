@@ -69,15 +69,15 @@
 
 					<!-- ===================================================================== -->
 
-					<li MayRequire="wvc.sergkart.races.biotech">
-						<label>&lt;color=#a2c8ff&gt;Biotech&lt;/color&gt;</label>
-						<settings>
-							<li Class="XmlExtensions.Setting.Gap" />
-							<li MayRequire="wvc.sergkart.races.biotech" Class="XmlExtensions.Setting.EmbedMenu">
-								<menu>Settings_Biotech_Races_WVC</menu>
-							</li>
-						</settings>
-					</li>
+					<!-- <li MayRequire="wvc.sergkart.races.biotech"> -->
+						<!-- <label>&lt;color=#a2c8ff&gt;Biotech&lt;/color&gt;</label> -->
+						<!-- <settings> -->
+							<!-- <li Class="XmlExtensions.Setting.Gap" /> -->
+							<!-- <li MayRequire="wvc.sergkart.races.biotech" Class="XmlExtensions.Setting.EmbedMenu"> -->
+								<!-- <menu>Settings_Biotech_Races_WVC</menu> -->
+							<!-- </li> -->
+						<!-- </settings> -->
+					<!-- </li> -->
 
 					<!-- ===================================================================== -->
 
