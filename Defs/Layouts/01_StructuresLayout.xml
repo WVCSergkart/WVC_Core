@@ -495,4 +495,49 @@
 	  </modRequirements>
 	</KCSG.StructureLayoutDef>
 
+	<KCSG.StructureLayoutDef>
+	  <defName>WVC_GauranlenGarden_A</defName>
+	  <spawnConduits>false</spawnConduits>
+	  <layouts>
+		<li>
+		  <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		  <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		  <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		  <li>.,.,.,.,.,.,.,.,.,Plant_TreeGauranlen,.,.,.,.,.</li>
+		  <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		  <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		  <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		  <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		  <li>.,.,.,Plant_TreeGauranlen,.,.,.,.,.,.,.,.,.,.,.</li>
+		  <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		  <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		  <li>.,.,.,.,.,.,.,.,.,.,.,Plant_TreeGauranlen,.,.,.</li>
+		  <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		  <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		  <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		</li>
+	  </layouts>
+	  <terrainGrid>
+		<li>.,.,.,.,.,.,.,.,FungalGravel,FungalGravel,FungalGravel,.,.,.,.</li>
+		<li>.,.,.,.,.,.,.,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,.,.,.</li>
+		<li>.,.,.,.,.,.,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,.,.</li>
+		<li>.,.,.,.,.,.,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,.,.</li>
+		<li>.,.,.,.,.,.,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,.,.</li>
+		<li>.,.,FungalGravel,FungalGravel,FungalGravel,.,.,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,.,.,.</li>
+		<li>.,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,.,.,FungalGravel,FungalGravel,FungalGravel,.,.,.,.</li>
+		<li>FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,.,.,.,.,.,.,.,.</li>
+		<li>FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,.,.,.,FungalGravel,FungalGravel,FungalGravel,.,.</li>
+		<li>FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,.,.,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,.</li>
+		<li>.,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,.,.,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel</li>
+		<li>.,.,FungalGravel,FungalGravel,FungalGravel,.,.,.,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel</li>
+		<li>.,.,.,.,.,.,.,.,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel</li>
+		<li>.,.,.,.,.,.,.,.,.,FungalGravel,FungalGravel,FungalGravel,FungalGravel,FungalGravel,.</li>
+		<li>.,.,.,.,.,.,.,.,.,.,FungalGravel,FungalGravel,FungalGravel,.,.</li>
+	  </terrainGrid>
+	  <modRequirements>
+		<li>ludeon.rimworld.ideology</li>
+	  </modRequirements>
+	</KCSG.StructureLayoutDef>
+
+
 </Defs>
