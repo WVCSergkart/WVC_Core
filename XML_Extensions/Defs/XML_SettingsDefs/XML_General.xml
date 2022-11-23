@@ -156,6 +156,14 @@
 							<tKey>HGS_Buildings_UniversalConduit_Info_WVC</tKey>
 						</li>
 						<li Class="XmlExtensions.Setting.Checkbox">
+							<key>ComponentMechanoid_GirlyResource_UniversalFuel_WVC</key>
+							<label>Mechanites is universal fuel?</label>
+							<defaultValue>false</defaultValue>
+							<tooltip>Universal fuel - by default it is used only as food, however this can be unbalanced since the patch will affect all vanilla fuel systems. Obtained only through recycling.</tooltip>
+							<tKey>HGS_Resources_RubbishFuel_Checker_WVC</tKey>
+							<tKeyTip>HGS_Resources_RubbishFuel_Checker_Desc_WVC</tKeyTip>
+						</li>
+						<li Class="XmlExtensions.Setting.Checkbox">
 							<key>WVC_Buildings_UniversalConduit_IsUndergroudConduit</key>
 							<label>Undergroud</label>
 							<defaultValue>false</defaultValue>
