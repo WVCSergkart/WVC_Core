@@ -53,6 +53,19 @@
 												  </li>
 												</value>
 											</Operation>
+											<Operation Class="PatchOperationAdd">
+											  <xpath>/Defs/ThinkTreeDef[defName="Dryad"]/thinkRoot/subNodes/li/subNodes/li/subNodes/li/subNodes/li/subNodes[@WVC_Tag="JobGivers_RandomDryadDoRandomJob_AutoPatcherHook"]</xpath> 
+											  <value>
+												<li Class="ThinkNode_ConditionalPawnKind">
+												  <pawnKind>{DryadDefName_DEF}</pawnKind>
+												  <subNodes>
+													<li Class="JobGiver_Haul" />
+													<!-- <li MayRequire="vanillaexpanded.vgeneticse" Class="GeneticRim.JobGiver_Clean"/> -->
+													<!-- <li MayRequire="vanillaexpanded.vgeneticse" Class="GeneticRim.JobGiver_Mine"/> -->
+												  </subNodes>
+												</li>
+											  </value>
+											</Operation>
 
 											<Operation Class="PatchOperationReplace">
 												<xpath>/Defs/XmlExtensions.SlateDef[@Name="WVC_DryadRework_BodyClock_Random_SlateDef"]/bodyClock</xpath>
@@ -75,6 +88,19 @@
 												  </li>
 												</value>
 											</Operation>
+											<Operation Class="PatchOperationAdd">
+											  <xpath>/Defs/ThinkTreeDef[defName="Dryad"]/thinkRoot/subNodes/li/subNodes/li/subNodes/li/subNodes/li/subNodes[@WVC_Tag="JobGivers_RandomDryadDoRandomJob_AutoPatcherHook"]</xpath> 
+											  <value>
+												<li MayRequire="vanillaexpanded.vgeneticse" Class="ThinkNode_ConditionalPawnKind">
+												  <pawnKind>{DryadDefName_DEF}</pawnKind>
+												  <subNodes>
+													<!-- <li Class="JobGiver_Haul" /> -->
+													<li MayRequire="vanillaexpanded.vgeneticse" Class="GeneticRim.JobGiver_Clean"/>
+													<!-- <li MayRequire="vanillaexpanded.vgeneticse" Class="GeneticRim.JobGiver_Mine"/> -->
+												  </subNodes>
+												</li>
+											  </value>
+											</Operation>
 
 											<Operation Class="PatchOperationReplace">
 												<xpath>/Defs/XmlExtensions.SlateDef[@Name="WVC_DryadRework_BodyClock_Random_SlateDef"]/bodyClock</xpath>
@@ -96,6 +122,19 @@
 													<bodyClock>Crepuscular</bodyClock>
 												  </li>
 												</value>
+											</Operation>
+											<Operation Class="PatchOperationAdd">
+											  <xpath>/Defs/ThinkTreeDef[defName="Dryad"]/thinkRoot/subNodes/li/subNodes/li/subNodes/li/subNodes/li/subNodes[@WVC_Tag="JobGivers_RandomDryadDoRandomJob_AutoPatcherHook"]</xpath> 
+											  <value>
+												<li MayRequire="vanillaexpanded.vgeneticse" Class="ThinkNode_ConditionalPawnKind">
+												  <pawnKind>{DryadDefName_DEF}</pawnKind>
+												  <subNodes>
+													<!-- <li Class="JobGiver_Haul" /> -->
+													<!-- <li MayRequire="vanillaexpanded.vgeneticse" Class="GeneticRim.JobGiver_Clean"/> -->
+													<li MayRequire="vanillaexpanded.vgeneticse" Class="GeneticRim.JobGiver_Mine"/>
+												  </subNodes>
+												</li>
+											  </value>
 											</Operation>
 
 											<Operation Class="PatchOperationReplace">
