@@ -13,7 +13,7 @@
 				<xpathParent>/Defs/HediffDef[@Name="{MarkerName}"]</xpathParent>
 				<concreteOnly>true</concreteOnly>
 				<storeIn>DEF</storeIn>
-				<apply> 
+				<apply>
 
 					<Operation Class="XmlExtensions.CreateVariable">
 						<value>{DEF}/defName</value>
@@ -21,37 +21,70 @@
 						<fromXml>true</fromXml>
 						<apply>
 
-					<Operation Class="XmlExtensions.CreateVariable">
-						<value>{DEF}/label</value>
-						<storeIn>label_DEF</storeIn>
-						<fromXml>true</fromXml>
-						<apply>
+							<Operation Class="XmlExtensions.Conditional">
+								<xpath>{DEF}/label</xpath>
+								<caseTrue>
 
-							<Operation Class="PatchOperationAdd">
-								<xpath>/Defs</xpath>
-								<value>
-									<RecipeDef ParentName="HealInjury_Base_WVC">
-										<defName>AutopRecipe_Cure{CodeWord}_{defName_DEF}_WVC</defName>
-										<label>cure {label_DEF}</label>
-										<description>Cure {label_DEF}.</description>
-										<jobString>Curing {label_DEF}.</jobString>
-										<removesHediff>{defName_DEF}</removesHediff>
-									</RecipeDef>
-								</value>
+									<Operation Class="XmlExtensions.CreateVariable">
+										<value>{DEF}/label</value>
+										<storeIn>label_DEF</storeIn>
+										<fromXml>true</fromXml>
+										<apply>
+
+											<Operation Class="PatchOperationAdd">
+												<xpath>/Defs</xpath>
+												<value>
+													<RecipeDef ParentName="HealInjury_Base_WVC">
+														<defName>AutopRecipe_Cure{CodeWord}_{defName_DEF}_WVC</defName>
+														<label>cure {label_DEF}</label>
+														<description>Cure {label_DEF}.</description>
+														<jobString>Curing {label_DEF}.</jobString>
+														<removesHediff>{defName_DEF}</removesHediff>
+													</RecipeDef>
+												</value>
+											</Operation>
+
+											<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+												<xpath>/Defs/ThingDef[@Name="{PawnThing}"]</xpath>
+												<safetyDepth>1</safetyDepth>
+												<value>
+													<recipes>
+													  <li>AutopRecipe_Cure{CodeWord}_{defName_DEF}_WVC</li>
+													</recipes>
+												</value>
+											</Operation>
+
+										</apply>
+									</Operation>
+
+								</caseTrue>
+								<caseFalse> 
+
+									<Operation Class="PatchOperationAdd">
+										<xpath>/Defs</xpath>
+										<value>
+											<RecipeDef ParentName="HealInjury_Base_WVC">
+												<defName>AutopRecipe_Cure{CodeWord}_{defName_DEF}_WVC</defName>
+												<label>cure injury</label>
+												<description>Cure injury.</description>
+												<jobString>Curing injury.</jobString>
+												<removesHediff>{defName_DEF}</removesHediff>
+											</RecipeDef>
+										</value>
+									</Operation>
+
+									<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+										<xpath>/Defs/ThingDef[@Name="{PawnThing}"]</xpath>
+										<safetyDepth>1</safetyDepth>
+										<value>
+											<recipes>
+											  <li>AutopRecipe_Cure{CodeWord}_{defName_DEF}_WVC</li>
+											</recipes>
+										</value>
+									</Operation>
+
+								</caseFalse>
 							</Operation>
-
-							<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-								<xpath>/Defs/ThingDef[@Name="{PawnThing}"]</xpath>
-								<safetyDepth>1</safetyDepth>
-								<value>
-									<recipes>
-									  <li>AutopRecipe_Cure{CodeWord}_{defName_DEF}_WVC</li>
-									</recipes>
-								</value>
-							</Operation>
-
-						</apply>
-					</Operation>
 
 						</apply>
 					</Operation>
