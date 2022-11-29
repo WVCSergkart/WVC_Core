@@ -43,7 +43,7 @@
 	<castEdgeShadows>false</castEdgeShadows>
 	<defaultPlacingRot>North</defaultPlacingRot>
 	<graphicData Inherit="False">
-	  <texPath>WVC/Stuff/WoodStorageSpot</texPath>
+	  <texPath>WVC/Storages/WoodStorageSpot</texPath>
 	  <graphicClass>Graphic_Random</graphicClass>
 	  <!-- <shaderType>CutoutComplex</shaderType> -->
 	  <drawSize>(2,2)</drawSize>
@@ -61,22 +61,74 @@
   <!-- ===================== -->
 
   <ThingDef ParentName="WVC_StuffStorageSpot">
-	<defName>WVC_WoodenStorageSpot</defName>
-	<label>storage spot</label>
+	<defName>WVC_WoodenStorageSpot1x1c</defName>
+	<label>storage spot (1x1)</label>
 	<graphicData>
-	  <texPath>WVC/Stuff/WoodStorageSpot</texPath>
+	  <texPath>WVC/Storages/WoodStorageSpot1x1c</texPath>
+	  <drawSize>(1,1)</drawSize>
 	</graphicData>
+	<statBases>
+	  <MaxHitPoints>120</MaxHitPoints>
+	</statBases>
+	<size>(1,1)</size>
+	<costStuffCount>40</costStuffCount>
+	<building>
+	  <maxItemsInCell>4</maxItemsInCell>
+	</building>
 	<stuffCategories>
 	  <li>Woody</li>
 	</stuffCategories>
   </ThingDef>
 
   <ThingDef ParentName="WVC_StuffStorageSpot">
-	<defName>WVC_StonyStorageSpot</defName>
-	<label>storage spot</label>
+	<defName>WVC_WoodenStorageSpot2x2c</defName>
+	<label>storage spot (2x2)</label>
 	<graphicData>
-	  <texPath>WVC/Stuff/StoneStorageSpot</texPath>
+	  <texPath>WVC/Storages/WoodStorageSpot2x2c</texPath>
 	</graphicData>
+	<statBases>
+	  <MaxHitPoints>190</MaxHitPoints>
+	</statBases>
+	<building>
+	  <maxItemsInCell>5</maxItemsInCell>
+	</building>
+	<stuffCategories>
+	  <li>Woody</li>
+	</stuffCategories>
+  </ThingDef>
+
+  <!-- ===================== -->
+
+  <ThingDef ParentName="WVC_StuffStorageSpot">
+	<defName>WVC_StonyStorageSpot1x1c</defName>
+	<label>storage spot (1x1)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/StonyStorageSpot1x1c</texPath>
+	  <drawSize>(1,1)</drawSize>
+	</graphicData>
+	<statBases>
+	  <MaxHitPoints>200</MaxHitPoints>
+	</statBases>
+	<size>(1,1)</size>
+	<costStuffCount>40</costStuffCount>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<building>
+	  <maxItemsInCell>5</maxItemsInCell>
+	</building>
+	<stuffCategories>
+	  <li>Stony</li>
+	</stuffCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_StuffStorageSpot">
+	<defName>WVC_StonyStorageSpot2x2c</defName>
+	<label>storage spot (2x2)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/StoneStorageSpot2x2c</texPath>
+	</graphicData>
+	<statBases>
+	  <MaxHitPoints>260</MaxHitPoints>
+	</statBases>
 	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 	<building>
 	  <maxItemsInCell>6</maxItemsInCell>
@@ -86,12 +138,17 @@
 	</stuffCategories>
   </ThingDef>
 
+  <!-- ===================== -->
+
   <ThingDef ParentName="WVC_StuffStorageSpot">
-	<defName>WVC_MetallicStorageSpot</defName>
-	<label>storage spot</label>
+	<defName>WVC_MetallicStorageSpot2x2c</defName>
+	<label>storage spot (2x2)</label>
 	<graphicData>
-	  <texPath>WVC/Stuff/MetalStorage</texPath>
+	  <texPath>WVC/Storages/MetalStorage2x2c</texPath>
 	</graphicData>
+	<statBases>
+	  <MaxHitPoints>270</MaxHitPoints>
+	</statBases>
 	<building>
 	  <maxItemsInCell>7</maxItemsInCell>
 	</building>
@@ -181,8 +238,8 @@
 	<rotatable>false</rotatable>
 	<castEdgeShadows>false</castEdgeShadows>
 	<graphicData>
-	  <texPath>WVC/Stuff/MechanoidStorage</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+	  <texPath>WVC/Storages/MechanoidStorage</texPath>
+	  <graphicClass>Graphic_Random</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>(3,3)</drawSize>
 	  <damageData>
@@ -217,9 +274,9 @@
 
   <ThingDef ParentName="WVC_StorageSpot_Base">
 	<defName>WVC_AncientStorageSpot</defName>
-	<label>ancient storage spot</label>
+	<label>ancient storage spot (3x3)</label>
 	<graphicData>
-	  <texPath>WVC/Stuff/AncientStorage</texPath>
+	  <texPath>WVC/Storages/AncientStorage</texPath>
 	</graphicData>
 	<researchPrerequisites Inherit="False">
 	  <li>ValkyriesTechs_I_WVC</li>
@@ -228,12 +285,12 @@
 
   <ThingDef ParentName="WVC_StorageSpot_Base">
 	<defName>WVC_MechanoidStorageSpot</defName>
-	<label>mechanoid storage spot</label>
+	<label>mechanoid storage spot (3x3)</label>
 	<building>
 	  <maxItemsInCell>8</maxItemsInCell>
 	</building>
 	<graphicData>
-	  <texPath>WVC/Stuff/MechanoidStorage</texPath>
+	  <texPath>WVC/Storages/MechanoidStorage</texPath>
 	</graphicData>
 	<researchPrerequisites Inherit="False">
 	  <li>ValkyriesTechs_II_WVC</li>
