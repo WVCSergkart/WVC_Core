@@ -29,7 +29,7 @@
 	  <!-- <li>Woody</li> -->
 	  <!-- <li>Stony</li> -->
 	</stuffCategories>
-	<costStuffCount>120</costStuffCount>
+	<costStuffCount>90</costStuffCount>
 	<statBases>
 	  <MarketValue>210</MarketValue>
 	  <WorkToBuild>4000</WorkToBuild>
@@ -42,7 +42,7 @@
 	<rotatable>false</rotatable>
 	<castEdgeShadows>false</castEdgeShadows>
 	<defaultPlacingRot>North</defaultPlacingRot>
-	<graphicData>
+	<graphicData Inherit="False">
 	  <texPath>WVC/Stuff/WoodStorageSpot</texPath>
 	  <graphicClass>Graphic_Random</graphicClass>
 	  <!-- <shaderType>CutoutComplex</shaderType> -->
@@ -77,11 +77,28 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/StoneStorageSpot</texPath>
 	</graphicData>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 	<building>
 	  <maxItemsInCell>6</maxItemsInCell>
 	</building>
 	<stuffCategories>
 	  <li>Stony</li>
+	</stuffCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_StuffStorageSpot">
+	<defName>WVC_MetallicStorageSpot</defName>
+	<label>storage spot</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/MetalStorage</texPath>
+	</graphicData>
+	<building>
+	  <maxItemsInCell>7</maxItemsInCell>
+	</building>
+	<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	<staticSunShadowHeight>0.0</staticSunShadowHeight>
+	<stuffCategories>
+	  <li>Metallic</li>
 	</stuffCategories>
   </ThingDef>
 
@@ -173,7 +190,7 @@
 	  </damageData>
 	</graphicData>
 	<costList>
-		<Plasteel>80</Plasteel>
+		<Plasteel>120</Plasteel>
 	</costList>
 	<thingCategories>
 	  <li>BuildingsFurniture</li>
@@ -193,7 +210,7 @@
 	</researchPrerequisites>
 	<designationCategory>Furniture</designationCategory>
 	<designatorDropdown>HGS_Storage_WVC</designatorDropdown>
-	<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
   </ThingDef>
 
   <!-- ========================================================== -->
