@@ -93,7 +93,7 @@
 		<li>ValkyriesTechs_ReplicatorI_WVC</li>
 	</researchPrerequisites>
 	<designationCategory>Production</designationCategory>
-	<designatorDropdown>HGS_Spawners_WVC</designatorDropdown>
+	<!-- <designatorDropdown>HGS_Spawners_WVC</designatorDropdown> -->
   </ThingDef>
 
   <!-- ========================================================== -->
