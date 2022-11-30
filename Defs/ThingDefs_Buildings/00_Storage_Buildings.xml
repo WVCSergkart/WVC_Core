@@ -75,6 +75,7 @@
 	<building>
 	  <maxItemsInCell>4</maxItemsInCell>
 	</building>
+	<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
 	<stuffCategories>
 	  <li>Woody</li>
 	</stuffCategories>
@@ -85,13 +86,35 @@
 	<label>storage spot (2x2)</label>
 	<graphicData>
 	  <texPath>WVC/Storages/WoodStorageSpot2x2c</texPath>
+	  <drawSize>(2,2)</drawSize>
 	</graphicData>
+	<size>(2,2)</size>
 	<statBases>
 	  <MaxHitPoints>190</MaxHitPoints>
 	</statBases>
 	<building>
 	  <maxItemsInCell>5</maxItemsInCell>
 	</building>
+	<stuffCategories>
+	  <li>Woody</li>
+	</stuffCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_StuffStorageSpot">
+	<defName>WVC_WoodenStorageSpot3x3c</defName>
+	<label>storage spot (3x3)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/WoodStorageSpot3x3c</texPath>
+	  <drawSize>(3,3)</drawSize>
+	</graphicData>
+	<size>(3,3)</size>
+	<statBases>
+	  <MaxHitPoints>230</MaxHitPoints>
+	</statBases>
+	<building>
+	  <maxItemsInCell>6</maxItemsInCell>
+	</building>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 	<stuffCategories>
 	  <li>Woody</li>
 	</stuffCategories>
@@ -111,7 +134,7 @@
 	</statBases>
 	<size>(1,1)</size>
 	<costStuffCount>40</costStuffCount>
-	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 	<building>
 	  <maxItemsInCell>5</maxItemsInCell>
 	</building>
@@ -125,13 +148,35 @@
 	<label>storage spot (2x2)</label>
 	<graphicData>
 	  <texPath>WVC/Storages/StoneStorageSpot2x2c</texPath>
+	  <drawSize>(2,2)</drawSize>
 	</graphicData>
+	<size>(2,2)</size>
 	<statBases>
 	  <MaxHitPoints>260</MaxHitPoints>
 	</statBases>
 	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 	<building>
 	  <maxItemsInCell>6</maxItemsInCell>
+	</building>
+	<stuffCategories>
+	  <li>Stony</li>
+	</stuffCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_StuffStorageSpot">
+	<defName>WVC_StonyStorageSpot3x3c</defName>
+	<label>storage spot (3x3)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/StoneStorageSpot3x3c</texPath>
+	  <drawSize>(3,3)</drawSize>
+	</graphicData>
+	<size>(3,3)</size>
+	<statBases>
+	  <MaxHitPoints>290</MaxHitPoints>
+	</statBases>
+	<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	<building>
+	  <maxItemsInCell>7</maxItemsInCell>
 	</building>
 	<stuffCategories>
 	  <li>Stony</li>
@@ -145,7 +190,9 @@
 	<label>storage spot (2x2)</label>
 	<graphicData>
 	  <texPath>WVC/Storages/MetalStorage2x2c</texPath>
+	  <drawSize>(2,2)</drawSize>
 	</graphicData>
+	<size>(2,2)</size>
 	<statBases>
 	  <MaxHitPoints>270</MaxHitPoints>
 	</statBases>
