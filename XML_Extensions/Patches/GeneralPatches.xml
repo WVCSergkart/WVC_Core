@@ -383,7 +383,7 @@
 					  </value>
 					</Operation>
 					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-					  <xpath>/Defs/ThingDef[@Name="BaseMechanoidWalker"]</xpath>
+					  <xpath>/Defs/ThingDef[@Name="BaseMechanoidWalker" or @Name="VFE_Mechanoid"]</xpath>
 					  <safetyDepth>1</safetyDepth>
 					  <value>
 						<butcherProducts>
@@ -393,7 +393,7 @@
 					  </value>
 					</Operation>
 					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-					  <xpath>/Defs/ThingDef[@Name="HeavyMechanoid"]</xpath>
+					  <xpath>/Defs/ThingDef[@Name="HeavyMechanoid" or @Name="VFE_AdvancedMechanoid"]</xpath>
 					  <safetyDepth>1</safetyDepth>
 					  <value>
 						<butcherProducts>
