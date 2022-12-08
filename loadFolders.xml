@@ -2,6 +2,7 @@
 	<v1.4>
 		<li>/</li>
 		<!-- <li>1.4</li> -->
+		<li IfModActive="wvc.sergkart.races">RacesHAR</li>
 		<li IfModActive="wvc.sergkart.races">RacesGeneral</li>
 		<li IfModActive="ludeon.rimworld.biotech">RacesGeneral</li>
 		<li IfModActive="ludeon.rimworld.biotech">Biotech_Core</li>
