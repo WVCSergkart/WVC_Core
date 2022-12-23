@@ -92,6 +92,12 @@
 
 			<li Class="XmlExtensions.Setting.Gap"/>
 			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>ExtraSetting_FreeAnimaTreeMeditation_WVC</key>
+				<label>Free natural meditation</label>
+				<defaultValue>false</defaultValue>
+				<tKey>HGS_ExtraSetting_FreeAnimaTreeMeditation_WVC</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
 				<key>archonites_PsionicPowers_wvc</key>
 				<label>Better super powers</label>
 				<defaultValue>false</defaultValue>
