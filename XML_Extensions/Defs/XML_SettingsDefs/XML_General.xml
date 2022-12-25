@@ -165,7 +165,7 @@
 						</li>
 						<li Class="XmlExtensions.Setting.Checkbox">
 							<key>WVC_Buildings_UniversalConduit_IsUndergroudConduit</key>
-							<label>Undergroud</label>
+							<label>Underground</label>
 							<defaultValue>false</defaultValue>
 						</li>
 						<li Class="XmlExtensions.Setting.Checkbox">
