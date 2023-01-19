@@ -14,6 +14,7 @@
 		<WorkSpeedGlobal>1.5</WorkSpeedGlobal>
 		<Flammability>0</Flammability>
 		<BandwidthCost>3</BandwidthCost>
+		<FoodPoisonChance>0</FoodPoisonChance>
 	  </statBases>
 	  <race>
 		<mechFixedSkillLevel>18</mechFixedSkillLevel>
