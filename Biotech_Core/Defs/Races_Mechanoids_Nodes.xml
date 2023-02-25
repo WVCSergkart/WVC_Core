@@ -289,7 +289,7 @@
   
 	<PawnKindDef ParentName="NonCombatLightMechanoidKind">
 	  <defName>WVC_Mech_Fion</defName>
-	  <label>nautil</label>
+	  <label>fion</label>
 	  <race>WVC_Mech_Fion</race>
 	  <controlGroupPortraitZoom>1.0</controlGroupPortraitZoom>
 	  <allowInMechClusters>false</allowInMechClusters>
