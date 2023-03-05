@@ -149,6 +149,7 @@
 	  <ateEvent>AteNutrientPaste</ateEvent>
 	  <ingestEffect>EatVegetarian</ingestEffect>
 	  <ingestSound>Meal_Eat</ingestSound>
+	  <babiesCanIngest>true</babiesCanIngest>
 	  <!-- <outcomeDoers> -->
 		<!-- <li Class="IngestionOutcomeDoer_GiveHediff"> -->
 		  <!-- <hediffDef>WVC_MechanitesEaten_Rest</hediffDef> -->
