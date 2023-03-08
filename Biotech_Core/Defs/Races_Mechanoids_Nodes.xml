@@ -1,6 +1,225 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+
+  <BodyDef>
+	<defName>WVC_MechanoidFormer</defName>
+	<label>former</label>
+	<corePart>
+	  <def>MechanicalThorax</def>
+	  <height>Middle</height>
+	  <depth>Outside</depth>
+	  <parts>
+		<li>
+		  <def>MechanicalNeck</def>
+		  <customLabel>stabilizing base</customLabel>
+		  <coverage>0.10</coverage>
+		  <height>Top</height>
+		  <parts>
+			<li>
+			  <def>MechanicalHead</def>
+			  <customLabel>head frame</customLabel>
+			  <coverage>0.80</coverage>
+			  <groups>
+				<li>HeadAttackTool</li>
+			  </groups>
+			  <parts>
+				<li>
+				  <def>ArtificialBrain</def>
+				  <coverage>0.10</coverage>
+				  <depth>Inside</depth>
+				</li>
+				<li>
+				  <def>SightSensor</def>
+				  <customLabel>first sight sensor</customLabel>
+				  <coverage>0.13</coverage>
+				</li>
+				<li>
+				  <def>SightSensor</def>
+				  <customLabel>second sight sensor</customLabel>
+				  <coverage>0.13</coverage>
+				</li>
+				<li>
+				  <def>HearingSensor</def>
+				  <customLabel>first hearing sensor</customLabel>
+				  <coverage>0.10</coverage>
+				</li>
+				<li>
+				  <def>HearingSensor</def>
+				  <customLabel>second hearing sensor</customLabel>
+				  <coverage>0.10</coverage>
+				</li>
+				<li>
+				  <def>SmellSensor</def>
+				  <coverage>0.10</coverage>
+				</li>
+			  </parts>
+			</li>
+		  </parts>
+		</li>
+		<li>
+		  <def>MechanicalShoulder</def>
+		  <customLabel>first telekinetic manipulator</customLabel>
+		  <coverage>0.17</coverage>
+		  <groups>
+			<li>LeftHand</li>
+		  </groups>
+		  <parts>
+			<li>
+			  <def>MechanicalArm</def>
+			  <customLabel>first field specifier</customLabel>
+			  <coverage>0.85</coverage>
+			  <parts>
+				<li>
+				  <def>MechanicalHand</def>
+				  <customLabel>first node</customLabel>
+				  <coverage>0.2</coverage>
+				  <height>Bottom</height>
+				  <parts>
+					<li>
+					  <def>MechanicalFinger</def>
+					  <customLabel>first sub-node A</customLabel>
+					  <coverage>0.15</coverage>
+					  <groups>
+						<li>LeftHand</li>
+					  </groups>
+					</li>
+					<li>
+					  <def>MechanicalFinger</def>
+					  <customLabel>first sub-node B</customLabel>
+					  <coverage>0.15</coverage>
+					  <groups>
+						<li>LeftHand</li>
+					  </groups>
+					</li>
+					<li>
+					  <def>MechanicalFinger</def>
+					  <customLabel>first sub-node C</customLabel>
+					  <coverage>0.15</coverage>
+					  <groups>
+						<li>LeftHand</li>
+					  </groups>
+					</li>
+					<li>
+					  <def>MechanicalFinger</def>
+					  <customLabel>first sub-node D</customLabel>
+					  <coverage>0.15</coverage>
+					  <groups>
+						<li>LeftHand</li>
+					  </groups>
+					</li>
+				  </parts>
+				</li>
+			  </parts>
+			</li>
+		  </parts>
+		</li>
+		<li>
+		  <def>MechanicalShoulder</def>
+		  <customLabel>second telekinetic manipulator</customLabel>
+		  <coverage>0.17</coverage>
+		  <groups>
+			<li>LeftHand</li>
+		  </groups>
+		  <parts>
+			<li>
+			  <def>MechanicalArm</def>
+			  <customLabel>second field specifier</customLabel>
+			  <coverage>0.85</coverage>
+			  <parts>
+				<li>
+				  <def>MechanicalHand</def>
+				  <customLabel>second node</customLabel>
+				  <coverage>0.2</coverage>
+				  <height>Bottom</height>
+				  <parts>
+					<li>
+					  <def>MechanicalFinger</def>
+					  <customLabel>second sub-node A</customLabel>
+					  <coverage>0.15</coverage>
+					  <groups>
+						<li>LeftHand</li>
+					  </groups>
+					</li>
+					<li>
+					  <def>MechanicalFinger</def>
+					  <customLabel>second sub-node B</customLabel>
+					  <coverage>0.15</coverage>
+					  <groups>
+						<li>LeftHand</li>
+					  </groups>
+					</li>
+					<li>
+					  <def>MechanicalFinger</def>
+					  <customLabel>second sub-node C</customLabel>
+					  <coverage>0.15</coverage>
+					  <groups>
+						<li>LeftHand</li>
+					  </groups>
+					</li>
+					<li>
+					  <def>MechanicalFinger</def>
+					  <customLabel>second sub-node D</customLabel>
+					  <coverage>0.15</coverage>
+					  <groups>
+						<li>LeftHand</li>
+					  </groups>
+					</li>
+				  </parts>
+				</li>
+			  </parts>
+			</li>
+		  </parts>
+		</li>
+		<li>
+		  <def>MechanicalLeg</def>
+		  <customLabel>first gravity stabilizer</customLabel>
+		  <coverage>0.2</coverage>
+		  <height>Bottom</height>
+		  <parts>
+			<li>
+			  <def>MechanicalFoot</def>
+			  <customLabel>first gravity sub-node</customLabel>
+			  <coverage>0.2</coverage>
+			</li>
+		  </parts>
+		</li>
+		<li>
+		  <def>MechanicalLeg</def>
+		  <customLabel>second gravity stabilizer</customLabel>
+		  <coverage>0.2</coverage>
+		  <height>Bottom</height>
+		  <parts>
+			<li>
+			  <def>MechanicalFoot</def>
+			  <customLabel>second gravity sub-node</customLabel>
+			  <coverage>0.2</coverage>
+			</li>
+		  </parts>
+		</li>
+		<li>
+		  <def>Reactor</def>
+		  <customLabel>symmetrical reactor</customLabel>
+		  <coverage>0.06</coverage>
+		  <depth>Inside</depth>
+		</li>
+		<li>
+		  <def>FluidReprocessor</def>
+		  <customLabel>inertial converter</customLabel>
+		  <coverage>0.04</coverage>
+		  <depth>Inside</depth>
+		</li>
+		<li>
+		  <def>FluidReprocessor</def>
+		  <coverage>0.04</coverage>
+		  <depth>Inside</depth>
+		</li>
+	  </parts>
+	</corePart>
+  </BodyDef>
+
+	<!-- ======================================= -->
+
 	<ThingDef Name="WVC_NodeMechanoid" ParentName="BaseMechanoid" Abstract="True">
 	  <description>Lightweight auxiliary mechanoid with built-in gravity cushion.</description>
 	  <uiIconScale>1.2</uiIconScale>
@@ -31,7 +250,7 @@
 		  <!-- <li>PlantCutting</li> -->
 		  <!-- <li>Growing</li> -->
 		</mechEnabledWorkTypes>
-		<body>Mech_Light</body>
+		<body>WVC_MechanoidFormer</body>
 		<intelligence>ToolUser</intelligence>
 		<thinkTreeMain>Mechanoid</thinkTreeMain>
 		<baseBodySize>1.0</baseBodySize>
@@ -50,18 +269,18 @@
 	  </butcherProducts>
 	  <tools Inherit="False">
 		<li>
-			<label>veil blade</label>
+			<label>telekinetic blade</label>
 			<capacities>
 			  <li>Cut</li>
 			  <li>Stab</li>
 			</capacities>
 			<power>20</power>
 			<cooldownTime>2</cooldownTime>
-			<linkedBodyPartsGroup>WVC_VeilBlade</linkedBodyPartsGroup>
+			<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
 			<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 		</li>
 		<li>
-			<label>head</label>
+			<label>frame</label>
 			<capacities>
 			  <li>Blunt</li>
 			</capacities>
@@ -93,7 +312,7 @@
 	  </statBases>
 	  <race>
 		<baseBodySize>1.2</baseBodySize>
-		<body>WVC_Nodes_Former</body>
+		<!-- <body>WVC_Nodes_Former</body> -->
 		<mechEnabledWorkTypes>
 		  <!-- <li>Construction</li> -->
 		  <li>Crafting</li>
@@ -176,7 +395,7 @@
 		<mechEnabledWorkTypes>
 		  <li>Cleaning</li>
 		</mechEnabledWorkTypes>
-		<body>WVC_Nodes_RedFormer</body>
+		<!-- <body>WVC_Nodes_RedFormer</body> -->
 		<lifeStageAges>
 		  <li>
 			<def>MechanoidFullyFormed</def>
@@ -262,7 +481,7 @@
 		<MoveSpeed>4.9</MoveSpeed>
 	  </statBases>
 	  <race>
-		<body>WVC_Nodes_YellowFormer</body>
+		<!-- <body>WVC_Nodes_YellowFormer</body> -->
 		<mechEnabledWorkTypes>
 		  <li>Cooking</li>
 		  <li>PlantCutting</li>
