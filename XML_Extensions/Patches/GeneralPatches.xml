@@ -413,72 +413,166 @@
 					  </value>
 					</Operation>
 
-					<!-- = -->
+					<!-- =============================================== -->
 
 					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-					  <xpath>/Defs/RecipeDef[@ParentName="LightMechanoidRecipe" or @ParentName="WVC_MechaMachineRecipe"]</xpath> 
+					  <xpath>/Defs/ThingDef[defName="BandNode"]</xpath> 
 					  <safetyDepth>1</safetyDepth>
 					  <value>
-						<ingredients>
-						  <li>
-							<filter>
-							  <thingDefs>
-								<li>VFE_ComponentMechanoid</li>
-							  </thingDefs>
-							</filter>
-							<count>3</count>
-						  </li>
-						</ingredients>
+						<costList>
+						  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+						</costList>
 					  </value>
 					</Operation>
 					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-					  <xpath>/Defs/RecipeDef[@ParentName="MediumMechanoidRecipe" or @ParentName="WVC_MechaAnimalsRecipe" or defName="Tesseron"]</xpath> 
+					  <xpath>/Defs/ThingDef[@Name="SubcoreScannerBase" or defName="SubcoreEncoder"]</xpath> 
 					  <safetyDepth>1</safetyDepth>
 					  <value>
-						<ingredients>
-						  <li>
-							<filter>
-							  <thingDefs>
-								<li>VFE_ComponentMechanoid</li>
-							  </thingDefs>
-							</filter>
-							<count>5</count>
-						  </li>
-						</ingredients>
+						<costList>
+						  <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+						</costList>
 					  </value>
 					</Operation>
 					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-					  <xpath>/Defs/RecipeDef[@ParentName="HeavyMechanoidRecipe" or @ParentName="WVC_NodesMechanoidRecipe" or @ParentName="WVC_KLMechanoidRecipe" or defName="CentipedeBlaster"]</xpath> 
+					  <xpath>/Defs/ThingDef[@Name="MechGestatorBase"]</xpath> 
 					  <safetyDepth>1</safetyDepth>
 					  <value>
-						<ingredients>
-						  <li>
-							<filter>
-							  <thingDefs>
-								<li>VFE_ComponentMechanoid</li>
-							  </thingDefs>
-							</filter>
-							<count>7</count>
-						  </li>
-						</ingredients>
+						<costList>
+						  <VFE_ComponentMechanoid>3</VFE_ComponentMechanoid>
+						</costList>
+					  </value>
+					</Operation>
+
+					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+					  <xpath>/Defs/ThingDef[defName="SubcoreBasic"]</xpath> 
+					  <safetyDepth>1</safetyDepth>
+					  <value>
+						<costList>
+						  <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+						  <WVC_LivingMetall>20</WVC_LivingMetall>
+						</costList>
+					  </value>
+					</Operation>
+
+					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+					  <xpath>/Defs/ThingDef[defName="SubcoreSoftscanner"]</xpath> 
+					  <safetyDepth>2</safetyDepth>
+					  <value>
+						<building>
+						  <subcoreScannerFixedIngredients>
+							<li>
+							  <filter>
+								<thingDefs>
+								  <li>WVC_LivingMetall</li>
+								</thingDefs>
+							  </filter>
+							  <count>25</count>
+							</li>
+							<li>
+							  <filter>
+								<thingDefs>
+								  <li>VFE_ComponentMechanoid</li>
+								</thingDefs>
+							  </filter>
+							  <count>4</count>
+							</li>
+						  </subcoreScannerFixedIngredients>
+						</building>
 					  </value>
 					</Operation>
 					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-					  <xpath>/Defs/RecipeDef[@ParentName="SuperHeavyMechanoidRecipe"]</xpath> 
-					  <safetyDepth>1</safetyDepth>
+					  <xpath>/Defs/ThingDef[defName="SubcoreRipscanner"]</xpath> 
+					  <safetyDepth>2</safetyDepth>
 					  <value>
-						<ingredients>
-						  <li>
-							<filter>
-							  <thingDefs>
-								<li>VFE_ComponentMechanoid</li>
-							  </thingDefs>
-							</filter>
-							<count>12</count>
-						  </li>
-						</ingredients>
+						<building>
+						  <subcoreScannerFixedIngredients>
+							<li>
+							  <filter>
+								<thingDefs>
+								  <li>WVC_LivingMetall</li>
+								</thingDefs>
+							  </filter>
+							  <count>50</count>
+							</li>
+							<li>
+							  <filter>
+								<thingDefs>
+								  <li>VFE_ComponentMechanoid</li>
+								</thingDefs>
+							  </filter>
+							  <count>7</count>
+							</li>
+						  </subcoreScannerFixedIngredients>
+						</building>
 					  </value>
 					</Operation>
+
+					<!-- =============================================== -->
+
+					<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
+					  <!-- <xpath>/Defs/RecipeDef[@ParentName="LightMechanoidRecipe" or @ParentName="WVC_MechaMachineRecipe"]</xpath>  -->
+					  <!-- <safetyDepth>1</safetyDepth> -->
+					  <!-- <value> -->
+						<!-- <ingredients> -->
+						  <!-- <li> -->
+							<!-- <filter> -->
+							  <!-- <thingDefs> -->
+								<!-- <li>VFE_ComponentMechanoid</li> -->
+							  <!-- </thingDefs> -->
+							<!-- </filter> -->
+							<!-- <count>3</count> -->
+						  <!-- </li> -->
+						<!-- </ingredients> -->
+					  <!-- </value> -->
+					<!-- </Operation> -->
+					<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
+					  <!-- <xpath>/Defs/RecipeDef[@ParentName="MediumMechanoidRecipe" or @ParentName="WVC_MechaAnimalsRecipe" or defName="Tesseron"]</xpath>  -->
+					  <!-- <safetyDepth>1</safetyDepth> -->
+					  <!-- <value> -->
+						<!-- <ingredients> -->
+						  <!-- <li> -->
+							<!-- <filter> -->
+							  <!-- <thingDefs> -->
+								<!-- <li>VFE_ComponentMechanoid</li> -->
+							  <!-- </thingDefs> -->
+							<!-- </filter> -->
+							<!-- <count>5</count> -->
+						  <!-- </li> -->
+						<!-- </ingredients> -->
+					  <!-- </value> -->
+					<!-- </Operation> -->
+					<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
+					  <!-- <xpath>/Defs/RecipeDef[@ParentName="HeavyMechanoidRecipe" or @ParentName="WVC_NodesMechanoidRecipe" or @ParentName="WVC_KLMechanoidRecipe" or defName="CentipedeBlaster"]</xpath>  -->
+					  <!-- <safetyDepth>1</safetyDepth> -->
+					  <!-- <value> -->
+						<!-- <ingredients> -->
+						  <!-- <li> -->
+							<!-- <filter> -->
+							  <!-- <thingDefs> -->
+								<!-- <li>VFE_ComponentMechanoid</li> -->
+							  <!-- </thingDefs> -->
+							<!-- </filter> -->
+							<!-- <count>7</count> -->
+						  <!-- </li> -->
+						<!-- </ingredients> -->
+					  <!-- </value> -->
+					<!-- </Operation> -->
+					<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
+					  <!-- <xpath>/Defs/RecipeDef[@ParentName="SuperHeavyMechanoidRecipe"]</xpath>  -->
+					  <!-- <safetyDepth>1</safetyDepth> -->
+					  <!-- <value> -->
+						<!-- <ingredients> -->
+						  <!-- <li> -->
+							<!-- <filter> -->
+							  <!-- <thingDefs> -->
+								<!-- <li>VFE_ComponentMechanoid</li> -->
+							  <!-- </thingDefs> -->
+							<!-- </filter> -->
+							<!-- <count>12</count> -->
+						  <!-- </li> -->
+						<!-- </ingredients> -->
+					  <!-- </value> -->
+					<!-- </Operation> -->
 
 					<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
 					  <xpath>/Defs/ResearchProjectDef[@ParentName="MechtechBase" or @Name="MechtechBase"]</xpath> 
