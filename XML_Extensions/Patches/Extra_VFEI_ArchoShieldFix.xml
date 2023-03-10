@@ -28,9 +28,9 @@
 
 						<!-- </caseTrue> -->
 						<!-- <caseFalse> -->
-					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-					  <xpath>Defs/ThingDef[defName="VFEI_Apparel_ArchotechShieldBelt"]</xpath>
-					  <safetyDepth>1</safetyDepth>
+					<Operation Class="PatchOperationReplace">
+					  <xpath>Defs/ThingDef[defName="VFEI_Apparel_ArchotechShieldBelt"]/comps</xpath>
+					  <!-- <safetyDepth>1</safetyDepth> -->
 					  <value>
 						<comps>
 						  <!-- <li Class="CompProperties_Shield" /> -->
@@ -45,6 +45,7 @@
 						  <xpath>Defs/ThingDef[defName="VFEI_Apparel_ArchotechShieldBelt"]</xpath>
 						  <value>
 							<thingClass>Apparel</thingClass>
+							<useHitPoints>false</useHitPoints>
 						  </value>
 					</Operation>
 
