@@ -46,6 +46,8 @@
 						  <value>
 							<thingClass>Apparel</thingClass>
 							<useHitPoints>false</useHitPoints>
+							<Flammability>0</Flammability>
+							<DeteriorationRate>0</DeteriorationRate>
 						  </value>
 					</Operation>
 
