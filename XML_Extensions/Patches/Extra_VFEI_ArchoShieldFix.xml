@@ -46,8 +46,6 @@
 						  <value>
 							<thingClass>Apparel</thingClass>
 							<useHitPoints>false</useHitPoints>
-							<Flammability>0</Flammability>
-							<DeteriorationRate>0</DeteriorationRate>
 						  </value>
 					</Operation>
 
@@ -72,8 +70,10 @@
 					<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
 					  <xpath>/Defs/ThingDef[defName="VFEI_Apparel_ArchotechShieldBelt"]/statBases</xpath>
 					  <value>
-						<MarketValue>3270</MarketValue>
+						<MarketValue>4270</MarketValue>
 						<EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
+						<Flammability>0</Flammability>
+						<DeteriorationRate>0</DeteriorationRate>
 					  </value>
 					</Operation>
 
