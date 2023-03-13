@@ -76,7 +76,7 @@
 	  <li>ValkyriesTechs_I_WVC</li>
 	  <!-- <li>Machining</li> -->
 	</researchPrerequisites>
-	<designationCategory>Furniture</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
   </ThingDef>
 
 </Defs>

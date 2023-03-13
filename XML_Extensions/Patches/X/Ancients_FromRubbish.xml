@@ -81,7 +81,7 @@
 							
 							or defName="VFEA_Turret_AncientSecurityTurret" or defName="VFEA_Turret_AncientPointDefense"
 							
-							or defName="VFEA_ElectricMendingStation" or defName="VFEA_FueledMendingStation" or defName="VFEA_AncientHydroponicFarm" or defName="VFEA_AncientCookingStation" or defName="VFEA_AncientWorkshop"
+							or defName="VFEA_AncientHydroponicFarm" or defName="VFEA_AncientCookingStation" or defName="VFEA_AncientWorkshop"
 							
 							or defName="VFEA_AncientSolarGenerator" or defName="VFEA_AncientChemfuelPoweredGenerator" or defName="VFEA_AncientGeothermalPlant" or defName="VFEA_AncientBattery" or defName="VFEA_AncientBioBatteryTank"
 							
@@ -125,7 +125,7 @@
 						</value>
 					</Operation>
 					<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
-						<xpath>/Defs/ThingDef[defName="VFEA_ElectricMendingStation" or defName="VFEA_FueledMendingStation" or defName="VFEA_AncientHydroponicFarm" or defName="VFEA_AncientCookingStation" or defName="VFEA_AncientWorkshop"or defName="VFEA_AncientComputerDesk"]
+						<xpath>/Defs/ThingDef[defName="VFEA_AncientHydroponicFarm" or defName="VFEA_AncientCookingStation" or defName="VFEA_AncientWorkshop"or defName="VFEA_AncientComputerDesk"]
 						</xpath>
 						<value>
 							<designationCategory>Production</designationCategory>
@@ -172,7 +172,7 @@
 							
 							or defName="VFEA_Turret_AncientSecurityTurret" or defName="VFEA_Turret_AncientPointDefense"
 							
-							or defName="VFEA_ElectricMendingStation" or defName="VFEA_FueledMendingStation" or defName="VFEA_AncientHydroponicFarm" or defName="VFEA_AncientCookingStation" or defName="VFEA_AncientWorkshop"
+							or defName="VFEA_AncientHydroponicFarm" or defName="VFEA_AncientCookingStation" or defName="VFEA_AncientWorkshop"
 							
 							or defName="VFEA_AncientSolarGenerator" or defName="VFEA_AncientChemfuelPoweredGenerator" or defName="VFEA_AncientGeothermalPlant" or defName="VFEA_AncientBattery" or defName="VFEA_AncientBioBatteryTank"
 							
@@ -198,7 +198,7 @@
 							
 							or defName="VFEA_Turret_AncientSecurityTurret" or defName="VFEA_Turret_AncientPointDefense"
 							
-							or defName="VFEA_ElectricMendingStation" or defName="VFEA_FueledMendingStation" or defName="VFEA_AncientHydroponicFarm" or defName="VFEA_AncientCookingStation" or defName="VFEA_AncientWorkshop"
+							or defName="VFEA_AncientHydroponicFarm" or defName="VFEA_AncientCookingStation" or defName="VFEA_AncientWorkshop"
 							
 							or defName="VFEA_AncientSolarGenerator" or defName="VFEA_AncientChemfuelPoweredGenerator" or defName="VFEA_AncientGeothermalPlant" or defName="VFEA_AncientBattery" or defName="VFEA_AncientBioBatteryTank"
 							
@@ -218,7 +218,7 @@
 						</value>
 					</Operation>
 					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-						<xpath>/Defs/ThingDef[defName="VFEA_ElectricMendingStation" or defName="VFEA_FueledMendingStation" or defName="VFEA_AncientCookingStation" or defName="VFEA_AncientWorkshop"]
+						<xpath>/Defs/ThingDef[defName="VFEA_AncientCookingStation" or defName="VFEA_AncientWorkshop"]
 						</xpath>
 						<safetyDepth>1</safetyDepth>
 						<value>

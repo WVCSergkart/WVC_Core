@@ -104,7 +104,7 @@
 	<researchPrerequisites Inherit="False">
 		<li>ValkyriesTechs_MechaniteCrafterI_WVC</li>
 	</researchPrerequisites>
-	<designationCategory>Production</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<designatorDropdown>HGS_Workbenches_WVC</designatorDropdown>
 	<thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
 	<modExtensions>
@@ -188,7 +188,7 @@
 	  <WorkTableEfficiencyFactor>1.0</WorkTableEfficiencyFactor>
 	</statBases>
 	<size>(3,1)</size>
-	<designationCategory>Production</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<designatorDropdown>HGS_BionicWorkbenches_WVC</designatorDropdown>
 	<passability>PassThroughOnly</passability>
 	<pathCost>50</pathCost>

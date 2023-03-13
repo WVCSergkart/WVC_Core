@@ -75,7 +75,7 @@
 		<glowColor>(133,202,255,0)</glowColor>
 	  </li>
 	</comps>
-	<designationCategory>Temperature</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<researchPrerequisites>
 	  <li>WVC_ResearchNodes_Blue</li>
 	</researchPrerequisites>

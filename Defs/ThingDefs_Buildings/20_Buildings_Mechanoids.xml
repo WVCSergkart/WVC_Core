@@ -63,7 +63,7 @@
 		<li MayRequire="vanillaexpanded.vfepower">VFE_AdvancedPowerSources</li>
 		<li>ValkyriesTechs_II_WVC</li>
 	</researchPrerequisites>
-	<designationCategory>Power</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
   </ThingDef>
 
   <!-- ============================================================ -->
@@ -118,7 +118,7 @@
 	<researchPrerequisites Inherit="False">
 		<li>ValkyriesTechs_II_WVC</li>
 	</researchPrerequisites>
-	<designationCategory>Furniture</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
   </ThingDef>
 
   <!-- ============================================================ -->
@@ -209,7 +209,7 @@
 	<neverMultiSelect>true</neverMultiSelect>
 	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-	<designationCategory>Power</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<constructEffect>ConstructMetal</constructEffect>
 	<clearBuildingArea>false</clearBuildingArea>
 	<researchPrerequisites Inherit="False">
@@ -269,7 +269,7 @@
 	<neverMultiSelect>true</neverMultiSelect>
 	<!-- <terrainAffordanceNeeded>Light</terrainAffordanceNeeded> -->
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
-	<designationCategory>Security</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<staticSunShadowHeight>0.20</staticSunShadowHeight>
 	<researchPrerequisites Inherit="False">
 	  <!-- <li>ValkyriesTechs_TurretsI_WVC</li> -->

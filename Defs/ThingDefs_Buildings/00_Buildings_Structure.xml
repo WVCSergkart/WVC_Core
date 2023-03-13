@@ -9,8 +9,8 @@
 		<!-- <graphicData> -->
 		  <!-- <shaderType>CutoutComplex</shaderType> -->
 		<!-- </graphicData> -->
-		<!-- <designationCategory>CardboardStuff_WVC</designationCategory> -->
-		<designationCategory>Misc</designationCategory>
+		<designationCategory>WVC_UltraExpansion</designationCategory>
+		<!-- <designationCategory>WVC_UltraExpansion</designationCategory> -->
 		<scatterableOnMapGen>false</scatterableOnMapGen>
 		<thingCategories>
 		  <!-- <li>BuildingsSpecial</li> -->
@@ -127,7 +127,7 @@
 		  <Beauty>2</Beauty>
 		</statBases>
 		<thingCategories Inherit="False"/>
-		<designationCategory>Structure</designationCategory>
+		<designationCategory>WVC_UltraExpansion</designationCategory>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<!-- = -->
 		<techLevel>Archotech</techLevel>
@@ -563,7 +563,7 @@
 	<researchPrerequisites Inherit="False">
 	  <li>ValkyriesTechs_I_WVC</li>
 	</researchPrerequisites>
-	<designationCategory>Structure</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<designatorDropdown>HGS_Columns_WVC</designatorDropdown>
   </ThingDef>
 
@@ -622,7 +622,7 @@
 	<researchPrerequisites Inherit="False">
 	  <li>ValkyriesTechs_II_WVC</li>
 	</researchPrerequisites>
-	<designationCategory>Structure</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<designatorDropdown>HGS_Columns_WVC</designatorDropdown>
   </ThingDef>
 
@@ -681,7 +681,7 @@
 	<researchPrerequisites Inherit="False">
 	  <li>ValkyriesTechs_III_WVC</li>
 	</researchPrerequisites>
-	<designationCategory>Structure</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<designatorDropdown>HGS_Columns_WVC</designatorDropdown>
   </ThingDef>
 

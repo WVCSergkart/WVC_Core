@@ -123,7 +123,7 @@
 	<researchPrerequisites Inherit="False">
 		<li>ValkyriesTechs_ResourceConversionI_WVC</li>
 	</researchPrerequisites>
-	<designationCategory>Production</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<designatorDropdown>HGS_Workbenches_WVC</designatorDropdown>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
 	<thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
@@ -240,7 +240,7 @@
 	<researchPrerequisites Inherit="False">
 		<li>WVC_ResearchNodes_Blue</li>
 	</researchPrerequisites>
-	<designationCategory>Production</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<designatorDropdown>HGS_Workbenches_WVC</designatorDropdown>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
 	<modExtensions>

@@ -76,7 +76,7 @@
 	  <li>WVC_ResearchNodes_Red</li>
 	</researchPrerequisites>
 	<designatorDropdown>Mechanoids_MiniTurrets_WVC</designatorDropdown>
-	<designationCategory>Security</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<placeWorkers>
 	  <li>PlaceWorker_TurretTop</li>
 	  <li>PlaceWorker_ShowTurretRadius</li>

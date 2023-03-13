@@ -53,7 +53,7 @@
 	</graphicData>
 	<pathCost>5</pathCost>
 	<passability>PassThroughOnly</passability>
-	<designationCategory>Furniture</designationCategory>
+	<!-- <designationCategory>WVC_UltraExpansion</designationCategory> -->
 	<!-- <designatorDropdown>HGS_Storage_WVC</designatorDropdown> -->
 	<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
   </ThingDef>
@@ -316,7 +316,7 @@
 	<researchPrerequisites Inherit="False">
 	  <li>ValkyriesTechs_II_WVC</li>
 	</researchPrerequisites>
-	<designationCategory>Furniture</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<designatorDropdown>HGS_Storage_WVC</designatorDropdown>
 	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
   </ThingDef>

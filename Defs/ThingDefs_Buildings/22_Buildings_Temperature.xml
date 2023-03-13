@@ -93,7 +93,7 @@
 	  <li>ValkyriesTechs_II_WVC</li>
 	</researchPrerequisites>
 	<!-- <constructionSkillPrerequisite>12</constructionSkillPrerequisite> -->
-	<designationCategory>Temperature</designationCategory>
+	<!-- <designationCategory>Temperature</designationCategory> -->
   </ThingDef>
   
 </Defs>

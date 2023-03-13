@@ -92,7 +92,7 @@
 	<researchPrerequisites Inherit="False">
 		<li>ValkyriesTechs_ReplicatorI_WVC</li>
 	</researchPrerequisites>
-	<designationCategory>Production</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<!-- <designatorDropdown>HGS_Spawners_WVC</designatorDropdown> -->
   </ThingDef>
 
@@ -216,7 +216,7 @@
 	</comps>
 	<rotatable>false</rotatable>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
-	<!-- <designationCategory>Misc</designationCategory> -->
+	<!-- <designationCategory>WVC_UltraExpansion</designationCategory> -->
 	<placeWorkers>
 	  <!-- <li>Placeworker_OnlyUnderThickRoof</li> -->
 	  <!-- <li>PlaceWorker_OnSteamGeyser</li> -->
@@ -230,7 +230,7 @@
 		<li>WVC_MechanoidTech_IncubatorLF</li>
 	</researchPrerequisites>
 	<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
-	<designationCategory>Production</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<designatorDropdown>HGS_Spawners_WVC</designatorDropdown>
   </ThingDef>
   

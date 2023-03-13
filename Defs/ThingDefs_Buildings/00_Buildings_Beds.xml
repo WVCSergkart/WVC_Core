@@ -73,7 +73,7 @@
 	<uiIconScale>0.90</uiIconScale>
 	<designatorDropdown>HGS_Beds_WVC</designatorDropdown>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
-	<designationCategory>Furniture</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<thingCategories>
 	  <li>BuildingsFurniture</li>

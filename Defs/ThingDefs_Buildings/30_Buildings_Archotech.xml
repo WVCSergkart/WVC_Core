@@ -52,7 +52,7 @@
 	<selectable>true</selectable>
 	<neverMultiSelect>true</neverMultiSelect>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
-	<designationCategory>Security</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<staticSunShadowHeight>0.20</staticSunShadowHeight>
 	<researchPrerequisites Inherit="False">
 	  <li>ValkyriesTechs_III_WVC</li>

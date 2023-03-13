@@ -47,7 +47,7 @@
 	<uiIconOffset>(0, -0.05)</uiIconOffset>
 	<comps>
 	</comps>
-	<designationCategory>Furniture</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<thingCategories>
 	  <li>BuildingsFurniture</li>
@@ -100,7 +100,7 @@
 	<uiIconOffset>(0, -0.05)</uiIconOffset>
 	<comps>
 	</comps>
-	<designationCategory>Furniture</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<thingCategories>
 	  <li>BuildingsFurniture</li>
@@ -154,7 +154,7 @@
 	<uiIconOffset>(0, -0.05)</uiIconOffset>
 	<comps>
 	</comps>
-	<designationCategory>Furniture</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<thingCategories>
 	  <li>BuildingsFurniture</li>
@@ -225,7 +225,7 @@
 	<placeWorkers>
 	  <li>PlaceWorker_RitualFocus</li>
 	</placeWorkers>
-	<designationCategory>Furniture</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<thingCategories>
 	  <li>BuildingsFurniture</li>
@@ -290,7 +290,7 @@
 	<placeWorkers>
 	  <li>PlaceWorker_RitualFocus</li>
 	</placeWorkers>
-	<designationCategory>Furniture</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<thingCategories>
 	  <li>BuildingsFurniture</li>
@@ -356,7 +356,7 @@
 	<placeWorkers>
 	  <li>PlaceWorker_RitualFocus</li>
 	</placeWorkers>
-	<designationCategory>Furniture</designationCategory>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<thingCategories>
 	  <li>BuildingsFurniture</li>

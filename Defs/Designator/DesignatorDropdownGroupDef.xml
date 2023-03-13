@@ -55,17 +55,21 @@
 	<!-- <defName>DefaultCraftingSpots_WVC</defName> -->
   <!-- </DesignatorDropdownGroupDef> -->
   
-  <!-- <DesignationCategoryDef> -->
-	<!-- <defName>CardboardStuff_WVC</defName> -->
-	<!-- <label>Ancients</label> -->
-	<!-- <order>1</order> -->
-	<!-- <showPowerGrid>true</showPowerGrid> -->
-	<!-- <specialDesignatorClasses> -->
-	  <!-- <li>Designator_Cancel</li> -->
-	  <!-- <li>Designator_Deconstruct</li> -->
-	  <!-- <li>Designator_RemoveFloor</li> -->
-	  <!-- <li>Designator_RemoveBridge</li> -->
-	<!-- </specialDesignatorClasses> -->
-  <!-- </DesignationCategoryDef> -->
+  <DesignationCategoryDef>
+	<defName>WVC_UltraExpansion</defName>
+	<label>WVC - Ultra</label>
+	<order>1</order>
+	<showPowerGrid>true</showPowerGrid>
+	<specialDesignatorClasses>
+	  <li>Designator_Cancel</li>
+	  <li>Designator_Deconstruct</li>
+	  <li>Designator_RemoveFloor</li>
+	  <li>Designator_RemoveBridge</li>
+	</specialDesignatorClasses>
+	<researchPrerequisites>
+	  <li>Electricity</li>
+	  <li>ValkyriesTechs_I_WVC</li>
+	</researchPrerequisites>
+  </DesignationCategoryDef>
 
 </Defs>
