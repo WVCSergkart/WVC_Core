@@ -18,6 +18,39 @@
 	<canOverlapZones>false</canOverlapZones>
 	<building>
 	  <maxItemsInCell>5</maxItemsInCell>
+	  <fixedStorageSettings Inherit="False">
+		<filter>
+		  <disallowNotEverStorable>true</disallowNotEverStorable>
+		  <categories>
+			<li>Root</li>
+		  </categories>
+		  <disallowedCategories>
+			<!-- <li>Chunks</li> -->
+			<li>Plants</li>
+			<li>Buildings</li>
+		  </disallowedCategories>
+		  <disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
+			<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+		  </disallowedThingDefs>
+		  <!-- <specialFiltersToDisallow> -->
+			<!-- <li>AllowLargeCorpses</li> -->
+		  <!-- </specialFiltersToDisallow> -->
+		</filter>
+	  </fixedStorageSettings>
+	  <!-- <defaultStorageSettings Inherit="False"> -->
+		<!-- <priority>Preferred</priority> -->
+		<!-- <filter> -->
+		  <!-- <categories> -->
+			<!-- <li>Foods</li> -->
+			<!-- <li>Manufactured</li> -->
+			<!-- <li>ResourcesRaw</li> -->
+			<!-- <li>Items</li> -->
+			<!-- <li>Weapons</li> -->
+			<!-- <li>Apparel</li> -->
+			<!-- <li>BodyParts</li> -->
+		  <!-- </categories> -->
+		<!-- </filter> -->
+	  <!-- </defaultStorageSettings> -->
 	</building>
 	<surfaceType>Item</surfaceType>
 	<fillPercent>0</fillPercent>
@@ -243,16 +276,16 @@
 			<li>Root</li>
 		  </categories>
 		  <disallowedCategories>
-			<li>Chunks</li>
+			<!-- <li>Chunks</li> -->
 			<li>Plants</li>
 			<li>Buildings</li>
 		  </disallowedCategories>
 		  <disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
 			<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
 		  </disallowedThingDefs>
-		  <specialFiltersToDisallow>
+		  <!-- <specialFiltersToDisallow> -->
 			<!-- <li>AllowLargeCorpses</li> -->
-		  </specialFiltersToDisallow>
+		  <!-- </specialFiltersToDisallow> -->
 		</filter>
 	  </fixedStorageSettings>
 	  <defaultStorageSettings>

@@ -9,6 +9,7 @@
 			<li>BdoyPartType</li>
 			<!-- WVC_BodyPartAncientBase -->
 			<li>BodyPartParentName</li>
+			<!-- <li>BodyPartGenerator_CreateThingAndRecipe</li> -->
 		</parameters>
 		<apply>
 
@@ -47,55 +48,15 @@
 
 					<!--=====================================================================-->
 
-					<Operation Class="PatchOperationAdd">
-						<xpath>/Defs</xpath>
-						<value>
-
-						  <ThingDef ParentName="{BodyPartParentName}">
-							<defName>{defName_DEF}</defName>
-							<label>{label_DEF}</label>
-							<descriptionHyperlinks>
-								<RecipeDef>Install_{defName_DEF}</RecipeDef>
-							</descriptionHyperlinks>
-							<statBases>
-							</statBases>
-							<costList>
-							  <Plasteel>25</Plasteel>
-							  <ComponentSpacer>5</ComponentSpacer>
-							</costList>
-						  </ThingDef>
-
-						  <RecipeDef ParentName="WVC_SurgeryInstall_BodyPartBase">
-							<defName>Install_{defName_DEF}</defName>
-							<label>install {label_DEF}</label>
-							<description>Install an {label_DEF}.</description>
-							<descriptionHyperlinks>
-							  <ThingDef>{defName_DEF}</ThingDef>
-							  <HediffDef>{defName_DEF}</HediffDef>
-							</descriptionHyperlinks>
-							<jobString>Installing {label_DEF}.</jobString>
-							<ingredients>
-							  <li>
-								<filter>
-								  <thingDefs>
-									<li>{defName_DEF}</li>
-								  </thingDefs>
-								</filter>
-								<count>1</count>
-							  </li>
-							</ingredients>
-							<fixedIngredientFilter>
-							  <thingDefs>
-								<li>{defName_DEF}</li>
-							  </thingDefs>
-							</fixedIngredientFilter>
-							<appliedOnFixedBodyParts>
-							  <li>{Tag_DEF}</li>
-							</appliedOnFixedBodyParts>
-							<addsHediff>{defName_DEF}</addsHediff>
-						  </RecipeDef>
-
-						</value>
+					<Operation Class="XmlExtensions.ApplyPatch">
+						<!-- <patchName>{BodyPartGenerator_CreateThingAndRecipe}</patchName> -->
+						<patchName>WVC_BodyPartGenerator_CreateThingAndRecipe_Base</patchName>
+						<arguments>
+							<li>{defName_DEF}</li>
+							<li>{label_DEF}</li>
+							<li>{Tag_DEF}</li>
+							<li>{BodyPartParentName}</li>
+						</arguments>
 					</Operation>
 
 					<!--=====================================================================-->
@@ -126,7 +87,7 @@
 					<!--=====================================================================-->
 
 					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-						<xpath>/Defs/ThingDef[@Name="AnimalThingBase" or @Name="BaseMechanoid"]</xpath>
+						<xpath>/Defs/ThingDef[@Name="AnimalThingBase"]</xpath>
 						<safetyDepth>1</safetyDepth>
 						<value>
 							<recipes>
@@ -134,6 +95,16 @@
 							</recipes>
 						</value>
 					</Operation>
+
+					<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
+						<!-- <xpath>/Defs/ThingDef[@Name="BaseMechanoid"]</xpath> -->
+						<!-- <safetyDepth>1</safetyDepth> -->
+						<!-- <value> -->
+							<!-- <recipes> -->
+								<!-- <li>Install_{defName_DEF}</li> -->
+							<!-- </recipes> -->
+						<!-- </value> -->
+					<!-- </Operation> -->
 
 					<!--=====================================================================-->
 

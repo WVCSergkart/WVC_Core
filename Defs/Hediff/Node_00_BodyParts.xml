@@ -48,8 +48,9 @@
 	  <li>WVC_BodyPartsNodes_Base</li>
 	</thingCategories>
 	<graphicData>
-	  <texPath>WVC/Implants/ImplantMecha</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+	  <!-- <texPath>WVC/Implants/ImplantMecha</texPath> -->
+	  <texPath>WVC/Implants/ImplantStackMecha</texPath>
+	  <graphicClass>Graphic_StackCount</graphicClass>
 	  <drawSize>0.95</drawSize>
 	  <color>(79,80,81)</color>
 	</graphicData>
