@@ -7,6 +7,7 @@
 			<li>label_DEF</li>
 			<li>Tag_DEF</li>
 			<li>BodyPartParentName</li>
+			<li>ShouldAnesthetize</li>
 		</parameters>
 		<apply>
 
@@ -37,6 +38,10 @@
 					  <HediffDef>{defName_DEF}</HediffDef>
 					</descriptionHyperlinks>
 					<jobString>Installing {label_DEF}.</jobString>
+					<anesthetize>{ShouldAnesthetize}</anesthetize>
+					<surgeryIgnoreEnvironment>{ShouldAnesthetize}</surgeryIgnoreEnvironment>
+					<surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
+					<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
 					<ingredients>
 					  <li>
 						<filter>
