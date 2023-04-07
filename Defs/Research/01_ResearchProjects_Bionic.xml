@@ -108,7 +108,7 @@
 	<defName>WVC_BionicTech_ScarsHealing</defName>
 	<techLevel>Spacer</techLevel>
 	<label>scar treatment</label>
-	<description>Allows you to treat scars or mutations (on animals too) with glitter medicine.</description>
+	<description>Allows to treat scars (on animals too) with glitter medicine.</description>
 	<researchViewX>4.00</researchViewX>
 	<researchViewY>0.10</researchViewY>
 	<tags>
