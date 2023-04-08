@@ -79,7 +79,7 @@
 							<!-- </costList> -->
 						  <!-- </ThingDef> -->
 
-						  <RecipeDef ParentName="WVC_SurgeryInstall_BodyPartBase">
+						  <RecipeDef ParentName="SurgeryInstallImplantBase">
 							<defName>Install_{defName_DEF}</defName>
 							<label>install {label_DEF}</label>
 							<description>Install an {label_DEF}.</description>
