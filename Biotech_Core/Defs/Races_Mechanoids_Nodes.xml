@@ -308,7 +308,7 @@
 		<PsychicSensitivity>0.5</PsychicSensitivity>
 		<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
 		<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
-		<MoveSpeed>5.9</MoveSpeed>
+		<MoveSpeed>4.9</MoveSpeed>
 	  </statBases>
 	  <race>
 		<baseBodySize>1.2</baseBodySize>
@@ -343,7 +343,7 @@
 	  <defName>WVC_Mech_Hornad</defName>
 	  <label>hornad</label>
 	  <race>WVC_Mech_Hornad</race>
-	  <controlGroupPortraitZoom>1.0</controlGroupPortraitZoom>
+	  <controlGroupPortraitZoom>1.2</controlGroupPortraitZoom>
 	  <allowInMechClusters>false</allowInMechClusters>
 	  <lifeStages>
 		<li>
@@ -362,8 +362,8 @@
 		<li>
 		  <bodyGraphicData>
 			<texPath>WVC/Biotech_Mechanoids/Hornad</texPath>
-			<maskPath>WVC/Biotech_Mechanoids/Masks/Hornad_mask</maskPath>
-			<shaderType>CutoutWithOverlay</shaderType>
+			<!-- <maskPath>WVC/Biotech_Mechanoids/Masks/Hornad_mask</maskPath> -->
+			<!-- <shaderType>CutoutWithOverlay</shaderType> -->
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>2.5</drawSize>
 			<!-- <shadowData> -->
@@ -389,10 +389,11 @@
 		<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
 		<ArmorRating_Heat>2.0</ArmorRating_Heat>
 		<ShootingAccuracyPawn>3.0</ShootingAccuracyPawn>
-		<MoveSpeed>7.9</MoveSpeed>
+		<MoveSpeed>5.9</MoveSpeed>
 	  </statBases>
 	  <race>
 		<mechEnabledWorkTypes>
+		  <li>Hunting</li>
 		  <li>Cleaning</li>
 		</mechEnabledWorkTypes>
 		<!-- <body>WVC_Nodes_RedFormer</body> -->
@@ -429,7 +430,7 @@
 	  <defName>WVC_Mech_Nautil</defName>
 	  <label>nautil</label>
 	  <race>WVC_Mech_Nautil</race>
-	  <controlGroupPortraitZoom>1.0</controlGroupPortraitZoom>
+	  <controlGroupPortraitZoom>1.2</controlGroupPortraitZoom>
 	  <allowInMechClusters>false</allowInMechClusters>
 	  <lifeStages>
 		<li>
@@ -448,8 +449,8 @@
 		<li>
 		  <bodyGraphicData>
 			<texPath>WVC/Biotech_Mechanoids/Nautil</texPath>
-			<maskPath>WVC/Biotech_Mechanoids/Masks/Nautil_mask</maskPath>
-			<shaderType>CutoutWithOverlay</shaderType>
+			<!-- <maskPath>WVC/Biotech_Mechanoids/Masks/Nautil_mask</maskPath> -->
+			<!-- <shaderType>CutoutWithOverlay</shaderType> -->
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>2.0</drawSize>
 			<!-- <shadowData> -->
@@ -478,7 +479,7 @@
 		<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
 		<ArmorRating_Heat>2.0</ArmorRating_Heat>
 		<PsychicSensitivity>1.5</PsychicSensitivity>
-		<MoveSpeed>4.9</MoveSpeed>
+		<MoveSpeed>3.9</MoveSpeed>
 	  </statBases>
 	  <race>
 		<!-- <body>WVC_Nodes_YellowFormer</body> -->
@@ -510,7 +511,7 @@
 	  <defName>WVC_Mech_Fion</defName>
 	  <label>fion</label>
 	  <race>WVC_Mech_Fion</race>
-	  <controlGroupPortraitZoom>1.0</controlGroupPortraitZoom>
+	  <controlGroupPortraitZoom>1.2</controlGroupPortraitZoom>
 	  <allowInMechClusters>false</allowInMechClusters>
 	  <lifeStages>
 		<li>
@@ -529,8 +530,8 @@
 		<li>
 		  <bodyGraphicData>
 			<texPath>WVC/Biotech_Mechanoids/Fion</texPath>
-			<maskPath>WVC/Biotech_Mechanoids/Masks/Fion_mask</maskPath>
-			<shaderType>CutoutWithOverlay</shaderType>
+			<!-- <maskPath>WVC/Biotech_Mechanoids/Masks/Fion_mask</maskPath> -->
+			<!-- <shaderType>CutoutWithOverlay</shaderType> -->
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>2.0</drawSize>
 			<!-- <shadowData> -->
