@@ -10,6 +10,7 @@
 			<!-- WVC_BodyPartAncientBase -->
 			<li>BodyPartParentName</li>
 			<li>ShouldAnesthetize</li>
+			<li>SurgerySuccessChance</li>
 		</parameters>
 		<apply>
 
@@ -57,6 +58,7 @@
 							<li>{Tag_DEF}</li>
 							<li>{BodyPartParentName}</li>
 							<li>{ShouldAnesthetize}</li>
+							<li>{SurgerySuccessChance}</li>
 						</arguments>
 					</Operation>
 

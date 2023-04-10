@@ -8,6 +8,7 @@
 			<li>Tag_DEF</li>
 			<li>BodyPartParentName</li>
 			<li>ShouldAnesthetize</li>
+			<li>SurgerySuccessChance</li>
 		</parameters>
 		<apply>
 
@@ -39,8 +40,8 @@
 					</descriptionHyperlinks>
 					<jobString>Installing {label_DEF}.</jobString>
 					<anesthetize>{ShouldAnesthetize}</anesthetize>
-					<surgeryIgnoreEnvironment>{ShouldAnesthetize}</surgeryIgnoreEnvironment>
-					<surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
+					<!-- <surgeryIgnoreEnvironment>{ShouldAnesthetize}</surgeryIgnoreEnvironment> -->
+					<surgerySuccessChanceFactor>{SurgerySuccessChance}</surgerySuccessChanceFactor>
 					<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
 					<ingredients>
 					  <li>

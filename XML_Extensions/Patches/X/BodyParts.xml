@@ -23,6 +23,7 @@
 					<li>WVC_Hediff_BodyPart_Torture</li>
 					<li>WVC_BodyPartTortureBase</li>
 					<li>True</li>
+					<li>1</li>
 					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Base</li> -->
 					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Ultra</li> -->
 				</arguments>
@@ -55,6 +56,7 @@
 					<li>WVC_Hediff_BodyPart_AdvancedBionic</li>
 					<li>WVC_BodyPartAdvancedBionicBase</li>
 					<li>True</li>
+					<li>1</li>
 					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Base</li> -->
 					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Ultra</li> -->
 				</arguments>
@@ -85,6 +87,7 @@
 					<li>WVC_Hediff_BodyPart_Cybernetic</li>
 					<li>WVC_BodyPartCyberneticBase</li>
 					<li>True</li>
+					<li>1</li>
 					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Base</li> -->
 					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Ultra</li> -->
 				</arguments>
@@ -117,6 +120,7 @@
 					<li>WVC_Hediff_BodyPart_Ancient</li>
 					<li>WVC_BodyPartAncientBase</li>
 					<li>True</li>
+					<li>2</li>
 					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Ultra</li> -->
 				</arguments>
 			</Operation>
@@ -146,6 +150,7 @@
 					<li>WVC_Hediff_BodyPart_Mechanoid</li>
 					<li>WVC_BodyPartMechanoidBase</li>
 					<li>False</li>
+					<li>3</li>
 					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Ultra</li> -->
 				</arguments>
 			</Operation>
@@ -175,6 +180,7 @@
 					<li>WVC_Hediff_BodyPart_NodeBlue</li>
 					<li>WVC_BodyPartsNodes_Blue</li>
 					<li>False</li>
+					<li>5</li>
 					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Ultra</li> -->
 				</arguments>
 			</Operation>
@@ -184,6 +190,7 @@
 					<li>WVC_Hediff_BodyPart_NodeGreen</li>
 					<li>WVC_BodyPartsNodes_Green</li>
 					<li>False</li>
+					<li>5</li>
 					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Ultra</li> -->
 				</arguments>
 			</Operation>
@@ -193,6 +200,7 @@
 					<li>WVC_Hediff_BodyPart_NodeRed</li>
 					<li>WVC_BodyPartsNodes_Red</li>
 					<li>False</li>
+					<li>5</li>
 					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Ultra</li> -->
 				</arguments>
 			</Operation>
@@ -202,6 +210,7 @@
 					<li>WVC_Hediff_BodyPart_NodeViolet</li>
 					<li>WVC_BodyPartsNodes_Violet</li>
 					<li>False</li>
+					<li>5</li>
 					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Ultra</li> -->
 				</arguments>
 			</Operation>
@@ -211,6 +220,7 @@
 					<li>WVC_Hediff_BodyPart_NodeYellow</li>
 					<li>WVC_BodyPartsNodes_Yellow</li>
 					<li>False</li>
+					<li>5</li>
 					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Ultra</li> -->
 				</arguments>
 			</Operation>
@@ -220,6 +230,7 @@
 					<li>WVC_Hediff_BodyPart_Archotech</li>
 					<li>WVC_BodyPartsNodes_Archotech</li>
 					<li>False</li>
+					<li>10</li>
 					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Ultra</li> -->
 				</arguments>
 			</Operation>

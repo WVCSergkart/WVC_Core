@@ -343,7 +343,7 @@
 	  <defName>WVC_Mech_Hornad</defName>
 	  <label>hornad</label>
 	  <race>WVC_Mech_Hornad</race>
-	  <controlGroupPortraitZoom>0.8</controlGroupPortraitZoom>
+	  <controlGroupPortraitZoom>1.0</controlGroupPortraitZoom>
 	  <allowInMechClusters>false</allowInMechClusters>
 	  <lifeStages>
 		<li>
