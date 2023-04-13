@@ -132,7 +132,7 @@
 	<researchPrerequisites Inherit="False">
 	  <li>ValkyriesTechs_GaurlerI_WVC</li>
 	</researchPrerequisites>
-	<designationCategory>Ideology</designationCategory>
+	<!-- <designationCategory>Ideology</designationCategory> -->
 	<designatorDropdown>HGS_Gaurler_WVC</designatorDropdown>
   </ThingDef>
 
