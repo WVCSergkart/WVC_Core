@@ -43,13 +43,13 @@
 	<researchViewY>2.70</researchViewY>
 	<hiddenPrerequisites>
 	  <li>AdvancedFabrication</li>
-	  <!-- <li>AdvancedFabrication</li> -->
-	</hiddenPrerequisites>
-	<prerequisites>
 	  <li>Stonecutting</li>
 	  <li>ComplexFurniture</li>
 	  <li>SterileMaterials</li>
 	  <li>AirConditioning</li>
+	  <!-- <li>AdvancedFabrication</li> -->
+	</hiddenPrerequisites>
+	<prerequisites>
 	  <!-- <li>MicroelectronicsBasics</li> -->
 	</prerequisites>
   </ResearchProjectDef>
@@ -62,8 +62,8 @@
 	  <researchViewY>2.70</researchViewY>
 	<hiddenPrerequisites>
 	  <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_MechanoidStructures</li>
-	  <li>ShipReactor</li>
-	  <li>ShipComputerCore</li>
+	  <!-- <li>ShipReactor</li> -->
+	  <!-- <li>ShipComputerCore</li> -->
 	</hiddenPrerequisites>
 	<tags>
 	  <li>WVC_Assembled_ELF_Base</li>
@@ -235,17 +235,17 @@
 	<researchViewX>2.00</researchViewX>
 	<researchViewY>4.35</researchViewY>
 	<hiddenPrerequisites>
-		<li MayRequire="nemonian.my">MoyoChargedBolt</li>
-		<li MayRequire="aoba.redmoyo">RedMoyoWeaponT3</li>
-		<li MayRequire="rimeffect.n7">REN7_N7Weaponry</li>
+		<!-- <li MayRequire="nemonian.my">MoyoChargedBolt</li> -->
+		<!-- <li MayRequire="aoba.redmoyo">RedMoyoWeaponT3</li> -->
+		<!-- <li MayRequire="rimeffect.n7">REN7_N7Weaponry</li> -->
 		<!-- = -->
-		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleSpears</li>
-		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_NoblePolearms</li>
-		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleMaces</li>
-		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleHammers</li>
-		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleAxes</li>
-		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleCleavers</li>
-		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_MilitarySwords</li>
+		<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleSpears</li> -->
+		<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_NoblePolearms</li> -->
+		<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleMaces</li> -->
+		<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleHammers</li> -->
+		<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleAxes</li> -->
+		<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleCleavers</li> -->
+		<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_MilitarySwords</li> -->
 		<!-- = -->
 		<li>LongBlades</li>
 	</hiddenPrerequisites>
