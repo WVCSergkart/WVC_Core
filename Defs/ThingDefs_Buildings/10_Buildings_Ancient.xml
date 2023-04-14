@@ -74,6 +74,7 @@
 	</comps>
 	<researchPrerequisites Inherit="False">
 	  <li>ValkyriesTechs_I_WVC</li>
+	  <li>ComplexFurniture</li>
 	  <!-- <li>Machining</li> -->
 	</researchPrerequisites>
 	<designationCategory>WVC_UltraExpansion</designationCategory>

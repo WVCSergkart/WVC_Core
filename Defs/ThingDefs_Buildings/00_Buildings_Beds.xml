@@ -65,6 +65,7 @@
 	  <ChunkSlagSteel>2</ChunkSlagSteel>
 	</killedLeavings>
 	<researchPrerequisites Inherit="False">
+	  <li>ComplexFurniture</li>
 	</researchPrerequisites>
 	<fillPercent>0.3</fillPercent>
 	<pathCost>20</pathCost>

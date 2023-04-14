@@ -12,7 +12,7 @@
 		</statBases>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 		<researchPrerequisites>
-			<!-- <li>ValkyriesTechs_II_WVC</li> -->
+			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 	</ThingDef>
 

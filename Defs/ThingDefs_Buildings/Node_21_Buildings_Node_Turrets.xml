@@ -74,6 +74,8 @@
 	</building>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_ResearchNodes_Red</li>
+	  <li>HeavyTurrets</li>
+	  <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_AutomatedDefensiveMeasures</li>
 	</researchPrerequisites>
 	<designatorDropdown>Mechanoids_MiniTurrets_WVC</designatorDropdown>
 	<designationCategory>WVC_UltraExpansion</designationCategory>

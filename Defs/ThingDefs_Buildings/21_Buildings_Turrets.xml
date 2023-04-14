@@ -70,6 +70,8 @@
 	</building>
 	<researchPrerequisites Inherit="False">
 	  <li>ValkyriesTechs_TurretsI_WVC</li>
+	  <!-- <li>HeavyTurrets</li> -->
+	  <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_AutomatedDefensiveMeasures</li>
 	</researchPrerequisites>
 	<designatorDropdown>Mechanoids_MiniTurrets_WVC</designatorDropdown>
 	<designationCategory>WVC_UltraExpansion</designationCategory>

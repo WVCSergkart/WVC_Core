@@ -54,7 +54,7 @@
 	  <FilthMultiplier>0.0</FilthMultiplier>
 	  <MarketValue>1</MarketValue>
 	  <Cleanliness>2</Cleanliness>
-	  <CleaningTimeFactor>0.8</CleaningTimeFactor>
+	  <CleaningTimeFactor>0.5</CleaningTimeFactor>
 	</statBases>
 	<costList>
 	  <Plasteel>5</Plasteel>
@@ -68,7 +68,7 @@
 	<designationCategory>Floors</designationCategory>
 	<designatorDropdown>HGS_Floors_WVC</designatorDropdown>
 	<researchPrerequisites Inherit="False">
-	  <!-- <li>SterileMaterials</li> -->
+	  <li>SterileMaterials</li>
 	  <!-- <li>Machining</li> -->
 	</researchPrerequisites>
   </TerrainDef>
@@ -115,7 +115,8 @@
   
   <TerrainDef Abstract="True" Name="BaseFloor_Mech_WVC" ParentName="Marker_BaseFloor_WVC">
 	<costList>
-	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	  <Plasteel>12</Plasteel>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
 	</costList>
 	<researchPrerequisites>
 		<li>ValkyriesTechs_II_WVC</li>
@@ -127,8 +128,9 @@
   
   <TerrainDef Abstract="True" Name="BaseFloor_Archo_WVC" ParentName="Marker_BaseFloor_WVC">
 	<costList>
+	  <Plasteel>15</Plasteel>
 	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
-	  <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech>
+	  <!-- <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech> -->
 	</costList>
 	<researchPrerequisites>
 		<li>ValkyriesTechs_III_WVC</li>
@@ -234,7 +236,8 @@
   
   <TerrainDef Abstract="True" Name="BaseBridges_Mech_WVC" ParentName="Marker_BaseBridge_WVC">
 	<costList>
-	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	  <Plasteel>15</Plasteel>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
 	</costList>
 	<researchPrerequisites>
 		<li>ValkyriesTechs_II_WVC</li>
@@ -246,8 +249,9 @@
   
   <TerrainDef Abstract="True" Name="BaseBridges_Archo_WVC" ParentName="Marker_BaseBridge_WVC">
 	<costList>
+	  <Plasteel>17</Plasteel>
 	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
-	  <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech>
+	  <!-- <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech> -->
 	</costList>
 	<researchPrerequisites>
 		<li>ValkyriesTechs_III_WVC</li>

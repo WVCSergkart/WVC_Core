@@ -43,10 +43,10 @@
 	<researchViewY>2.70</researchViewY>
 	<hiddenPrerequisites>
 	  <li>AdvancedFabrication</li>
-	  <li>Stonecutting</li>
-	  <li>ComplexFurniture</li>
-	  <li>SterileMaterials</li>
-	  <li>AirConditioning</li>
+	  <!-- <li>Stonecutting</li> -->
+	  <!-- <li>ComplexFurniture</li> -->
+	  <!-- <li>SterileMaterials</li> -->
+	  <!-- <li>AirConditioning</li> -->
 	  <!-- <li>AdvancedFabrication</li> -->
 	</hiddenPrerequisites>
 	<prerequisites>
@@ -170,8 +170,8 @@
 	  <li>ValkyriesTechs_II_WVC</li>
 	</prerequisites>
 	<hiddenPrerequisites>
-	  <li>HeavyTurrets</li>
-	  <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_AutomatedDefensiveMeasures</li>
+	  <!-- <li>HeavyTurrets</li> -->
+	  <!-- <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_AutomatedDefensiveMeasures</li> -->
 	</hiddenPrerequisites>
 	<tags>
 	  <li>WVC_Assembled_ELF_Base</li>

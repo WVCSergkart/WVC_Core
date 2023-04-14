@@ -6,7 +6,8 @@
   <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC" Name="WVC_NodeTechs_Base" Abstract="True">
 	<description>Studying a complex node system of mechanoid intelligence in order to recreate archotech technologies.</description>
 	<baseCost>2000</baseCost>
-	<techLevel>Ultra</techLevel>
+	<techLevel>Archotech</techLevel>
+	<!-- <techLevel>Ultra</techLevel> -->
 	<tags>
 	  <li>WVC_NodeStart_Base</li>
 	</tags>

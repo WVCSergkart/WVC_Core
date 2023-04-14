@@ -54,6 +54,9 @@
 	</thingCategories>
 	<designatorDropdown>HGS_Stools_WVC</designatorDropdown>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+	<researchPrerequisites>
+	  <li>ComplexFurniture</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="MechanoidBuildings_WVC">
@@ -107,6 +110,9 @@
 	</thingCategories>
 	<designatorDropdown>HGS_Stools_WVC</designatorDropdown>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+	<researchPrerequisites>
+	  <li>ComplexFurniture</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="ArchotechBuildings_WVC">
@@ -161,6 +167,9 @@
 	</thingCategories>
 	<designatorDropdown>HGS_Stools_WVC</designatorDropdown>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+	<researchPrerequisites>
+	  <li>ComplexFurniture</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <!-- ============================================================ -->
@@ -232,6 +241,9 @@
 	</thingCategories>
 	<designatorDropdown>HGS_Tables_WVC</designatorDropdown>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+	<researchPrerequisites>
+	  <li>ComplexFurniture</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="MechanoidBuildings_WVC">
@@ -297,6 +309,9 @@
 	</thingCategories>
 	<designatorDropdown>HGS_Tables_WVC</designatorDropdown>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+	<researchPrerequisites>
+	  <li>ComplexFurniture</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="ArchotechBuildings_WVC">
@@ -363,6 +378,9 @@
 	</thingCategories>
 	<designatorDropdown>HGS_Tables_WVC</designatorDropdown>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+	<researchPrerequisites>
+	  <li>ComplexFurniture</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <!-- ============================================================ -->

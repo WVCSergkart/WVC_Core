@@ -102,6 +102,7 @@
 	<!-- <designatorDropdown>DefaultCraftingSpots_WVC</designatorDropdown> -->
 	<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	<researchPrerequisites Inherit="False">
+		<li>AdvancedFabrication</li>
 		<li>ValkyriesTechs_MechaniteCrafterI_WVC</li>
 	</researchPrerequisites>
 	<designationCategory>WVC_UltraExpansion</designationCategory>
@@ -221,6 +222,7 @@
 	</comps>
 	<constructEffect>ConstructMetal</constructEffect>
 	<researchPrerequisites Inherit="False">
+	  <li>AdvancedFabrication</li>
 	  <li>WVC_RaceResearching_Valkyries</li>
 	</researchPrerequisites>
 	<placeWorkers>

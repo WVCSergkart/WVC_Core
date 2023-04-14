@@ -71,6 +71,7 @@
 	  <li>BuildingsFurniture</li>
 	</thingCategories>
 	<researchPrerequisites Inherit="False">
+	  <li>ComplexFurniture</li>
 	</researchPrerequisites>
 	<designatorDropdown>HGS_Stools_WVC</designatorDropdown>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
@@ -233,6 +234,7 @@
 	  <li>BuildingsFurniture</li>
 	</thingCategories>
 	<researchPrerequisites Inherit="False">
+	  <li>ComplexFurniture</li>
 	</researchPrerequisites>
 	<designatorDropdown>HGS_Tables_WVC</designatorDropdown>
 	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
