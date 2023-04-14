@@ -581,15 +581,15 @@
 					  </value>
 					</Operation>
 
-					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-					  <xpath>/Defs/ResearchProjectDef[defName="BasicMechtech"]</xpath> 
-					  <safetyDepth>1</safetyDepth>
-					  <value>
-						<hiddenPrerequisites>
-						  <li>ValkyriesTechs_II_WVC</li>
-						</hiddenPrerequisites>
-					  </value>
-					</Operation>
+					<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
+					  <!-- <xpath>/Defs/ResearchProjectDef[defName="BasicMechtech"]</xpath>  -->
+					  <!-- <safetyDepth>1</safetyDepth> -->
+					  <!-- <value> -->
+						<!-- <hiddenPrerequisites> -->
+						  <!-- <li>ValkyriesTechs_II_WVC</li> -->
+						<!-- </hiddenPrerequisites> -->
+					  <!-- </value> -->
+					<!-- </Operation> -->
 
 					<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
 					  <!-- <xpath>/Defs/ThingDef[defName="StandardMechtech"]</xpath>  -->

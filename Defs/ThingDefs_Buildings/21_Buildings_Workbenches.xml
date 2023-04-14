@@ -324,8 +324,9 @@
 	  <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor>
 	</statBases>
 	<costList>
+	  <ComponentSpacer>5</ComponentSpacer>
 	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
-	  <WVC_ResourceNodes_Blue>1</WVC_ResourceNodes_Blue>
+	  <WVC_ResourceNodes_Blue>7</WVC_ResourceNodes_Blue>
 	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_ResearchBodyParts_NodeBlue</li>
@@ -342,8 +343,9 @@
 	  <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor>
 	</statBases>
 	<costList>
+	  <ComponentSpacer>5</ComponentSpacer>
 	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
-	  <WVC_ResourceNodes_Green>1</WVC_ResourceNodes_Green>
+	  <WVC_ResourceNodes_Green>7</WVC_ResourceNodes_Green>
 	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_ResearchBodyParts_NodeGreen</li>
@@ -360,8 +362,9 @@
 	  <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor>
 	</statBases>
 	<costList>
+	  <ComponentSpacer>5</ComponentSpacer>
 	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
-	  <WVC_ResourceNodes_Red>1</WVC_ResourceNodes_Red>
+	  <WVC_ResourceNodes_Red>7</WVC_ResourceNodes_Red>
 	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_ResearchBodyParts_NodeRed</li>
@@ -378,8 +381,9 @@
 	  <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor>
 	</statBases>
 	<costList>
+	  <ComponentSpacer>5</ComponentSpacer>
 	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
-	  <WVC_ResourceNodes_Violet>1</WVC_ResourceNodes_Violet>
+	  <WVC_ResourceNodes_Violet>7</WVC_ResourceNodes_Violet>
 	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_ResearchBodyParts_NodeViolet</li>
@@ -396,8 +400,9 @@
 	  <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor>
 	</statBases>
 	<costList>
+	  <ComponentSpacer>5</ComponentSpacer>
 	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
-	  <WVC_ResourceNodes_Yellow>1</WVC_ResourceNodes_Yellow>
+	  <WVC_ResourceNodes_Yellow>7</WVC_ResourceNodes_Yellow>
 	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_ResearchBodyParts_NodeYellow</li>
@@ -416,8 +421,9 @@
 	  <WorkTableEfficiencyFactor>1.5</WorkTableEfficiencyFactor>
 	</statBases>
 	<costList>
-	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
-	  <WVC_ResourceNodes_Archotech>5</WVC_ResourceNodes_Archotech>
+	  <ComponentSpacer>5</ComponentSpacer>
+	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
+	  <WVC_ResourceNodes_Archotech>15</WVC_ResourceNodes_Archotech>
 	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_RaceResearching_Herrschers</li>

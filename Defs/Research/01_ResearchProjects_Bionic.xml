@@ -14,12 +14,12 @@
 	  <li>MedicineProduction</li>
 	  <li MayRequire="vat.epoeforked">AdvancedBionics</li>
 	  <li MayRequire="vat.epoeforked">SyntheticOrgans</li>
-	  <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li>
-	  <li MayRequire="ludeon.rimworld.royalty">ArtificialMetabolism</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li> -->
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">ArtificialMetabolism</li> -->
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">HealingFactors</li> -->
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">MolecularAnalysis</li> -->
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
-	  <li MayRequire="ludeon.rimworld.royalty">SpecializedLimbs</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">SpecializedLimbs</li> -->
 	</prerequisites>
   </ResearchProjectDef>
 
@@ -48,7 +48,7 @@
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li> -->
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">ArtificialMetabolism</li> -->
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">HealingFactors</li> -->
-	  <li MayRequire="ludeon.rimworld.royalty">MolecularAnalysis</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">MolecularAnalysis</li> -->
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">SpecializedLimbs</li> -->
 	</prerequisites>
@@ -72,7 +72,7 @@
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">BrainWiring</li> -->
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">CircadianInfluence</li> -->
 	  <!-- <li MayRequire="vanillaexpanded.vgeneticse">GR_GeneticMechahybridization</li> -->
-	  <li MayRequire="ludeon.rimworld.royalty">CompactWeaponry</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">CompactWeaponry</li> -->
 	</prerequisites>
   </ResearchProjectDef>
 
@@ -98,7 +98,7 @@
 	<prerequisites>
 	  <li>ValkyriesTechs_GaurlerI_WVC</li>
 	  <li>WVC_RaceResearching_Valkyries</li>
-	  <li MayRequire="ludeon.rimworld.royalty">VenomSynthesis</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">VenomSynthesis</li> -->
 	</prerequisites>
   </ResearchProjectDef>
 
