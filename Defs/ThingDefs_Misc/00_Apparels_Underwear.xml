@@ -169,7 +169,7 @@
 	  <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
 	  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-	  <scoreOffset>-10</scoreOffset>
+	  <!-- <scoreOffset>-10</scoreOffset> -->
 	</apparel>
 	<equippedStatOffsets>
 	  <SlaveSuppressionOffset>0.15</SlaveSuppressionOffset>
