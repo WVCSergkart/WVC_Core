@@ -71,8 +71,6 @@
 		<defName>WVC_Structure_Hybridism</defName>
 		<label>hybridism</label>
 		<description>There is no place in the world for a separation between organic and mechanical life. The true manifestation of great purpose is to be great in both.</description>
-		<!-- <exclusionTags> -->
-		<!-- </exclusionTags> -->
 		<category>Structure</category>
 		<iconPath>WVC/Icons/Faction</iconPath>
 		<impact>0</impact>
@@ -114,12 +112,6 @@
 		</descriptionMaker>
 		<worshipRoomLabel>base</worshipRoomLabel>
 		<symbolPacks>
-		  <!-- <li> -->
-			<!-- <ideoName>Archotechnics</ideoName> -->
-			<!-- <theme>archotechnology</theme> -->
-			<!-- <adjective>archotechnic</adjective> -->
-			<!-- <member>archotechnist</member> -->
-		  <!-- </li> -->
 		  <li>
 			<ideoName>Archism</ideoName>
 			<theme>archism</theme>
@@ -151,44 +143,6 @@
 			<member>foreverist</member>
 		  </li>
 		</symbolPacks>
-		<requireOne>
-			<li>
-				<li>WVC_Apostasy_Never</li>
-				<!-- <li>Apostasy_Abhorrent</li> -->
-				<!-- <li MayRequire="vanillaexpanded.vmemese">Apostasy_Despicable</li> -->
-			</li>
-			<li MayRequire="erdelf.humanoidalienraces">
-				<li>HAR_AlienRaces_Respected</li>
-			</li>
-			<li MayRequire="erdelf.humanoidalienraces">
-				<li>HAR_AlienDating_Preferred</li>
-			</li>
-			<li>
-				<li>Lovin_FreeApproved</li>
-			</li>
-			<li>
-				<li>Proselytizing_Frequently</li>
-				<li MayRequire="vanillaexpanded.vmemese">VME_Proselytizing_Forceful</li>
-			</li>
-			<li>
-				<li>SpouseCount_Female_Unlimited</li>
-			</li>
-			<li>
-				<li>SpouseCount_Male_Unlimited</li>
-			</li>
-			<li>
-				<li>Nudity_Female_NoRules</li>
-			</li>
-			<li>
-				<li>Nudity_Male_NoRules</li>
-			</li>
-			<li MayRequire="vanillaexpanded.vmemese">
-				<li>VME_TatteredApparel_DontCare</li>
-			</li>
-			<li MayRequire="vanillaexpanded.vmemese">
-				<li>VME_TaintedApparel_DontCare</li>
-			</li>
-		</requireOne>
 	</MemeDef>
 
 </Defs>
