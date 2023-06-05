@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef Name="WVC_Hediff_BodyPart_Mechanoid" ParentName="AddedBodyPartBase" Abstract="True">
-	<description>Body part created using sophisticated mechanoid technology.</description>
+	<description>Body part created using sophisticated mechtech technology.</description>
 	<scenarioCanAdd>false</scenarioCanAdd>
 	<defaultLabelColor>(255,224,200)</defaultLabelColor>
 	<priceOffset>1200</priceOffset>
@@ -17,8 +17,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidEye</defName>
-	<label>mechanoid eye</label>
-	<labelNoun>an mechanoid eye</labelNoun>
+	<label>mechtech eye</label>
+	<labelNoun>an mechtech eye</labelNoun>
 	<tags>
 		<li>Eye</li>
 	</tags>
@@ -26,8 +26,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidEar</defName>
-	<label>mechanoid ear</label>
-	<labelNoun>a mechanoid ear</labelNoun>
+	<label>mechtech ear</label>
+	<labelNoun>a mechtech ear</labelNoun>
 	<tags>
 		<li>Ear</li>
 	</tags>
@@ -35,8 +35,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidJaw</defName>
-	<label>mechanoid jaw</label>
-	<labelNoun>a mechanoid jaw</labelNoun>
+	<label>mechtech jaw</label>
+	<labelNoun>a mechtech jaw</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -65,8 +65,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidSilentJaw</defName>
-	<label>mechanoid silent jaw</label>
-	<labelNoun>a mechanoid silent jaw</labelNoun>
+	<label>mechtech silent jaw</label>
+	<labelNoun>a mechtech silent jaw</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -98,8 +98,8 @@
   
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidNose</defName>
-	<label>mechanoid nose</label>
-	<labelNoun>an mechanoid nose</labelNoun>
+	<label>mechtech nose</label>
+	<labelNoun>an mechtech nose</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -114,8 +114,8 @@
   
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidTongue</defName>
-	<label>mechanoid tongue</label>
-	<labelNoun>an mechanoid tongue</labelNoun>
+	<label>mechtech tongue</label>
+	<labelNoun>an mechtech tongue</labelNoun>
 	<tags>
 		<li>Tongue</li>
 	</tags>
@@ -125,8 +125,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidStomach</defName>
-	<label>mechanoid stomach</label>
-	<labelNoun>a mechanoid stomach</labelNoun>
+	<label>mechtech stomach</label>
+	<labelNoun>a mechtech stomach</labelNoun>
 	<stages>
 	  <li>
 		<hungerRateFactor>0.01</hungerRateFactor>
@@ -140,8 +140,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidSpine</defName>
-	<label>mechanoid spine</label>
-	<labelNoun>a mechanoid spine</labelNoun>
+	<label>mechtech spine</label>
+	<labelNoun>a mechtech spine</labelNoun>
 	<tags>
 		<li>Spine</li>
 	</tags>
@@ -149,8 +149,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidHeart</defName>
-	<label>mechanoid heart</label>
-	<labelNoun>a mechanoid heart</labelNoun>
+	<label>mechtech heart</label>
+	<labelNoun>a mechtech heart</labelNoun>
 	<stages>
 	  <li>
 		<totalBleedFactor>0.5</totalBleedFactor>
@@ -164,8 +164,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidKidney</defName>
-	<label>mechanoid kidney</label>
-	<labelNoun>a mechanoid kidney</labelNoun>
+	<label>mechtech kidney</label>
+	<labelNoun>a mechtech kidney</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -182,8 +182,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidLiver</defName>
-	<label>mechanoid liver</label>
-	<labelNoun>a mechanoid liver</labelNoun>
+	<label>mechtech liver</label>
+	<labelNoun>a mechtech liver</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -199,8 +199,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidLung</defName>
-	<label>mechanoid lung</label>
-	<labelNoun>a mechanoid lung</labelNoun>
+	<label>mechtech lung</label>
+	<labelNoun>a mechtech lung</labelNoun>
 	<tags>
 		<li>Lung</li>
 	</tags>
@@ -210,8 +210,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidArm</defName>
-	<label>mechanoid arm</label>
-	<labelNoun>an mechanoid arm</labelNoun>
+	<label>mechtech arm</label>
+	<labelNoun>an mechtech arm</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -235,8 +235,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidDrillArm</defName>
-	<label>mechanoid drill arm</label>
-	<labelNoun>an mechanoid drill arm</labelNoun>
+	<label>mechtech drill arm</label>
+	<labelNoun>an mechtech drill arm</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -272,8 +272,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidLeg</defName>
-	<label>mechanoid leg</label>
-	<labelNoun>an mechanoid leg</labelNoun>
+	<label>mechtech leg</label>
+	<labelNoun>an mechtech leg</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -297,8 +297,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Mechanoid">
 	<defName>WVC_MechanoidTail</defName>
-	<label>mechanoid tail</label>
-	<labelNoun>a mechanoid tail</labelNoun>
+	<label>mechtech tail</label>
+	<labelNoun>a mechtech tail</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>

@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef Name="WVC_Hediff_BodyPart_NodeRed" ParentName="AddedBodyPartBase" Abstract="True">
-	<description>Body part created using sophisticated red node technology.</description>
+	<description>Body part created using sophisticated nodetech-HJ technology.</description>
 	<scenarioCanAdd>false</scenarioCanAdd>
 	<!-- FF8585 -->
 	<defaultLabelColor>(255,133,133)</defaultLabelColor>
@@ -18,8 +18,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedEye</defName>
-	<label>red node eye</label>
-	<labelNoun>an red node eye</labelNoun>
+	<label>nodetech-HJ eye</label>
+	<labelNoun>an nodetech-HJ eye</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -36,8 +36,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedEar</defName>
-	<label>red node ear</label>
-	<labelNoun>a red node ear</labelNoun>
+	<label>nodetech-HJ ear</label>
+	<labelNoun>a nodetech-HJ ear</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -54,8 +54,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedJaw</defName>
-	<label>red node jaw</label>
-	<labelNoun>a red node jaw</labelNoun>
+	<label>nodetech-HJ jaw</label>
+	<labelNoun>a nodetech-HJ jaw</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -87,8 +87,8 @@
   
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedNose</defName>
-	<label>red node nose</label>
-	<labelNoun>an red node nose</labelNoun>
+	<label>nodetech-HJ nose</label>
+	<labelNoun>an nodetech-HJ nose</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -108,8 +108,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedStomach</defName>
-	<label>red node stomach</label>
-	<labelNoun>a red node stomach</labelNoun>
+	<label>nodetech-HJ stomach</label>
+	<labelNoun>a nodetech-HJ stomach</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -128,8 +128,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedSpine</defName>
-	<label>red node spine</label>
-	<labelNoun>a red node spine</labelNoun>
+	<label>nodetech-HJ spine</label>
+	<labelNoun>a nodetech-HJ spine</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -146,8 +146,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedHeart</defName>
-	<label>red node heart</label>
-	<labelNoun>a red node heart</labelNoun>
+	<label>nodetech-HJ heart</label>
+	<labelNoun>a nodetech-HJ heart</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -166,8 +166,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedKidney</defName>
-	<label>red node kidney</label>
-	<labelNoun>a red node kidney</labelNoun>
+	<label>nodetech-HJ kidney</label>
+	<labelNoun>a nodetech-HJ kidney</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -187,8 +187,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedLiver</defName>
-	<label>red node liver</label>
-	<labelNoun>a red node liver</labelNoun>
+	<label>nodetech-HJ liver</label>
+	<labelNoun>a nodetech-HJ liver</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -207,8 +207,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedLung</defName>
-	<label>red node lung</label>
-	<labelNoun>a red node lung</labelNoun>
+	<label>nodetech-HJ lung</label>
+	<labelNoun>a nodetech-HJ lung</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -227,8 +227,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedArm</defName>
-	<label>red node arm</label>
-	<labelNoun>an red node arm</labelNoun>
+	<label>nodetech-HJ arm</label>
+	<labelNoun>an nodetech-HJ arm</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -261,8 +261,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedLeg</defName>
-	<label>red node leg</label>
-	<labelNoun>an red node leg</labelNoun>
+	<label>nodetech-HJ leg</label>
+	<labelNoun>an nodetech-HJ leg</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -295,8 +295,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedTail</defName>
-	<label>red node tail</label>
-	<labelNoun>a red node tail</labelNoun>
+	<label>nodetech-HJ tail</label>
+	<labelNoun>a nodetech-HJ tail</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>

@@ -3,7 +3,7 @@
 
   <ThingCategoryDef>
 	<defName>WVC_BodyPartsTorture</defName>
-	<label>torture</label>
+	<label>torture bionic</label>
 	<parent>BodyParts</parent>
   </ThingCategoryDef>
 
@@ -15,19 +15,19 @@
 
   <ThingCategoryDef>
 	<defName>WVC_BodyPartsCybernetic</defName>
-	<label>сybernetic</label>
+	<label>сybertech bionic</label>
 	<parent>BodyParts</parent>
   </ThingCategoryDef>
 
   <ThingCategoryDef>
 	<defName>WVC_BodyPartsAncient</defName>
-	<label>ancient</label>
+	<label>ultratech bionic</label>
 	<parent>BodyParts</parent>
   </ThingCategoryDef>
 
   <ThingCategoryDef>
 	<defName>WVC_BodyPartsMechanoid</defName>
-	<label>mechanoid</label>
+	<label>mechtech bionic</label>
 	<parent>BodyParts</parent>
   </ThingCategoryDef>
 

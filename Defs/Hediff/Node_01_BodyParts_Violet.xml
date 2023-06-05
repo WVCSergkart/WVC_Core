@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef Name="WVC_Hediff_BodyPart_NodeViolet" ParentName="AddedBodyPartBase" Abstract="True">
-	<description>Body part created using sophisticated violet node technology.</description>
+	<description>Body part created using sophisticated nodetech-CV technology.</description>
 	<scenarioCanAdd>false</scenarioCanAdd>
 	<!-- 8e85ff -->
 	<defaultLabelColor>(142,133,255)</defaultLabelColor>
@@ -18,8 +18,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
 	<defName>WVC_NodeVioletEye</defName>
-	<label>violet node eye</label>
-	<labelNoun>an violet node eye</labelNoun>
+	<label>nodetech-CV eye</label>
+	<labelNoun>an nodetech-CV eye</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -34,8 +34,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
 	<defName>WVC_NodeVioletEar</defName>
-	<label>violet node ear</label>
-	<labelNoun>a violet node ear</labelNoun>
+	<label>nodetech-CV ear</label>
+	<labelNoun>a nodetech-CV ear</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -50,8 +50,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
 	<defName>WVC_NodeVioletJaw</defName>
-	<label>violet node jaw</label>
-	<labelNoun>a violet node jaw</labelNoun>
+	<label>nodetech-CV jaw</label>
+	<labelNoun>a nodetech-CV jaw</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -81,8 +81,8 @@
   
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
 	<defName>WVC_NodeVioletNose</defName>
-	<label>violet node nose</label>
-	<labelNoun>an violet node nose</labelNoun>
+	<label>nodetech-CV nose</label>
+	<labelNoun>an nodetech-CV nose</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -100,8 +100,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
 	<defName>WVC_NodeVioletStomach</defName>
-	<label>violet node stomach</label>
-	<labelNoun>a violet node stomach</labelNoun>
+	<label>nodetech-CV stomach</label>
+	<labelNoun>a nodetech-CV stomach</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -118,8 +118,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
 	<defName>WVC_NodeVioletSpine</defName>
-	<label>violet node spine</label>
-	<labelNoun>a violet node spine</labelNoun>
+	<label>nodetech-CV spine</label>
+	<labelNoun>a nodetech-CV spine</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -134,8 +134,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
 	<defName>WVC_NodeVioletHeart</defName>
-	<label>violet node heart</label>
-	<labelNoun>a violet node heart</labelNoun>
+	<label>nodetech-CV heart</label>
+	<labelNoun>a nodetech-CV heart</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -152,8 +152,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
 	<defName>WVC_NodeVioletKidney</defName>
-	<label>violet node kidney</label>
-	<labelNoun>a violet node kidney</labelNoun>
+	<label>nodetech-CV kidney</label>
+	<labelNoun>a nodetech-CV kidney</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -171,8 +171,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
 	<defName>WVC_NodeVioletLiver</defName>
-	<label>violet node liver</label>
-	<labelNoun>a violet node liver</labelNoun>
+	<label>nodetech-CV liver</label>
+	<labelNoun>a nodetech-CV liver</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -189,8 +189,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
 	<defName>WVC_NodeVioletLung</defName>
-	<label>violet node lung</label>
-	<labelNoun>a violet node lung</labelNoun>
+	<label>nodetech-CV lung</label>
+	<labelNoun>a nodetech-CV lung</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -207,8 +207,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
 	<defName>WVC_NodeVioletArm</defName>
-	<label>violet node arm</label>
-	<labelNoun>an violet node arm</labelNoun>
+	<label>nodetech-CV arm</label>
+	<labelNoun>an nodetech-CV arm</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -239,8 +239,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
 	<defName>WVC_NodeVioletLeg</defName>
-	<label>violet node leg</label>
-	<labelNoun>an violet node leg</labelNoun>
+	<label>nodetech-CV leg</label>
+	<labelNoun>an nodetech-CV leg</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -271,8 +271,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
 	<defName>WVC_NodeVioletTail</defName>
-	<label>violet node tail</label>
-	<labelNoun>a violet node tail</labelNoun>
+	<label>nodetech-CV tail</label>
+	<labelNoun>a nodetech-CV tail</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>

@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef Name="WVC_Hediff_BodyPart_Archotech" ParentName="AddedBodyPartBase" Abstract="True">
-	<description>Body part created using sophisticated archotech technology.</description>
+	<description>Body part created using sophisticated nodetech technology.</description>
 	<scenarioCanAdd>false</scenarioCanAdd>
 	<defaultLabelColor>(249,255,123)</defaultLabelColor>
 	<priceOffset>2000</priceOffset>
@@ -17,8 +17,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechEye</defName>
-	<label>archotech eye</label>
-	<labelNoun>an archotech eye</labelNoun>
+	<label>nodetech eye</label>
+	<labelNoun>an nodetech eye</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -38,8 +38,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechEar</defName>
-	<label>archotech ear</label>
-	<labelNoun>a archotech ear</labelNoun>
+	<label>nodetech ear</label>
+	<labelNoun>a nodetech ear</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -59,8 +59,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechJaw</defName>
-	<label>archotech jaw</label>
-	<labelNoun>a archotech jaw</labelNoun>
+	<label>nodetech jaw</label>
+	<labelNoun>a nodetech jaw</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -95,8 +95,8 @@
   
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechNose</defName>
-	<label>archotech nose</label>
-	<labelNoun>an archotech nose</labelNoun>
+	<label>nodetech nose</label>
+	<labelNoun>an nodetech nose</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -119,8 +119,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechStomach</defName>
-	<label>archotech stomach</label>
-	<labelNoun>a archotech stomach</labelNoun>
+	<label>nodetech stomach</label>
+	<labelNoun>a nodetech stomach</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -142,8 +142,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechSpine</defName>
-	<label>archotech spine</label>
-	<labelNoun>a archotech spine</labelNoun>
+	<label>nodetech spine</label>
+	<labelNoun>a nodetech spine</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -163,8 +163,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechHeart</defName>
-	<label>archotech heart</label>
-	<labelNoun>a archotech heart</labelNoun>
+	<label>nodetech heart</label>
+	<labelNoun>a nodetech heart</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -186,8 +186,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechKidney</defName>
-	<label>archotech kidney</label>
-	<labelNoun>a archotech kidney</labelNoun>
+	<label>nodetech kidney</label>
+	<labelNoun>a nodetech kidney</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -210,8 +210,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechLiver</defName>
-	<label>archotech liver</label>
-	<labelNoun>a archotech liver</labelNoun>
+	<label>nodetech liver</label>
+	<labelNoun>a nodetech liver</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -233,8 +233,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechLung</defName>
-	<label>archotech lung</label>
-	<labelNoun>a archotech lung</labelNoun>
+	<label>nodetech lung</label>
+	<labelNoun>a nodetech lung</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -256,8 +256,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechArm</defName>
-	<label>archotech arm</label>
-	<labelNoun>an archotech arm</labelNoun>
+	<label>nodetech arm</label>
+	<labelNoun>an nodetech arm</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -293,8 +293,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechLeg</defName>
-	<label>archotech leg</label>
-	<labelNoun>an archotech leg</labelNoun>
+	<label>nodetech leg</label>
+	<labelNoun>an nodetech leg</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -330,8 +330,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechTail</defName>
-	<label>archotech tail</label>
-	<labelNoun>a archotech tail</labelNoun>
+	<label>nodetech tail</label>
+	<labelNoun>a nodetech tail</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>

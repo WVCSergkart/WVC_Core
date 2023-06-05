@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef Name="WVC_Hediff_BodyPart_NodeBlue" ParentName="AddedBodyPartBase" Abstract="True">
-	<description>Body part created using sophisticated blue node technology.</description>
+	<description>Body part created using sophisticated nodetech-SX technology.</description>
 	<scenarioCanAdd>false</scenarioCanAdd>
 	<!-- 85caff -->
 	<defaultLabelColor>(133,202,255)</defaultLabelColor>
@@ -18,8 +18,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
 	<defName>WVC_NodeBlueEye</defName>
-	<label>blue node eye</label>
-	<labelNoun>an blue node eye</labelNoun>
+	<label>nodetech-SX eye</label>
+	<labelNoun>an nodetech-SX eye</labelNoun>
 	<tags>
 		<li>Eye</li>
 	</tags>
@@ -27,8 +27,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
 	<defName>WVC_NodeBlueEar</defName>
-	<label>blue node ear</label>
-	<labelNoun>a blue node ear</labelNoun>
+	<label>nodetech-SX ear</label>
+	<labelNoun>a nodetech-SX ear</labelNoun>
 	<tags>
 		<li>Ear</li>
 	</tags>
@@ -36,8 +36,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
 	<defName>WVC_NodeBlueJaw</defName>
-	<label>blue node jaw</label>
-	<labelNoun>a blue node jaw</labelNoun>
+	<label>nodetech-SX jaw</label>
+	<labelNoun>a nodetech-SX jaw</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -66,8 +66,8 @@
   
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
 	<defName>WVC_NodeBlueNose</defName>
-	<label>blue node nose</label>
-	<labelNoun>an blue node nose</labelNoun>
+	<label>nodetech-SX nose</label>
+	<labelNoun>an nodetech-SX nose</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -84,8 +84,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
 	<defName>WVC_NodeBlueStomach</defName>
-	<label>blue node stomach</label>
-	<labelNoun>a blue node stomach</labelNoun>
+	<label>nodetech-SX stomach</label>
+	<labelNoun>a nodetech-SX stomach</labelNoun>
 	<stages>
 	  <li>
 		<hungerRateFactor>0.01</hungerRateFactor>
@@ -99,8 +99,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
 	<defName>WVC_NodeBlueSpine</defName>
-	<label>blue node spine</label>
-	<labelNoun>a blue node spine</labelNoun>
+	<label>nodetech-SX spine</label>
+	<labelNoun>a nodetech-SX spine</labelNoun>
 	<tags>
 		<li>Spine</li>
 	</tags>
@@ -108,8 +108,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
 	<defName>WVC_NodeBlueHeart</defName>
-	<label>blue node heart</label>
-	<labelNoun>a blue node heart</labelNoun>
+	<label>nodetech-SX heart</label>
+	<labelNoun>a nodetech-SX heart</labelNoun>
 	<stages>
 	  <li>
 		<totalBleedFactor>0.5</totalBleedFactor>
@@ -123,8 +123,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
 	<defName>WVC_NodeBlueKidney</defName>
-	<label>blue node kidney</label>
-	<labelNoun>a blue node kidney</labelNoun>
+	<label>nodetech-SX kidney</label>
+	<labelNoun>a nodetech-SX kidney</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -141,8 +141,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
 	<defName>WVC_NodeBlueLiver</defName>
-	<label>blue node liver</label>
-	<labelNoun>a blue node liver</labelNoun>
+	<label>nodetech-SX liver</label>
+	<labelNoun>a nodetech-SX liver</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -158,8 +158,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
 	<defName>WVC_NodeBlueLung</defName>
-	<label>blue node lung</label>
-	<labelNoun>a blue node lung</labelNoun>
+	<label>nodetech-SX lung</label>
+	<labelNoun>a nodetech-SX lung</labelNoun>
 	<tags>
 		<li>Lung</li>
 	</tags>
@@ -169,8 +169,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
 	<defName>WVC_NodeBlueArm</defName>
-	<label>blue node arm</label>
-	<labelNoun>an blue node arm</labelNoun>
+	<label>nodetech-SX arm</label>
+	<labelNoun>an nodetech-SX arm</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -194,8 +194,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
 	<defName>WVC_NodeBlueLeg</defName>
-	<label>blue node leg</label>
-	<labelNoun>an blue node leg</labelNoun>
+	<label>nodetech-SX leg</label>
+	<labelNoun>an nodetech-SX leg</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -219,8 +219,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
 	<defName>WVC_NodeBlueTail</defName>
-	<label>blue node tail</label>
-	<labelNoun>a blue node tail</labelNoun>
+	<label>nodetech-SX tail</label>
+	<labelNoun>a nodetech-SX tail</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>

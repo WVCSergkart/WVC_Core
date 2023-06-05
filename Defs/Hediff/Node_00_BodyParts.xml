@@ -3,7 +3,7 @@
 
   <ThingCategoryDef WVC_Tag="NodeBodyPartsCategory">
 	<defName>WVC_BodyPartsNodes_Base</defName>
-	<label>nodes body parts</label>
+	<label>nodetech</label>
 	<parent>BodyParts</parent>
   </ThingCategoryDef>
 
@@ -35,7 +35,7 @@
 
   <ThingCategoryDef WVC_Tag="NodeBodyPartsCategory">
 	<defName>WVC_BodyPartsNodes_Archotech</defName>
-	<label>atchotech</label>
+	<label>archo</label>
 	<parent>WVC_BodyPartsNodes_Base</parent>
   </ThingCategoryDef>
 

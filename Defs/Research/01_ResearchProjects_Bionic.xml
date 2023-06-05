@@ -58,7 +58,7 @@
 
   <ResearchProjectDef ParentName="WVC_ExperimentalTechs_Base">
 	<defName>WVC_RaceResearching_Valkyries</defName>
-	<label>ancient bionic</label>
+	<label>ultratech bionic</label>
 	<description>Recreate long-lost prosthetic technologies.</description>
 	<techLevel>Spacer</techLevel>
 	<researchViewX>1.00</researchViewX>
@@ -78,7 +78,7 @@
 
   <ResearchProjectDef ParentName="WVC_ExperimentalTechs_Base">
 	<defName>WVC_RaceResearching_ELFs</defName>
-	<label>mechanoidization</label>
+	<label>mechtech bionic</label>
 	<description>Technologies of hybridization of organics and machines.</description>
 	<researchViewX>2.00</researchViewX>
 	<researchViewY>0.10</researchViewY>
@@ -128,7 +128,7 @@
 
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
 	<defName>WVC_ResearchBodyParts_NodeBlue</defName>
-	<label>node body parts SX</label>
+	<label>nodetech-SX bionic</label>
 	<researchViewX>6.00</researchViewX>
 	<researchViewY>1.20</researchViewY>
 	<prerequisites>
@@ -141,7 +141,7 @@
   </ResearchProjectDef>
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
 	<defName>WVC_ResearchBodyParts_NodeRed</defName>
-	<label>node body parts HJ</label>
+	<label>nodetech-HJ bionic</label>
 	<researchViewX>6.00</researchViewX>
 	<researchViewY>1.65</researchViewY>
 	<prerequisites>
@@ -154,7 +154,7 @@
   </ResearchProjectDef>
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
 	<defName>WVC_ResearchBodyParts_NodeViolet</defName>
-	<label>node body parts CV</label>
+	<label>nodetech-CV bionic</label>
 	<researchViewX>6.00</researchViewX>
 	<researchViewY>2.55</researchViewY>
 	<prerequisites>
@@ -166,7 +166,7 @@
   </ResearchProjectDef>
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
 	<defName>WVC_ResearchBodyParts_NodeGreen</defName>
-	<label>node body parts GB</label>
+	<label>nodetech-GB bionic</label>
 	<researchViewX>6.00</researchViewX>
 	<researchViewY>2.10</researchViewY>
 	<prerequisites>
@@ -178,7 +178,7 @@
   </ResearchProjectDef>
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
 	<defName>WVC_ResearchBodyParts_NodeYellow</defName>
-	<label>node body parts WR</label>
+	<label>nodetech-WR bionic</label>
 	<researchViewX>6.00</researchViewX>
 	<researchViewY>3.00</researchViewY>
 	<prerequisites>
@@ -194,7 +194,7 @@
 
   <ResearchProjectDef ParentName="WVC_ExperimentalTechs_Base">
 	<defName>WVC_RaceResearching_Herrschers</defName>
-	<label>archotech-node bionic</label>
+	<label>advanced nodetech bionic</label>
 	<description>Combining all the knowledge gained in order to create prototypes of archotech technologies.</description>
 	<techLevel>Archotech</techLevel>
 	<baseCost>7000</baseCost>
