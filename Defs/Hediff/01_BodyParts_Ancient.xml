@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef Name="WVC_Hediff_BodyPart_Ancient" ParentName="AddedBodyPartBase" Abstract="True">
-	<description>Body part created using sophisticated ancient technology.</description>
+	<description>Advanced bionics from high-tech components. Surpasses cybertech bionics in quality, but has a drawback - weight.</description>
 	<scenarioCanAdd>false</scenarioCanAdd>
 	<defaultLabelColor>(251,255,251)</defaultLabelColor>
 	<priceOffset>900</priceOffset>
@@ -17,8 +17,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_AncientEye</defName>
-	<label>ancient eye</label>
-	<labelNoun>an ancient eye</labelNoun>
+	<label>ultratech eye</label>
+	<labelNoun>an ultratech eye</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -36,8 +36,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_AncientEar</defName>
-	<label>ancient ear</label>
-	<labelNoun>a ancient ear</labelNoun>
+	<label>ultratech ear</label>
+	<labelNoun>a ultratech ear</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -55,8 +55,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_AncientJaw</defName>
-	<label>ancient jaw</label>
-	<labelNoun>a ancient jaw</labelNoun>
+	<label>ultratech jaw</label>
+	<labelNoun>a ultratech jaw</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -89,8 +89,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_AncientSilentJaw</defName>
-	<label>ancient silent jaw</label>
-	<labelNoun>a ancient silent jaw</labelNoun>
+	<label>ultratech silent jaw</label>
+	<labelNoun>a ultratech silent jaw</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -129,8 +129,8 @@
   
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_AncientNose</defName>
-	<label>ancient nose</label>
-	<labelNoun>an ancient nose</labelNoun>
+	<label>ultratech nose</label>
+	<labelNoun>an ultratech nose</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -149,8 +149,8 @@
   
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_MechanoidAncient</defName>
-	<label>ancient tongue</label>
-	<labelNoun>an ancient tongue</labelNoun>
+	<label>ultratech tongue</label>
+	<labelNoun>an ultratech tongue</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -167,8 +167,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_AncientStomach</defName>
-	<label>ancient stomach</label>
-	<labelNoun>a ancient stomach</labelNoun>
+	<label>ultratech stomach</label>
+	<labelNoun>a ultratech stomach</labelNoun>
 	<stages>
 	  <li>
 		<hungerRateFactor>0.1</hungerRateFactor>
@@ -188,8 +188,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_AncientSpine</defName>
-	<label>ancient spine</label>
-	<labelNoun>a ancient spine</labelNoun>
+	<label>ultratech spine</label>
+	<labelNoun>a ultratech spine</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -207,8 +207,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_AncientHeart</defName>
-	<label>ancient heart</label>
-	<labelNoun>a ancient heart</labelNoun>
+	<label>ultratech heart</label>
+	<labelNoun>a ultratech heart</labelNoun>
 	<stages>
 	  <li>
 		<totalBleedFactor>0.5</totalBleedFactor>
@@ -228,8 +228,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_AncientKidney</defName>
-	<label>ancient kidney</label>
-	<labelNoun>a ancient kidney</labelNoun>
+	<label>ultratech kidney</label>
+	<labelNoun>a ultratech kidney</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -250,8 +250,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_AncientLiver</defName>
-	<label>ancient liver</label>
-	<labelNoun>a ancient liver</labelNoun>
+	<label>ultratech liver</label>
+	<labelNoun>a ultratech liver</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -271,8 +271,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_AncientLung</defName>
-	<label>ancient lung</label>
-	<labelNoun>a ancient lung</labelNoun>
+	<label>ultratech lung</label>
+	<labelNoun>a ultratech lung</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -292,8 +292,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_AncientArm</defName>
-	<label>ancient arm</label>
-	<labelNoun>an ancient arm</labelNoun>
+	<label>ultratech arm</label>
+	<labelNoun>an ultratech arm</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -327,8 +327,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_AncientDrillArm</defName>
-	<label>ancient drill arm</label>
-	<labelNoun>an ancient drill arm</labelNoun>
+	<label>ultratech drill arm</label>
+	<labelNoun>an ultratech drill arm</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -364,8 +364,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_AncientLeg</defName>
-	<label>ancient leg</label>
-	<labelNoun>an ancient leg</labelNoun>
+	<label>ultratech leg</label>
+	<labelNoun>an ultratech leg</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -399,8 +399,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Ancient">
 	<defName>WVC_AncientTail</defName>
-	<label>ancient tail</label>
-	<labelNoun>a ancient tail</labelNoun>
+	<label>ultratech tail</label>
+	<labelNoun>a ultratech tail</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>

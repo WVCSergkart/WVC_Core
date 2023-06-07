@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef Name="WVC_Hediff_BodyPart_Cybernetic" ParentName="AddedBodyPartBase" Abstract="True">
-	<description>Body part created using sophisticated cybernetic technology.</description>
+	<description>Improved version of experimental bionics. It can also be installed on animals.</description>
 	<scenarioCanAdd>false</scenarioCanAdd>
 	<defaultLabelColor>(163,187,255)</defaultLabelColor>
 	<priceOffset>750</priceOffset>
@@ -17,8 +17,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticEye</defName>
-	<label>cybernetic eye</label>
-	<labelNoun>an cybernetic eye</labelNoun>
+	<label>cybertech eye</label>
+	<labelNoun>an cybertech eye</labelNoun>
 	<tags>
 		<li>Eye</li>
 	</tags>
@@ -26,8 +26,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticEar</defName>
-	<label>cybernetic ear</label>
-	<labelNoun>a cybernetic ear</labelNoun>
+	<label>cybertech ear</label>
+	<labelNoun>a cybertech ear</labelNoun>
 	<tags>
 		<li>Ear</li>
 	</tags>
@@ -35,8 +35,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticJaw</defName>
-	<label>cybernetic jaw</label>
-	<labelNoun>a cybernetic jaw</labelNoun>
+	<label>cybertech jaw</label>
+	<labelNoun>a cybertech jaw</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -65,8 +65,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticSilentJaw</defName>
-	<label>cybernetic silent jaw</label>
-	<labelNoun>a cybernetic silent jaw</labelNoun>
+	<label>cybertech silent jaw</label>
+	<labelNoun>a cybertech silent jaw</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -98,8 +98,8 @@
   
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticNose</defName>
-	<label>cybernetic nose</label>
-	<labelNoun>an cybernetic nose</labelNoun>
+	<label>cybertech nose</label>
+	<labelNoun>an cybertech nose</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -114,8 +114,8 @@
   
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticTongue</defName>
-	<label>cybernetic tongue</label>
-	<labelNoun>an cybernetic tongue</labelNoun>
+	<label>cybertech tongue</label>
+	<labelNoun>an cybertech tongue</labelNoun>
 	<tags>
 		<li>Tongue</li>
 	</tags>
@@ -125,8 +125,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticStomach</defName>
-	<label>cybernetic stomach</label>
-	<labelNoun>a cybernetic stomach</labelNoun>
+	<label>cybertech stomach</label>
+	<labelNoun>a cybertech stomach</labelNoun>
 	<stages>
 	  <li>
 		<hungerRateFactor>0.8</hungerRateFactor>
@@ -140,8 +140,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticSpine</defName>
-	<label>cybernetic spine</label>
-	<labelNoun>a cybernetic spine</labelNoun>
+	<label>cybertech spine</label>
+	<labelNoun>a cybertech spine</labelNoun>
 	<tags>
 		<li>Spine</li>
 	</tags>
@@ -149,8 +149,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticHeart</defName>
-	<label>cybernetic heart</label>
-	<labelNoun>a cybernetic heart</labelNoun>
+	<label>cybertech heart</label>
+	<labelNoun>a cybertech heart</labelNoun>
 	<stages>
 	  <li>
 		<totalBleedFactor>0.8</totalBleedFactor>
@@ -164,8 +164,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticKidney</defName>
-	<label>cybernetic kidney</label>
-	<labelNoun>a cybernetic kidney</labelNoun>
+	<label>cybertech kidney</label>
+	<labelNoun>a cybertech kidney</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -182,8 +182,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticLiver</defName>
-	<label>cybernetic liver</label>
-	<labelNoun>a cybernetic liver</labelNoun>
+	<label>cybertech liver</label>
+	<labelNoun>a cybertech liver</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -199,8 +199,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticLung</defName>
-	<label>cybernetic lung</label>
-	<labelNoun>a cybernetic lung</labelNoun>
+	<label>cybertech lung</label>
+	<labelNoun>a cybertech lung</labelNoun>
 	<tags>
 		<li>Lung</li>
 	</tags>
@@ -210,8 +210,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticArm</defName>
-	<label>cybernetic arm</label>
-	<labelNoun>an cybernetic arm</labelNoun>
+	<label>cybertech arm</label>
+	<labelNoun>an cybertech arm</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -235,8 +235,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticDrillArm</defName>
-	<label>cybernetic drill arm</label>
-	<labelNoun>an cybernetic drill arm</labelNoun>
+	<label>cybertech drill arm</label>
+	<labelNoun>an cybertech drill arm</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -272,8 +272,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticLeg</defName>
-	<label>cybernetic leg</label>
-	<labelNoun>an cybernetic leg</labelNoun>
+	<label>cybertech leg</label>
+	<labelNoun>an cybertech leg</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -297,8 +297,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
 	<defName>WVC_CyberneticTail</defName>
-	<label>cybernetic tail</label>
-	<labelNoun>a cybernetic tail</labelNoun>
+	<label>cybertech tail</label>
+	<labelNoun>a cybertech tail</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>

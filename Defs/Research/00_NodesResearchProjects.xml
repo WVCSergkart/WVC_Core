@@ -4,7 +4,7 @@
   <!-- ======================================================================= -->
 
   <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC" Name="WVC_NodeTechs_Base" Abstract="True">
-	<description>Studying a complex node system of mechanoid intelligence in order to recreate archotech technologies.</description>
+	<description>Significant rethinking and refinement of mechtech in order to get closer to archotech technologies. These studies include advanced manipulative systems, organic and non-organic evolution, fully automated defense systems, and psychic manipulation of the mind.</description>
 	<baseCost>2000</baseCost>
 	<techLevel>Archotech</techLevel>
 	<!-- <techLevel>Ultra</techLevel> -->
@@ -21,7 +21,7 @@
 
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
 	<defName>WVC_ResearchNodes_Blue</defName>
-	<label>nodetech-SX</label>
+	<label>mechtech-SX</label>
 	<description>Studying a complex node system of mechanoid intelligence in order to recreate archotech technologies.\n\nThe study of this node will allow the creation of complex manipulators that will be the first step in replicating archotech technologies.</description>
 	<researchViewX>5.00</researchViewX>
 	<researchViewY>1.20</researchViewY>
@@ -32,7 +32,7 @@
   </ResearchProjectDef>
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
 	<defName>WVC_ResearchNodes_Red</defName>
-	<label>nodetech-HJ</label>
+	<label>mechtech-HJ</label>
 	<description>Studying a complex node system of mechanoid intelligence in order to recreate archotech technologies.\n\nThe study of this node will allow you to create defensive systems similar to the archotech.</description>
 	<researchViewX>5.00</researchViewX>
 	<researchViewY>1.65</researchViewY>
@@ -43,7 +43,7 @@
   </ResearchProjectDef>
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
 	<defName>WVC_ResearchNodes_Violet</defName>
-	<label>nodetech-CV</label>
+	<label>mechtech-CV</label>
 	<description>Studying a complex node system of mechanoid intelligence in order to recreate archotech technologies.\n\nThe study of this node will allow a more accurate understanding of life, whether organic or mechanical.</description>
 	<researchViewX>5.00</researchViewX>
 	<researchViewY>2.55</researchViewY>
@@ -54,7 +54,7 @@
   </ResearchProjectDef>
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
 	<defName>WVC_ResearchNodes_Green</defName>
-	<label>nodetech-GB</label>
+	<label>mechtech-GB</label>
 	<description>Studying a complex node system of mechanoid intelligence in order to recreate archotech technologies.\n\nThe study of this node will allow us to expand our knowledge of organic manipulation and bring us closer to the knowledge of immortality.</description>
 	<researchViewX>5.00</researchViewX>
 	<researchViewY>2.10</researchViewY>
@@ -66,7 +66,7 @@
   </ResearchProjectDef>
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
 	<defName>WVC_ResearchNodes_Yellow</defName>
-	<label>nodetech-WR</label>
+	<label>mechtech-WR</label>
 	<description>Studying a complex node system of mechanoid intelligence in order to recreate archotech technologies.\n\nThe study of this node will allow us to better understand the principles of thinking beings with gestalt consciousness.</description>
 	<researchViewX>5.00</researchViewX>
 	<researchViewY>3.00</researchViewY>

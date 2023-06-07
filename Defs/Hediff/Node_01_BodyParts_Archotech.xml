@@ -2,7 +2,9 @@
 <Defs>
 
   <HediffDef Name="WVC_Hediff_BodyPart_Archotech" ParentName="AddedBodyPartBase" Abstract="True">
-	<description>Body part created using sophisticated nodetech technology.</description>
+	<description>A combination of all previous technologies that combines all 5 areas. And these are productivity, protection, survivability, self-healing and psychic abilities.
+
+All this makes it possible to achieve efficiency close to that of the archotech.</description>
 	<scenarioCanAdd>false</scenarioCanAdd>
 	<defaultLabelColor>(249,255,123)</defaultLabelColor>
 	<priceOffset>2000</priceOffset>
@@ -17,8 +19,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechEye</defName>
-	<label>nodetech eye</label>
-	<labelNoun>an nodetech eye</labelNoun>
+	<label>advanced mechtech eye</label>
+	<labelNoun>an advanced mechtech eye</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -38,8 +40,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechEar</defName>
-	<label>nodetech ear</label>
-	<labelNoun>a nodetech ear</labelNoun>
+	<label>advanced mechtech ear</label>
+	<labelNoun>a advanced mechtech ear</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -59,8 +61,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechJaw</defName>
-	<label>nodetech jaw</label>
-	<labelNoun>a nodetech jaw</labelNoun>
+	<label>advanced mechtech jaw</label>
+	<labelNoun>a advanced mechtech jaw</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -95,8 +97,8 @@
   
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechNose</defName>
-	<label>nodetech nose</label>
-	<labelNoun>an nodetech nose</labelNoun>
+	<label>advanced mechtech nose</label>
+	<labelNoun>an advanced mechtech nose</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -119,8 +121,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechStomach</defName>
-	<label>nodetech stomach</label>
-	<labelNoun>a nodetech stomach</labelNoun>
+	<label>advanced mechtech stomach</label>
+	<labelNoun>a advanced mechtech stomach</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -142,8 +144,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechSpine</defName>
-	<label>nodetech spine</label>
-	<labelNoun>a nodetech spine</labelNoun>
+	<label>advanced mechtech spine</label>
+	<labelNoun>a advanced mechtech spine</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -163,8 +165,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechHeart</defName>
-	<label>nodetech heart</label>
-	<labelNoun>a nodetech heart</labelNoun>
+	<label>advanced mechtech heart</label>
+	<labelNoun>a advanced mechtech heart</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -186,8 +188,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechKidney</defName>
-	<label>nodetech kidney</label>
-	<labelNoun>a nodetech kidney</labelNoun>
+	<label>advanced mechtech kidney</label>
+	<labelNoun>a advanced mechtech kidney</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -210,8 +212,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechLiver</defName>
-	<label>nodetech liver</label>
-	<labelNoun>a nodetech liver</labelNoun>
+	<label>advanced mechtech liver</label>
+	<labelNoun>a advanced mechtech liver</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -233,8 +235,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechLung</defName>
-	<label>nodetech lung</label>
-	<labelNoun>a nodetech lung</labelNoun>
+	<label>advanced mechtech lung</label>
+	<labelNoun>a advanced mechtech lung</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -256,8 +258,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechArm</defName>
-	<label>nodetech arm</label>
-	<labelNoun>an nodetech arm</labelNoun>
+	<label>advanced mechtech arm</label>
+	<labelNoun>an advanced mechtech arm</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -293,8 +295,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechLeg</defName>
-	<label>nodetech leg</label>
-	<labelNoun>an nodetech leg</labelNoun>
+	<label>advanced mechtech leg</label>
+	<labelNoun>an advanced mechtech leg</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -330,8 +332,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
 	<defName>WVC_ArchotechTail</defName>
-	<label>nodetech tail</label>
-	<labelNoun>a nodetech tail</labelNoun>
+	<label>advanced mechtech tail</label>
+	<labelNoun>a advanced mechtech tail</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>

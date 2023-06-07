@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef Name="WVC_Hediff_BodyPart_Torture" ParentName="AddedBodyPartBase" Abstract="True">
-	<description>Body part created using bionic technology.</description>
+	<description>Bionics created for ideological purposes or to torture enemies. It can also be installed on animals.</description>
 	<scenarioCanAdd>false</scenarioCanAdd>
 	<defaultLabelColor>(255,188,196)</defaultLabelColor>
 	<priceOffset>-200</priceOffset>

@@ -7,6 +7,7 @@
 	<defName>WVC_BionicTech_AdvancedBionic</defName>
 	<techLevel>Spacer</techLevel>
 	<label>experimental bionic</label>
+	<description>Advanced bionics with comprehensive upgrades far superior to basic bionics. It can also be installed on animals.</description>
 	<researchViewX>0.00</researchViewX>
 	<researchViewY>0.90</researchViewY>
 	<prerequisites>
@@ -27,6 +28,7 @@
 	<defName>WVC_BionicTech_Torture</defName>
 	<techLevel>Spacer</techLevel>
 	<label>torture bionic</label>
+	<description>Bionics created for ideological purposes or to torture enemies. It can also be installed on animals.</description>
 	<researchViewX>0.00</researchViewX>
 	<researchViewY>0.45</researchViewY>
 	<prerequisites>
@@ -39,7 +41,8 @@
   <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
 	<defName>WVC_BionicTech_Cybernetic</defName>
 	<techLevel>Spacer</techLevel>
-	<label>alternative cybernetic</label>
+	<label>cybertech bionic</label>
+	<description>Improved version of experimental bionics. It can also be installed on animals.</description>
 	<researchViewX>0.50</researchViewX>
 	<researchViewY>1.35</researchViewY>
 	<prerequisites>
@@ -59,7 +62,7 @@
   <ResearchProjectDef ParentName="WVC_ExperimentalTechs_Base">
 	<defName>WVC_RaceResearching_Valkyries</defName>
 	<label>ultratech bionic</label>
-	<description>Recreate long-lost prosthetic technologies.</description>
+	<description>Advanced bionics from high-tech components. Surpasses cybertech bionics in quality, but has a drawback - weight.</description>
 	<techLevel>Spacer</techLevel>
 	<researchViewX>1.00</researchViewX>
 	<researchViewY>0.10</researchViewY>
@@ -79,7 +82,7 @@
   <ResearchProjectDef ParentName="WVC_ExperimentalTechs_Base">
 	<defName>WVC_RaceResearching_ELFs</defName>
 	<label>mechtech bionic</label>
-	<description>Technologies of hybridization of organics and machines.</description>
+	<description>Bionics based on the study of mechanoid components. Can be installed without anesthesia.</description>
 	<researchViewX>2.00</researchViewX>
 	<researchViewY>0.10</researchViewY>
 	<prerequisites>
@@ -128,7 +131,8 @@
 
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
 	<defName>WVC_ResearchBodyParts_NodeBlue</defName>
-	<label>nodetech-SX bionic</label>
+	<label>overclocked mechtech bionic</label>
+	<description>Improved and refined mechtech technology, the emphasis is on performance.</description>
 	<researchViewX>6.00</researchViewX>
 	<researchViewY>1.20</researchViewY>
 	<prerequisites>
@@ -141,7 +145,8 @@
   </ResearchProjectDef>
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
 	<defName>WVC_ResearchBodyParts_NodeRed</defName>
-	<label>nodetech-HJ bionic</label>
+	<label>armored mechtech bionic</label>
+	<description>Improved and refined mechtech technology, the emphasis is on protection.</description>
 	<researchViewX>6.00</researchViewX>
 	<researchViewY>1.65</researchViewY>
 	<prerequisites>
@@ -154,7 +159,8 @@
   </ResearchProjectDef>
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
 	<defName>WVC_ResearchBodyParts_NodeViolet</defName>
-	<label>nodetech-CV bionic</label>
+	<label>tough mechtech bionic</label>
+	<description>Improved and refined mechtech technology, the emphasis is on survival.</description>
 	<researchViewX>6.00</researchViewX>
 	<researchViewY>2.55</researchViewY>
 	<prerequisites>
@@ -166,7 +172,8 @@
   </ResearchProjectDef>
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
 	<defName>WVC_ResearchBodyParts_NodeGreen</defName>
-	<label>nodetech-GB bionic</label>
+	<label>self-heal mechtech bionic</label>
+	<description>Improved and refined mechtech technology, the emphasis is on self-healing.</description>
 	<researchViewX>6.00</researchViewX>
 	<researchViewY>2.10</researchViewY>
 	<prerequisites>
@@ -178,7 +185,8 @@
   </ResearchProjectDef>
   <ResearchProjectDef ParentName="WVC_NodeTechs_Base">
 	<defName>WVC_ResearchBodyParts_NodeYellow</defName>
-	<label>nodetech-WR bionic</label>
+	<label>psychic mechtech bionic</label>
+	<description>Improved and refined mechtech technology, the emphasis is on psychic abilities.</description>
 	<researchViewX>6.00</researchViewX>
 	<researchViewY>3.00</researchViewY>
 	<prerequisites>
@@ -194,8 +202,10 @@
 
   <ResearchProjectDef ParentName="WVC_ExperimentalTechs_Base">
 	<defName>WVC_RaceResearching_Herrschers</defName>
-	<label>advanced nodetech bionic</label>
-	<description>Combining all the knowledge gained in order to create prototypes of archotech technologies.</description>
+	<label>advanced mechtech bionic</label>
+	<description>A combination of all previous technologies that combines all 5 areas. And these are productivity, protection, survivability, self-healing and psychic abilities.
+
+All this makes it possible to achieve efficiency close to that of the archotech.</description>
 	<techLevel>Archotech</techLevel>
 	<baseCost>7000</baseCost>
 	<researchViewX>7.00</researchViewX>

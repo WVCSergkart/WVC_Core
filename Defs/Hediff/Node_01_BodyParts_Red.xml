@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef Name="WVC_Hediff_BodyPart_NodeRed" ParentName="AddedBodyPartBase" Abstract="True">
-	<description>Body part created using sophisticated nodetech-HJ technology.</description>
+	<description>Improved and refined mechtech technology, the emphasis is on protection.</description>
 	<scenarioCanAdd>false</scenarioCanAdd>
 	<!-- FF8585 -->
 	<defaultLabelColor>(255,133,133)</defaultLabelColor>
@@ -18,8 +18,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedEye</defName>
-	<label>nodetech-HJ eye</label>
-	<labelNoun>an nodetech-HJ eye</labelNoun>
+	<label>armored mechtech eye</label>
+	<labelNoun>an armored mechtech eye</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -36,8 +36,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedEar</defName>
-	<label>nodetech-HJ ear</label>
-	<labelNoun>a nodetech-HJ ear</labelNoun>
+	<label>armored mechtech ear</label>
+	<labelNoun>a armored mechtech ear</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -54,8 +54,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedJaw</defName>
-	<label>nodetech-HJ jaw</label>
-	<labelNoun>a nodetech-HJ jaw</labelNoun>
+	<label>armored mechtech jaw</label>
+	<labelNoun>a armored mechtech jaw</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -87,8 +87,8 @@
   
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedNose</defName>
-	<label>nodetech-HJ nose</label>
-	<labelNoun>an nodetech-HJ nose</labelNoun>
+	<label>armored mechtech nose</label>
+	<labelNoun>an armored mechtech nose</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -108,8 +108,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedStomach</defName>
-	<label>nodetech-HJ stomach</label>
-	<labelNoun>a nodetech-HJ stomach</labelNoun>
+	<label>armored mechtech stomach</label>
+	<labelNoun>a armored mechtech stomach</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -128,8 +128,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedSpine</defName>
-	<label>nodetech-HJ spine</label>
-	<labelNoun>a nodetech-HJ spine</labelNoun>
+	<label>armored mechtech spine</label>
+	<labelNoun>a armored mechtech spine</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -146,8 +146,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedHeart</defName>
-	<label>nodetech-HJ heart</label>
-	<labelNoun>a nodetech-HJ heart</labelNoun>
+	<label>armored mechtech heart</label>
+	<labelNoun>a armored mechtech heart</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -166,8 +166,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedKidney</defName>
-	<label>nodetech-HJ kidney</label>
-	<labelNoun>a nodetech-HJ kidney</labelNoun>
+	<label>armored mechtech kidney</label>
+	<labelNoun>a armored mechtech kidney</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -187,8 +187,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedLiver</defName>
-	<label>nodetech-HJ liver</label>
-	<labelNoun>a nodetech-HJ liver</labelNoun>
+	<label>armored mechtech liver</label>
+	<labelNoun>a armored mechtech liver</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -207,8 +207,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedLung</defName>
-	<label>nodetech-HJ lung</label>
-	<labelNoun>a nodetech-HJ lung</labelNoun>
+	<label>armored mechtech lung</label>
+	<labelNoun>a armored mechtech lung</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -227,8 +227,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedArm</defName>
-	<label>nodetech-HJ arm</label>
-	<labelNoun>an nodetech-HJ arm</labelNoun>
+	<label>armored mechtech arm</label>
+	<labelNoun>an armored mechtech arm</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -261,8 +261,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedLeg</defName>
-	<label>nodetech-HJ leg</label>
-	<labelNoun>an nodetech-HJ leg</labelNoun>
+	<label>armored mechtech leg</label>
+	<labelNoun>an armored mechtech leg</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -295,8 +295,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
 	<defName>WVC_NodeRedTail</defName>
-	<label>nodetech-HJ tail</label>
-	<labelNoun>a nodetech-HJ tail</labelNoun>
+	<label>armored mechtech tail</label>
+	<labelNoun>a armored mechtech tail</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>

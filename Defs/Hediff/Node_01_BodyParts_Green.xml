@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef Name="WVC_Hediff_BodyPart_NodeGreen" ParentName="AddedBodyPartBase" Abstract="True">
-	<description>Body part created using sophisticated nodetech-GB technology.</description>
+	<description>Improved and refined mechtech technology, the emphasis is on self-healing.</description>
 	<scenarioCanAdd>false</scenarioCanAdd>
 	<!-- 85ff88 -->
 	<defaultLabelColor>(133,255,136)</defaultLabelColor>
@@ -18,8 +18,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeGreen">
 	<defName>WVC_NodeGreenEye</defName>
-	<label>nodetech-GB eye</label>
-	<labelNoun>an nodetech-GB eye</labelNoun>
+	<label>self-heal mechtech eye</label>
+	<labelNoun>an self-heal mechtech eye</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -34,8 +34,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeGreen">
 	<defName>WVC_NodeGreenEar</defName>
-	<label>nodetech-GB ear</label>
-	<labelNoun>a nodetech-GB ear</labelNoun>
+	<label>self-heal mechtech ear</label>
+	<labelNoun>a self-heal mechtech ear</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -50,8 +50,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeGreen">
 	<defName>WVC_NodeGreenJaw</defName>
-	<label>nodetech-GB jaw</label>
-	<labelNoun>a nodetech-GB jaw</labelNoun>
+	<label>self-heal mechtech jaw</label>
+	<labelNoun>a self-heal mechtech jaw</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -81,8 +81,8 @@
   
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeGreen">
 	<defName>WVC_NodeGreenNose</defName>
-	<label>nodetech-GB nose</label>
-	<labelNoun>an nodetech-GB nose</labelNoun>
+	<label>self-heal mechtech nose</label>
+	<labelNoun>an self-heal mechtech nose</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -100,8 +100,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeGreen">
 	<defName>WVC_NodeGreenStomach</defName>
-	<label>nodetech-GB stomach</label>
-	<labelNoun>a nodetech-GB stomach</labelNoun>
+	<label>self-heal mechtech stomach</label>
+	<labelNoun>a self-heal mechtech stomach</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -118,8 +118,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeGreen">
 	<defName>WVC_NodeGreenSpine</defName>
-	<label>nodetech-GB spine</label>
-	<labelNoun>a nodetech-GB spine</labelNoun>
+	<label>self-heal mechtech spine</label>
+	<labelNoun>a self-heal mechtech spine</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -134,8 +134,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeGreen">
 	<defName>WVC_NodeGreenHeart</defName>
-	<label>nodetech-GB heart</label>
-	<labelNoun>a nodetech-GB heart</labelNoun>
+	<label>self-heal mechtech heart</label>
+	<labelNoun>a self-heal mechtech heart</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -152,8 +152,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeGreen">
 	<defName>WVC_NodeGreenKidney</defName>
-	<label>nodetech-GB kidney</label>
-	<labelNoun>a nodetech-GB kidney</labelNoun>
+	<label>self-heal mechtech kidney</label>
+	<labelNoun>a self-heal mechtech kidney</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -171,8 +171,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeGreen">
 	<defName>WVC_NodeGreenLiver</defName>
-	<label>nodetech-GB liver</label>
-	<labelNoun>a nodetech-GB liver</labelNoun>
+	<label>self-heal mechtech liver</label>
+	<labelNoun>a self-heal mechtech liver</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -189,8 +189,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeGreen">
 	<defName>WVC_NodeGreenLung</defName>
-	<label>nodetech-GB lung</label>
-	<labelNoun>a nodetech-GB lung</labelNoun>
+	<label>self-heal mechtech lung</label>
+	<labelNoun>a self-heal mechtech lung</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -207,8 +207,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeGreen">
 	<defName>WVC_NodeGreenArm</defName>
-	<label>nodetech-GB arm</label>
-	<labelNoun>an nodetech-GB arm</labelNoun>
+	<label>self-heal mechtech arm</label>
+	<labelNoun>an self-heal mechtech arm</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -239,8 +239,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeGreen">
 	<defName>WVC_NodeGreenLeg</defName>
-	<label>nodetech-GB leg</label>
-	<labelNoun>an nodetech-GB leg</labelNoun>
+	<label>self-heal mechtech leg</label>
+	<labelNoun>an self-heal mechtech leg</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -271,8 +271,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeGreen">
 	<defName>WVC_NodeGreenTail</defName>
-	<label>nodetech-GB tail</label>
-	<labelNoun>a nodetech-GB tail</labelNoun>
+	<label>self-heal mechtech tail</label>
+	<labelNoun>a self-heal mechtech tail</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>

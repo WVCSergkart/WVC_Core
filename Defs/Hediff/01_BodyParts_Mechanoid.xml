@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef Name="WVC_Hediff_BodyPart_Mechanoid" ParentName="AddedBodyPartBase" Abstract="True">
-	<description>Body part created using sophisticated mechtech technology.</description>
+	<description>Bionics based on the study of mechanoid components. Can be installed without anesthesia.</description>
 	<scenarioCanAdd>false</scenarioCanAdd>
 	<defaultLabelColor>(255,224,200)</defaultLabelColor>
 	<priceOffset>1200</priceOffset>

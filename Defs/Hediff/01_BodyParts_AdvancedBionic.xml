@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef Name="WVC_Hediff_BodyPart_AdvancedBionic" ParentName="AddedBodyPartBase" Abstract="True">
-	<description>Body part created using sophisticated experimental bionic technology.</description>
+	<description>Advanced bionics with comprehensive upgrades far superior to basic bionics. It can also be installed on animals.</description>
 	<scenarioCanAdd>false</scenarioCanAdd>
 	<defaultLabelColor>(198,255,163)</defaultLabelColor>
 	<priceOffset>550</priceOffset>

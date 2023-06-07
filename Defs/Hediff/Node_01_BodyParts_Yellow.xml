@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef Name="WVC_Hediff_BodyPart_NodeYellow" ParentName="AddedBodyPartBase" Abstract="True">
-	<description>Body part created using sophisticated nodetech-WR technology.</description>
+	<description>Improved and refined mechtech technology, the emphasis is on psychic abilities.</description>
 	<scenarioCanAdd>false</scenarioCanAdd>
 	<!-- FFF885 -->
 	<defaultLabelColor>(255,248,133)</defaultLabelColor>
@@ -18,8 +18,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeYellow">
 	<defName>WVC_NodeYellowEye</defName>
-	<label>nodetech-WR eye</label>
-	<labelNoun>an nodetech-WR eye</labelNoun>
+	<label>psychic mechtech eye</label>
+	<labelNoun>an psychic mechtech eye</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -34,8 +34,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeYellow">
 	<defName>WVC_NodeYellowEar</defName>
-	<label>nodetech-WR ear</label>
-	<labelNoun>a nodetech-WR ear</labelNoun>
+	<label>psychic mechtech ear</label>
+	<labelNoun>a psychic mechtech ear</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -50,8 +50,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeYellow">
 	<defName>WVC_NodeYellowJaw</defName>
-	<label>nodetech-WR jaw</label>
-	<labelNoun>a nodetech-WR jaw</labelNoun>
+	<label>psychic mechtech jaw</label>
+	<labelNoun>a psychic mechtech jaw</labelNoun>
 	<comps>
 	  <li Class="HediffCompProperties_VerbGiver">
 		<tools>
@@ -81,8 +81,8 @@
   
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeYellow">
 	<defName>WVC_NodeYellowNose</defName>
-	<label>nodetech-WR nose</label>
-	<labelNoun>an nodetech-WR nose</labelNoun>
+	<label>psychic mechtech nose</label>
+	<labelNoun>an psychic mechtech nose</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -100,8 +100,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeYellow">
 	<defName>WVC_NodeYellowStomach</defName>
-	<label>nodetech-WR stomach</label>
-	<labelNoun>a nodetech-WR stomach</labelNoun>
+	<label>psychic mechtech stomach</label>
+	<labelNoun>a psychic mechtech stomach</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -118,8 +118,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeYellow">
 	<defName>WVC_NodeYellowSpine</defName>
-	<label>nodetech-WR spine</label>
-	<labelNoun>a nodetech-WR spine</labelNoun>
+	<label>psychic mechtech spine</label>
+	<labelNoun>a psychic mechtech spine</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -134,8 +134,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeYellow">
 	<defName>WVC_NodeYellowHeart</defName>
-	<label>nodetech-WR heart</label>
-	<labelNoun>a nodetech-WR heart</labelNoun>
+	<label>psychic mechtech heart</label>
+	<labelNoun>a psychic mechtech heart</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -152,8 +152,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeYellow">
 	<defName>WVC_NodeYellowKidney</defName>
-	<label>nodetech-WR kidney</label>
-	<labelNoun>a nodetech-WR kidney</labelNoun>
+	<label>psychic mechtech kidney</label>
+	<labelNoun>a psychic mechtech kidney</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -171,8 +171,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeYellow">
 	<defName>WVC_NodeYellowLiver</defName>
-	<label>nodetech-WR liver</label>
-	<labelNoun>a nodetech-WR liver</labelNoun>
+	<label>psychic mechtech liver</label>
+	<labelNoun>a psychic mechtech liver</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -189,8 +189,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeYellow">
 	<defName>WVC_NodeYellowLung</defName>
-	<label>nodetech-WR lung</label>
-	<labelNoun>a nodetech-WR lung</labelNoun>
+	<label>psychic mechtech lung</label>
+	<labelNoun>a psychic mechtech lung</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -207,8 +207,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeYellow">
 	<defName>WVC_NodeYellowArm</defName>
-	<label>nodetech-WR arm</label>
-	<labelNoun>an nodetech-WR arm</labelNoun>
+	<label>psychic mechtech arm</label>
+	<labelNoun>an psychic mechtech arm</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -239,8 +239,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeYellow">
 	<defName>WVC_NodeYellowLeg</defName>
-	<label>nodetech-WR leg</label>
-	<labelNoun>an nodetech-WR leg</labelNoun>
+	<label>psychic mechtech leg</label>
+	<labelNoun>an psychic mechtech leg</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
@@ -271,8 +271,8 @@
 
   <HediffDef ParentName="WVC_Hediff_BodyPart_NodeYellow">
 	<defName>WVC_NodeYellowTail</defName>
-	<label>nodetech-WR tail</label>
-	<labelNoun>a nodetech-WR tail</labelNoun>
+	<label>psychic mechtech tail</label>
+	<labelNoun>a psychic mechtech tail</labelNoun>
 	<stages>
 	  <li>
 		<statOffsets>
