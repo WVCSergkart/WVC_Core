@@ -3,8 +3,11 @@
 
   <ThingDef ParentName="MechanoidBuildings_WVC">
 	<defName>ComponentSpawner_WVC</defName>
-	<label>mechanites assembler</label>
-	<description>Underground complex for mechanites replication. Slowly produces mechanites from literally nothing, but requires a lot of energy.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
+	<label>mech-nanite assembler</label>
+	<description>Underground complex for replication. Slowly produces microscopic machines from literally nothing, but requires a lot of energy.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
+	<descriptionHyperlinks>
+	  <ThingDef>WVC_UniversalFuel</ThingDef>
+	</descriptionHyperlinks>
 	<size>(3,3)</size>
 	<uiIconScale>1.0</uiIconScale>
 	<!-- Floor -->
