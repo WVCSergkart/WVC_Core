@@ -1,16 +1,16 @@
 <loadFolders>
 	<v1.4>
 		<li>/</li>
-		<!-- <li>1.4</li> -->
-		<li IfModActive="wvc.sergkart.races">RacesHAR</li>
-		<li IfModActive="wvc.sergkart.races">RacesGeneral</li>
+		<li>1.4</li>
+		<li IfModActive="wvc.sergkart.races">1.4/RacesHAR</li>
+		<li IfModActive="wvc.sergkart.races">1.4/RacesGeneral</li>
 		<!-- <li IfModActive="ludeon.rimworld.biotech">RacesGeneral</li> -->
-		<li IfModActive="ludeon.rimworld.biotech">Biotech_Core</li>
+		<li IfModActive="ludeon.rimworld.biotech">1.4/Biotech_Core</li>
 		<!-- <li IfModActive="erdelf.humanoidalienraces.dev">NodeRace</li> -->
 		<!-- <li IfModActive="erdelf.humanoidalienraces">NodeRace</li> -->
-		<li IfModActive="ludeon.rimworld.royalty">Royalty</li>
-		<li IfModActive="ludeon.rimworld.ideology">Ideology</li>
-		<li IfModActive="imranfish.xmlextensions">XML_Extensions</li>
+		<li IfModActive="ludeon.rimworld.royalty">1.4/Royalty</li>
+		<li IfModActive="ludeon.rimworld.ideology">1.4/Ideology</li>
+		<li IfModActive="imranfish.xmlextensions">1.4/XML_Extensions</li>
 	</v1.4>
 </loadFolders>
 

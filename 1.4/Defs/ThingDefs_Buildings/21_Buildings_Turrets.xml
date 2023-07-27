@@ -45,6 +45,11 @@
 	</statBases>
 	<tickerType>Normal</tickerType>
 	<comps Inherit="False">
+	  <li Class="CompProperties_Power">
+		<compClass>CompPowerTrader</compClass>
+		<shortCircuitInRain>false</shortCircuitInRain>
+		<basePowerConsumption>45</basePowerConsumption>
+	  </li>
 	  <li Class="CompProperties_Explosive">
 		<wickTicks>240</wickTicks>
 		<explosiveRadius>3.9</explosiveRadius>
