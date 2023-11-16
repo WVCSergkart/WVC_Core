@@ -5,7 +5,7 @@
 		<modId>honkai.girls.sergkart</modId>
 		<settings>
 			<li Class="XmlExtensions.Setting.Text">
-				<text>ULT v0.85.25</text>
+				<text>ULT v0.85.40</text>
 				<anchor>Middle</anchor>
 			</li>
 		</settings>

@@ -154,8 +154,8 @@
 	<defName>Floor_MechanoidFloor_WVC</defName>
 	<label>(Floor) Mechtech floor</label>
 	<texturePath>WVC/Stuff/Floors/Floor_Mechanoid</texturePath>
-	<!-- <color>(164,164,145)</color> -->
-	<color>(184,198,203)</color>
+	<color>(181,165,153)</color>
+	<!-- <color>(184,198,203)</color> -->
 	<isPaintable>true</isPaintable>
   </TerrainDef>
   <!-- <TerrainDef  ParentName="BaseFloor_Mech_WVC"> -->
@@ -276,8 +276,8 @@
 	<defName>Bridge_MechanoidFloor_WVC</defName>
 	<label>(Bridge) Mechtech floor</label>
 	<texturePath>WVC/Stuff/Floors/Floor_Mechanoid</texturePath>
-	<!-- <color>(164,164,145)</color> -->
-	<color>(184,198,203)</color>
+	<color>(181,165,153)</color>
+	<!-- <color>(184,198,203)</color> -->
 	<isPaintable>true</isPaintable>
   </TerrainDef>
 

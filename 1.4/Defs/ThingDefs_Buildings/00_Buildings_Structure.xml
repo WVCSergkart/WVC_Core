@@ -293,8 +293,8 @@
 		</building>
 		<graphicData>
 			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidWall</texPath>
-			<!-- <color>(164,164,145)</color> -->
-			<color>(184,198,203)</color>
+			<color>(181,165,153)</color>
+			<!-- <color>(184,198,203)</color> -->
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="Marker_BuildingsWalls_Archo_WVC">
@@ -472,8 +472,8 @@
 		</building>
 		<graphicData>
 			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorA_Mover</texPath>
-			<!-- <color>(164,164,145)</color> -->
-			<color>(184,198,203)</color>
+			<color>(181,165,153)</color>
+			<!-- <color>(184,198,203)</color> -->
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="Marker_BuildingsDoors_Archo_WVC">
