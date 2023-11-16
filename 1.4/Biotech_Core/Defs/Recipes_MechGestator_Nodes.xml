@@ -11,7 +11,7 @@
 	  <li>
 		<filter>
 		  <thingDefs>
-			<li>WVC_LivingMetall</li>
+			<li>Plasteel</li>
 		  </thingDefs>
 		</filter>
 		<count>75</count>
@@ -31,12 +31,12 @@
 	<defName>WVC_Mech_Hornad</defName>
 	<label>gestate hornad</label>
 	<description>Gestate a hornad mechanoid.</description>
-	<researchPrerequisite>WVC_ResearchNodes_Blue</researchPrerequisite>
+	<researchPrerequisite>ValkyriesTechs_II_WVC</researchPrerequisite>
 	<ingredients>
 	  <li>
 		<filter>
 		  <thingDefs>
-			<li>WVC_ResourceNodes_Blue</li>
+			<li>Gold</li>
 		  </thingDefs>
 		</filter>
 		<count>25</count>
@@ -54,12 +54,12 @@
 	<defName>WVC_Mech_Nautil</defName>
 	<label>gestate nautil</label>
 	<description>Gestate a nautil mechanoid.</description>
-	<researchPrerequisite>WVC_ResearchNodes_Red</researchPrerequisite>
+	<researchPrerequisite>ValkyriesTechs_II_WVC</researchPrerequisite>
 	<ingredients>
 	  <li>
 		<filter>
 		  <thingDefs>
-			<li>WVC_ResourceNodes_Red</li>
+			<li>Uranium</li>
 		  </thingDefs>
 		</filter>
 		<count>25</count>
@@ -77,15 +77,23 @@
 	<defName>WVC_Mech_Fion</defName>
 	<label>gestate fion</label>
 	<description>Gestate a fion mechanoid.</description>
-	<researchPrerequisite>WVC_ResearchNodes_Yellow</researchPrerequisite>
+	<researchPrerequisite>ValkyriesTechs_II_WVC</researchPrerequisite>
 	<ingredients>
 	  <li>
 		<filter>
 		  <thingDefs>
-			<li>WVC_ResourceNodes_Yellow</li>
+			<li>Uranium</li>
 		  </thingDefs>
 		</filter>
-		<count>25</count>
+		<count>12</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Gold</li>
+		  </thingDefs>
+		</filter>
+		<count>12</count>
 	  </li>
 	</ingredients>
 	<products>

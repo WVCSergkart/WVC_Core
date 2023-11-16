@@ -56,7 +56,7 @@
 	<costList>
 	  <Plasteel>60</Plasteel>
 	  <Uranium>12</Uranium>
-	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
+	  <ComponentSpacer>5</ComponentSpacer>
 	</costList>
 	<researchPrerequisites Inherit="False">
 		<!-- <li>Electricity</li> -->
@@ -70,8 +70,8 @@
 
   <ThingDef ParentName="MechanoidBuildings_WVC">
 	<defName>Gloomlight_WVC</defName>
-	<label>mech node</label>
-	<description>A self-powered mechanoid node of unknown function. Mech nodes can be deconstructed to yield valuable resources - but only if they are captured intact. The internal micro power cell will flame out and ruin the materials if the unit takes too much damage.</description>
+	<label>ultra node</label>
+	<description>A high-tech device with no specific purpose.</description>
 	<size>(1,1)</size>
 	<passability>PassThroughOnly</passability>
 	<pathCost>30</pathCost>
@@ -113,7 +113,7 @@
 	<costList>
 	  <Plasteel>30</Plasteel>
 	  <Uranium>5</Uranium>
-	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	  <ComponentSpacer>1</ComponentSpacer>
 	</costList>
 	<researchPrerequisites Inherit="False">
 		<li>ValkyriesTechs_II_WVC</li>
@@ -221,7 +221,7 @@
 
   <ThingDef ParentName="MechanoidBuildings_WVC">
 	<defName>WVC_MechanoidArmoredNode</defName>
-	<label>mechanoid armored node</label>
+	<label>mechtech armored node</label>
 	<description>A complex system connected to an underground structure. Can be used as a barricade.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
 	<thingClass>Building</thingClass>
 	<category>Building</category>
@@ -251,7 +251,7 @@
 	<costList>
 	  <Plasteel>30</Plasteel>
 	  <!-- <Plasteel>30</Plasteel> -->
-	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	  <!-- <ComponentSpacer>1</ComponentSpacer> -->
 	</costList>
 	<building>
 	  <ai_chillDestination>false</ai_chillDestination>
@@ -268,7 +268,7 @@
 	<selectable>true</selectable>
 	<neverMultiSelect>true</neverMultiSelect>
 	<!-- <terrainAffordanceNeeded>Light</terrainAffordanceNeeded> -->
-	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<staticSunShadowHeight>0.20</staticSunShadowHeight>
 	<researchPrerequisites Inherit="False">

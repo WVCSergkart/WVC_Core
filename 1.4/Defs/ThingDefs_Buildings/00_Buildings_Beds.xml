@@ -6,6 +6,7 @@
   <ThingDef ParentName="BaseBuildings_WVC" Name="WVC_BuildingBed_Base" Abstract="True">
 	<!-- <defName>WVC_MechanoidBed</defName> -->
 	<!-- = -->
+	<!-- <description>An impassable wall. Capable of holding up a roof.</description> -->
 	<thingClass>Building_Bed</thingClass>
 	<altitudeLayer>Building</altitudeLayer>
 	<comps>
@@ -31,7 +32,7 @@
 	<defaultPlacingRot>South</defaultPlacingRot>
 	<!-- = -->
 	<label>bed</label>
-	<description>A slab of hard material made to sleep on.</description>
+	<description>A high-tech bed that perfectly adapts to the person sleeping on it.</description>
 	<techLevel>Spacer</techLevel>
 	<graphicData Inherit="False">
 	  <texPath>WVC/Stuff/Furniture/AncientBed</texPath>
@@ -49,10 +50,17 @@
 	  <SurgerySuccessChanceFactor>1.2</SurgerySuccessChanceFactor>
 	  <Beauty>2</Beauty>
 	  <Comfort>1.1</Comfort>
+	  <BirthRitualQualityOffset MayRequire="Ludeon.RimWorld.Biotech">15</BirthRitualQualityOffset>
 	</statBases>
 	<costList>
-	  <Plasteel>50</Plasteel>
+	  <Plasteel>30</Plasteel>
 	</costList>
+	<stuffCategories>
+	  <li>Metallic</li>
+	  <li>Woody</li>
+	  <li>Stony</li>
+	</stuffCategories>
+	<costStuffCount>5</costStuffCount>
 	<size>(1,2)</size>
 	<building>
 	  <bed_slabBed>true</bed_slabBed>
@@ -72,8 +80,8 @@
 	<staticSunShadowHeight>0.17</staticSunShadowHeight>
 	<castEdgeShadows>True</castEdgeShadows>
 	<uiIconScale>0.90</uiIconScale>
-	<designatorDropdown>HGS_Beds_WVC</designatorDropdown>
-	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+	<!-- <designatorDropdown>HGS_Beds_WVC</designatorDropdown> -->
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<thingCategories>
@@ -111,7 +119,7 @@
 		  <Mass>22</Mass>
 		</statBases>
 		<costList>
-		  <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech>
+		  <!-- <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech> -->
 		</costList>
 		<comps>
 		  <li Class="CompProperties_Glower">
@@ -124,8 +132,9 @@
 			<!-- <transmitsPower>true</transmitsPower> -->
 		  <!-- </li> -->
 		</comps>
+		<designationCategory></designationCategory>
 		<researchPrerequisites>
-			<li>ValkyriesTechs_III_WVC</li>
+			<li>ValkyriesTechs_II_WVC</li>
 		</researchPrerequisites>
 	</ThingDef>
 
@@ -133,26 +142,60 @@
   
   <ThingDef ParentName="WVC_BuildingBed_Ancient">
 	<defName>WVC_AncientBed</defName>
-	<label>(Single) Ancient bed</label>
+	<label>ultratech slab bed</label>
+	<building>
+		<paintable>true</paintable>
+	</building>
 	<graphicData>
 	  <texPath>WVC/Stuff/Furniture/AncientBed</texPath>
+	  <!-- <color>(65,69,65)</color> -->
+	  <!-- <colorTwo>(65,69,65)</colorTwo> -->
 	</graphicData>
   </ThingDef>
+
+  <!-- <ThingDef ParentName="BasicBedBase" Name="Bed"> -->
+	<!-- <defName>WVC_TEST_Bed</defName> -->
+	<!-- <label>bed</label> -->
+	<!-- <description>A cozy mattress and sheets on a frame for resting.</description> -->
+	<!-- <graphicData> -->
+	  <!-- <texPath>WVC/Stuff/Furniture/AncientBed</texPath> -->
+	  <!-- <graphicClass>Graphic_Multi</graphicClass> -->
+	  <!-- <shaderType>CutoutComplex</shaderType> -->
+	  <!-- <drawSize>(2,2)</drawSize> -->
+	  <!-- <damageData> -->
+		<!-- <rect>(0,0.05,1,1.95)</rect> -->
+	  <!-- </damageData> -->
+	<!-- </graphicData> -->
+	<!-- <statBases> -->
+	  <!-- <MaxHitPoints>140</MaxHitPoints> -->
+	  <!-- <Beauty>1</Beauty> -->
+	  <!-- <WorkToBuild>800</WorkToBuild> -->
+	  <!-- <Mass>30</Mass> -->
+	  <!-- <BedRestEffectiveness>1</BedRestEffectiveness> -->
+	<!-- </statBases> -->
+	<!-- <size>(1,2)</size> -->
+	<!-- <costStuffCount>45</costStuffCount> -->
+	<!-- <designationHotKey>Misc2</designationHotKey> -->
+	<!-- <uiOrder>2010</uiOrder> -->
+	<!-- <building> -->
+	  <!-- <paintable>true</paintable> -->
+	<!-- </building> -->
+  <!-- </ThingDef> -->
   
-  <ThingDef ParentName="WVC_BuildingBed_Mechanoid">
-	<defName>WVC_MechanoidBed</defName>
-	<label>(Single) Mechanoid bed</label>
-	<graphicData>
-	  <texPath>WVC/Stuff/Furniture/MechanoidBed</texPath>
-	</graphicData>
-  </ThingDef>
+  <!-- <ThingDef ParentName="WVC_BuildingBed_Mechanoid"> -->
+	<!-- <defName>WVC_MechanoidBed</defName> -->
+	<!-- <label>(Single) Mechtech bed</label> -->
+	<!-- <graphicData> -->
+	  <!-- <texPath>WVC/Stuff/Furniture/MechanoidBed</texPath> -->
+	<!-- </graphicData> -->
+  <!-- </ThingDef> -->
   
-  <ThingDef ParentName="WVC_BuildingBed_Archotech">
-	<defName>WVC_ArchotechBed</defName>
-	<label>(Single) Archotech bed</label>
-	<graphicData>
-	  <texPath>WVC/Stuff/Furniture/ArchotechBed</texPath>
-	</graphicData>
-  </ThingDef>
+  <!-- <ThingDef ParentName="WVC_BuildingBed_Archotech"> -->
+	<!-- <defName>WVC_ArchotechBed</defName> -->
+	<!-- <label>(Single) Archotech bed</label> -->
+	<!-- <graphicData> -->
+	  <!-- <texPath>WVC/Stuff/Furniture/ArchotechBed</texPath> -->
+	<!-- </graphicData> -->
+  <!-- </ThingDef> -->
 
 </Defs>

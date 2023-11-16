@@ -19,15 +19,15 @@
   <DesignatorDropdownGroupDef>
 	<defName>HGS_Nodes_WVC</defName>
   </DesignatorDropdownGroupDef>
-  <DesignatorDropdownGroupDef>
-	<defName>HGS_Beds_WVC</defName>
-  </DesignatorDropdownGroupDef>
-  <DesignatorDropdownGroupDef>
-	<defName>HGS_Stools_WVC</defName>
-  </DesignatorDropdownGroupDef>
-  <DesignatorDropdownGroupDef>
-	<defName>HGS_Tables_WVC</defName>
-  </DesignatorDropdownGroupDef>
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Beds_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Stools_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Tables_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
   <DesignatorDropdownGroupDef>
 	<defName>HGS_Workbenches_WVC</defName>
   </DesignatorDropdownGroupDef>
@@ -37,15 +37,15 @@
   <!-- <DesignatorDropdownGroupDef> -->
 	<!-- <defName>HGS_Mechanizer_WVC</defName> -->
   <!-- </DesignatorDropdownGroupDef> -->
-  <DesignatorDropdownGroupDef>
-	<defName>HGS_Gaurler_WVC</defName>
-  </DesignatorDropdownGroupDef>
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Gaurler_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
   <DesignatorDropdownGroupDef>
 	<defName>HGS_Spawners_WVC</defName>
   </DesignatorDropdownGroupDef>
-  <DesignatorDropdownGroupDef>
-	<defName>HGS_Storage_WVC</defName>
-  </DesignatorDropdownGroupDef>
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Storage_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
   
   <DesignatorDropdownGroupDef>
 	<defName>Mechanoids_MiniTurrets_WVC</defName>

@@ -1,119 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="ResourceBase">
-	<defName>WVC_LivingMetall</defName>
-	<label>living metal</label>
-	<description>The metal behind ultra technologies. It is flesh-like, flexible and has regenerative properties. One way to get it is to rip it off a dead semi-organic being.\n\nIn its current state, it is unable to regenerate.</description>
-	<techLevel>Ultra</techLevel>
-	<graphicData>
-	  <texPath>WVC/Resource/Plasteel</texPath>
-	  <graphicClass>Graphic_StackCount</graphicClass>
-	</graphicData>
-	<soundInteract>Metal_Drop</soundInteract>
-	<soundDrop>Metal_Drop</soundDrop>
-	<useHitPoints>false</useHitPoints>
-	<healthAffectsPrice>false</healthAffectsPrice>
-	<statBases>
-	  <MarketValue>14</MarketValue>
-	  <Mass>0.13</Mass>
-	  <DeteriorationRate>0</DeteriorationRate>
-	  <StuffPower_Armor_Sharp>1.24</StuffPower_Armor_Sharp>
-	  <StuffPower_Armor_Blunt>1.05</StuffPower_Armor_Blunt>
-	  <StuffPower_Armor_Heat>1.15</StuffPower_Armor_Heat>
-	  <StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
-	  <StuffPower_Insulation_Heat>23</StuffPower_Insulation_Heat>
-	  <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
-	  <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
-	</statBases>
-	<thingCategories>
-	  <li>ResourcesRaw</li>
-	  <!-- <li>WVC_MetalResources_Raw</li> -->
-	</thingCategories>
-	<!-- <deepCommonality>0</deepCommonality> -->
-	<!-- <deepCountPerPortion>10</deepCountPerPortion> -->
-	<!-- <deepLumpSizeRange>2~10</deepLumpSizeRange> -->
-	<burnableByRecipe>false</burnableByRecipe>
-	<smeltable>true</smeltable>
-	<stuffProps>
-	  <categories>
-		<!-- <li>Stony</li> -->
-		<!-- <li>Fabric</li> -->
-		<!-- <li>Woody</li> -->
-		<li>Metallic</li>
-	  </categories>
-	  <appearance>Metal</appearance>
-	  <commonality>0.001</commonality>
-	  <constructEffect>ConstructMetal</constructEffect>
-	  <color>(255,224,200)</color>
-	  <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
-	  <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
-	  <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
-	  <statFactors>
-		<MaxHitPoints>3.0</MaxHitPoints>
-		<Beauty>5</Beauty>
-		<Flammability>0</Flammability>
-		<WorkToMake>3.5</WorkToMake>
-		<WorkToBuild>3.5</WorkToBuild>
-		<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
-	  </statFactors>
-	</stuffProps>
-	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-	<allowedArchonexusCount>80</allowedArchonexusCount>
-	<!-- =living part= -->
-	<rotatable>true</rotatable>
-	<tickerType>Rare</tickerType>
-	<comps>
-	  <li Class="CompProperties_Rottable">
-		<daysToRotStart>60</daysToRotStart>
-		<rotDestroys>true</rotDestroys>
-	  </li>
-	</comps>
-  </ThingDef>
-
   <!-- ================================================================= -->
 
-  <ThingDef Name="WVC_UltraComponents_Base" ParentName="ResourceBase">
-	<!-- <defName>VFE_ComponentMechanoid</defName> -->
-	<defName>VFE_ComponentMechanoid</defName>
-	<label>mechanoid component</label>
-	<description>Very advanced processors and nano-calculators most often used in creation of mechanoid-tech on urbworld mechanoid swarm foundries.</description>
-	<techLevel>Ultra</techLevel>
-	<uiIconScale>1.0</uiIconScale>
-	<graphicData>
-	  <texPath>Things/Item/Resource/VFE_ComponentMechanoid</texPath>
-	  <graphicClass>Graphic_Random</graphicClass>
-	</graphicData>
-	<soundInteract>Metal_Drop</soundInteract>
-	<soundDrop>Standard_Drop</soundDrop>
-	<stackLimit>50</stackLimit>
-	<healthAffectsPrice>false</healthAffectsPrice>
-	<statBases>
-	  <MaxHitPoints>140</MaxHitPoints>
-	  <MarketValue>350</MarketValue>
-	  <Mass>0.8</Mass>
-	  <Flammability>0.2</Flammability>
-	  <DeteriorationRate>2.0</DeteriorationRate>
-	  <Bulk MayRequire="ceteam.combatextended">0.5</Bulk>
-	</statBases>
-	<intricate>true</intricate>
-	<thingCategories>
-	  <li>Manufactured</li>
-	</thingCategories>
-	<tradeTags>
-	  <li>ExoticMisc</li>
-	</tradeTags>
-	<thingSetMakerTags>
-		<li>RewardStandardHighFreq</li>
-	</thingSetMakerTags>
-  </ThingDef>
+  <!-- <ThingDef Name="WVC_UltraComponents_Base" ParentName="ResourceBase"> -->
+	<!-- <defName>ComponentSpacer</defName> -->
+	<!-- <label>mechanoid component</label> -->
+	<!-- <description>Very advanced processors and nano-calculators most often used in creation of mechanoid-tech on urbworld mechanoid swarm foundries.</description> -->
+	<!-- <techLevel>Ultra</techLevel> -->
+	<!-- <uiIconScale>1.0</uiIconScale> -->
+	<!-- <graphicData> -->
+	  <!-- <texPath>Things/Item/Resource/ComponentSpacer</texPath> -->
+	  <!-- <graphicClass>Graphic_Random</graphicClass> -->
+	<!-- </graphicData> -->
+	<!-- <soundInteract>Metal_Drop</soundInteract> -->
+	<!-- <soundDrop>Standard_Drop</soundDrop> -->
+	<!-- <stackLimit>50</stackLimit> -->
+	<!-- <healthAffectsPrice>false</healthAffectsPrice> -->
+	<!-- <statBases> -->
+	  <!-- <MaxHitPoints>140</MaxHitPoints> -->
+	  <!-- <MarketValue>350</MarketValue> -->
+	  <!-- <Mass>0.8</Mass> -->
+	  <!-- <Flammability>0.2</Flammability> -->
+	  <!-- <DeteriorationRate>2.0</DeteriorationRate> -->
+	  <!-- <Bulk MayRequire="ceteam.combatextended">0.5</Bulk> -->
+	<!-- </statBases> -->
+	<!-- <intricate>true</intricate> -->
+	<!-- <thingCategories> -->
+	  <!-- <li>Manufactured</li> -->
+	<!-- </thingCategories> -->
+	<!-- <tradeTags> -->
+	  <!-- <li>ExoticMisc</li> -->
+	<!-- </tradeTags> -->
+	<!-- <thingSetMakerTags> -->
+		<!-- <li>RewardStandardHighFreq</li> -->
+	<!-- </thingSetMakerTags> -->
+  <!-- </ThingDef> -->
 
   <!-- ================================================================= -->
 
   <ThingDef ParentName="ResourceBase">
 	<defName>WVC_UniversalFuel</defName>
-	<label>mechanites</label>
-	<description>Clustered mechanites that can be used as a general purpose fuel. Suitable for eating.</description>
+	<label>ultranites</label>
+	<description>Unstable convertible microscopic machines capable of taking the desired "form". To manipulate them, special devices are required. They can be eaten as a nutritional paste.</description>
 	<descriptionHyperlinks>
 	  <ConceptDef>WVC_MechanitesIsUniversalFuel</ConceptDef>
 	</descriptionHyperlinks>
@@ -144,26 +73,18 @@
 	  <!-- <li>ResourcesRaw</li> -->
 	</thingCategories>
 	<ingestible>
-	  <preferability>MealAwful</preferability>
-	  <foodType>Processed</foodType>
+	  <foodType>Fluid</foodType>
+	  <preferability>DesperateOnly</preferability>
+	  <!-- <foodType>Processed</foodType> -->
 	  <ateEvent>AteNutrientPaste</ateEvent>
 	  <ingestEffect>EatVegetarian</ingestEffect>
 	  <ingestSound>Meal_Eat</ingestSound>
 	  <babiesCanIngest>true</babiesCanIngest>
-	  <!-- <outcomeDoers> -->
-		<!-- <li Class="IngestionOutcomeDoer_GiveHediff"> -->
-		  <!-- <hediffDef>WVC_MechanitesEaten_Rest</hediffDef> -->
-		  <!-- <severity>0.06</severity> -->
-		<!-- </li> -->
-		<!-- <li MayRequire="ahndemi.panieltheautomata" Class="IngestionOutcomeDoer_GiveHediff"> -->
-		  <!-- <hediffDef>WVC_MechanitesEaten_PN_Need_Fuel</hediffDef> -->
-		  <!-- <severity>0.05</severity> -->
-		<!-- </li> -->
-		<!-- <li MayRequire="ahndemi.panieltheautomata" Class="IngestionOutcomeDoer_GiveHediff"> -->
-		  <!-- <hediffDef>WVC_MechanitesEaten_PN_Need_Maintenance</hediffDef> -->
-		  <!-- <severity>0.02</severity> -->
-		<!-- </li> -->
-	  <!-- </outcomeDoers> -->
+	  <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+	  <!-- <tableDesired>false</tableDesired> -->
+	  <!-- <ingestHoldUsesTable>false</ingestHoldUsesTable> -->
+	  <!-- <optimalityOffsetHumanlikes>-100</optimalityOffsetHumanlikes> -->
+	  <!-- <optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals> -->
 	</ingestible>
 	<comps>
 	  <li Class="CompProperties_Glower">
@@ -178,7 +99,7 @@
 
   <ThingDef ParentName="MedicineBase">
 	<defName>WVC_MedicineMechanite</defName>
-	<label>mechanite medicine</label>
+	<label>mechtech medicine</label>
 	<description>A kit of mechanite medical supplies. It contains multi-directional mechanites with a device to control them, the effectiveness is almost equal to similar ultra-tech medicine.</description>
 	<descriptionHyperlinks>
 	  <!-- <ConceptDef>WVC_MedicineMechanite_BionicELF</ConceptDef> -->
@@ -219,7 +140,7 @@
 	</recipeMaker>
 	<costList>
 	  <WVC_UniversalFuel>34</WVC_UniversalFuel>
-	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	  <ComponentSpacer>1</ComponentSpacer>
 	</costList>
 	<tradeTags>
 	  <li>ExoticMisc</li>

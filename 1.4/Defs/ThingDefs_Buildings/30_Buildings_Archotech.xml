@@ -34,9 +34,11 @@
 	</statBases>
 	<costList>
 	  <Plasteel>30</Plasteel>
-	  <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech>
-	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	  <!-- <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech> -->
+	  <!-- <ComponentSpacer>1</ComponentSpacer> -->
 	</costList>
+	<!-- <designationCategory>WVC_UltraExpansion</designationCategory> -->
+	<designationCategory></designationCategory>
 	<building>
 	  <ai_chillDestination>false</ai_chillDestination>
 	  <isInert>true</isInert>
@@ -51,11 +53,10 @@
 	<rotatable>false</rotatable>
 	<selectable>true</selectable>
 	<neverMultiSelect>true</neverMultiSelect>
-	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
-	<designationCategory>WVC_UltraExpansion</designationCategory>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<staticSunShadowHeight>0.20</staticSunShadowHeight>
 	<researchPrerequisites Inherit="False">
-	  <li>ValkyriesTechs_III_WVC</li>
+	  <li>ValkyriesTechs_II_WVC</li>
 	</researchPrerequisites>
 	<comps>
 	</comps>

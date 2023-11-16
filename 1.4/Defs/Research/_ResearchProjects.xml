@@ -56,7 +56,7 @@
 
   <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
 	<defName>ValkyriesTechs_II_WVC</defName>
-	<label>improved mechtech</label>
+	<label>advanced mechtech</label>
 	<description>Advanced mechtech research to replicate, improve and empower.</description>
 	  <researchViewX>1.00</researchViewX>
 	  <researchViewY>2.70</researchViewY>
@@ -75,28 +75,24 @@
 	</prerequisites>
   </ResearchProjectDef>
 
-  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
-	<defName>ValkyriesTechs_III_WVC</defName>
-	<label>advanced mechtech</label>
-	<description>Research that absorbed all previous knowledge and discovered technologies close but at the same time far from archotech.</description>
-	<researchViewX>6.00</researchViewX>
-	<researchViewY>3.50</researchViewY>
-	<techLevel>Archotech</techLevel>
-	<hiddenPrerequisites>
-	</hiddenPrerequisites>
-	<prerequisites>
-	  <!-- <li>ValkyriesTechs_ResourceConversionI_WVC</li> -->
-	  <!-- <li>ValkyriesTechs_II_WVC</li> -->
-	  <!-- <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechTierOne</li> -->
-	  <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechStart</li>
-	  <!-- Nodes -->
-	  <li>WVC_ResearchNodes_Blue</li>
-	  <li>WVC_ResearchNodes_Red</li>
-	  <li>WVC_ResearchNodes_Violet</li>
-	  <li>WVC_ResearchNodes_Green</li>
-	  <li>WVC_ResearchNodes_Yellow</li>
-	</prerequisites>
-  </ResearchProjectDef>
+  <!-- <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC"> -->
+	<!-- <defName>ValkyriesTechs_II_WVC</defName> -->
+	<!-- <label>advanced mechtech</label> -->
+	<!-- <description>Research that absorbed all previous knowledge and discovered technologies close but at the same time far from archotech.</description> -->
+	<!-- <researchViewX>6.00</researchViewX> -->
+	<!-- <researchViewY>3.50</researchViewY> -->
+	<!-- <techLevel>Archotech</techLevel> -->
+	<!-- <hiddenPrerequisites> -->
+	<!-- </hiddenPrerequisites> -->
+	<!-- <prerequisites> -->
+	  <!-- <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechStart</li> -->
+	  <!-- <li>WVC_ResearchNodes_Blue</li> -->
+	  <!-- <li>WVC_ResearchNodes_Red</li> -->
+	  <!-- <li>WVC_ResearchNodes_Violet</li> -->
+	  <!-- <li>WVC_ResearchNodes_Green</li> -->
+	  <!-- <li>WVC_ResearchNodes_Yellow</li> -->
+	<!-- </prerequisites> -->
+  <!-- </ResearchProjectDef> -->
 
   <!-- ======================================================================= -->
 
@@ -199,26 +195,22 @@
 	</prerequisites>
   </ResearchProjectDef>
 
-  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
-	<defName>WVC_MechanoidTech_IncubatorLF</defName>
-	<label>node machine</label>
-	<description>Using the data of previous studies to create a complex machine that will allow you to get a living metal.</description>
-	<researchViewX>2.00</researchViewX>
-	<researchViewY>2.70</researchViewY>
-	<hiddenPrerequisites>
-	</hiddenPrerequisites>
-	<tags>
-	  <li>WVC_Assembled_ELF_Base</li>
-	</tags>
-	<prerequisites>
-	  <li>ValkyriesTechs_II_WVC</li>
-	  <li>ValkyriesTechs_ResourceConversionI_WVC</li>
-	  <!-- <li MayRequire="vanillaexpanded.vgeneticse">GR_GeneticMechahybridization</li> -->
-	  <!-- <li MayRequire="vanillaexpanded.vgeneticse">GR_InsectoidBioengineering</li> -->
-	  <!-- <li>ValkyriesTechs_GaurlerI_WVC</li> -->
-	  <!-- <li>WVC_RaceResearching_ELFs</li> -->
-	</prerequisites>
-  </ResearchProjectDef>
+  <!-- <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC"> -->
+	<!-- <defName>WVC_MechanoidTech_IncubatorLF</defName> -->
+	<!-- <label>node machine</label> -->
+	<!-- <description>Using the data of previous studies to create a complex machine that will allow you to get a living metal.</description> -->
+	<!-- <researchViewX>2.00</researchViewX> -->
+	<!-- <researchViewY>2.70</researchViewY> -->
+	<!-- <hiddenPrerequisites> -->
+	<!-- </hiddenPrerequisites> -->
+	<!-- <tags> -->
+	  <!-- <li>WVC_Assembled_ELF_Base</li> -->
+	<!-- </tags> -->
+	<!-- <prerequisites> -->
+	  <!-- <li>ValkyriesTechs_II_WVC</li> -->
+	  <!-- <li>ValkyriesTechs_ResourceConversionI_WVC</li> -->
+	<!-- </prerequisites> -->
+  <!-- </ResearchProjectDef> -->
 
   <!-- ======================================================================= -->
 

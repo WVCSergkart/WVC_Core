@@ -113,8 +113,9 @@
 		  <!-- </li> -->
 		</comps>
 		<researchPrerequisites>
-			<li>ValkyriesTechs_III_WVC</li>
+			<li>ValkyriesTechs_II_WVC</li>
 		</researchPrerequisites>
+		<designationCategory></designationCategory>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	</ThingDef>
 
@@ -127,7 +128,6 @@
 		  <Beauty>2</Beauty>
 		</statBases>
 		<thingCategories Inherit="False"/>
-		<designationCategory>WVC_UltraExpansion</designationCategory>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<!-- = -->
 		<techLevel>Archotech</techLevel>
@@ -140,7 +140,7 @@
 		  </li>
 		</comps>
 		<researchPrerequisites>
-			<li>ValkyriesTechs_III_WVC</li>
+			<li>ValkyriesTechs_II_WVC</li>
 		</researchPrerequisites>
 		<!-- <terrainAffordanceNeeded>Light</terrainAffordanceNeeded> -->
 	</ThingDef>
@@ -196,7 +196,7 @@
 		<fertility>0</fertility>
 		<costList>
 			<Plasteel>22</Plasteel>
-			<!-- <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid> -->
+			<!-- <ComponentSpacer>5</ComponentSpacer> -->
 		</costList>
 		<building>
 			<isInert>true</isInert>
@@ -208,12 +208,12 @@
 			<relatedBuildCommands>
 				<li>AncientDoor_WVC</li>
 				<li>MechanoidDoorA_WVC</li>
-				<li>MechanoidDoorB_WVC</li>
+				<!-- <li>MechanoidDoorB_WVC</li> -->
 				<li>ArchotechDoor_WVC</li>
 			</relatedBuildCommands>
 		</building>
 		<!-- <researchPrerequisites> -->
-		  <!-- <li>ValkyriesTechs_III_WVC</li> -->
+		  <!-- <li>ValkyriesTechs_II_WVC</li> -->
 		<!-- </researchPrerequisites> -->
 		<designatorDropdown>HGS_Walls_WVC</designatorDropdown>
 	</ThingDef>
@@ -223,7 +223,7 @@
 	<ThingDef Name="Marker_BuildingsWalls_Ancient_WVC" ParentName="Marker_BuildingsWalls_WVC" Abstract="True">
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+			<!-- <ComponentSpacer>1</ComponentSpacer> -->
 		</costList>
 		<comps Inherit="False">
 		</comps>
@@ -239,7 +239,7 @@
 	<ThingDef Name="Marker_BuildingsWalls_Mecha_WVC" ParentName="Marker_BuildingsWalls_WVC" Abstract="True">
 		<techLevel>Ultra</techLevel>
 		<costList>
-			<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+			<!-- <ComponentSpacer>1</ComponentSpacer> -->
 		</costList>
 		<comps Inherit="False">
 		</comps>
@@ -254,18 +254,19 @@
 	<ThingDef Name="Marker_BuildingsWalls_Archo_WVC" ParentName="Marker_BuildingsWalls_WVC" Abstract="True">
 		<techLevel>Archotech</techLevel>
 		<costList>
-			<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
-			<WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech>
+			<!-- <ComponentSpacer>1</ComponentSpacer> -->
+			<!-- <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech> -->
 		</costList>
 		<useHitPoints>false</useHitPoints>
 		<!-- <comps Inherit="False"> -->
 		<!-- </comps> -->
 		<researchPrerequisites Inherit="False">
-		  <li>ValkyriesTechs_III_WVC</li>
+		  <li>ValkyriesTechs_II_WVC</li>
 		</researchPrerequisites>
 		<statBases>
 			<MaxHitPoints>12000</MaxHitPoints>
 		</statBases>
+		<designationCategory></designationCategory>
 		<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
 	</ThingDef>
 
@@ -273,7 +274,7 @@
 
 	<ThingDef ParentName="Marker_BuildingsWalls_Ancient_WVC">
 		<defName>AncientWall_WVC</defName>
-		<label>ancient wall</label>
+		<label>ultratech wall</label>
 		<uiIconPath>WVC/Stuff/WallsDoorsColumns/AncientWall_Icon</uiIconPath>
 		<building>
 			<paintable>true</paintable>
@@ -285,26 +286,15 @@
 	</ThingDef>
 	<ThingDef ParentName="Marker_BuildingsWalls_Mecha_WVC">
 		<defName>MechanoidWallA_WVC</defName>
-		<label>mechanoid wall A</label>
+		<label>mechtech wall</label>
 		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidIconA</uiIconPath>
 		<building>
 			<paintable>true</paintable>
 		</building>
 		<graphicData>
 			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidWall</texPath>
-			<color>(164,164,145)</color>
-		</graphicData>
-	</ThingDef>
-	<ThingDef ParentName="Marker_BuildingsWalls_Mecha_WVC">
-		<defName>MechanoidWallB_WVC</defName>
-		<label>mechanoid wall B</label>
-		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidIconB</uiIconPath>
-		<building>
-			<paintable>true</paintable>
-		</building>
-		<graphicData>
-			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidWall</texPath>
-			<color>(181,165,153)</color>
+			<!-- <color>(164,164,145)</color> -->
+			<color>(184,198,203)</color>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="Marker_BuildingsWalls_Archo_WVC">
@@ -340,7 +330,7 @@
 		<uiIconPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_MenuIcon</uiIconPath>
 		<costList>
 			<Plasteel>75</Plasteel>
-		  <!-- <VFE_ComponentMechanoid>7</VFE_ComponentMechanoid> -->
+		  <!-- <ComponentSpacer>7</ComponentSpacer> -->
 		</costList>
 		<comps>
 			<li Class="CompProperties_Forbiddable">
@@ -374,7 +364,7 @@
 			<relatedBuildCommands>
 				<li>AncientWall_WVC</li>
 				<li>MechanoidWallA_WVC</li>
-				<li>MechanoidWallB_WVC</li>
+				<!-- <li>MechanoidWallB_WVC</li> -->
 				<li>ArchotechWall_WVC</li>
 			</relatedBuildCommands>
 		</building>
@@ -382,7 +372,7 @@
 		  <li>PlaceWorker_DoorLearnOpeningSpeed</li>
 		</placeWorkers>
 		<researchPrerequisites>
-		  <li>ValkyriesTechs_III_WVC</li>
+		  <li>ValkyriesTechs_II_WVC</li>
 		</researchPrerequisites>
 		<designatorDropdown>HGS_Doors_WVC</designatorDropdown>
 	</ThingDef>
@@ -390,7 +380,7 @@
 	<ThingDef Name="Marker_BuildingsDoors_Ancient_WVC" ParentName="Marker_BuildingsDoors_WVC" Abstract="True">
 		<techLevel>Spacer</techLevel>
 		<costList>
-			<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+			<!-- <ComponentSpacer>1</ComponentSpacer> -->
 		</costList>
 		<comps Inherit="False">
 		  <li Class="CompProperties_Forbiddable">
@@ -415,7 +405,7 @@
 	<ThingDef Name="Marker_BuildingsDoors_Mecha_WVC" ParentName="Marker_BuildingsDoors_WVC" Abstract="True">
 		<techLevel>Ultra</techLevel>
 		<costList>
-			<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+			<!-- <ComponentSpacer>1</ComponentSpacer> -->
 		</costList>
 		<comps Inherit="False">
 		  <li Class="CompProperties_Forbiddable">
@@ -438,10 +428,11 @@
 	<ThingDef Name="Marker_BuildingsDoors_Archo_WVC" ParentName="Marker_BuildingsDoors_WVC" Abstract="True">
 		<techLevel>Archotech</techLevel>
 		<costList>
-			<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
-			<WVC_ResourceNodes_Archotech>2</WVC_ResourceNodes_Archotech>
+			<!-- <ComponentSpacer>1</ComponentSpacer> -->
+			<!-- <WVC_ResourceNodes_Archotech>2</WVC_ResourceNodes_Archotech> -->
 		</costList>
 		<useHitPoints>false</useHitPoints>
+		<designationCategory></designationCategory>
 		<comps>
 		  <li Class="CompProperties_Power">
 			<compClass>CompPowerTrader</compClass>
@@ -450,7 +441,7 @@
 		  </li>
 		</comps>
 		<researchPrerequisites Inherit="False">
-		  <li>ValkyriesTechs_III_WVC</li>
+		  <li>ValkyriesTechs_II_WVC</li>
 		</researchPrerequisites>
 		<statBases>
 		  <MaxHitPoints>10000</MaxHitPoints>
@@ -462,7 +453,7 @@
 
 	<ThingDef ParentName="Marker_BuildingsDoors_Ancient_WVC">
 		<defName>AncientDoor_WVC</defName>
-		<label>ancient door</label>
+		<label>ultratech door</label>
 		<uiIconPath>WVC/Stuff/WallsDoorsColumns/AncientDoor_Icon</uiIconPath>
 		<building>
 			<paintable>true</paintable>
@@ -474,26 +465,15 @@
 	</ThingDef>
 	<ThingDef ParentName="Marker_BuildingsDoors_Mecha_WVC">
 		<defName>MechanoidDoorA_WVC</defName>
-		<label>mechanoid door A</label>
+		<label>mechtech door</label>
 		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorA_MenuIcon</uiIconPath>
 		<building>
 			<paintable>true</paintable>
 		</building>
 		<graphicData>
 			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorA_Mover</texPath>
-			<color>(164,164,145)</color>
-		</graphicData>
-	</ThingDef>
-	<ThingDef ParentName="Marker_BuildingsDoors_Mecha_WVC">
-		<defName>MechanoidDoorB_WVC</defName>
-		<label>mechanoid door B</label>
-		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorB_MenuIcon</uiIconPath>
-		<building>
-			<paintable>true</paintable>
-		</building>
-		<graphicData>
-			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorA_Mover</texPath>
-			<color>(181,165,153)</color>
+			<!-- <color>(164,164,145)</color> -->
+			<color>(184,198,203)</color>
 		</graphicData>
 	</ThingDef>
 	<ThingDef ParentName="Marker_BuildingsDoors_Archo_WVC">
@@ -512,7 +492,7 @@
 
   <ThingDef ParentName="AncientBuildings_WVC">
 	<defName>AncientColumn_WVC</defName>
-	<label>ancient column</label>
+	<label>ultratech column</label>
 	<description>A column capable of holding a roof.</description>
 	<size>(1,1)</size>
 	<uiIconScale>0.75</uiIconScale>
@@ -547,7 +527,7 @@
 	<costList>
 	  <Plasteel>30</Plasteel>
 	  <!-- <Uranium>12</Uranium> -->
-	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	  <!-- <ComponentSpacer>1</ComponentSpacer> -->
 	</costList>
 	<!-- <thingSetMakerTags> -->
 	  <!-- <li>RewardStandardHighFreq</li> -->
@@ -571,7 +551,7 @@
 
   <ThingDef ParentName="MechanoidBuildings_WVC">
 	<defName>MechanoidColumn_WVC</defName>
-	<label>mechanoid column</label>
+	<label>mechtech column</label>
 	<description>A column capable of holding a roof.</description>
 	<size>(1,1)</size>
 	<uiIconScale>0.75</uiIconScale>
@@ -606,7 +586,7 @@
 	<costList>
 	  <Plasteel>30</Plasteel>
 	  <!-- <Uranium>12</Uranium> -->
-	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	  <ComponentSpacer>1</ComponentSpacer>
 	</costList>
 	<!-- <thingSetMakerTags> -->
 	  <!-- <li>RewardStandardHighFreq</li> -->
@@ -665,7 +645,7 @@
 	<costList>
 	  <Plasteel>30</Plasteel>
 	  <!-- <Uranium>12</Uranium> -->
-	  <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech>
+	  <!-- <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech> -->
 	</costList>
 	<!-- <thingSetMakerTags> -->
 	  <!-- <li>RewardStandardHighFreq</li> -->
@@ -679,7 +659,7 @@
 	<canOverlapZones>false</canOverlapZones>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<researchPrerequisites Inherit="False">
-	  <li>ValkyriesTechs_III_WVC</li>
+	  <li>ValkyriesTechs_II_WVC</li>
 	</researchPrerequisites>
 	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<designatorDropdown>HGS_Columns_WVC</designatorDropdown>

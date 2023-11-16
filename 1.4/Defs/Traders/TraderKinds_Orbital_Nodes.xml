@@ -10,45 +10,45 @@
 	  <!-- Resources -->
 	  <li Class="StockGenerator_SingleDef">
 		<thingDef>Silver</thingDef>
-		<countRange>14000~22000</countRange>
+		<countRange>4000~12000</countRange>
 	  </li>
 	  <li Class="StockGenerator_SingleDef">
 		<thingDef>MedicineIndustrial</thingDef>
-		<countRange>16~50</countRange>
+		<countRange>2~8</countRange>
 	  </li>
 	  <li Class="StockGenerator_SingleDef">
 		<thingDef>MedicineUltratech</thingDef>
-		<countRange>12~35</countRange>
+		<countRange>1~4</countRange>
 	  </li>
 	  <li Class="StockGenerator_SingleDef">
 		<thingDef>WVC_MedicineMechanite</thingDef>
-		<countRange>12~35</countRange>
+		<countRange>1~4</countRange>
 	  </li>
-	  <li Class="StockGenerator_SingleDef">
-		<thingDef>WVC_ResourceNodes_Blue</thingDef>
-		<countRange>20~60</countRange>
-	  </li>
-	  <li Class="StockGenerator_SingleDef">
-		<thingDef>WVC_ResourceNodes_Green</thingDef>
-		<countRange>20~60</countRange>
-	  </li>
-	  <li Class="StockGenerator_SingleDef">
-		<thingDef>WVC_ResourceNodes_Red</thingDef>
-		<countRange>20~60</countRange>
-	  </li>
-	  <li Class="StockGenerator_SingleDef">
-		<thingDef>WVC_ResourceNodes_Violet</thingDef>
-		<countRange>20~60</countRange>
-	  </li>
-	  <li Class="StockGenerator_SingleDef">
-		<thingDef>WVC_ResourceNodes_Archotech</thingDef>
-		<countRange>0~20</countRange>
-	  </li>
+	  <!-- <li Class="StockGenerator_SingleDef"> -->
+		<!-- <thingDef>WVC_ResourceNodes_Blue</thingDef> -->
+		<!-- <countRange>20~60</countRange> -->
+	  <!-- </li> -->
+	  <!-- <li Class="StockGenerator_SingleDef"> -->
+		<!-- <thingDef>WVC_ResourceNodes_Green</thingDef> -->
+		<!-- <countRange>20~60</countRange> -->
+	  <!-- </li> -->
+	  <!-- <li Class="StockGenerator_SingleDef"> -->
+		<!-- <thingDef>WVC_ResourceNodes_Red</thingDef> -->
+		<!-- <countRange>20~60</countRange> -->
+	  <!-- </li> -->
+	  <!-- <li Class="StockGenerator_SingleDef"> -->
+		<!-- <thingDef>WVC_ResourceNodes_Violet</thingDef> -->
+		<!-- <countRange>20~60</countRange> -->
+	  <!-- </li> -->
+	  <!-- <li Class="StockGenerator_SingleDef"> -->
+		<!-- <thingDef>WVC_ResourceNodes_Archotech</thingDef> -->
+		<!-- <countRange>0~20</countRange> -->
+	  <!-- </li> -->
 
 	  <!-- BodyParts -->
 	  <li Class="StockGenerator_Tag">
 		<tradeTag>WVC_NodeImplant</tradeTag>
-		<thingDefCountRange>8~18</thingDefCountRange>
+		<thingDefCountRange>2~7</thingDefCountRange>
 		<countRange>1~2</countRange>
 	  </li>
 

@@ -431,7 +431,6 @@
 							<Operation Class="PatchOperationAdd">
 								<xpath>/Defs/RecipeDef[defName="Install_{defName_DEF}"]/appliedOnFixedBodyParts</xpath>
 								<value>
-									<!-- <li>WVC_OrganicReprocessor</li> -->
 									<li>FluidReprocessor</li>
 									<li>WVC_FormerHearth</li>
 								</value>
@@ -457,7 +456,6 @@
 							<Operation Class="PatchOperationAdd">
 								<xpath>/Defs/RecipeDef[defName="Install_{defName_DEF}"]/appliedOnFixedBodyParts</xpath>
 								<value>
-									<!-- <li>WVC_SightSensor</li> -->
 									<li>WVC_HearingSensor</li>
 									<li>WVC_SmellSensor</li>
 									<li>SightSensor</li>

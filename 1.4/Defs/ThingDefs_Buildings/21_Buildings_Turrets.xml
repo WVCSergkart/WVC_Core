@@ -26,7 +26,7 @@
 	<costList>
 		<Plasteel>60</Plasteel>
 		<Uranium>12</Uranium>
-		<VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+		<ComponentSpacer>1</ComponentSpacer>
 	</costList>
 	<thingCategories>
 	  <li>BuildingsSecurity</li>
@@ -93,7 +93,7 @@
 	<costList>
 		<Plasteel>60</Plasteel>
 		<Uranium>15</Uranium>
-		<VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+		<ComponentSpacer>2</ComponentSpacer>
 	</costList>
 	<building Inherit="False">
 	  <combatPower>150</combatPower>
@@ -114,7 +114,7 @@
 	<label>mini-inferno turret</label>
 	<costList>
 		<Plasteel>80</Plasteel>
-		<VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+		<ComponentSpacer>2</ComponentSpacer>
 	</costList>
 	<building Inherit="False">
 	  <combatPower>190</combatPower>
@@ -136,7 +136,7 @@
 	<costList>
 		<Plasteel>90</Plasteel>
 		<Uranium>19</Uranium>
-		<VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
+		<ComponentSpacer>5</ComponentSpacer>
 	</costList>
 	<building Inherit="False">
 	  <combatPower>220</combatPower>

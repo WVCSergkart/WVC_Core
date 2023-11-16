@@ -61,9 +61,9 @@
 	<costList>
 		<Plasteel>10</Plasteel>
 		<Uranium>3</Uranium>
-		<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+		<!-- <ComponentSpacer>1</ComponentSpacer> -->
 	</costList>
-	<terrainAffordanceNeeded>WVC_AncientFloorLamp</terrainAffordanceNeeded>
+	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 	<comps Inherit="False">
 	  <li Class="CompProperties_Flickable"/>
 	  <li Class="CompProperties_Glower">

@@ -55,8 +55,8 @@
 	  <color>(79,80,81)</color>
 	</graphicData>
 	<costList>
-	  <Uranium>14</Uranium>
-	  <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+	  <!-- <Uranium>14</Uranium> -->
+	  <!-- <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid> -->
 	</costList>
 	<recipeMaker>
 	  <skillRequirements>
@@ -91,7 +91,8 @@
 	  <li>WVC_BodyPartsNodes_Blue</li>
 	</thingCategories>
 	<costList>
-	  <WVC_ResourceNodes_Blue>4</WVC_ResourceNodes_Blue>
+	  <!-- <WVC_ResourceNodes_Blue>4</WVC_ResourceNodes_Blue> -->
+	  <Gold>16</Gold>
 	</costList>
 	<recipeMaker>
 	  <researchPrerequisite>WVC_ResearchBodyParts_NodeBlue</researchPrerequisite>
@@ -106,7 +107,8 @@
 	  <li>WVC_BodyPartsNodes_Green</li>
 	</thingCategories>
 	<costList>
-	  <WVC_ResourceNodes_Green>4</WVC_ResourceNodes_Green>
+	  <!-- <WVC_ResourceNodes_Green>4</WVC_ResourceNodes_Green> -->
+	  <WVC_UniversalFuel>130</WVC_UniversalFuel>
 	</costList>
 	<recipeMaker>
 	  <researchPrerequisite>WVC_ResearchBodyParts_NodeGreen</researchPrerequisite>
@@ -121,7 +123,9 @@
 	  <li>WVC_BodyPartsNodes_Red</li>
 	</thingCategories>
 	<costList>
-	  <WVC_ResourceNodes_Red>4</WVC_ResourceNodes_Red>
+	  <!-- <WVC_ResourceNodes_Red>4</WVC_ResourceNodes_Red> -->
+	  <!-- <WVC_UniversalFuel>55</WVC_UniversalFuel> -->
+	  <Uranium>13</Uranium>
 	</costList>
 	<recipeMaker>
 	  <researchPrerequisite>WVC_ResearchBodyParts_NodeRed</researchPrerequisite>
@@ -136,7 +140,9 @@
 	  <li>WVC_BodyPartsNodes_Violet</li>
 	</thingCategories>
 	<costList>
-	  <WVC_ResourceNodes_Violet>4</WVC_ResourceNodes_Violet>
+	  <!-- <WVC_ResourceNodes_Violet>4</WVC_ResourceNodes_Violet> -->
+	  <WVC_UniversalFuel>55</WVC_UniversalFuel>
+	  <Uranium>8</Uranium>
 	</costList>
 	<recipeMaker>
 	  <researchPrerequisite>WVC_ResearchBodyParts_NodeViolet</researchPrerequisite>
@@ -151,7 +157,9 @@
 	  <li>WVC_BodyPartsNodes_Yellow</li>
 	</thingCategories>
 	<costList>
-	  <WVC_ResourceNodes_Yellow>4</WVC_ResourceNodes_Yellow>
+	  <!-- <WVC_ResourceNodes_Yellow>4</WVC_ResourceNodes_Yellow> -->
+	  <WVC_UniversalFuel>55</WVC_UniversalFuel>
+	  <Gold>11</Gold>
 	</costList>
 	<recipeMaker>
 	  <researchPrerequisite>WVC_ResearchBodyParts_NodeYellow</researchPrerequisite>
@@ -169,7 +177,10 @@
 	  <color>(178,178,139)</color>
 	</graphicData>
 	<costList>
-	  <WVC_ResourceNodes_Archotech>6</WVC_ResourceNodes_Archotech>
+	  <!-- <WVC_ResourceNodes_Archotech>6</WVC_ResourceNodes_Archotech> -->
+	  <WVC_UniversalFuel>210</WVC_UniversalFuel>
+	  <Uranium>13</Uranium>
+	  <Gold>20</Gold>
 	</costList>
 	<!-- <recipeMaker Inherit="False"/> -->
 	<recipeMaker>

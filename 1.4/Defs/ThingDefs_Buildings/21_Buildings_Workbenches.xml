@@ -1,6 +1,146 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="MechanoidBuildings_WVC">
+	<defName>WVC_AdvancedCraftingBench</defName>
+	<label>mecha-hybridizer</label>
+	<!-- <label>Advanced crafter</label> -->
+	<description>The mecha-hybridizer uses mechanites and advanced multidirectional hybrid power plants to process various materials. Most of the crafter is located underground where all the magic happens, the part located on the surface is used for final processing.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
+	<!-- <altitudeLayer>Building</altitudeLayer> -->
+	<techLevel>Ultra</techLevel>
+	<descriptionHyperlinks Inherit="False">
+	  <!-- <ThingDef>WVC_ExoticWeaponComponents</ThingDef> -->
+	</descriptionHyperlinks>
+	<uiIconScale>1.0</uiIconScale>
+	<!-- Floor -->
+	<altitudeLayer>FloorCoverings</altitudeLayer>
+	<blockPlants>true</blockPlants>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<selectable>true</selectable>
+	<useHitPoints>true</useHitPoints>
+	<blocksAltitudes>
+	  <li>FloorCoverings</li>
+	</blocksAltitudes>
+	<building>
+	  <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+	  <ai_chillDestination>false</ai_chillDestination>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+	  <buildingTags>
+		<li>Production</li>
+	  </buildingTags>
+	  <isEdifice>true</isEdifice>
+	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	</building>
+	<!-- Floor -->
+	<graphicData>
+	  <texPath>WVC/Stuff/WeaponBench</texPath>
+	  <graphicClass>Graphic_Random</graphicClass>
+	  <drawSize>(3,3)</drawSize>
+	  <damageData>
+		<rect>(0.15, 0.15, 2.7, 2.7)</rect>
+	  </damageData>
+	</graphicData>
+	<size>(3,3)</size>
+	<statBases>
+		<MaxHitPoints>1200</MaxHitPoints>
+		<Mass>70</Mass>
+		<WorkToBuild>750</WorkToBuild>
+		<Flammability>0.0</Flammability>
+		<WorkTableWorkSpeedFactor>1.0</WorkTableWorkSpeedFactor>
+		<WorkTableEfficiencyFactor>1.0</WorkTableEfficiencyFactor>
+		<MarketValue>420</MarketValue>
+		<Beauty>-5</Beauty>
+		<Cleanliness>-2</Cleanliness>
+	</statBases>
+	<killedLeavings>
+	  <ChunkSlagSteel>7</ChunkSlagSteel>
+	</killedLeavings>
+	<thingClass>Building_WorkTable</thingClass>
+	<fillPercent>0.2</fillPercent>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<!-- <castEdgeShadows>true</castEdgeShadows> -->
+	<passability>PassThroughOnly</passability>
+	<pathCost>34</pathCost>
+	<rotatable>false</rotatable>
+	<hasInteractionCell>True</hasInteractionCell>
+	<!-- <interactionCellOffset>(0,0,-1)</interactionCellOffset> -->
+	<interactionCellOffset>(0,0,0)</interactionCellOffset>
+	<!-- <tickerType>Normal</tickerType> -->
+	<thingCategories>
+	  <li>BuildingsProduction</li>
+	</thingCategories>
+	<inspectorTabs>
+	  <li>ITab_Bills</li>
+	</inspectorTabs>
+	<costList>
+	  <Plasteel>120</Plasteel>
+	  <Uranium>20</Uranium>
+	  <ComponentSpacer>7</ComponentSpacer>
+	  <!-- <WVC_UniversalFuel>320</WVC_UniversalFuel> -->
+	  <!-- <VFE_ComponentMechanoid>15</VFE_ComponentMechanoid> -->
+	</costList>
+	<comps>
+	  <li>
+		<compClass>CompReportWorkSpeed</compClass>
+	  </li>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>5</glowRadius>
+		<glowColor>(78, 226, 229, 0)</glowColor>
+	  </li>
+	  <li Class="CompProperties_Power">
+		<compClass>CompPowerTrader</compClass>
+		<basePowerConsumption>0</basePowerConsumption>
+		<transmitsPower>true</transmitsPower>
+	  </li>
+	  <!-- <li Class="CompProperties_Flickable"/> -->
+	  <!-- <li Class="CompProperties_Spawner"> -->
+		<!-- <requiresPower>true</requiresPower> -->
+		<!-- <thingToSpawn>WVC_ExoticWeaponComponents</thingToSpawn> -->
+		<!-- <spawnCount>1</spawnCount> -->
+		<!-- <spawnIntervalRange><min>1800000</min><max>3600000</max></spawnIntervalRange> -->
+		<!-- <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn> -->
+		<!-- <showMessageIfOwned>false</showMessageIfOwned> -->
+	  <!-- </li> -->
+	  <!-- <li Class="CompProperties_Spawner"> -->
+		<!-- <requiresPower>true</requiresPower> -->
+		<!-- <thingToSpawn>VFE_ComponentMechanoid</thingToSpawn> -->
+		<!-- <spawnCount>2</spawnCount> -->
+		<!-- <spawnIntervalRange><min>120000</min><max>120000</max></spawnIntervalRange> -->
+		<!-- <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn> -->
+		<!-- <showMessageIfOwned>false</showMessageIfOwned> -->
+	  <!-- </li> -->
+	  <li Class="CompProperties_Forbiddable"/>
+	</comps>
+	<placeWorkers>
+	  <!-- <li>PlaceWorker_ShowFacilitiesConnections</li> -->
+	  <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+	  <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+	</placeWorkers>
+	<!-- <designatorDropdown>DefaultCraftingSpots_WVC</designatorDropdown> -->
+	<!-- <constructionSkillPrerequisite>6</constructionSkillPrerequisite> -->
+	<researchPrerequisites Inherit="False">
+		<li>ValkyriesTechs_ResourceConversionI_WVC</li>
+	</researchPrerequisites>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
+	<designatorDropdown>HGS_Workbenches_WVC</designatorDropdown>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
+	<modExtensions>
+	  <li Class="RecipeInheritance.ThingDefExtension">
+		<inheritRecipesFrom>
+		  <li>TableMachining</li>
+		  <li>ElectricSmithy</li>
+		  <li>ElectricSmelter</li>
+		  <li>FabricationBench</li>
+		</inheritRecipesFrom>
+	  </li>
+	</modExtensions>
+  </ThingDef>
+
+  <!-- ====================================================================== -->
+
   <ThingDef ParentName="BaseBuildings_WVC" Name="WVC_MechaniteCrafter_Base">
 	<defName>DefaultWorkSpot_WVC</defName>
 	<label>mechanizer</label>
@@ -67,7 +207,7 @@
 	<costList>
 	  <Plasteel>50</Plasteel>
 	  <ComponentSpacer>6</ComponentSpacer>
-	  <VFE_ComponentMechanoid>12</VFE_ComponentMechanoid>
+	  <ComponentSpacer>12</ComponentSpacer>
 	</costList>
 	<comps>
 	  <li>
@@ -86,7 +226,7 @@
 	  <li Class="CompProperties_Flickable"/>
 	  <!-- <li Class="CompProperties_Spawner"> -->
 		<!-- <requiresPower>true</requiresPower> -->
-		<!-- <thingToSpawn>VFE_ComponentMechanoid</thingToSpawn> -->
+		<!-- <thingToSpawn>ComponentSpacer</thingToSpawn> -->
 		<!-- <spawnCount>2</spawnCount> -->
 		<!-- <spawnIntervalRange><min>1800000</min><max>3600000</max></spawnIntervalRange> -->
 		<!-- <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn> -->
@@ -118,23 +258,23 @@
 	</modExtensions>
   </ThingDef>
 
-  <ThingDef ParentName="WVC_MechaniteCrafter_Base">
-	<defName>WVC_Node_MechaniteCrafter_Violet</defName>
-	<graphicData>
-	  <texPath>WVC/Stuff/Nodes/NodeMechaniteCrafter</texPath>
-	</graphicData>
-	<statBases>
-		<WorkTableEfficiencyFactor>1.5</WorkTableEfficiencyFactor>
-	</statBases>
-	<costList Inherit="False">
-	  <Plasteel>120</Plasteel>
-	  <WVC_ResourceNodes_Violet>32</WVC_ResourceNodes_Violet>
-	</costList>
-	<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
-	<researchPrerequisites>
-		<li>WVC_ResearchNodes_Violet</li>
-	</researchPrerequisites>
-  </ThingDef>
+  <!-- <ThingDef ParentName="WVC_MechaniteCrafter_Base"> -->
+	<!-- <defName>WVC_Node_MechaniteCrafter_Violet</defName> -->
+	<!-- <graphicData> -->
+	  <!-- <texPath>WVC/Stuff/Nodes/NodeMechaniteCrafter</texPath> -->
+	<!-- </graphicData> -->
+	<!-- <statBases> -->
+		<!-- <WorkTableEfficiencyFactor>1.5</WorkTableEfficiencyFactor> -->
+	<!-- </statBases> -->
+	<!-- <costList Inherit="False"> -->
+	  <!-- <Plasteel>120</Plasteel> -->
+	  <!-- <WVC_ResourceNodes_Violet>32</WVC_ResourceNodes_Violet> -->
+	<!-- </costList> -->
+	<!-- <constructionSkillPrerequisite>10</constructionSkillPrerequisite> -->
+	<!-- <researchPrerequisites> -->
+		<!-- <li>WVC_ResearchNodes_Violet</li> -->
+	<!-- </researchPrerequisites> -->
+  <!-- </ThingDef> -->
 
   <!-- ============================================================ -->
 
@@ -174,7 +314,7 @@
 	  <Plasteel>150</Plasteel>
 	  <Uranium>23</Uranium>
 	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
-	  <!-- <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid> -->
+	  <!-- <ComponentSpacer>2</ComponentSpacer> -->
 	</costList>
 	<altitudeLayer>Building</altitudeLayer>
 	<fillPercent>0.5</fillPercent>
@@ -248,7 +388,7 @@
 	  <texPath>WVC/Stuff/AncientCraftingBench/ExperimentalCraftingBench</texPath>
 	</graphicData>
 	<statBases>
-	  <WorkTableEfficiencyFactor>1.0</WorkTableEfficiencyFactor>
+	  <!-- <WorkTableEfficiencyFactor>1.0</WorkTableEfficiencyFactor> -->
 	</statBases>
 	<costList>
 	  <ComponentSpacer>3</ComponentSpacer>
@@ -265,11 +405,11 @@
 	  <texPath>WVC/Stuff/AncientCraftingBench/CyberneticCraftingBench</texPath>
 	</graphicData>
 	<statBases>
-	  <WorkTableEfficiencyFactor>1.1</WorkTableEfficiencyFactor>
+	  <!-- <WorkTableEfficiencyFactor>1.1</WorkTableEfficiencyFactor> -->
 	</statBases>
 	<costList>
 	  <ComponentSpacer>3</ComponentSpacer>
-	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	  <!-- <ComponentSpacer>1</ComponentSpacer> -->
 	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_BionicTech_Cybernetic</li>
@@ -285,11 +425,11 @@
 	  <texPath>WVC/Stuff/AncientCraftingBench/AncientCraftingBench</texPath>
 	</graphicData>
 	<statBases>
-	  <WorkTableEfficiencyFactor>1.2</WorkTableEfficiencyFactor>
+	  <!-- <WorkTableEfficiencyFactor>1.2</WorkTableEfficiencyFactor> -->
 	</statBases>
 	<costList>
 	  <ComponentSpacer>5</ComponentSpacer>
-	  <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+	  <!-- <ComponentSpacer>2</ComponentSpacer> -->
 	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_RaceResearching_Valkyries</li>
@@ -303,11 +443,11 @@
 	  <texPath>WVC/Stuff/AncientCraftingBench/MechanoidCraftingBench</texPath>
 	</graphicData>
 	<statBases>
-	  <WorkTableEfficiencyFactor>1.3</WorkTableEfficiencyFactor>
+	  <!-- <WorkTableEfficiencyFactor>1.3</WorkTableEfficiencyFactor> -->
 	</statBases>
 	<costList>
 	  <ComponentSpacer>5</ComponentSpacer>
-	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
+	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
 	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_RaceResearching_ELFs</li>
@@ -323,12 +463,12 @@
 	  <texPath>WVC/Stuff/AncientCraftingBench/BlueCraftingBench</texPath>
 	</graphicData>
 	<statBases>
-	  <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor>
+	  <!-- <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor> -->
 	</statBases>
 	<costList>
 	  <ComponentSpacer>5</ComponentSpacer>
-	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
-	  <WVC_ResourceNodes_Blue>7</WVC_ResourceNodes_Blue>
+	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
+	  <!-- <WVC_ResourceNodes_Blue>7</WVC_ResourceNodes_Blue> -->
 	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_ResearchBodyParts_NodeBlue</li>
@@ -342,12 +482,12 @@
 	  <texPath>WVC/Stuff/AncientCraftingBench/GreenCraftingBench</texPath>
 	</graphicData>
 	<statBases>
-	  <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor>
+	  <!-- <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor> -->
 	</statBases>
 	<costList>
 	  <ComponentSpacer>5</ComponentSpacer>
-	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
-	  <WVC_ResourceNodes_Green>7</WVC_ResourceNodes_Green>
+	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
+	  <!-- <WVC_ResourceNodes_Green>7</WVC_ResourceNodes_Green> -->
 	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_ResearchBodyParts_NodeGreen</li>
@@ -361,12 +501,12 @@
 	  <texPath>WVC/Stuff/AncientCraftingBench/RedCraftingBench</texPath>
 	</graphicData>
 	<statBases>
-	  <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor>
+	  <!-- <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor> -->
 	</statBases>
 	<costList>
 	  <ComponentSpacer>5</ComponentSpacer>
-	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
-	  <WVC_ResourceNodes_Red>7</WVC_ResourceNodes_Red>
+	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
+	  <!-- <WVC_ResourceNodes_Red>7</WVC_ResourceNodes_Red> -->
 	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_ResearchBodyParts_NodeRed</li>
@@ -380,12 +520,12 @@
 	  <texPath>WVC/Stuff/AncientCraftingBench/VioletCraftingBench</texPath>
 	</graphicData>
 	<statBases>
-	  <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor>
+	  <!-- <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor> -->
 	</statBases>
 	<costList>
 	  <ComponentSpacer>5</ComponentSpacer>
-	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
-	  <WVC_ResourceNodes_Violet>7</WVC_ResourceNodes_Violet>
+	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
+	  <!-- <WVC_ResourceNodes_Violet>7</WVC_ResourceNodes_Violet> -->
 	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_ResearchBodyParts_NodeViolet</li>
@@ -399,12 +539,12 @@
 	  <texPath>WVC/Stuff/AncientCraftingBench/YellowCraftingBench</texPath>
 	</graphicData>
 	<statBases>
-	  <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor>
+	  <!-- <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor> -->
 	</statBases>
 	<costList>
 	  <ComponentSpacer>5</ComponentSpacer>
-	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
-	  <WVC_ResourceNodes_Yellow>7</WVC_ResourceNodes_Yellow>
+	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
+	  <!-- <WVC_ResourceNodes_Yellow>7</WVC_ResourceNodes_Yellow> -->
 	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_ResearchBodyParts_NodeYellow</li>
@@ -415,17 +555,17 @@
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
 	<defName>WVC_ArchotechCraftingBench</defName>
-	<label>archotech implant workbench</label>
+	<label>mechtech implant workbench</label>
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/ArchotechCraftingBench</texPath>
 	</graphicData>
 	<statBases>
-	  <WorkTableEfficiencyFactor>1.5</WorkTableEfficiencyFactor>
+	  <!-- <WorkTableEfficiencyFactor>1.5</WorkTableEfficiencyFactor> -->
 	</statBases>
 	<costList>
 	  <ComponentSpacer>5</ComponentSpacer>
-	  <VFE_ComponentMechanoid>5</VFE_ComponentMechanoid>
-	  <WVC_ResourceNodes_Archotech>15</WVC_ResourceNodes_Archotech>
+	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
+	  <!-- <WVC_ResourceNodes_Archotech>15</WVC_ResourceNodes_Archotech> -->
 	</costList>
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_RaceResearching_Herrschers</li>

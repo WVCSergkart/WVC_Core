@@ -136,7 +136,7 @@
 	<researchViewX>6.00</researchViewX>
 	<researchViewY>1.20</researchViewY>
 	<prerequisites>
-	  <li>WVC_ResearchNodes_Blue</li>
+	  <!-- <li>WVC_ResearchNodes_Blue</li> -->
 	  <li>WVC_RaceResearching_ELFs</li>
 	  <li MayRequire="ludeon.rimworld.royalty">NeuralComputation</li>
 	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
@@ -150,7 +150,7 @@
 	<researchViewX>6.00</researchViewX>
 	<researchViewY>1.65</researchViewY>
 	<prerequisites>
-	  <li>WVC_ResearchNodes_Red</li>
+	  <!-- <li>WVC_ResearchNodes_Red</li> -->
 	  <li>WVC_RaceResearching_ELFs</li>
 	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
 	  <!-- <li>WVC_BionicTech_ScarsHealing</li> -->
@@ -164,7 +164,7 @@
 	<researchViewX>6.00</researchViewX>
 	<researchViewY>2.55</researchViewY>
 	<prerequisites>
-	  <li>WVC_ResearchNodes_Violet</li>
+	  <!-- <li>WVC_ResearchNodes_Violet</li> -->
 	  <li>WVC_RaceResearching_ELFs</li>
 	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
 	  <!-- <li>WVC_BionicTech_ScarsHealing</li> -->
@@ -177,7 +177,7 @@
 	<researchViewX>6.00</researchViewX>
 	<researchViewY>2.10</researchViewY>
 	<prerequisites>
-	  <li>WVC_ResearchNodes_Green</li>
+	  <!-- <li>WVC_ResearchNodes_Green</li> -->
 	  <li>WVC_RaceResearching_ELFs</li>
 	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
 	  <li>WVC_BionicTech_ScarsHealing</li>
@@ -190,7 +190,7 @@
 	<researchViewX>6.00</researchViewX>
 	<researchViewY>3.00</researchViewY>
 	<prerequisites>
-	  <li>WVC_ResearchNodes_Yellow</li>
+	  <!-- <li>WVC_ResearchNodes_Yellow</li> -->
 	  <li>WVC_RaceResearching_ELFs</li>
 	  <li MayRequire="ludeon.rimworld.royalty">CircadianInfluence</li>
 	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
@@ -211,16 +211,16 @@ All this makes it possible to achieve efficiency close to that of the archotech.
 	<researchViewX>7.00</researchViewX>
 	<researchViewY>2.10</researchViewY>
 	<prerequisites>
-	  <li>ValkyriesTechs_III_WVC</li>
+	  <!-- <li>ValkyriesTechs_II_WVC</li> -->
 	  <li MayRequire="honkai.girls.sergkart">WVC_RaceResearching_Dryad</li>
 	  <li MayRequire="ludeon.rimworld.biotech">Archogenetics</li>
 	  <!-- <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechTierThree</li> -->
 	  <!-- = -->
-	  <li>WVC_ResearchBodyParts_NodeBlue</li>
-	  <li>WVC_ResearchBodyParts_NodeGreen</li>
-	  <li>WVC_ResearchBodyParts_NodeRed</li>
-	  <li>WVC_ResearchBodyParts_NodeViolet</li>
-	  <li>WVC_ResearchBodyParts_NodeYellow</li>
+	  <!-- <li>WVC_ResearchBodyParts_NodeBlue</li> -->
+	  <!-- <li>WVC_ResearchBodyParts_NodeGreen</li> -->
+	  <!-- <li>WVC_ResearchBodyParts_NodeRed</li> -->
+	  <!-- <li>WVC_ResearchBodyParts_NodeViolet</li> -->
+	  <!-- <li>WVC_ResearchBodyParts_NodeYellow</li> -->
 	</prerequisites>
   </ResearchProjectDef>
 

@@ -2,10 +2,10 @@
 <Defs>
 
   <RecipeDef Name="GirlyWorkRecipeAbstractResources_WVC" ParentName="GirlyWorkRecipeAbstract_WVC" Abstract="True">
-	<effectWorking>Cook</effectWorking>
-	<soundWorking>Recipe_CookMeal</soundWorking>
+	<effectWorking>Smith</effectWorking>
+	<soundWorking>Recipe_Machining</soundWorking>
 	<workAmount>3000</workAmount>
-	<workTableEfficiencyStat>MechaniteCrafter_Efficiency_ConvertResources_WVC</workTableEfficiencyStat>
+	<!-- <workTableEfficiencyStat>MechaniteCrafter_Efficiency_ConvertResources_WVC</workTableEfficiencyStat> -->
 	<ingredients>
 	  <li>
 		<filter>
@@ -52,16 +52,16 @@
 	  <Plasteel>5</Plasteel>
 	</products>
   </RecipeDef>
-  <RecipeDef ParentName="GirlyWorkRecipeAbstractResources_WVC">
-	<defName>Make_FromRubbish_LivingMetal_WVC</defName>
-	<label>Convert to Living metal</label>
-	<products>
-	  <WVC_LivingMetall>5</WVC_LivingMetall>
-	</products>
-	<researchPrerequisites>
-	  <li MayRequire="ludeon.rimworld.biotech">BasicMechtech</li>
-	</researchPrerequisites>
-  </RecipeDef>
+  <!-- <RecipeDef ParentName="GirlyWorkRecipeAbstractResources_WVC"> -->
+	<!-- <defName>Make_FromRubbish_LivingMetal_WVC</defName> -->
+	<!-- <label>Convert to Living metal</label> -->
+	<!-- <products> -->
+	  <!-- <WVC_LivingMetall>5</WVC_LivingMetall> -->
+	<!-- </products> -->
+	<!-- <researchPrerequisites> -->
+	  <!-- <li MayRequire="ludeon.rimworld.biotech">BasicMechtech</li> -->
+	<!-- </researchPrerequisites> -->
+  <!-- </RecipeDef> -->
   <RecipeDef ParentName="GirlyWorkRecipeAbstractResources_WVC">
 	<defName>Make_FromRubbish_Uranium_WVC</defName>
 	<label>Convert to Uranium</label>

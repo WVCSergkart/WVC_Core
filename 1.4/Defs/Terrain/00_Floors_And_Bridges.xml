@@ -4,18 +4,18 @@
   <!-- ======================================================================= -->
 
   <!-- Supports mechanoid structures -->
-  <TerrainAffordanceDef>
-	<defName>MechanoidUnderground_WVC</defName>
-	<label>complex</label>
-	<order>1600</order>
-	<blockAffordanceOverlay>true</blockAffordanceOverlay>
-  </TerrainAffordanceDef>
-  <TerrainAffordanceDef>
-	<defName>WVC_AncientFloorLamp</defName>
-	<label>floor lamps</label>
-	<order>1600</order>
-	<blockAffordanceOverlay>true</blockAffordanceOverlay>
-  </TerrainAffordanceDef>
+  <!-- <TerrainAffordanceDef> -->
+	<!-- <defName>Heavy</defName> -->
+	<!-- <label>complex</label> -->
+	<!-- <order>1600</order> -->
+	<!-- <blockAffordanceOverlay>true</blockAffordanceOverlay> -->
+  <!-- </TerrainAffordanceDef> -->
+  <!-- <TerrainAffordanceDef> -->
+	<!-- <defName>Medium</defName> -->
+	<!-- <label>floor lamps</label> -->
+	<!-- <order>1600</order> -->
+	<!-- <blockAffordanceOverlay>true</blockAffordanceOverlay> -->
+  <!-- </TerrainAffordanceDef> -->
 
   <!-- ======================================================================= -->
 
@@ -39,7 +39,7 @@
 	  <li>Light</li>
 	  <li>Medium</li>
 	  <li>Heavy</li>
-	  <li>MechanoidUnderground_WVC</li>
+	  <!-- <li>Heavy</li> -->
 	</affordances>
 	<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
 	<fertility>0</fertility>
@@ -103,7 +103,7 @@
 	  <FilthMultiplier>0.2</FilthMultiplier>
 	</statBases>
 	<affordances>
-	  <li>WVC_AncientFloorLamp</li>
+	  <li>Medium</li>
 	</affordances>
 	<researchPrerequisites>
 		<li>ValkyriesTechs_I_WVC</li>
@@ -133,7 +133,7 @@
 	  <!-- <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech> -->
 	</costList>
 	<researchPrerequisites>
-		<li>ValkyriesTechs_III_WVC</li>
+		<li>ValkyriesTechs_II_WVC</li>
 	</researchPrerequisites>
 	<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
   </TerrainDef>
@@ -142,7 +142,7 @@
   
   <TerrainDef ParentName="BaseFloor_Ancient_WVC">
 	<defName>Floor_AncientFloor_WVC</defName>
-	<label>(Floor) Ancient floor</label>
+	<label>(Floor) Ultratech floor</label>
 	<texturePath>WVC/Stuff/Floors/AncientFloor</texturePath>
 	<color>(65,69,65)</color>
 	<isPaintable>true</isPaintable>
@@ -152,22 +152,23 @@
   
   <TerrainDef  ParentName="BaseFloor_Mech_WVC">
 	<defName>Floor_MechanoidFloor_WVC</defName>
-	<label>(Floor) Mechanoid floor A</label>
+	<label>(Floor) Mechtech floor</label>
 	<texturePath>WVC/Stuff/Floors/Floor_Mechanoid</texturePath>
-	<color>(164,164,145)</color>
+	<!-- <color>(164,164,145)</color> -->
+	<color>(184,198,203)</color>
 	<isPaintable>true</isPaintable>
   </TerrainDef>
-  <TerrainDef  ParentName="BaseFloor_Mech_WVC">
-	<defName>Floor_MechanoidFloorB_WVC</defName>
-	<label>(Floor) Mechanoid floor B</label>
-	<texturePath>WVC/Stuff/Floors/Floor_Mechanoid</texturePath>
-	<color>(181,165,153)</color>
-	<isPaintable>true</isPaintable>
-  </TerrainDef>
+  <!-- <TerrainDef  ParentName="BaseFloor_Mech_WVC"> -->
+	<!-- <defName>Floor_MechanoidFloorB_WVC</defName> -->
+	<!-- <label>(Floor) Mechanoid floor B</label> -->
+	<!-- <texturePath>WVC/Stuff/Floors/Floor_Mechanoid</texturePath> -->
+	<!-- <color>(181,165,153)</color> -->
+	<!-- <isPaintable>true</isPaintable> -->
+  <!-- </TerrainDef> -->
 
   <TerrainDef ParentName="BaseFloor_Mech_WVC">
 	<defName>Floor_MechanoidGravel_WVC</defName>
-	<label>(Floor) Mechanoid gravel</label>
+	<label>(Floor) Mechtech gravel</label>
 	<fertility>0.9</fertility>
 	<statBases>
 	  <Beauty>1</Beauty>
@@ -187,31 +188,31 @@
 
   <!-- ======================== -->
   
-  <TerrainDef ParentName="BaseFloor_Archo_WVC">
-	<defName>Floor_ArchotechFloor_WVC</defName>
-	<label>(Floor) Archotech floor</label>
-	<texturePath>WVC/Stuff/Floors/Floor_ArchotechA</texturePath>
-  </TerrainDef>
+  <!-- <TerrainDef ParentName="BaseFloor_Archo_WVC"> -->
+	<!-- <defName>Floor_ArchotechFloor_WVC</defName> -->
+	<!-- <label>(Floor) Archotech floor</label> -->
+	<!-- <texturePath>WVC/Stuff/Floors/Floor_ArchotechA</texturePath> -->
+  <!-- </TerrainDef> -->
 
-  <TerrainDef ParentName="BaseFloor_Archo_WVC">
-	<defName>Floor_ArchotechGravel_WVC</defName>
-	<label>(Floor) Archotech gravel</label>
-	<fertility>0.9</fertility>
-	<statBases>
-	  <Beauty>1</Beauty>
-	  <Cleanliness>-1</Cleanliness>
-	</statBases>
-	<texturePath>WVC/Stuff/Floors/Gravel_ArchotechA</texturePath>
-	<costList>
-	  <Neutroamine>1</Neutroamine>
-	</costList>
-	<affordances>
-	  <li>GrowSoil</li>
-	</affordances>
-	<tags>
-	  <li>Soil</li>
-	</tags>
-  </TerrainDef>
+  <!-- <TerrainDef ParentName="BaseFloor_Archo_WVC"> -->
+	<!-- <defName>Floor_ArchotechGravel_WVC</defName> -->
+	<!-- <label>(Floor) Archotech gravel</label> -->
+	<!-- <fertility>0.9</fertility> -->
+	<!-- <statBases> -->
+	  <!-- <Beauty>1</Beauty> -->
+	  <!-- <Cleanliness>-1</Cleanliness> -->
+	<!-- </statBases> -->
+	<!-- <texturePath>WVC/Stuff/Floors/Gravel_ArchotechA</texturePath> -->
+	<!-- <costList> -->
+	  <!-- <Neutroamine>1</Neutroamine> -->
+	<!-- </costList> -->
+	<!-- <affordances> -->
+	  <!-- <li>GrowSoil</li> -->
+	<!-- </affordances> -->
+	<!-- <tags> -->
+	  <!-- <li>Soil</li> -->
+	<!-- </tags> -->
+  <!-- </TerrainDef> -->
 
   <!-- ======================================================================= -->
 
@@ -224,7 +225,7 @@
 	  <FilthMultiplier>0.2</FilthMultiplier>
 	</statBases>
 	<affordances>
-	  <li>WVC_AncientFloorLamp</li>
+	  <li>Medium</li>
 	</affordances>
 	<researchPrerequisites>
 		<li>ValkyriesTechs_I_WVC</li>
@@ -254,7 +255,7 @@
 	  <!-- <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech> -->
 	</costList>
 	<researchPrerequisites>
-		<li>ValkyriesTechs_III_WVC</li>
+		<li>ValkyriesTechs_II_WVC</li>
 	</researchPrerequisites>
 	<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
   </TerrainDef>
@@ -263,7 +264,7 @@
   
   <TerrainDef ParentName="BaseBridges_Ancient_WVC">
 	<defName>Bridge_AncientFloor_WVC</defName>
-	<label>(Bridge) Ancient floor</label>
+	<label>(Bridge) Ultratech floor</label>
 	<texturePath>WVC/Stuff/Floors/AncientFloor</texturePath>
 	<color>(65,69,65)</color>
 	<isPaintable>true</isPaintable>
@@ -273,22 +274,16 @@
   
   <TerrainDef ParentName="BaseBridges_Mech_WVC">
 	<defName>Bridge_MechanoidFloor_WVC</defName>
-	<label>(Bridge) Mechanoid floor A</label>
+	<label>(Bridge) Mechtech floor</label>
 	<texturePath>WVC/Stuff/Floors/Floor_Mechanoid</texturePath>
-	<color>(164,164,145)</color>
-	<isPaintable>true</isPaintable>
-  </TerrainDef>
-  <TerrainDef ParentName="BaseBridges_Mech_WVC">
-	<defName>Bridge_MechanoidFloorB_WVC</defName>
-	<label>(Bridge) Mechanoid floor B</label>
-	<texturePath>WVC/Stuff/Floors/Floor_Mechanoid</texturePath>
-	<color>(181,165,153)</color>
+	<!-- <color>(164,164,145)</color> -->
+	<color>(184,198,203)</color>
 	<isPaintable>true</isPaintable>
   </TerrainDef>
 
   <TerrainDef ParentName="BaseBridges_Mech_WVC">
 	<defName>Bridge_MechanoidFungalGravel_WVC</defName>
-	<label>(Bridge) Mechanoid gravel</label>
+	<label>(Bridge) Mechtech gravel</label>
 	<texturePath>WVC/Stuff/Floors/Gravel_MechanoidA</texturePath>
 	<fertility>0.9</fertility>
 	<statBases>
@@ -308,30 +303,30 @@
 
   <!-- ======================== -->
   
-  <TerrainDef ParentName="BaseBridges_Archo_WVC">
-	<defName>Bridge_ArchotechFloor_WVC</defName>
-	<label>(Bridge) Archotech floor</label>
-	<texturePath>WVC/Stuff/Floors/Floor_ArchotechA</texturePath>
-  </TerrainDef>
+  <!-- <TerrainDef ParentName="BaseBridges_Archo_WVC"> -->
+	<!-- <defName>Bridge_ArchotechFloor_WVC</defName> -->
+	<!-- <label>(Bridge) Archotech floor</label> -->
+	<!-- <texturePath>WVC/Stuff/Floors/Floor_ArchotechA</texturePath> -->
+  <!-- </TerrainDef> -->
 
-  <TerrainDef ParentName="BaseBridges_Archo_WVC">
-	<defName>Bridge_ArchotechFungalGravel_WVC</defName>
-	<label>(Bridge) Archotech gravel</label>
-	<texturePath>WVC/Stuff/Floors/Gravel_ArchotechA</texturePath>
-	<fertility>0.9</fertility>
-	<statBases>
-	  <Beauty>1</Beauty>
-	  <Cleanliness>-1</Cleanliness>
-	</statBases>
-	<costList>
-	  <Neutroamine>1</Neutroamine>
-	</costList>
-	<affordances>
-	  <li>GrowSoil</li>
-	</affordances>
-	<tags>
-	  <li>Soil</li>
-	</tags>
-  </TerrainDef>
+  <!-- <TerrainDef ParentName="BaseBridges_Archo_WVC"> -->
+	<!-- <defName>Bridge_ArchotechFungalGravel_WVC</defName> -->
+	<!-- <label>(Bridge) Archotech gravel</label> -->
+	<!-- <texturePath>WVC/Stuff/Floors/Gravel_ArchotechA</texturePath> -->
+	<!-- <fertility>0.9</fertility> -->
+	<!-- <statBases> -->
+	  <!-- <Beauty>1</Beauty> -->
+	  <!-- <Cleanliness>-1</Cleanliness> -->
+	<!-- </statBases> -->
+	<!-- <costList> -->
+	  <!-- <Neutroamine>1</Neutroamine> -->
+	<!-- </costList> -->
+	<!-- <affordances> -->
+	  <!-- <li>GrowSoil</li> -->
+	<!-- </affordances> -->
+	<!-- <tags> -->
+	  <!-- <li>Soil</li> -->
+	<!-- </tags> -->
+  <!-- </TerrainDef> -->
 
 </Defs>

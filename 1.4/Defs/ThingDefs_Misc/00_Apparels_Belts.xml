@@ -26,7 +26,7 @@
 	  <li>RewardStandardQualitySuper</li>
 	</thingSetMakerTags>
 	<costList>
-	  <VFE_ComponentMechanoid>4</VFE_ComponentMechanoid>
+	  <ComponentSpacer>4</ComponentSpacer>
 	  <Plasteel>50</Plasteel>
 	  <Uranium>20</Uranium>
 	</costList>
@@ -39,7 +39,7 @@
 	  <soundWorking>Recipe_Machining</soundWorking>
 	  <recipeUsers>
 		<li>WVC_AdvancedCraftingBench</li>
-		<li>WVC_NodeCraftingBench</li>
+		<!-- <li>WVC_NodeCraftingBench</li> -->
 	  </recipeUsers>
 	  <useIngredientsForColor>false</useIngredientsForColor>
 	  <skillRequirements>

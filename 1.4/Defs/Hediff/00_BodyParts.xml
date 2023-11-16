@@ -203,7 +203,7 @@
 	  <color>(165,169,165)</color>
 	</graphicData>
 	<costList>
-	  <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
 	  <WVC_UniversalFuel>30</WVC_UniversalFuel>
 	  <Uranium>5</Uranium>
 	</costList>
@@ -243,9 +243,10 @@
 	  <color>(179,163,151)</color>
 	</graphicData>
 	<costList>
-	  <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid>
+	  <!-- <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid> -->
 	  <WVC_UniversalFuel>50</WVC_UniversalFuel>
 	  <Uranium>7</Uranium>
+	  <Gold>5</Gold>
 	</costList>
 	<recipeMaker>
 	  <skillRequirements>

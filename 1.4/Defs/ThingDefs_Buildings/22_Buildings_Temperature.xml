@@ -62,10 +62,10 @@
 		<Plasteel>50</Plasteel>
 		<Uranium>8</Uranium>
 		<ComponentSpacer>1</ComponentSpacer>
-		<!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+		<!-- <ComponentSpacer>1</ComponentSpacer> -->
 	</costList>
 	<!-- <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded> -->
-	<terrainAffordanceNeeded>MechanoidUnderground_WVC</terrainAffordanceNeeded>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<placeWorkers>
 	  <li>PlaceWorker_Heater</li>
 	  <li>PlaceWorker_CoolerSimple</li>

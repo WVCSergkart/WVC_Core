@@ -47,46 +47,38 @@
 
 			<li Class="XmlExtensions.Setting.Gap"/>
 			<li Class="XmlExtensions.Setting.SetColor"/>
-			<li Class="XmlExtensions.Setting.Section">
-				<settings>
+			<!-- <li Class="XmlExtensions.Setting.Section"> -->
+				<!-- <settings> -->
 
-					<li Class="XmlExtensions.Setting.SetColor">
-						<color>(132,255,0)</color>
-					</li>
-					<li Class="XmlExtensions.Setting.Checkbox">
-						<key>WVC_ExoticResources_MainPatch</key>
-						<label>Enable exotic resources</label>
-						<defaultValue>false</defaultValue>
-						<tooltip>The patch adds a number of metals that have different characteristics: color, damage, durability, weight, etc. These resources are not mined, but will often be found on enemies (armor, weapons). The only purpose of these resources is to diversify the world, while not greatly affecting the development of the player.\n\nMore metals will be added over time.</tooltip>
-						<tKey>HGS_ExoticResources_MainPatch_Label_WVC</tKey>
-						<tKeyTip>HGS_ExoticResources_MainPatch_Desc_WVC</tKeyTip>
-					</li>
-					<li Class="XmlExtensions.Setting.Checkbox">
-						<key>WVC_ExoticResources_WeaponsRecipes</key>
-						<label>|- Weapons from metal</label>
-						<defaultValue>false</defaultValue>
-						<tooltip>A patch that changes recipes that require steel to recipes that require any metal.</tooltip>
-						<tKey>HGS_ExoticResources_WeaponsRecipes_Label_WVC</tKey>
-						<tKeyTip>HGS_ExoticResources_GlobalRecipes_Desc_WVC</tKeyTip>
-					</li>
+					<!-- <li Class="XmlExtensions.Setting.SetColor"> -->
+						<!-- <color>(132,255,0)</color> -->
+					<!-- </li> -->
 					<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
-						<!-- <key>WVC_ExoticResources_BuildingsRecipes</key> -->
-						<!-- <label>|- Buildings from metal</label> -->
+						<!-- <key>WVC_ExoticResources_MainPatch</key> -->
+						<!-- <label>Enable exotic resources</label> -->
+						<!-- <defaultValue>false</defaultValue> -->
+						<!-- <tooltip>The patch adds a number of metals that have different characteristics: color, damage, durability, weight, etc. These resources are not mined, but will often be found on enemies (armor, weapons). The only purpose of these resources is to diversify the world, while not greatly affecting the development of the player.\n\nMore metals will be added over time.</tooltip> -->
+						<!-- <tKey>HGS_ExoticResources_MainPatch_Label_WVC</tKey> -->
+						<!-- <tKeyTip>HGS_ExoticResources_MainPatch_Desc_WVC</tKeyTip> -->
+					<!-- </li> -->
+					<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+						<!-- <key>WVC_ExoticResources_WeaponsRecipes</key> -->
+						<!-- <label>|- Weapons from metal</label> -->
 						<!-- <defaultValue>false</defaultValue> -->
 						<!-- <tooltip>A patch that changes recipes that require steel to recipes that require any metal.</tooltip> -->
-						<!-- <tKey>HGS_ExoticResources_BuildingsRecipes_Label_WVC</tKey> -->
+						<!-- <tKey>HGS_ExoticResources_WeaponsRecipes_Label_WVC</tKey> -->
 						<!-- <tKeyTip>HGS_ExoticResources_GlobalRecipes_Desc_WVC</tKeyTip> -->
 					<!-- </li> -->
-					<li Class="XmlExtensions.Setting.Checkbox">
-						<key>WVC_ExoticResources_ApparelsRecipes</key>
-						<label>|- Apparels from metal</label>
-						<defaultValue>false</defaultValue>
-						<tooltip>A patch that changes recipes that require steel to recipes that require any metal.</tooltip>
-						<tKey>HGS_ExoticResources_ApparelsRecipes_Label_WVC</tKey>
-						<tKeyTip>HGS_ExoticResources_GlobalRecipes_Desc_WVC</tKeyTip>
-					</li>
-				</settings>
-			</li>
+					<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+						<!-- <key>WVC_ExoticResources_ApparelsRecipes</key> -->
+						<!-- <label>|- Apparels from metal</label> -->
+						<!-- <defaultValue>false</defaultValue> -->
+						<!-- <tooltip>A patch that changes recipes that require steel to recipes that require any metal.</tooltip> -->
+						<!-- <tKey>HGS_ExoticResources_ApparelsRecipes_Label_WVC</tKey> -->
+						<!-- <tKeyTip>HGS_ExoticResources_GlobalRecipes_Desc_WVC</tKeyTip> -->
+					<!-- </li> -->
+				<!-- </settings> -->
+			<!-- </li> -->
 
 			<!-- ================================================================= -->
 
@@ -97,14 +89,14 @@
 				<defaultValue>false</defaultValue>
 				<tKey>HGS_ExtraSetting_FreeAnimaTreeMeditation_WVC</tKey>
 			</li>
-			<li Class="XmlExtensions.Setting.Checkbox">
-				<key>archonites_PsionicPowers_wvc</key>
-				<label>Better super powers</label>
-				<defaultValue>false</defaultValue>
-				<tooltip>Changes psylink and biotic amp, adding additional bonuses to them (to consciousness/manipulation, respectively), also adds dependence on consciousness to some statuses (associated with psylink and amp).</tooltip>
-				<tKey>HGS_Extra_archonites_PsionicPowers_Checker_WVC</tKey>
-				<tKeyTip>HGS_Extra_archonites_PsionicPowers_Checker_Desc_WVC</tKeyTip>
-			</li>
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>archonites_PsionicPowers_wvc</key> -->
+				<!-- <label>Better super powers</label> -->
+				<!-- <defaultValue>false</defaultValue> -->
+				<!-- <tooltip>Changes psylink and biotic amp, adding additional bonuses to them (to consciousness/manipulation, respectively), also adds dependence on consciousness to some statuses (associated with psylink and amp).</tooltip> -->
+				<!-- <tKey>HGS_Extra_archonites_PsionicPowers_Checker_WVC</tKey> -->
+				<!-- <tKeyTip>HGS_Extra_archonites_PsionicPowers_Checker_Desc_WVC</tKeyTip> -->
+			<!-- </li> -->
 			<li Class="XmlExtensions.Setting.Checkbox">
 				<key>AutoPatcher_Global_Researching_OnlyTechPrints_WVC</key>
 				<label>Technologies only through techprints</label>
@@ -193,14 +185,14 @@
 				<tKey>HGS_Humanoids_RemoveDodgeLimit_Checker_WVC</tKey>
 				<tKeyTip>HGS_Humanoids_RemoveDodgeLimit_Checker_Desc_WVC</tKeyTip>
 			</li>
-			<li Class="XmlExtensions.Setting.Checkbox">
-				<key>ExtraSetting_MorePsycasts_MassAbilitiesPatch_WVC</key>
-				<label>Healing abilities is mass abilities (More Psycasts)</label>
-				<defaultValue>false</defaultValue>
-				<tooltip>Makes healing abilities more usable. No more hundreds of clicks on an injured hundred hamsters!</tooltip>
-				<tKey>HGS_ExtraSetting_MorePsycasts_MassAbilitiesPatch_Label_WVC</tKey>
-				<tKeyTip>HGS_ExtraSetting_MorePsycasts_MassAbilitiesPatch_Desc_WVC</tKeyTip>
-			</li>
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>ExtraSetting_MorePsycasts_MassAbilitiesPatch_WVC</key> -->
+				<!-- <label>Healing abilities is mass abilities (More Psycasts)</label> -->
+				<!-- <defaultValue>false</defaultValue> -->
+				<!-- <tooltip>Makes healing abilities more usable. No more hundreds of clicks on an injured hundred hamsters!</tooltip> -->
+				<!-- <tKey>HGS_ExtraSetting_MorePsycasts_MassAbilitiesPatch_Label_WVC</tKey> -->
+				<!-- <tKeyTip>HGS_ExtraSetting_MorePsycasts_MassAbilitiesPatch_Desc_WVC</tKeyTip> -->
+			<!-- </li> -->
 
 			<!-- ================================================================= -->
 
@@ -289,22 +281,22 @@
 				<!-- <tKey>HGS_Dryads_General_SoS_DryadsChecker_WVC</tKey> -->
 				<!-- <tKeyTip>HGS_Dryads_General_SoS_DryadsChecker_Desc_WVC</tKeyTip> -->
 			<!-- </li> -->
-			<li Class="XmlExtensions.Setting.Checkbox">
-				<key>DryadsExtra_VenerableDryads_WVC</key>
-				<label>Venerable dryads</label>
-				<defaultValue>false</defaultValue>
-				<tooltip>When a dryad lives for a long time, she becomes venerable, which makes her less susceptible to damage and improves some parameters. Also every birthday dryads can get additional bonuses with a small chance.\n\nWorks on all dryads, connected with the tree.</tooltip>
-				<tKey>HGS_Dryads_General_VenerableDryadsChecker_WVC</tKey>
-				<tKeyTip>HGS_Dryads_General_VenerableDryadsChecker_Desc_WVC</tKeyTip>
-			</li>
-			<li Class="XmlExtensions.Setting.Checkbox">
-				<key>ExtraSetting_GR_DryadGirldHardworkPatch_WVC</key>
-				<label>Dryads hardwork patch (VGE)</label>
-				<defaultValue>false</defaultValue>
-				<tooltip>The VGE mod allows some animals to work (clean, dig, recruit). My mod has a built-in compatibility patch that allows dryad girls to do the same.\n\nThis setting allows you to make this patch work for all dryads.</tooltip>
-				<tKey>HGS_ExtraSetting_GR_DryadGirldHardworkPatch_Label_WVC</tKey>
-				<tKeyTip>HGS_ExtraSetting_GR_DryadGirldHardworkPatch_Desc_WVC</tKeyTip>
-			</li>
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>DryadsExtra_VenerableDryads_WVC</key> -->
+				<!-- <label>Venerable dryads</label> -->
+				<!-- <defaultValue>false</defaultValue> -->
+				<!-- <tooltip>When a dryad lives for a long time, she becomes venerable, which makes her less susceptible to damage and improves some parameters. Also every birthday dryads can get additional bonuses with a small chance.\n\nWorks on all dryads, connected with the tree.</tooltip> -->
+				<!-- <tKey>HGS_Dryads_General_VenerableDryadsChecker_WVC</tKey> -->
+				<!-- <tKeyTip>HGS_Dryads_General_VenerableDryadsChecker_Desc_WVC</tKeyTip> -->
+			<!-- </li> -->
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>ExtraSetting_GR_DryadGirldHardworkPatch_WVC</key> -->
+				<!-- <label>Dryads hardwork patch (VGE)</label> -->
+				<!-- <defaultValue>false</defaultValue> -->
+				<!-- <tooltip>The VGE mod allows some animals to work (clean, dig, recruit). My mod has a built-in compatibility patch that allows dryad girls to do the same.\n\nThis setting allows you to make this patch work for all dryads.</tooltip> -->
+				<!-- <tKey>HGS_ExtraSetting_GR_DryadGirldHardworkPatch_Label_WVC</tKey> -->
+				<!-- <tKeyTip>HGS_ExtraSetting_GR_DryadGirldHardworkPatch_Desc_WVC</tKeyTip> -->
+			<!-- </li> -->
 
 			<!-- ================================================================= -->
 
@@ -503,20 +495,20 @@
 
 			<!-- ================================================================= -->
 
-			<li Class="XmlExtensions.Setting.SetColor">
-				<color>(255,255,0)</color>
-			</li>
-			<li Class="XmlExtensions.Setting.Gap"/>
-			<li Class="XmlExtensions.Setting.Checkbox">
-				<key>Extra_TestScenario_AllWeapon_WVC</key>
-				<label>Enable test scenario (KL)</label>
-				<defaultValue>false</defaultValue>
-				<tKey>HGS_Extra_TestScenario_AllWeapon_WVC</tKey>
-			</li>
+			<!-- <li Class="XmlExtensions.Setting.SetColor"> -->
+				<!-- <color>(255,255,0)</color> -->
+			<!-- </li> -->
+			<!-- <li Class="XmlExtensions.Setting.Gap"/> -->
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>Extra_TestScenario_AllWeapon_WVC</key> -->
+				<!-- <label>Enable test scenario (KL)</label> -->
+				<!-- <defaultValue>false</defaultValue> -->
+				<!-- <tKey>HGS_Extra_TestScenario_AllWeapon_WVC</tKey> -->
+			<!-- </li> -->
 
-			<li Class="XmlExtensions.Setting.SetColor">
-				<color>(255,255,255)</color>
-			</li>
+			<!-- <li Class="XmlExtensions.Setting.SetColor"> -->
+				<!-- <color>(255,255,255)</color> -->
+			<!-- </li> -->
 		</settings>
 	</XmlExtensions.SettingsMenuDef>
 </Defs>

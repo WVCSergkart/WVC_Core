@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- These colors are used for carpets and paints. -->
+
+  <!-- Cause bugs -->
+  <!-- <ColorDef ParentName="StructureColorBase"> -->
+	<!-- <defName>WVC_Structure_UltratechA</defName> -->
+	<!-- <label>WVC - Ancient A</label> -->
+	<!-- <color>(65,69,65)</color> -->
+	<!-- <displayOrder>-920</displayOrder> -->
+  <!-- </ColorDef> -->
+
+  <!-- <ColorDef ParentName="StructureColorBase"> -->
+	<!-- <defName>WVC_Structure_UltratechB</defName> -->
+	<!-- <label>WVC - Ultra</label> -->
+	<!-- <color>(184,198,203)</color> -->
+	<!-- <displayOrder>-910</displayOrder> -->
+  <!-- </ColorDef> -->
+
+  <!-- <ColorDef ParentName="StructureColorBase"> -->
+	<!-- <defName>WVC_Structure_MechtechA</defName> -->
+	<!-- <label>WVC - Mechanoids A</label> -->
+	<!-- <color>(164,164,145)</color> -->
+	<!-- <displayOrder>-900</displayOrder> -->
+  <!-- </ColorDef> -->
+
+  <!-- <ColorDef ParentName="StructureColorBase"> -->
+	<!-- <defName>WVC_Structure_MechtechB</defName> -->
+	<!-- <label>WVC - Mechanoids B</label> -->
+	<!-- <color>(181,165,153)</color> -->
+	<!-- <displayOrder>-890</displayOrder> -->
+  <!-- </ColorDef> -->
+
+  <!-- <ColorDef ParentName="StructureColorBase"> -->
+	<!-- <defName>WVC_Structure_Nodetech</defName> -->
+	<!-- <label>WVC - Nodetech</label> -->
+	<!-- <color>(79,80,81)</color> -->
+	<!-- <displayOrder>-880</displayOrder> -->
+  <!-- </ColorDef> -->
+
+</Defs>

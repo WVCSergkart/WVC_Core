@@ -6,20 +6,19 @@
 		<settings>
 			<li Class="XmlExtensions.Setting.Gap"/>
 			<li Class="XmlExtensions.Setting.GapLine" />
-			<li MayRequireAnyOf="erdelf.humanoidalienraces,erdelf.humanoidalienraces.dev" Class="XmlExtensions.Setting.Group">
-				<settings>
-					<!-- <li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.GapLine" /> -->
-					<li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.Gap" />
-					<li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.EmbedMenu">
-						<menu>NotSettings_Info_AboutRaces_WVC</menu>
-					</li>
-					<li MayRequire="honkai.girls.sergkart" Class="XmlExtensions.Setting.Gap" />
-					<li MayRequire="honkai.girls.sergkart" Class="XmlExtensions.Setting.EmbedMenu">
-						<menu>NotSettings_Info_AboutAllGirls_WVC</menu>
-					</li>
-					<li Class="XmlExtensions.Setting.GapLine" />
-				</settings>
-			</li>
+			<!-- <li MayRequireAnyOf="erdelf.humanoidalienraces,erdelf.humanoidalienraces.dev" Class="XmlExtensions.Setting.Group"> -->
+				<!-- <settings> -->
+					<!-- <li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.Gap" /> -->
+					<!-- <li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.EmbedMenu"> -->
+						<!-- <menu>NotSettings_Info_AboutRaces_WVC</menu> -->
+					<!-- </li> -->
+					<!-- <li MayRequire="honkai.girls.sergkart" Class="XmlExtensions.Setting.Gap" /> -->
+					<!-- <li MayRequire="honkai.girls.sergkart" Class="XmlExtensions.Setting.EmbedMenu"> -->
+						<!-- <menu>NotSettings_Info_AboutAllGirls_WVC</menu> -->
+					<!-- </li> -->
+					<!-- <li Class="XmlExtensions.Setting.GapLine" /> -->
+				<!-- </settings> -->
+			<!-- </li> -->
 			<!-- =================================================== -->
 			<!-- <li Class="XmlExtensions.Setting.SetColor"> -->
 				<!-- <color>(200,200,255)</color> -->
@@ -54,30 +53,30 @@
 							<!-- <tKey>HGS_WVC_DesignationCategory_Patch_label</tKey> -->
 							<!-- <tKeyTip>HGS_WVC_DesignationCategory_Patch_Desc</tKeyTip> -->
 						<!-- </li> -->
-						<li Class="XmlExtensions.Setting.Checkbox">
-							<key>ComponentMechanoid_GirlyResource_UniversalFuel_WVC</key>
-							<label>Mechanites is universal fuel?</label>
-							<defaultValue>false</defaultValue>
-							<tooltip>Universal fuel - by default it is used only as food, however this can be unbalanced since the patch will affect all vanilla fuel systems. Obtained only through recycling.</tooltip>
-							<tKey>HGS_Resources_RubbishFuel_Checker_WVC</tKey>
-							<tKeyTip>HGS_Resources_RubbishFuel_Checker_Desc_WVC</tKeyTip>
-						</li>
-						<li Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_NoKL_DisableUnderwear_Option</key>
-							<label>Disable underwear?</label>
-							<tooltip>The mod adds underwear - a cheap, invisible item of clothing that will help protect against temperatures.</tooltip>
-							<defaultValue>false</defaultValue>
-							<tKey>HGS_General_NoKL_DisableUnderwear_Option_Label_WVC</tKey>
-							<tKeyTip>HGS_General_NoKL_DisableUnderwear_Option_Desc_WVC</tKeyTip>
-						</li>
-						<li Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_ResearchPatchForMainBranch_Enable</key>
-							<label>Enable technology patch</label>
-							<tooltip>If enabled, the technologies from the mod will have additional research requirements. For example, to learn "Ancient techs" beyond the standard requirements, all Neolithic technologies must also be researched. (Medieval for Mechanoid, Industrial for Nodes, Spacer for Archotech)\n\nNot compatible with custom tech tree mods.</tooltip>
-							<defaultValue>false</defaultValue>
-							<tKey>HGS_WVC_ResearchPatchForMainBranch_Enable</tKey>
-							<tKeyTip>HGS_WVC_ResearchPatchForMainBranch_Enable_Desc</tKeyTip>
-						</li>
+						<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+							<!-- <key>ComponentMechanoid_GirlyResource_UniversalFuel_WVC</key> -->
+							<!-- <label>Mechanites is universal fuel?</label> -->
+							<!-- <defaultValue>false</defaultValue> -->
+							<!-- <tooltip>Universal fuel - by default it is used only as food, however this can be unbalanced since the patch will affect all vanilla fuel systems. Obtained only through recycling.</tooltip> -->
+							<!-- <tKey>HGS_Resources_RubbishFuel_Checker_WVC</tKey> -->
+							<!-- <tKeyTip>HGS_Resources_RubbishFuel_Checker_Desc_WVC</tKeyTip> -->
+						<!-- </li> -->
+						<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+							<!-- <key>WVC_NoKL_DisableUnderwear_Option</key> -->
+							<!-- <label>Disable underwear?</label> -->
+							<!-- <tooltip>The mod adds underwear - a cheap, invisible item of clothing that will help protect against temperatures.</tooltip> -->
+							<!-- <defaultValue>false</defaultValue> -->
+							<!-- <tKey>HGS_General_NoKL_DisableUnderwear_Option_Label_WVC</tKey> -->
+							<!-- <tKeyTip>HGS_General_NoKL_DisableUnderwear_Option_Desc_WVC</tKeyTip> -->
+						<!-- </li> -->
+						<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+							<!-- <key>WVC_ResearchPatchForMainBranch_Enable</key> -->
+							<!-- <label>Enable technology patch</label> -->
+							<!-- <tooltip>If enabled, the technologies from the mod will have additional research requirements. For example, to learn "Ancient techs" beyond the standard requirements, all Neolithic technologies must also be researched. (Medieval for Mechanoid, Industrial for Nodes, Spacer for Archotech)\n\nNot compatible with custom tech tree mods.</tooltip> -->
+							<!-- <defaultValue>false</defaultValue> -->
+							<!-- <tKey>HGS_WVC_ResearchPatchForMainBranch_Enable</tKey> -->
+							<!-- <tKeyTip>HGS_WVC_ResearchPatchForMainBranch_Enable_Desc</tKeyTip> -->
+						<!-- </li> -->
 						<li MayRequire="vanillaexpanded.vfea" Class="XmlExtensions.Setting.Checkbox">
 							<key>Buildings_AncientsFromRubbish_Module_WVC</key>
 							<label>Enable ancient buildings (VFEA)</label>
@@ -86,32 +85,30 @@
 							<tKey>HGS_Buildings_AncientsFromRubbish_WVC</tKey>
 							<tKeyTip>HGS_Buildings_AncientsFromRubbish_Desc_WVC</tKeyTip>
 						</li>
-						<li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_Nodes_EnableFormerWandererEvent</key>
-							<label>Enable former wanderer event</label>
-							<tooltip>Only affects events related to the Former race. Does not affect spawning as members of the Nomad faction.</tooltip>
-							<defaultValue>true</defaultValue>
-							<tKey>HGS_Nodes_EnableFormerWandererEvent_WVC</tKey>
-							<tKeyTip>HGS_Nodes_EnableFormerWandererEvent_Desc_WVC</tKeyTip>
-						</li>
-						<li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_General_FactionNomads_Main</key>
-							<label>Enable Nomads faction</label>
-							<tooltip>The mod has a faction that includes all the races from my mods. This faction does not have settlements, but functions like a regular full-fledged faction (caravans, raids, reputation, etc.). The faction also has several unique traders.</tooltip>
-							<defaultValue>true</defaultValue>
-							<tKey>HGS_General_FactionNomads_Main_WVC</tKey>
-							<tKeyTip>HGS_General_FactionNomads_Main_Desc_WVC</tKeyTip>
-						</li>
-						<li MayRequire="ludeon.rimworld.biotech" Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_General_BiotechTechsPatch</key>
-							<label>Enable Biotech patch</label>
-							<tooltip>Adds a number of patches that will significantly delay the mechanist branch, making it dependent on the "Mechanoid basics" technology, and adds mechanoid components to the crafting cost of mechanoids.</tooltip>
-							<defaultValue>false</defaultValue>
-							<tKey>HGS_General_BiotechTechsPatch_WVC</tKey>
-							<tKeyTip>HGS_General_BiotechTechsPatch_Desc_WVC</tKeyTip>
-						</li>
-					</li>
-					<li>
+						<!-- <li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.Checkbox"> -->
+							<!-- <key>WVC_Nodes_EnableFormerWandererEvent</key> -->
+							<!-- <label>Enable former wanderer event</label> -->
+							<!-- <tooltip>Only affects events related to the Former race. Does not affect spawning as members of the Nomad faction.</tooltip> -->
+							<!-- <defaultValue>true</defaultValue> -->
+							<!-- <tKey>HGS_Nodes_EnableFormerWandererEvent_WVC</tKey> -->
+							<!-- <tKeyTip>HGS_Nodes_EnableFormerWandererEvent_Desc_WVC</tKeyTip> -->
+						<!-- </li> -->
+						<!-- <li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.Checkbox"> -->
+							<!-- <key>WVC_General_FactionNomads_Main</key> -->
+							<!-- <label>Enable Nomads faction</label> -->
+							<!-- <tooltip>The mod has a faction that includes all the races from my mods. This faction does not have settlements, but functions like a regular full-fledged faction (caravans, raids, reputation, etc.). The faction also has several unique traders.</tooltip> -->
+							<!-- <defaultValue>true</defaultValue> -->
+							<!-- <tKey>HGS_General_FactionNomads_Main_WVC</tKey> -->
+							<!-- <tKeyTip>HGS_General_FactionNomads_Main_Desc_WVC</tKeyTip> -->
+						<!-- </li> -->
+						<!-- <li MayRequire="ludeon.rimworld.biotech" Class="XmlExtensions.Setting.Checkbox"> -->
+							<!-- <key>WVC_General_BiotechTechsPatch</key> -->
+							<!-- <label>Enable Biotech patch</label> -->
+							<!-- <tooltip>Adds a number of patches that will significantly delay the mechanist branch, making it dependent on the "Mechanoid basics" technology, and adds mechanoid components to the crafting cost of mechanoids.</tooltip> -->
+							<!-- <defaultValue>true</defaultValue> -->
+							<!-- <tKey>HGS_General_BiotechTechsPatch_WVC</tKey> -->
+							<!-- <tKeyTip>HGS_General_BiotechTechsPatch_Desc_WVC</tKeyTip> -->
+						<!-- </li> -->
 						<li Class="XmlExtensions.Setting.Text">
 							<text>The mod has several options for body parts that can be obtained as a reward or crafted. Ancient, mechanoid and node parts are recommended.</text>
 							<tKey>HGS_Implants_MainInfo_WVC</tKey>
@@ -155,6 +152,8 @@
 							<defaultValue>true</defaultValue>
 							<tKey>HGS_WVC_EnableImplants_NodeBodyParts_Label</tKey>
 						</li>
+					</li>
+					<li>
 
 						<!-- ================================================================= -->
 
@@ -194,14 +193,14 @@
 
 			<!-- ================================================================= -->
 
-			<li MayRequireAnyOf="erdelf.humanoidalienraces,erdelf.humanoidalienraces.dev" Class="XmlExtensions.Setting.Group">
-				<settings>
-					<li MayRequire="honkai.girls.sergkart" Class="XmlExtensions.Setting.GapLine"/>
-					<li MayRequire="honkai.girls.sergkart" Class="XmlExtensions.Setting.EmbedMenu">
-						<menu>Settings_Valkyries_Mutations_WVC</menu>
-					</li>
-				</settings>
-			</li>
+			<!-- <li MayRequireAnyOf="erdelf.humanoidalienraces,erdelf.humanoidalienraces.dev" Class="XmlExtensions.Setting.Group"> -->
+				<!-- <settings> -->
+					<!-- <li MayRequire="honkai.girls.sergkart" Class="XmlExtensions.Setting.GapLine"/> -->
+					<!-- <li MayRequire="honkai.girls.sergkart" Class="XmlExtensions.Setting.EmbedMenu"> -->
+						<!-- <menu>Settings_Valkyries_Mutations_WVC</menu> -->
+					<!-- </li> -->
+				<!-- </settings> -->
+			<!-- </li> -->
 		</settings>
 	</XmlExtensions.SettingsMenuDef>
 </Defs>
