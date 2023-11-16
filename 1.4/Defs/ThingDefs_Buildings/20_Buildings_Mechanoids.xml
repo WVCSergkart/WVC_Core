@@ -175,7 +175,7 @@
 	<stuffCategories>
 	  <li>Metallic</li>
 	</stuffCategories>
-	<costStuffCount>3</costStuffCount>
+	<costStuffCount>5</costStuffCount>
 	<comps>
 	  <li Class="CompProperties_Power">
 		<compClass>CompPowerTransmitter</compClass>

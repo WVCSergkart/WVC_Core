@@ -165,6 +165,13 @@
 	<!-- <color>(181,165,153)</color> -->
 	<!-- <isPaintable>true</isPaintable> -->
   <!-- </TerrainDef> -->
+  <!-- <TerrainDef  ParentName="BaseFloor_Mech_WVC"> -->
+	<!-- <defName>Floor_MechanoidFloorB_WVC</defName> -->
+	<!-- <label>(Floor) Mechtech floor B</label> -->
+	<!-- <texturePath>WVC/Stuff/Floors/RecolorableNodeFloor</texturePath> -->
+	<!-- <color>(79,80,81)</color> -->
+	<!-- <isPaintable>true</isPaintable> -->
+  <!-- </TerrainDef> -->
 
   <TerrainDef ParentName="BaseFloor_Mech_WVC">
 	<defName>Floor_MechanoidGravel_WVC</defName>

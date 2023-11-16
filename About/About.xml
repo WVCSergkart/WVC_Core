@@ -46,4 +46,7 @@ Half of the settings that can be found inside the mod are dedicated to monster g
 	<loadBefore>
 		<li>krkr.rocketman</li>
 	</loadBefore>
+	<incompatibleWith>
+		<li>wvc.sergkart.core</li>
+	</incompatibleWith>
 </ModMetaData>

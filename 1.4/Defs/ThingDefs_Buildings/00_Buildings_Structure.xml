@@ -98,20 +98,6 @@
 		<!-- <graphicData> -->
 		  <!-- <shaderType>CutoutComplex</shaderType> -->
 		<!-- </graphicData> -->
-		<comps>
-		  <li Class="CompProperties_Glower">
-			<glowRadius>3</glowRadius>
-			<glowColor>(200,200,50, 0)</glowColor>
-		  </li>
-		  <!-- <li Class="CompProperties_Power"> -->
-			<!-- <compClass>CompPowerTrader</compClass> -->
-			<!-- <basePowerConsumption>-5</basePowerConsumption> -->
-			<!-- <transmitsPower>true</transmitsPower> -->
-		  <!-- </li> -->
-		  <!-- <li Class="CompProperties_SelfhealHitpoints"> -->
-			<!-- <ticksPerHeal>2000</ticksPerHeal> -->
-		  <!-- </li> -->
-		</comps>
 		<researchPrerequisites>
 			<li>ValkyriesTechs_II_WVC</li>
 		</researchPrerequisites>
@@ -134,10 +120,6 @@
 		<!-- <tickerType>Long</tickerType> -->
 		<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
 		<comps>
-		  <li Class="CompProperties_Glower">
-			<glowRadius>3</glowRadius>
-			<glowColor>(200,200,50, 0)</glowColor>
-		  </li>
 		</comps>
 		<researchPrerequisites>
 			<li>ValkyriesTechs_II_WVC</li>
@@ -150,7 +132,7 @@
 	<ThingDef Name="Marker_BuildingsWalls_WVC" ParentName="NotMinified_Archotech_Buildings_WVC" Abstract="True">
 		<!-- <defName>ArchotechWall_WVC</defName> -->
 		<label>archotech wall</label>
-		<description>An impassable wall. Capable of holding up a roof.</description>
+		<description>A heavily armored wall. Can withstand almost incredible amounts of damage. Capable of holding up a roof.</description>
 		<thingClass>Building</thingClass>
 		<category>Building</category>
 		<graphicData>
@@ -206,10 +188,9 @@
 				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
 			</blueprintGraphicData>
 			<relatedBuildCommands>
-				<li>AncientDoor_WVC</li>
-				<li>MechanoidDoorA_WVC</li>
-				<!-- <li>MechanoidDoorB_WVC</li> -->
-				<li>ArchotechDoor_WVC</li>
+				<li>WVC_UltratechDoor</li>
+				<li>WVC_MechtechDoor</li>
+				<li>WVC_ArchotechDoor</li>
 			</relatedBuildCommands>
 		</building>
 		<!-- <researchPrerequisites> -->
@@ -220,13 +201,24 @@
 
 	<!-- ============================================================ -->
 
-	<ThingDef Name="Marker_BuildingsWalls_Ancient_WVC" ParentName="Marker_BuildingsWalls_WVC" Abstract="True">
+	<ThingDef ParentName="Marker_BuildingsWalls_WVC">
+		<defName>WVC_UltratechWall</defName>
+		<label>ultratech wall</label>
 		<techLevel>Spacer</techLevel>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/AncientWall_Icon</uiIconPath>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/AncientWall</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(65,69,65)</color>
+		</graphicData>
 		<costList>
 			<!-- <ComponentSpacer>1</ComponentSpacer> -->
 		</costList>
-		<comps Inherit="False">
-		</comps>
+		<!-- <comps Inherit="False"> -->
+		<!-- </comps> -->
 		<researchPrerequisites Inherit="False">
 		  <li>ValkyriesTechs_I_WVC</li>
 		</researchPrerequisites>
@@ -236,13 +228,62 @@
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	</ThingDef>
-	<ThingDef Name="Marker_BuildingsWalls_Mecha_WVC" ParentName="Marker_BuildingsWalls_WVC" Abstract="True">
-		<techLevel>Ultra</techLevel>
+
+	<ThingDef ParentName="Marker_BuildingsWalls_WVC">
+		<defName>WVC_MechtechWall_Glow</defName>
+		<label>ultratech wall with lights</label>
+		<techLevel>Spacer</techLevel>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidIconA</uiIconPath>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/DarkMechtechWall</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(59,59,60)</color>
+			<!-- <colorTwo>(255,248,133)</colorTwo> -->
+			<!-- <color>(184,198,203)</color> -->
+		</graphicData>
 		<costList>
-			<!-- <ComponentSpacer>1</ComponentSpacer> -->
+			<Silver>2</Silver>
 		</costList>
-		<comps Inherit="False">
+		<!-- <comps Inherit="False"> -->
+		<!-- </comps> -->
+		<researchPrerequisites Inherit="False">
+		  <li>ValkyriesTechs_I_WVC</li>
+		</researchPrerequisites>
+		<statBases>
+			<MaxHitPoints>8000</MaxHitPoints>
+		</statBases>
+		<constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<comps>
+		  <li Class="CompProperties_Glower">
+			<glowRadius>3</glowRadius>
+			<glowColor>(142,133,255, 0)</glowColor>
+		  </li>
 		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="Marker_BuildingsWalls_WVC">
+		<defName>WVC_MechtechWall</defName>
+		<label>mechtech wall</label>
+		<techLevel>Ultra</techLevel>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidIconA</uiIconPath>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidWall</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(181,165,153)</color>
+			<!-- <color>(184,198,203)</color> -->
+		</graphicData>
+		<costList>
+			<Uranium>4</Uranium>
+		</costList>
+		<!-- <comps Inherit="False"> -->
+		<!-- </comps> -->
 		<researchPrerequisites Inherit="False">
 		  <li>ValkyriesTechs_II_WVC</li>
 		</researchPrerequisites>
@@ -251,59 +292,45 @@
 		</statBases>
 		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	</ThingDef>
-	<ThingDef Name="Marker_BuildingsWalls_Archo_WVC" ParentName="Marker_BuildingsWalls_WVC" Abstract="True">
+
+	<ThingDef ParentName="Marker_BuildingsWalls_WVC">
+		<defName>WVC_ArchotechWall</defName>
+		<label>invulnerable mechtech wall</label>
+		<description>The wall is practically impenetrable; there is no one who has the patience to break it. Capable of holding up a roof.
+
+&lt;color=#f5ffa2&gt;Gameplay Effect:&lt;/color&gt; The wall cannot be destroyed, only deconstructed.</description>
 		<techLevel>Archotech</techLevel>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/ArchotechWallIcon</uiIconPath>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/ArchotechWall</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(192,193,162)</color>
+		</graphicData>
 		<costList>
-			<!-- <ComponentSpacer>1</ComponentSpacer> -->
-			<!-- <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech> -->
+			<Uranium>16</Uranium>
 		</costList>
 		<useHitPoints>false</useHitPoints>
-		<!-- <comps Inherit="False"> -->
-		<!-- </comps> -->
 		<researchPrerequisites Inherit="False">
 		  <li>ValkyriesTechs_II_WVC</li>
 		</researchPrerequisites>
 		<statBases>
 			<MaxHitPoints>12000</MaxHitPoints>
 		</statBases>
-		<designationCategory></designationCategory>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<!-- <designationCategory></designationCategory> -->
 		<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
-	</ThingDef>
-
-	<!-- ============================================================ -->
-
-	<ThingDef ParentName="Marker_BuildingsWalls_Ancient_WVC">
-		<defName>AncientWall_WVC</defName>
-		<label>ultratech wall</label>
-		<uiIconPath>WVC/Stuff/WallsDoorsColumns/AncientWall_Icon</uiIconPath>
-		<building>
-			<paintable>true</paintable>
-		</building>
-		<graphicData>
-			<texPath>WVC/Stuff/WallsDoorsColumns/AncientWall</texPath>
-			<color>(65,69,65)</color>
-		</graphicData>
-	</ThingDef>
-	<ThingDef ParentName="Marker_BuildingsWalls_Mecha_WVC">
-		<defName>MechanoidWallA_WVC</defName>
-		<label>mechtech wall</label>
-		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidIconA</uiIconPath>
-		<building>
-			<paintable>true</paintable>
-		</building>
-		<graphicData>
-			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidWall</texPath>
-			<color>(181,165,153)</color>
-			<!-- <color>(184,198,203)</color> -->
-		</graphicData>
-	</ThingDef>
-	<ThingDef ParentName="Marker_BuildingsWalls_Archo_WVC">
-		<defName>ArchotechWall_WVC</defName>
-		<label>archotech wall</label>
-		<uiIconPath>WVC/Stuff/WallsDoorsColumns/ArchotechWallIcon</uiIconPath>
-		<graphicData>
-			<texPath>WVC/Stuff/WallsDoorsColumns/ArchotechWall</texPath>
-		</graphicData>
+		<comps>
+		  <!-- <li Class="CompProperties_Glower"> -->
+			<!-- <glowRadius>3</glowRadius> -->
+			<!-- <glowColor>(200,200,50, 0)</glowColor> -->
+		  <!-- </li> -->
+		  <li Class="CompProperties_Glower">
+			<glowRadius>3</glowRadius>
+			<glowColor>(249,241,148, 0)</glowColor>
+		  </li>
+		</comps>
 	</ThingDef>
 
 	<!-- ============================================================ -->
@@ -311,7 +338,7 @@
 	<ThingDef Name="Marker_BuildingsDoors_WVC" ParentName="NotMinified_Archotech_Buildings_WVC" Abstract="True">
 		<!-- <defName>ArchotechDoor_WVC</defName> -->
 		<label>archotech door</label>
-		<description>Divides rooms.</description>
+		<description>A heavily armored door. Can withstand almost incredible amounts of damage. Divides rooms.</description>
 		<thingClass>Building_Door</thingClass>
 		<category>Building</category>
 		<altitudeLayer>DoorMoveable</altitudeLayer>
@@ -335,6 +362,11 @@
 		<comps>
 			<li Class="CompProperties_Forbiddable">
 				<allowNonPlayer>false</allowNonPlayer>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>20</basePowerConsumption>
 			</li>
 			<!-- <li Class="CompProperties_Breakdownable"/> -->
 		</comps>
@@ -362,10 +394,10 @@
 		  </blueprintGraphicData>
 		  <ai_chillDestination>false</ai_chillDestination>
 			<relatedBuildCommands>
-				<li>AncientWall_WVC</li>
-				<li>MechanoidWallA_WVC</li>
+				<li>WVC_UltratechWall</li>
+				<li>WVC_MechtechWall</li>
 				<!-- <li>MechanoidWallB_WVC</li> -->
-				<li>ArchotechWall_WVC</li>
+				<li>WVC_ArchotechWall</li>
 			</relatedBuildCommands>
 		</building>
 		<placeWorkers>
@@ -377,21 +409,23 @@
 		<designatorDropdown>HGS_Doors_WVC</designatorDropdown>
 	</ThingDef>
 
-	<ThingDef Name="Marker_BuildingsDoors_Ancient_WVC" ParentName="Marker_BuildingsDoors_WVC" Abstract="True">
+	<!-- ============================================================ -->
+
+	<ThingDef ParentName="Marker_BuildingsDoors_WVC">
+		<defName>WVC_UltratechDoor</defName>
+		<label>ultratech door</label>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/AncientDoor_Icon</uiIconPath>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/AncientDoor_Mover</texPath>
+			<color>(65,69,65)</color>
+		</graphicData>
 		<techLevel>Spacer</techLevel>
 		<costList>
 			<!-- <ComponentSpacer>1</ComponentSpacer> -->
 		</costList>
-		<comps Inherit="False">
-		  <li Class="CompProperties_Forbiddable">
-			<allowNonPlayer>false</allowNonPlayer>
-		  </li>
-		  <li Class="CompProperties_Power">
-			<compClass>CompPowerTrader</compClass>
-			<shortCircuitInRain>false</shortCircuitInRain>
-			<basePowerConsumption>50</basePowerConsumption>
-		  </li>
-		</comps>
 		<researchPrerequisites Inherit="False">
 		  <li>ValkyriesTechs_I_WVC</li>
 		</researchPrerequisites>
@@ -402,69 +436,9 @@
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	</ThingDef>
-	<ThingDef Name="Marker_BuildingsDoors_Mecha_WVC" ParentName="Marker_BuildingsDoors_WVC" Abstract="True">
-		<techLevel>Ultra</techLevel>
-		<costList>
-			<!-- <ComponentSpacer>1</ComponentSpacer> -->
-		</costList>
-		<comps Inherit="False">
-		  <li Class="CompProperties_Forbiddable">
-			<allowNonPlayer>false</allowNonPlayer>
-		  </li>
-		  <li Class="CompProperties_Power">
-			<compClass>CompPowerTrader</compClass>
-			<shortCircuitInRain>false</shortCircuitInRain>
-			<basePowerConsumption>0</basePowerConsumption>
-		  </li>
-		</comps>
-		<researchPrerequisites Inherit="False">
-		  <li>ValkyriesTechs_II_WVC</li>
-		</researchPrerequisites>
-		<statBases>
-		  <MaxHitPoints>8000</MaxHitPoints>
-		</statBases>
-		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
-	</ThingDef>
-	<ThingDef Name="Marker_BuildingsDoors_Archo_WVC" ParentName="Marker_BuildingsDoors_WVC" Abstract="True">
-		<techLevel>Archotech</techLevel>
-		<costList>
-			<!-- <ComponentSpacer>1</ComponentSpacer> -->
-			<!-- <WVC_ResourceNodes_Archotech>2</WVC_ResourceNodes_Archotech> -->
-		</costList>
-		<useHitPoints>false</useHitPoints>
-		<designationCategory></designationCategory>
-		<comps>
-		  <li Class="CompProperties_Power">
-			<compClass>CompPowerTrader</compClass>
-			<shortCircuitInRain>false</shortCircuitInRain>
-			<basePowerConsumption>0</basePowerConsumption>
-		  </li>
-		</comps>
-		<researchPrerequisites Inherit="False">
-		  <li>ValkyriesTechs_II_WVC</li>
-		</researchPrerequisites>
-		<statBases>
-		  <MaxHitPoints>10000</MaxHitPoints>
-		</statBases>
-		<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
-	</ThingDef>
 
-	<!-- ============================================================ -->
-
-	<ThingDef ParentName="Marker_BuildingsDoors_Ancient_WVC">
-		<defName>AncientDoor_WVC</defName>
-		<label>ultratech door</label>
-		<uiIconPath>WVC/Stuff/WallsDoorsColumns/AncientDoor_Icon</uiIconPath>
-		<building>
-			<paintable>true</paintable>
-		</building>
-		<graphicData>
-			<texPath>WVC/Stuff/WallsDoorsColumns/AncientDoor_Mover</texPath>
-			<color>(65,69,65)</color>
-		</graphicData>
-	</ThingDef>
-	<ThingDef ParentName="Marker_BuildingsDoors_Mecha_WVC">
-		<defName>MechanoidDoorA_WVC</defName>
+	<ThingDef ParentName="Marker_BuildingsDoors_WVC">
+		<defName>WVC_MechtechDoor</defName>
 		<label>mechtech door</label>
 		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorA_MenuIcon</uiIconPath>
 		<building>
@@ -475,14 +449,46 @@
 			<color>(181,165,153)</color>
 			<!-- <color>(184,198,203)</color> -->
 		</graphicData>
+		<techLevel>Ultra</techLevel>
+		<costList>
+			<Uranium>12</Uranium>
+		</costList>
+		<researchPrerequisites Inherit="False">
+		  <li>ValkyriesTechs_II_WVC</li>
+		</researchPrerequisites>
+		<statBases>
+		  <MaxHitPoints>8000</MaxHitPoints>
+		</statBases>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	</ThingDef>
-	<ThingDef ParentName="Marker_BuildingsDoors_Archo_WVC">
-		<defName>ArchotechDoor_WVC</defName>
-		<label>archotech door</label>
+
+	<ThingDef ParentName="Marker_BuildingsDoors_WVC">
+		<defName>WVC_ArchotechDoor</defName>
+		<label>invulnerable mechtech door</label>
+		<description>The door is practically impenetrable; there is no one who has the patience to break it. Divides rooms.
+
+&lt;color=#f5ffa2&gt;Gameplay Effect:&lt;/color&gt; The door cannot be destroyed, only deconstructed.</description>
 		<uiIconPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_MenuIcon</uiIconPath>
+		<building>
+			<paintable>true</paintable>
+		</building>
 		<graphicData>
-			<texPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_Mover</texPath>
+			<!-- <texPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_Mover</texPath> -->
+			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorA_Mover</texPath>
+			<color>(192,193,162)</color>
 		</graphicData>
+		<techLevel>Archotech</techLevel>
+		<costList>
+			<Uranium>22</Uranium>
+		</costList>
+		<useHitPoints>false</useHitPoints>
+		<researchPrerequisites Inherit="False">
+		  <li>ValkyriesTechs_II_WVC</li>
+		</researchPrerequisites>
+		<statBases>
+		  <MaxHitPoints>10000</MaxHitPoints>
+		</statBases>
+		<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
 	</ThingDef>
 
 	<!-- ============================================================ -->
@@ -519,14 +525,14 @@
 	</building>
 	<altitudeLayer>Building</altitudeLayer>
 	<statBases>
-	  <MarketValue>1</MarketValue>
+	  <MarketValue>300</MarketValue>
 	  <MaxHitPoints>8000</MaxHitPoints>
 	  <Beauty>1</Beauty>
 	  <Mass>32</Mass>
 	</statBases>
 	<costList>
 	  <Plasteel>30</Plasteel>
-	  <!-- <Uranium>12</Uranium> -->
+	  <!-- <Uranium>6</Uranium> -->
 	  <!-- <ComponentSpacer>1</ComponentSpacer> -->
 	</costList>
 	<!-- <thingSetMakerTags> -->
@@ -578,15 +584,15 @@
 	</building>
 	<altitudeLayer>Building</altitudeLayer>
 	<statBases>
-	  <MarketValue>1</MarketValue>
+	  <MarketValue>320</MarketValue>
 	  <MaxHitPoints>10000</MaxHitPoints>
 	  <Beauty>1</Beauty>
 	  <Mass>12</Mass>
 	</statBases>
 	<costList>
 	  <Plasteel>30</Plasteel>
-	  <!-- <Uranium>12</Uranium> -->
-	  <ComponentSpacer>1</ComponentSpacer>
+	  <Uranium>6</Uranium>
+	  <!-- <Silver>2</Silver> -->
 	</costList>
 	<!-- <thingSetMakerTags> -->
 	  <!-- <li>RewardStandardHighFreq</li> -->
@@ -610,7 +616,7 @@
 
   <ThingDef ParentName="ArchotechBuildings_WVC">
 	<defName>ArchotechColumn_WVC</defName>
-	<label>archotech column</label>
+	<label>invulnerable mechtech column</label>
 	<description>A column capable of holding a roof.</description>
 	<size>(1,1)</size>
 	<uiIconScale>0.75</uiIconScale>
@@ -630,6 +636,7 @@
 	<thingCategories>
 	  <li>BuildingsSpecial</li>
 	</thingCategories>
+	<useHitPoints>false</useHitPoints>
 	<holdsRoof>true</holdsRoof>
 	<specialDisplayRadius>6.9</specialDisplayRadius>
 	<building>
@@ -637,16 +644,26 @@
 	</building>
 	<altitudeLayer>Building</altitudeLayer>
 	<statBases>
-	  <MarketValue>1</MarketValue>
+	  <MarketValue>420</MarketValue>
 	  <MaxHitPoints>12000</MaxHitPoints>
 	  <Beauty>2</Beauty>
 	  <Mass>12</Mass>
 	</statBases>
 	<costList>
 	  <Plasteel>30</Plasteel>
-	  <!-- <Uranium>12</Uranium> -->
-	  <!-- <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech> -->
+	  <Uranium>12</Uranium>
+	  <Silver>2</Silver>
 	</costList>
+	<comps>
+	  <!-- <li Class="CompProperties_Glower"> -->
+		<!-- <glowRadius>3</glowRadius> -->
+		<!-- <glowColor>(200,200,50, 0)</glowColor> -->
+	  <!-- </li> -->
+	  <li Class="CompProperties_Glower">
+		<glowRadius>3</glowRadius>
+		<glowColor>(249,241,148, 0)</glowColor>
+	  </li>
+	</comps>
 	<!-- <thingSetMakerTags> -->
 	  <!-- <li>RewardStandardHighFreq</li> -->
 	<!-- </thingSetMakerTags> -->
