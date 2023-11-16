@@ -20,6 +20,7 @@
 	  <li>FloorCoverings</li>
 	</blocksAltitudes>
 	<building>
+	  <paintable>true</paintable>
 	  <isEdifice>true</isEdifice>
 	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
 	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
@@ -27,7 +28,9 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/ComponentAssembler</texPath>
 	  <graphicClass>Graphic_Random</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>(3,3)</drawSize>
+	  <color>(184,198,203)</color>
 	  <damageData>
 		<rect>(0.15, 0.15, 2.7, 2.7)</rect>
 	  </damageData>
