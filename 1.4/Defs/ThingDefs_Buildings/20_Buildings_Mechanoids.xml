@@ -148,6 +148,7 @@
 	<uiIconScale>0.7</uiIconScale>
 	<fillPercent>0</fillPercent>
 	<building>
+	  <paintable>true</paintable>
 	  <ai_chillDestination>false</ai_chillDestination>
 	  <isInert>true</isInert>
 	  <isEdifice>false</isEdifice>
@@ -168,9 +169,13 @@
 	</statBases>
 	<placingDraggableDimensions>1</placingDraggableDimensions>
 	<killedLeavings Inherit="False"/>
-	<costList>
-	  <WVC_UniversalFuel>1</WVC_UniversalFuel>
-	</costList>
+	<!-- <costList> -->
+	  <!-- <WVC_UniversalFuel>1</WVC_UniversalFuel> -->
+	<!-- </costList> -->
+	<stuffCategories>
+	  <li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>3</costStuffCount>
 	<comps>
 	  <li Class="CompProperties_Power">
 		<compClass>CompPowerTransmitter</compClass>
@@ -210,7 +215,7 @@
 	<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	<designationCategory>WVC_UltraExpansion</designationCategory>
-	<constructEffect>ConstructMetal</constructEffect>
+	<!-- <constructEffect>ConstructMetal</constructEffect> -->
 	<clearBuildingArea>false</clearBuildingArea>
 	<researchPrerequisites Inherit="False">
 	  <li>ValkyriesTechs_II_WVC</li>
