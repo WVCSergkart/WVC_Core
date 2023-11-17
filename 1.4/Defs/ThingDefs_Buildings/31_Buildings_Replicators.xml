@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="MechanoidBuildings_WVC">
 	<defName>ComponentSpawner_WVC</defName>
-	<label>mech-nanite assembler</label>
+	<label>ultranite assembler</label>
 	<description>Underground complex for replication. Slowly produces microscopic machines from literally nothing, but requires a lot of energy.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
 	<descriptionHyperlinks>
 	  <ThingDef>WVC_UniversalFuel</ThingDef>
@@ -31,6 +31,7 @@
 	  <!-- <shaderType>CutoutComplex</shaderType> -->
 	  <drawSize>(3,3)</drawSize>
 	  <color>(181,165,153)</color>
+	  <!-- <color>(114,114,114)</color> -->
 	  <damageData>
 		<rect>(0.15, 0.15, 2.7, 2.7)</rect>
 	  </damageData>

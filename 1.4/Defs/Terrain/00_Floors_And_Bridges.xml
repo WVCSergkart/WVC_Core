@@ -155,6 +155,7 @@
 	<label>(Floor) Mechtech floor</label>
 	<texturePath>WVC/Stuff/Floors/Floor_Mechanoid</texturePath>
 	<color>(181,165,153)</color>
+	<!-- <color>(114,114,114)</color> -->
 	<!-- <color>(184,198,203)</color> -->
 	<isPaintable>true</isPaintable>
   </TerrainDef>
@@ -285,6 +286,7 @@
 	<texturePath>WVC/Stuff/Floors/Floor_Mechanoid</texturePath>
 	<color>(181,165,153)</color>
 	<!-- <color>(184,198,203)</color> -->
+	<!-- <color>(114,114,114)</color> -->
 	<isPaintable>true</isPaintable>
   </TerrainDef>
 

@@ -240,12 +240,12 @@
 		<graphicData>
 			<texPath>WVC/Stuff/WallsDoorsColumns/DarkMechtechWall</texPath>
 			<shaderType>CutoutComplex</shaderType>
-			<color>(59,59,60)</color>
+			<color>(60,60,60)</color>
 			<!-- <colorTwo>(255,248,133)</colorTwo> -->
 			<!-- <color>(184,198,203)</color> -->
 		</graphicData>
 		<costList>
-			<Silver>2</Silver>
+			<Silver>20</Silver>
 		</costList>
 		<!-- <comps Inherit="False"> -->
 		<!-- </comps> -->
@@ -260,7 +260,7 @@
 		<comps>
 		  <li Class="CompProperties_Glower">
 			<glowRadius>3</glowRadius>
-			<glowColor>(142,133,255, 0)</glowColor>
+			<glowColor>(255,133,133, 0)</glowColor>
 		  </li>
 		</comps>
 	</ThingDef>
@@ -278,6 +278,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<color>(181,165,153)</color>
 			<!-- <color>(184,198,203)</color> -->
+			<!-- <color>(114,114,114)</color> -->
 		</graphicData>
 		<costList>
 			<Uranium>4</Uranium>
@@ -304,17 +305,21 @@
 		<graphicData>
 			<texPath>WVC/Stuff/WallsDoorsColumns/ArchotechWall</texPath>
 			<shaderType>CutoutComplex</shaderType>
-			<color>(192,193,162)</color>
+			<!-- <color>(192,193,162)</color> -->
+			<color>(60,60,60)</color>
 		</graphicData>
 		<costList>
 			<Uranium>16</Uranium>
+			<Silver>20</Silver>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<useHitPoints>false</useHitPoints>
 		<researchPrerequisites Inherit="False">
 		  <li>WVC_ResearchBodyParts_NodeViolet</li>
+		  <li>WVC_ResearchBodyParts_NodeRed</li>
 		</researchPrerequisites>
 		<statBases>
-			<MaxHitPoints>12000</MaxHitPoints>
+			<MaxHitPoints>20000</MaxHitPoints>
 		</statBases>
 		<building>
 			<paintable>true</paintable>
@@ -326,9 +331,13 @@
 			<!-- <glowRadius>3</glowRadius> -->
 			<!-- <glowColor>(200,200,50, 0)</glowColor> -->
 		  <!-- </li> -->
+		  <!-- <li Class="CompProperties_Glower"> -->
+			<!-- <glowRadius>3</glowRadius> -->
+			<!-- <glowColor>(249,241,148, 0)</glowColor> -->
+		  <!-- </li> -->
 		  <li Class="CompProperties_Glower">
 			<glowRadius>3</glowRadius>
-			<glowColor>(249,241,148, 0)</glowColor>
+			<glowColor>(142,133,255, 0)</glowColor>
 		  </li>
 		</comps>
 	</ThingDef>
@@ -358,6 +367,7 @@
 		<costList>
 			<Plasteel>75</Plasteel>
 		  <!-- <ComponentSpacer>7</ComponentSpacer> -->
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Forbiddable">
@@ -448,6 +458,7 @@
 			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorA_Mover</texPath>
 			<color>(181,165,153)</color>
 			<!-- <color>(184,198,203)</color> -->
+			<!-- <color>(114,114,114)</color> -->
 		</graphicData>
 		<techLevel>Ultra</techLevel>
 		<costList>
@@ -475,15 +486,18 @@
 		<graphicData>
 			<!-- <texPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_Mover</texPath> -->
 			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorA_Mover</texPath>
-			<color>(192,193,162)</color>
+			<!-- <color>(192,193,162)</color> -->
+			<color>(60,60,60)</color>
 		</graphicData>
 		<techLevel>Archotech</techLevel>
 		<costList>
 			<Uranium>22</Uranium>
+			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<useHitPoints>false</useHitPoints>
 		<researchPrerequisites Inherit="False">
 		  <li>WVC_ResearchBodyParts_NodeViolet</li>
+		  <li>WVC_ResearchBodyParts_NodeRed</li>
 		</researchPrerequisites>
 		<statBases>
 		  <MaxHitPoints>10000</MaxHitPoints>
@@ -531,8 +545,8 @@
 	  <Mass>32</Mass>
 	</statBases>
 	<costList>
-	  <Plasteel>30</Plasteel>
-	  <!-- <Uranium>6</Uranium> -->
+	  <Plasteel>50</Plasteel>
+	  <Uranium>5</Uranium>
 	  <!-- <ComponentSpacer>1</ComponentSpacer> -->
 	</costList>
 	<!-- <thingSetMakerTags> -->
@@ -590,8 +604,8 @@
 	  <Mass>12</Mass>
 	</statBases>
 	<costList>
-	  <Plasteel>30</Plasteel>
-	  <Uranium>6</Uranium>
+	  <Plasteel>50</Plasteel>
+	  <Uranium>15</Uranium>
 	  <!-- <Silver>2</Silver> -->
 	</costList>
 	<!-- <thingSetMakerTags> -->
@@ -650,9 +664,10 @@
 	  <Mass>12</Mass>
 	</statBases>
 	<costList>
-	  <Plasteel>30</Plasteel>
-	  <Uranium>12</Uranium>
-	  <Silver>2</Silver>
+	  <Plasteel>50</Plasteel>
+	  <Uranium>22</Uranium>
+	  <Silver>20</Silver>
+	  <ComponentSpacer>1</ComponentSpacer>
 	</costList>
 	<comps>
 	  <!-- <li Class="CompProperties_Glower"> -->

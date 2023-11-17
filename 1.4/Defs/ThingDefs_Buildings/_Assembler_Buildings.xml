@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef MayRequire="ludeon.rimworld.ideology" Name="Gauranlen_Assembler_WVC" ParentName="MechanoidBuildings_WVC">
-	<defName>Gauranlen_Assembler_WVC</defName>
+  <ThingDef MayRequire="ludeon.rimworld.ideology" ParentName="MechanoidBuildings_WVC">
+	<defName>WVC_Gaurler</defName>
 	<label>Gaurler</label>
 	<description>Underground complex with artificial conditions for the existence of the dryad queen. Dryads reproduce using cloning vats, the queen's brain is used as a central processing unit to coordinate the complex, as well as to mimic the brood-mind of dryads.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
 	<!-- <descriptionHyperlinks> -->
@@ -18,6 +18,7 @@
 	  <li>FloorCoverings</li>
 	</blocksAltitudes>
 	<building>
+	  <paintable>true</paintable>
 	  <isEdifice>false</isEdifice>
 	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
 	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
@@ -50,6 +51,8 @@
 	  <graphicClass>Graphic_Random</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>(3,3)</drawSize>
+	  <!-- <color>(114,114,114)</color> -->
+	  <color>(181,165,153)</color>
 	  <!-- <shadowData> -->
 		<!-- <volume>(2.8, 0.8, 2.8)</volume> -->
 	  <!-- </shadowData> -->
@@ -74,9 +77,17 @@
 	<!-- <pathCost>10</pathCost> -->
 	<tickerType>Normal</tickerType>
 	<comps Inherit="False">
+	  <!-- <li Class="CompProperties_Glower"> -->
+		<!-- <glowRadius>4</glowRadius> -->
+		<!-- <glowColor>(255,150,100,0)</glowColor> -->
+	  <!-- </li> -->
+	  <!-- <li Class="CompProperties_Glower"> -->
+		<!-- <glowRadius>4</glowRadius> -->
+		<!-- <glowColor>(249,241,148, 0)</glowColor> -->
+	  <!-- </li> -->
 	  <li Class="CompProperties_Glower">
 		<glowRadius>4</glowRadius>
-		<glowColor>(255,150,100,0)</glowColor>
+		<glowColor>(255,182,133, 0)</glowColor>
 	  </li>
 	  <li Class="CompProperties_TreeConnection">
 		<pawnKind>Dryad_Biomass_WVC</pawnKind>
@@ -109,16 +120,16 @@
 		</connectionStrengthGainPerPlantSkill>
 	  </li>
 	  <!-- conditioner -->
-	  <li Class="CompProperties_HeatPusher">
-		<compClass>CompHeatPusherPowered</compClass>
-		<heatPerSecond>40</heatPerSecond>
-		<heatPushMaxTemperature>17</heatPushMaxTemperature>
-	  </li>
-	  <li Class="CompProperties_HeatPusher">
-		<compClass>CompHeatPusherPowered</compClass>
-		<heatPerSecond>-40</heatPerSecond>
-		<heatPushMinTemperature>21</heatPushMinTemperature>
-	  </li>
+	  <!-- <li Class="CompProperties_HeatPusher"> -->
+		<!-- <compClass>CompHeatPusherPowered</compClass> -->
+		<!-- <heatPerSecond>40</heatPerSecond> -->
+		<!-- <heatPushMaxTemperature>17</heatPushMaxTemperature> -->
+	  <!-- </li> -->
+	  <!-- <li Class="CompProperties_HeatPusher"> -->
+		<!-- <compClass>CompHeatPusherPowered</compClass> -->
+		<!-- <heatPerSecond>-40</heatPerSecond> -->
+		<!-- <heatPushMinTemperature>21</heatPushMinTemperature> -->
+	  <!-- </li> -->
 	  <!-- conditioner -->
 	</comps>
 	<placeWorkers>

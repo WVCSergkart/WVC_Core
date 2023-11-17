@@ -44,36 +44,4 @@
 	</comps>
   </ThingDef>
 
-  <!-- ===================================================================== -->
-
-  <!-- <ThingDef ParentName="PlantBaseNonEdible"> -->
-	<!-- <defName>Plant_MossAnima_WVC</defName> -->
-	<!-- <label>Anima moss</label> -->
-	<!-- <description>Symbiotic moss that grows near Anima trees.</description> -->
-	<!-- <statBases> -->
-	  <!-- <MaxHitPoints>100</MaxHitPoints> -->
-	  <!-- <Beauty>10</Beauty> -->
-	  <!-- <BeautyOutdoors>10</BeautyOutdoors> -->
-	<!-- </statBases> -->
-	<!-- <descriptionHyperlinks> -->
-	  <!-- <ThingDef>Plant_TreeGauranlen</ThingDef> -->
-	<!-- </descriptionHyperlinks> -->
-	<!-- <graphicData> -->
-	  <!-- <texPath>WVC/Stuff/AnimaMoss</texPath> -->
-	  <!-- <graphicClass>Graphic_Random</graphicClass> -->
-	  <!-- <drawSize>(0.75, 0.75)</drawSize> -->
-	<!-- </graphicData> -->
-	<!-- <plant> -->
-	  <!-- <fertilityMin>0.05</fertilityMin> -->
-	  <!-- <fertilitySensitivity>0</fertilitySensitivity> -->
-	  <!-- <sowMinSkill>0</sowMinSkill> -->
-	  <!-- <growDays>5</growDays> -->
-	  <!-- <visualSizeRange>0.5~0.7</visualSizeRange> -->
-	  <!-- <topWindExposure>0</topWindExposure> -->
-	  <!-- <allowAutoCut>false</allowAutoCut> -->
-	  <!-- <wildClusterWeight>0</wildClusterWeight> -->
-	  <!-- <maxMeshCount>4</maxMeshCount> -->
-	<!-- </plant> -->
-  <!-- </ThingDef> -->
-
 </Defs>
