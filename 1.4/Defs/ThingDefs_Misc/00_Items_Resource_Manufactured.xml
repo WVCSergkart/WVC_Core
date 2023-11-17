@@ -44,7 +44,7 @@
 	<label>ultranites</label>
 	<description>Unstable convertible microscopic machines capable of taking the desired "form". To manipulate them, special devices are required. They can be eaten as a nutritional paste.</description>
 	<descriptionHyperlinks>
-	  <ConceptDef>WVC_MechanitesIsUniversalFuel</ConceptDef>
+	  <!-- <ConceptDef>WVC_MechanitesIsUniversalFuel</ConceptDef> -->
 	</descriptionHyperlinks>
 	<!-- <tickerType>Normal</tickerType> -->
 	<techLevel>Ultra</techLevel>
@@ -124,18 +124,19 @@
 	  <effectWorking>Cook</effectWorking>
 	  <soundWorking>Recipe_CookMeal</soundWorking>
 	  <bulkRecipeCount>4</bulkRecipeCount>
-	  <researchPrerequisite>WVC_RaceResearching_ELFs</researchPrerequisite>
+	  <researchPrerequisite>WVC_Ultra_Mechtech</researchPrerequisite>
 	  <recipeUsers>
-		<li>WVC_ExperimentalCraftingBench</li>
-		<li>WVC_CyberneticCraftingBench</li>
-		<li>WVC_AncientCraftingBench</li>
-		<li>WVC_MechanoidCraftingBench</li>
-		<li>WVC_BlueCraftingBench</li>
-		<li>WVC_GreenCraftingBench</li>
-		<li>WVC_RedCraftingBench</li>
-		<li>WVC_VioletCraftingBench</li>
-		<li>WVC_YellowCraftingBench</li>
-		<li>WVC_ArchotechCraftingBench</li>
+		<li>DrugLab</li>
+		<!-- <li>WVC_ExperimentalCraftingBench</li> -->
+		<!-- <li>WVC_CyberneticCraftingBench</li> -->
+		<!-- <li>WVC_AncientCraftingBench</li> -->
+		<!-- <li>WVC_MechanoidCraftingBench</li> -->
+		<!-- <li>WVC_BlueCraftingBench</li> -->
+		<!-- <li>WVC_GreenCraftingBench</li> -->
+		<!-- <li>WVC_RedCraftingBench</li> -->
+		<!-- <li>WVC_VioletCraftingBench</li> -->
+		<!-- <li>WVC_YellowCraftingBench</li> -->
+		<!-- <li>WVC_ArchotechCraftingBench</li> -->
 	  </recipeUsers>
 	</recipeMaker>
 	<costList>

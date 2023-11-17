@@ -97,7 +97,7 @@
 		  <Mass>60</Mass>
 		</statBases>
 		<researchPrerequisites>
-			<li>ValkyriesTechs_I_WVC</li>
+			<li>WVC_Ultra_Ultratech</li>
 		</researchPrerequisites>
 	</ThingDef>
 	<ThingDef Name="WVC_BuildingBed_Mechanoid" ParentName="WVC_BuildingBed_Base" Abstract="True">
@@ -108,7 +108,7 @@
 		  <Mass>30</Mass>
 		</statBases>
 		<researchPrerequisites>
-			<li>ValkyriesTechs_II_WVC</li>
+			<li>WVC_Ultra_Mechtech</li>
 		</researchPrerequisites>
 	</ThingDef>
 	<ThingDef Name="WVC_BuildingBed_Archotech" ParentName="WVC_BuildingBed_Base" Abstract="True">
@@ -134,7 +134,7 @@
 		</comps>
 		<designationCategory></designationCategory>
 		<researchPrerequisites>
-			<li>ValkyriesTechs_II_WVC</li>
+			<li>WVC_Ultra_Mechtech</li>
 		</researchPrerequisites>
 	</ThingDef>
 

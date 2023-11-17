@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ResearchProjectDef Name="ValkyriesTechs_Default_WVC" Abstract="True">
+  <ResearchProjectDef Name="WVC_Ultra_ResearchProject_Base" Abstract="True">
 	<label>Test tech</label>
 	<description>No information available.</description>
 	<baseCost>2000</baseCost>
@@ -23,8 +23,8 @@
 
   <!-- ======================================================================= -->
 
-  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
-	<defName>ValkyriesTechs_I_WVC</defName>
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_Ultra_Ultratech</defName>
 	<label>advanced ultratech</label>
 	<description>Complete rethinking and recreation of the most complex technologies of mankind, as well as their further refinement.</description>
 	<techLevel>Spacer</techLevel>
@@ -54,9 +54,9 @@
 	</prerequisites>
   </ResearchProjectDef>
 
-  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
-	<defName>ValkyriesTechs_II_WVC</defName>
-	<label>advanced mechtech</label>
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_Ultra_Mechtech</defName>
+	<label>advanced mechtech I</label>
 	<description>Advanced mechtech research to replicate, improve and empower.</description>
 	  <researchViewX>1.00</researchViewX>
 	  <researchViewY>2.70</researchViewY>
@@ -70,13 +70,13 @@
 	  <li MayRequire="wvc.wvcmod.wvcspecific">WVC_TEST_StartHook</li>
 	</tags>
 	<prerequisites>
-	  <li>ValkyriesTechs_I_WVC</li>
+	  <li>WVC_Ultra_Ultratech</li>
 	  <!-- <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechStart</li> -->
 	</prerequisites>
   </ResearchProjectDef>
 
-  <!-- <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC"> -->
-	<!-- <defName>ValkyriesTechs_II_WVC</defName> -->
+  <!-- <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base"> -->
+	<!-- <defName>WVC_Ultra_Mechtech</defName> -->
 	<!-- <label>advanced mechtech</label> -->
 	<!-- <description>Research that absorbed all previous knowledge and discovered technologies close but at the same time far from archotech.</description> -->
 	<!-- <researchViewX>6.00</researchViewX> -->
@@ -96,9 +96,9 @@
 
   <!-- ======================================================================= -->
 
-  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
-	<defName>ValkyriesTechs_MechaniteCrafterI_WVC</defName>
-	<label>mechanizer</label>
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_Ultra_GarbageRecycler</defName>
+	<label>garbage recycler</label>
 	<description>Reconstruction of matter converter based on mechanite nanotechnologies.</description>
 	<baseCost>5000</baseCost>
 	<techprintCount>3</techprintCount>
@@ -123,23 +123,23 @@
 	</prerequisites>
   </ResearchProjectDef>
 
-  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
-	<defName>ValkyriesTechs_ResourceConversionI_WVC</defName>
-	<label>hybridizer</label>
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_Ultra_UltraniteConversion</defName>
+	<label>ultranites conversion</label>
 	<description>Expansion of the technological capabilities of the mechanizer and its improvement.</description>
 	<researchViewX>1.00</researchViewX>
 	<researchViewY>3.20</researchViewY>
 	<hiddenPrerequisites>
 	</hiddenPrerequisites>
 	<prerequisites>
-	  <!-- <li>ValkyriesTechs_I_WVC</li> -->
-	  <li>ValkyriesTechs_MechaniteCrafterI_WVC</li>
+	  <!-- <li>WVC_Ultra_Ultratech</li> -->
+	  <li>WVC_Ultra_GarbageRecycler</li>
 	</prerequisites>
   </ResearchProjectDef>
 
-  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
-	<defName>ValkyriesTechs_ReplicatorI_WVC</defName>
-	<label>mechanites assembler</label>
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_Ultra_UltraniteSpawner</defName>
+	<label>ultranites assembler</label>
 	<description>Recreation of the nanoforge based on the mechanizer.</description>
 	<researchViewX>2.00</researchViewX>
 	<researchViewY>3.70</researchViewY>
@@ -149,21 +149,21 @@
 	  <li>WVC_Assembled_ELF_Base</li>
 	</tags>
 	<prerequisites>
-	  <li>ValkyriesTechs_ResourceConversionI_WVC</li>
-	  <li>ValkyriesTechs_II_WVC</li>
+	  <!-- <li>WVC_Ultra_UltraniteConversion</li> -->
+	  <li>WVC_Ultra_Mechtech</li>
 	</prerequisites>
   </ResearchProjectDef>
 
   <!-- ======================================================================= -->
 
-  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
-	<defName>ValkyriesTechs_TurretsI_WVC</defName>
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_Ultra_DefenceSystems</defName>
 	<label>mechanoid defence systems</label>
 	<description>Create protection systems similar to mechanods.</description>
 	<researchViewX>2.00</researchViewX>
 	<researchViewY>2.05</researchViewY>
 	<prerequisites>
-	  <li>ValkyriesTechs_II_WVC</li>
+	  <li>WVC_Ultra_Mechtech</li>
 	</prerequisites>
 	<hiddenPrerequisites>
 	  <!-- <li>HeavyTurrets</li> -->
@@ -179,8 +179,8 @@
 
   <!-- ======================================================================= -->
 
-  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC">
-	<defName>ValkyriesTechs_GaurlerI_WVC</defName>
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_Ultra_GauranlenTree</defName>
 	<label>gaurler</label>
 	<description>Experiments on the hybridization of organics and machines.</description>
 	  <researchViewX>2.00</researchViewX>
@@ -191,11 +191,11 @@
 	  <li MayRequire="ludeon.rimworld.ideology">Bioregeneration</li>
 	</hiddenPrerequisites>
 	<prerequisites>
-	  <li>ValkyriesTechs_II_WVC</li>
+	  <li>WVC_Ultra_Mechtech</li>
 	</prerequisites>
   </ResearchProjectDef>
 
-  <!-- <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC"> -->
+  <!-- <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base"> -->
 	<!-- <defName>WVC_MechanoidTech_IncubatorLF</defName> -->
 	<!-- <label>node machine</label> -->
 	<!-- <description>Using the data of previous studies to create a complex machine that will allow you to get a living metal.</description> -->
@@ -207,46 +207,18 @@
 	  <!-- <li>WVC_Assembled_ELF_Base</li> -->
 	<!-- </tags> -->
 	<!-- <prerequisites> -->
-	  <!-- <li>ValkyriesTechs_II_WVC</li> -->
-	  <!-- <li>ValkyriesTechs_ResourceConversionI_WVC</li> -->
+	  <!-- <li>WVC_Ultra_Mechtech</li> -->
+	  <!-- <li>WVC_Ultra_UltraniteConversion</li> -->
 	<!-- </prerequisites> -->
   <!-- </ResearchProjectDef> -->
 
   <!-- ======================================================================= -->
 
-  <ResearchProjectDef ParentName="ValkyriesTechs_Default_WVC" Name="WVC_ExperimentalTechs_Base" Abstract="True">
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base" Name="WVC_Ultra_ResearchProject_Experimental" Abstract="True">
 	<!-- <description>A series of experiments to reproduce the lost technologies of the ancients. This knowledge will help us recreate advanced bionics, weapons and some cloning technologies.</description> -->
 	<baseCost>5000</baseCost>
 	<hiddenPrerequisites>
 	</hiddenPrerequisites>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef MayRequire="honkai.girls.sergkart" ParentName="WVC_ExperimentalTechs_Base">
-	<defName>WVC_Tech_ExoticWeaponCraft</defName>
-	<label>ancient weapon</label>
-	<researchViewX>2.00</researchViewX>
-	<researchViewY>4.35</researchViewY>
-	<hiddenPrerequisites>
-		<!-- <li MayRequire="nemonian.my">MoyoChargedBolt</li> -->
-		<!-- <li MayRequire="aoba.redmoyo">RedMoyoWeaponT3</li> -->
-		<!-- <li MayRequire="rimeffect.n7">REN7_N7Weaponry</li> -->
-		<!-- = -->
-		<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleSpears</li> -->
-		<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_NoblePolearms</li> -->
-		<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleMaces</li> -->
-		<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleHammers</li> -->
-		<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleAxes</li> -->
-		<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_NobleCleavers</li> -->
-		<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_MilitarySwords</li> -->
-		<!-- = -->
-		<li>LongBlades</li>
-	</hiddenPrerequisites>
-	<prerequisites>
-	  <!-- <li>Machining</li> -->
-	  <!-- <li>AdvancedFabrication</li> -->
-	  <li>ValkyriesTechs_I_WVC</li>
-	  <li>ValkyriesTechs_ResourceConversionI_WVC</li>
-	</prerequisites>
   </ResearchProjectDef>
 
   <!-- ======================================================================= -->

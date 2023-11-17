@@ -318,7 +318,7 @@
 		  <li>Crafting</li>
 		  <li>Smithing</li>
 		  <li>Tailoring</li>
-		  <li>WVC_ComplexWork</li>
+		  <!-- <li>WVC_ComplexWork</li> -->
 		</mechEnabledWorkTypes>
 		<lifeStageAges>
 		  <li>

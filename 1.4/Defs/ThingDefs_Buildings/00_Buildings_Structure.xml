@@ -76,7 +76,7 @@
 		  <!-- <shaderType>CutoutComplex</shaderType> -->
 		<!-- </graphicData> -->
 		<researchPrerequisites>
-			<li>ValkyriesTechs_I_WVC</li>
+			<li>WVC_Ultra_Ultratech</li>
 		</researchPrerequisites>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	</ThingDef>
@@ -87,7 +87,7 @@
 		  <!-- <shaderType>CutoutComplex</shaderType> -->
 		<!-- </graphicData> -->
 		<researchPrerequisites>
-			<li>ValkyriesTechs_II_WVC</li>
+			<li>WVC_Ultra_Mechtech</li>
 		</researchPrerequisites>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	</ThingDef>
@@ -99,7 +99,7 @@
 		  <!-- <shaderType>CutoutComplex</shaderType> -->
 		<!-- </graphicData> -->
 		<researchPrerequisites>
-			<li>ValkyriesTechs_II_WVC</li>
+			<li>WVC_Ultra_Mechtech</li>
 		</researchPrerequisites>
 		<designationCategory></designationCategory>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
@@ -107,7 +107,7 @@
 
 	<ThingDef Name="NotMinified_Archotech_Buildings_WVC" ParentName="BaseBuildings_WVC" Abstract="True">
 		<descriptionHyperlinks>
-		  <ConceptDef>WVC_WallsDoorsFloors</ConceptDef>
+		  <!-- <ConceptDef>WVC_WallsDoorsFloors</ConceptDef> -->
 		</descriptionHyperlinks>
 		<statBases>
 		  <MarketValue>1</MarketValue>
@@ -122,7 +122,7 @@
 		<comps>
 		</comps>
 		<researchPrerequisites>
-			<li>ValkyriesTechs_II_WVC</li>
+			<li>WVC_Ultra_Mechtech</li>
 		</researchPrerequisites>
 		<!-- <terrainAffordanceNeeded>Light</terrainAffordanceNeeded> -->
 	</ThingDef>
@@ -194,7 +194,7 @@
 			</relatedBuildCommands>
 		</building>
 		<!-- <researchPrerequisites> -->
-		  <!-- <li>ValkyriesTechs_II_WVC</li> -->
+		  <!-- <li>WVC_Ultra_Mechtech</li> -->
 		<!-- </researchPrerequisites> -->
 		<designatorDropdown>HGS_Walls_WVC</designatorDropdown>
 	</ThingDef>
@@ -220,7 +220,7 @@
 		<!-- <comps Inherit="False"> -->
 		<!-- </comps> -->
 		<researchPrerequisites Inherit="False">
-		  <li>ValkyriesTechs_I_WVC</li>
+		  <li>WVC_Ultra_Ultratech</li>
 		</researchPrerequisites>
 		<statBases>
 			<MaxHitPoints>8000</MaxHitPoints>
@@ -250,12 +250,12 @@
 		<!-- <comps Inherit="False"> -->
 		<!-- </comps> -->
 		<researchPrerequisites Inherit="False">
-		  <li>ValkyriesTechs_I_WVC</li>
+		  <li>WVC_ResearchBodyParts_NodeRed</li>
 		</researchPrerequisites>
 		<statBases>
-			<MaxHitPoints>8000</MaxHitPoints>
+			<MaxHitPoints>15000</MaxHitPoints>
 		</statBases>
-		<constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<comps>
 		  <li Class="CompProperties_Glower">
@@ -285,7 +285,7 @@
 		<!-- <comps Inherit="False"> -->
 		<!-- </comps> -->
 		<researchPrerequisites Inherit="False">
-		  <li>ValkyriesTechs_II_WVC</li>
+		  <li>WVC_Ultra_Mechtech</li>
 		</researchPrerequisites>
 		<statBases>
 			<MaxHitPoints>10000</MaxHitPoints>
@@ -311,7 +311,7 @@
 		</costList>
 		<useHitPoints>false</useHitPoints>
 		<researchPrerequisites Inherit="False">
-		  <li>ValkyriesTechs_II_WVC</li>
+		  <li>WVC_ResearchBodyParts_NodeViolet</li>
 		</researchPrerequisites>
 		<statBases>
 			<MaxHitPoints>12000</MaxHitPoints>
@@ -404,7 +404,7 @@
 		  <li>PlaceWorker_DoorLearnOpeningSpeed</li>
 		</placeWorkers>
 		<researchPrerequisites>
-		  <li>ValkyriesTechs_II_WVC</li>
+		  <li>WVC_Ultra_Mechtech</li>
 		</researchPrerequisites>
 		<designatorDropdown>HGS_Doors_WVC</designatorDropdown>
 	</ThingDef>
@@ -427,7 +427,7 @@
 			<!-- <ComponentSpacer>1</ComponentSpacer> -->
 		</costList>
 		<researchPrerequisites Inherit="False">
-		  <li>ValkyriesTechs_I_WVC</li>
+		  <li>WVC_Ultra_Ultratech</li>
 		</researchPrerequisites>
 		<statBases>
 		  <MaxHitPoints>6000</MaxHitPoints>
@@ -454,7 +454,7 @@
 			<Uranium>12</Uranium>
 		</costList>
 		<researchPrerequisites Inherit="False">
-		  <li>ValkyriesTechs_II_WVC</li>
+		  <li>WVC_Ultra_Mechtech</li>
 		</researchPrerequisites>
 		<statBases>
 		  <MaxHitPoints>8000</MaxHitPoints>
@@ -483,7 +483,7 @@
 		</costList>
 		<useHitPoints>false</useHitPoints>
 		<researchPrerequisites Inherit="False">
-		  <li>ValkyriesTechs_II_WVC</li>
+		  <li>WVC_ResearchBodyParts_NodeViolet</li>
 		</researchPrerequisites>
 		<statBases>
 		  <MaxHitPoints>10000</MaxHitPoints>
@@ -547,7 +547,7 @@
 	<canOverlapZones>false</canOverlapZones>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<researchPrerequisites Inherit="False">
-	  <li>ValkyriesTechs_I_WVC</li>
+	  <li>WVC_Ultra_Ultratech</li>
 	</researchPrerequisites>
 	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<designatorDropdown>HGS_Columns_WVC</designatorDropdown>
@@ -606,7 +606,7 @@
 	<canOverlapZones>false</canOverlapZones>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<researchPrerequisites Inherit="False">
-	  <li>ValkyriesTechs_II_WVC</li>
+	  <li>WVC_Ultra_Mechtech</li>
 	</researchPrerequisites>
 	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<designatorDropdown>HGS_Columns_WVC</designatorDropdown>
@@ -676,7 +676,7 @@
 	<canOverlapZones>false</canOverlapZones>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<researchPrerequisites Inherit="False">
-	  <li>ValkyriesTechs_II_WVC</li>
+	  <li>WVC_ResearchBodyParts_NodeViolet</li>
 	</researchPrerequisites>
 	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<designatorDropdown>HGS_Columns_WVC</designatorDropdown>

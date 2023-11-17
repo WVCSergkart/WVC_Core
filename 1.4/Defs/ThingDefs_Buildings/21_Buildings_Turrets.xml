@@ -74,7 +74,7 @@
 	  <soundAmbient>MechTurretSmall_Call</soundAmbient>
 	</building>
 	<researchPrerequisites Inherit="False">
-	  <li>ValkyriesTechs_TurretsI_WVC</li>
+	  <li>WVC_Ultra_DefenceSystems</li>
 	  <!-- <li>HeavyTurrets</li> -->
 	  <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_AutomatedDefensiveMeasures</li>
 	</researchPrerequisites>

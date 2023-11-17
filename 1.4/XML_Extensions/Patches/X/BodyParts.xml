@@ -1,37 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-	<Operation Class="XmlExtensions.OptionalPatch">
-		<modId>honkai.girls.sergkart</modId>
-		<key>WVC_EnableImplants_TortureBodyParts</key>
-		<defaultValue>true</defaultValue>
-		<caseFalse>
-
-			<li Class="XmlExtensions.PatchOperationSafeRemove">
-				<xpath>/Defs/HediffDef[@ParentName="WVC_Hediff_BodyPart_Torture"]</xpath>
-			</li>
-			<!-- <li Class="XmlExtensions.PatchOperationSafeRemove"> -->
-				<!-- <xpath>/Defs/ThingCategoryDef[defName="WVC_BodyPartsTorture"]</xpath> -->
-			<!-- </li> -->
-
-		</caseFalse>
-		<caseTrue>
-
-			<Operation Class="XmlExtensions.ApplyPatch">
-				<patchName>WVC_BodyPartGenerator</patchName>
-				<arguments>
-					<li>WVC_Hediff_BodyPart_Torture</li>
-					<li>WVC_BodyPartTortureBase</li>
-					<li>True</li>
-					<li>1</li>
-					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Base</li> -->
-					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Ultra</li> -->
-				</arguments>
-			</Operation>
-
-		</caseTrue>
-	</Operation>
-
 	<!--=====================================================================-->
 
 	<Operation Class="XmlExtensions.OptionalPatch">
@@ -41,7 +10,15 @@
 		<caseFalse>
 
 			<li Class="XmlExtensions.PatchOperationSafeRemove">
+				<xpath>/Defs/HediffDef[@ParentName="WVC_Hediff_BodyPart_Torture"]</xpath>
+			</li>
+
+			<li Class="XmlExtensions.PatchOperationSafeRemove">
 				<xpath>/Defs/HediffDef[@ParentName="WVC_Hediff_BodyPart_AdvancedBionic"]</xpath>
+			</li>
+
+			<li Class="XmlExtensions.PatchOperationSafeRemove">
+				<xpath>/Defs/HediffDef[@ParentName="WVC_Hediff_BodyPart_Cybernetic"]</xpath>
 			</li>
 			<!-- <li Class="XmlExtensions.PatchOperationSafeRemove"> -->
 				<!-- <xpath>/Defs/ThingCategoryDef[defName="WVC_BodyPartsAdvancedBionic"]</xpath> -->
@@ -62,24 +39,17 @@
 				</arguments>
 			</Operation>
 
-		</caseTrue>
-	</Operation>
-
-	<Operation Class="XmlExtensions.OptionalPatch">
-		<modId>honkai.girls.sergkart</modId>
-		<key>WVC_EnableImplants_CyberneticBodyParts</key>
-		<defaultValue>true</defaultValue>
-		<caseFalse>
-
-			<li Class="XmlExtensions.PatchOperationSafeRemove">
-				<xpath>/Defs/HediffDef[@ParentName="WVC_Hediff_BodyPart_Cybernetic"]</xpath>
-			</li>
-			<!-- <li Class="XmlExtensions.PatchOperationSafeRemove"> -->
-				<!-- <xpath>/Defs/ThingCategoryDef[defName="WVC_BodyPartsCybernetic"]</xpath> -->
-			<!-- </li> -->
-
-		</caseFalse>
-		<caseTrue>
+			<Operation Class="XmlExtensions.ApplyPatch">
+				<patchName>WVC_BodyPartGenerator</patchName>
+				<arguments>
+					<li>WVC_Hediff_BodyPart_Torture</li>
+					<li>WVC_BodyPartTortureBase</li>
+					<li>True</li>
+					<li>1</li>
+					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Base</li> -->
+					<!-- <li>WVC_BodyPartGenerator_CreateThingAndRecipe_Ultra</li> -->
+				</arguments>
+			</Operation>
 
 			<Operation Class="XmlExtensions.ApplyPatch">
 				<patchName>WVC_BodyPartGenerator</patchName>
@@ -173,6 +143,26 @@
 
 		</caseFalse>
 		<caseTrue>
+
+	<!--=====================================================================-->
+
+			<Operation Class="XmlExtensions.OptionalPatch">
+				<modId>honkai.girls.sergkart</modId>
+				<key>WVC_EnableImplants_AdvancedBionicBodyParts</key>
+				<defaultValue>true</defaultValue>
+				<caseFalse>
+				</caseFalse>
+				<caseTrue>
+
+					<Operation Class="PatchOperationAdd">
+						  <xpath>Defs/ResearchProjectDef[@Name="WVC_Ultra_ResearchProject_NodeTech"]/hiddenPrerequisites</xpath>
+						  <value>
+							<li>WVC_BionicTech_Cybernetic</li>
+						  </value>
+					</Operation>
+
+				</caseTrue>
+			</Operation>
 
 			<Operation Class="XmlExtensions.ApplyPatch">
 				<patchName>WVC_BodyPartGenerator</patchName>

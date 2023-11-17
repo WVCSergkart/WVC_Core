@@ -61,7 +61,7 @@
 	<researchPrerequisites Inherit="False">
 		<!-- <li>Electricity</li> -->
 		<li MayRequire="vanillaexpanded.vfepower">VFE_AdvancedPowerSources</li>
-		<li>ValkyriesTechs_II_WVC</li>
+		<li>WVC_Ultra_Mechtech</li>
 	</researchPrerequisites>
 	<designationCategory>WVC_UltraExpansion</designationCategory>
   </ThingDef>
@@ -116,7 +116,7 @@
 	  <ComponentSpacer>1</ComponentSpacer>
 	</costList>
 	<researchPrerequisites Inherit="False">
-		<li>ValkyriesTechs_II_WVC</li>
+		<li>WVC_Ultra_Mechtech</li>
 	</researchPrerequisites>
 	<designationCategory>WVC_UltraExpansion</designationCategory>
   </ThingDef>
@@ -218,7 +218,7 @@
 	<!-- <constructEffect>ConstructMetal</constructEffect> -->
 	<clearBuildingArea>false</clearBuildingArea>
 	<researchPrerequisites Inherit="False">
-	  <li>ValkyriesTechs_II_WVC</li>
+	  <li>WVC_Ultra_Mechtech</li>
 	</researchPrerequisites>
   </ThingDef>
 
@@ -277,8 +277,8 @@
 	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<staticSunShadowHeight>0.20</staticSunShadowHeight>
 	<researchPrerequisites Inherit="False">
-	  <!-- <li>ValkyriesTechs_TurretsI_WVC</li> -->
-	  <li>ValkyriesTechs_II_WVC</li>
+	  <!-- <li>WVC_Ultra_DefenceSystems</li> -->
+	  <li>WVC_Ultra_Mechtech</li>
 	</researchPrerequisites>
 	<comps>
 	</comps>

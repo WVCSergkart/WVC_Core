@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <RecipeDef Name="GirlyWorkRecipeAbstractResources_WVC" ParentName="GirlyWorkRecipeAbstract_WVC" Abstract="True">
+  <RecipeDef Name="GirlyWorkRecipeAbstractResources_WVC" ParentName="WVC_Ultra_CraftingRecipes_Base" Abstract="True">
 	<effectWorking>Smith</effectWorking>
 	<soundWorking>Recipe_Machining</soundWorking>
 	<workAmount>3000</workAmount>
@@ -23,7 +23,7 @@
 	  </disallowedThingDefs>
 	</fixedIngredientFilter>
 	<researchPrerequisites>
-		<li>ValkyriesTechs_ResourceConversionI_WVC</li>
+		<li>WVC_Ultra_UltraniteConversion</li>
 	</researchPrerequisites>
   </RecipeDef>
   <!-- ===========================Garbage=========================== -->

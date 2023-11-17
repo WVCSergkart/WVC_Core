@@ -213,7 +213,7 @@
 						<value>
 							<researchPrerequisites>
 								<!-- <li>MultiAnalyzer</li> -->
-								<li>ValkyriesTechs_I_WVC</li>
+								<li>WVC_Ultra_Ultratech</li>
 							</researchPrerequisites>
 						</value>
 					</Operation>

@@ -100,7 +100,13 @@
 		<Intellectual>4</Intellectual>
 		<Medicine>6</Medicine>
 	  </skillRequirements>
-	  <researchPrerequisite>WVC_BionicTech_Torture</researchPrerequisite>
+	  <!-- <researchPrerequisite>WVC_BionicTech_Torture</researchPrerequisite> -->
+	  <researchPrerequisites>
+		<li>Bionics</li>
+		<li MayRequire="vat.epoeforked">AdvancedBionics</li>
+		<li MayRequire="vat.epoeforked">SyntheticOrgans</li>
+		<li>WVC_BionicTech_Torture</li>
+	  </researchPrerequisites>
 	  <recipeUsers>
 		<li>WVC_ExperimentalCraftingBench</li>
 	  </recipeUsers>
@@ -139,7 +145,13 @@
 		<Intellectual>6</Intellectual>
 		<!-- <Medicine>6</Medicine> -->
 	  </skillRequirements>
-	  <researchPrerequisite>WVC_BionicTech_AdvancedBionic</researchPrerequisite>
+	  <!-- <researchPrerequisite>WVC_BionicTech_AdvancedBionic</researchPrerequisite> -->
+	  <researchPrerequisites>
+		<li>Bionics</li>
+		<li MayRequire="vat.epoeforked">AdvancedBionics</li>
+		<li MayRequire="vat.epoeforked">SyntheticOrgans</li>
+		<li>WVC_BionicTech_AdvancedBionic</li>
+	  </researchPrerequisites>
 	  <recipeUsers>
 		<li>WVC_ExperimentalCraftingBench</li>
 	  </recipeUsers>
@@ -176,7 +188,13 @@
 		<Intellectual>8</Intellectual>
 		<!-- <Medicine>6</Medicine> -->
 	  </skillRequirements>
-	  <researchPrerequisite>WVC_BionicTech_Cybernetic</researchPrerequisite>
+	  <!-- <researchPrerequisite>WVC_BionicTech_Cybernetic</researchPrerequisite> -->
+	  <researchPrerequisites>
+		<li>Bionics</li>
+		<li MayRequire="vat.epoeforked">AdvancedBionics</li>
+		<li MayRequire="vat.epoeforked">SyntheticOrgans</li>
+		<li>WVC_BionicTech_Cybernetic</li>
+	  </researchPrerequisites>
 	  <recipeUsers>
 		<li>WVC_CyberneticCraftingBench</li>
 	  </recipeUsers>
@@ -213,7 +231,13 @@
 		<Intellectual>12</Intellectual>
 		<Medicine>8</Medicine>
 	  </skillRequirements>
-	  <researchPrerequisite>WVC_RaceResearching_Valkyries</researchPrerequisite>
+	  <!-- <researchPrerequisite>WVC_Ultra_Ultratech</researchPrerequisite> -->
+	  <researchPrerequisites>
+		<li>Bionics</li>
+		<li MayRequire="vat.epoeforked">AdvancedBionics</li>
+		<li MayRequire="vat.epoeforked">SyntheticOrgans</li>
+		<li>WVC_Ultra_Ultratech</li>
+	  </researchPrerequisites>
 	  <recipeUsers>
 		<li>WVC_AncientCraftingBench</li>
 	  </recipeUsers>
@@ -254,7 +278,13 @@
 		<Intellectual>16</Intellectual>
 		<Medicine>8</Medicine>
 	  </skillRequirements>
-	  <researchPrerequisite>WVC_RaceResearching_ELFs</researchPrerequisite>
+	  <!-- <researchPrerequisite>WVC_Ultra_Mechtech</researchPrerequisite> -->
+	  <researchPrerequisites>
+		<li>Bionics</li>
+		<li MayRequire="vat.epoeforked">AdvancedBionics</li>
+		<li MayRequire="vat.epoeforked">SyntheticOrgans</li>
+		<li>WVC_Ultra_Mechtech</li>
+	  </researchPrerequisites>
 	  <recipeUsers>
 		<li>WVC_MechanoidCraftingBench</li>
 	  </recipeUsers>

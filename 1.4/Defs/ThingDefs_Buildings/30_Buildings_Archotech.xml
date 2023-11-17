@@ -56,7 +56,7 @@
 	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<staticSunShadowHeight>0.20</staticSunShadowHeight>
 	<researchPrerequisites Inherit="False">
-	  <li>ValkyriesTechs_II_WVC</li>
+	  <li>WVC_Ultra_Mechtech</li>
 	</researchPrerequisites>
 	<comps>
 	</comps>

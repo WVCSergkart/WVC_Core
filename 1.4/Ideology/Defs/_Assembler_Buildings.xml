@@ -130,7 +130,7 @@
 	  <allowedSpectateSides>All</allowedSpectateSides>
 	</ritualFocus>
 	<researchPrerequisites Inherit="False">
-	  <li>ValkyriesTechs_GaurlerI_WVC</li>
+	  <li>WVC_Ultra_GauranlenTree</li>
 	</researchPrerequisites>
 	<!-- <designationCategory>Ideology</designationCategory> -->
 	<!-- <designatorDropdown>HGS_Gaurler_WVC</designatorDropdown> -->

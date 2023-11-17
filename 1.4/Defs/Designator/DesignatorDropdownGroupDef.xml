@@ -68,7 +68,7 @@
 	</specialDesignatorClasses>
 	<researchPrerequisites>
 	  <li>Electricity</li>
-	  <li>ValkyriesTechs_I_WVC</li>
+	  <li>WVC_Ultra_Ultratech</li>
 	</researchPrerequisites>
   </DesignationCategoryDef>
 

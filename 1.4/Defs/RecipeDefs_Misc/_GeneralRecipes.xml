@@ -1,39 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <WorkTypeDef>
-	<defName>WVC_ComplexWork</defName>
-	<labelShort>Ultra</labelShort>
-	<pawnLabel>complex work</pawnLabel>
-	<gerundLabel>complex crafting</gerundLabel>
-	<description>Do complex work on ultra workbenches. This job may require a very high skill level.</description>
-	<verb>work</verb>
-	<naturalPriority>1</naturalPriority>
-	<alwaysStartActive>true</alwaysStartActive>
-	<requireCapableColonist>true</requireCapableColonist>
-	<relevantSkills>
-	  <li>Medicine</li>
-	  <li>Crafting</li>
-	  <li>Intellectual</li>
-	</relevantSkills>
-	<workTags>
+  <!-- <WorkTypeDef> -->
+	<!-- <defName>WVC_ComplexWork</defName> -->
+	<!-- <labelShort>Ultra</labelShort> -->
+	<!-- <pawnLabel>complex work</pawnLabel> -->
+	<!-- <gerundLabel>complex crafting</gerundLabel> -->
+	<!-- <description>Do complex work on ultra workbenches. This job may require a very high skill level.</description> -->
+	<!-- <verb>work</verb> -->
+	<!-- <naturalPriority>1</naturalPriority> -->
+	<!-- <alwaysStartActive>true</alwaysStartActive> -->
+	<!-- <requireCapableColonist>true</requireCapableColonist> -->
+	<!-- <relevantSkills> -->
+	  <!-- <li>Medicine</li> -->
 	  <!-- <li>Crafting</li> -->
-	  <li>Intellectual</li>
-	  <li>AllWork</li>
-	  <li>Commoner</li>
-	  <li>ManualSkilled</li>
-	</workTags>
-  </WorkTypeDef>
+	  <!-- <li>Intellectual</li> -->
+	<!-- </relevantSkills> -->
+	<!-- <workTags> -->
+	  <!-- <li>Intellectual</li> -->
+	  <!-- <li>AllWork</li> -->
+	  <!-- <li>Commoner</li> -->
+	  <!-- <li>ManualSkilled</li> -->
+	<!-- </workTags> -->
+  <!-- </WorkTypeDef> -->
 
   <!-- ======================================================================= -->
 
-  <WorkGiverDef Name="WVC_WorkGiver_Base" Abstract="True">
+  <WorkGiverDef Name="WVC_Ultra_WorkGiver_Base" Abstract="True">
 	<label>work at crafter</label>
 	<giverClass>WorkGiver_DoBill</giverClass>
-	<workType>WVC_ComplexWork</workType>
+	<!-- <workType>WVC_ComplexWork</workType> -->
 	<priorityInType>10</priorityInType>
 	<fixedBillGiverDefs>
-	  <!-- <li>DefaultWorkSpot_WVC</li> -->
+	  <!-- <li>WVC_Ultra_GarbageRecyclerBench</li> -->
 	</fixedBillGiverDefs>
 	<workTags>
 	  <li>Intellectual</li>
@@ -46,33 +45,35 @@
 	<prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
 
-  <WorkGiverDef ParentName="WVC_WorkGiver_Base">
-	<defName>WVC_MechanizerWork</defName>
-	<label>work at mechanizer</label>
+  <!-- <WorkGiverDef ParentName="WVC_Ultra_WorkGiver_Base"> -->
+	<!-- <defName>WVC_MechanizerWork</defName> -->
+	<!-- <label>work at mechanizer</label> -->
+	<!-- <priorityInType>10</priorityInType> -->
+	<!-- <fixedBillGiverDefs> -->
+	  <!-- <li>WVC_Ultra_GarbageRecyclerBench</li> -->
+	<!-- </fixedBillGiverDefs> -->
+  <!-- </WorkGiverDef> -->
+
+  <WorkGiverDef ParentName="WVC_Ultra_WorkGiver_Base">
+	<defName>WVC_Ultra_GarbageRecyclerBench</defName>
+	<label>work at mechtech recycler</label>
+	<priorityInType>10</priorityInType>
+	<workType>Smithing</workType>
 	<priorityInType>10</priorityInType>
 	<fixedBillGiverDefs>
-	  <li>DefaultWorkSpot_WVC</li>
-	  <!-- <li>WVC_Node_MechaniteCrafter_Violet</li> -->
-	</fixedBillGiverDefs>
-  </WorkGiverDef>
-
-  <WorkGiverDef ParentName="WVC_WorkGiver_Base">
-	<defName>WVC_AdvancedCrafterWork</defName>
-	<label>work at hybridizer</label>
-	<priorityInType>60</priorityInType>
-	<fixedBillGiverDefs>
-	  <li>WVC_AdvancedCraftingBench</li>
-	  <!-- <li>WVC_NodeCraftingBench</li> -->
+	  <li>WVC_Ultra_GarbageRecyclerBench</li>
 	</fixedBillGiverDefs>
 	<workTags>
 	  <li>Crafting</li>
 	</workTags>
   </WorkGiverDef>
 
-  <WorkGiverDef ParentName="WVC_WorkGiver_Base">
+  <WorkGiverDef ParentName="WVC_Ultra_WorkGiver_Base">
 	<defName>WVC_BodyPartsCraftingWork</defName>
 	<label>work at implant workbench</label>
 	<priorityInType>100</priorityInType>
+	<workType>Smithing</workType>
+	<priorityInType>70</priorityInType>
 	<fixedBillGiverDefs>
 	  <li>WVC_ExperimentalCraftingBench</li>
 	  <li>WVC_CyberneticCraftingBench</li>
@@ -93,7 +94,7 @@
 
   <!-- ======================================================================= -->
 
-  <RecipeDef Name="GirlyWorkRecipeAbstract_WVC" Abstract="True">
+  <RecipeDef Name="WVC_Ultra_CraftingRecipes_Base" Abstract="True">
 	<label>recycle</label>
 	<description>Recycle something useless into something useful.</description>
 	<jobString>Recycling.</jobString>
@@ -104,7 +105,7 @@
 	<effectWorking>Smith</effectWorking>
 	<soundWorking>Recipe_Machining</soundWorking>
 	<recipeUsers>
-	  <li>DefaultWorkSpot_WVC</li>
+	  <li>WVC_Ultra_GarbageRecyclerBench</li>
 	  <!-- <li>WVC_Node_MechaniteCrafter_Violet</li> -->
 	</recipeUsers>
 	<!-- <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef> -->
@@ -126,13 +127,13 @@
 
   <!-- ======================================================================= -->
 
-  <RecipeDef ParentName="GirlyWorkRecipeAbstract_WVC" Name="WVC_MakeComponents_Base" Abstract="True">
+  <RecipeDef ParentName="WVC_Ultra_CraftingRecipes_Base" Name="WVC_MakeComponents_Base" Abstract="True">
 	<label>Make components</label>
 	<jobString>transforming mechanites.</jobString>
 	<effectWorking>Tailor</effectWorking>
 	<workAmount>5000</workAmount>
 	<recipeUsers Inherit="False">
-	  <li>WVC_AdvancedCraftingBench</li>
+	  <li>WVC_Ultra_GarbageRecyclerBench</li>
 	  <!-- <li>WVC_NodeCraftingBench</li> -->
 	</recipeUsers>
 	<ingredients>
@@ -259,7 +260,7 @@
 
   <!-- ======================================================================= -->
 
-  <RecipeDef ParentName="GirlyWorkRecipeAbstract_WVC">
+  <RecipeDef ParentName="WVC_Ultra_CraftingRecipes_Base">
 	<defName>WVC_RecycleRecipe_WeaponsApparelsCorpsesChunks</defName>
 	<label>recycle stuff</label>
 	<uiIconThing>WVC_UniversalFuel</uiIconThing>
@@ -321,7 +322,7 @@
 
   <!-- ======================================================================= -->
 
-  <RecipeDef ParentName="GirlyWorkRecipeAbstract_WVC">
+  <RecipeDef ParentName="WVC_Ultra_CraftingRecipes_Base">
 	<defName>WVC_RecycleRecipe_Organics</defName>
 	<label>recycle organics</label>
 	<allowMixingIngredients>true</allowMixingIngredients>
@@ -353,7 +354,7 @@
 
   <!-- ======================================================================= -->
 
-  <RecipeDef ParentName="GirlyWorkRecipeAbstract_WVC">
+  <RecipeDef ParentName="WVC_Ultra_CraftingRecipes_Base">
 	<defName>WVC_RecycleRecipe_Materials</defName>
 	<label>recycle materials</label>
 	<allowMixingIngredients>true</allowMixingIngredients>
@@ -394,7 +395,7 @@
 
   <!-- ======================================================================= -->
 
-  <RecipeDef ParentName="GirlyWorkRecipeAbstract_WVC">
+  <RecipeDef ParentName="WVC_Ultra_CraftingRecipes_Base">
 	<defName>WVC_RecycleRecipe_Manufactured</defName>
 	<label>recycle manufactured</label>
 	<allowMixingIngredients>true</allowMixingIngredients>
@@ -453,7 +454,7 @@
 
   <!-- ======================================================================= -->
 
-  <RecipeDef MayRequire="ludeon.rimworld.biotech" ParentName="GirlyWorkRecipeAbstract_WVC">
+  <RecipeDef MayRequire="ludeon.rimworld.biotech" ParentName="WVC_Ultra_CraftingRecipes_Base">
 	<defName>WVC_RecycleRecipe_Wastepack</defName>
 	<label>recycle toxic wastepack</label>
 	<allowMixingIngredients>true</allowMixingIngredients>
@@ -484,7 +485,7 @@
 
   <!-- ======================================================================= -->
   
-  <!-- <RecipeDef MayRequire="honkai.girls.sergkart" ParentName="GirlyWorkRecipeAbstract_WVC"> -->
+  <!-- <RecipeDef MayRequire="honkai.girls.sergkart" ParentName="WVC_Ultra_CraftingRecipes_Base"> -->
 	<!-- <defName>WVC_Recraft_ExoticWeaponComponents</defName> -->
 	<!-- <label>recraft</label> -->
 	<!-- <description>Refining ancient weapons to obtain rare components.</description> -->

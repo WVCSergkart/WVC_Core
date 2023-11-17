@@ -32,13 +32,13 @@
 	</costList>
 	<recipeMaker>
 	  <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
-	  <researchPrerequisite>ValkyriesTechs_II_WVC</researchPrerequisite>
+	  <researchPrerequisite>WVC_Ultra_Mechtech</researchPrerequisite>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 	  <workSkill>Crafting</workSkill>
 	  <effectWorking>Smith</effectWorking>
 	  <soundWorking>Recipe_Machining</soundWorking>
 	  <recipeUsers>
-		<li>WVC_AdvancedCraftingBench</li>
+		<li>FabricationBench</li>
 		<!-- <li>WVC_NodeCraftingBench</li> -->
 	  </recipeUsers>
 	  <useIngredientsForColor>false</useIngredientsForColor>

@@ -31,7 +31,7 @@
 	<defName>WVC_Mech_Hornad</defName>
 	<label>gestate hornad</label>
 	<description>Gestate a hornad mechanoid.</description>
-	<researchPrerequisite>ValkyriesTechs_II_WVC</researchPrerequisite>
+	<researchPrerequisite>WVC_ResearchBodyParts_NodeBlue</researchPrerequisite>
 	<ingredients>
 	  <li>
 		<filter>
@@ -54,7 +54,7 @@
 	<defName>WVC_Mech_Nautil</defName>
 	<label>gestate nautil</label>
 	<description>Gestate a nautil mechanoid.</description>
-	<researchPrerequisite>ValkyriesTechs_II_WVC</researchPrerequisite>
+	<researchPrerequisite>WVC_ResearchBodyParts_NodeRed</researchPrerequisite>
 	<ingredients>
 	  <li>
 		<filter>
@@ -77,7 +77,7 @@
 	<defName>WVC_Mech_Fion</defName>
 	<label>gestate fion</label>
 	<description>Gestate a fion mechanoid.</description>
-	<researchPrerequisite>ValkyriesTechs_II_WVC</researchPrerequisite>
+	<researchPrerequisite>WVC_ResearchBodyParts_NodeYellow</researchPrerequisite>
 	<ingredients>
 	  <li>
 		<filter>

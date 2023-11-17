@@ -91,7 +91,7 @@
 	</comps>
 	<researchPrerequisites Inherit="False">
 	  <li>AirConditioning</li>
-	  <li>ValkyriesTechs_II_WVC</li>
+	  <li>WVC_Ultra_Mechtech</li>
 	</researchPrerequisites>
 	<!-- <constructionSkillPrerequisite>12</constructionSkillPrerequisite> -->
 	<!-- <designationCategory>Temperature</designationCategory> -->

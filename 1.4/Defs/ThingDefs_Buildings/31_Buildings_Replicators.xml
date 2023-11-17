@@ -96,7 +96,7 @@
 	</tradeTags>
 	<!-- <designatorDropdown>Valkyries_Replicators_WVC</designatorDropdown> -->
 	<researchPrerequisites Inherit="False">
-		<li>ValkyriesTechs_ReplicatorI_WVC</li>
+		<li>WVC_Ultra_UltraniteSpawner</li>
 	</researchPrerequisites>
 	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<!-- <designatorDropdown>HGS_Spawners_WVC</designatorDropdown> -->

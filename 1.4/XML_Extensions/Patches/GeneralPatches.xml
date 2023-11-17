@@ -16,7 +16,7 @@
 	  <value>
 		  <li Class="StockGenerator_Tag">
 			<tradeTag>WVC_UltraBionic</tradeTag>
-			<thingDefCountRange>1~6</thingDefCountRange>
+			<thingDefCountRange>0~2</thingDefCountRange>
 			<countRange>1~1</countRange>
 		  </li>
 	  </value>
@@ -201,12 +201,12 @@
 			  </value>
 			</Operation>
 
-			<Operation Class="PatchOperationAdd">
-			  <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings</xpath>
-			  <value>
-				  <WVC_ComplexWork>13</WVC_ComplexWork>
-			  </value>
-			</Operation>
+			<!-- <Operation Class="PatchOperationAdd"> -->
+			  <!-- <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings</xpath> -->
+			  <!-- <value> -->
+				  <!-- <WVC_ComplexWork>13</WVC_ComplexWork> -->
+			  <!-- </value> -->
+			<!-- </Operation> -->
 
 			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
 			  <xpath>/Defs/HediffDef[@ParentName="WVC_Hediff_BodyPart_Mechanoid"]</xpath>

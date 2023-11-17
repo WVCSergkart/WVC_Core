@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="ShelfBase" Name="WVC_StuffStorageSpot" Abstract="True">
+  <ThingDef ParentName="ShelfBase" Name="WVC_Ultra_StuffStorageSpot_Base" Abstract="True">
 	<label>storage spot</label>
 	<description>Simple storage spot.</description>
 	<!-- <techLevel>industrial</techLevel> -->
@@ -94,7 +94,7 @@
 
   <!-- ===================== -->
 
-  <ThingDef ParentName="WVC_StuffStorageSpot">
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Base">
 	<defName>WVC_WoodenStorageSpot1x1c</defName>
 	<label>storage spot (1x1)</label>
 	<graphicData>
@@ -115,7 +115,7 @@
 	</stuffCategories>
   </ThingDef>
 
-  <ThingDef ParentName="WVC_StuffStorageSpot">
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Base">
 	<defName>WVC_WoodenStorageSpot2x2c</defName>
 	<label>storage spot (2x2)</label>
 	<graphicData>
@@ -135,7 +135,7 @@
 	</stuffCategories>
   </ThingDef>
 
-  <ThingDef ParentName="WVC_StuffStorageSpot">
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Base">
 	<defName>WVC_WoodenStorageSpot3x3c</defName>
 	<label>storage spot (3x3)</label>
 	<graphicData>
@@ -158,7 +158,7 @@
 
   <!-- ===================== -->
 
-  <ThingDef ParentName="WVC_StuffStorageSpot">
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Base">
 	<defName>WVC_StonyStorageSpot1x1c</defName>
 	<label>storage spot (1x1)</label>
 	<graphicData>
@@ -179,7 +179,7 @@
 	</stuffCategories>
   </ThingDef>
 
-  <ThingDef ParentName="WVC_StuffStorageSpot">
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Base">
 	<defName>WVC_StonyStorageSpot2x2c</defName>
 	<label>storage spot (2x2)</label>
 	<graphicData>
@@ -200,7 +200,7 @@
 	</stuffCategories>
   </ThingDef>
 
-  <ThingDef ParentName="WVC_StuffStorageSpot">
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Base">
 	<defName>WVC_StonyStorageSpot3x3c</defName>
 	<label>storage spot (3x3)</label>
 	<graphicData>
@@ -223,7 +223,28 @@
 
   <!-- ===================== -->
 
-  <ThingDef ParentName="WVC_StuffStorageSpot">
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Base">
+	<defName>WVC_MetallicStorageSpot1x1c</defName>
+	<label>storage spot (1x1)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/MetalStorage2x2c</texPath>
+	  <drawSize>(1,1)</drawSize>
+	</graphicData>
+	<size>(1,1)</size>
+	<statBases>
+	  <MaxHitPoints>150</MaxHitPoints>
+	</statBases>
+	<building>
+	  <maxItemsInCell>6</maxItemsInCell>
+	</building>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<staticSunShadowHeight>0.0</staticSunShadowHeight>
+	<stuffCategories>
+	  <li>Metallic</li>
+	</stuffCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Base">
 	<defName>WVC_MetallicStorageSpot2x2c</defName>
 	<label>storage spot (2x2)</label>
 	<graphicData>
@@ -238,6 +259,27 @@
 	  <maxItemsInCell>7</maxItemsInCell>
 	</building>
 	<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	<staticSunShadowHeight>0.0</staticSunShadowHeight>
+	<stuffCategories>
+	  <li>Metallic</li>
+	</stuffCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Base">
+	<defName>WVC_MetallicStorageSpot3x3c</defName>
+	<label>storage spot (3x3)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/MetalStorage2x2c</texPath>
+	  <drawSize>(3,3)</drawSize>
+	</graphicData>
+	<size>(3,3)</size>
+	<statBases>
+	  <MaxHitPoints>470</MaxHitPoints>
+	</statBases>
+	<building>
+	  <maxItemsInCell>8</maxItemsInCell>
+	</building>
+	<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	<staticSunShadowHeight>0.0</staticSunShadowHeight>
 	<stuffCategories>
 	  <li>Metallic</li>
@@ -337,7 +379,7 @@
 	<!-- <comps Inherit="False"> -->
 	<!-- </comps> -->
 	<!-- <researchPrerequisites Inherit="False"> -->
-	  <!-- <li>ValkyriesTechs_II_WVC</li> -->
+	  <!-- <li>WVC_Ultra_Mechtech</li> -->
 	<!-- </researchPrerequisites> -->
 	<!-- <designationCategory>WVC_UltraExpansion</designationCategory> -->
 	<!-- <designatorDropdown>HGS_Storage_WVC</designatorDropdown> -->
@@ -353,7 +395,7 @@
 	  <!-- <texPath>WVC/Storages/AncientStorage</texPath> -->
 	<!-- </graphicData> -->
 	<!-- <researchPrerequisites Inherit="False"> -->
-	  <!-- <li>ValkyriesTechs_I_WVC</li> -->
+	  <!-- <li>WVC_Ultra_Ultratech</li> -->
 	<!-- </researchPrerequisites> -->
   <!-- </ThingDef> -->
 
@@ -367,7 +409,7 @@
 	  <!-- <texPath>WVC/Storages/MechanoidStorage</texPath> -->
 	<!-- </graphicData> -->
 	<!-- <researchPrerequisites Inherit="False"> -->
-	  <!-- <li>ValkyriesTechs_II_WVC</li> -->
+	  <!-- <li>WVC_Ultra_Mechtech</li> -->
 	<!-- </researchPrerequisites> -->
   <!-- </ThingDef> -->
 

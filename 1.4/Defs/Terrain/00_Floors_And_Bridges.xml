@@ -22,7 +22,7 @@
   <TerrainDef Abstract="True" Name="Marker_Floor_WVC">
 	<description>Floor covering.</description>
 	<descriptionHyperlinks>
-	  <ConceptDef>WVC_WallsDoorsFloors</ConceptDef>
+	  <!-- <ConceptDef>WVC_WallsDoorsFloors</ConceptDef> -->
 	</descriptionHyperlinks>
 	<!-- <pollutedTexturePath>Terrain/Surfaces/SoilPolluted</pollutedTexturePath> -->
 	<!-- <pollutionOverlayTexturePath>Terrain/Surfaces/RoughStonePollutionOverlay</pollutionOverlayTexturePath> -->
@@ -106,7 +106,7 @@
 	  <li>Medium</li>
 	</affordances>
 	<researchPrerequisites>
-		<li>ValkyriesTechs_I_WVC</li>
+		<li>WVC_Ultra_Ultratech</li>
 	</researchPrerequisites>
 	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
   </TerrainDef>
@@ -119,7 +119,7 @@
 	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
 	</costList>
 	<researchPrerequisites>
-		<li>ValkyriesTechs_II_WVC</li>
+		<li>WVC_Ultra_Mechtech</li>
 	</researchPrerequisites>
 	<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
   </TerrainDef>
@@ -133,7 +133,7 @@
 	  <!-- <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech> -->
 	</costList>
 	<researchPrerequisites>
-		<li>ValkyriesTechs_II_WVC</li>
+		<li>WVC_Ultra_Mechtech</li>
 	</researchPrerequisites>
 	<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
   </TerrainDef>
@@ -235,7 +235,7 @@
 	  <li>Medium</li>
 	</affordances>
 	<researchPrerequisites>
-		<li>ValkyriesTechs_I_WVC</li>
+		<li>WVC_Ultra_Ultratech</li>
 	</researchPrerequisites>
 	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
   </TerrainDef>
@@ -248,7 +248,7 @@
 	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
 	</costList>
 	<researchPrerequisites>
-		<li>ValkyriesTechs_II_WVC</li>
+		<li>WVC_Ultra_Mechtech</li>
 	</researchPrerequisites>
 	<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
   </TerrainDef>
@@ -262,7 +262,7 @@
 	  <!-- <WVC_ResourceNodes_Archotech>1</WVC_ResourceNodes_Archotech> -->
 	</costList>
 	<researchPrerequisites>
-		<li>ValkyriesTechs_II_WVC</li>
+		<li>WVC_Ultra_Mechtech</li>
 	</researchPrerequisites>
 	<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
   </TerrainDef>

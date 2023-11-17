@@ -110,45 +110,45 @@
 							<!-- <tKeyTip>HGS_General_BiotechTechsPatch_Desc_WVC</tKeyTip> -->
 						<!-- </li> -->
 						<li Class="XmlExtensions.Setting.Text">
-							<text>The mod has several options for body parts that can be obtained as a reward or crafted. Ancient, mechanoid and node parts are recommended.</text>
+							<text>The mod has several options for body parts that can be obtained as a reward or crafted.</text>
 							<tKey>HGS_Implants_MainInfo_WVC</tKey>
 						</li>
 
 						<!-- ================================================================= -->
 
 						<li Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_EnableImplants_TortureBodyParts</key>
-							<label>Enable torture body parts</label>
-							<defaultValue>true</defaultValue>
-							<tKey>HGS_WVC_EnableImplants_TortureBodyParts_Label</tKey>
-						</li>
-						<li Class="XmlExtensions.Setting.Checkbox">
 							<key>WVC_EnableImplants_AdvancedBionicBodyParts</key>
-							<label>Enable experimental bionic body parts</label>
+							<label>Enable advanced bionic body parts</label>
 							<defaultValue>true</defaultValue>
 							<tKey>HGS_WVC_EnableImplants_AdvancedBionicBodyParts_Label</tKey>
 						</li>
-						<li Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_EnableImplants_CyberneticBodyParts</key>
-							<label>Enable cybernetic body parts</label>
-							<defaultValue>true</defaultValue>
-							<tKey>HGS_WVC_EnableImplants_CyberneticBodyParts_Label</tKey>
-						</li>
+						<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+							<!-- <key>WVC_EnableImplants_TortureBodyParts</key> -->
+							<!-- <label>Enable torture body parts</label> -->
+							<!-- <defaultValue>true</defaultValue> -->
+							<!-- <tKey>HGS_WVC_EnableImplants_TortureBodyParts_Label</tKey> -->
+						<!-- </li> -->
+						<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+							<!-- <key>WVC_EnableImplants_CyberneticBodyParts</key> -->
+							<!-- <label>Enable cybernetic body parts</label> -->
+							<!-- <defaultValue>true</defaultValue> -->
+							<!-- <tKey>HGS_WVC_EnableImplants_CyberneticBodyParts_Label</tKey> -->
+						<!-- </li> -->
 						<li Class="XmlExtensions.Setting.Checkbox">
 							<key>WVC_EnableImplants_AncientBodyParts</key>
-							<label>Enable ancient body parts</label>
+							<label>Enable ultratech body parts</label>
 							<defaultValue>true</defaultValue>
 							<tKey>HGS_WVC_EnableImplants_AncientBodyParts_Label</tKey>
 						</li>
 						<li Class="XmlExtensions.Setting.Checkbox">
 							<key>WVC_EnableImplants_MechanoidBodyParts</key>
-							<label>Enable mechanoid body parts</label>
+							<label>Enable mechatech body parts</label>
 							<defaultValue>true</defaultValue>
 							<tKey>HGS_WVC_EnableImplants_MechanoidBodyParts_Label</tKey>
 						</li>
 						<li Class="XmlExtensions.Setting.Checkbox">
 							<key>WVC_EnableImplants_NodeBodyParts</key>
-							<label>Enable node body parts</label>
+							<label>Enable nodetech body parts</label>
 							<defaultValue>true</defaultValue>
 							<tKey>HGS_WVC_EnableImplants_NodeBodyParts_Label</tKey>
 						</li>
