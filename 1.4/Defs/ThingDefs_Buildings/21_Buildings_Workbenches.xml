@@ -7,7 +7,7 @@
 	<defName>WVC_Ultra_GarbageRecyclerBench</defName>
 	<label>mechtech recycler</label>
 	<!-- <label>Advanced crafter</label> -->
-	<description>The mecha-hybridizer uses mechanites and advanced multidirectional hybrid power plants to process various materials. Most of the crafter is located underground where all the magic happens, the part located on the surface is used for final processing.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
+	<description>A sophisticated recycler capable of disassembling any items. Using a small swarm of self-replicating ultranites and a plasma installation, this device is capable of processing almost anything. A by-product is an excess of the swarm of ultranites, created when the swarm absorbs “useful resources” in disassembled objects.</description>
 	<!-- <altitudeLayer>Building</altitudeLayer> -->
 	<techLevel>Ultra</techLevel>
 	<descriptionHyperlinks Inherit="False">
@@ -24,6 +24,7 @@
 	  <li>FloorCoverings</li>
 	</blocksAltitudes>
 	<building>
+	  <paintable>true</paintable>
 	  <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 	  <ai_chillDestination>false</ai_chillDestination>
 	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
@@ -37,7 +38,9 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/WeaponBench</texPath>
 	  <graphicClass>Graphic_Random</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>(3,3)</drawSize>
+	  <color>(181,165,153)</color>
 	  <damageData>
 		<rect>(0.15, 0.15, 2.7, 2.7)</rect>
 	  </damageData>
@@ -76,8 +79,8 @@
 	</inspectorTabs>
 	<costList>
 	  <Plasteel>120</Plasteel>
-	  <Uranium>20</Uranium>
-	  <ComponentSpacer>7</ComponentSpacer>
+	  <Uranium>40</Uranium>
+	  <ComponentSpacer>4</ComponentSpacer>
 	  <!-- <WVC_UniversalFuel>320</WVC_UniversalFuel> -->
 	  <!-- <VFE_ComponentMechanoid>15</VFE_ComponentMechanoid> -->
 	</costList>

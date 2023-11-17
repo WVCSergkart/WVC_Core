@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="MechanoidBuildings_WVC">
-	<defName>ComponentSpawner_WVC</defName>
+	<defName>WVC_UltraniteAssembler</defName>
 	<label>ultranite assembler</label>
 	<description>Underground complex for replication. Slowly produces microscopic machines from literally nothing, but requires a lot of energy.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
 	<descriptionHyperlinks>
@@ -47,14 +47,24 @@
 		<transmitsPower>true</transmitsPower>
 	  </li>
 	  <li Class="CompProperties_Flickable"/>
-	  <li Class="CompProperties_Spawner">
+	  <!-- <li Class="CompProperties_Spawner"> -->
+		<!-- <requiresPower>true</requiresPower> -->
+		<!-- <thingToSpawn>WVC_UniversalFuel</thingToSpawn> -->
+		<!-- <spawnCount>75</spawnCount> -->
+		<!-- <spawnIntervalRange><min>240000</min><max>540000</max></spawnIntervalRange> -->
+		<!-- <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn> -->
+		<!-- <showMessageIfOwned>false</showMessageIfOwned> -->
+	  <!-- </li> -->
+	  <li Class="WVC_UltraExpansion.CompProperties_Spawner">
 		<requiresPower>true</requiresPower>
-		<!-- <thingToSpawn>ComponentSpacer</thingToSpawn> -->
-		<thingToSpawn>WVC_UniversalFuel</thingToSpawn>
-		<spawnCount>75</spawnCount>
-		<spawnIntervalRange><min>240000</min><max>540000</max></spawnIntervalRange>
+		<productDefs>
+		  <li>WVC_UniversalFuel</li>
+		</productDefs>
+		<productCount>66~133</productCount>
+		<ticksUntilSpawn>240000~540000</ticksUntilSpawn>
 		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
 		<showMessageIfOwned>false</showMessageIfOwned>
+		<uniqueTag>Ultranites</uniqueTag>
 	  </li>
 	  <!-- <li Class="CompProperties_Glower"> -->
 		<!-- <glowRadius>4</glowRadius> -->
@@ -81,7 +91,8 @@
 	  <li>RewardStandardQualitySuper</li>
 	</thingSetMakerTags>
 	<!-- <tickerType>Normal</tickerType> -->
-	<tickerType>Rare</tickerType>
+	<!-- <tickerType>Rare</tickerType> -->
+	<tickerType>Long</tickerType>
 	<fillPercent>0.2</fillPercent>
 	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	<!-- <terrainAffordanceNeeded>Light</terrainAffordanceNeeded> -->

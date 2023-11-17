@@ -69,8 +69,8 @@
   <!-- ============================================================ -->
 
   <ThingDef ParentName="MechanoidBuildings_WVC">
-	<defName>Gloomlight_WVC</defName>
-	<label>ultra node</label>
+	<defName>WVC_Gloomlight</defName>
+	<label>gloomlight</label>
 	<description>A high-tech device with no specific purpose.</description>
 	<size>(1,1)</size>
 	<passability>PassThroughOnly</passability>
@@ -79,7 +79,7 @@
 	<statBases>
 	  <MaxHitPoints>50</MaxHitPoints>
 	  <Mass>9</Mass>
-	  <MarketValue>20</MarketValue>
+	  <MarketValue>70</MarketValue>
 	  <!-- <WorkToBuild>300</WorkToBuild> -->
 	  <Beauty>5</Beauty>
 	</statBases>
@@ -111,9 +111,9 @@
 	</comps>
 	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	<costList>
-	  <Plasteel>30</Plasteel>
+	  <Plasteel>15</Plasteel>
 	  <Uranium>5</Uranium>
-	  <ComponentSpacer>1</ComponentSpacer>
+	  <!-- <ComponentSpacer>1</ComponentSpacer> -->
 	</costList>
 	<researchPrerequisites Inherit="False">
 		<li>WVC_Ultra_Mechtech</li>
@@ -227,12 +227,14 @@
   <ThingDef ParentName="MechanoidBuildings_WVC">
 	<defName>WVC_MechanoidArmoredNode</defName>
 	<label>mechtech armored node</label>
-	<description>A complex system connected to an underground structure. Can be used as a barricade.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
+	<description>A complex system connected to an underground structure. Can be used as a barricade.</description>
 	<thingClass>Building</thingClass>
 	<category>Building</category>
 	<graphicData>
 	  <texPath>WVC/Stuff/WallsDoorsColumns/TableBarricade/TableBarricade_Atlas</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
+	  <!-- <shaderType>CutoutComplex</shaderType> -->
+	  <color>(181,165,153)</color>
 	  <linkType>Basic</linkType>
 	  <linkFlags>
 		<li>Barricades</li>
@@ -248,17 +250,18 @@
 	<fillPercent>0.55</fillPercent>
 	<canOverlapZones>false</canOverlapZones>
 	<statBases>
-	  <MarketValue>1</MarketValue>
-	  <MaxHitPoints>3000</MaxHitPoints>
+	  <MarketValue>210</MarketValue>
+	  <MaxHitPoints>8000</MaxHitPoints>
 	  <Beauty>3</Beauty>
 	  <Mass>5</Mass>
 	</statBases>
 	<costList>
 	  <Plasteel>30</Plasteel>
-	  <!-- <Plasteel>30</Plasteel> -->
+	  <Uranium>10</Uranium>
 	  <!-- <ComponentSpacer>1</ComponentSpacer> -->
 	</costList>
 	<building>
+	  <paintable>true</paintable>
 	  <ai_chillDestination>false</ai_chillDestination>
 	  <isInert>true</isInert>
 	  <isFence>true</isFence>
@@ -282,7 +285,7 @@
 	</researchPrerequisites>
 	<comps>
 	</comps>
-	<designatorDropdown>HGS_Nodes_WVC</designatorDropdown>
+	<!-- <designatorDropdown>HGS_Nodes_WVC</designatorDropdown> -->
   </ThingDef>
 
 </Defs>
