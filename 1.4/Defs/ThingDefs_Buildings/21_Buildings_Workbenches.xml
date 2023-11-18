@@ -127,7 +127,7 @@
 		<li>WVC_Ultra_GarbageRecycler</li>
 	</researchPrerequisites>
 	<designationCategory>WVC_UltraExpansion</designationCategory>
-	<designatorDropdown>HGS_Workbenches_WVC</designatorDropdown>
+	<!-- <designatorDropdown>HGS_Workbenches_WVC</designatorDropdown> -->
 	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
 	<modExtensions>

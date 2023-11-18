@@ -227,7 +227,7 @@
 	<defName>WVC_MetallicStorageSpot1x1c</defName>
 	<label>storage spot (1x1)</label>
 	<graphicData>
-	  <texPath>WVC/Storages/MetalStorage2x2c</texPath>
+	  <texPath>WVC/Storages/MetalStorage1x1c</texPath>
 	  <drawSize>(1,1)</drawSize>
 	</graphicData>
 	<size>(1,1)</size>
@@ -269,7 +269,7 @@
 	<defName>WVC_MetallicStorageSpot3x3c</defName>
 	<label>storage spot (3x3)</label>
 	<graphicData>
-	  <texPath>WVC/Storages/MetalStorage2x2c</texPath>
+	  <texPath>WVC/Storages/MetalStorage3x3c</texPath>
 	  <drawSize>(3,3)</drawSize>
 	</graphicData>
 	<size>(3,3)</size>

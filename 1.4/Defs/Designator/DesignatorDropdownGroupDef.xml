@@ -28,9 +28,9 @@
   <!-- <DesignatorDropdownGroupDef> -->
 	<!-- <defName>HGS_Tables_WVC</defName> -->
   <!-- </DesignatorDropdownGroupDef> -->
-  <DesignatorDropdownGroupDef>
-	<defName>HGS_Workbenches_WVC</defName>
-  </DesignatorDropdownGroupDef>
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Workbenches_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
   <DesignatorDropdownGroupDef>
 	<defName>HGS_BionicWorkbenches_WVC</defName>
   </DesignatorDropdownGroupDef>
@@ -40,9 +40,9 @@
   <!-- <DesignatorDropdownGroupDef> -->
 	<!-- <defName>HGS_Gaurler_WVC</defName> -->
   <!-- </DesignatorDropdownGroupDef> -->
-  <DesignatorDropdownGroupDef>
-	<defName>HGS_Spawners_WVC</defName>
-  </DesignatorDropdownGroupDef>
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Spawners_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
   <!-- <DesignatorDropdownGroupDef> -->
 	<!-- <defName>HGS_Storage_WVC</defName> -->
   <!-- </DesignatorDropdownGroupDef> -->
