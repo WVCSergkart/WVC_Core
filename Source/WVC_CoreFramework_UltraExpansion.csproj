@@ -65,6 +65,8 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources_CompThing\CompSpawner.cs" />
+    <Compile Include="Resources_Main\TerrainPatch.cs" />
+    <Compile Include="Resources_Main\UltraDefOf.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
