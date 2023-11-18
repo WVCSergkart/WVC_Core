@@ -4,9 +4,9 @@
   <!-- ============================================================ -->
 
   <ThingDef ParentName="MechanoidBuildings_WVC">
-	<defName>UnstablePowerCell_WVC</defName>
+	<defName>WVC_StablePowerCell</defName>
 	<label>stable power cell</label>
-	<description>A mechanoid power generation unit. The vanometric power core will run forever, extracting energy from quantum foam fluctuations.</description>
+	<description>A mechtech power generation unit.</description>
 	<size>(1,1)</size>
 	<passability>PassThroughOnly</passability>
 	<drawerType>MapMeshAndRealTime</drawerType>
@@ -23,7 +23,9 @@
 	</statBases>
 	<graphicData>
 	  <texPath>WVC/Stuff/StablePowerCell</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+	  <graphicClass>Graphic_Random</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(181,165,153)</color>
 	  <drawSize>(1,1)</drawSize>
 	  <shadowData>
 		<volume>(0.6, 0.4, 0.6)</volume>
@@ -33,6 +35,7 @@
 	  </damageData>
 	</graphicData>
 	<building>
+	  <paintable>true</paintable>
 	</building>
 	<thingCategories>
 	  <li>BuildingsSpecial</li>
@@ -45,7 +48,7 @@
 	<comps>
 	  <li Class="CompProperties_Power">
 		<compClass>CompPowerPlant</compClass>
-		<basePowerConsumption>-400</basePowerConsumption>
+		<basePowerConsumption>-220</basePowerConsumption>
 		<transmitsPower>true</transmitsPower>
 	  </li>
 	  <li Class="CompProperties_Glower">
@@ -71,7 +74,7 @@
   <ThingDef ParentName="MechanoidBuildings_WVC">
 	<defName>WVC_Gloomlight</defName>
 	<label>gloomlight</label>
-	<description>A high-tech device with no specific purpose.</description>
+	<description>A mechtech device with no specific purpose.</description>
 	<size>(1,1)</size>
 	<passability>PassThroughOnly</passability>
 	<pathCost>30</pathCost>
@@ -85,7 +88,9 @@
 	</statBases>
 	<graphicData>
 	  <texPath>WVC/Stuff/Gloomlight</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+	  <graphicClass>Graphic_Random</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(181,165,153)</color>
 	  <drawSize>(1,1)</drawSize>
 	  <shadowData>
 		<volume>(0.6, 0.4, 0.6)</volume>
@@ -96,6 +101,7 @@
 	</graphicData>
 	<drawerType>MapMeshAndRealTime</drawerType>
 	<building>
+	  <paintable>true</paintable>
 	</building>
 	<thingCategories>
 	  <li>BuildingsSpecial</li>
@@ -111,8 +117,9 @@
 	</comps>
 	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	<costList>
-	  <Plasteel>15</Plasteel>
-	  <Uranium>5</Uranium>
+	  <Steel>15</Steel>
+	  <Plasteel>5</Plasteel>
+	  <!-- <Uranium>5</Uranium> -->
 	  <!-- <ComponentSpacer>1</ComponentSpacer> -->
 	</costList>
 	<researchPrerequisites Inherit="False">

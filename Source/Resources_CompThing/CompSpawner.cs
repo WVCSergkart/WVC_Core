@@ -36,6 +36,8 @@ namespace WVC_UltraExpansion
 
 		public string uniqueTag = "UltraSpawner";
 
+		public string spawnMessage = "MessageCompSpawnerSpawnedItem";
+
 		public CompProperties_Spawner()
 		{
 			compClass = typeof(CompSpawner);
@@ -45,7 +47,7 @@ namespace WVC_UltraExpansion
 	public class CompSpawner : ThingComp
 	{
 
-		public int ticksUntilSpawn;
+		public int ticksUntilSpawn = 1500;
 
 		public ThingDef productDef;
 
@@ -63,7 +65,7 @@ namespace WVC_UltraExpansion
 		{
 			if (!respawningAfterLoad)
 			{
-				ResetInterval();
+				Reset();
 			}
 		}
 
@@ -85,7 +87,7 @@ namespace WVC_UltraExpansion
 			Tick(2000);
 		}
 
-		public void Tick(int tick)
+		private void Tick(int tick)
 		{
 			if (!Props.requiresPower || PowerOn)
 			{
@@ -96,7 +98,7 @@ namespace WVC_UltraExpansion
 					{
 						SpawnItems();
 					}
-					ResetInterval();
+					Reset();
 				}
 			}
 		}
@@ -105,7 +107,7 @@ namespace WVC_UltraExpansion
 		{
 			if (productDef == null)
 			{
-				ResetInterval();
+				Reset();
 			}
 			Thing thing = ThingMaker.MakeThing(productDef);
 			thing.stackCount = productCount;
@@ -116,11 +118,11 @@ namespace WVC_UltraExpansion
 			}
 			if (Props.showMessageIfOwned && parent.Faction == Faction.OfPlayer)
 			{
-				Messages.Message("MessageCompSpawnerSpawnedItem".Translate(productDef.LabelCap), thing, MessageTypeDefOf.PositiveEvent);
+				Messages.Message(Props.spawnMessage.Translate(productDef.LabelCap), thing, MessageTypeDefOf.PositiveEvent);
 			}
 		}
 
-		private void ResetInterval()
+		private void Reset()
 		{
 			ticksUntilSpawn = Props.ticksUntilSpawn.RandomInRange;
 			thingDefByWeight = Props.productDefs.RandomElementByWeight((ThingDefByWeight x) => x.selectionWeight);
@@ -138,7 +140,7 @@ namespace WVC_UltraExpansion
 					action = delegate
 					{
 						SpawnItems();
-						ResetInterval();
+						Reset();
 					}
 				};
 			}
@@ -148,6 +150,8 @@ namespace WVC_UltraExpansion
 		{
 			base.PostExposeData();
 			Scribe_Values.Look(ref ticksUntilSpawn, "ticksToSpawnThing" + "_" + Props.uniqueTag, 0);
+			Scribe_Defs.Look(ref productDef, "productDef" + "_" + Props.uniqueTag);
+			Scribe_Values.Look(ref productCount, "productCount" + "_" + Props.uniqueTag);
 		}
 
 		public override string CompInspectStringExtra()

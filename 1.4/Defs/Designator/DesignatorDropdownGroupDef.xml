@@ -16,9 +16,9 @@
   <DesignatorDropdownGroupDef>
 	<defName>HGS_Columns_WVC</defName>
   </DesignatorDropdownGroupDef>
-  <DesignatorDropdownGroupDef>
-	<defName>HGS_Nodes_WVC</defName>
-  </DesignatorDropdownGroupDef>
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Nodes_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
   <!-- <DesignatorDropdownGroupDef> -->
 	<!-- <defName>HGS_Beds_WVC</defName> -->
   <!-- </DesignatorDropdownGroupDef> -->
@@ -54,6 +54,20 @@
   <!-- <DesignatorDropdownGroupDef> -->
 	<!-- <defName>DefaultCraftingSpots_WVC</defName> -->
   <!-- </DesignatorDropdownGroupDef> -->
+  
+  <DesignationCategoryDef>
+	<defName>WVC_UltraStorage</defName>
+	<label>Storage</label>
+	<order>2</order>
+	<showPowerGrid>false</showPowerGrid>
+	<specialDesignatorClasses>
+	  <li>Designator_Cancel</li>
+	  <li>Designator_Deconstruct</li>
+	</specialDesignatorClasses>
+	<researchPrerequisites>
+	  <li>ComplexFurniture</li>
+	</researchPrerequisites>
+  </DesignationCategoryDef>
   
   <DesignationCategoryDef>
 	<defName>WVC_UltraExpansion</defName>
