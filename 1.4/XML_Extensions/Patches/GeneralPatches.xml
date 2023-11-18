@@ -145,37 +145,37 @@
 
 	<!--=====================================================================-->
 
-	<!-- <Operation Class="XmlExtensions.FindMod"> -->
-		<!-- <mods> -->
-			<!-- <li>ludeon.rimworld.ideology</li> -->
-			<!-- <li>ludeon.rimworld.royalty</li> -->
-		<!-- </mods> -->
-		<!-- <packageId>true</packageId> -->
-		<!-- <logic>and</logic> -->
-		<!-- <caseTrue> -->
+	<Operation Class="XmlExtensions.FindMod">
+		<mods>
+			<li>ludeon.rimworld.ideology</li>
+			<li>ludeon.rimworld.royalty</li>
+		</mods>
+		<packageId>true</packageId>
+		<logic>and</logic>
+		<caseTrue>
 
-			<!-- <Operation Class="PatchOperationAdd"> -->
-				  <!-- <xpath>Defs/ThingDef[defName="Plant_TreeAnima"]/comps</xpath> -->
-				  <!-- <value> -->
-					<!-- <li Class="CompProperties_Spawner"> -->
-						<!-- <thingToSpawn>AnimaSeed_WVC</thingToSpawn> -->
-						<!-- <spawnCount>1</spawnCount> -->
-						<!-- <spawnIntervalRange><min>2400000</min><max>4200000</max></spawnIntervalRange> -->
-						<!-- <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn> -->
-						<!-- <showMessageIfOwned>false</showMessageIfOwned> -->
-					<!-- </li> -->
-				  <!-- </value> -->
-			<!-- </Operation> -->
+			<Operation Class="PatchOperationAdd">
+				  <xpath>Defs/ThingDef[defName="Plant_TreeAnima"]/comps</xpath>
+				  <value>
+					  <li Class="WVC_UltraExpansion.CompProperties_Spawner">
+						<requiresPower>false</requiresPower>
+						<productDefs>
+						  <li>
+							<productDef>WVC_AnimaSeed</productDef>
+							<productCount>1~2</productCount>
+							<selectionWeight>1.0</selectionWeight>
+						  </li>
+						</productDefs>
+						<ticksUntilSpawn>2400000~4200000</ticksUntilSpawn>
+						<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+						<showMessageIfOwned>false</showMessageIfOwned>
+						<uniqueTag>AnimaSeed</uniqueTag>
+					  </li>
+				  </value>
+			</Operation>
 
-			<!-- <Operation Class="XmlExtensions.PatchOperationAddOrReplace"> -->
-				<!-- <xpath>Defs/ThingDef[defName="Plant_TreeAnima"]</xpath> -->
-				<!-- <value> -->
-					<!-- <tickerType>Normal</tickerType> -->
-				<!-- </value> -->
-			<!-- </Operation> -->
-
-		<!-- </caseTrue> -->
-	<!-- </Operation> -->
+		</caseTrue>
+	</Operation>
 
 	<!--=====================================================================-->
 
@@ -280,34 +280,34 @@
 		<!-- </caseTrue> -->
 	<!-- </Operation> -->
 
-	<Operation Class="XmlExtensions.FindMod">
-		<mods>
-			<li>ludeon.rimworld.ideology</li>
-			<li>kentington.saveourship2</li>
-		</mods>
-		<packageId>true</packageId>
-		<logic>and</logic>
-		<caseTrue>
+	<!-- <Operation Class="XmlExtensions.FindMod"> -->
+		<!-- <mods> -->
+			<!-- <li>ludeon.rimworld.ideology</li> -->
+			<!-- <li>kentington.saveourship2</li> -->
+		<!-- </mods> -->
+		<!-- <packageId>true</packageId> -->
+		<!-- <logic>and</logic> -->
+		<!-- <caseTrue> -->
 
-			<Operation Class="XmlExtensions.PatchOperationSafeAdd">
-				<xpath>/Defs/ThingDef[@Name="DryadBase"]</xpath>
-				<safetyDepth>1</safetyDepth>
-				<value>
-					<tradeTags>
-						<li MayRequire="kentington.saveourship2">AnimalInsectSpace</li>
-					</tradeTags>
-				</value>
-			</Operation>
+			<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
+				<!-- <xpath>/Defs/ThingDef[@Name="DryadBase"]</xpath> -->
+				<!-- <safetyDepth>1</safetyDepth> -->
+				<!-- <value> -->
+					<!-- <tradeTags> -->
+						<!-- <li MayRequire="kentington.saveourship2">AnimalInsectSpace</li> -->
+					<!-- </tradeTags> -->
+				<!-- </value> -->
+			<!-- </Operation> -->
 
-			<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
-				<xpath>Defs/ThingDef[@Name="DryadBase"]/statBases</xpath>
-				<value>
-					<ComfyTemperatureMin>-100</ComfyTemperatureMin>
-				</value>
-			</Operation>
+			<!-- <Operation Class="XmlExtensions.PatchOperationAddOrReplace"> -->
+				<!-- <xpath>Defs/ThingDef[@Name="DryadBase"]/statBases</xpath> -->
+				<!-- <value> -->
+					<!-- <ComfyTemperatureMin>-100</ComfyTemperatureMin> -->
+				<!-- </value> -->
+			<!-- </Operation> -->
 
-		</caseTrue>
-	</Operation>
+		<!-- </caseTrue> -->
+	<!-- </Operation> -->
 
 	<!--=====================================================================-->
 
@@ -317,13 +317,6 @@
 		</mods>
 		<packageId>true</packageId>
 		<caseTrue>
-
-			<!-- <Operation Class="XmlExtensions.PatchOperationAddOrReplace"> -->
-				  <!-- <xpath>Defs/ThingDef[@Name="DryadBase"]/statBases</xpath> -->
-				  <!-- <value> -->
-					<!-- <WVC_CorruptionSensitivity>0.0</WVC_CorruptionSensitivity> -->
-				  <!-- </value> -->
-			<!-- </Operation> -->
 
 			<Operation Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Spawner"]/showMessageIfOwned</xpath>
@@ -383,7 +376,7 @@
 	<Operation Class="PatchOperationAdd">
 		  <xpath>Defs/InventoryStockGroupDef[defName="Medicine"]/thingDefs</xpath>
 		  <value>
-			<li>WVC_MedicineMechanite</li>
+			<li>WVC_MedicineMechtech</li>
 		  </value>
 	</Operation>
 

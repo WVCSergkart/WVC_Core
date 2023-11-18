@@ -58,9 +58,18 @@
 	  <li Class="WVC_UltraExpansion.CompProperties_Spawner">
 		<requiresPower>true</requiresPower>
 		<productDefs>
-		  <li>WVC_UniversalFuel</li>
+		  <li>
+			<productDef>WVC_UniversalFuel</productDef>
+			<productCount>66~133</productCount>
+			<selectionWeight>1.0</selectionWeight>
+		  </li>
+		  <li>
+			<productDef>WVC_MedicineMechtech</productDef>
+			<productCount>1~2</productCount>
+			<selectionWeight>0.08</selectionWeight>
+		  </li>
 		</productDefs>
-		<productCount>66~133</productCount>
+		<!-- <productCount>66~133</productCount> -->
 		<ticksUntilSpawn>240000~540000</ticksUntilSpawn>
 		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
 		<showMessageIfOwned>false</showMessageIfOwned>

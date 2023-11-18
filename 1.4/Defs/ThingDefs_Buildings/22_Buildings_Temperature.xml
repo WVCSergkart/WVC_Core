@@ -2,9 +2,9 @@
 <Defs>
   
   <ThingDef ParentName="MechanoidBuildings_WVC">
-	<defName>FloorHeater_WVC</defName>
+	<defName>WVC_FloorHeater</defName>
 	<label>floor air conditioner</label>
-	<description>Stabilizes the temperature in the room up to 17-21c. It has a built-in power supply, so it does not require an electrical connection.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
+	<description>Stabilizes the temperature in the room up to 17-21c. It has a built-in power supply, so it does not require an electrical connection.</description>
 	<thingClass>Building_Heater</thingClass>
 	<!-- Floor -->
 	<altitudeLayer>FloorCoverings</altitudeLayer>
@@ -16,6 +16,7 @@
 	  <li>FloorCoverings</li>
 	</blocksAltitudes>
 	<building>
+	  <paintable>true</paintable>
 	  <isEdifice>false</isEdifice>
 	  <destroySound>BuildingDestroyed_Metal_Small</destroySound>
 	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
@@ -26,6 +27,8 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/Heater</texPath>
 	  <graphicClass>Graphic_Random</graphicClass>
+	  <!-- <shaderType>CutoutComplex</shaderType> -->
+	  <color>(181,165,153)</color>
 	  <drawSize>2</drawSize>
 	  <!-- <shadowData> -->
 		<!-- <volume>(0.5,0.3,0.7)</volume> -->
@@ -83,10 +86,10 @@
 		<heatPerSecond>-40</heatPerSecond>
 		<heatPushMinTemperature>21</heatPushMinTemperature>
 	  </li>
-	  <li Class="CompProperties_Glower">
-		<glowRadius>3</glowRadius>
-		<glowColor>(255,150,100,0)</glowColor>
-	  </li>
+	  <!-- <li Class="CompProperties_Glower"> -->
+		<!-- <glowRadius>3</glowRadius> -->
+		<!-- <glowColor>(255,150,100,0)</glowColor> -->
+	  <!-- </li> -->
 	  <!-- <li Class="CompProperties_Breakdownable"/> -->
 	</comps>
 	<researchPrerequisites Inherit="False">

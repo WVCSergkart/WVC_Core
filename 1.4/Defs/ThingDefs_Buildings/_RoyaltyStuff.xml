@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef MayRequire="ludeon.rimworld.royalty" ParentName="ResourceBase">
-	<defName>AnimaSeed_WVC</defName>
+  <ThingDef MayRequire="ludeon.rimworld.royalty,ludeon.rimworld.ideology" ParentName="ResourceBase">
+	<defName>WVC_AnimaSeed</defName>
 	<label>Anima seed</label>
 	<description>The seed of a Anima tree. It can be planted to create a new Anima tree.</description>
 	<descriptionHyperlinks>

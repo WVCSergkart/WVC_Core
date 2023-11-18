@@ -6,8 +6,6 @@
 		<!-- WVC is my tag for all my mods -->
 		<label>WVC - Settings</label>
 		<settings>
-			<!-- To the daredevils who decided to translate my mod. -->
-			<!-- Some of my mod's settings don't have tkeys, some are intentional, some have been omitted. Most of the settings often change as a result of "optimization" of patches or their replacement. Feel free to ask, it might make your job easier, and let me know about missing keys. -->
 			<li Class="XmlExtensions.Setting.SetColor">
 				<color>(54,57,61)</color>
 			</li>
@@ -69,7 +67,7 @@
 
 					<!-- ===================================================================== -->
 
-					<li>
+					<li MayRequire="wvc.sergkart.races.ideology,ludeon.rimworld.royalty">
 						<label>&lt;color=#ffce65&gt;Trees&lt;/color&gt;</label>
 						<settings>
 							<li Class="XmlExtensions.Setting.Gap" />
@@ -98,7 +96,7 @@
 
 					<!-- ===================================================================== -->
 
-					<li>
+					<li MayRequire="wvc.sergkart.races.ideology,ludeon.rimworld.royalty">
 						<label>&lt;color=#87ff00&gt;Extra&lt;/color&gt;</label>
 						<settings>
 							<li Class="XmlExtensions.Setting.EmbedMenu">

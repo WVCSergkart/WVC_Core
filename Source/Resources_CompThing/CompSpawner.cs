@@ -5,13 +5,26 @@ using Verse;
 namespace WVC_UltraExpansion
 {
 
+	public class ThingDefByWeight
+	{
+
+		public ThingDef productDef;
+
+		public IntRange productCount = new(1, 1);
+
+		public float selectionWeight = 1.0f;
+
+	}
+
 	public class CompProperties_Spawner : CompProperties
 	{
 		public IntRange ticksUntilSpawn = new(120000, 360000);
 
-		public List<ThingDef> productDefs;
+		// public List<ThingDef> productDefs;
 
-		public IntRange productCount = new(1, 1);
+		public List<ThingDefByWeight> productDefs;
+
+		// public IntRange productCount = new(1, 1);
 
 		public bool writeTimeLeftToSpawn = true;
 
@@ -37,6 +50,8 @@ namespace WVC_UltraExpansion
 		public ThingDef productDef;
 
 		public int productCount = 1;
+
+		public ThingDefByWeight thingDefByWeight;
 
 		public CompProperties_Spawner Props => (CompProperties_Spawner)props;
 
@@ -90,7 +105,7 @@ namespace WVC_UltraExpansion
 		{
 			if (productDef == null)
 			{
-				productDef = Props.productDefs.RandomElement();
+				ResetInterval();
 			}
 			Thing thing = ThingMaker.MakeThing(productDef);
 			thing.stackCount = productCount;
@@ -108,9 +123,9 @@ namespace WVC_UltraExpansion
 		private void ResetInterval()
 		{
 			ticksUntilSpawn = Props.ticksUntilSpawn.RandomInRange;
-			productDef = Props.productDefs.RandomElement();
-			productCount = Props.productCount.RandomInRange;
-			// ticksUntilSpawn = Atomizer.TicksPerAtomize;
+			thingDefByWeight = Props.productDefs.RandomElementByWeight((ThingDefByWeight x) => x.selectionWeight);
+			productDef = thingDefByWeight.productDef;
+			productCount = thingDefByWeight.productCount.RandomInRange;
 		}
 
 		public override IEnumerable<Gizmo> CompGetGizmosExtra()
@@ -137,7 +152,7 @@ namespace WVC_UltraExpansion
 
 		public override string CompInspectStringExtra()
 		{
-			if (PowerOn && Props.writeTimeLeftToSpawn)
+			if (PowerOn && Props.writeTimeLeftToSpawn && productDef != null)
 			{
 				return "NextSpawnedItemIn".Translate(GenLabel.ThingLabel(productDef, null, productCount)).Resolve() + ": " + ticksUntilSpawn.ToStringTicksToPeriod().Colorize(ColoredText.DateTimeColor);
 			}

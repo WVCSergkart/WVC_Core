@@ -98,7 +98,7 @@
   <!-- ================================================================= -->
 
   <ThingDef ParentName="MedicineBase">
-	<defName>WVC_MedicineMechanite</defName>
+	<defName>WVC_MedicineMechtech</defName>
 	<label>mechtech medicine</label>
 	<description>A kit of mechanite medical supplies. It contains multi-directional mechanites with a device to control them, the effectiveness is almost equal to similar ultra-tech medicine.</description>
 	<descriptionHyperlinks>
@@ -118,27 +118,17 @@
 	  <MedicalQualityMax>1.30</MedicalQualityMax>
 	  <DeteriorationRate>0.2</DeteriorationRate>
 	</statBases>
-	<recipeMaker>
-	  <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
-	  <workSkill>Intellectual</workSkill>
-	  <effectWorking>Cook</effectWorking>
-	  <soundWorking>Recipe_CookMeal</soundWorking>
-	  <bulkRecipeCount>4</bulkRecipeCount>
-	  <researchPrerequisite>WVC_Ultra_Mechtech</researchPrerequisite>
-	  <recipeUsers>
-		<li>DrugLab</li>
-		<!-- <li>WVC_ExperimentalCraftingBench</li> -->
-		<!-- <li>WVC_CyberneticCraftingBench</li> -->
-		<!-- <li>WVC_AncientCraftingBench</li> -->
-		<!-- <li>WVC_MechanoidCraftingBench</li> -->
-		<!-- <li>WVC_BlueCraftingBench</li> -->
-		<!-- <li>WVC_GreenCraftingBench</li> -->
-		<!-- <li>WVC_RedCraftingBench</li> -->
-		<!-- <li>WVC_VioletCraftingBench</li> -->
-		<!-- <li>WVC_YellowCraftingBench</li> -->
-		<!-- <li>WVC_ArchotechCraftingBench</li> -->
-	  </recipeUsers>
-	</recipeMaker>
+	<!-- <recipeMaker> -->
+	  <!-- <workSpeedStat>DrugSynthesisSpeed</workSpeedStat> -->
+	  <!-- <workSkill>Intellectual</workSkill> -->
+	  <!-- <effectWorking>Cook</effectWorking> -->
+	  <!-- <soundWorking>Recipe_CookMeal</soundWorking> -->
+	  <!-- <bulkRecipeCount>4</bulkRecipeCount> -->
+	  <!-- <researchPrerequisite>WVC_Ultra_Mechtech</researchPrerequisite> -->
+	  <!-- <recipeUsers> -->
+		<!-- <li>DrugLab</li> -->
+	  <!-- </recipeUsers> -->
+	<!-- </recipeMaker> -->
 	<costList>
 	  <WVC_UniversalFuel>34</WVC_UniversalFuel>
 	  <ComponentSpacer>1</ComponentSpacer>
