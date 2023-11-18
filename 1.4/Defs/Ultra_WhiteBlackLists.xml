@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WVC_UltraExpansion.UltraExpansionListDef>
+	<defName>WVC_UltraExpansion_Main</defName>
+	<!-- Floor names will not have the Any tag, which is used for all floors from my mod. Any string -->
+	<!-- Primarily needed for very specific floors. Like space. -->
+	<blackListedTerrainDefs>
+		<!-- <li>Space_</li> -->
+	</blackListedTerrainDefs>
+  </WVC_UltraExpansion.UltraExpansionListDef>
+
+</Defs>

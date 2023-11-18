@@ -52,7 +52,7 @@
 	<edgeType>FadeRough</edgeType>
 	<bridge>false</bridge>
 	<renderPrecedence>0</renderPrecedence>
-	<autoRebuildable>true</autoRebuildable>
+	<!-- <autoRebuildable>true</autoRebuildable> -->
 	<statBases>
 	  <WorkToBuild>2000</WorkToBuild>
 	  <Flammability>0</Flammability>
@@ -149,6 +149,8 @@
 	<defName>WVC_MechtechGravel</defName>
 	<label>mechtech gravel</label>
 	<fertility>0.8</fertility>
+	<color>(255,255,255)</color>
+	<isPaintable>false</isPaintable>
 	<statBases>
 	  <FilthMultiplier>0.0</FilthMultiplier>
 	  <Beauty>1</Beauty>
@@ -162,7 +164,6 @@
 	<affordances>
 	  <li>GrowSoil</li>
 	</affordances>
-	<isPaintable>false</isPaintable>
 	<tags>
 	  <li>Soil</li>
 	</tags>

@@ -10,11 +10,12 @@ namespace WVC_UltraExpansion
 	{
 		static PostInitializationTerrainAffordanceTweak()
 		{
+			List<string> filter = UltraFilterUtility.BlackListedTerrainDefs();
 			foreach (TerrainDef terrainDef in DefDatabase<TerrainDef>.AllDefsListForReading)
 			{
-				if (terrainDef != null)
+				if (!filter.Contains(terrainDef.defName))
 				{
-					terrainDef.affordances.Add(WVC_UltraDefOf.WVC_Ultra_AllAffordances);
+					terrainDef?.affordances?.Add(WVC_UltraDefOf.WVC_Ultra_AllAffordances);
 				}
 			}
 		}
