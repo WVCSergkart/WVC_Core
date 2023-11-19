@@ -62,6 +62,11 @@
 	  <effectWorking>Smith</effectWorking>
 	  <soundWorking>Recipe_Smith</soundWorking>
 	  <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+	  <researchPrerequisites>
+		<!-- <li>Bionics</li> -->
+		<!-- <li MayRequire="vat.epoeforked">AdvancedBionics</li> -->
+		<!-- <li MayRequire="vat.epoeforked">SyntheticOrgans</li> -->
+	  </researchPrerequisites>
 	  <recipeUsers>
 		<!-- <li>WVC_AncientCraftingBench</li> -->
 	  </recipeUsers>
@@ -102,9 +107,6 @@
 	  </skillRequirements>
 	  <!-- <researchPrerequisite>WVC_BionicTech_Torture</researchPrerequisite> -->
 	  <researchPrerequisites>
-		<li>Bionics</li>
-		<li MayRequire="vat.epoeforked">AdvancedBionics</li>
-		<li MayRequire="vat.epoeforked">SyntheticOrgans</li>
 		<li>WVC_BionicTech_Torture</li>
 	  </researchPrerequisites>
 	  <recipeUsers>
@@ -147,9 +149,6 @@
 	  </skillRequirements>
 	  <!-- <researchPrerequisite>WVC_BionicTech_AdvancedBionic</researchPrerequisite> -->
 	  <researchPrerequisites>
-		<li>Bionics</li>
-		<li MayRequire="vat.epoeforked">AdvancedBionics</li>
-		<li MayRequire="vat.epoeforked">SyntheticOrgans</li>
 		<li>WVC_BionicTech_AdvancedBionic</li>
 	  </researchPrerequisites>
 	  <recipeUsers>
@@ -190,9 +189,6 @@
 	  </skillRequirements>
 	  <!-- <researchPrerequisite>WVC_BionicTech_Cybernetic</researchPrerequisite> -->
 	  <researchPrerequisites>
-		<li>Bionics</li>
-		<li MayRequire="vat.epoeforked">AdvancedBionics</li>
-		<li MayRequire="vat.epoeforked">SyntheticOrgans</li>
 		<li>WVC_BionicTech_Cybernetic</li>
 	  </researchPrerequisites>
 	  <recipeUsers>
@@ -210,7 +206,7 @@
   </ThingDef>
 
   <ThingDef Name="WVC_BodyPartAncientBase" ParentName="WVC_BodyParts_Base" Abstract="True">
-	<description>A body part created using long-lost technology.</description>
+	<description>A body part created using ultra technology.</description>
 	<techLevel>Ultra</techLevel>
 	<thingCategories>
 	  <li>WVC_BodyPartsAncient</li>
@@ -233,10 +229,7 @@
 	  </skillRequirements>
 	  <!-- <researchPrerequisite>WVC_Ultra_Ultratech</researchPrerequisite> -->
 	  <researchPrerequisites>
-		<li>Bionics</li>
-		<li MayRequire="vat.epoeforked">AdvancedBionics</li>
-		<li MayRequire="vat.epoeforked">SyntheticOrgans</li>
-		<li>WVC_Ultra_Ultratech</li>
+		<li>WVC_BionicTech_Ultratech</li>
 	  </researchPrerequisites>
 	  <recipeUsers>
 		<li>WVC_AncientCraftingBench</li>
@@ -255,7 +248,7 @@
   </ThingDef>
 
   <ThingDef Name="WVC_BodyPartMechanoidBase" ParentName="WVC_BodyParts_Base" Abstract="True">
-	<description>Body part created using mechanoid technology. These body parts have been modified to be used by humans.</description>
+	<description>A body part created using mecha technology. Does not require anesthesia.</description>
 	<techLevel>Ultra</techLevel>
 	<thingCategories>
 	  <li>WVC_BodyPartsMechanoid</li>
@@ -280,10 +273,7 @@
 	  </skillRequirements>
 	  <!-- <researchPrerequisite>WVC_Ultra_Mechtech</researchPrerequisite> -->
 	  <researchPrerequisites>
-		<li>Bionics</li>
-		<li MayRequire="vat.epoeforked">AdvancedBionics</li>
-		<li MayRequire="vat.epoeforked">SyntheticOrgans</li>
-		<li>WVC_Ultra_Mechtech</li>
+		<li>WVC_BionicTech_Mechtech</li>
 	  </researchPrerequisites>
 	  <recipeUsers>
 		<li>WVC_MechanoidCraftingBench</li>

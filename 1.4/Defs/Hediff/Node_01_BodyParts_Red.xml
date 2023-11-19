@@ -293,38 +293,38 @@
 	</tags>
   </HediffDef>
 
-  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed">
-	<defName>WVC_NodeRedTail</defName>
-	<label>armored mechtech tail</label>
-	<labelNoun>a armored mechtech tail</labelNoun>
-	<stages>
-	  <li>
-		<statOffsets>
-			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.15</ArmorRating_Heat>
-		</statOffsets>
-	  </li>
-	</stages>
-	<comps>
-	  <li Class="HediffCompProperties_VerbGiver">
-		<tools>
-		  <li>
-			<label>tail</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>18</power>
-			<cooldownTime>1.5</cooldownTime>
-			<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
-			<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
-		  </li>
-		</tools>
-	  </li>
-	</comps>
-	<tags>
-		<li>Tail</li>
-	</tags>
-  </HediffDef>
+  <!-- <HediffDef ParentName="WVC_Hediff_BodyPart_NodeRed"> -->
+	<!-- <defName>WVC_NodeRedTail</defName> -->
+	<!-- <label>armored mechtech tail</label> -->
+	<!-- <labelNoun>a armored mechtech tail</labelNoun> -->
+	<!-- <stages> -->
+	  <!-- <li> -->
+		<!-- <statOffsets> -->
+			<!-- <ArmorRating_Sharp>0.15</ArmorRating_Sharp> -->
+			<!-- <ArmorRating_Blunt>0.15</ArmorRating_Blunt> -->
+			<!-- <ArmorRating_Heat>0.15</ArmorRating_Heat> -->
+		<!-- </statOffsets> -->
+	  <!-- </li> -->
+	<!-- </stages> -->
+	<!-- <comps> -->
+	  <!-- <li Class="HediffCompProperties_VerbGiver"> -->
+		<!-- <tools> -->
+		  <!-- <li> -->
+			<!-- <label>tail</label> -->
+			<!-- <capacities> -->
+			  <!-- <li>Blunt</li> -->
+			<!-- </capacities> -->
+			<!-- <power>18</power> -->
+			<!-- <cooldownTime>1.5</cooldownTime> -->
+			<!-- <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit> -->
+			<!-- <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss> -->
+		  <!-- </li> -->
+		<!-- </tools> -->
+	  <!-- </li> -->
+	<!-- </comps> -->
+	<!-- <tags> -->
+		<!-- <li>Tail</li> -->
+	<!-- </tags> -->
+  <!-- </HediffDef> -->
 
 </Defs>

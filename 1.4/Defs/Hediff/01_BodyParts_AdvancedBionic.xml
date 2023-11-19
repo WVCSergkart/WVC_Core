@@ -112,14 +112,14 @@
 	</tags>
   </HediffDef>
   
-  <HediffDef ParentName="WVC_Hediff_BodyPart_AdvancedBionic">
-	<defName>WVC_AdvancedBionicTongue</defName>
-	<label>experimental bionic tongue</label>
-	<labelNoun>an experimental bionic tongue</labelNoun>
-	<tags>
-		<li>Tongue</li>
-	</tags>
-  </HediffDef>
+  <!-- <HediffDef ParentName="WVC_Hediff_BodyPart_AdvancedBionic"> -->
+	<!-- <defName>WVC_AdvancedBionicTongue</defName> -->
+	<!-- <label>experimental bionic tongue</label> -->
+	<!-- <labelNoun>an experimental bionic tongue</labelNoun> -->
+	<!-- <tags> -->
+		<!-- <li>Tongue</li> -->
+	<!-- </tags> -->
+  <!-- </HediffDef> -->
 
   <!--=====================================================================-->
 
@@ -276,29 +276,29 @@
 	</tags>
   </HediffDef>
 
-  <HediffDef ParentName="WVC_Hediff_BodyPart_AdvancedBionic">
-	<defName>WVC_AdvancedBionicTail</defName>
-	<label>experimental bionic tail</label>
-	<labelNoun>a experimental bionic tail</labelNoun>
-	<comps>
-	  <li Class="HediffCompProperties_VerbGiver">
-		<tools>
-		  <li>
-			<label>tail</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>9</power>
-			<cooldownTime>2.1</cooldownTime>
-			<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
-			<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
-		  </li>
-		</tools>
-	  </li>
-	</comps>
-	<tags>
-		<li>Tail</li>
-	</tags>
-  </HediffDef>
+  <!-- <HediffDef ParentName="WVC_Hediff_BodyPart_AdvancedBionic"> -->
+	<!-- <defName>WVC_AdvancedBionicTail</defName> -->
+	<!-- <label>experimental bionic tail</label> -->
+	<!-- <labelNoun>a experimental bionic tail</labelNoun> -->
+	<!-- <comps> -->
+	  <!-- <li Class="HediffCompProperties_VerbGiver"> -->
+		<!-- <tools> -->
+		  <!-- <li> -->
+			<!-- <label>tail</label> -->
+			<!-- <capacities> -->
+			  <!-- <li>Blunt</li> -->
+			<!-- </capacities> -->
+			<!-- <power>9</power> -->
+			<!-- <cooldownTime>2.1</cooldownTime> -->
+			<!-- <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit> -->
+			<!-- <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss> -->
+		  <!-- </li> -->
+		<!-- </tools> -->
+	  <!-- </li> -->
+	<!-- </comps> -->
+	<!-- <tags> -->
+		<!-- <li>Tail</li> -->
+	<!-- </tags> -->
+  <!-- </HediffDef> -->
 
 </Defs>

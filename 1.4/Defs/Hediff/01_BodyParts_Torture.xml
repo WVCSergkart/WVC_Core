@@ -70,14 +70,14 @@
 	</tags>
   </HediffDef>
   
-  <HediffDef ParentName="WVC_Hediff_BodyPart_Torture">
-	<defName>WVC_TortureTongue</defName>
-	<label>torture tongue</label>
-	<labelNoun>an torture tongue</labelNoun>
-	<tags>
-		<li>Tongue</li>
-	</tags>
-  </HediffDef>
+  <!-- <HediffDef ParentName="WVC_Hediff_BodyPart_Torture"> -->
+	<!-- <defName>WVC_TortureTongue</defName> -->
+	<!-- <label>torture tongue</label> -->
+	<!-- <labelNoun>an torture tongue</labelNoun> -->
+	<!-- <tags> -->
+		<!-- <li>Tongue</li> -->
+	<!-- </tags> -->
+  <!-- </HediffDef> -->
 
   <!--=====================================================================-->
 
@@ -187,29 +187,29 @@
 	</tags>
   </HediffDef>
 
-  <HediffDef ParentName="WVC_Hediff_BodyPart_Torture">
-	<defName>WVC_TortureTail</defName>
-	<label>torture tail</label>
-	<labelNoun>a torture tail</labelNoun>
-	<comps>
-	  <li Class="HediffCompProperties_VerbGiver">
-		<tools>
-		  <li>
-			<label>tail</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>12</power>
-			<cooldownTime>2</cooldownTime>
-			<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
-			<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
-		  </li>
-		</tools>
-	  </li>
-	</comps>
-	<tags>
-		<li>Tail</li>
-	</tags>
-  </HediffDef>
+  <!-- <HediffDef ParentName="WVC_Hediff_BodyPart_Torture"> -->
+	<!-- <defName>WVC_TortureTail</defName> -->
+	<!-- <label>torture tail</label> -->
+	<!-- <labelNoun>a torture tail</labelNoun> -->
+	<!-- <comps> -->
+	  <!-- <li Class="HediffCompProperties_VerbGiver"> -->
+		<!-- <tools> -->
+		  <!-- <li> -->
+			<!-- <label>tail</label> -->
+			<!-- <capacities> -->
+			  <!-- <li>Blunt</li> -->
+			<!-- </capacities> -->
+			<!-- <power>12</power> -->
+			<!-- <cooldownTime>2</cooldownTime> -->
+			<!-- <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit> -->
+			<!-- <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss> -->
+		  <!-- </li> -->
+		<!-- </tools> -->
+	  <!-- </li> -->
+	<!-- </comps> -->
+	<!-- <tags> -->
+		<!-- <li>Tail</li> -->
+	<!-- </tags> -->
+  <!-- </HediffDef> -->
 
 </Defs>

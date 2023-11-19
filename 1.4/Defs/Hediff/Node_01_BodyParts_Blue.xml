@@ -217,29 +217,29 @@
 	</tags>
   </HediffDef>
 
-  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue">
-	<defName>WVC_NodeBlueTail</defName>
-	<label>overclocked mechtech tail</label>
-	<labelNoun>a overclocked mechtech tail</labelNoun>
-	<comps>
-	  <li Class="HediffCompProperties_VerbGiver">
-		<tools>
-		  <li>
-			<label>tail</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>18</power>
-			<cooldownTime>1.5</cooldownTime>
-			<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
-			<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
-		  </li>
-		</tools>
-	  </li>
-	</comps>
-	<tags>
-		<li>Tail</li>
-	</tags>
-  </HediffDef>
+  <!-- <HediffDef ParentName="WVC_Hediff_BodyPart_NodeBlue"> -->
+	<!-- <defName>WVC_NodeBlueTail</defName> -->
+	<!-- <label>overclocked mechtech tail</label> -->
+	<!-- <labelNoun>a overclocked mechtech tail</labelNoun> -->
+	<!-- <comps> -->
+	  <!-- <li Class="HediffCompProperties_VerbGiver"> -->
+		<!-- <tools> -->
+		  <!-- <li> -->
+			<!-- <label>tail</label> -->
+			<!-- <capacities> -->
+			  <!-- <li>Blunt</li> -->
+			<!-- </capacities> -->
+			<!-- <power>18</power> -->
+			<!-- <cooldownTime>1.5</cooldownTime> -->
+			<!-- <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit> -->
+			<!-- <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss> -->
+		  <!-- </li> -->
+		<!-- </tools> -->
+	  <!-- </li> -->
+	<!-- </comps> -->
+	<!-- <tags> -->
+		<!-- <li>Tail</li> -->
+	<!-- </tags> -->
+  <!-- </HediffDef> -->
 
 </Defs>

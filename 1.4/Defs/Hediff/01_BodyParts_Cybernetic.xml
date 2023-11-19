@@ -112,14 +112,14 @@
 	</tags>
   </HediffDef>
   
-  <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
-	<defName>WVC_CyberneticTongue</defName>
-	<label>cybertech tongue</label>
-	<labelNoun>an cybertech tongue</labelNoun>
-	<tags>
-		<li>Tongue</li>
-	</tags>
-  </HediffDef>
+  <!-- <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic"> -->
+	<!-- <defName>WVC_CyberneticTongue</defName> -->
+	<!-- <label>cybertech tongue</label> -->
+	<!-- <labelNoun>an cybertech tongue</labelNoun> -->
+	<!-- <tags> -->
+		<!-- <li>Tongue</li> -->
+	<!-- </tags> -->
+  <!-- </HediffDef> -->
 
   <!--=====================================================================-->
 
@@ -295,29 +295,29 @@
 	</tags>
   </HediffDef>
 
-  <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic">
-	<defName>WVC_CyberneticTail</defName>
-	<label>cybertech tail</label>
-	<labelNoun>a cybertech tail</labelNoun>
-	<comps>
-	  <li Class="HediffCompProperties_VerbGiver">
-		<tools>
-		  <li>
-			<label>tail</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>10</power>
-			<cooldownTime>2.1</cooldownTime>
-			<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
-			<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
-		  </li>
-		</tools>
-	  </li>
-	</comps>
-	<tags>
-		<li>Tail</li>
-	</tags>
-  </HediffDef>
+  <!-- <HediffDef ParentName="WVC_Hediff_BodyPart_Cybernetic"> -->
+	<!-- <defName>WVC_CyberneticTail</defName> -->
+	<!-- <label>cybertech tail</label> -->
+	<!-- <labelNoun>a cybertech tail</labelNoun> -->
+	<!-- <comps> -->
+	  <!-- <li Class="HediffCompProperties_VerbGiver"> -->
+		<!-- <tools> -->
+		  <!-- <li> -->
+			<!-- <label>tail</label> -->
+			<!-- <capacities> -->
+			  <!-- <li>Blunt</li> -->
+			<!-- </capacities> -->
+			<!-- <power>10</power> -->
+			<!-- <cooldownTime>2.1</cooldownTime> -->
+			<!-- <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit> -->
+			<!-- <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss> -->
+		  <!-- </li> -->
+		<!-- </tools> -->
+	  <!-- </li> -->
+	<!-- </comps> -->
+	<!-- <tags> -->
+		<!-- <li>Tail</li> -->
+	<!-- </tags> -->
+  <!-- </HediffDef> -->
 
 </Defs>

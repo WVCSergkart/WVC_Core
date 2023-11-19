@@ -42,7 +42,7 @@
   <!--=====================================================================-->
 
   <ThingDef Name="WVC_BodyPartsNodes_Base" ParentName="WVC_BodyParts_Base" Abstract="True">
-	<description>Body part created using high technology.</description>
+	<description>Body part created using mecha technology. Does not require anesthesia.</description>
 	<techLevel>Ultra</techLevel>
 	<!-- <thingCategories> -->
 	  <!-- <li>WVC_BodyPartsMechanoid</li> -->
@@ -68,6 +68,9 @@
 	  <recipeUsers Inherit="False">
 		<!-- <li>WVC_NodeCraftingBench</li> -->
 	  </recipeUsers>
+	  <researchPrerequisites>
+		<li>WVC_BionicTech_SpecializedMechtech</li>
+	  </researchPrerequisites>
 	</recipeMaker>
 	<tradeTags>
 	  <li>ImplantEmpireRoyal</li>
@@ -95,7 +98,10 @@
 	  <Gold>16</Gold>
 	</costList>
 	<recipeMaker>
-	  <researchPrerequisite>WVC_ResearchBodyParts_NodeBlue</researchPrerequisite>
+	  <researchPrerequisites>
+		<li>WVC_ResearchBodyParts_NodeBlue</li>
+		<!-- <li MayRequire="ludeon.rimworld.royalty">NeuralComputation</li> -->
+	  </researchPrerequisites>
 	  <recipeUsers>
 		<li>WVC_BlueCraftingBench</li>
 	  </recipeUsers>
@@ -111,7 +117,10 @@
 	  <WVC_UniversalFuel>130</WVC_UniversalFuel>
 	</costList>
 	<recipeMaker>
-	  <researchPrerequisite>WVC_ResearchBodyParts_NodeGreen</researchPrerequisite>
+	  <researchPrerequisites>
+		<li>WVC_ResearchBodyParts_NodeGreen</li>
+		<!-- <li>WVC_BionicTech_ScarsHealing</li> -->
+	  </researchPrerequisites>
 	  <recipeUsers>
 		<li>WVC_GreenCraftingBench</li>
 	  </recipeUsers>
@@ -128,7 +137,10 @@
 	  <Uranium>13</Uranium>
 	</costList>
 	<recipeMaker>
-	  <researchPrerequisite>WVC_ResearchBodyParts_NodeRed</researchPrerequisite>
+	  <researchPrerequisites>
+		<li>WVC_ResearchBodyParts_NodeRed</li>
+		<!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
+	  </researchPrerequisites>
 	  <recipeUsers>
 		<li>WVC_RedCraftingBench</li>
 	  </recipeUsers>
@@ -145,7 +157,11 @@
 	  <Uranium>8</Uranium>
 	</costList>
 	<recipeMaker>
-	  <researchPrerequisite>WVC_ResearchBodyParts_NodeViolet</researchPrerequisite>
+	  <researchPrerequisites>
+		<li>WVC_ResearchBodyParts_NodeViolet</li>
+		<!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
+		<!-- <li>WVC_BionicTech_ScarsHealing</li> -->
+	  </researchPrerequisites>
 	  <recipeUsers>
 		<li>WVC_VioletCraftingBench</li>
 	  </recipeUsers>
@@ -162,7 +178,10 @@
 	  <Gold>11</Gold>
 	</costList>
 	<recipeMaker>
-	  <researchPrerequisite>WVC_ResearchBodyParts_NodeYellow</researchPrerequisite>
+	  <researchPrerequisites>
+		<li>WVC_ResearchBodyParts_NodeYellow</li>
+		<!-- <li MayRequire="ludeon.rimworld.royalty">CircadianInfluence</li> -->
+	  </researchPrerequisites>
 	  <recipeUsers>
 		<li>WVC_YellowCraftingBench</li>
 	  </recipeUsers>
@@ -189,7 +208,13 @@
 		<Intellectual>20</Intellectual>
 		<Medicine>16</Medicine>
 	  </skillRequirements>
-	  <researchPrerequisite>WVC_ResearchBodyParts_AdvancedMechtech</researchPrerequisite>
+	  <researchPrerequisites>
+		<li>WVC_ResearchBodyParts_AdvancedMechtech</li>
+		<!-- <li>WVC_BionicTech_ScarsHealing</li> -->
+		<!-- <li MayRequire="ludeon.rimworld.royalty">NeuralComputation</li> -->
+		<!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
+		<!-- <li MayRequire="ludeon.rimworld.royalty">CircadianInfluence</li> -->
+	  </researchPrerequisites>
 	  <recipeUsers>
 		<li>WVC_ArchotechCraftingBench</li>
 	  </recipeUsers>

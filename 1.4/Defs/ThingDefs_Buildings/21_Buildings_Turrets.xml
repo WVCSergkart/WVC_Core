@@ -13,6 +13,8 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/MechTurret/TurretMechMini_Base</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
+	  <!-- <shaderType>CutoutComplex</shaderType> -->
+	  <color>(181,165,153)</color>
 	  <drawSize>(1,1)</drawSize>
 	  <drawOffset>(0,0,-0.11)</drawOffset>
 	  <damageData>
@@ -67,6 +69,7 @@
 	<hasTooltip>true</hasTooltip>
 	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	<building>
+	  <paintable>true</paintable>
 	  <combatPower>45</combatPower>
 	  <ai_combatDangerous>true</ai_combatDangerous>
 	  <turretGunDef>Gun_MiniTurretMech_WVC</turretGunDef>
@@ -96,6 +99,7 @@
 		<ComponentSpacer>2</ComponentSpacer>
 	</costList>
 	<building Inherit="False">
+	  <paintable>true</paintable>
 	  <combatPower>150</combatPower>
 	  <ai_combatDangerous>true</ai_combatDangerous>
 	  <turretGunDef>Gun_ChargeBlasterHeavyTurret</turretGunDef>
@@ -117,6 +121,7 @@
 		<ComponentSpacer>2</ComponentSpacer>
 	</costList>
 	<building Inherit="False">
+	  <paintable>true</paintable>
 	  <combatPower>190</combatPower>
 	  <ai_combatDangerous>true</ai_combatDangerous>
 	  <turretGunDef>Gun_InfernoCannonTurret</turretGunDef>
@@ -139,6 +144,7 @@
 		<ComponentSpacer>5</ComponentSpacer>
 	</costList>
 	<building Inherit="False">
+	  <paintable>true</paintable>
 	  <combatPower>220</combatPower>
 	  <turretGunDef>Artillery_AutoMortar_WVC</turretGunDef>
 	  <turretBurstWarmupTime>4.0</turretBurstWarmupTime>

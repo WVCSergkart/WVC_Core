@@ -25,7 +25,7 @@
 
   <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
 	<defName>WVC_Ultra_Ultratech</defName>
-	<label>advanced ultratech</label>
+	<label>ultratech</label>
 	<description>Complete rethinking and recreation of the most complex technologies of mankind, as well as their further refinement.</description>
 	<techLevel>Spacer</techLevel>
 	<techprintCount>2</techprintCount>
@@ -56,7 +56,7 @@
 
   <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
 	<defName>WVC_Ultra_Mechtech</defName>
-	<label>advanced mechtech I</label>
+	<label>mechtech</label>
 	<description>Advanced mechtech research to replicate, improve and empower.</description>
 	  <researchViewX>1.00</researchViewX>
 	  <researchViewY>2.70</researchViewY>
@@ -149,7 +149,7 @@
 	  <li>WVC_Assembled_ELF_Base</li>
 	</tags>
 	<prerequisites>
-	  <!-- <li>WVC_Ultra_UltraniteConversion</li> -->
+	  <li>WVC_Ultra_UltraniteConversion</li>
 	  <li>WVC_Ultra_Mechtech</li>
 	</prerequisites>
   </ResearchProjectDef>
@@ -195,22 +195,22 @@
 	</prerequisites>
   </ResearchProjectDef>
 
-  <!-- <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base"> -->
-	<!-- <defName>WVC_MechanoidTech_IncubatorLF</defName> -->
-	<!-- <label>node machine</label> -->
-	<!-- <description>Using the data of previous studies to create a complex machine that will allow you to get a living metal.</description> -->
-	<!-- <researchViewX>2.00</researchViewX> -->
-	<!-- <researchViewY>2.70</researchViewY> -->
-	<!-- <hiddenPrerequisites> -->
-	<!-- </hiddenPrerequisites> -->
-	<!-- <tags> -->
-	  <!-- <li>WVC_Assembled_ELF_Base</li> -->
-	<!-- </tags> -->
-	<!-- <prerequisites> -->
-	  <!-- <li>WVC_Ultra_Mechtech</li> -->
-	  <!-- <li>WVC_Ultra_UltraniteConversion</li> -->
-	<!-- </prerequisites> -->
-  <!-- </ResearchProjectDef> -->
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_Ultra_MechtechDrillingMachine</defName>
+	<label>complex drilling</label>
+	<description>Special tools and mechanisms for deep drilling.</description>
+	<researchViewX>2.00</researchViewX>
+	<researchViewY>2.70</researchViewY>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<tags>
+	  <li>WVC_Assembled_ELF_Base</li>
+	</tags>
+	<prerequisites>
+	  <li>WVC_Ultra_Mechtech</li>
+	  <li>DeepDrilling</li>
+	</prerequisites>
+  </ResearchProjectDef>
 
   <!-- ======================================================================= -->
 

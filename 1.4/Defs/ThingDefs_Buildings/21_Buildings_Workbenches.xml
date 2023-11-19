@@ -197,9 +197,9 @@
 	<castEdgeShadows>true</castEdgeShadows>
 	<staticSunShadowHeight>0.20</staticSunShadowHeight>
 	<costList>
-	  <Plasteel>150</Plasteel>
-	  <Uranium>23</Uranium>
-	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
+	  <Steel>150</Steel>
+	  <Plasteel>25</Plasteel>
+	  <ComponentSpacer>1</ComponentSpacer>
 	  <!-- <ComponentSpacer>2</ComponentSpacer> -->
 	</costList>
 	<altitudeLayer>Building</altitudeLayer>
@@ -249,7 +249,8 @@
 	<constructEffect>ConstructMetal</constructEffect>
 	<researchPrerequisites Inherit="False">
 	  <li>AdvancedFabrication</li>
-	  <li>WVC_Ultra_Ultratech</li>
+	  <!-- <li>WVC_Ultra_Ultratech</li> -->
+	  <li>WVC_BionicTech_AdvancedBionic</li>
 	</researchPrerequisites>
 	<placeWorkers>
 	  <li>PlaceWorker_ReportWorkSpeedPenalties</li>
@@ -269,193 +270,88 @@
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
 	<defName>WVC_ExperimentalCraftingBench</defName>
-	<label>experimental implant workbench</label>
+	<label>implant workbench (experimental)</label>
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/ExperimentalCraftingBench</texPath>
 	</graphicData>
-	<statBases>
-	  <!-- <WorkTableEfficiencyFactor>1.0</WorkTableEfficiencyFactor> -->
-	</statBases>
-	<costList>
-	  <ComponentSpacer>3</ComponentSpacer>
-	</costList>
-	<researchPrerequisites Inherit="False">
-	  <li>WVC_BionicTech_AdvancedBionic</li>
-	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
 	<defName>WVC_CyberneticCraftingBench</defName>
-	<label>cybernetic implant workbench</label>
+	<label>implant workbench (cybernetic)</label>
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/CyberneticCraftingBench</texPath>
 	</graphicData>
-	<statBases>
-	  <!-- <WorkTableEfficiencyFactor>1.1</WorkTableEfficiencyFactor> -->
-	</statBases>
-	<costList>
-	  <ComponentSpacer>3</ComponentSpacer>
-	  <!-- <ComponentSpacer>1</ComponentSpacer> -->
-	</costList>
-	<researchPrerequisites Inherit="False">
-	  <li>WVC_BionicTech_Cybernetic</li>
-	</researchPrerequisites>
   </ThingDef>
 
   <!-- ============================================================ -->
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
 	<defName>WVC_AncientCraftingBench</defName>
-	<label>ancient implant workbench</label>
+	<label>implant workbench (ultratech)</label>
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/AncientCraftingBench</texPath>
 	</graphicData>
-	<statBases>
-	  <!-- <WorkTableEfficiencyFactor>1.2</WorkTableEfficiencyFactor> -->
-	</statBases>
-	<costList>
-	  <ComponentSpacer>5</ComponentSpacer>
-	  <!-- <ComponentSpacer>2</ComponentSpacer> -->
-	</costList>
-	<researchPrerequisites Inherit="False">
-	  <li>WVC_Ultra_Ultratech</li>
-	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
 	<defName>WVC_MechanoidCraftingBench</defName>
-	<label>mechanoid implant workbench</label>
+	<label>implant workbench (mechtech)</label>
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/MechanoidCraftingBench</texPath>
 	</graphicData>
-	<statBases>
-	  <!-- <WorkTableEfficiencyFactor>1.3</WorkTableEfficiencyFactor> -->
-	</statBases>
-	<costList>
-	  <ComponentSpacer>5</ComponentSpacer>
-	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
-	</costList>
-	<researchPrerequisites Inherit="False">
-	  <li>WVC_Ultra_Mechtech</li>
-	</researchPrerequisites>
   </ThingDef>
 
   <!-- ============================================================ -->
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
 	<defName>WVC_BlueCraftingBench</defName>
-	<label>blue implant workbench</label>
+	<label>implant workbench (overclocked)</label>
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/BlueCraftingBench</texPath>
 	</graphicData>
-	<statBases>
-	  <!-- <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor> -->
-	</statBases>
-	<costList>
-	  <ComponentSpacer>5</ComponentSpacer>
-	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
-	  <!-- <WVC_ResourceNodes_Blue>7</WVC_ResourceNodes_Blue> -->
-	</costList>
-	<researchPrerequisites Inherit="False">
-	  <li>WVC_ResearchBodyParts_NodeBlue</li>
-	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
 	<defName>WVC_GreenCraftingBench</defName>
-	<label>green implant workbench</label>
+	<label>implant workbench (recovery)</label>
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/GreenCraftingBench</texPath>
 	</graphicData>
-	<statBases>
-	  <!-- <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor> -->
-	</statBases>
-	<costList>
-	  <ComponentSpacer>5</ComponentSpacer>
-	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
-	  <!-- <WVC_ResourceNodes_Green>7</WVC_ResourceNodes_Green> -->
-	</costList>
-	<researchPrerequisites Inherit="False">
-	  <li>WVC_ResearchBodyParts_NodeGreen</li>
-	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
 	<defName>WVC_RedCraftingBench</defName>
-	<label>red implant workbench</label>
+	<label>implant workbench (armored)</label>
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/RedCraftingBench</texPath>
 	</graphicData>
-	<statBases>
-	  <!-- <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor> -->
-	</statBases>
-	<costList>
-	  <ComponentSpacer>5</ComponentSpacer>
-	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
-	  <!-- <WVC_ResourceNodes_Red>7</WVC_ResourceNodes_Red> -->
-	</costList>
-	<researchPrerequisites Inherit="False">
-	  <li>WVC_ResearchBodyParts_NodeRed</li>
-	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
 	<defName>WVC_VioletCraftingBench</defName>
-	<label>violet implant workbench</label>
+	<label>implant workbench (tough)</label>
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/VioletCraftingBench</texPath>
 	</graphicData>
-	<statBases>
-	  <!-- <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor> -->
-	</statBases>
-	<costList>
-	  <ComponentSpacer>5</ComponentSpacer>
-	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
-	  <!-- <WVC_ResourceNodes_Violet>7</WVC_ResourceNodes_Violet> -->
-	</costList>
-	<researchPrerequisites Inherit="False">
-	  <li>WVC_ResearchBodyParts_NodeViolet</li>
-	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
 	<defName>WVC_YellowCraftingBench</defName>
-	<label>yellow implant workbench</label>
+	<label>implant workbench (psychic)</label>
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/YellowCraftingBench</texPath>
 	</graphicData>
-	<statBases>
-	  <!-- <WorkTableEfficiencyFactor>1.4</WorkTableEfficiencyFactor> -->
-	</statBases>
-	<costList>
-	  <ComponentSpacer>5</ComponentSpacer>
-	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
-	  <!-- <WVC_ResourceNodes_Yellow>7</WVC_ResourceNodes_Yellow> -->
-	</costList>
-	<researchPrerequisites Inherit="False">
-	  <li>WVC_ResearchBodyParts_NodeYellow</li>
-	</researchPrerequisites>
   </ThingDef>
 
   <!-- ============================================================ -->
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
 	<defName>WVC_ArchotechCraftingBench</defName>
-	<label>mechtech implant workbench</label>
+	<label>implant workbench (adv-mechtech)</label>
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/ArchotechCraftingBench</texPath>
 	</graphicData>
-	<statBases>
-	  <!-- <WorkTableEfficiencyFactor>1.5</WorkTableEfficiencyFactor> -->
-	</statBases>
-	<costList>
-	  <ComponentSpacer>5</ComponentSpacer>
-	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
-	  <!-- <WVC_ResourceNodes_Archotech>15</WVC_ResourceNodes_Archotech> -->
-	</costList>
-	<researchPrerequisites Inherit="False">
-	  <li>WVC_ResearchBodyParts_AdvancedMechtech</li>
-	</researchPrerequisites>
   </ThingDef>
 
 </Defs>

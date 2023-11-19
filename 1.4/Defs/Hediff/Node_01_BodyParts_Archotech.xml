@@ -330,41 +330,41 @@ All this makes it possible to achieve efficiency close to that of the archotech.
 	</tags>
   </HediffDef>
 
-  <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech">
-	<defName>WVC_ArchotechTail</defName>
-	<label>advanced mechtech tail</label>
-	<labelNoun>a advanced mechtech tail</labelNoun>
-	<stages>
-	  <li>
-		<statOffsets>
-			<InjuryHealingFactor>0.15</InjuryHealingFactor>
-			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.1</ArmorRating_Heat>
-			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
-			<PsychicSensitivity>0.2</PsychicSensitivity>
-		</statOffsets>
-	  </li>
-	</stages>
-	<comps>
-	  <li Class="HediffCompProperties_VerbGiver">
-		<tools>
-		  <li>
-			<label>tail</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>18</power>
-			<cooldownTime>1.5</cooldownTime>
-			<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
-			<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
-		  </li>
-		</tools>
-	  </li>
-	</comps>
-	<tags>
-		<li>Tail</li>
-	</tags>
-  </HediffDef>
+  <!-- <HediffDef ParentName="WVC_Hediff_BodyPart_Archotech"> -->
+	<!-- <defName>WVC_ArchotechTail</defName> -->
+	<!-- <label>advanced mechtech tail</label> -->
+	<!-- <labelNoun>a advanced mechtech tail</labelNoun> -->
+	<!-- <stages> -->
+	  <!-- <li> -->
+		<!-- <statOffsets> -->
+			<!-- <InjuryHealingFactor>0.15</InjuryHealingFactor> -->
+			<!-- <ArmorRating_Sharp>0.1</ArmorRating_Sharp> -->
+			<!-- <ArmorRating_Blunt>0.1</ArmorRating_Blunt> -->
+			<!-- <ArmorRating_Heat>0.1</ArmorRating_Heat> -->
+			<!-- <IncomingDamageFactor>-0.02</IncomingDamageFactor> -->
+			<!-- <PsychicSensitivity>0.2</PsychicSensitivity> -->
+		<!-- </statOffsets> -->
+	  <!-- </li> -->
+	<!-- </stages> -->
+	<!-- <comps> -->
+	  <!-- <li Class="HediffCompProperties_VerbGiver"> -->
+		<!-- <tools> -->
+		  <!-- <li> -->
+			<!-- <label>tail</label> -->
+			<!-- <capacities> -->
+			  <!-- <li>Blunt</li> -->
+			<!-- </capacities> -->
+			<!-- <power>18</power> -->
+			<!-- <cooldownTime>1.5</cooldownTime> -->
+			<!-- <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit> -->
+			<!-- <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss> -->
+		  <!-- </li> -->
+		<!-- </tools> -->
+	  <!-- </li> -->
+	<!-- </comps> -->
+	<!-- <tags> -->
+		<!-- <li>Tail</li> -->
+	<!-- </tags> -->
+  <!-- </HediffDef> -->
 
 </Defs>

@@ -269,36 +269,36 @@
 	</tags>
   </HediffDef>
 
-  <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet">
-	<defName>WVC_NodeVioletTail</defName>
-	<label>tough mechtech tail</label>
-	<labelNoun>a tough mechtech tail</labelNoun>
-	<stages>
-	  <li>
-		<statOffsets>
-			<IncomingDamageFactor>-0.02</IncomingDamageFactor>
-		</statOffsets>
-	  </li>
-	</stages>
-	<comps>
-	  <li Class="HediffCompProperties_VerbGiver">
-		<tools>
-		  <li>
-			<label>tail</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>18</power>
-			<cooldownTime>1.5</cooldownTime>
-			<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
-			<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
-		  </li>
-		</tools>
-	  </li>
-	</comps>
-	<tags>
-		<li>Tail</li>
-	</tags>
-  </HediffDef>
+  <!-- <HediffDef ParentName="WVC_Hediff_BodyPart_NodeViolet"> -->
+	<!-- <defName>WVC_NodeVioletTail</defName> -->
+	<!-- <label>tough mechtech tail</label> -->
+	<!-- <labelNoun>a tough mechtech tail</labelNoun> -->
+	<!-- <stages> -->
+	  <!-- <li> -->
+		<!-- <statOffsets> -->
+			<!-- <IncomingDamageFactor>-0.02</IncomingDamageFactor> -->
+		<!-- </statOffsets> -->
+	  <!-- </li> -->
+	<!-- </stages> -->
+	<!-- <comps> -->
+	  <!-- <li Class="HediffCompProperties_VerbGiver"> -->
+		<!-- <tools> -->
+		  <!-- <li> -->
+			<!-- <label>tail</label> -->
+			<!-- <capacities> -->
+			  <!-- <li>Blunt</li> -->
+			<!-- </capacities> -->
+			<!-- <power>18</power> -->
+			<!-- <cooldownTime>1.5</cooldownTime> -->
+			<!-- <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit> -->
+			<!-- <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss> -->
+		  <!-- </li> -->
+		<!-- </tools> -->
+	  <!-- </li> -->
+	<!-- </comps> -->
+	<!-- <tags> -->
+		<!-- <li>Tail</li> -->
+	<!-- </tags> -->
+  <!-- </HediffDef> -->
 
 </Defs>

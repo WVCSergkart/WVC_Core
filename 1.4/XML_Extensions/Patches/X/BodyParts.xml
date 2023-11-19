@@ -146,23 +146,23 @@
 
 	<!--=====================================================================-->
 
-			<Operation Class="XmlExtensions.OptionalPatch">
-				<modId>honkai.girls.sergkart</modId>
-				<key>WVC_EnableImplants_AdvancedBionicBodyParts</key>
-				<defaultValue>true</defaultValue>
-				<caseFalse>
-				</caseFalse>
-				<caseTrue>
+			<!-- <Operation Class="XmlExtensions.OptionalPatch"> -->
+				<!-- <modId>honkai.girls.sergkart</modId> -->
+				<!-- <key>WVC_EnableImplants_AdvancedBionicBodyParts</key> -->
+				<!-- <defaultValue>true</defaultValue> -->
+				<!-- <caseFalse> -->
+				<!-- </caseFalse> -->
+				<!-- <caseTrue> -->
 
-					<Operation Class="PatchOperationAdd">
-						  <xpath>Defs/ResearchProjectDef[@Name="WVC_Ultra_ResearchProject_NodeTech"]/hiddenPrerequisites</xpath>
-						  <value>
-							<li>WVC_BionicTech_Cybernetic</li>
-						  </value>
-					</Operation>
+					<!-- <Operation Class="PatchOperationAdd"> -->
+						  <!-- <xpath>Defs/ThingDef[@Name="WVC_BodyPartsNodes_Base"]/recipeMaker/researchPrerequisites</xpath> -->
+						  <!-- <value> -->
+							<!-- <li>WVC_BionicTech_Cybernetic</li> -->
+						  <!-- </value> -->
+					<!-- </Operation> -->
 
-				</caseTrue>
-			</Operation>
+				<!-- </caseTrue> -->
+			<!-- </Operation> -->
 
 			<Operation Class="XmlExtensions.ApplyPatch">
 				<patchName>WVC_BodyPartGenerator</patchName>
