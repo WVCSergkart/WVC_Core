@@ -69,6 +69,7 @@
     <Compile Include="Resources_Main\FilterUtility.cs" />
     <Compile Include="Resources_Main\Harmony.cs" />
     <Compile Include="Resources_Main\ModExtension.cs" />
+    <Compile Include="Resources_Main\ModSettings.cs" />
     <Compile Include="Resources_Main\TerrainPatch.cs" />
     <Compile Include="Resources_Main\UltraDefOf.cs" />
     <Compile Include="Resources_XmlGenerator\ImplantGenerator.cs" />

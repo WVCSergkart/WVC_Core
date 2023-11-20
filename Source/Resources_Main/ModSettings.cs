@@ -1,0 +1,123 @@
+using RimWorld;
+using System.Collections.Generic;
+using System.Linq;
+using System.Xml;
+using UnityEngine;
+using Verse;
+
+namespace WVC_UltraExpansion
+{
+
+	public class WVC_UltraSettings : ModSettings
+	{
+		// Graphic
+		public bool implantGenerator = false;
+
+		public IEnumerable<string> GetEnabledSettings => from specificSetting in GetType().GetFields()
+														 where specificSetting.FieldType == typeof(bool) && (bool)specificSetting.GetValue(this)
+														 select specificSetting.Name;
+
+		public override void ExposeData()
+		{
+			Scribe_Values.Look(ref implantGenerator, "implantGenerator", defaultValue: false);
+		}
+	}
+
+	public class WVC_Ultra : Mod
+	{
+		public static WVC_UltraSettings settings;
+
+		private int PageIndex = 0;
+
+		private static Vector2 scrollPosition = Vector2.zero;
+
+		public WVC_Ultra(ModContentPack content) : base(content)
+		{
+			settings = GetSettings<WVC_UltraSettings>();
+		}
+
+		public override void DoSettingsWindowContents(Rect inRect)
+		{
+			Rect rect = new(inRect);
+			rect.y = inRect.y + 40f;
+			Rect baseRect = rect;
+			rect = new Rect(inRect)
+			{
+				height = inRect.height - 40f,
+				y = inRect.y + 40f
+			};
+			Rect rect2 = rect;
+			Widgets.DrawMenuSection(rect2);
+			List<TabRecord> tabs = new()
+			{
+				new TabRecord("WVC_UltraSettings_Tab_General".Translate(), delegate
+				{
+					PageIndex = 0;
+					WriteSettings();
+				}, PageIndex == 0),
+				// new TabRecord("WVC_UltraSettings_Tab_XenotypesFilter".Translate(), delegate
+				// {
+					// PageIndex = 1;
+					// WriteSettings();
+				// }, PageIndex == 1)
+			};
+			TabDrawer.DrawTabs(baseRect, tabs);
+			switch (PageIndex)
+			{
+				case 0:
+					GeneralSettings(rect2.ContractedBy(15f));
+					break;
+				// case 1:
+					// XenotypeFilterSettings(rect2.ContractedBy(15f));
+					// break;
+			}
+		}
+
+		// General Settings
+		// General Settings
+		// General Settings
+
+		private void GeneralSettings(Rect inRect)
+		{
+			Rect outRect = new(inRect.x, inRect.y, inRect.width, inRect.height);
+			// Rect rect = new(0f, 0f, inRect.width, inRect.height);
+			Rect rect = new(0f, 0f, inRect.width - 30f, inRect.height * 2);
+			Widgets.BeginScrollView(outRect, ref scrollPosition, rect);
+			Listing_Standard listingStandard = new();
+			listingStandard.Begin(rect);
+			// ===============
+			if (Prefs.DevMode)
+			{
+				listingStandard.Label("WVC_UltraSettings_Label_DEV".Translate() + ":", -1);
+				listingStandard.CheckboxLabeled("WVC_UltraSettings_Label_Generator".Translate(), ref settings.implantGenerator, "WVC_UltraSettings_Tooltip_Generator".Translate());
+			}
+			listingStandard.End();
+			Widgets.EndScrollView();
+		}
+
+		public override string SettingsCategory()
+		{
+			return "WVC - " + "WVC_UltraSettings".Translate();
+		}
+	}
+
+	public class PatchOperationOptional : PatchOperation
+	{
+		public string settingName;
+		public PatchOperation caseTrue;
+		public PatchOperation caseFalse;
+
+		protected override bool ApplyWorker(XmlDocument xml)
+		{
+			if (WVC_Ultra.settings.GetEnabledSettings.Contains(settingName) && caseTrue != null)
+			{
+				return caseTrue.Apply(xml);
+			}
+			else if (WVC_Ultra.settings.GetEnabledSettings.Contains(settingName) != true && caseFalse != null)
+			{
+				return caseFalse.Apply(xml);
+			}
+			return true;
+		}
+	}
+}

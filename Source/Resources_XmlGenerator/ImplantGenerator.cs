@@ -17,12 +17,9 @@ namespace WVC_UltraExpansion
 
 		static PostInitializationDefGenerator()
 		{
-			bool onOrOff = false;
-			if (onOrOff)
+			TemplatesUtility.GetOrCreateStorageModFolders(out string path, out bool canGenerate);
+			if (WVC_Ultra.settings.implantGenerator && canGenerate)
 			{
-				TemplatesUtility.GetOrCreateStorageModFolders(out string path);
-				TemplatesUtility.GetOrCreateStorageModFolders(out string path1);
-				TemplatesUtility.GetOrCreateStorageModFolders(out string path2);
 				foreach (ImplantGeneratorDef generatorDef in DefDatabase<ImplantGeneratorDef>.AllDefsListForReading)
 				{
 					// string name = "DeleteTag";
@@ -49,8 +46,8 @@ namespace WVC_UltraExpansion
 						xDocument3.Element("Defs").Add(TemplatesUtility.GenerateThingDefFile(thingDef, generatorDef));
 					}
 					xDocument1.Save(Path.Combine(path, "HediffDef_" + generatorDef.defName + ".xml"));
-					xDocument2.Save(Path.Combine(path1, "RecipeDef_" + generatorDef.defName + ".xml"));
-					xDocument3.Save(Path.Combine(path2, "ThingDef_" + generatorDef.defName + ".xml"));
+					xDocument2.Save(Path.Combine(path, "RecipeDef_" + generatorDef.defName + ".xml"));
+					xDocument3.Save(Path.Combine(path, "ThingDef_" + generatorDef.defName + ".xml"));
 					thingDefs.Clear();
 					recipeDefs.Clear();
 					hediffDefs.Clear();
