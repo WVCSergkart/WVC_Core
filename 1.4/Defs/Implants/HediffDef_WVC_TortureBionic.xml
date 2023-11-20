@@ -5,8 +5,8 @@
     <label>torture bionic eye</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Eye_Ultra</RecipeDef>
       <ThingDef>WVC_TortureBionic_Eye_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Eye_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_TortureBionic_Eye_Ultra</spawnThingOnRemoved>
     <stages>
@@ -19,8 +19,8 @@
     <label>torture bionic ear</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Ear_Ultra</RecipeDef>
       <ThingDef>WVC_TortureBionic_Ear_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Ear_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_TortureBionic_Ear_Ultra</spawnThingOnRemoved>
     <stages>
@@ -33,8 +33,8 @@
     <label>torture bionic jaw</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Jaw_Ultra</RecipeDef>
       <ThingDef>WVC_TortureBionic_Jaw_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Jaw_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_TortureBionic_Jaw_Ultra</spawnThingOnRemoved>
     <stages>
@@ -66,8 +66,8 @@
     <label>torture bionic nose</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Nose_Ultra</RecipeDef>
       <ThingDef>WVC_TortureBionic_Nose_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Nose_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_TortureBionic_Nose_Ultra</spawnThingOnRemoved>
     <stages>
@@ -84,8 +84,8 @@
     <label>torture bionic stomach</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Stomach_Ultra</RecipeDef>
       <ThingDef>WVC_TortureBionic_Stomach_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Stomach_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_TortureBionic_Stomach_Ultra</spawnThingOnRemoved>
     <stages>
@@ -98,8 +98,8 @@
     <label>torture bionic spine</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Spine_Ultra</RecipeDef>
       <ThingDef>WVC_TortureBionic_Spine_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Spine_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_TortureBionic_Spine_Ultra</spawnThingOnRemoved>
     <stages>
@@ -112,8 +112,8 @@
     <label>torture bionic heart</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Heart_Ultra</RecipeDef>
       <ThingDef>WVC_TortureBionic_Heart_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Heart_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_TortureBionic_Heart_Ultra</spawnThingOnRemoved>
     <stages>
@@ -126,8 +126,8 @@
     <label>torture bionic kidney</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Kidney_Ultra</RecipeDef>
       <ThingDef>WVC_TortureBionic_Kidney_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Kidney_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_TortureBionic_Kidney_Ultra</spawnThingOnRemoved>
     <stages>
@@ -140,8 +140,8 @@
     <label>torture bionic liver</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Liver_Ultra</RecipeDef>
       <ThingDef>WVC_TortureBionic_Liver_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Liver_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_TortureBionic_Liver_Ultra</spawnThingOnRemoved>
     <stages>
@@ -154,8 +154,8 @@
     <label>torture bionic lung</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Lung_Ultra</RecipeDef>
       <ThingDef>WVC_TortureBionic_Lung_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Lung_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_TortureBionic_Lung_Ultra</spawnThingOnRemoved>
     <stages>
@@ -168,8 +168,8 @@
     <label>torture bionic arm</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Shoulder_Ultra</RecipeDef>
       <ThingDef>WVC_TortureBionic_Shoulder_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Shoulder_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_TortureBionic_Shoulder_Ultra</spawnThingOnRemoved>
     <stages>
@@ -197,8 +197,8 @@
     <label>torture bionic leg</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Leg_Ultra</RecipeDef>
       <ThingDef>WVC_TortureBionic_Leg_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Leg_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_TortureBionic_Leg_Ultra</spawnThingOnRemoved>
     <stages>

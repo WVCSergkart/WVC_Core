@@ -5,8 +5,8 @@
     <label>tough mechtech eye</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Eye_Ultra</RecipeDef>
       <ThingDef>WVC_ToughMechtechBionic_Eye_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Eye_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ToughMechtechBionic_Eye_Ultra</spawnThingOnRemoved>
     <stages>
@@ -24,8 +24,8 @@
     <label>tough mechtech ear</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Ear_Ultra</RecipeDef>
       <ThingDef>WVC_ToughMechtechBionic_Ear_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Ear_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ToughMechtechBionic_Ear_Ultra</spawnThingOnRemoved>
     <stages>
@@ -43,8 +43,8 @@
     <label>tough mechtech jaw</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Jaw_Ultra</RecipeDef>
       <ThingDef>WVC_ToughMechtechBionic_Jaw_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Jaw_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ToughMechtechBionic_Jaw_Ultra</spawnThingOnRemoved>
     <stages>
@@ -78,8 +78,8 @@
     <label>tough mechtech nose</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Nose_Ultra</RecipeDef>
       <ThingDef>WVC_ToughMechtechBionic_Nose_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Nose_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ToughMechtechBionic_Nose_Ultra</spawnThingOnRemoved>
     <stages>
@@ -98,8 +98,8 @@
     <label>tough mechtech stomach</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Stomach_Ultra</RecipeDef>
       <ThingDef>WVC_ToughMechtechBionic_Stomach_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Stomach_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ToughMechtechBionic_Stomach_Ultra</spawnThingOnRemoved>
     <stages>
@@ -119,8 +119,8 @@
     <label>tough mechtech spine</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Spine_Ultra</RecipeDef>
       <ThingDef>WVC_ToughMechtechBionic_Spine_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Spine_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ToughMechtechBionic_Spine_Ultra</spawnThingOnRemoved>
     <stages>
@@ -138,8 +138,8 @@
     <label>tough mechtech heart</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Heart_Ultra</RecipeDef>
       <ThingDef>WVC_ToughMechtechBionic_Heart_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Heart_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ToughMechtechBionic_Heart_Ultra</spawnThingOnRemoved>
     <stages>
@@ -159,8 +159,8 @@
     <label>tough mechtech kidney</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Kidney_Ultra</RecipeDef>
       <ThingDef>WVC_ToughMechtechBionic_Kidney_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Kidney_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ToughMechtechBionic_Kidney_Ultra</spawnThingOnRemoved>
     <stages>
@@ -181,8 +181,8 @@
     <label>tough mechtech liver</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Liver_Ultra</RecipeDef>
       <ThingDef>WVC_ToughMechtechBionic_Liver_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Liver_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ToughMechtechBionic_Liver_Ultra</spawnThingOnRemoved>
     <stages>
@@ -202,8 +202,8 @@
     <label>tough mechtech lung</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Lung_Ultra</RecipeDef>
       <ThingDef>WVC_ToughMechtechBionic_Lung_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Lung_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ToughMechtechBionic_Lung_Ultra</spawnThingOnRemoved>
     <stages>
@@ -221,8 +221,8 @@
     <label>tough mechtech arm</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Shoulder_Ultra</RecipeDef>
       <ThingDef>WVC_ToughMechtechBionic_Shoulder_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Shoulder_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ToughMechtechBionic_Shoulder_Ultra</spawnThingOnRemoved>
     <stages>
@@ -255,8 +255,8 @@
     <label>tough mechtech leg</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Leg_Ultra</RecipeDef>
       <ThingDef>WVC_ToughMechtechBionic_Leg_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Leg_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ToughMechtechBionic_Leg_Ultra</spawnThingOnRemoved>
     <stages>

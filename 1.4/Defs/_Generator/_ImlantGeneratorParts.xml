@@ -7,8 +7,6 @@
 	<thingClass>ThingWithComps</thingClass>
 	<category>Item</category>
 	<pathCost>14</pathCost>
-	<craftTemplateDef>WVC_BionicCraft</craftTemplateDef>
-	<hediffTemplateDef>WVC_BionicHediff</hediffTemplateDef>
 	<statBases>
 	  <MaxHitPoints>50</MaxHitPoints>
 	  <Flammability>0.7</Flammability>
@@ -36,7 +34,6 @@
 	<defName>WVC_BionicHediff</defName>
 	<label>bionic</label>
 	<description>Advanced bionics with comprehensive upgrades far superior to basic bionics. It can also be installed on animals.</description>
-	<surgeryTemplateDef>WVC_BionicSurgery</surgeryTemplateDef>
 	<!-- Any Hediffs comps -->
 	<!-- <comps> -->
 	<!-- </comps> -->

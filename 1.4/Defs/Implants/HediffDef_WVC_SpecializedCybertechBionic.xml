@@ -5,8 +5,8 @@
     <label>cybertech blind eye</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Eye_Ultra</RecipeDef>
       <ThingDef>WVC_SpecializedCybertechBionic_Eye_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Eye_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_SpecializedCybertechBionic_Eye_Ultra</spawnThingOnRemoved>
     <stages>
@@ -19,8 +19,8 @@
     <label>cybertech deaf ear</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Ear_Ultra</RecipeDef>
       <ThingDef>WVC_SpecializedCybertechBionic_Ear_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Ear_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_SpecializedCybertechBionic_Ear_Ultra</spawnThingOnRemoved>
     <stages>
@@ -33,8 +33,8 @@
     <label>cybertech silent jaw</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Jaw_Ultra</RecipeDef>
       <ThingDef>WVC_SpecializedCybertechBionic_Jaw_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Jaw_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_SpecializedCybertechBionic_Jaw_Ultra</spawnThingOnRemoved>
     <stages>
@@ -66,8 +66,8 @@
     <label>cybertech drill arm</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Shoulder_Ultra</RecipeDef>
       <ThingDef>WVC_SpecializedCybertechBionic_Shoulder_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Shoulder_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_SpecializedCybertechBionic_Shoulder_Ultra</spawnThingOnRemoved>
     <stages>

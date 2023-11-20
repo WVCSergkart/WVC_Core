@@ -11,7 +11,7 @@ namespace WVC_UltraExpansion
 	public class WVC_UltraSettings : ModSettings
 	{
 		// Graphic
-		public bool implantGenerator = false;
+		public bool implantGenerator_FullLogging = false;
 
 		public IEnumerable<string> GetEnabledSettings => from specificSetting in GetType().GetFields()
 														 where specificSetting.FieldType == typeof(bool) && (bool)specificSetting.GetValue(this)
@@ -19,7 +19,7 @@ namespace WVC_UltraExpansion
 
 		public override void ExposeData()
 		{
-			Scribe_Values.Look(ref implantGenerator, "implantGenerator", defaultValue: false);
+			Scribe_Values.Look(ref implantGenerator_FullLogging, "implantGenerator_FullLogging", defaultValue: false);
 		}
 	}
 
@@ -82,14 +82,28 @@ namespace WVC_UltraExpansion
 			Rect outRect = new(inRect.x, inRect.y, inRect.width, inRect.height);
 			// Rect rect = new(0f, 0f, inRect.width, inRect.height);
 			Rect rect = new(0f, 0f, inRect.width - 30f, inRect.height * 2);
+			// var labelRect = new Rect(rect.x + 5, rect.y, 60, 24);
+			// var resetRect = new Rect(labelRect.x, labelRect.yMax + 5, 265, 24f);
 			Widgets.BeginScrollView(outRect, ref scrollPosition, rect);
 			Listing_Standard listingStandard = new();
 			listingStandard.Begin(rect);
 			// ===============
+			// ===============
 			if (Prefs.DevMode)
 			{
-				listingStandard.Label("WVC_UltraSettings_Label_DEV".Translate() + ":", -1);
-				listingStandard.CheckboxLabeled("WVC_UltraSettings_Label_Generator".Translate(), ref settings.implantGenerator, "WVC_UltraSettings_Tooltip_Generator".Translate());
+				// Widgets.Label(labelRect, "WVC_UltraSettings_Label_DEV".Translate());
+				// if (Widgets.ButtonText(resetRect, "WVC_UltraSettings_Label_Generator".Translate()))
+				// {
+					// ImplantGenerator.TemplatesUtility.GeneratorInitialization();
+				// }
+				// listingStandard.Label("WVC_UltraSettings_Label_DEV".Translate() + ":", -1);
+				// listingStandard.CheckboxLabeled("WVC_UltraSettings_Label_Generator".Translate(), ref settings.implantGenerator, "WVC_UltraSettings_Tooltip_Generator".Translate());
+				listingStandard.Label("WVC_UltraSettings_Label_DEV".Translate() + ":", -1,"WVC_UltraSettings_Tooltip_DEV".Translate());
+				listingStandard.CheckboxLabeled("DEV: Re-Generate Defs Logging", ref settings.implantGenerator_FullLogging);
+				if (listingStandard.ButtonText("DEV: Re-Generate Implants"))
+				{
+					ImplantGenerator.TemplatesUtility.GeneratorInitialization();
+				}
 			}
 			listingStandard.End();
 			Widgets.EndScrollView();

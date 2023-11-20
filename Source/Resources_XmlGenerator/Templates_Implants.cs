@@ -21,6 +21,12 @@ namespace WVC_UltraExpansion
 
 		public ThingTemplateDef thingTemplateDef;
 
+		public HediffTemplateDef hediffTemplateDef;
+
+		public CraftTemplateDef craftTemplateDef;
+
+		public SurgeryTemplateDef surgeryTemplateDef;
+
 		public List<SkillRequirement> medicalSkillRequirements;
 
 		public List<SkillRequirement> craftingSkillRequirements;
@@ -142,10 +148,6 @@ namespace WVC_UltraExpansion
 
 			// public List<BodyPartDef> bodyParts = new();
 
-			public HediffTemplateDef hediffTemplateDef;
-
-			public CraftTemplateDef craftTemplateDef;
-
 			public ThingCategory category;
 
 		}
@@ -216,8 +218,6 @@ namespace WVC_UltraExpansion
 			public bool priceImpact = true;
 
 			public List<string> tags;
-
-			public SurgeryTemplateDef surgeryTemplateDef;
 
 		}
 

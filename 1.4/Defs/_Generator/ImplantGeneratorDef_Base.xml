@@ -64,6 +64,9 @@
 	<ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
 	<techLevel>Spacer</techLevel>
 	<thingTemplateDef>WVC_BionicThing</thingTemplateDef>
+	<craftTemplateDef>WVC_BionicCraft</craftTemplateDef>
+	<hediffTemplateDef>WVC_BionicHediff</hediffTemplateDef>
+	<surgeryTemplateDef>WVC_BionicSurgery</surgeryTemplateDef>
 	<graphicData>
 	  <texPath>WVC/Implants/ImplantStack</texPath>
 	  <graphicClass>Graphic_StackCount</graphicClass>
@@ -110,6 +113,9 @@
 	<ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
 	<techLevel>Spacer</techLevel>
 	<thingTemplateDef>WVC_BionicThing</thingTemplateDef>
+	<craftTemplateDef>WVC_BionicCraft</craftTemplateDef>
+	<hediffTemplateDef>WVC_BionicHediff</hediffTemplateDef>
+	<surgeryTemplateDef>WVC_BionicSurgery</surgeryTemplateDef>
 	<graphicData>
 	  <texPath>WVC/Implants/ImplantStack</texPath>
 	  <graphicClass>Graphic_StackCount</graphicClass>

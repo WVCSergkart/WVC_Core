@@ -6,10 +6,8 @@
 	<WVC_UltraSettings_Tab_General>General</WVC_UltraSettings_Tab_General>
 
 	<WVC_UltraSettings_Label_DEV>Debug</WVC_UltraSettings_Label_DEV>
+	<WVC_UltraSettings_Tooltip_DEV>DEV USE ONLY.</WVC_UltraSettings_Tooltip_DEV>
 
-	<WVC_UltraSettings_Label_Generator>Implant generator</WVC_UltraSettings_Label_Generator>
-	<WVC_UltraSettings_Tooltip_Generator>DEV USE ONLY.
-
-If enabled, at startup it generates sets of implants according to predefined parameters.</WVC_UltraSettings_Tooltip_Generator>
+	<!-- <WVC_UltraSettings_Label_Generator>DEV: Re-Generate Implants</WVC_UltraSettings_Label_Generator> -->
 
 </LanguageData>

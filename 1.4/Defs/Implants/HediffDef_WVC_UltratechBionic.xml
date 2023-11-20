@@ -5,8 +5,8 @@
     <label>ultratech eye</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Eye_Ultra</RecipeDef>
       <ThingDef>WVC_UltratechBionic_Eye_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Eye_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Eye_Ultra</spawnThingOnRemoved>
     <stages>
@@ -26,8 +26,8 @@
     <label>ultratech ear</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Ear_Ultra</RecipeDef>
       <ThingDef>WVC_UltratechBionic_Ear_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Ear_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Ear_Ultra</spawnThingOnRemoved>
     <stages>
@@ -47,8 +47,8 @@
     <label>ultratech jaw</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Jaw_Ultra</RecipeDef>
       <ThingDef>WVC_UltratechBionic_Jaw_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Jaw_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Jaw_Ultra</spawnThingOnRemoved>
     <stages>
@@ -84,8 +84,8 @@
     <label>ultratech nose</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Nose_Ultra</RecipeDef>
       <ThingDef>WVC_UltratechBionic_Nose_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Nose_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Nose_Ultra</spawnThingOnRemoved>
     <stages>
@@ -106,8 +106,8 @@
     <label>ultratech stomach</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Stomach_Ultra</RecipeDef>
       <ThingDef>WVC_UltratechBionic_Stomach_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Stomach_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Stomach_Ultra</spawnThingOnRemoved>
     <stages>
@@ -129,8 +129,8 @@
     <label>ultratech spine</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Spine_Ultra</RecipeDef>
       <ThingDef>WVC_UltratechBionic_Spine_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Spine_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Spine_Ultra</spawnThingOnRemoved>
     <stages>
@@ -150,8 +150,8 @@
     <label>ultratech heart</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Heart_Ultra</RecipeDef>
       <ThingDef>WVC_UltratechBionic_Heart_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Heart_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Heart_Ultra</spawnThingOnRemoved>
     <stages>
@@ -173,8 +173,8 @@
     <label>ultratech kidney</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Kidney_Ultra</RecipeDef>
       <ThingDef>WVC_UltratechBionic_Kidney_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Kidney_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Kidney_Ultra</spawnThingOnRemoved>
     <stages>
@@ -197,8 +197,8 @@
     <label>ultratech liver</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Liver_Ultra</RecipeDef>
       <ThingDef>WVC_UltratechBionic_Liver_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Liver_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Liver_Ultra</spawnThingOnRemoved>
     <stages>
@@ -220,8 +220,8 @@
     <label>ultratech lung</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Lung_Ultra</RecipeDef>
       <ThingDef>WVC_UltratechBionic_Lung_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Lung_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Lung_Ultra</spawnThingOnRemoved>
     <stages>
@@ -241,8 +241,8 @@
     <label>ultratech arm</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Shoulder_Ultra</RecipeDef>
       <ThingDef>WVC_UltratechBionic_Shoulder_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Shoulder_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Shoulder_Ultra</spawnThingOnRemoved>
     <stages>
@@ -277,8 +277,8 @@
     <label>ultratech leg</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Leg_Ultra</RecipeDef>
       <ThingDef>WVC_UltratechBionic_Leg_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Leg_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Leg_Ultra</spawnThingOnRemoved>
     <stages>

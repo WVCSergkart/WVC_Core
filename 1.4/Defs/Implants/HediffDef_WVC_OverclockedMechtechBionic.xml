@@ -5,8 +5,8 @@
     <label>overclocked mechtech eye</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Eye_Ultra</RecipeDef>
       <ThingDef>WVC_OverclockedMechtechBionic_Eye_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Eye_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Eye_Ultra</spawnThingOnRemoved>
     <stages>
@@ -23,8 +23,8 @@
     <label>overclocked mechtech ear</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Ear_Ultra</RecipeDef>
       <ThingDef>WVC_OverclockedMechtechBionic_Ear_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Ear_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Ear_Ultra</spawnThingOnRemoved>
     <stages>
@@ -41,8 +41,8 @@
     <label>overclocked mechtech jaw</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Jaw_Ultra</RecipeDef>
       <ThingDef>WVC_OverclockedMechtechBionic_Jaw_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Jaw_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Jaw_Ultra</spawnThingOnRemoved>
     <stages>
@@ -75,8 +75,8 @@
     <label>overclocked mechtech nose</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Nose_Ultra</RecipeDef>
       <ThingDef>WVC_OverclockedMechtechBionic_Nose_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Nose_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Nose_Ultra</spawnThingOnRemoved>
     <stages>
@@ -94,8 +94,8 @@
     <label>overclocked mechtech stomach</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Stomach_Ultra</RecipeDef>
       <ThingDef>WVC_OverclockedMechtechBionic_Stomach_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Stomach_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Stomach_Ultra</spawnThingOnRemoved>
     <stages>
@@ -114,8 +114,8 @@
     <label>overclocked mechtech spine</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Spine_Ultra</RecipeDef>
       <ThingDef>WVC_OverclockedMechtechBionic_Spine_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Spine_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Spine_Ultra</spawnThingOnRemoved>
     <stages>
@@ -132,8 +132,8 @@
     <label>overclocked mechtech heart</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Heart_Ultra</RecipeDef>
       <ThingDef>WVC_OverclockedMechtechBionic_Heart_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Heart_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Heart_Ultra</spawnThingOnRemoved>
     <stages>
@@ -152,8 +152,8 @@
     <label>overclocked mechtech kidney</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Kidney_Ultra</RecipeDef>
       <ThingDef>WVC_OverclockedMechtechBionic_Kidney_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Kidney_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Kidney_Ultra</spawnThingOnRemoved>
     <stages>
@@ -173,8 +173,8 @@
     <label>overclocked mechtech liver</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Liver_Ultra</RecipeDef>
       <ThingDef>WVC_OverclockedMechtechBionic_Liver_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Liver_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Liver_Ultra</spawnThingOnRemoved>
     <stages>
@@ -193,8 +193,8 @@
     <label>overclocked mechtech lung</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Lung_Ultra</RecipeDef>
       <ThingDef>WVC_OverclockedMechtechBionic_Lung_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Lung_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Lung_Ultra</spawnThingOnRemoved>
     <stages>
@@ -211,8 +211,8 @@
     <label>overclocked mechtech arm</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Shoulder_Ultra</RecipeDef>
       <ThingDef>WVC_OverclockedMechtechBionic_Shoulder_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Shoulder_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Shoulder_Ultra</spawnThingOnRemoved>
     <stages>
@@ -244,8 +244,8 @@
     <label>overclocked mechtech leg</label>
     <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Leg_Ultra</RecipeDef>
       <ThingDef>WVC_OverclockedMechtechBionic_Leg_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Leg_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Leg_Ultra</spawnThingOnRemoved>
     <stages>
