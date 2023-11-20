@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_Specialized">
+	<defName>WVC_SpecializedCybertechBionic</defName>
+	<label>cybertech {0}</label>
+	<labelNoun>an cybertech {0}</labelNoun>
+	<techLevel>Spacer</techLevel>
+	<defaultLabelColor>(163,187,255)</defaultLabelColor>
+	<priceOffset>750</priceOffset>
+	<addedPartProps>
+	  <solid>true</solid>
+	  <partEfficiency>1.0</partEfficiency>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+	<thingCategories>
+	  <li>WVC_BodyPartsCybernetic</li>
+	</thingCategories>
+	<graphicData>
+	  <color>(165,179,222)</color>
+	</graphicData>
+	<craftingSkillRequirements>
+	  <Crafting>9</Crafting>
+	  <Intellectual>5</Intellectual>
+	</craftingSkillRequirements>
+	<medicalSkillRequirements>
+	  <Medicine>6</Medicine>
+	</medicalSkillRequirements>
+	<researchPrerequisites>
+	  <li>WVC_BionicTech_Cybernetic</li>
+	  <li MayRequire="ludeon.rimworld.royalty">SpecializedLimbs</li>
+	</researchPrerequisites>
+	<recipeUsers>
+	  <li>WVC_CyberneticCraftingBench</li>
+	</recipeUsers>
+	<changesByPart>
+	  <li>
+		<def>Eye</def>
+		<label>blind eye</label>
+		<eyeGraphicSouth>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
+		</eyeGraphicSouth>
+		<eyeGraphicEast>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <texPath>Things/Pawn/Wounds/BionicEye_east</texPath>
+		</eyeGraphicEast>
+		<eyeGraphicScale>1</eyeGraphicScale>
+		<costList>
+		  <Plasteel>12</Plasteel>
+		  <ComponentSpacer>2</ComponentSpacer>
+		  <Gold>4</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<partEfficiencyOffset>-1</partEfficiencyOffset>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Ear</def>
+		<label>deaf ear</label>
+		<costList>
+		  <Plasteel>12</Plasteel>
+		  <ComponentSpacer>2</ComponentSpacer>
+		  <Gold>4</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<partEfficiencyOffset>-1</partEfficiencyOffset>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Jaw</def>
+		<label>silent jaw</label>
+		<costList>
+		  <Plasteel>13</Plasteel>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>5</Gold>
+		</costList>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>teeth</label>
+				<capacities>
+				  <li>Bite</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2.0</cooldownTime>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+		<stages>
+		  <li>
+			<capMods>
+			  <li>
+				<capacity>Talking</capacity>
+				<setMax>0</setMax>
+			  </li>
+			</capMods>
+			<statOffsets>
+				<PawnBeauty>1</PawnBeauty>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Shoulder</def>
+		<label>drill arm</label>
+		<costList>
+		  <Plasteel>17</Plasteel>
+		  <ComponentSpacer>6</ComponentSpacer>
+		  <Gold>7</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <MiningSpeed>1.60</MiningSpeed>
+			  <DeepDrillingSpeed>0.7</DeepDrillingSpeed>
+			</statOffsets>
+		  </li>
+		</stages>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>drill</label>
+				<capacities>
+				  <li>Stab</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>2</cooldownTime>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				<soundMeleeHit>MeleeHit_DrillArm</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_DrillArm</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	</changesByPart>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+</Defs>

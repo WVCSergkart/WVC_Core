@@ -31,164 +31,164 @@
 			<!-- =================================================== -->
 			<!-- &lt;color=#ffc832&gt; - open -->
 			<!-- &lt;/color&gt; - close -->
-			<li Class="XmlExtensions.Setting.SplitColumns">
-				<drawLine>true</drawLine>
-				<splits>
-					<li>0.5</li>
-					<li>0.5</li>
-				</splits>
-				<settings>
-					<li>
-						<!-- <li Class="XmlExtensions.Setting.SetColor"> -->
-							<!-- <color>(255,162,162)</color> -->
-						<!-- </li> -->
-						<!-- <li Class="XmlExtensions.Setting.SetColor"> -->
-							<!-- <color>(162,200,255)</color> -->
-						<!-- </li> -->
-						<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
-							<!-- <key>WVC_DesignationCategory_Patch</key> -->
-							<!-- <label>Enable designation category</label> -->
-							<!-- <defaultValue>false</defaultValue> -->
-							<!-- <tooltip>Creates a category in the architect tab and moves all buildings in the mod to it.</tooltip> -->
-							<!-- <tKey>HGS_WVC_DesignationCategory_Patch_label</tKey> -->
-							<!-- <tKeyTip>HGS_WVC_DesignationCategory_Patch_Desc</tKeyTip> -->
-						<!-- </li> -->
-						<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
-							<!-- <key>ComponentMechanoid_GirlyResource_UniversalFuel_WVC</key> -->
-							<!-- <label>Mechanites is universal fuel?</label> -->
-							<!-- <defaultValue>false</defaultValue> -->
-							<!-- <tooltip>Universal fuel - by default it is used only as food, however this can be unbalanced since the patch will affect all vanilla fuel systems. Obtained only through recycling.</tooltip> -->
-							<!-- <tKey>HGS_Resources_RubbishFuel_Checker_WVC</tKey> -->
-							<!-- <tKeyTip>HGS_Resources_RubbishFuel_Checker_Desc_WVC</tKeyTip> -->
-						<!-- </li> -->
-						<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
-							<!-- <key>WVC_NoKL_DisableUnderwear_Option</key> -->
-							<!-- <label>Disable underwear?</label> -->
-							<!-- <tooltip>The mod adds underwear - a cheap, invisible item of clothing that will help protect against temperatures.</tooltip> -->
-							<!-- <defaultValue>false</defaultValue> -->
-							<!-- <tKey>HGS_General_NoKL_DisableUnderwear_Option_Label_WVC</tKey> -->
-							<!-- <tKeyTip>HGS_General_NoKL_DisableUnderwear_Option_Desc_WVC</tKeyTip> -->
-						<!-- </li> -->
-						<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
-							<!-- <key>WVC_ResearchPatchForMainBranch_Enable</key> -->
-							<!-- <label>Enable technology patch</label> -->
-							<!-- <tooltip>If enabled, the technologies from the mod will have additional research requirements. For example, to learn "Ancient techs" beyond the standard requirements, all Neolithic technologies must also be researched. (Medieval for Mechanoid, Industrial for Nodes, Spacer for Archotech)\n\nNot compatible with custom tech tree mods.</tooltip> -->
-							<!-- <defaultValue>false</defaultValue> -->
-							<!-- <tKey>HGS_WVC_ResearchPatchForMainBranch_Enable</tKey> -->
-							<!-- <tKeyTip>HGS_WVC_ResearchPatchForMainBranch_Enable_Desc</tKeyTip> -->
-						<!-- </li> -->
-						<li MayRequire="vanillaexpanded.vfea" Class="XmlExtensions.Setting.Checkbox">
-							<key>Buildings_AncientsFromRubbish_Module_WVC</key>
-							<label>Enable ancient buildings (VFEA)</label>
-							<tooltip>Allows you to build ancient structures from the mod "Vanilla Factions Expanded - Ancients"\nAlso makes some changes to the logic of buildings.\n\nAll buildings require "Multi-analyzer" and "Ancient techs" technologies. The computer table allows you to conduct research. Some buildings require additional researchs.\n\n(Conflicts with all mods that significantly change the buildings of the ancients)</tooltip>
-							<defaultValue>true</defaultValue>
-							<tKey>HGS_Buildings_AncientsFromRubbish_WVC</tKey>
-							<tKeyTip>HGS_Buildings_AncientsFromRubbish_Desc_WVC</tKeyTip>
-						</li>
-						<!-- <li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.Checkbox"> -->
-							<!-- <key>WVC_Nodes_EnableFormerWandererEvent</key> -->
-							<!-- <label>Enable former wanderer event</label> -->
-							<!-- <tooltip>Only affects events related to the Former race. Does not affect spawning as members of the Nomad faction.</tooltip> -->
-							<!-- <defaultValue>true</defaultValue> -->
-							<!-- <tKey>HGS_Nodes_EnableFormerWandererEvent_WVC</tKey> -->
-							<!-- <tKeyTip>HGS_Nodes_EnableFormerWandererEvent_Desc_WVC</tKeyTip> -->
-						<!-- </li> -->
-						<!-- <li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.Checkbox"> -->
-							<!-- <key>WVC_General_FactionNomads_Main</key> -->
-							<!-- <label>Enable Nomads faction</label> -->
-							<!-- <tooltip>The mod has a faction that includes all the races from my mods. This faction does not have settlements, but functions like a regular full-fledged faction (caravans, raids, reputation, etc.). The faction also has several unique traders.</tooltip> -->
-							<!-- <defaultValue>true</defaultValue> -->
-							<!-- <tKey>HGS_General_FactionNomads_Main_WVC</tKey> -->
-							<!-- <tKeyTip>HGS_General_FactionNomads_Main_Desc_WVC</tKeyTip> -->
-						<!-- </li> -->
-						<!-- <li MayRequire="ludeon.rimworld.biotech" Class="XmlExtensions.Setting.Checkbox"> -->
-							<!-- <key>WVC_General_BiotechTechsPatch</key> -->
-							<!-- <label>Enable Biotech patch</label> -->
-							<!-- <tooltip>Adds a number of patches that will significantly delay the mechanist branch, making it dependent on the "Mechanoid basics" technology, and adds mechanoid components to the crafting cost of mechanoids.</tooltip> -->
-							<!-- <defaultValue>true</defaultValue> -->
-							<!-- <tKey>HGS_General_BiotechTechsPatch_WVC</tKey> -->
-							<!-- <tKeyTip>HGS_General_BiotechTechsPatch_Desc_WVC</tKeyTip> -->
-						<!-- </li> -->
-						<li Class="XmlExtensions.Setting.Text">
-							<text>The mod has several options for body parts that can be obtained as a reward or crafted.</text>
-							<tKey>HGS_Implants_MainInfo_WVC</tKey>
-						</li>
+			<!-- <li Class="XmlExtensions.Setting.SplitColumns"> -->
+				<!-- <drawLine>true</drawLine> -->
+				<!-- <splits> -->
+					<!-- <li>0.5</li> -->
+					<!-- <li>0.5</li> -->
+				<!-- </splits> -->
+				<!-- <settings> -->
+					<!-- <li> -->
+					<!-- </li> -->
+					<!-- <li> -->
+					<!-- </li> -->
+				<!-- </settings> -->
+			<!-- </li> -->
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Universal conduit support settings:</text>
+				<tKey>HGS_Buildings_UniversalConduit_Info_WVC</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>WVC_Buildings_UniversalConduit_IsUndergroudConduit</key>
+				<label>Underground</label>
+				<defaultValue>false</defaultValue>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>WVC_Buildings_UniversalConduit_SupportPatch_VCHE</key>
+				<label>Fuel (VE)</label>
+				<defaultValue>True</defaultValue>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>WVC_Buildings_UniversalConduit_SupportPatch_VFEP</key>
+				<label>Gas (VE)</label>
+				<defaultValue>True</defaultValue>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>WVC_Buildings_UniversalConduit_SupportPatch_SOS</key>
+				<label>Heat (SoS)</label>
+				<defaultValue>True</defaultValue>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>WVC_Buildings_UniversalConduit_SupportPatch_DBH</key>
+				<label>Dubs Bad Hygiene</label>
+				<defaultValue>True</defaultValue>
+			</li>
+			<!-- <li Class="XmlExtensions.Setting.SetColor"> -->
+				<!-- <color>(255,162,162)</color> -->
+			<!-- </li> -->
+			<!-- <li Class="XmlExtensions.Setting.SetColor"> -->
+				<!-- <color>(162,200,255)</color> -->
+			<!-- </li> -->
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>WVC_DesignationCategory_Patch</key> -->
+				<!-- <label>Enable designation category</label> -->
+				<!-- <defaultValue>false</defaultValue> -->
+				<!-- <tooltip>Creates a category in the architect tab and moves all buildings in the mod to it.</tooltip> -->
+				<!-- <tKey>HGS_WVC_DesignationCategory_Patch_label</tKey> -->
+				<!-- <tKeyTip>HGS_WVC_DesignationCategory_Patch_Desc</tKeyTip> -->
+			<!-- </li> -->
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>ComponentMechanoid_GirlyResource_UniversalFuel_WVC</key> -->
+				<!-- <label>Mechanites is universal fuel?</label> -->
+				<!-- <defaultValue>false</defaultValue> -->
+				<!-- <tooltip>Universal fuel - by default it is used only as food, however this can be unbalanced since the patch will affect all vanilla fuel systems. Obtained only through recycling.</tooltip> -->
+				<!-- <tKey>HGS_Resources_RubbishFuel_Checker_WVC</tKey> -->
+				<!-- <tKeyTip>HGS_Resources_RubbishFuel_Checker_Desc_WVC</tKeyTip> -->
+			<!-- </li> -->
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>WVC_NoKL_DisableUnderwear_Option</key> -->
+				<!-- <label>Disable underwear?</label> -->
+				<!-- <tooltip>The mod adds underwear - a cheap, invisible item of clothing that will help protect against temperatures.</tooltip> -->
+				<!-- <defaultValue>false</defaultValue> -->
+				<!-- <tKey>HGS_General_NoKL_DisableUnderwear_Option_Label_WVC</tKey> -->
+				<!-- <tKeyTip>HGS_General_NoKL_DisableUnderwear_Option_Desc_WVC</tKeyTip> -->
+			<!-- </li> -->
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>WVC_ResearchPatchForMainBranch_Enable</key> -->
+				<!-- <label>Enable technology patch</label> -->
+				<!-- <tooltip>If enabled, the technologies from the mod will have additional research requirements. For example, to learn "Ancient techs" beyond the standard requirements, all Neolithic technologies must also be researched. (Medieval for Mechanoid, Industrial for Nodes, Spacer for Archotech)\n\nNot compatible with custom tech tree mods.</tooltip> -->
+				<!-- <defaultValue>false</defaultValue> -->
+				<!-- <tKey>HGS_WVC_ResearchPatchForMainBranch_Enable</tKey> -->
+				<!-- <tKeyTip>HGS_WVC_ResearchPatchForMainBranch_Enable_Desc</tKeyTip> -->
+			<!-- </li> -->
+			<!-- <li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>WVC_Nodes_EnableFormerWandererEvent</key> -->
+				<!-- <label>Enable former wanderer event</label> -->
+				<!-- <tooltip>Only affects events related to the Former race. Does not affect spawning as members of the Nomad faction.</tooltip> -->
+				<!-- <defaultValue>true</defaultValue> -->
+				<!-- <tKey>HGS_Nodes_EnableFormerWandererEvent_WVC</tKey> -->
+				<!-- <tKeyTip>HGS_Nodes_EnableFormerWandererEvent_Desc_WVC</tKeyTip> -->
+			<!-- </li> -->
+			<!-- <li MayRequire="wvc.sergkart.races" Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>WVC_General_FactionNomads_Main</key> -->
+				<!-- <label>Enable Nomads faction</label> -->
+				<!-- <tooltip>The mod has a faction that includes all the races from my mods. This faction does not have settlements, but functions like a regular full-fledged faction (caravans, raids, reputation, etc.). The faction also has several unique traders.</tooltip> -->
+				<!-- <defaultValue>true</defaultValue> -->
+				<!-- <tKey>HGS_General_FactionNomads_Main_WVC</tKey> -->
+				<!-- <tKeyTip>HGS_General_FactionNomads_Main_Desc_WVC</tKeyTip> -->
+			<!-- </li> -->
+			<!-- <li MayRequire="ludeon.rimworld.biotech" Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>WVC_General_BiotechTechsPatch</key> -->
+				<!-- <label>Enable Biotech patch</label> -->
+				<!-- <tooltip>Adds a number of patches that will significantly delay the mechanist branch, making it dependent on the "Mechanoid basics" technology, and adds mechanoid components to the crafting cost of mechanoids.</tooltip> -->
+				<!-- <defaultValue>true</defaultValue> -->
+				<!-- <tKey>HGS_General_BiotechTechsPatch_WVC</tKey> -->
+				<!-- <tKeyTip>HGS_General_BiotechTechsPatch_Desc_WVC</tKeyTip> -->
+			<!-- </li> -->
+			<!-- <li Class="XmlExtensions.Setting.Text"> -->
+				<!-- <text>The mod has several options for body parts that can be obtained as a reward or crafted.</text> -->
+				<!-- <tKey>HGS_Implants_MainInfo_WVC</tKey> -->
+			<!-- </li> -->
 
-						<!-- ================================================================= -->
+			<!-- ================================================================= -->
 
-						<li Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_EnableImplants_AdvancedBionicBodyParts</key>
-							<label>Enable advanced bionic body parts</label>
-							<defaultValue>true</defaultValue>
-							<tKey>HGS_WVC_EnableImplants_AdvancedBionicBodyParts_Label</tKey>
-						</li>
-						<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
-							<!-- <key>WVC_EnableImplants_TortureBodyParts</key> -->
-							<!-- <label>Enable torture body parts</label> -->
-							<!-- <defaultValue>true</defaultValue> -->
-							<!-- <tKey>HGS_WVC_EnableImplants_TortureBodyParts_Label</tKey> -->
-						<!-- </li> -->
-						<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
-							<!-- <key>WVC_EnableImplants_CyberneticBodyParts</key> -->
-							<!-- <label>Enable cybernetic body parts</label> -->
-							<!-- <defaultValue>true</defaultValue> -->
-							<!-- <tKey>HGS_WVC_EnableImplants_CyberneticBodyParts_Label</tKey> -->
-						<!-- </li> -->
-						<li Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_EnableImplants_AncientBodyParts</key>
-							<label>Enable ultratech body parts</label>
-							<defaultValue>true</defaultValue>
-							<tKey>HGS_WVC_EnableImplants_AncientBodyParts_Label</tKey>
-						</li>
-						<li Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_EnableImplants_MechanoidBodyParts</key>
-							<label>Enable mechatech body parts</label>
-							<defaultValue>true</defaultValue>
-							<tKey>HGS_WVC_EnableImplants_MechanoidBodyParts_Label</tKey>
-						</li>
-						<li Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_EnableImplants_NodeBodyParts</key>
-							<label>Enable nodetech body parts</label>
-							<defaultValue>true</defaultValue>
-							<tKey>HGS_WVC_EnableImplants_NodeBodyParts_Label</tKey>
-						</li>
-					</li>
-					<li>
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>WVC_EnableImplants_AdvancedBionicBodyParts</key> -->
+				<!-- <label>Enable advanced bionic body parts</label> -->
+				<!-- <defaultValue>true</defaultValue> -->
+				<!-- <tKey>HGS_WVC_EnableImplants_AdvancedBionicBodyParts_Label</tKey> -->
+			<!-- </li> -->
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>WVC_EnableImplants_TortureBodyParts</key> -->
+				<!-- <label>Enable torture body parts</label> -->
+				<!-- <defaultValue>true</defaultValue> -->
+				<!-- <tKey>HGS_WVC_EnableImplants_TortureBodyParts_Label</tKey> -->
+			<!-- </li> -->
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>WVC_EnableImplants_CyberneticBodyParts</key> -->
+				<!-- <label>Enable cybernetic body parts</label> -->
+				<!-- <defaultValue>true</defaultValue> -->
+				<!-- <tKey>HGS_WVC_EnableImplants_CyberneticBodyParts_Label</tKey> -->
+			<!-- </li> -->
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>WVC_EnableImplants_AncientBodyParts</key> -->
+				<!-- <label>Enable ultratech body parts</label> -->
+				<!-- <defaultValue>true</defaultValue> -->
+				<!-- <tKey>HGS_WVC_EnableImplants_AncientBodyParts_Label</tKey> -->
+			<!-- </li> -->
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>WVC_EnableImplants_MechanoidBodyParts</key> -->
+				<!-- <label>Enable mechatech body parts</label> -->
+				<!-- <defaultValue>true</defaultValue> -->
+				<!-- <tKey>HGS_WVC_EnableImplants_MechanoidBodyParts_Label</tKey> -->
+			<!-- </li> -->
+			<!-- <li Class="XmlExtensions.Setting.Checkbox"> -->
+				<!-- <key>WVC_EnableImplants_NodeBodyParts</key> -->
+				<!-- <label>Enable nodetech body parts</label> -->
+				<!-- <defaultValue>true</defaultValue> -->
+				<!-- <tKey>HGS_WVC_EnableImplants_NodeBodyParts_Label</tKey> -->
+			<!-- </li> -->
 
-						<!-- ================================================================= -->
+			<!-- ================================================================= -->
 
-						<li Class="XmlExtensions.Setting.GapLine" />
-						<li Class="XmlExtensions.Setting.Text">
-							<text>Universal conduit support settings:</text>
-							<tKey>HGS_Buildings_UniversalConduit_Info_WVC</tKey>
-						</li>
-						<li Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_Buildings_UniversalConduit_IsUndergroudConduit</key>
-							<label>Underground</label>
-							<defaultValue>false</defaultValue>
-						</li>
-						<li Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_Buildings_UniversalConduit_SupportPatch_VCHE</key>
-							<label>Fuel (VE)</label>
-							<defaultValue>True</defaultValue>
-						</li>
-						<li Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_Buildings_UniversalConduit_SupportPatch_VFEP</key>
-							<label>Gas (VE)</label>
-							<defaultValue>True</defaultValue>
-						</li>
-						<li Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_Buildings_UniversalConduit_SupportPatch_SOS</key>
-							<label>Heat (SoS)</label>
-							<defaultValue>True</defaultValue>
-						</li>
-						<li Class="XmlExtensions.Setting.Checkbox">
-							<key>WVC_Buildings_UniversalConduit_SupportPatch_DBH</key>
-							<label>Dubs Bad Hygiene</label>
-							<defaultValue>True</defaultValue>
-						</li>
-					</li>
-				</settings>
+			<li MayRequire="vanillaexpanded.vfea" Class="XmlExtensions.Setting.GapLine" />
+			<li MayRequire="vanillaexpanded.vfea" Class="XmlExtensions.Setting.Checkbox">
+				<key>Buildings_AncientsFromRubbish_Module_WVC</key>
+				<label>Enable ancient buildings (VFEA)</label>
+				<tooltip>Allows you to build ancient structures from the mod "Vanilla Factions Expanded - Ancients"\nAlso makes some changes to the logic of buildings.\n\nAll buildings require "Multi-analyzer" and "Ancient techs" technologies. The computer table allows you to conduct research. Some buildings require additional researchs.\n\n(Conflicts with all mods that significantly change the buildings of the ancients)</tooltip>
+				<defaultValue>true</defaultValue>
+				<tKey>HGS_Buildings_AncientsFromRubbish_WVC</tKey>
+				<tKeyTip>HGS_Buildings_AncientsFromRubbish_Desc_WVC</tKeyTip>
 			</li>
 
 			<!-- ================================================================= -->

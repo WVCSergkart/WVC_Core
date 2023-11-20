@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs DeleteTag="DeleteImplant_WVC_UltratechBionic">
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechBionic">
+    <defName>Hediff_WVC_UltratechBionic_Eye_Ultra</defName>
+    <label>ultratech eye</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Eye_Ultra</RecipeDef>
+      <ThingDef>WVC_UltratechBionic_Eye_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechBionic_Eye_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>1</Mass>
+          <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.01</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechBionic">
+    <defName>Hediff_WVC_UltratechBionic_Ear_Ultra</defName>
+    <label>ultratech ear</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Ear_Ultra</RecipeDef>
+      <ThingDef>WVC_UltratechBionic_Ear_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechBionic_Ear_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>1</Mass>
+          <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.01</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechBionic">
+    <defName>Hediff_WVC_UltratechBionic_Jaw_Ultra</defName>
+    <label>ultratech jaw</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Jaw_Ultra</RecipeDef>
+      <ThingDef>WVC_UltratechBionic_Jaw_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechBionic_Jaw_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>2</Mass>
+          <PawnBeauty>1</PawnBeauty>
+          <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.01</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <power>15</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit />
+            <soundMeleeMiss />
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechBionic">
+    <defName>Hediff_WVC_UltratechBionic_Nose_Ultra</defName>
+    <label>ultratech nose</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Nose_Ultra</RecipeDef>
+      <ThingDef>WVC_UltratechBionic_Nose_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechBionic_Nose_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>1</Mass>
+          <PawnBeauty>1</PawnBeauty>
+          <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.01</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechBionic">
+    <defName>Hediff_WVC_UltratechBionic_Stomach_Ultra</defName>
+    <label>ultratech stomach</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Stomach_Ultra</RecipeDef>
+      <ThingDef>WVC_UltratechBionic_Stomach_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechBionic_Stomach_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>5</Mass>
+          <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.02</ArmorRating_Heat>
+        </statOffsets>
+        <hungerRateFactor>0.1</hungerRateFactor>
+        <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechBionic">
+    <defName>Hediff_WVC_UltratechBionic_Spine_Ultra</defName>
+    <label>ultratech spine</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Spine_Ultra</RecipeDef>
+      <ThingDef>WVC_UltratechBionic_Spine_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechBionic_Spine_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>15</Mass>
+          <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.04</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechBionic">
+    <defName>Hediff_WVC_UltratechBionic_Heart_Ultra</defName>
+    <label>ultratech heart</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Heart_Ultra</RecipeDef>
+      <ThingDef>WVC_UltratechBionic_Heart_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechBionic_Heart_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>5</Mass>
+          <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.02</ArmorRating_Heat>
+        </statOffsets>
+        <naturalHealingFactor>2</naturalHealingFactor>
+        <totalBleedFactor>0.5</totalBleedFactor>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechBionic">
+    <defName>Hediff_WVC_UltratechBionic_Kidney_Ultra</defName>
+    <label>ultratech kidney</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Kidney_Ultra</RecipeDef>
+      <ThingDef>WVC_UltratechBionic_Kidney_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechBionic_Kidney_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>5</Mass>
+          <ImmunityGainSpeed>0.08</ImmunityGainSpeed>
+          <ToxicResistance>0.25</ToxicResistance>
+          <ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+          <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.02</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechBionic">
+    <defName>Hediff_WVC_UltratechBionic_Liver_Ultra</defName>
+    <label>ultratech liver</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Liver_Ultra</RecipeDef>
+      <ThingDef>WVC_UltratechBionic_Liver_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechBionic_Liver_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>5</Mass>
+          <ToxicResistance>0.5</ToxicResistance>
+          <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+          <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.02</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechBionic">
+    <defName>Hediff_WVC_UltratechBionic_Lung_Ultra</defName>
+    <label>ultratech lung</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Lung_Ultra</RecipeDef>
+      <ThingDef>WVC_UltratechBionic_Lung_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechBionic_Lung_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>5</Mass>
+          <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.06</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechBionic">
+    <defName>Hediff_WVC_UltratechBionic_Shoulder_Ultra</defName>
+    <label>ultratech arm</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Shoulder_Ultra</RecipeDef>
+      <ThingDef>WVC_UltratechBionic_Shoulder_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechBionic_Shoulder_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>8</Mass>
+          <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.06</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>14</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechBionic">
+    <defName>Hediff_WVC_UltratechBionic_Leg_Ultra</defName>
+    <label>ultratech leg</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Leg_Ultra</RecipeDef>
+      <ThingDef>WVC_UltratechBionic_Leg_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechBionic_Leg_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>8</Mass>
+          <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.06</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>feet</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>15</power>
+            <cooldownTime>1.7</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

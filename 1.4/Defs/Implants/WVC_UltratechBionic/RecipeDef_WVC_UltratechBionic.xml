@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs DeleteTag="DeleteImplant_WVC_UltratechBionic">
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_UltratechBionic_Eye_Ultra</defName>
+    <label>install ultratech eye</label>
+    <description>Install an ultratech eye.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechBionic_Eye_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_UltratechBionic_Eye_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_UltratechBionic_Eye_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_UltratechBionic_Eye_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_UltratechBionic_Eye_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_UltratechBionic_Ear_Ultra</defName>
+    <label>install ultratech ear</label>
+    <description>Install an ultratech ear.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechBionic_Ear_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_UltratechBionic_Ear_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Ear</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_UltratechBionic_Ear_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_UltratechBionic_Ear_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_UltratechBionic_Ear_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_UltratechBionic_Jaw_Ultra</defName>
+    <label>install ultratech jaw</label>
+    <description>Install an ultratech jaw.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechBionic_Jaw_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_UltratechBionic_Jaw_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Jaw</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_UltratechBionic_Jaw_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_UltratechBionic_Jaw_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_UltratechBionic_Jaw_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_UltratechBionic_Nose_Ultra</defName>
+    <label>install ultratech nose</label>
+    <description>Install an ultratech nose.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechBionic_Nose_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_UltratechBionic_Nose_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Nose</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_UltratechBionic_Nose_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_UltratechBionic_Nose_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_UltratechBionic_Nose_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_UltratechBionic_Stomach_Ultra</defName>
+    <label>install ultratech stomach</label>
+    <description>Install an ultratech stomach.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechBionic_Stomach_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_UltratechBionic_Stomach_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Stomach</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_UltratechBionic_Stomach_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_UltratechBionic_Stomach_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_UltratechBionic_Stomach_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_UltratechBionic_Spine_Ultra</defName>
+    <label>install ultratech spine</label>
+    <description>Install an ultratech spine.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechBionic_Spine_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_UltratechBionic_Spine_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_UltratechBionic_Spine_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_UltratechBionic_Spine_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_UltratechBionic_Spine_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_UltratechBionic_Heart_Ultra</defName>
+    <label>install ultratech heart</label>
+    <description>Install an ultratech heart.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechBionic_Heart_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_UltratechBionic_Heart_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Heart</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_UltratechBionic_Heart_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_UltratechBionic_Heart_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_UltratechBionic_Heart_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_UltratechBionic_Kidney_Ultra</defName>
+    <label>install ultratech kidney</label>
+    <description>Install an ultratech kidney.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechBionic_Kidney_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_UltratechBionic_Kidney_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Kidney</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_UltratechBionic_Kidney_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_UltratechBionic_Kidney_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_UltratechBionic_Kidney_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_UltratechBionic_Liver_Ultra</defName>
+    <label>install ultratech liver</label>
+    <description>Install an ultratech liver.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechBionic_Liver_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_UltratechBionic_Liver_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Liver</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_UltratechBionic_Liver_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_UltratechBionic_Liver_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_UltratechBionic_Liver_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_UltratechBionic_Lung_Ultra</defName>
+    <label>install ultratech lung</label>
+    <description>Install an ultratech lung.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechBionic_Lung_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_UltratechBionic_Lung_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Lung</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_UltratechBionic_Lung_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_UltratechBionic_Lung_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_UltratechBionic_Lung_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_UltratechBionic_Shoulder_Ultra</defName>
+    <label>install ultratech arm</label>
+    <description>Install an ultratech arm.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechBionic_Shoulder_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_UltratechBionic_Shoulder_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Shoulder</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_UltratechBionic_Shoulder_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_UltratechBionic_Shoulder_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_UltratechBionic_Shoulder_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_UltratechBionic_Leg_Ultra</defName>
+    <label>install ultratech leg</label>
+    <description>Install an ultratech leg.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechBionic_Leg_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_UltratechBionic_Leg_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_UltratechBionic_Leg_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_UltratechBionic_Leg_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_UltratechBionic_Leg_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>

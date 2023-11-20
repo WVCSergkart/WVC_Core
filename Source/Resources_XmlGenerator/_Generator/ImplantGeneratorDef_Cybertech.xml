@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_Base">
+	<defName>WVC_CybertechBionic</defName>
+	<label>cybertech {0}</label>
+	<labelNoun>an cybertech {0}</labelNoun>
+	<techLevel>Spacer</techLevel>
+	<defaultLabelColor>(163,187,255)</defaultLabelColor>
+	<priceOffset>750</priceOffset>
+	<addedPartProps>
+	  <solid>true</solid>
+	  <partEfficiency>1.30</partEfficiency>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+	<thingCategories>
+	  <li>WVC_BodyPartsCybernetic</li>
+	</thingCategories>
+	<graphicData>
+	  <color>(165,179,222)</color>
+	</graphicData>
+	<craftingSkillRequirements>
+	  <Crafting>8</Crafting>
+	  <Intellectual>6</Intellectual>
+	</craftingSkillRequirements>
+	<medicalSkillRequirements>
+	  <Medicine>6</Medicine>
+	</medicalSkillRequirements>
+	<researchPrerequisites>
+	  <li>WVC_BionicTech_Cybernetic</li>
+	</researchPrerequisites>
+	<recipeUsers>
+	  <li>WVC_CyberneticCraftingBench</li>
+	</recipeUsers>
+	<changesByPart>
+	  <li>
+		<def>Eye</def>
+		<eyeGraphicSouth>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
+		</eyeGraphicSouth>
+		<eyeGraphicEast>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <texPath>Things/Pawn/Wounds/BionicEye_east</texPath>
+		</eyeGraphicEast>
+		<eyeGraphicScale>1</eyeGraphicScale>
+		<costList>
+		  <Plasteel>12</Plasteel>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>4</Gold>
+		</costList>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Ear</def>
+		<costList>
+		  <Plasteel>12</Plasteel>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>4</Gold>
+		</costList>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Jaw</def>
+		<costList>
+		  <Plasteel>13</Plasteel>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>5</Gold>
+		</costList>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>teeth</label>
+				<capacities>
+				  <li>Bite</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2.0</cooldownTime>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+		<stages>
+		  <li>
+			<statOffsets>
+				<PawnBeauty>1</PawnBeauty>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Nose</def>
+		<costList>
+		  <Plasteel>12</Plasteel>
+		  <ComponentSpacer>2</ComponentSpacer>
+		  <Gold>2</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<PawnBeauty>1</PawnBeauty>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Stomach</def>
+		<costList>
+		  <Plasteel>18</Plasteel>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>8</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<foodPoisoningChanceFactor>0.8</foodPoisoningChanceFactor>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Spine</def>
+		<costList>
+		  <Plasteel>20</Plasteel>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>7</Gold>
+		</costList>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Heart</def>
+		<costList>
+		  <Plasteel>12</Plasteel>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>9</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<totalBleedFactor>0.9</totalBleedFactor>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Kidney</def>
+		<costList>
+		  <Plasteel>13</Plasteel>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>6</Gold>
+		</costList>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Liver</def>
+		<costList>
+		  <Plasteel>14</Plasteel>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>6</Gold>
+		</costList>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Lung</def>
+		<costList>
+		  <Plasteel>15</Plasteel>
+		  <ComponentSpacer>2</ComponentSpacer>
+		  <Gold>5</Gold>
+		</costList>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Shoulder</def>
+		<label>arm</label>
+		<costList>
+		  <Plasteel>17</Plasteel>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>7</Gold>
+		</costList>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>feet</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Leg</def>
+		<costList>
+		  <Plasteel>18</Plasteel>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>7</Gold>
+		</costList>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>feet</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	</changesByPart>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+</Defs>

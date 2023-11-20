@@ -243,9 +243,11 @@ namespace WVC_UltraExpansion
 
 			public Type workerClass = typeof(Recipe_InstallArtificialBodyPart);
 
-			public List<IngredientCount> ingredients = new();
+			public List<IngredientCount> ingredients;
 
-			public ThingFilter fixedIngredientFilter = new();
+			public ThingFilter fixedIngredientFilter;
+
+			// public ThingFilter defaultIngredientFilter;
 
 			[Unsaved(false)]
 			public int adjustedCount = 1;

@@ -67,7 +67,7 @@
 
 					<!-- ===================================================================== -->
 
-					<li MayRequire="wvc.sergkart.races.ideology,ludeon.rimworld.royalty">
+					<li MayRequire="ludeon.rimworld.ideology,ludeon.rimworld.royalty">
 						<label>&lt;color=#ffce65&gt;Trees&lt;/color&gt;</label>
 						<settings>
 							<li Class="XmlExtensions.Setting.Gap" />
@@ -96,7 +96,7 @@
 
 					<!-- ===================================================================== -->
 
-					<li MayRequire="wvc.sergkart.races.ideology,ludeon.rimworld.royalty">
+					<li MayRequire="ludeon.rimworld.ideology,ludeon.rimworld.royalty">
 						<label>&lt;color=#87ff00&gt;Extra&lt;/color&gt;</label>
 						<settings>
 							<li Class="XmlExtensions.Setting.EmbedMenu">

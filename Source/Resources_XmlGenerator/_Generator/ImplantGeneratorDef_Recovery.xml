@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_Base">
+	<defName>WVC_RecoveryMechtechBionic</defName>
+	<label>recovery mechtech {0}</label>
+	<labelNoun>an recovery mechtech {0}</labelNoun>
+	<techLevel>Ultra</techLevel>
+	<defaultLabelColor>(133,255,136)</defaultLabelColor>
+	<priceOffset>1400</priceOffset>
+	<addedPartProps>
+	  <solid>true</solid>
+	  <partEfficiency>1.40</partEfficiency>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+	<thingCategories>
+	  <li>WVC_BodyPartsNodes_Green</li>
+	</thingCategories>
+	<graphicData>
+	  <texPath>WVC/Implants/ImplantStackMecha</texPath>
+	  <color>(79,80,81)</color>
+	</graphicData>
+	<craftingSkillRequirements>
+	  <Crafting>16</Crafting>
+	  <Intellectual>16</Intellectual>
+	</craftingSkillRequirements>
+	<medicalSkillRequirements>
+	  <Medicine>6</Medicine>
+	</medicalSkillRequirements>
+	<researchPrerequisites>
+	  <li>WVC_BionicTech_SpecializedMechtech</li>
+	  <li>WVC_ResearchBodyParts_NodeGreen</li>
+	</researchPrerequisites>
+	<recipeUsers>
+	  <li>WVC_GreenCraftingBench</li>
+	</recipeUsers>
+	<tradeTags>
+	  <li>ImplantEmpireRoyal</li>
+	  <li>WVC_NodeImplant</li>
+	</tradeTags>
+	<techHediffsTags>
+	  <li>ImplantEmpireRoyal</li>
+	  <li>WVC_NodeImplants</li>
+	</techHediffsTags>
+	<changesByPart>
+	  <li>
+		<def>Eye</def>
+		<eyeGraphicSouth>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
+		</eyeGraphicSouth>
+		<eyeGraphicEast>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <texPath>Things/Pawn/Wounds/BionicEye_east</texPath>
+		</eyeGraphicEast>
+		<eyeGraphicScale>1</eyeGraphicScale>
+		<costList>
+		  <Plasteel>20</Plasteel>
+		  <Uranium>8</Uranium>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>4</Gold>
+		  <Synthread>8</Synthread>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<InjuryHealingFactor>0.10</InjuryHealingFactor>
+				<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">1</MechBandwidth>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Ear</def>
+		<costList>
+		  <Plasteel>19</Plasteel>
+		  <Uranium>11</Uranium>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>4</Gold>
+		  <Synthread>8</Synthread>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<InjuryHealingFactor>0.10</InjuryHealingFactor>
+				<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">1</MechBandwidth>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Jaw</def>
+		<costList>
+		  <Plasteel>20</Plasteel>
+		  <Uranium>10</Uranium>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>5</Gold>
+		  <Synthread>8</Synthread>
+		</costList>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>teeth</label>
+				<capacities>
+				  <li>Bite</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1.5</cooldownTime>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+		<stages>
+		  <li>
+			<statOffsets>
+				<PawnBeauty>1</PawnBeauty>
+				<InjuryHealingFactor>0.10</InjuryHealingFactor>
+				<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">1</MechBandwidth>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Nose</def>
+		<costList>
+		  <Plasteel>18</Plasteel>
+		  <Uranium>8</Uranium>
+		  <ComponentSpacer>2</ComponentSpacer>
+		  <Gold>2</Gold>
+		  <Synthread>5</Synthread>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<PawnBeauty>1</PawnBeauty>
+				<InjuryHealingFactor>0.10</InjuryHealingFactor>
+				<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">1</MechBandwidth>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Stomach</def>
+		<costList>
+		  <Plasteel>22</Plasteel>
+		  <Uranium>15</Uranium>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>8</Gold>
+		  <Synthread>12</Synthread>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<InjuryHealingFactor>0.20</InjuryHealingFactor>
+				<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">1</MechBandwidth>
+			</statOffsets>
+			<hungerRateFactor>0.01</hungerRateFactor>
+			<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Spine</def>
+		<costList>
+		  <Plasteel>27</Plasteel>
+		  <Uranium>12</Uranium>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>7</Gold>
+		  <Synthread>15</Synthread>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<InjuryHealingFactor>0.20</InjuryHealingFactor>
+				<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">1</MechBandwidth>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Heart</def>
+		<costList>
+		  <Plasteel>25</Plasteel>
+		  <Uranium>10</Uranium>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>9</Gold>
+		  <Synthread>12</Synthread>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<InjuryHealingFactor>0.25</InjuryHealingFactor>
+				<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">1</MechBandwidth>
+			</statOffsets>
+			<totalBleedFactor>0.5</totalBleedFactor>
+			<naturalHealingFactor>2</naturalHealingFactor>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Kidney</def>
+		<costList>
+		  <Plasteel>25</Plasteel>
+		  <Uranium>12</Uranium>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>6</Gold>
+		  <Synthread>9</Synthread>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <InjuryHealingFactor>0.15</InjuryHealingFactor>
+			  <ImmunityGainSpeed>0.08</ImmunityGainSpeed>
+			  <ToxicResistance>0.25</ToxicResistance>
+				<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.25</ToxicEnvironmentResistance>
+				<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">1</MechBandwidth>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Liver</def>
+		<costList>
+		  <Plasteel>20</Plasteel>
+		  <Uranium>12</Uranium>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>6</Gold>
+		  <Synthread>10</Synthread>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <InjuryHealingFactor>0.10</InjuryHealingFactor>
+			  <ToxicResistance>0.5</ToxicResistance>
+				<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance>
+				<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">1</MechBandwidth>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Lung</def>
+		<costList>
+		  <Plasteel>22</Plasteel>
+		  <Uranium>8</Uranium>
+		  <ComponentSpacer>2</ComponentSpacer>
+		  <Gold>5</Gold>
+		  <Synthread>8</Synthread>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<InjuryHealingFactor>0.10</InjuryHealingFactor>
+				<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">1</MechBandwidth>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Shoulder</def>
+		<label>arm</label>
+		<costList>
+		  <Plasteel>26</Plasteel>
+		  <Uranium>9</Uranium>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>7</Gold>
+		  <Synthread>12</Synthread>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<InjuryHealingFactor>0.15</InjuryHealingFactor>
+				<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">1</MechBandwidth>
+			</statOffsets>
+		  </li>
+		</stages>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>fist</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.5</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Leg</def>
+		<costList>
+		  <Plasteel>25</Plasteel>
+		  <Uranium>10</Uranium>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>7</Gold>
+		  <Synthread>12</Synthread>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<InjuryHealingFactor>0.15</InjuryHealingFactor>
+				<MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">1</MechBandwidth>
+			</statOffsets>
+		  </li>
+		</stages>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>feet</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>1.5</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	</changesByPart>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+</Defs>

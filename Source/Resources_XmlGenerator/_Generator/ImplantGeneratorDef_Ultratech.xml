@@ -2,36 +2,42 @@
 <Defs>
 
   <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_Base">
-	<defName>WVC_CybertechBionic</defName>
-	<label>cybertech bionic {0}</label>
-	<labelNoun>an cybertech bionic {0}</labelNoun>
-	<techLevel>Spacer</techLevel>
-	<defaultLabelColor>(163,187,255)</defaultLabelColor>
-	<priceOffset>750</priceOffset>
+	<defName>WVC_UltratechBionic</defName>
+	<label>ultratech {0}</label>
+	<labelNoun>an ultratech {0}</labelNoun>
+	<techLevel>Ultra</techLevel>
+	<defaultLabelColor>(251,255,251)</defaultLabelColor>
+	<priceOffset>900</priceOffset>
 	<addedPartProps>
 	  <solid>true</solid>
-	  <partEfficiency>1.30</partEfficiency>
+	  <partEfficiency>1.35</partEfficiency>
 	  <betterThanNatural>true</betterThanNatural>
 	</addedPartProps>
 	<thingCategories>
-	  <li>WVC_BodyPartsCybernetic</li>
+	  <li>WVC_BodyPartsAncient</li>
 	</thingCategories>
 	<graphicData>
 	  <color>(165,179,222)</color>
 	</graphicData>
 	<craftingSkillRequirements>
-	  <Crafting>8</Crafting>
-	  <Intellectual>6</Intellectual>
+	  <Crafting>12</Crafting>
+	  <Intellectual>12</Intellectual>
 	</craftingSkillRequirements>
 	<medicalSkillRequirements>
-	  <Medicine>6</Medicine>
+	  <Medicine>10</Medicine>
 	</medicalSkillRequirements>
 	<researchPrerequisites>
-	  <li>WVC_BionicTech_Cybernetic</li>
+	  <li>WVC_BionicTech_Ultratech</li>
 	</researchPrerequisites>
 	<recipeUsers>
-	  <li>WVC_CyberneticCraftingBench</li>
+	  <li>WVC_AncientCraftingBench</li>
 	</recipeUsers>
+	<tradeTags>
+	  <li>ImplantEmpireRoyal</li>
+	</tradeTags>
+	<techHediffsTags>
+	  <li>ImplantEmpireRoyal</li>
+	</techHediffsTags>
 	<changesByPart>
 	  <li>
 		<def>Eye</def>
@@ -46,24 +52,47 @@
 		<eyeGraphicScale>1</eyeGraphicScale>
 		<costList>
 		  <Plasteel>12</Plasteel>
+		  <Uranium>2</Uranium>
 		  <ComponentSpacer>4</ComponentSpacer>
 		  <Gold>4</Gold>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>1</Mass>
+				<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
 	  </li>
 	  <!-- = -->
 	  <li>
 		<def>Ear</def>
 		<costList>
 		  <Plasteel>12</Plasteel>
+		  <Uranium>2</Uranium>
 		  <ComponentSpacer>4</ComponentSpacer>
 		  <Gold>4</Gold>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>1</Mass>
+				<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
 	  </li>
 	  <!-- = -->
 	  <li>
 		<def>Jaw</def>
 		<costList>
 		  <Plasteel>13</Plasteel>
+		  <Uranium>3</Uranium>
 		  <ComponentSpacer>4</ComponentSpacer>
 		  <Gold>5</Gold>
 		</costList>
@@ -84,7 +113,11 @@
 		<stages>
 		  <li>
 			<statOffsets>
+				<Mass>2</Mass>
 				<PawnBeauty>1</PawnBeauty>
+				<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.01</ArmorRating_Heat>
 			</statOffsets>
 		  </li>
 		</stages>
@@ -94,13 +127,18 @@
 		<def>Nose</def>
 		<costList>
 		  <Plasteel>12</Plasteel>
+		  <Uranium>2</Uranium>
 		  <ComponentSpacer>2</ComponentSpacer>
 		  <Gold>2</Gold>
 		</costList>
 		<stages>
 		  <li>
 			<statOffsets>
+				<Mass>1</Mass>
 				<PawnBeauty>1</PawnBeauty>
+				<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.01</ArmorRating_Heat>
 			</statOffsets>
 		  </li>
 		</stages>
@@ -110,12 +148,20 @@
 		<def>Stomach</def>
 		<costList>
 		  <Plasteel>18</Plasteel>
+		  <Uranium>2</Uranium>
 		  <ComponentSpacer>3</ComponentSpacer>
 		  <Gold>8</Gold>
 		</costList>
 		<stages>
 		  <li>
-			<foodPoisoningChanceFactor>0.8</foodPoisoningChanceFactor>
+			<hungerRateFactor>0.1</hungerRateFactor>
+			<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+			<statOffsets>
+				<Mass>5</Mass>
+				<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			</statOffsets>
 		  </li>
 		</stages>
 	  </li>
@@ -124,21 +170,40 @@
 		<def>Spine</def>
 		<costList>
 		  <Plasteel>20</Plasteel>
+		  <Uranium>5</Uranium>
 		  <ComponentSpacer>3</ComponentSpacer>
 		  <Gold>7</Gold>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>15</Mass>
+				<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.04</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
 	  </li>
 	  <!-- = -->
 	  <li>
 		<def>Heart</def>
 		<costList>
 		  <Plasteel>12</Plasteel>
+		  <Uranium>8</Uranium>
 		  <ComponentSpacer>4</ComponentSpacer>
 		  <Gold>9</Gold>
 		</costList>
 		<stages>
 		  <li>
-			<totalBleedFactor>0.9</totalBleedFactor>
+			<totalBleedFactor>0.5</totalBleedFactor>
+			<naturalHealingFactor>2</naturalHealingFactor>
+			<statOffsets>
+				<Mass>5</Mass>
+				<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			</statOffsets>
 		  </li>
 		</stages>
 	  </li>
@@ -147,27 +212,65 @@
 		<def>Kidney</def>
 		<costList>
 		  <Plasteel>13</Plasteel>
+		  <Uranium>7</Uranium>
 		  <ComponentSpacer>3</ComponentSpacer>
 		  <Gold>6</Gold>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>5</Mass>
+				<ImmunityGainSpeed>0.08</ImmunityGainSpeed>
+				<ToxicResistance>0.25</ToxicResistance>
+				<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.25</ToxicEnvironmentResistance>
+				<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
 	  </li>
 	  <!-- = -->
 	  <li>
 		<def>Liver</def>
 		<costList>
 		  <Plasteel>14</Plasteel>
+		  <Uranium>6</Uranium>
 		  <ComponentSpacer>3</ComponentSpacer>
 		  <Gold>6</Gold>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>5</Mass>
+				<ToxicResistance>0.5</ToxicResistance>
+				<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance>
+				<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
 	  </li>
 	  <!-- = -->
 	  <li>
 		<def>Lung</def>
 		<costList>
 		  <Plasteel>15</Plasteel>
+		  <Uranium>5</Uranium>
 		  <ComponentSpacer>2</ComponentSpacer>
 		  <Gold>5</Gold>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>5</Mass>
+				<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.06</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
 	  </li>
 	  <!-- = -->
 	  <li>
@@ -175,18 +278,29 @@
 		<label>arm</label>
 		<costList>
 		  <Plasteel>17</Plasteel>
+		  <Uranium>9</Uranium>
 		  <ComponentSpacer>4</ComponentSpacer>
 		  <Gold>7</Gold>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>8</Mass>
+				<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.06</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
 			<tools>
 			  <li>
-				<label>feet</label>
+				<label>fist</label>
 				<capacities>
 				  <li>Blunt</li>
 				</capacities>
-				<power>11</power>
+				<power>14</power>
 				<cooldownTime>2</cooldownTime>
 				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
 				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
@@ -200,9 +314,20 @@
 		<def>Leg</def>
 		<costList>
 		  <Plasteel>18</Plasteel>
+		  <Uranium>9</Uranium>
 		  <ComponentSpacer>4</ComponentSpacer>
 		  <Gold>7</Gold>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>8</Mass>
+				<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.06</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
 			<tools>
@@ -211,8 +336,8 @@
 				<capacities>
 				  <li>Blunt</li>
 				</capacities>
-				<power>11</power>
-				<cooldownTime>2</cooldownTime>
+				<power>15</power>
+				<cooldownTime>1.7</cooldownTime>
 				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
 				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
 			  </li>

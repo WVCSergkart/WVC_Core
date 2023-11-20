@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_TortureBionic" ParentName="AddedBodyPartBase" Abstract="True">
+	<description>Bionics created for ideological purposes or to torture enemies.</description>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<defaultLabelColor>(255,188,196)</defaultLabelColor>
+	<priceOffset>-200</priceOffset>
+	<addedPartProps>
+	  <solid>true</solid>
+	  <partEfficiency>1.20</partEfficiency>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+	<!-- <stages> -->
+	  <!-- <li> -->
+		<!-- <painOffset>0.0125</painOffset> -->
+	  <!-- </li> -->
+	<!-- </stages> -->
+  </HediffDef>
+
+  <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_MechtechBionic" ParentName="AddedBodyPartBase" Abstract="True">
+	<description>Bionics based on the study of mechanoid components. Can be installed without anesthesia.</description>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<defaultLabelColor>(255,224,200)</defaultLabelColor>
+	<priceOffset>1200</priceOffset>
+	<addedPartProps>
+	  <solid>true</solid>
+	  <partEfficiency>1.40</partEfficiency>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_CybertechBionic" ParentName="AddedBodyPartBase" Abstract="True">
+	<description>Improved version of experimental bionics.</description>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<defaultLabelColor>(163,187,255)</defaultLabelColor>
+	<priceOffset>750</priceOffset>
+	<addedPartProps>
+	  <solid>true</solid>
+	  <partEfficiency>1.35</partEfficiency>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_SpecializedCybertechBionic" ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechBionic" Abstract="True">
+	<addedPartProps>
+	  <solid>true</solid>
+	  <partEfficiency>1.15</partEfficiency>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_UltratechBionic" ParentName="AddedBodyPartBase" Abstract="True">
+	<description>Advanced bionics from high-tech components. Surpasses cybertech bionics in quality, but has a drawback - weight.</description>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<defaultLabelColor>(251,255,251)</defaultLabelColor>
+	<priceOffset>900</priceOffset>
+	<addedPartProps>
+	  <solid>true</solid>
+	  <partEfficiency>1.35</partEfficiency>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_PsychicMechtechBionic" ParentName="AddedBodyPartBase" Abstract="True">
+	<description>Improved and refined mechtech technology, the emphasis is on psychic abilities.</description>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<!-- FFF885 -->
+	<defaultLabelColor>(255,248,133)</defaultLabelColor>
+	<priceOffset>1400</priceOffset>
+	<addedPartProps>
+	  <solid>true</solid>
+	  <partEfficiency>1.40</partEfficiency>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_ToughMechtechBionic" ParentName="AddedBodyPartBase" Abstract="True">
+	<description>Improved and refined mechtech technology, the emphasis is on survival.</description>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<!-- 8e85ff -->
+	<defaultLabelColor>(142,133,255)</defaultLabelColor>
+	<priceOffset>1400</priceOffset>
+	<addedPartProps>
+	  <solid>true</solid>
+	  <partEfficiency>1.40</partEfficiency>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_ArmoredMechtechBionic" ParentName="AddedBodyPartBase" Abstract="True">
+	<description>Improved and refined mechtech technology, the emphasis is on protection.</description>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<!-- FF8585 -->
+	<defaultLabelColor>(255,133,133)</defaultLabelColor>
+	<priceOffset>1400</priceOffset>
+	<addedPartProps>
+	  <solid>true</solid>
+	  <partEfficiency>1.40</partEfficiency>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic" ParentName="AddedBodyPartBase" Abstract="True">
+	<description>Improved and refined mechtech technology, the emphasis is on self-healing.</description>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<!-- 85ff88 -->
+	<defaultLabelColor>(133,255,136)</defaultLabelColor>
+	<priceOffset>1400</priceOffset>
+	<addedPartProps>
+	  <solid>true</solid>
+	  <partEfficiency>1.40</partEfficiency>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_ArchotechBionic" ParentName="AddedBodyPartBase" Abstract="True">
+	<description>A combination of all previous technologies that combines all 5 areas. And these are productivity, protection, survivability, self-healing and psychic abilities.
+
+All this makes it possible to achieve efficiency close to that of the archotech.</description>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<defaultLabelColor>(249,255,123)</defaultLabelColor>
+	<priceOffset>2000</priceOffset>
+	<addedPartProps>
+	  <solid>true</solid>
+	  <partEfficiency>1.50</partEfficiency>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_OverclockedMechtechBionic" ParentName="AddedBodyPartBase" Abstract="True">
+	<description>Improved and refined mechtech technology, the emphasis is on performance.</description>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<!-- 85caff -->
+	<defaultLabelColor>(133,202,255)</defaultLabelColor>
+	<priceOffset>1400</priceOffset>
+	<addedPartProps>
+	  <solid>true</solid>
+	  <partEfficiency>1.45</partEfficiency>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+  </HediffDef>
+
+</Defs>

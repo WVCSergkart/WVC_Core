@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs DeleteTag="DeleteImplant_WVC_RecoveryMechtechBionic">
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
+    <defName>Hediff_WVC_RecoveryMechtechBionic_Eye_Ultra</defName>
+    <label>recovery mechtech eye</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Eye_Ultra</RecipeDef>
+      <ThingDef>WVC_RecoveryMechtechBionic_Eye_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Eye_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.1</InjuryHealingFactor>
+          <MechBandwidth>1</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
+    <defName>Hediff_WVC_RecoveryMechtechBionic_Ear_Ultra</defName>
+    <label>recovery mechtech ear</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Ear_Ultra</RecipeDef>
+      <ThingDef>WVC_RecoveryMechtechBionic_Ear_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Ear_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.1</InjuryHealingFactor>
+          <MechBandwidth>1</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
+    <defName>Hediff_WVC_RecoveryMechtechBionic_Jaw_Ultra</defName>
+    <label>recovery mechtech jaw</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Jaw_Ultra</RecipeDef>
+      <ThingDef>WVC_RecoveryMechtechBionic_Jaw_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Jaw_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <PawnBeauty>1</PawnBeauty>
+          <InjuryHealingFactor>0.1</InjuryHealingFactor>
+          <MechBandwidth>1</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <power>15</power>
+            <cooldownTime>1.5</cooldownTime>
+            <soundMeleeHit />
+            <soundMeleeMiss />
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
+    <defName>Hediff_WVC_RecoveryMechtechBionic_Nose_Ultra</defName>
+    <label>recovery mechtech nose</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Nose_Ultra</RecipeDef>
+      <ThingDef>WVC_RecoveryMechtechBionic_Nose_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Nose_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <PawnBeauty>1</PawnBeauty>
+          <InjuryHealingFactor>0.1</InjuryHealingFactor>
+          <MechBandwidth>1</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
+    <defName>Hediff_WVC_RecoveryMechtechBionic_Stomach_Ultra</defName>
+    <label>recovery mechtech stomach</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Stomach_Ultra</RecipeDef>
+      <ThingDef>WVC_RecoveryMechtechBionic_Stomach_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Stomach_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.2</InjuryHealingFactor>
+          <MechBandwidth>1</MechBandwidth>
+        </statOffsets>
+        <hungerRateFactor>0.01</hungerRateFactor>
+        <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
+    <defName>Hediff_WVC_RecoveryMechtechBionic_Spine_Ultra</defName>
+    <label>recovery mechtech spine</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Spine_Ultra</RecipeDef>
+      <ThingDef>WVC_RecoveryMechtechBionic_Spine_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Spine_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.2</InjuryHealingFactor>
+          <MechBandwidth>1</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
+    <defName>Hediff_WVC_RecoveryMechtechBionic_Heart_Ultra</defName>
+    <label>recovery mechtech heart</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Heart_Ultra</RecipeDef>
+      <ThingDef>WVC_RecoveryMechtechBionic_Heart_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Heart_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.25</InjuryHealingFactor>
+          <MechBandwidth>1</MechBandwidth>
+        </statOffsets>
+        <naturalHealingFactor>2</naturalHealingFactor>
+        <totalBleedFactor>0.5</totalBleedFactor>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
+    <defName>Hediff_WVC_RecoveryMechtechBionic_Kidney_Ultra</defName>
+    <label>recovery mechtech kidney</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Kidney_Ultra</RecipeDef>
+      <ThingDef>WVC_RecoveryMechtechBionic_Kidney_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Kidney_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.15</InjuryHealingFactor>
+          <ImmunityGainSpeed>0.08</ImmunityGainSpeed>
+          <ToxicResistance>0.25</ToxicResistance>
+          <ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+          <MechBandwidth>1</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
+    <defName>Hediff_WVC_RecoveryMechtechBionic_Liver_Ultra</defName>
+    <label>recovery mechtech liver</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Liver_Ultra</RecipeDef>
+      <ThingDef>WVC_RecoveryMechtechBionic_Liver_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Liver_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.1</InjuryHealingFactor>
+          <ToxicResistance>0.5</ToxicResistance>
+          <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+          <MechBandwidth>1</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
+    <defName>Hediff_WVC_RecoveryMechtechBionic_Lung_Ultra</defName>
+    <label>recovery mechtech lung</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Lung_Ultra</RecipeDef>
+      <ThingDef>WVC_RecoveryMechtechBionic_Lung_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Lung_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.1</InjuryHealingFactor>
+          <MechBandwidth>1</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
+    <defName>Hediff_WVC_RecoveryMechtechBionic_Shoulder_Ultra</defName>
+    <label>recovery mechtech arm</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Shoulder_Ultra</RecipeDef>
+      <ThingDef>WVC_RecoveryMechtechBionic_Shoulder_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Shoulder_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.15</InjuryHealingFactor>
+          <MechBandwidth>1</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>16</power>
+            <cooldownTime>1.5</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
+    <defName>Hediff_WVC_RecoveryMechtechBionic_Leg_Ultra</defName>
+    <label>recovery mechtech leg</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Leg_Ultra</RecipeDef>
+      <ThingDef>WVC_RecoveryMechtechBionic_Leg_Ultra</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Leg_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.15</InjuryHealingFactor>
+          <MechBandwidth>1</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>feet</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>17</power>
+            <cooldownTime>1.5</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>
