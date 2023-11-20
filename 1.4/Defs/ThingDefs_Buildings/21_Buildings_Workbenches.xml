@@ -250,7 +250,7 @@
 	<researchPrerequisites Inherit="False">
 	  <li>AdvancedFabrication</li>
 	  <!-- <li>WVC_Ultra_Ultratech</li> -->
-	  <li>WVC_BionicTech_AdvancedBionic</li>
+	  <!-- <li>WVC_BionicTech_AdvancedBionic</li> -->
 	</researchPrerequisites>
 	<placeWorkers>
 	  <li>PlaceWorker_ReportWorkSpeedPenalties</li>
@@ -270,10 +270,13 @@
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
 	<defName>WVC_ExperimentalCraftingBench</defName>
-	<label>implant workbench (experimental)</label>
+	<label>implant workbench (torture)</label>
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/ExperimentalCraftingBench</texPath>
 	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_Torture</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
@@ -282,6 +285,9 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/CyberneticCraftingBench</texPath>
 	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_Cybernetic</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <!-- ============================================================ -->
@@ -292,6 +298,9 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/AncientCraftingBench</texPath>
 	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_Ultratech</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
@@ -300,6 +309,9 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/MechanoidCraftingBench</texPath>
 	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_Mechtech</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <!-- ============================================================ -->
@@ -310,6 +322,10 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/BlueCraftingBench</texPath>
 	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_SpecializedMechtech</li>
+	  <li>WVC_ResearchBodyParts_NodeBlue</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
@@ -318,6 +334,10 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/GreenCraftingBench</texPath>
 	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_SpecializedMechtech</li>
+	  <li>WVC_ResearchBodyParts_NodeGreen</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
@@ -326,6 +346,10 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/RedCraftingBench</texPath>
 	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_SpecializedMechtech</li>
+	  <li>WVC_ResearchBodyParts_NodeRed</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
@@ -334,6 +358,10 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/VioletCraftingBench</texPath>
 	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_SpecializedMechtech</li>
+	  <li>WVC_ResearchBodyParts_NodeViolet</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
@@ -342,6 +370,10 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/YellowCraftingBench</texPath>
 	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_SpecializedMechtech</li>
+	  <li>WVC_ResearchBodyParts_NodeYellow</li>
+	</researchPrerequisites>
   </ThingDef>
 
   <!-- ============================================================ -->
@@ -352,6 +384,10 @@
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/ArchotechCraftingBench</texPath>
 	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_SpecializedMechtech</li>
+	  <li>WVC_ResearchBodyParts_AdvancedMechtech</li>
+	</researchPrerequisites>
   </ThingDef>
 
 </Defs>

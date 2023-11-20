@@ -23,30 +23,29 @@
 
   <!-- ======================================================================= -->
 
-  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
-	<defName>WVC_BionicTech_AdvancedBionic</defName>
-	<techLevel>Spacer</techLevel>
-	<label>experimental bionic</label>
-	<description>Advanced bionics with comprehensive upgrades far superior to basic bionics. It can also be installed on animals.</description>
-	<researchViewX>0.00</researchViewX>
-	<researchViewY>0.00</researchViewY>
-	<prerequisites>
-	  <li>Bionics</li>
-	  <!-- <li>MedicineProduction</li> -->
-	  <li MayRequire="vat.epoeforked">AdvancedBionics</li>
-	  <li MayRequire="vat.epoeforked">SyntheticOrgans</li>
-	</prerequisites>
-  </ResearchProjectDef>
+  <!-- <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base"> -->
+	<!-- <defName>WVC_BionicTech_AdvancedBionic</defName> -->
+	<!-- <techLevel>Spacer</techLevel> -->
+	<!-- <label>experimental bionic</label> -->
+	<!-- <description>Advanced bionics with comprehensive upgrades far superior to basic bionics. It can also be installed on animals.</description> -->
+	<!-- <researchViewX>0.00</researchViewX> -->
+	<!-- <researchViewY>0.00</researchViewY> -->
+	<!-- <prerequisites> -->
+	  <!-- <li MayRequire="vat.epoeforked">AdvancedBionics</li> -->
+	  <!-- <li MayRequire="vat.epoeforked">SyntheticOrgans</li> -->
+	<!-- </prerequisites> -->
+  <!-- </ResearchProjectDef> -->
 
   <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
 	<defName>WVC_BionicTech_Torture</defName>
 	<techLevel>Spacer</techLevel>
 	<label>torture bionic</label>
 	<description>Bionics created for ideological purposes or to torture enemies. It can also be installed on animals.</description>
-	<researchViewX>1.00</researchViewX>
-	<researchViewY>0.50</researchViewY>
+	<researchViewX>0.00</researchViewX>
+	<researchViewY>0.00</researchViewY>
 	<prerequisites>
-	  <li>WVC_BionicTech_AdvancedBionic</li>
+	  <li>Bionics</li>
+	  <!-- <li>WVC_BionicTech_AdvancedBionic</li> -->
 	  <!-- <li MayRequire="vat.epoeforked">AdvancedBionics</li> -->
 	  <li MayRequire="ludeon.rimworld.royalty">BrainWiring</li>
 	</prerequisites>
@@ -60,8 +59,10 @@
 	<researchViewX>1.00</researchViewX>
 	<researchViewY>0.00</researchViewY>
 	<prerequisites>
-	  <!-- <li>Bionics</li> -->
-	  <li>WVC_BionicTech_AdvancedBionic</li>
+	  <li>Bionics</li>
+	  <li MayRequire="vat.epoeforked">AdvancedBionics</li>
+	  <li MayRequire="vat.epoeforked">SyntheticOrgans</li>
+	  <!-- <li>WVC_BionicTech_AdvancedBionic</li> -->
 	  <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li>
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">ArtificialMetabolism</li> -->
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">HealingFactors</li> -->
