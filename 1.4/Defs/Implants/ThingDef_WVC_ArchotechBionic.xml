@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Eye_Ultra</defName>
+    <label>advanced mechtech eye</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Eye_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>10</Uranium>
+      <ComponentSpacer>6</ComponentSpacer>
+      <Gold>6</Gold>
+      <Hyperweave>8</Hyperweave>
+      <Synthread>8</Synthread>
+      <DevilstrandCloth>8</DevilstrandCloth>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Ear_Ultra</defName>
+    <label>advanced mechtech ear</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Ear_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>21</Plasteel>
+      <Uranium>13</Uranium>
+      <ComponentSpacer>6</ComponentSpacer>
+      <Gold>6</Gold>
+      <Hyperweave>8</Hyperweave>
+      <Synthread>8</Synthread>
+      <DevilstrandCloth>8</DevilstrandCloth>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Jaw_Ultra</defName>
+    <label>advanced mechtech jaw</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Jaw_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>12</Uranium>
+      <ComponentSpacer>6</ComponentSpacer>
+      <Gold>7</Gold>
+      <Hyperweave>8</Hyperweave>
+      <Synthread>8</Synthread>
+      <DevilstrandCloth>8</DevilstrandCloth>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Nose_Ultra</defName>
+    <label>advanced mechtech nose</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Nose_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>10</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>4</Gold>
+      <Hyperweave>5</Hyperweave>
+      <Synthread>5</Synthread>
+      <DevilstrandCloth>5</DevilstrandCloth>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Stomach_Ultra</defName>
+    <label>advanced mechtech stomach</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Stomach_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>24</Plasteel>
+      <Uranium>17</Uranium>
+      <ComponentSpacer>5</ComponentSpacer>
+      <Gold>10</Gold>
+      <Hyperweave>12</Hyperweave>
+      <Synthread>12</Synthread>
+      <DevilstrandCloth>12</DevilstrandCloth>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Spine_Ultra</defName>
+    <label>advanced mechtech spine</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Spine_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>29</Plasteel>
+      <Uranium>14</Uranium>
+      <ComponentSpacer>5</ComponentSpacer>
+      <Gold>9</Gold>
+      <Hyperweave>15</Hyperweave>
+      <Synthread>15</Synthread>
+      <DevilstrandCloth>15</DevilstrandCloth>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Heart_Ultra</defName>
+    <label>advanced mechtech heart</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Heart_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>27</Plasteel>
+      <Uranium>12</Uranium>
+      <ComponentSpacer>6</ComponentSpacer>
+      <Gold>11</Gold>
+      <Hyperweave>12</Hyperweave>
+      <Synthread>12</Synthread>
+      <DevilstrandCloth>12</DevilstrandCloth>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Kidney_Ultra</defName>
+    <label>advanced mechtech kidney</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Kidney_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>27</Plasteel>
+      <Uranium>14</Uranium>
+      <ComponentSpacer>5</ComponentSpacer>
+      <Gold>8</Gold>
+      <Hyperweave>9</Hyperweave>
+      <Synthread>9</Synthread>
+      <DevilstrandCloth>9</DevilstrandCloth>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Liver_Ultra</defName>
+    <label>advanced mechtech liver</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Liver_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>14</Uranium>
+      <ComponentSpacer>5</ComponentSpacer>
+      <Gold>8</Gold>
+      <Hyperweave>10</Hyperweave>
+      <Synthread>10</Synthread>
+      <DevilstrandCloth>10</DevilstrandCloth>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Lung_Ultra</defName>
+    <label>advanced mechtech lung</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Lung_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>24</Plasteel>
+      <Uranium>10</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>7</Gold>
+      <Hyperweave>8</Hyperweave>
+      <Synthread>8</Synthread>
+      <DevilstrandCloth>8</DevilstrandCloth>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Shoulder_Ultra</defName>
+    <label>advanced mechtech arm</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Shoulder_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>28</Plasteel>
+      <Uranium>11</Uranium>
+      <ComponentSpacer>6</ComponentSpacer>
+      <Gold>9</Gold>
+      <Hyperweave>12</Hyperweave>
+      <Synthread>12</Synthread>
+      <DevilstrandCloth>12</DevilstrandCloth>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Leg_Ultra</defName>
+    <label>advanced mechtech leg</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Leg_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>27</Plasteel>
+      <Uranium>12</Uranium>
+      <ComponentSpacer>6</ComponentSpacer>
+      <Gold>9</Gold>
+      <Hyperweave>12</Hyperweave>
+      <Synthread>12</Synthread>
+      <DevilstrandCloth>12</DevilstrandCloth>
+    </costList>
+  </ThingDef>
+</Defs>

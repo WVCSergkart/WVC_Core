@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Eye_Ultra</defName>
+    <label>psychic mechtech eye</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Eye_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>8</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>4</Gold>
+      <Synthread>4</Synthread>
+      <Hyperweave>4</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Ear_Ultra</defName>
+    <label>psychic mechtech ear</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Ear_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>19</Plasteel>
+      <Uranium>11</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>4</Gold>
+      <Synthread>4</Synthread>
+      <Hyperweave>4</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Jaw_Ultra</defName>
+    <label>psychic mechtech jaw</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Jaw_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>10</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>5</Gold>
+      <Synthread>4</Synthread>
+      <Hyperweave>4</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Nose_Ultra</defName>
+    <label>psychic mechtech nose</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Nose_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+      <Uranium>8</Uranium>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Gold>2</Gold>
+      <Synthread>2</Synthread>
+      <Hyperweave>3</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Stomach_Ultra</defName>
+    <label>psychic mechtech stomach</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Stomach_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>15</Uranium>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>8</Gold>
+      <Synthread>6</Synthread>
+      <Hyperweave>6</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Spine_Ultra</defName>
+    <label>psychic mechtech spine</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Spine_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>27</Plasteel>
+      <Uranium>12</Uranium>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>7</Gold>
+      <Synthread>7</Synthread>
+      <Hyperweave>8</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Heart_Ultra</defName>
+    <label>psychic mechtech heart</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Heart_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Uranium>10</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>9</Gold>
+      <Synthread>6</Synthread>
+      <Hyperweave>6</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Kidney_Ultra</defName>
+    <label>psychic mechtech kidney</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Kidney_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Uranium>12</Uranium>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>6</Gold>
+      <Synthread>5</Synthread>
+      <Hyperweave>4</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Liver_Ultra</defName>
+    <label>psychic mechtech liver</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Liver_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>12</Uranium>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>6</Gold>
+      <Synthread>5</Synthread>
+      <Hyperweave>5</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Lung_Ultra</defName>
+    <label>psychic mechtech lung</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Lung_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>8</Uranium>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Gold>5</Gold>
+      <Synthread>4</Synthread>
+      <Hyperweave>4</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Shoulder_Ultra</defName>
+    <label>psychic mechtech arm</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Shoulder_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>26</Plasteel>
+      <Uranium>9</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>7</Gold>
+      <Synthread>6</Synthread>
+      <Hyperweave>6</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Leg_Ultra</defName>
+    <label>psychic mechtech leg</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Leg_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Uranium>10</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>7</Gold>
+      <Synthread>6</Synthread>
+      <Hyperweave>6</Hyperweave>
+    </costList>
+  </ThingDef>
+</Defs>

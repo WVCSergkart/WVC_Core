@@ -172,7 +172,7 @@
 	<recipeMaker>
 	  <skillRequirements>
 		<Crafting>18</Crafting>
-		<Intellectual>20</Intellectual>
+		<Intellectual>18</Intellectual>
 		<Medicine>16</Medicine>
 	  </skillRequirements>
 	  <researchPrerequisites>

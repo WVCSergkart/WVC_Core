@@ -11,31 +11,31 @@
 		<caseTrue>
 
 			<Operation Class="PatchOperationReplace">
-			  <xpath>/Defs/HediffDef[@Name="WVC_Hediff_BodyPart_Ancient"]/addedPartProps/partEfficiency</xpath>
+			  <xpath>/Defs/HediffDef[@Name="WVC_Ultra_ImplantHediffDef_WVC_UltratechBionic"]/addedPartProps/partEfficiency</xpath>
 			  <value>
 				  <partEfficiency>1.4</partEfficiency>
 			  </value>
 			</Operation>
 			<Operation Class="PatchOperationReplace">
-			  <xpath>/Defs/HediffDef[@Name="WVC_Hediff_BodyPart_Mechanoid"]/addedPartProps/partEfficiency</xpath>
+			  <xpath>/Defs/HediffDef[@Name="WVC_Ultra_ImplantHediffDef_WVC_MechtechBionic"]/addedPartProps/partEfficiency</xpath>
 			  <value>
 				  <partEfficiency>1.6</partEfficiency>
 			  </value>
 			</Operation>
 			<Operation Class="PatchOperationReplace">
-			  <xpath>/Defs/HediffDef[@Name="WVC_Hediff_BodyPart_NodeGreen" or @Name="WVC_Hediff_BodyPart_NodeRed" or @Name="WVC_Hediff_BodyPart_NodeViolet" or @Name="WVC_Hediff_BodyPart_NodeYellow"]/addedPartProps/partEfficiency</xpath>
+			  <xpath>/Defs/HediffDef[@Name="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic" or @Name="WVC_Ultra_ImplantHediffDef_WVC_PsychicMechtechBionic" or @Name="WVC_Ultra_ImplantHediffDef_WVC_ArmoredMechtechBionic" or @Name="WVC_Ultra_ImplantHediffDef_WVC_ToughMechtechBionic"]/addedPartProps/partEfficiency</xpath>
 			  <value>
 				  <partEfficiency>1.75</partEfficiency>
 			  </value>
 			</Operation>
 			<Operation Class="PatchOperationReplace">
-			  <xpath>/Defs/HediffDef[@Name="WVC_Hediff_BodyPart_NodeBlue"]/addedPartProps/partEfficiency</xpath>
+			  <xpath>/Defs/HediffDef[@Name="WVC_Ultra_ImplantHediffDef_WVC_OverclockedMechtechBionic"]/addedPartProps/partEfficiency</xpath>
 			  <value>
 				  <partEfficiency>1.9</partEfficiency>
 			  </value>
 			</Operation>
 			<Operation Class="PatchOperationReplace">
-			  <xpath>/Defs/HediffDef[@Name="WVC_Hediff_BodyPart_Archotech"]/addedPartProps/partEfficiency</xpath>
+			  <xpath>/Defs/HediffDef[@Name="WVC_Ultra_ImplantHediffDef_WVC_OverclockedMechtechBionic"]/addedPartProps/partEfficiency</xpath>
 			  <value>
 				  <partEfficiency>2.0</partEfficiency>
 			  </value>

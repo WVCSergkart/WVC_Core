@@ -71,6 +71,9 @@
     <Compile Include="Resources_Main\ModExtension.cs" />
     <Compile Include="Resources_Main\TerrainPatch.cs" />
     <Compile Include="Resources_Main\UltraDefOf.cs" />
+    <Compile Include="Resources_XmlGenerator\ImplantGenerator.cs" />
+    <Compile Include="Resources_XmlGenerator\Templates_Implants.cs" />
+    <Compile Include="Resources_XmlGenerator\Templates_Utility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

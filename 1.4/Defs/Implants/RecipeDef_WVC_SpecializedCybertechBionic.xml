@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_SpecializedCybertechBionic_Eye_Ultra</defName>
+    <label>install cybertech blind eye</label>
+    <description>Install an cybertech blind eye.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_SpecializedCybertechBionic_Eye_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_SpecializedCybertechBionic_Eye_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_SpecializedCybertechBionic_Eye_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_SpecializedCybertechBionic_Eye_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_SpecializedCybertechBionic_Eye_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_SpecializedCybertechBionic_Ear_Ultra</defName>
+    <label>install cybertech deaf ear</label>
+    <description>Install an cybertech deaf ear.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_SpecializedCybertechBionic_Ear_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_SpecializedCybertechBionic_Ear_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Ear</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_SpecializedCybertechBionic_Ear_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_SpecializedCybertechBionic_Ear_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_SpecializedCybertechBionic_Ear_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_SpecializedCybertechBionic_Jaw_Ultra</defName>
+    <label>install cybertech silent jaw</label>
+    <description>Install an cybertech silent jaw.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_SpecializedCybertechBionic_Jaw_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_SpecializedCybertechBionic_Jaw_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Jaw</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_SpecializedCybertechBionic_Jaw_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_SpecializedCybertechBionic_Jaw_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_SpecializedCybertechBionic_Jaw_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_SpecializedCybertechBionic_Shoulder_Ultra</defName>
+    <label>install cybertech drill arm</label>
+    <description>Install an cybertech drill arm.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_SpecializedCybertechBionic_Shoulder_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_SpecializedCybertechBionic_Shoulder_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Shoulder</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_SpecializedCybertechBionic_Shoulder_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_SpecializedCybertechBionic_Shoulder_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_SpecializedCybertechBionic_Shoulder_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>

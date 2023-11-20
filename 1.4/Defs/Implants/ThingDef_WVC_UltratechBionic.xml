@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Eye_Ultra</defName>
+    <label>ultratech eye</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Eye_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <Uranium>2</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>4</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Ear_Ultra</defName>
+    <label>ultratech ear</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Ear_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <Uranium>2</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>4</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Jaw_Ultra</defName>
+    <label>ultratech jaw</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Jaw_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+      <Uranium>3</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>5</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Nose_Ultra</defName>
+    <label>ultratech nose</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Nose_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <Uranium>2</Uranium>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Gold>2</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Stomach_Ultra</defName>
+    <label>ultratech stomach</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Stomach_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+      <Uranium>2</Uranium>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>8</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Spine_Ultra</defName>
+    <label>ultratech spine</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Spine_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>5</Uranium>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>7</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Heart_Ultra</defName>
+    <label>ultratech heart</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Heart_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <Uranium>8</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>9</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Kidney_Ultra</defName>
+    <label>ultratech kidney</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Kidney_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+      <Uranium>7</Uranium>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>6</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Liver_Ultra</defName>
+    <label>ultratech liver</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Liver_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>14</Plasteel>
+      <Uranium>6</Uranium>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>6</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Lung_Ultra</defName>
+    <label>ultratech lung</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Lung_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <Uranium>5</Uranium>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Gold>5</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Shoulder_Ultra</defName>
+    <label>ultratech arm</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Shoulder_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>17</Plasteel>
+      <Uranium>9</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>7</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Leg_Ultra</defName>
+    <label>ultratech leg</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Leg_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+      <Uranium>9</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>7</Gold>
+    </costList>
+  </ThingDef>
+</Defs>

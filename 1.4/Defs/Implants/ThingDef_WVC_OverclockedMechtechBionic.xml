@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Eye_Ultra</defName>
+    <label>overclocked mechtech eye</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Eye_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>8</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>4</Gold>
+      <Hyperweave>8</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Ear_Ultra</defName>
+    <label>overclocked mechtech ear</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Ear_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>19</Plasteel>
+      <Uranium>11</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>4</Gold>
+      <Hyperweave>8</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Jaw_Ultra</defName>
+    <label>overclocked mechtech jaw</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Jaw_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>10</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>5</Gold>
+      <Hyperweave>8</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Nose_Ultra</defName>
+    <label>overclocked mechtech nose</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Nose_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+      <Uranium>8</Uranium>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Gold>2</Gold>
+      <Hyperweave>5</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Stomach_Ultra</defName>
+    <label>overclocked mechtech stomach</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Stomach_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>15</Uranium>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>8</Gold>
+      <Hyperweave>12</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Spine_Ultra</defName>
+    <label>overclocked mechtech spine</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Spine_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>27</Plasteel>
+      <Uranium>12</Uranium>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>7</Gold>
+      <Hyperweave>15</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Heart_Ultra</defName>
+    <label>overclocked mechtech heart</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Heart_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Uranium>10</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>9</Gold>
+      <Hyperweave>12</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Kidney_Ultra</defName>
+    <label>overclocked mechtech kidney</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Kidney_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Uranium>12</Uranium>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>6</Gold>
+      <Hyperweave>9</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Liver_Ultra</defName>
+    <label>overclocked mechtech liver</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Liver_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>12</Uranium>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>6</Gold>
+      <Hyperweave>10</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Lung_Ultra</defName>
+    <label>overclocked mechtech lung</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Lung_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>8</Uranium>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Gold>5</Gold>
+      <Hyperweave>8</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Shoulder_Ultra</defName>
+    <label>overclocked mechtech arm</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Shoulder_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>26</Plasteel>
+      <Uranium>9</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>7</Gold>
+      <Hyperweave>12</Hyperweave>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Leg_Ultra</defName>
+    <label>overclocked mechtech leg</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Leg_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Uranium>10</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>7</Gold>
+      <Hyperweave>12</Hyperweave>
+    </costList>
+  </ThingDef>
+</Defs>

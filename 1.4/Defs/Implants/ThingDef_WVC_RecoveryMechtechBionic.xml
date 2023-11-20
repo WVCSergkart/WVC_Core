@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Eye_Ultra</defName>
+    <label>recovery mechtech eye</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Eye_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>8</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>4</Gold>
+      <Synthread>8</Synthread>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Ear_Ultra</defName>
+    <label>recovery mechtech ear</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Ear_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>19</Plasteel>
+      <Uranium>11</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>4</Gold>
+      <Synthread>8</Synthread>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Jaw_Ultra</defName>
+    <label>recovery mechtech jaw</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Jaw_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>10</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>5</Gold>
+      <Synthread>8</Synthread>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Nose_Ultra</defName>
+    <label>recovery mechtech nose</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Nose_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+      <Uranium>8</Uranium>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Gold>2</Gold>
+      <Synthread>5</Synthread>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Stomach_Ultra</defName>
+    <label>recovery mechtech stomach</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Stomach_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>15</Uranium>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>8</Gold>
+      <Synthread>12</Synthread>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Spine_Ultra</defName>
+    <label>recovery mechtech spine</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Spine_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>27</Plasteel>
+      <Uranium>12</Uranium>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>7</Gold>
+      <Synthread>15</Synthread>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Heart_Ultra</defName>
+    <label>recovery mechtech heart</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Heart_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Uranium>10</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>9</Gold>
+      <Synthread>12</Synthread>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Kidney_Ultra</defName>
+    <label>recovery mechtech kidney</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Kidney_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Uranium>12</Uranium>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>6</Gold>
+      <Synthread>9</Synthread>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Liver_Ultra</defName>
+    <label>recovery mechtech liver</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Liver_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>12</Uranium>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>6</Gold>
+      <Synthread>10</Synthread>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Lung_Ultra</defName>
+    <label>recovery mechtech lung</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Lung_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>8</Uranium>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Gold>5</Gold>
+      <Synthread>8</Synthread>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Shoulder_Ultra</defName>
+    <label>recovery mechtech arm</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Shoulder_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>26</Plasteel>
+      <Uranium>9</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>7</Gold>
+      <Synthread>12</Synthread>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Leg_Ultra</defName>
+    <label>recovery mechtech leg</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Leg_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Uranium>10</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>7</Gold>
+      <Synthread>12</Synthread>
+    </costList>
+  </ThingDef>
+</Defs>

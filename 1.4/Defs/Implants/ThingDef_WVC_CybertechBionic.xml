@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Eye_Ultra</defName>
+    <label>cybertech eye</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Eye_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>4</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Ear_Ultra</defName>
+    <label>cybertech ear</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Ear_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>4</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Jaw_Ultra</defName>
+    <label>cybertech jaw</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Jaw_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>5</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Nose_Ultra</defName>
+    <label>cybertech nose</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Nose_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Gold>2</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Stomach_Ultra</defName>
+    <label>cybertech stomach</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Stomach_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>8</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Spine_Ultra</defName>
+    <label>cybertech spine</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Spine_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>7</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Heart_Ultra</defName>
+    <label>cybertech heart</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Heart_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>9</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Kidney_Ultra</defName>
+    <label>cybertech kidney</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Kidney_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>6</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Liver_Ultra</defName>
+    <label>cybertech liver</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Liver_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>14</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Gold>6</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Lung_Ultra</defName>
+    <label>cybertech lung</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Lung_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>15</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Gold>5</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Shoulder_Ultra</defName>
+    <label>cybertech arm</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Shoulder_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>17</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>7</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Leg_Ultra</defName>
+    <label>cybertech leg</label>
+    <description>Body part created using high technology.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Leg_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>7</Gold>
+    </costList>
+  </ThingDef>
+</Defs>

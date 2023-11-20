@@ -31,13 +31,13 @@
   </HediffDef>
 
   <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_CybertechBionic" ParentName="AddedBodyPartBase" Abstract="True">
-	<description>Improved version of experimental bionics.</description>
+	<description>Advanced bionics from high-tech components.</description>
 	<scenarioCanAdd>false</scenarioCanAdd>
 	<defaultLabelColor>(163,187,255)</defaultLabelColor>
 	<priceOffset>750</priceOffset>
 	<addedPartProps>
 	  <solid>true</solid>
-	  <partEfficiency>1.35</partEfficiency>
+	  <partEfficiency>1.30</partEfficiency>
 	  <betterThanNatural>true</betterThanNatural>
 	</addedPartProps>
   </HediffDef>
@@ -45,7 +45,7 @@
   <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_SpecializedCybertechBionic" ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechBionic" Abstract="True">
 	<addedPartProps>
 	  <solid>true</solid>
-	  <partEfficiency>1.15</partEfficiency>
+	  <partEfficiency>1.10</partEfficiency>
 	  <betterThanNatural>true</betterThanNatural>
 	</addedPartProps>
   </HediffDef>
