@@ -34,7 +34,7 @@
 											<Operation Class="PatchOperationAdd">
 												<xpath>/Defs</xpath>
 												<value>
-													<RecipeDef ParentName="HealInjury_Base_WVC">
+													<RecipeDef ParentName="WVC_Ultra_MedicalOperation_CureInjury">
 														<defName>AutopRecipe_Cure{CodeWord}_{defName_DEF}_WVC</defName>
 														<label>cure {label_DEF}</label>
 														<description>Cure {label_DEF}.</description>
@@ -63,7 +63,7 @@
 									<Operation Class="PatchOperationAdd">
 										<xpath>/Defs</xpath>
 										<value>
-											<RecipeDef ParentName="HealInjury_Base_WVC">
+											<RecipeDef ParentName="WVC_Ultra_MedicalOperation_CureInjury">
 												<defName>AutopRecipe_Cure{CodeWord}_{defName_DEF}_WVC</defName>
 												<label>cure injury</label>
 												<description>Cure injury.</description>
@@ -125,7 +125,7 @@
 									<Operation Class="PatchOperationAdd">
 										<xpath>/Defs</xpath>
 										<value>
-											<RecipeDef ParentName="HealInjury_Base_WVC">
+											<RecipeDef ParentName="WVC_Ultra_MedicalOperation_CureInjury">
 												<defName>AutopRecipe_Cure{CodeWord}_{defName_DEF}_WVC</defName>
 												<label>cure {CodeWord}</label>
 												<description>Cure {CodeWord}.</description>

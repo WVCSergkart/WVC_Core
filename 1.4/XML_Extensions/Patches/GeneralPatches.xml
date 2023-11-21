@@ -201,66 +201,6 @@
 			  </value>
 			</Operation>
 
-			<!-- <Operation Class="PatchOperationAdd"> -->
-			  <!-- <xpath>/Defs/ThingDef[defName="Human"]/race/lifeStageWorkSettings</xpath> -->
-			  <!-- <value> -->
-				  <!-- <WVC_ComplexWork>13</WVC_ComplexWork> -->
-			  <!-- </value> -->
-			<!-- </Operation> -->
-
-			<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
-			  <!-- <xpath>/Defs/HediffDef[@ParentName="WVC_Hediff_BodyPart_Mechanoid"]</xpath> -->
-			  <!-- <safetyDepth>3</safetyDepth> -->
-			  <!-- <value> -->
-				<!-- <stages> -->
-					<!-- <li> -->
-						<!-- <statOffsets> -->
-							<!-- <MechBandwidth>1</MechBandwidth> -->
-						<!-- </statOffsets> -->
-					<!-- </li> -->
-				<!-- </stages> -->
-			  <!-- </value> -->
-			<!-- </Operation> -->
-			<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
-			  <!-- <xpath>/Defs/HediffDef[@ParentName="WVC_Hediff_BodyPart_NodeBlue"]</xpath> -->
-			  <!-- <safetyDepth>3</safetyDepth> -->
-			  <!-- <value> -->
-				<!-- <stages> -->
-					<!-- <li> -->
-						<!-- <statOffsets> -->
-							<!-- <MechBandwidth>3</MechBandwidth> -->
-						<!-- </statOffsets> -->
-					<!-- </li> -->
-				<!-- </stages> -->
-			  <!-- </value> -->
-			<!-- </Operation> -->
-			<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
-			  <!-- <xpath>/Defs/HediffDef[@ParentName="WVC_Hediff_BodyPart_NodeRed" or @ParentName="WVC_Hediff_BodyPart_NodeGreen" or @ParentName="WVC_Hediff_BodyPart_NodeViolet" or @ParentName="WVC_Hediff_BodyPart_NodeYellow"]</xpath> -->
-			  <!-- <safetyDepth>3</safetyDepth> -->
-			  <!-- <value> -->
-				<!-- <stages> -->
-					<!-- <li> -->
-						<!-- <statOffsets> -->
-							<!-- <MechBandwidth>2</MechBandwidth> -->
-						<!-- </statOffsets> -->
-					<!-- </li> -->
-				<!-- </stages> -->
-			  <!-- </value> -->
-			<!-- </Operation> -->
-			<!-- <Operation Class="XmlExtensions.PatchOperationSafeAdd"> -->
-			  <!-- <xpath>/Defs/HediffDef[@ParentName="WVC_Hediff_BodyPart_Archotech"]</xpath> -->
-			  <!-- <safetyDepth>3</safetyDepth> -->
-			  <!-- <value> -->
-				<!-- <stages> -->
-					<!-- <li> -->
-						<!-- <statOffsets> -->
-							<!-- <MechBandwidth>4</MechBandwidth> -->
-						<!-- </statOffsets> -->
-					<!-- </li> -->
-				<!-- </stages> -->
-			  <!-- </value> -->
-			<!-- </Operation> -->
-
 		</caseTrue>
 	</Operation>
 

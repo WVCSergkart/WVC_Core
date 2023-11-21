@@ -26,11 +26,11 @@
   <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
 	<defName>WVC_Ultra_Ultratech</defName>
 	<label>ultratech</label>
-	<description>Complete rethinking and recreation of the most complex technologies of mankind, as well as their further refinement.</description>
+	<description>Most complex technologies of mankind, as well as their further refinement.</description>
 	<techLevel>Spacer</techLevel>
-	<techprintCount>2</techprintCount>
-	<techprintCommonality>1</techprintCommonality>
-	<techprintMarketValue>800</techprintMarketValue>
+	<techprintCount MayRequire="ludeon.rimworld.royalty">1</techprintCount>
+	<techprintCommonality MayRequire="ludeon.rimworld.royalty">1</techprintCommonality>
+	<techprintMarketValue MayRequire="ludeon.rimworld.royalty">800</techprintMarketValue>
 	<heldByFactionCategoryTags>
 		<li MayRequire="ludeon.rimworld.royalty">Empire</li>
 		<li>Outlander</li>
@@ -99,11 +99,11 @@
   <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
 	<defName>WVC_Ultra_GarbageRecycler</defName>
 	<label>garbage recycler</label>
-	<description>Reconstruction of matter converter based on mechanite nanotechnologies.</description>
+	<description>A workbench for processing all unnecessary rubbish.</description>
 	<baseCost>5000</baseCost>
-	<techprintCount>3</techprintCount>
-	<techprintCommonality>1</techprintCommonality>
-	<techprintMarketValue>400</techprintMarketValue>
+	<techprintCount MayRequire="ludeon.rimworld.royalty">2</techprintCount>
+	<techprintCommonality MayRequire="ludeon.rimworld.royalty">1</techprintCommonality>
+	<techprintMarketValue MayRequire="ludeon.rimworld.royalty">400</techprintMarketValue>
 	<heldByFactionCategoryTags>
 	  <li MayRequire="ludeon.rimworld.royalty">Empire</li>
 	  <li>Outlander</li>
@@ -126,7 +126,7 @@
   <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
 	<defName>WVC_Ultra_UltraniteConversion</defName>
 	<label>ultranites conversion</label>
-	<description>Expansion of the technological capabilities of the mechanizer and its improvement.</description>
+	<description>Converting ultranites into useful resources.</description>
 	<researchViewX>1.00</researchViewX>
 	<researchViewY>3.20</researchViewY>
 	<hiddenPrerequisites>
@@ -140,7 +140,7 @@
   <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
 	<defName>WVC_Ultra_UltraniteSpawner</defName>
 	<label>ultranites assembler</label>
-	<description>Recreation of the nanoforge based on the mechanizer.</description>
+	<description>An endless source of ultranites.</description>
 	<researchViewX>2.00</researchViewX>
 	<researchViewY>3.70</researchViewY>
 	<hiddenPrerequisites>
@@ -158,8 +158,8 @@
 
   <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
 	<defName>WVC_Ultra_DefenceSystems</defName>
-	<label>mechanoid defence systems</label>
-	<description>Create protection systems similar to mechanods.</description>
+	<label>mechtech defence systems</label>
+	<description>Automatic turrets that do not require reloading.</description>
 	<researchViewX>2.00</researchViewX>
 	<researchViewY>2.05</researchViewY>
 	<prerequisites>
@@ -182,7 +182,7 @@
   <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
 	<defName>WVC_Ultra_GauranlenTree</defName>
 	<label>gaurler</label>
-	<description>Experiments on the hybridization of organics and machines.</description>
+	<description>An improved version of the Gauranlen Tree that does not require special attention.</description>
 	  <researchViewX>2.00</researchViewX>
 	  <researchViewY>3.20</researchViewY>
 	<hiddenPrerequisites>
@@ -210,15 +210,6 @@
 	  <li>WVC_Ultra_Mechtech</li>
 	  <li>DeepDrilling</li>
 	</prerequisites>
-  </ResearchProjectDef>
-
-  <!-- ======================================================================= -->
-
-  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base" Name="WVC_Ultra_ResearchProject_Experimental" Abstract="True">
-	<!-- <description>A series of experiments to reproduce the lost technologies of the ancients. This knowledge will help us recreate advanced bionics, weapons and some cloning technologies.</description> -->
-	<baseCost>5000</baseCost>
-	<hiddenPrerequisites>
-	</hiddenPrerequisites>
   </ResearchProjectDef>
 
   <!-- ======================================================================= -->
