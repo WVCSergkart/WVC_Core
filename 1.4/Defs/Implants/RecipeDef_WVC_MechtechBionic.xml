@@ -4,6 +4,7 @@
     <defName>Install_Hediff_WVC_MechtechBionic_Eye_Ultra</defName>
     <label>install mechtech eye</label>
     <description>Install an mechtech eye.</description>
+    <jobString>Installing mechtech eye.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechBionic_Eye_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_MechtechBionic_Eye_Ultra</HediffDef>
@@ -31,6 +32,7 @@
     <defName>Install_Hediff_WVC_MechtechBionic_Ear_Ultra</defName>
     <label>install mechtech ear</label>
     <description>Install an mechtech ear.</description>
+    <jobString>Installing mechtech ear.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechBionic_Ear_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_MechtechBionic_Ear_Ultra</HediffDef>
@@ -58,6 +60,7 @@
     <defName>Install_Hediff_WVC_MechtechBionic_Jaw_Ultra</defName>
     <label>install mechtech jaw</label>
     <description>Install an mechtech jaw.</description>
+    <jobString>Installing mechtech jaw.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechBionic_Jaw_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_MechtechBionic_Jaw_Ultra</HediffDef>
@@ -85,6 +88,7 @@
     <defName>Install_Hediff_WVC_MechtechBionic_Nose_Ultra</defName>
     <label>install mechtech nose</label>
     <description>Install an mechtech nose.</description>
+    <jobString>Installing mechtech nose.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechBionic_Nose_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_MechtechBionic_Nose_Ultra</HediffDef>
@@ -112,6 +116,7 @@
     <defName>Install_Hediff_WVC_MechtechBionic_Stomach_Ultra</defName>
     <label>install mechtech stomach</label>
     <description>Install an mechtech stomach.</description>
+    <jobString>Installing mechtech stomach.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechBionic_Stomach_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_MechtechBionic_Stomach_Ultra</HediffDef>
@@ -139,6 +144,7 @@
     <defName>Install_Hediff_WVC_MechtechBionic_Spine_Ultra</defName>
     <label>install mechtech spine</label>
     <description>Install an mechtech spine.</description>
+    <jobString>Installing mechtech spine.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechBionic_Spine_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_MechtechBionic_Spine_Ultra</HediffDef>
@@ -166,6 +172,7 @@
     <defName>Install_Hediff_WVC_MechtechBionic_Heart_Ultra</defName>
     <label>install mechtech heart</label>
     <description>Install an mechtech heart.</description>
+    <jobString>Installing mechtech heart.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechBionic_Heart_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_MechtechBionic_Heart_Ultra</HediffDef>
@@ -193,6 +200,7 @@
     <defName>Install_Hediff_WVC_MechtechBionic_Kidney_Ultra</defName>
     <label>install mechtech kidney</label>
     <description>Install an mechtech kidney.</description>
+    <jobString>Installing mechtech kidney.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechBionic_Kidney_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_MechtechBionic_Kidney_Ultra</HediffDef>
@@ -220,6 +228,7 @@
     <defName>Install_Hediff_WVC_MechtechBionic_Liver_Ultra</defName>
     <label>install mechtech liver</label>
     <description>Install an mechtech liver.</description>
+    <jobString>Installing mechtech liver.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechBionic_Liver_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_MechtechBionic_Liver_Ultra</HediffDef>
@@ -247,6 +256,7 @@
     <defName>Install_Hediff_WVC_MechtechBionic_Lung_Ultra</defName>
     <label>install mechtech lung</label>
     <description>Install an mechtech lung.</description>
+    <jobString>Installing mechtech lung.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechBionic_Lung_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_MechtechBionic_Lung_Ultra</HediffDef>
@@ -274,6 +284,7 @@
     <defName>Install_Hediff_WVC_MechtechBionic_Shoulder_Ultra</defName>
     <label>install mechtech arm</label>
     <description>Install an mechtech arm.</description>
+    <jobString>Installing mechtech arm.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechBionic_Shoulder_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_MechtechBionic_Shoulder_Ultra</HediffDef>
@@ -301,6 +312,7 @@
     <defName>Install_Hediff_WVC_MechtechBionic_Leg_Ultra</defName>
     <label>install mechtech leg</label>
     <description>Install an mechtech leg.</description>
+    <jobString>Installing mechtech leg.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechBionic_Leg_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_MechtechBionic_Leg_Ultra</HediffDef>

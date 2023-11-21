@@ -4,6 +4,7 @@
     <defName>Install_Hediff_WVC_TortureBionic_Eye_Ultra</defName>
     <label>install torture bionic eye</label>
     <description>Install an torture bionic eye.</description>
+    <jobString>Installing torture bionic eye.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_TortureBionic_Eye_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_TortureBionic_Eye_Ultra</HediffDef>
@@ -31,6 +32,7 @@
     <defName>Install_Hediff_WVC_TortureBionic_Ear_Ultra</defName>
     <label>install torture bionic ear</label>
     <description>Install an torture bionic ear.</description>
+    <jobString>Installing torture bionic ear.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_TortureBionic_Ear_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_TortureBionic_Ear_Ultra</HediffDef>
@@ -58,6 +60,7 @@
     <defName>Install_Hediff_WVC_TortureBionic_Jaw_Ultra</defName>
     <label>install torture bionic jaw</label>
     <description>Install an torture bionic jaw.</description>
+    <jobString>Installing torture bionic jaw.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_TortureBionic_Jaw_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_TortureBionic_Jaw_Ultra</HediffDef>
@@ -85,6 +88,7 @@
     <defName>Install_Hediff_WVC_TortureBionic_Nose_Ultra</defName>
     <label>install torture bionic nose</label>
     <description>Install an torture bionic nose.</description>
+    <jobString>Installing torture bionic nose.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_TortureBionic_Nose_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_TortureBionic_Nose_Ultra</HediffDef>
@@ -112,6 +116,7 @@
     <defName>Install_Hediff_WVC_TortureBionic_Stomach_Ultra</defName>
     <label>install torture bionic stomach</label>
     <description>Install an torture bionic stomach.</description>
+    <jobString>Installing torture bionic stomach.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_TortureBionic_Stomach_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_TortureBionic_Stomach_Ultra</HediffDef>
@@ -139,6 +144,7 @@
     <defName>Install_Hediff_WVC_TortureBionic_Spine_Ultra</defName>
     <label>install torture bionic spine</label>
     <description>Install an torture bionic spine.</description>
+    <jobString>Installing torture bionic spine.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_TortureBionic_Spine_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_TortureBionic_Spine_Ultra</HediffDef>
@@ -166,6 +172,7 @@
     <defName>Install_Hediff_WVC_TortureBionic_Heart_Ultra</defName>
     <label>install torture bionic heart</label>
     <description>Install an torture bionic heart.</description>
+    <jobString>Installing torture bionic heart.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_TortureBionic_Heart_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_TortureBionic_Heart_Ultra</HediffDef>
@@ -193,6 +200,7 @@
     <defName>Install_Hediff_WVC_TortureBionic_Kidney_Ultra</defName>
     <label>install torture bionic kidney</label>
     <description>Install an torture bionic kidney.</description>
+    <jobString>Installing torture bionic kidney.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_TortureBionic_Kidney_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_TortureBionic_Kidney_Ultra</HediffDef>
@@ -220,6 +228,7 @@
     <defName>Install_Hediff_WVC_TortureBionic_Liver_Ultra</defName>
     <label>install torture bionic liver</label>
     <description>Install an torture bionic liver.</description>
+    <jobString>Installing torture bionic liver.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_TortureBionic_Liver_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_TortureBionic_Liver_Ultra</HediffDef>
@@ -247,6 +256,7 @@
     <defName>Install_Hediff_WVC_TortureBionic_Lung_Ultra</defName>
     <label>install torture bionic lung</label>
     <description>Install an torture bionic lung.</description>
+    <jobString>Installing torture bionic lung.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_TortureBionic_Lung_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_TortureBionic_Lung_Ultra</HediffDef>
@@ -274,6 +284,7 @@
     <defName>Install_Hediff_WVC_TortureBionic_Shoulder_Ultra</defName>
     <label>install torture bionic arm</label>
     <description>Install an torture bionic arm.</description>
+    <jobString>Installing torture bionic arm.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_TortureBionic_Shoulder_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_TortureBionic_Shoulder_Ultra</HediffDef>
@@ -301,6 +312,7 @@
     <defName>Install_Hediff_WVC_TortureBionic_Leg_Ultra</defName>
     <label>install torture bionic leg</label>
     <description>Install an torture bionic leg.</description>
+    <jobString>Installing torture bionic leg.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_TortureBionic_Leg_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_TortureBionic_Leg_Ultra</HediffDef>

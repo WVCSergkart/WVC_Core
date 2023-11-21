@@ -4,6 +4,7 @@
     <defName>Install_Hediff_WVC_ToughMechtechBionic_Eye_Ultra</defName>
     <label>install tough mechtech eye</label>
     <description>Install an tough mechtech eye.</description>
+    <jobString>Installing tough mechtech eye.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Eye_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_ToughMechtechBionic_Eye_Ultra</HediffDef>
@@ -31,6 +32,7 @@
     <defName>Install_Hediff_WVC_ToughMechtechBionic_Ear_Ultra</defName>
     <label>install tough mechtech ear</label>
     <description>Install an tough mechtech ear.</description>
+    <jobString>Installing tough mechtech ear.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Ear_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_ToughMechtechBionic_Ear_Ultra</HediffDef>
@@ -58,6 +60,7 @@
     <defName>Install_Hediff_WVC_ToughMechtechBionic_Jaw_Ultra</defName>
     <label>install tough mechtech jaw</label>
     <description>Install an tough mechtech jaw.</description>
+    <jobString>Installing tough mechtech jaw.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Jaw_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_ToughMechtechBionic_Jaw_Ultra</HediffDef>
@@ -85,6 +88,7 @@
     <defName>Install_Hediff_WVC_ToughMechtechBionic_Nose_Ultra</defName>
     <label>install tough mechtech nose</label>
     <description>Install an tough mechtech nose.</description>
+    <jobString>Installing tough mechtech nose.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Nose_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_ToughMechtechBionic_Nose_Ultra</HediffDef>
@@ -112,6 +116,7 @@
     <defName>Install_Hediff_WVC_ToughMechtechBionic_Stomach_Ultra</defName>
     <label>install tough mechtech stomach</label>
     <description>Install an tough mechtech stomach.</description>
+    <jobString>Installing tough mechtech stomach.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Stomach_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_ToughMechtechBionic_Stomach_Ultra</HediffDef>
@@ -139,6 +144,7 @@
     <defName>Install_Hediff_WVC_ToughMechtechBionic_Spine_Ultra</defName>
     <label>install tough mechtech spine</label>
     <description>Install an tough mechtech spine.</description>
+    <jobString>Installing tough mechtech spine.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Spine_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_ToughMechtechBionic_Spine_Ultra</HediffDef>
@@ -166,6 +172,7 @@
     <defName>Install_Hediff_WVC_ToughMechtechBionic_Heart_Ultra</defName>
     <label>install tough mechtech heart</label>
     <description>Install an tough mechtech heart.</description>
+    <jobString>Installing tough mechtech heart.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Heart_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_ToughMechtechBionic_Heart_Ultra</HediffDef>
@@ -193,6 +200,7 @@
     <defName>Install_Hediff_WVC_ToughMechtechBionic_Kidney_Ultra</defName>
     <label>install tough mechtech kidney</label>
     <description>Install an tough mechtech kidney.</description>
+    <jobString>Installing tough mechtech kidney.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Kidney_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_ToughMechtechBionic_Kidney_Ultra</HediffDef>
@@ -220,6 +228,7 @@
     <defName>Install_Hediff_WVC_ToughMechtechBionic_Liver_Ultra</defName>
     <label>install tough mechtech liver</label>
     <description>Install an tough mechtech liver.</description>
+    <jobString>Installing tough mechtech liver.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Liver_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_ToughMechtechBionic_Liver_Ultra</HediffDef>
@@ -247,6 +256,7 @@
     <defName>Install_Hediff_WVC_ToughMechtechBionic_Lung_Ultra</defName>
     <label>install tough mechtech lung</label>
     <description>Install an tough mechtech lung.</description>
+    <jobString>Installing tough mechtech lung.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Lung_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_ToughMechtechBionic_Lung_Ultra</HediffDef>
@@ -274,6 +284,7 @@
     <defName>Install_Hediff_WVC_ToughMechtechBionic_Shoulder_Ultra</defName>
     <label>install tough mechtech arm</label>
     <description>Install an tough mechtech arm.</description>
+    <jobString>Installing tough mechtech arm.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Shoulder_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_ToughMechtechBionic_Shoulder_Ultra</HediffDef>
@@ -301,6 +312,7 @@
     <defName>Install_Hediff_WVC_ToughMechtechBionic_Leg_Ultra</defName>
     <label>install tough mechtech leg</label>
     <description>Install an tough mechtech leg.</description>
+    <jobString>Installing tough mechtech leg.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Leg_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_ToughMechtechBionic_Leg_Ultra</HediffDef>

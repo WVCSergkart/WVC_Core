@@ -5,43 +5,6 @@
 	<defName>WVC_ArchotechBionic</defName>
 	<label>advanced mechtech {0}</label>
 	<labelNoun>an advanced mechtech {0}</labelNoun>
-	<techLevel>Spacer</techLevel>
-	<defaultLabelColor>(249,255,123)</defaultLabelColor>
-	<priceOffset>2000</priceOffset>
-	<addedPartProps>
-	  <solid>true</solid>
-	  <partEfficiency>1.50</partEfficiency>
-	  <betterThanNatural>true</betterThanNatural>
-	</addedPartProps>
-	<thingCategories>
-	  <li>WVC_BodyPartsNodes_Archotech</li>
-	</thingCategories>
-	<graphicData>
-	  <texPath>WVC/Implants/ImplantStackMecha</texPath>
-	  <color>(178,178,139)</color>
-	</graphicData>
-	<craftingSkillRequirements>
-	  <Crafting>18</Crafting>
-	  <Intellectual>18</Intellectual>
-	</craftingSkillRequirements>
-	<medicalSkillRequirements>
-	  <Medicine>2</Medicine>
-	</medicalSkillRequirements>
-	<researchPrerequisites>
-	  <li>WVC_BionicTech_SpecializedMechtech</li>
-	  <li>WVC_ResearchBodyParts_AdvancedMechtech</li>
-	</researchPrerequisites>
-	<recipeUsers>
-	  <li>WVC_ArchotechCraftingBench</li>
-	</recipeUsers>
-	<tradeTags>
-	  <li>ImplantEmpireRoyal</li>
-	  <li>WVC_NodeImplant</li>
-	</tradeTags>
-	<techHediffsTags>
-	  <li>ImplantEmpireRoyal</li>
-	  <li>WVC_NodeImplants</li>
-	</techHediffsTags>
 	<changesByPart>
 	  <li>
 		<def>Eye</def>

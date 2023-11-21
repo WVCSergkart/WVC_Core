@@ -4,6 +4,7 @@
     <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Eye_Ultra</defName>
     <label>install overclocked mechtech eye</label>
     <description>Install an overclocked mechtech eye.</description>
+    <jobString>Installing overclocked mechtech eye.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Eye_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Eye_Ultra</HediffDef>
@@ -31,6 +32,7 @@
     <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Ear_Ultra</defName>
     <label>install overclocked mechtech ear</label>
     <description>Install an overclocked mechtech ear.</description>
+    <jobString>Installing overclocked mechtech ear.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Ear_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Ear_Ultra</HediffDef>
@@ -58,6 +60,7 @@
     <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Jaw_Ultra</defName>
     <label>install overclocked mechtech jaw</label>
     <description>Install an overclocked mechtech jaw.</description>
+    <jobString>Installing overclocked mechtech jaw.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Jaw_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Jaw_Ultra</HediffDef>
@@ -85,6 +88,7 @@
     <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Nose_Ultra</defName>
     <label>install overclocked mechtech nose</label>
     <description>Install an overclocked mechtech nose.</description>
+    <jobString>Installing overclocked mechtech nose.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Nose_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Nose_Ultra</HediffDef>
@@ -112,6 +116,7 @@
     <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Stomach_Ultra</defName>
     <label>install overclocked mechtech stomach</label>
     <description>Install an overclocked mechtech stomach.</description>
+    <jobString>Installing overclocked mechtech stomach.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Stomach_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Stomach_Ultra</HediffDef>
@@ -139,6 +144,7 @@
     <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Spine_Ultra</defName>
     <label>install overclocked mechtech spine</label>
     <description>Install an overclocked mechtech spine.</description>
+    <jobString>Installing overclocked mechtech spine.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Spine_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Spine_Ultra</HediffDef>
@@ -166,6 +172,7 @@
     <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Heart_Ultra</defName>
     <label>install overclocked mechtech heart</label>
     <description>Install an overclocked mechtech heart.</description>
+    <jobString>Installing overclocked mechtech heart.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Heart_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Heart_Ultra</HediffDef>
@@ -193,6 +200,7 @@
     <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Kidney_Ultra</defName>
     <label>install overclocked mechtech kidney</label>
     <description>Install an overclocked mechtech kidney.</description>
+    <jobString>Installing overclocked mechtech kidney.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Kidney_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Kidney_Ultra</HediffDef>
@@ -220,6 +228,7 @@
     <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Liver_Ultra</defName>
     <label>install overclocked mechtech liver</label>
     <description>Install an overclocked mechtech liver.</description>
+    <jobString>Installing overclocked mechtech liver.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Liver_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Liver_Ultra</HediffDef>
@@ -247,6 +256,7 @@
     <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Lung_Ultra</defName>
     <label>install overclocked mechtech lung</label>
     <description>Install an overclocked mechtech lung.</description>
+    <jobString>Installing overclocked mechtech lung.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Lung_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Lung_Ultra</HediffDef>
@@ -274,6 +284,7 @@
     <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Shoulder_Ultra</defName>
     <label>install overclocked mechtech arm</label>
     <description>Install an overclocked mechtech arm.</description>
+    <jobString>Installing overclocked mechtech arm.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Shoulder_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Shoulder_Ultra</HediffDef>
@@ -301,6 +312,7 @@
     <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Leg_Ultra</defName>
     <label>install overclocked mechtech leg</label>
     <description>Install an overclocked mechtech leg.</description>
+    <jobString>Installing overclocked mechtech leg.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Leg_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Leg_Ultra</HediffDef>

@@ -3,7 +3,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Eye_Ultra</defName>
     <label>torture bionic eye</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_TortureBionic_Eye_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -16,7 +15,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Ear_Ultra</defName>
     <label>torture bionic ear</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_TortureBionic_Ear_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -28,7 +26,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Jaw_Ultra</defName>
     <label>torture bionic jaw</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_TortureBionic_Jaw_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -40,7 +37,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Nose_Ultra</defName>
     <label>torture bionic nose</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_TortureBionic_Nose_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -52,7 +48,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Stomach_Ultra</defName>
     <label>torture bionic stomach</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_TortureBionic_Stomach_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -64,7 +59,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Spine_Ultra</defName>
     <label>torture bionic spine</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_TortureBionic_Spine_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -77,7 +71,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Heart_Ultra</defName>
     <label>torture bionic heart</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_TortureBionic_Heart_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -89,7 +82,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Kidney_Ultra</defName>
     <label>torture bionic kidney</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_TortureBionic_Kidney_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -101,7 +93,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Liver_Ultra</defName>
     <label>torture bionic liver</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_TortureBionic_Liver_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -113,7 +104,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Lung_Ultra</defName>
     <label>torture bionic lung</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_TortureBionic_Lung_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -125,7 +115,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Shoulder_Ultra</defName>
     <label>torture bionic arm</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_TortureBionic_Shoulder_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -137,7 +126,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Leg_Ultra</defName>
     <label>torture bionic leg</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_TortureBionic_Leg_Ultra</RecipeDef>
     </descriptionHyperlinks>

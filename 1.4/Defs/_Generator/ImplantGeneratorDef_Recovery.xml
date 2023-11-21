@@ -5,43 +5,6 @@
 	<defName>WVC_RecoveryMechtechBionic</defName>
 	<label>recovery mechtech {0}</label>
 	<labelNoun>an recovery mechtech {0}</labelNoun>
-	<techLevel>Ultra</techLevel>
-	<defaultLabelColor>(133,255,136)</defaultLabelColor>
-	<priceOffset>1400</priceOffset>
-	<addedPartProps>
-	  <solid>true</solid>
-	  <partEfficiency>1.40</partEfficiency>
-	  <betterThanNatural>true</betterThanNatural>
-	</addedPartProps>
-	<thingCategories>
-	  <li>WVC_BodyPartsNodes_Green</li>
-	</thingCategories>
-	<graphicData>
-	  <texPath>WVC/Implants/ImplantStackMecha</texPath>
-	  <color>(79,80,81)</color>
-	</graphicData>
-	<craftingSkillRequirements>
-	  <Crafting>16</Crafting>
-	  <Intellectual>16</Intellectual>
-	</craftingSkillRequirements>
-	<medicalSkillRequirements>
-	  <Medicine>6</Medicine>
-	</medicalSkillRequirements>
-	<researchPrerequisites>
-	  <li>WVC_BionicTech_SpecializedMechtech</li>
-	  <li>WVC_ResearchBodyParts_NodeGreen</li>
-	</researchPrerequisites>
-	<recipeUsers>
-	  <li>WVC_GreenCraftingBench</li>
-	</recipeUsers>
-	<tradeTags>
-	  <li>ImplantEmpireRoyal</li>
-	  <li>WVC_NodeImplant</li>
-	</tradeTags>
-	<techHediffsTags>
-	  <li>ImplantEmpireRoyal</li>
-	  <li>WVC_NodeImplants</li>
-	</techHediffsTags>
 	<changesByPart>
 	  <li>
 		<def>Eye</def>

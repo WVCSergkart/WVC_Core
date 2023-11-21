@@ -4,6 +4,7 @@
     <defName>Install_Hediff_WVC_CybertechBionic_Eye_Ultra</defName>
     <label>install cybertech eye</label>
     <description>Install an cybertech eye.</description>
+    <jobString>Installing cybertech eye.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Eye_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_CybertechBionic_Eye_Ultra</HediffDef>
@@ -31,6 +32,7 @@
     <defName>Install_Hediff_WVC_CybertechBionic_Ear_Ultra</defName>
     <label>install cybertech ear</label>
     <description>Install an cybertech ear.</description>
+    <jobString>Installing cybertech ear.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Ear_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_CybertechBionic_Ear_Ultra</HediffDef>
@@ -58,6 +60,7 @@
     <defName>Install_Hediff_WVC_CybertechBionic_Jaw_Ultra</defName>
     <label>install cybertech jaw</label>
     <description>Install an cybertech jaw.</description>
+    <jobString>Installing cybertech jaw.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Jaw_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_CybertechBionic_Jaw_Ultra</HediffDef>
@@ -85,6 +88,7 @@
     <defName>Install_Hediff_WVC_CybertechBionic_Nose_Ultra</defName>
     <label>install cybertech nose</label>
     <description>Install an cybertech nose.</description>
+    <jobString>Installing cybertech nose.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Nose_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_CybertechBionic_Nose_Ultra</HediffDef>
@@ -112,6 +116,7 @@
     <defName>Install_Hediff_WVC_CybertechBionic_Stomach_Ultra</defName>
     <label>install cybertech stomach</label>
     <description>Install an cybertech stomach.</description>
+    <jobString>Installing cybertech stomach.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Stomach_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_CybertechBionic_Stomach_Ultra</HediffDef>
@@ -139,6 +144,7 @@
     <defName>Install_Hediff_WVC_CybertechBionic_Spine_Ultra</defName>
     <label>install cybertech spine</label>
     <description>Install an cybertech spine.</description>
+    <jobString>Installing cybertech spine.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Spine_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_CybertechBionic_Spine_Ultra</HediffDef>
@@ -166,6 +172,7 @@
     <defName>Install_Hediff_WVC_CybertechBionic_Heart_Ultra</defName>
     <label>install cybertech heart</label>
     <description>Install an cybertech heart.</description>
+    <jobString>Installing cybertech heart.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Heart_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_CybertechBionic_Heart_Ultra</HediffDef>
@@ -193,6 +200,7 @@
     <defName>Install_Hediff_WVC_CybertechBionic_Kidney_Ultra</defName>
     <label>install cybertech kidney</label>
     <description>Install an cybertech kidney.</description>
+    <jobString>Installing cybertech kidney.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Kidney_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_CybertechBionic_Kidney_Ultra</HediffDef>
@@ -220,6 +228,7 @@
     <defName>Install_Hediff_WVC_CybertechBionic_Liver_Ultra</defName>
     <label>install cybertech liver</label>
     <description>Install an cybertech liver.</description>
+    <jobString>Installing cybertech liver.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Liver_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_CybertechBionic_Liver_Ultra</HediffDef>
@@ -247,6 +256,7 @@
     <defName>Install_Hediff_WVC_CybertechBionic_Lung_Ultra</defName>
     <label>install cybertech lung</label>
     <description>Install an cybertech lung.</description>
+    <jobString>Installing cybertech lung.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Lung_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_CybertechBionic_Lung_Ultra</HediffDef>
@@ -274,6 +284,7 @@
     <defName>Install_Hediff_WVC_CybertechBionic_Shoulder_Ultra</defName>
     <label>install cybertech arm</label>
     <description>Install an cybertech arm.</description>
+    <jobString>Installing cybertech arm.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Shoulder_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_CybertechBionic_Shoulder_Ultra</HediffDef>
@@ -301,6 +312,7 @@
     <defName>Install_Hediff_WVC_CybertechBionic_Leg_Ultra</defName>
     <label>install cybertech leg</label>
     <description>Install an cybertech leg.</description>
+    <jobString>Installing cybertech leg.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Leg_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_CybertechBionic_Leg_Ultra</HediffDef>

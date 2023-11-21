@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef Name="WVC_Ultra_ImplantGenerator_AnimalBionics" Abstract="True">
+	<label>advanced bionic {0}</label>
+	<labelNoun>an advanced bionic {0}</labelNoun>
+	<ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+	<!-- Body Parts -->
+	<bodyPartDefs>
+	  <li>Beak</li>
+	  <li>SnakeMouth</li>
+	  <li>InsectHeart</li>
+	  <li>InsectNostril</li>
+	  <li>InsectMouth</li>
+	  <li>AnimalJaw</li>
+	  <li>Tail</li>
+	  <li>Antenna</li>
+	  <li>Elytra</li>
+	  <li>InsectLeg</li>
+	</bodyPartDefs>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+</Defs>

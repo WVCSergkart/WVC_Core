@@ -3,7 +3,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_SpecializedCybertechBionic">
     <defName>WVC_SpecializedCybertechBionic_Eye_Ultra</defName>
     <label>cybertech blind eye</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Eye_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -16,7 +15,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_SpecializedCybertechBionic">
     <defName>WVC_SpecializedCybertechBionic_Ear_Ultra</defName>
     <label>cybertech deaf ear</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Ear_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -29,7 +27,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_SpecializedCybertechBionic">
     <defName>WVC_SpecializedCybertechBionic_Jaw_Ultra</defName>
     <label>cybertech silent jaw</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Jaw_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -42,7 +39,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_SpecializedCybertechBionic">
     <defName>WVC_SpecializedCybertechBionic_Shoulder_Ultra</defName>
     <label>cybertech drill arm</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Shoulder_Ultra</RecipeDef>
     </descriptionHyperlinks>

@@ -5,34 +5,6 @@
 	<defName>WVC_SpecializedCybertechBionic</defName>
 	<label>cybertech {0}</label>
 	<labelNoun>an cybertech {0}</labelNoun>
-	<techLevel>Spacer</techLevel>
-	<defaultLabelColor>(163,187,255)</defaultLabelColor>
-	<priceOffset>750</priceOffset>
-	<addedPartProps>
-	  <solid>true</solid>
-	  <partEfficiency>1.0</partEfficiency>
-	  <betterThanNatural>true</betterThanNatural>
-	</addedPartProps>
-	<thingCategories>
-	  <li>WVC_BodyPartsCybernetic</li>
-	</thingCategories>
-	<graphicData>
-	  <color>(165,179,222)</color>
-	</graphicData>
-	<craftingSkillRequirements>
-	  <Crafting>9</Crafting>
-	  <Intellectual>5</Intellectual>
-	</craftingSkillRequirements>
-	<medicalSkillRequirements>
-	  <Medicine>6</Medicine>
-	</medicalSkillRequirements>
-	<researchPrerequisites>
-	  <li>WVC_BionicTech_Cybernetic</li>
-	  <li MayRequire="ludeon.rimworld.royalty">SpecializedLimbs</li>
-	</researchPrerequisites>
-	<recipeUsers>
-	  <li>WVC_CyberneticCraftingBench</li>
-	</recipeUsers>
 	<changesByPart>
 	  <li>
 		<def>Eye</def>

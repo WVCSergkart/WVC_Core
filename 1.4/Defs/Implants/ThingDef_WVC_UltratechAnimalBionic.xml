@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalBionic">
+    <defName>WVC_UltratechAnimalBionic_Beak_Ultra</defName>
+    <label>ultratech beak</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_Beak_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+      <Uranium>3</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>5</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalBionic">
+    <defName>WVC_UltratechAnimalBionic_SnakeMouth_Ultra</defName>
+    <label>ultratech snake jaw</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_SnakeMouth_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+      <Uranium>3</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>5</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalBionic">
+    <defName>WVC_UltratechAnimalBionic_InsectHeart_Ultra</defName>
+    <label>ultratech insect heart</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_InsectHeart_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <Uranium>3</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>9</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalBionic">
+    <defName>WVC_UltratechAnimalBionic_InsectNostril_Ultra</defName>
+    <label>ultratech nostril</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_InsectNostril_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <Uranium>2</Uranium>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Gold>2</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalBionic">
+    <defName>WVC_UltratechAnimalBionic_InsectMouth_Ultra</defName>
+    <label>ultratech insect jaw</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_InsectMouth_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+      <Uranium>3</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>5</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalBionic">
+    <defName>WVC_UltratechAnimalBionic_AnimalJaw_Ultra</defName>
+    <label>ultratech animal jaw</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_AnimalJaw_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+      <Uranium>3</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>5</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalBionic">
+    <defName>WVC_UltratechAnimalBionic_Tail_Ultra</defName>
+    <label>ultratech tail</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_Tail_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>16</Plasteel>
+      <Uranium>2</Uranium>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Gold>7</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalBionic">
+    <defName>WVC_UltratechAnimalBionic_Antenna_Ultra</defName>
+    <label>ultratech insect antenna</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_Antenna_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <Uranium>2</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>4</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalBionic">
+    <defName>WVC_UltratechAnimalBionic_Elytra_Ultra</defName>
+    <label>ultratech insect elytra</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_Elytra_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>14</Plasteel>
+      <Uranium>2</Uranium>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Gold>4</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalBionic">
+    <defName>WVC_UltratechAnimalBionic_InsectLeg_Ultra</defName>
+    <label>ultratech insect leg</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_InsectLeg_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+      <Uranium>3</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>7</Gold>
+    </costList>
+  </ThingDef>
+</Defs>

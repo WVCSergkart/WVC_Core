@@ -180,12 +180,23 @@
 	  <li>Bionic</li>
 	</tradeTags>
   </ThingDef>
-
   <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_SpecializedCybertechBionic" ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic" Abstract="True">
-	<description>Body part created using high technology.</description>
 	<recipeMaker>
 	  <researchPrerequisites>
 		<li MayRequire="ludeon.rimworld.royalty">SpecializedLimbs</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic" ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic" Abstract="True">
+	<tradeTags Inherit="False">
+	  <li>WVC_UltraAnimalBionic</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>AdvancedAnimals</li>
+	</techHediffsTags>
+	<recipeMaker>
+	  <researchPrerequisites>
+		<li>WVC_AnimalBionicTech_Cybernetic</li>
 	  </researchPrerequisites>
 	</recipeMaker>
   </ThingDef>
@@ -226,6 +237,19 @@
 	  <li>ImplantEmpireRoyal</li>
 	</techHediffsTags>
   </ThingDef>
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalBionic" ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic" Abstract="True">
+	<tradeTags Inherit="False">
+	  <li>WVC_UltraAnimalBionic</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>AdvancedAnimals</li>
+	</techHediffsTags>
+	<recipeMaker>
+	  <researchPrerequisites>
+		<li>WVC_AnimalBionicTech_Ultratech</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
 
   <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_MechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
 	<description>A body part created using mecha technology. Does not require anesthesia.</description>
@@ -263,6 +287,19 @@
 	<techHediffsTags Inherit="False">
 	  <li>ImplantEmpireRoyal</li>
 	</techHediffsTags>
+  </ThingDef>
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic" ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechBionic" Abstract="True">
+	<tradeTags Inherit="False">
+	  <li>WVC_UltraAnimalBionic</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>AdvancedAnimals</li>
+	</techHediffsTags>
+	<recipeMaker>
+	  <researchPrerequisites>
+		<li>WVC_AnimalBionicTech_Mechtech</li>
+	  </researchPrerequisites>
+	</recipeMaker>
   </ThingDef>
 
   <!--=====================================================================-->

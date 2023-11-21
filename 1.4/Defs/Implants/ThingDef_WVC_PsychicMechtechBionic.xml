@@ -3,7 +3,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Eye_Ultra</defName>
     <label>psychic mechtech eye</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Eye_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -19,7 +18,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Ear_Ultra</defName>
     <label>psychic mechtech ear</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Ear_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -35,7 +33,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Jaw_Ultra</defName>
     <label>psychic mechtech jaw</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Jaw_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -51,7 +48,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Nose_Ultra</defName>
     <label>psychic mechtech nose</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Nose_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -67,7 +63,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Stomach_Ultra</defName>
     <label>psychic mechtech stomach</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Stomach_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -83,7 +78,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Spine_Ultra</defName>
     <label>psychic mechtech spine</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Spine_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -99,7 +93,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Heart_Ultra</defName>
     <label>psychic mechtech heart</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Heart_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -115,7 +108,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Kidney_Ultra</defName>
     <label>psychic mechtech kidney</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Kidney_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -131,7 +123,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Liver_Ultra</defName>
     <label>psychic mechtech liver</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Liver_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -147,7 +138,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Lung_Ultra</defName>
     <label>psychic mechtech lung</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Lung_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -163,7 +153,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Shoulder_Ultra</defName>
     <label>psychic mechtech arm</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Shoulder_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -179,7 +168,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Leg_Ultra</defName>
     <label>psychic mechtech leg</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_PsychicMechtechBionic_Leg_Ultra</RecipeDef>
     </descriptionHyperlinks>

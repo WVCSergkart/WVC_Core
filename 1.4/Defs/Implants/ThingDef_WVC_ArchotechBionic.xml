@@ -3,7 +3,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Eye_Ultra</defName>
     <label>advanced mechtech eye</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Eye_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -20,7 +19,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Ear_Ultra</defName>
     <label>advanced mechtech ear</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Ear_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -37,7 +35,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Jaw_Ultra</defName>
     <label>advanced mechtech jaw</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Jaw_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -54,7 +51,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Nose_Ultra</defName>
     <label>advanced mechtech nose</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Nose_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -71,7 +67,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Stomach_Ultra</defName>
     <label>advanced mechtech stomach</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Stomach_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -88,7 +83,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Spine_Ultra</defName>
     <label>advanced mechtech spine</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Spine_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -105,7 +99,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Heart_Ultra</defName>
     <label>advanced mechtech heart</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Heart_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -122,7 +115,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Kidney_Ultra</defName>
     <label>advanced mechtech kidney</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Kidney_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -139,7 +131,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Liver_Ultra</defName>
     <label>advanced mechtech liver</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Liver_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -156,7 +147,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Lung_Ultra</defName>
     <label>advanced mechtech lung</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Lung_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -173,7 +163,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Shoulder_Ultra</defName>
     <label>advanced mechtech arm</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Shoulder_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -190,7 +179,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Leg_Ultra</defName>
     <label>advanced mechtech leg</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Leg_Ultra</RecipeDef>
     </descriptionHyperlinks>

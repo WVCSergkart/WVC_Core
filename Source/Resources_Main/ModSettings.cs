@@ -11,6 +11,8 @@ namespace WVC_UltraExpansion
 	public class WVC_UltraSettings : ModSettings
 	{
 		// Graphic
+		public bool implantGenerator_SaveBaseImplants = false;
+		public bool implantGenerator_SaveRecipeDefsInList = false;
 		public bool implantGenerator_FullLogging = false;
 
 		public IEnumerable<string> GetEnabledSettings => from specificSetting in GetType().GetFields()
@@ -19,6 +21,8 @@ namespace WVC_UltraExpansion
 
 		public override void ExposeData()
 		{
+			Scribe_Values.Look(ref implantGenerator_SaveBaseImplants, "implantGenerator_SaveBaseImplants", defaultValue: false);
+			Scribe_Values.Look(ref implantGenerator_SaveRecipeDefsInList, "implantGenerator_SaveRecipeDefsInList", defaultValue: false);
 			Scribe_Values.Look(ref implantGenerator_FullLogging, "implantGenerator_FullLogging", defaultValue: false);
 		}
 	}
@@ -99,10 +103,13 @@ namespace WVC_UltraExpansion
 				// listingStandard.Label("WVC_UltraSettings_Label_DEV".Translate() + ":", -1);
 				// listingStandard.CheckboxLabeled("WVC_UltraSettings_Label_Generator".Translate(), ref settings.implantGenerator, "WVC_UltraSettings_Tooltip_Generator".Translate());
 				listingStandard.Label("WVC_UltraSettings_Label_DEV".Translate() + ":", -1,"WVC_UltraSettings_Tooltip_DEV".Translate());
-				listingStandard.CheckboxLabeled("DEV: Re-Generate Defs Logging", ref settings.implantGenerator_FullLogging);
-				if (listingStandard.ButtonText("DEV: Re-Generate Implants"))
+				listingStandard.CheckboxLabeled("DEV: Save Defs", ref settings.implantGenerator_SaveBaseImplants);
+				// listingStandard.CheckboxLabeled("DEV: Generate Base Implants", ref settings.implantGenerator_BaseImplants);
+				listingStandard.CheckboxLabeled("DEV: Save RecipeDef defNames in patch", ref settings.implantGenerator_SaveRecipeDefsInList);
+				listingStandard.CheckboxLabeled("DEV: Defs Logging", ref settings.implantGenerator_FullLogging);
+				if (listingStandard.ButtonText("DEV: Re-Generate"))
 				{
-					ImplantGenerator.TemplatesUtility.GeneratorInitialization();
+					ImplantGenerator.GeneratorMainUtility.GeneratorInitialization();
 				}
 			}
 			listingStandard.End();

@@ -4,6 +4,7 @@
     <defName>Install_Hediff_WVC_RecoveryMechtechBionic_Eye_Ultra</defName>
     <label>install recovery mechtech eye</label>
     <description>Install an recovery mechtech eye.</description>
+    <jobString>Installing recovery mechtech eye.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Eye_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_RecoveryMechtechBionic_Eye_Ultra</HediffDef>
@@ -31,6 +32,7 @@
     <defName>Install_Hediff_WVC_RecoveryMechtechBionic_Ear_Ultra</defName>
     <label>install recovery mechtech ear</label>
     <description>Install an recovery mechtech ear.</description>
+    <jobString>Installing recovery mechtech ear.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Ear_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_RecoveryMechtechBionic_Ear_Ultra</HediffDef>
@@ -58,6 +60,7 @@
     <defName>Install_Hediff_WVC_RecoveryMechtechBionic_Jaw_Ultra</defName>
     <label>install recovery mechtech jaw</label>
     <description>Install an recovery mechtech jaw.</description>
+    <jobString>Installing recovery mechtech jaw.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Jaw_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_RecoveryMechtechBionic_Jaw_Ultra</HediffDef>
@@ -85,6 +88,7 @@
     <defName>Install_Hediff_WVC_RecoveryMechtechBionic_Nose_Ultra</defName>
     <label>install recovery mechtech nose</label>
     <description>Install an recovery mechtech nose.</description>
+    <jobString>Installing recovery mechtech nose.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Nose_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_RecoveryMechtechBionic_Nose_Ultra</HediffDef>
@@ -112,6 +116,7 @@
     <defName>Install_Hediff_WVC_RecoveryMechtechBionic_Stomach_Ultra</defName>
     <label>install recovery mechtech stomach</label>
     <description>Install an recovery mechtech stomach.</description>
+    <jobString>Installing recovery mechtech stomach.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Stomach_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_RecoveryMechtechBionic_Stomach_Ultra</HediffDef>
@@ -139,6 +144,7 @@
     <defName>Install_Hediff_WVC_RecoveryMechtechBionic_Spine_Ultra</defName>
     <label>install recovery mechtech spine</label>
     <description>Install an recovery mechtech spine.</description>
+    <jobString>Installing recovery mechtech spine.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Spine_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_RecoveryMechtechBionic_Spine_Ultra</HediffDef>
@@ -166,6 +172,7 @@
     <defName>Install_Hediff_WVC_RecoveryMechtechBionic_Heart_Ultra</defName>
     <label>install recovery mechtech heart</label>
     <description>Install an recovery mechtech heart.</description>
+    <jobString>Installing recovery mechtech heart.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Heart_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_RecoveryMechtechBionic_Heart_Ultra</HediffDef>
@@ -193,6 +200,7 @@
     <defName>Install_Hediff_WVC_RecoveryMechtechBionic_Kidney_Ultra</defName>
     <label>install recovery mechtech kidney</label>
     <description>Install an recovery mechtech kidney.</description>
+    <jobString>Installing recovery mechtech kidney.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Kidney_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_RecoveryMechtechBionic_Kidney_Ultra</HediffDef>
@@ -220,6 +228,7 @@
     <defName>Install_Hediff_WVC_RecoveryMechtechBionic_Liver_Ultra</defName>
     <label>install recovery mechtech liver</label>
     <description>Install an recovery mechtech liver.</description>
+    <jobString>Installing recovery mechtech liver.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Liver_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_RecoveryMechtechBionic_Liver_Ultra</HediffDef>
@@ -247,6 +256,7 @@
     <defName>Install_Hediff_WVC_RecoveryMechtechBionic_Lung_Ultra</defName>
     <label>install recovery mechtech lung</label>
     <description>Install an recovery mechtech lung.</description>
+    <jobString>Installing recovery mechtech lung.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Lung_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_RecoveryMechtechBionic_Lung_Ultra</HediffDef>
@@ -274,6 +284,7 @@
     <defName>Install_Hediff_WVC_RecoveryMechtechBionic_Shoulder_Ultra</defName>
     <label>install recovery mechtech arm</label>
     <description>Install an recovery mechtech arm.</description>
+    <jobString>Installing recovery mechtech arm.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Shoulder_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_RecoveryMechtechBionic_Shoulder_Ultra</HediffDef>
@@ -301,6 +312,7 @@
     <defName>Install_Hediff_WVC_RecoveryMechtechBionic_Leg_Ultra</defName>
     <label>install recovery mechtech leg</label>
     <description>Install an recovery mechtech leg.</description>
+    <jobString>Installing recovery mechtech leg.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Leg_Ultra</ThingDef>
       <HediffDef>Hediff_WVC_RecoveryMechtechBionic_Leg_Ultra</HediffDef>

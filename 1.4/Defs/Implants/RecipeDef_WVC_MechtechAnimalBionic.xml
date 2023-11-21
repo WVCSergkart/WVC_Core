@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_MechtechAnimalBionic_Beak_Ultra</defName>
+    <label>install mechtech beak</label>
+    <description>Install an mechtech beak.</description>
+    <jobString>Installing mechtech beak.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalBionic_Beak_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalBionic_Beak_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Beak</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_MechtechAnimalBionic_Beak_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_MechtechAnimalBionic_Beak_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_MechtechAnimalBionic_Beak_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_MechtechAnimalBionic_SnakeMouth_Ultra</defName>
+    <label>install mechtech snake jaw</label>
+    <description>Install an mechtech snake jaw.</description>
+    <jobString>Installing mechtech snake jaw.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalBionic_SnakeMouth_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalBionic_SnakeMouth_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>SnakeMouth</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_MechtechAnimalBionic_SnakeMouth_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_MechtechAnimalBionic_SnakeMouth_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_MechtechAnimalBionic_SnakeMouth_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_MechtechAnimalBionic_InsectHeart_Ultra</defName>
+    <label>install mechtech insect heart</label>
+    <description>Install an mechtech insect heart.</description>
+    <jobString>Installing mechtech insect heart.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalBionic_InsectHeart_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalBionic_InsectHeart_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>InsectHeart</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_MechtechAnimalBionic_InsectHeart_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_MechtechAnimalBionic_InsectHeart_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_MechtechAnimalBionic_InsectHeart_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_MechtechAnimalBionic_InsectNostril_Ultra</defName>
+    <label>install mechtech nostril</label>
+    <description>Install an mechtech nostril.</description>
+    <jobString>Installing mechtech nostril.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalBionic_InsectNostril_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalBionic_InsectNostril_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>InsectNostril</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_MechtechAnimalBionic_InsectNostril_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_MechtechAnimalBionic_InsectNostril_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_MechtechAnimalBionic_InsectNostril_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_MechtechAnimalBionic_InsectMouth_Ultra</defName>
+    <label>install mechtech insect jaw</label>
+    <description>Install an mechtech insect jaw.</description>
+    <jobString>Installing mechtech insect jaw.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalBionic_InsectMouth_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalBionic_InsectMouth_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>InsectMouth</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_MechtechAnimalBionic_InsectMouth_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_MechtechAnimalBionic_InsectMouth_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_MechtechAnimalBionic_InsectMouth_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_MechtechAnimalBionic_AnimalJaw_Ultra</defName>
+    <label>install mechtech animal jaw</label>
+    <description>Install an mechtech animal jaw.</description>
+    <jobString>Installing mechtech animal jaw.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalBionic_AnimalJaw_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalBionic_AnimalJaw_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>AnimalJaw</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_MechtechAnimalBionic_AnimalJaw_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_MechtechAnimalBionic_AnimalJaw_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_MechtechAnimalBionic_AnimalJaw_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_MechtechAnimalBionic_Tail_Ultra</defName>
+    <label>install mechtech tail</label>
+    <description>Install an mechtech tail.</description>
+    <jobString>Installing mechtech tail.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalBionic_Tail_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalBionic_Tail_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Tail</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_MechtechAnimalBionic_Tail_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_MechtechAnimalBionic_Tail_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_MechtechAnimalBionic_Tail_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_MechtechAnimalBionic_Antenna_Ultra</defName>
+    <label>install mechtech insect antenna</label>
+    <description>Install an mechtech insect antenna.</description>
+    <jobString>Installing mechtech insect antenna.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalBionic_Antenna_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalBionic_Antenna_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Antenna</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_MechtechAnimalBionic_Antenna_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_MechtechAnimalBionic_Antenna_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_MechtechAnimalBionic_Antenna_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_MechtechAnimalBionic_Elytra_Ultra</defName>
+    <label>install mechtech insect elytra</label>
+    <description>Install an mechtech insect elytra.</description>
+    <jobString>Installing mechtech insect elytra.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalBionic_Elytra_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalBionic_Elytra_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>Elytra</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_MechtechAnimalBionic_Elytra_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_MechtechAnimalBionic_Elytra_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_MechtechAnimalBionic_Elytra_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_MechtechAnimalBionic_InsectLeg_Ultra</defName>
+    <label>install mechtech insect leg</label>
+    <description>Install an mechtech insect leg.</description>
+    <jobString>Installing mechtech insect leg.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalBionic_InsectLeg_Ultra</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalBionic_InsectLeg_Ultra</HediffDef>
+    </descriptionHyperlinks>
+    <appliedOnFixedBodyParts>
+      <li>InsectLeg</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Hediff_WVC_MechtechAnimalBionic_InsectLeg_Ultra</addsHediff>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_MechtechAnimalBionic_InsectLeg_Ultra</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_MechtechAnimalBionic_InsectLeg_Ultra</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>

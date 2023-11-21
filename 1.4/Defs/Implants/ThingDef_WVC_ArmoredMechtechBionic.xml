@@ -3,7 +3,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechBionic">
     <defName>WVC_ArmoredMechtechBionic_Eye_Ultra</defName>
     <label>armored mechtech eye</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Eye_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -18,7 +17,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechBionic">
     <defName>WVC_ArmoredMechtechBionic_Ear_Ultra</defName>
     <label>armored mechtech ear</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Ear_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -33,7 +31,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechBionic">
     <defName>WVC_ArmoredMechtechBionic_Jaw_Ultra</defName>
     <label>armored mechtech jaw</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Jaw_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -48,7 +45,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechBionic">
     <defName>WVC_ArmoredMechtechBionic_Nose_Ultra</defName>
     <label>armored mechtech nose</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Nose_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -63,7 +59,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechBionic">
     <defName>WVC_ArmoredMechtechBionic_Stomach_Ultra</defName>
     <label>armored mechtech stomach</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Stomach_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -78,7 +73,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechBionic">
     <defName>WVC_ArmoredMechtechBionic_Spine_Ultra</defName>
     <label>armored mechtech spine</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Spine_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -93,7 +87,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechBionic">
     <defName>WVC_ArmoredMechtechBionic_Heart_Ultra</defName>
     <label>armored mechtech heart</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Heart_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -108,7 +101,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechBionic">
     <defName>WVC_ArmoredMechtechBionic_Kidney_Ultra</defName>
     <label>armored mechtech kidney</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Kidney_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -123,7 +115,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechBionic">
     <defName>WVC_ArmoredMechtechBionic_Liver_Ultra</defName>
     <label>armored mechtech liver</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Liver_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -138,7 +129,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechBionic">
     <defName>WVC_ArmoredMechtechBionic_Lung_Ultra</defName>
     <label>armored mechtech lung</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Lung_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -153,7 +143,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechBionic">
     <defName>WVC_ArmoredMechtechBionic_Shoulder_Ultra</defName>
     <label>armored mechtech arm</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Shoulder_Ultra</RecipeDef>
     </descriptionHyperlinks>
@@ -168,7 +157,6 @@
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechBionic">
     <defName>WVC_ArmoredMechtechBionic_Leg_Ultra</defName>
     <label>armored mechtech leg</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Leg_Ultra</RecipeDef>
     </descriptionHyperlinks>

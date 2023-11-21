@@ -3,7 +3,6 @@
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ToughMechtechBionic">
     <defName>Hediff_WVC_ToughMechtechBionic_Eye_Ultra</defName>
     <label>tough mechtech eye</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Eye_Ultra</ThingDef>
       <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Eye_Ultra</RecipeDef>
@@ -22,7 +21,6 @@
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ToughMechtechBionic">
     <defName>Hediff_WVC_ToughMechtechBionic_Ear_Ultra</defName>
     <label>tough mechtech ear</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Ear_Ultra</ThingDef>
       <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Ear_Ultra</RecipeDef>
@@ -41,7 +39,6 @@
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ToughMechtechBionic">
     <defName>Hediff_WVC_ToughMechtechBionic_Jaw_Ultra</defName>
     <label>tough mechtech jaw</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Jaw_Ultra</ThingDef>
       <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Jaw_Ultra</RecipeDef>
@@ -76,7 +73,6 @@
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ToughMechtechBionic">
     <defName>Hediff_WVC_ToughMechtechBionic_Nose_Ultra</defName>
     <label>tough mechtech nose</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Nose_Ultra</ThingDef>
       <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Nose_Ultra</RecipeDef>
@@ -96,7 +92,6 @@
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ToughMechtechBionic">
     <defName>Hediff_WVC_ToughMechtechBionic_Stomach_Ultra</defName>
     <label>tough mechtech stomach</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Stomach_Ultra</ThingDef>
       <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Stomach_Ultra</RecipeDef>
@@ -117,7 +112,6 @@
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ToughMechtechBionic">
     <defName>Hediff_WVC_ToughMechtechBionic_Spine_Ultra</defName>
     <label>tough mechtech spine</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Spine_Ultra</ThingDef>
       <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Spine_Ultra</RecipeDef>
@@ -136,7 +130,6 @@
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ToughMechtechBionic">
     <defName>Hediff_WVC_ToughMechtechBionic_Heart_Ultra</defName>
     <label>tough mechtech heart</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Heart_Ultra</ThingDef>
       <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Heart_Ultra</RecipeDef>
@@ -157,7 +150,6 @@
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ToughMechtechBionic">
     <defName>Hediff_WVC_ToughMechtechBionic_Kidney_Ultra</defName>
     <label>tough mechtech kidney</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Kidney_Ultra</ThingDef>
       <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Kidney_Ultra</RecipeDef>
@@ -179,7 +171,6 @@
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ToughMechtechBionic">
     <defName>Hediff_WVC_ToughMechtechBionic_Liver_Ultra</defName>
     <label>tough mechtech liver</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Liver_Ultra</ThingDef>
       <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Liver_Ultra</RecipeDef>
@@ -200,7 +191,6 @@
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ToughMechtechBionic">
     <defName>Hediff_WVC_ToughMechtechBionic_Lung_Ultra</defName>
     <label>tough mechtech lung</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Lung_Ultra</ThingDef>
       <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Lung_Ultra</RecipeDef>
@@ -219,7 +209,6 @@
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ToughMechtechBionic">
     <defName>Hediff_WVC_ToughMechtechBionic_Shoulder_Ultra</defName>
     <label>tough mechtech arm</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Shoulder_Ultra</ThingDef>
       <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Shoulder_Ultra</RecipeDef>
@@ -253,7 +242,6 @@
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ToughMechtechBionic">
     <defName>Hediff_WVC_ToughMechtechBionic_Leg_Ultra</defName>
     <label>tough mechtech leg</label>
-    <description>Body part created using high technology.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ToughMechtechBionic_Leg_Ultra</ThingDef>
       <RecipeDef>Install_Hediff_WVC_ToughMechtechBionic_Leg_Ultra</RecipeDef>

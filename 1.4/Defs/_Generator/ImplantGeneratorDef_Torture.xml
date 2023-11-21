@@ -5,40 +5,6 @@
 	<defName>WVC_TortureBionic</defName>
 	<label>torture bionic {0}</label>
 	<labelNoun>an torture bionic {0}</labelNoun>
-	<techLevel>Spacer</techLevel>
-	<defaultLabelColor>(255,188,196)</defaultLabelColor>
-	<priceOffset>-200</priceOffset>
-	<addedPartProps>
-	  <solid>true</solid>
-	  <partEfficiency>1.20</partEfficiency>
-	  <betterThanNatural>true</betterThanNatural>
-	</addedPartProps>
-	<thingCategories>
-	  <li>WVC_BodyPartsTorture</li>
-	</thingCategories>
-	<graphicData>
-	  <color>(179,163,151)</color>
-	</graphicData>
-	<craftingSkillRequirements>
-	  <Crafting>6</Crafting>
-	  <Intellectual>8</Intellectual>
-	  <Medicine>6</Medicine>
-	</craftingSkillRequirements>
-	<medicalSkillRequirements>
-	  <Medicine>9</Medicine>
-	</medicalSkillRequirements>
-	<researchPrerequisites>
-	  <li>WVC_BionicTech_Torture</li>
-	</researchPrerequisites>
-	<recipeUsers>
-	  <li>WVC_ExperimentalCraftingBench</li>
-	</recipeUsers>
-	<tradeTags Inherit="False">
-	  <li>WVC_UltraBionic</li>
-	</tradeTags>
-	<techHediffsTags Inherit="False">
-	  <li>Advanced</li>
-	</techHediffsTags>
 	<changesByPart>
 	  <li>
 		<def>Eye</def>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
+    <defName>WVC_CybertechAnimalBionic_Beak_Ultra</defName>
+    <label>cybertech beak</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Beak_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>5</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
+    <defName>WVC_CybertechAnimalBionic_SnakeMouth_Ultra</defName>
+    <label>cybertech snake jaw</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_SnakeMouth_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>5</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
+    <defName>WVC_CybertechAnimalBionic_InsectHeart_Ultra</defName>
+    <label>cybertech insect heart</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectHeart_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>9</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
+    <defName>WVC_CybertechAnimalBionic_InsectNostril_Ultra</defName>
+    <label>cybertech nostril</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectNostril_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Gold>2</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
+    <defName>WVC_CybertechAnimalBionic_InsectMouth_Ultra</defName>
+    <label>cybertech insect jaw</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectMouth_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>5</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
+    <defName>WVC_CybertechAnimalBionic_AnimalJaw_Ultra</defName>
+    <label>cybertech animal jaw</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_AnimalJaw_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>5</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
+    <defName>WVC_CybertechAnimalBionic_Tail_Ultra</defName>
+    <label>cybertech tail</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Tail_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>16</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Gold>7</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
+    <defName>WVC_CybertechAnimalBionic_Antenna_Ultra</defName>
+    <label>cybertech insect antenna</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Antenna_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>4</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
+    <defName>WVC_CybertechAnimalBionic_Elytra_Ultra</defName>
+    <label>cybertech insect elytra</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Elytra_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>14</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Gold>4</Gold>
+    </costList>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
+    <defName>WVC_CybertechAnimalBionic_InsectLeg_Ultra</defName>
+    <label>cybertech insect leg</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectLeg_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Gold>7</Gold>
+    </costList>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Beak_Ultra</defName>
+    <label>cybertech beak</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAnimalBionic_Beak_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Beak_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Beak_Ultra</spawnThingOnRemoved>
+    <stages />
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <power>17</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit />
+            <soundMeleeMiss />
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_SnakeMouth_Ultra</defName>
+    <label>cybertech snake jaw</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAnimalBionic_SnakeMouth_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_SnakeMouth_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_SnakeMouth_Ultra</spawnThingOnRemoved>
+    <stages />
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <power>17</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit />
+            <soundMeleeMiss />
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_InsectHeart_Ultra</defName>
+    <label>cybertech insect heart</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAnimalBionic_InsectHeart_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectHeart_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_InsectHeart_Ultra</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <totalBleedFactor>0.9</totalBleedFactor>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_InsectNostril_Ultra</defName>
+    <label>cybertech nostril</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAnimalBionic_InsectNostril_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectNostril_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_InsectNostril_Ultra</spawnThingOnRemoved>
+    <stages />
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_InsectMouth_Ultra</defName>
+    <label>cybertech insect jaw</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAnimalBionic_InsectMouth_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectMouth_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_InsectMouth_Ultra</spawnThingOnRemoved>
+    <stages />
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <power>17</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit />
+            <soundMeleeMiss />
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_AnimalJaw_Ultra</defName>
+    <label>cybertech animal jaw</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAnimalBionic_AnimalJaw_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_AnimalJaw_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_AnimalJaw_Ultra</spawnThingOnRemoved>
+    <stages />
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <power>17</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit />
+            <soundMeleeMiss />
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Tail_Ultra</defName>
+    <label>cybertech tail</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAnimalBionic_Tail_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Tail_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Tail_Ultra</spawnThingOnRemoved>
+    <stages />
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Antenna_Ultra</defName>
+    <label>cybertech insect antenna</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAnimalBionic_Antenna_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Antenna_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Antenna_Ultra</spawnThingOnRemoved>
+    <stages />
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Elytra_Ultra</defName>
+    <label>cybertech insect elytra</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAnimalBionic_Elytra_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Elytra_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Elytra_Ultra</spawnThingOnRemoved>
+    <stages />
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_InsectLeg_Ultra</defName>
+    <label>cybertech insect leg</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAnimalBionic_InsectLeg_Ultra</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectLeg_Ultra</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_InsectLeg_Ultra</spawnThingOnRemoved>
+    <stages />
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>feet</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>17</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>
