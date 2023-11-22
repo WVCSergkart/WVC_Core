@@ -8,9 +8,7 @@
       <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Eye_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_SpecializedCybertechBionic_Eye_Ultra</spawnThingOnRemoved>
-    <stages>
-      <li />
-    </stages>
+    <stages />
     <comps />
     <eyeGraphicEast>
       <graphicClass>Verse.Graphic_Single</graphicClass>
@@ -20,6 +18,9 @@
       <graphicClass>Verse.Graphic_Single</graphicClass>
       <texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
     </eyeGraphicSouth>
+    <addedPartProps>
+      <partEfficiency>0</partEfficiency>
+    </addedPartProps>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_SpecializedCybertechBionic">
     <defName>Hediff_WVC_SpecializedCybertechBionic_Ear_Ultra</defName>
@@ -29,12 +30,13 @@
       <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Ear_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_SpecializedCybertechBionic_Ear_Ultra</spawnThingOnRemoved>
-    <stages>
-      <li />
-    </stages>
+    <stages />
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps>
+      <partEfficiency>0</partEfficiency>
+    </addedPartProps>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_SpecializedCybertechBionic">
     <defName>Hediff_WVC_SpecializedCybertechBionic_Jaw_Ultra</defName>
@@ -49,6 +51,12 @@
         <statOffsets>
           <PawnBeauty>1</PawnBeauty>
         </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Talking</capacity>
+            <setMax>0</setMax>
+          </li>
+        </capMods>
       </li>
     </stages>
     <comps>
@@ -61,14 +69,13 @@
             </capacities>
             <power>15</power>
             <cooldownTime>2</cooldownTime>
-            <soundMeleeHit />
-            <soundMeleeMiss />
           </li>
         </tools>
       </li>
     </comps>
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_SpecializedCybertechBionic">
     <defName>Hediff_WVC_SpecializedCybertechBionic_Shoulder_Ultra</defName>
@@ -104,5 +111,6 @@
     </comps>
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
 </Defs>

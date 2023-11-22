@@ -76,7 +76,7 @@
 	  <WorkToMake>15000</WorkToMake>
 	  <!-- <MarketValue>1000</MarketValue> -->
 	  <Mass>3</Mass>
-	  <DeteriorationRate>0</DeteriorationRate>
+	  <DeteriorationRate>1.5</DeteriorationRate>
 	</statBases>
 	<recipeMaker>
 	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -99,7 +99,7 @@
 	<techHediffsTags Inherit="False">
 	  <li>Advanced</li>
 	</techHediffsTags>
-	<thingSetMakerTags>
+	<thingSetMakerTags Inherit="False">
 	  <li>RewardStandardLowFreq</li>
 	</thingSetMakerTags>
   </ThingDef>
@@ -135,10 +135,10 @@
 	<statBases>
 	  <WorkToMake>7000</WorkToMake>
 	  <!-- <MarketValue>1100</MarketValue> -->
-	  <DeteriorationRate>0.3</DeteriorationRate>
+	  <!-- <DeteriorationRate>0.3</DeteriorationRate> -->
 	</statBases>
 	<tradeTags>
-	  <li>Bionic</li>
+	  <!-- <li>Bionic</li> -->
 	</tradeTags>
 	<techHediffsTags Inherit="False">
 	  <li>PainCauser</li>
@@ -174,10 +174,10 @@
 	<statBases>
 	  <WorkToMake>15000</WorkToMake>
 	  <!-- <MarketValue>1100</MarketValue> -->
-	  <DeteriorationRate>0.1</DeteriorationRate>
+	  <!-- <DeteriorationRate>0.1</DeteriorationRate> -->
 	</statBases>
 	<tradeTags>
-	  <li>Bionic</li>
+	  <!-- <li>Bionic</li> -->
 	</tradeTags>
   </ThingDef>
   <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_SpecializedCybertechBionic" ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic" Abstract="True">
@@ -195,7 +195,7 @@
 	  <li>AdvancedAnimals</li>
 	</techHediffsTags>
 	<recipeMaker>
-	  <researchPrerequisites>
+	  <researchPrerequisites Inherit="False">
 		<li>WVC_AnimalBionicTech_Cybernetic</li>
 	  </researchPrerequisites>
 	</recipeMaker>
@@ -245,7 +245,7 @@
 	  <li>AdvancedAnimals</li>
 	</techHediffsTags>
 	<recipeMaker>
-	  <researchPrerequisites>
+	  <researchPrerequisites Inherit="False">
 		<li>WVC_AnimalBionicTech_Ultratech</li>
 	  </researchPrerequisites>
 	</recipeMaker>
@@ -296,7 +296,7 @@
 	  <li>AdvancedAnimals</li>
 	</techHediffsTags>
 	<recipeMaker>
-	  <researchPrerequisites>
+	  <researchPrerequisites Inherit="False">
 		<li>WVC_AnimalBionicTech_Mechtech</li>
 	  </researchPrerequisites>
 	</recipeMaker>
@@ -340,9 +340,8 @@
 	  <li>WVC_NodeImplants</li>
 	</techHediffsTags>
 	<statBases>
-	  <WorkToMake>35000</WorkToMake>
-	  <Mass>3</Mass>
-	  <DeteriorationRate>0</DeteriorationRate>
+	  <WorkToMake>55000</WorkToMake>
+	  <DeteriorationRate>0.5</DeteriorationRate>
 	</statBases>
   </ThingDef>
 

@@ -20,6 +20,7 @@
       <graphicClass>Verse.Graphic_Single</graphicClass>
       <texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
     </eyeGraphicSouth>
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_TortureBionic">
     <defName>Hediff_WVC_TortureBionic_Ear_Ultra</defName>
@@ -35,6 +36,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_TortureBionic">
     <defName>Hediff_WVC_TortureBionic_Jaw_Ultra</defName>
@@ -61,14 +63,13 @@
             </capacities>
             <power>15</power>
             <cooldownTime>2</cooldownTime>
-            <soundMeleeHit />
-            <soundMeleeMiss />
           </li>
         </tools>
       </li>
     </comps>
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_TortureBionic">
     <defName>Hediff_WVC_TortureBionic_Nose_Ultra</defName>
@@ -88,6 +89,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_TortureBionic">
     <defName>Hediff_WVC_TortureBionic_Stomach_Ultra</defName>
@@ -103,6 +105,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_TortureBionic">
     <defName>Hediff_WVC_TortureBionic_Spine_Ultra</defName>
@@ -118,6 +121,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_TortureBionic">
     <defName>Hediff_WVC_TortureBionic_Heart_Ultra</defName>
@@ -133,6 +137,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_TortureBionic">
     <defName>Hediff_WVC_TortureBionic_Kidney_Ultra</defName>
@@ -148,6 +153,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_TortureBionic">
     <defName>Hediff_WVC_TortureBionic_Liver_Ultra</defName>
@@ -163,6 +169,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_TortureBionic">
     <defName>Hediff_WVC_TortureBionic_Lung_Ultra</defName>
@@ -178,6 +185,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_TortureBionic">
     <defName>Hediff_WVC_TortureBionic_Shoulder_Ultra</defName>
@@ -208,6 +216,7 @@
     </comps>
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_TortureBionic">
     <defName>Hediff_WVC_TortureBionic_Leg_Ultra</defName>
@@ -238,5 +247,6 @@
     </comps>
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
 </Defs>

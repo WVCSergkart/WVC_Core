@@ -315,8 +315,9 @@ namespace WVC_UltraExpansion
 
 			public static XElement GenerateHediffDefFile(HediffDef def, ImplantGeneratorDef generatorDef)
 			{
-				XElement xElement = new("HediffDef", new XAttribute("ParentName", "WVC_Ultra_ImplantHediffDef_" + generatorDef.defName), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("descriptionHyperlinks"), new XElement("spawnThingOnRemoved", def.spawnThingOnRemoved.defName), new XElement("stages"), new XElement("comps"), new XElement("eyeGraphicEast"), new XElement("eyeGraphicSouth"));
+				XElement xElement = new("HediffDef", new XAttribute("ParentName", "WVC_Ultra_ImplantHediffDef_" + generatorDef.defName), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("descriptionHyperlinks"), new XElement("spawnThingOnRemoved", def.spawnThingOnRemoved.defName), new XElement("stages"), new XElement("comps"), new XElement("eyeGraphicEast"), new XElement("eyeGraphicSouth"), new XElement("addedPartProps"));
 				XElement descriptionHyperlinks = xElement.Element("descriptionHyperlinks");
+				// Log.Error("1");
 				foreach (var i in def.descriptionHyperlinks)
 				{
 					if (i.def is ThingDef)
@@ -332,6 +333,7 @@ namespace WVC_UltraExpansion
 						descriptionHyperlinks.Add(new XElement("HediffDef", i.def.defName));
 					}
 				}
+				// Log.Error("2");
 				if (def.eyeGraphicEast != null)
 				{
 					// XElement hediffDef = xElement.Element("HediffDef");
@@ -343,6 +345,7 @@ namespace WVC_UltraExpansion
 					eyeGraphicEast.Add(new XElement("graphicClass", def.eyeGraphicEast.graphicClass));
 					eyeGraphicEast.Add(new XElement("texPath", def.eyeGraphicEast.texPath));
 				}
+				// Log.Error("3");
 				if (def.eyeGraphicSouth != null)
 				{
 					// XElement hediffDef = xElement.Element("HediffDef");
@@ -354,6 +357,13 @@ namespace WVC_UltraExpansion
 					eyeGraphicSouth.Add(new XElement("graphicClass", def.eyeGraphicSouth.graphicClass));
 					eyeGraphicSouth.Add(new XElement("texPath", def.eyeGraphicSouth.texPath));
 				}
+				// Log.Error("partEfficiency");
+				if (def.addedPartProps != null && def.addedPartProps.partEfficiency != 1f)
+				{
+					XElement addedPartProp = xElement.Element("addedPartProps");
+					addedPartProp.Add(new XElement("partEfficiency", def.addedPartProps.partEfficiency));
+				}
+				// Log.Error("After partEfficiency");
 				XElement stages = xElement.Element("stages");
 				if (!def.stages.NullOrEmpty())
 				{
@@ -376,29 +386,64 @@ namespace WVC_UltraExpansion
 								}
 							}
 						}
+						// Log.Error("CapMods");
+						if (!stage.capMods.NullOrEmpty())
+						{
+							li.Add(new XElement("capMods"));
+							XElement capMods = li.Element("capMods");
+							// Log.Error("1");
+							foreach (var capMod in stage.capMods)
+							{
+								capMods.Add(new XElement("li"));
+								XElement capMods_li = capMods.Element("li");
+								capMods_li.Add(new XElement("capacity", capMod.capacity));
+								// Log.Error("2");
+								if (capMod.setMax <= 1f)
+								{
+									capMods_li.Add(new XElement("setMax", capMod.setMax));
+								}
+								// Log.Error("3");
+								if (capMod.offset != 0f)
+								{
+									capMods_li.Add(new XElement("offset", capMod.offset));
+								}
+								// Log.Error("4");
+								if (capMod.postFactor != 1f)
+								{
+									capMods_li.Add(new XElement("postFactor", capMod.postFactor));
+								}
+							}
+						}
+						// Log.Error("After CapMods");
 						if (stage.hungerRateFactor != 1f)
 						{
 							li.Add(new XElement("hungerRateFactor", stage.hungerRateFactor));
 						}
+						// Log.Error("foodPoisoningChanceFactor");
 						if (stage.foodPoisoningChanceFactor != 1f)
 						{
 							li.Add(new XElement("foodPoisoningChanceFactor", stage.foodPoisoningChanceFactor));
 						}
+						// Log.Error("naturalHealingFactor");
 						if (stage.naturalHealingFactor != -1f)
 						{
 							li.Add(new XElement("naturalHealingFactor", stage.naturalHealingFactor));
 						}
+						// Log.Error("totalBleedFactor");
 						if (stage.totalBleedFactor != 1f)
 						{
 							li.Add(new XElement("totalBleedFactor", stage.totalBleedFactor));
 						}
 					}
 				}
+				// Log.Error("Comps");
 				if (!def.comps.NullOrEmpty())
 				{
+					// Log.Error("1");
 					XElement comps = xElement.Element("comps");
 					foreach (var comp in def.comps)
 					{
+						// Log.Error("2");
 						comps.Add(new XElement("li", new XAttribute("Class", "HediffCompProperties_VerbGiver")));
 						XElement li = comps.Element("li");
 						// string nameClass = "Class";
@@ -406,25 +451,35 @@ namespace WVC_UltraExpansion
 						li.Add(new XElement("tools"));
 						XElement tools = li.Element("tools");
 						// tools = comp as HediffCompProperties_VerbGiver;
+						// Log.Error("3");
 						HediffCompProperties_VerbGiver verb = (HediffCompProperties_VerbGiver)comp;
 						foreach (var tool in verb.tools)
 						{
+							// Log.Error("4");
 							tools.Add(new XElement("li"));
 							XElement tools_li = tools.Element("li");
 							tools_li.Add(new XElement("label", tool.label));
 							tools_li.Add(new XElement("capacities"));
 							XElement capacities = tools_li.Element("capacities");
+							// Log.Error("5");
 							foreach (var capacitie in tool.capacities)
 							{
 								capacities.Add(new XElement("li", capacitie));
 							}
 							tools_li.Add(new XElement("power", tool.power));
 							tools_li.Add(new XElement("cooldownTime", tool.cooldownTime));
-							tools_li.Add(new XElement("soundMeleeHit", tool.soundMeleeHit));
-							tools_li.Add(new XElement("soundMeleeMiss", tool.soundMeleeMiss));
+							if (tool.soundMeleeHit != null)
+							{
+								tools_li.Add(new XElement("soundMeleeHit", tool.soundMeleeHit));
+							}
+							if (tool.soundMeleeMiss != null)
+							{
+								tools_li.Add(new XElement("soundMeleeMiss", tool.soundMeleeMiss));
+							}
 						}
 					}
 				}
+				// Log.Error("After Comps");
 				// string name = "ParentName";
 				// xElement.SetAttributeValue(name, "WVC_Ultra_ImplantHediffDef_" + generatorDef.defName);
 				return xElement;
@@ -439,7 +494,8 @@ namespace WVC_UltraExpansion
 					label = implantGeneratorDef.label.Formatted(def.label),
 					labelNoun = implantGeneratorDef.labelNoun.Formatted(def.label),
 					descriptionHyperlinks = new(),
-					spawnThingOnRemoved = thingDef
+					spawnThingOnRemoved = thingDef,
+					addedPartProps = new()
 				};
 				List<ChangesByPart> stageByPart = implantGeneratorDef.changesByPart;
 				for (int i = 0; i < stageByPart.Count; i++)
@@ -460,6 +516,10 @@ namespace WVC_UltraExpansion
 						if (stageByPart[i].eyeGraphicSouth != null)
 						{
 							hediffDef.eyeGraphicSouth = stageByPart[i].eyeGraphicSouth;
+						}
+						if (stageByPart[i].partEfficiency != 1f)
+						{
+							hediffDef.addedPartProps.partEfficiency = stageByPart[i].partEfficiency;
 						}
 						break;
 					}

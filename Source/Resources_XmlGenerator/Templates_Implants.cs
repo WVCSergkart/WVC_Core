@@ -40,7 +40,9 @@ namespace WVC_UltraExpansion
 
 		public GraphicData eyeGraphicEast;
 
-		public float eyeGraphicScale = 1f;
+		public float eyeGraphicScale = 0.2f;
+
+		public float partEfficiency = 1f;
 
 		public List<ThingDefCountClass> costList;
 

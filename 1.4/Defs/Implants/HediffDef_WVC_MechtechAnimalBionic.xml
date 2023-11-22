@@ -12,6 +12,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Ear_Ultra</defName>
@@ -25,6 +26,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Nose_Ultra</defName>
@@ -38,6 +40,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Stomach_Ultra</defName>
@@ -56,6 +59,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Spine_Ultra</defName>
@@ -69,6 +73,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Heart_Ultra</defName>
@@ -87,6 +92,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Kidney_Ultra</defName>
@@ -108,6 +114,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Liver_Ultra</defName>
@@ -128,6 +135,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Lung_Ultra</defName>
@@ -141,6 +149,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Leg_Ultra</defName>
@@ -169,6 +178,7 @@
     </comps>
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Beak_Ultra</defName>
@@ -189,14 +199,13 @@
             </capacities>
             <power>22</power>
             <cooldownTime>2</cooldownTime>
-            <soundMeleeHit />
-            <soundMeleeMiss />
           </li>
         </tools>
       </li>
     </comps>
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_SnakeMouth_Ultra</defName>
@@ -217,14 +226,13 @@
             </capacities>
             <power>22</power>
             <cooldownTime>2</cooldownTime>
-            <soundMeleeHit />
-            <soundMeleeMiss />
           </li>
         </tools>
       </li>
     </comps>
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_InsectHeart_Ultra</defName>
@@ -243,6 +251,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_InsectNostril_Ultra</defName>
@@ -256,6 +265,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_InsectMouth_Ultra</defName>
@@ -276,14 +286,13 @@
             </capacities>
             <power>22</power>
             <cooldownTime>2</cooldownTime>
-            <soundMeleeHit />
-            <soundMeleeMiss />
           </li>
         </tools>
       </li>
     </comps>
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_AnimalJaw_Ultra</defName>
@@ -304,14 +313,13 @@
             </capacities>
             <power>22</power>
             <cooldownTime>2</cooldownTime>
-            <soundMeleeHit />
-            <soundMeleeMiss />
           </li>
         </tools>
       </li>
     </comps>
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Tail_Ultra</defName>
@@ -325,6 +333,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Antenna_Ultra</defName>
@@ -338,6 +347,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Elytra_Ultra</defName>
@@ -351,6 +361,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_InsectLeg_Ultra</defName>
@@ -379,5 +390,6 @@
     </comps>
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
 </Defs>

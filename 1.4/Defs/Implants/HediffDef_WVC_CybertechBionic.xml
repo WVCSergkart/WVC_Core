@@ -18,6 +18,7 @@
       <graphicClass>Verse.Graphic_Single</graphicClass>
       <texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
     </eyeGraphicSouth>
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechBionic">
     <defName>Hediff_WVC_CybertechBionic_Ear_Ultra</defName>
@@ -31,6 +32,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechBionic">
     <defName>Hediff_WVC_CybertechBionic_Jaw_Ultra</defName>
@@ -57,14 +59,13 @@
             </capacities>
             <power>15</power>
             <cooldownTime>2</cooldownTime>
-            <soundMeleeHit />
-            <soundMeleeMiss />
           </li>
         </tools>
       </li>
     </comps>
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechBionic">
     <defName>Hediff_WVC_CybertechBionic_Nose_Ultra</defName>
@@ -84,6 +85,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechBionic">
     <defName>Hediff_WVC_CybertechBionic_Stomach_Ultra</defName>
@@ -101,6 +103,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechBionic">
     <defName>Hediff_WVC_CybertechBionic_Spine_Ultra</defName>
@@ -114,6 +117,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechBionic">
     <defName>Hediff_WVC_CybertechBionic_Heart_Ultra</defName>
@@ -131,6 +135,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechBionic">
     <defName>Hediff_WVC_CybertechBionic_Kidney_Ultra</defName>
@@ -144,6 +149,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechBionic">
     <defName>Hediff_WVC_CybertechBionic_Liver_Ultra</defName>
@@ -157,6 +163,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechBionic">
     <defName>Hediff_WVC_CybertechBionic_Lung_Ultra</defName>
@@ -170,6 +177,7 @@
     <comps />
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechBionic">
     <defName>Hediff_WVC_CybertechBionic_Shoulder_Ultra</defName>
@@ -198,6 +206,7 @@
     </comps>
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechBionic">
     <defName>Hediff_WVC_CybertechBionic_Leg_Ultra</defName>
@@ -226,5 +235,6 @@
     </comps>
     <eyeGraphicEast />
     <eyeGraphicSouth />
+    <addedPartProps />
   </HediffDef>
 </Defs>

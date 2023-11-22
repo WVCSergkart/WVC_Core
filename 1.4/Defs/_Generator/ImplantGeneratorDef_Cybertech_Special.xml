@@ -23,11 +23,12 @@
 		  <ComponentSpacer>2</ComponentSpacer>
 		  <Gold>4</Gold>
 		</costList>
-		<stages>
-		  <li>
-			<partEfficiencyOffset>-1</partEfficiencyOffset>
-		  </li>
-		</stages>
+		<partEfficiency>0.0</partEfficiency>
+		<!-- <stages> -->
+		  <!-- <li> -->
+			<!-- <partEfficiencyOffset>-1</partEfficiencyOffset> -->
+		  <!-- </li> -->
+		<!-- </stages> -->
 	  </li>
 	  <!-- = -->
 	  <li>
@@ -38,11 +39,12 @@
 		  <ComponentSpacer>2</ComponentSpacer>
 		  <Gold>4</Gold>
 		</costList>
-		<stages>
-		  <li>
-			<partEfficiencyOffset>-1</partEfficiencyOffset>
-		  </li>
-		</stages>
+		<partEfficiency>0.0</partEfficiency>
+		<!-- <stages> -->
+		  <!-- <li> -->
+			<!-- <partEfficiencyOffset>-1</partEfficiencyOffset> -->
+		  <!-- </li> -->
+		<!-- </stages> -->
 	  </li>
 	  <!-- = -->
 	  <li>
