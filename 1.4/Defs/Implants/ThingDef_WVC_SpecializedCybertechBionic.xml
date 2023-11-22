@@ -11,6 +11,9 @@
       <ComponentSpacer>2</ComponentSpacer>
       <Gold>4</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Eye</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_SpecializedCybertechBionic">
     <defName>WVC_SpecializedCybertechBionic_Ear_Ultra</defName>
@@ -23,6 +26,9 @@
       <ComponentSpacer>2</ComponentSpacer>
       <Gold>4</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Ear</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_SpecializedCybertechBionic">
     <defName>WVC_SpecializedCybertechBionic_Jaw_Ultra</defName>
@@ -35,6 +41,9 @@
       <ComponentSpacer>3</ComponentSpacer>
       <Gold>5</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_SpecializedCybertechBionic">
     <defName>WVC_SpecializedCybertechBionic_Shoulder_Ultra</defName>
@@ -47,5 +56,8 @@
       <ComponentSpacer>6</ComponentSpacer>
       <Gold>7</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Arm</texPath>
+    </graphicData>
   </ThingDef>
 </Defs>

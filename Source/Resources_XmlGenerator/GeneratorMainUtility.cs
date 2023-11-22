@@ -155,7 +155,7 @@ namespace WVC_UltraExpansion
 			public static XElement GenerateThingDefFile(ThingDef def, ImplantGeneratorDef generatorDef)
 			{
 				// XElement xElement = new("ThingDef" + " ParentNameTag", new XElement("defName", def.defName), new XElement("label", def.label), new XElement("description", def.description), new XElement("descriptionHyperlinks", def.descriptionHyperlinks), new XElement("techLevel", def.techLevel), new XElement("thingCategories", def.thingCategories), new XElement("graphicData", def.graphicData), new XElement("costList", def.costList), new XElement("stackLimit", def.stackLimit), new XElement("statBases", def.statBases), new XElement("tradeTags"), new XElement("techHediffsTags"), new XElement("thingSetMakerTags"), new XElement("thingClass", def.thingClass), new XElement("category", def.category), new XElement("drawerType", def.drawerType), new XElement("altitudeLayer", def.altitudeLayer), new XElement("tickerType", def.tickerType), new XElement("modExtensions", def.modExtensions), new XElement("comps", def.comps), new XElement("pathCost", def.pathCost), new XElement("allowedArchonexusCount", def.allowedArchonexusCount), new XElement("isTechHediff", def.isTechHediff), new XElement("alwaysHaulable", def.alwaysHaulable), new XElement("selectable", def.selectable), new XElement("useHitPoints", def.useHitPoints), new XElement("drawGUIOverlay", def.drawGUIOverlay));
-				XElement xElement = new("ThingDef", new XAttribute("ParentName", "WVC_Ultra_ImplantThingDef_" + generatorDef.defName), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("descriptionHyperlinks"), new XElement("costList"));
+				XElement xElement = new("ThingDef", new XAttribute("ParentName", "WVC_Ultra_ImplantThingDef_" + generatorDef.defName), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("descriptionHyperlinks"), new XElement("costList"), new XElement("graphicData"));
 				// XElement tradeTags = xElement.Element("tradeTags");
 				// foreach (var i in def.tradeTags)
 				// {
@@ -192,6 +192,11 @@ namespace WVC_UltraExpansion
 						descriptionHyperlinks.Add(new XElement("HediffDef", i.def.defName));
 					}
 				}
+				if (def.graphicData.texPath != null)
+				{
+					XElement graphicData = xElement.Element("graphicData");
+					graphicData.Add(new XElement("texPath", def.graphicData.texPath));
+				}
 				// XElement costList = xElement.Element("costList");
 				// foreach (var i in def.costList)
 				// {
@@ -217,7 +222,8 @@ namespace WVC_UltraExpansion
 					// techLevel = implantGeneratorDef.techLevel,
 					// thingCategories = implantGeneratorDef.thingCategories,
 					// graphicData = implantGeneratorDef.graphicData,
-					costList = new()
+					costList = new(),
+					graphicData = new()
 					// stackLimit = template.stackLimit,
 					// statBases = template.statBases,
 					// tradeTags = implantGeneratorDef.tradeTags,
@@ -251,6 +257,10 @@ namespace WVC_UltraExpansion
 							thingDef.label = implantGeneratorDef.label.Formatted(costByPart[i].label);
 						}
 						thingDef.costList = costByPart[i].costList;
+						if (costByPart[i].texPath != null)
+						{
+							thingDef.graphicData.texPath = costByPart[i].texPath;
+						}
 						break;
 					}
 				}

@@ -65,8 +65,8 @@
 	<thingCategories>
 	</thingCategories>
 	<graphicData>
-	  <texPath>WVC/Implants/Implant</texPath>
-	  <graphicClass>Graphic_Single</graphicClass>
+	  <texPath>WVC/Implants/Empty</texPath>
+	  <graphicClass>Graphic_StackCount</graphicClass>
 	  <drawSize>0.95</drawSize>
 	  <color>(165,169,165)</color>
 	</graphicData>
@@ -113,8 +113,6 @@
 	  <li>WVC_BodyPartsTorture</li>
 	</thingCategories>
 	<graphicData>
-	  <texPath>WVC/Implants/ImplantStack</texPath>
-	  <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(222,165,171)</color>
 	  <!-- <color>(255,188,196)</color> -->
 	</graphicData>
@@ -152,8 +150,6 @@
 	  <li>WVC_BodyPartsCybernetic</li>
 	</thingCategories>
 	<graphicData>
-	  <texPath>WVC/Implants/ImplantStack</texPath>
-	  <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(165,179,222)</color>
 	  <!-- <color>(163,187,255)</color> -->
 	</graphicData>
@@ -208,8 +204,6 @@
 	  <li>WVC_BodyPartsAncient</li>
 	</thingCategories>
 	<graphicData>
-	  <texPath>WVC/Implants/ImplantStack</texPath>
-	  <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(165,169,165)</color>
 	</graphicData>
 	<recipeMaker>
@@ -258,9 +252,6 @@
 	  <li>WVC_BodyPartsMechanoid</li>
 	</thingCategories>
 	<graphicData>
-	  <texPath>WVC/Implants/ImplantStackMecha</texPath>
-	  <graphicClass>Graphic_StackCount</graphicClass>
-	  <!-- <texPath>WVC/Implants/ImplantMecha</texPath> -->
 	  <color>(179,163,151)</color>
 	</graphicData>
 	<recipeMaker>
@@ -311,10 +302,6 @@
 	  <!-- <li>WVC_BodyPartsMechanoid</li> -->
 	<!-- </thingCategories> -->
 	<graphicData>
-	  <!-- <texPath>WVC/Implants/ImplantMecha</texPath> -->
-	  <texPath>WVC/Implants/ImplantStackMecha</texPath>
-	  <graphicClass>Graphic_StackCount</graphicClass>
-	  <drawSize>0.95</drawSize>
 	  <color>(79,80,81)</color>
 	</graphicData>
 	<recipeMaker>

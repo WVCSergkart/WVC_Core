@@ -8,6 +8,7 @@
 	<changesByPart>
 	  <li>
 		<def>Eye</def>
+		<texPath>WVC/Implants/Eye</texPath>
 		<label>blind eye</label>
 		<eyeGraphicSouth>
 		  <graphicClass>Graphic_Single</graphicClass>
@@ -33,6 +34,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Ear</def>
+		<texPath>WVC/Implants/Ear</texPath>
 		<label>deaf ear</label>
 		<costList>
 		  <Plasteel>12</Plasteel>
@@ -49,6 +51,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Jaw</def>
+		<texPath>WVC/Implants/Jaw</texPath>
 		<label>silent jaw</label>
 		<costList>
 		  <Plasteel>13</Plasteel>
@@ -86,6 +89,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Shoulder</def>
+		<texPath>WVC/Implants/Arm</texPath>
 		<label>drill arm</label>
 		<costList>
 		  <Plasteel>17</Plasteel>

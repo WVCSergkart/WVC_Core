@@ -8,6 +8,7 @@
 	<changesByPart>
 	  <li>
 		<def>Eye</def>
+		<texPath>WVC/Implants/Eye</texPath>
 		<label>animal eye</label>
 		<costList>
 		  <Plasteel>12</Plasteel>
@@ -29,6 +30,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Ear</def>
+		<texPath>WVC/Implants/Ear</texPath>
 		<label>animal ear</label>
 		<costList>
 		  <Plasteel>12</Plasteel>
@@ -50,6 +52,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Nose</def>
+		<texPath>WVC/Implants/Nose</texPath>
 		<label>animal nose</label>
 		<costList>
 		  <Plasteel>12</Plasteel>
@@ -71,6 +74,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Stomach</def>
+		<texPath>WVC/Implants/Stomach</texPath>
 		<label>animal stomach</label>
 		<costList>
 		  <Plasteel>18</Plasteel>
@@ -94,6 +98,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Spine</def>
+		<texPath>WVC/Implants/Spine</texPath>
 		<label>animal spine</label>
 		<costList>
 		  <Plasteel>20</Plasteel>
@@ -115,6 +120,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Heart</def>
+		<texPath>WVC/Implants/Heart</texPath>
 		<label>animal heart</label>
 		<costList>
 		  <Plasteel>12</Plasteel>
@@ -138,6 +144,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Kidney</def>
+		<texPath>WVC/Implants/Kidney</texPath>
 		<label>animal kidney</label>
 		<costList>
 		  <Plasteel>13</Plasteel>
@@ -162,6 +169,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Liver</def>
+		<texPath>WVC/Implants/Liver</texPath>
 		<label>animal liver</label>
 		<costList>
 		  <Plasteel>14</Plasteel>
@@ -185,6 +193,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Lung</def>
+		<texPath>WVC/Implants/Lung</texPath>
 		<label>animal lung</label>
 		<costList>
 		  <Plasteel>15</Plasteel>
@@ -206,6 +215,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Leg</def>
+		<texPath>WVC/Implants/Leg</texPath>
 		<label>animal leg</label>
 		<costList>
 		  <Plasteel>18</Plasteel>
@@ -243,6 +253,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Beak</def>
+		<texPath>WVC/Implants/Jaw</texPath>
 		<costList>
 		  <Plasteel>13</Plasteel>
 		  <Uranium>3</Uranium>
@@ -277,6 +288,7 @@
 	  <!-- = -->
 	  <li>
 		<def>InsectNostril</def>
+		<texPath>WVC/Implants/Nose</texPath>
 		<costList>
 		  <Plasteel>12</Plasteel>
 		  <Uranium>2</Uranium>
@@ -297,6 +309,7 @@
 	  <!-- = -->
 	  <li>
 		<def>SnakeMouth</def>
+		<texPath>WVC/Implants/Jaw</texPath>
 		<label>snake jaw</label>
 		<costList>
 		  <Plasteel>13</Plasteel>
@@ -332,6 +345,7 @@
 	  <!-- = -->
 	  <li>
 		<def>AnimalJaw</def>
+		<texPath>WVC/Implants/Jaw</texPath>
 		<label>animal jaw</label>
 		<costList>
 		  <Plasteel>13</Plasteel>
@@ -367,6 +381,7 @@
 	  <!-- = -->
 	  <li>
 		<def>InsectMouth</def>
+		<texPath>WVC/Implants/Jaw</texPath>
 		<label>insect jaw</label>
 		<costList>
 		  <Plasteel>13</Plasteel>
@@ -402,6 +417,7 @@
 	  <!-- = -->
 	  <li>
 		<def>InsectLeg</def>
+		<texPath>WVC/Implants/Leg</texPath>
 		<label>insect leg</label>
 		<costList>
 		  <Plasteel>18</Plasteel>
@@ -439,6 +455,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Antenna</def>
+		<texPath>WVC/Implants/Ear</texPath>
 		<label>insect antenna</label>
 		<costList>
 		  <Plasteel>12</Plasteel>
@@ -460,6 +477,7 @@
 	  <!-- = -->
 	  <li>
 		<def>InsectHeart</def>
+		<texPath>WVC/Implants/Heart</texPath>
 		<label>insect heart</label>
 		<costList>
 		  <Plasteel>12</Plasteel>
@@ -483,6 +501,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Tail</def>
+		<texPath>WVC/Implants/Tail</texPath>
 		<costList>
 		  <Plasteel>16</Plasteel>
 		  <Uranium>2</Uranium>

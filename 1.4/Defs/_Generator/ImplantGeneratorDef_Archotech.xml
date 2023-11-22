@@ -8,6 +8,7 @@
 	<changesByPart>
 	  <li>
 		<def>Eye</def>
+		<texPath>WVC/Implants/Eye</texPath>
 		<eyeGraphicSouth>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <texPath>Things/Pawn/Wounds/ArchotechEye_south</texPath>
@@ -43,6 +44,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Ear</def>
+		<texPath>WVC/Implants/Ear</texPath>
 		<costList>
 		  <Plasteel>21</Plasteel>
 		  <Uranium>13</Uranium>
@@ -69,6 +71,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Jaw</def>
+		<texPath>WVC/Implants/Jaw</texPath>
 		<costList>
 		  <Plasteel>22</Plasteel>
 		  <Uranium>12</Uranium>
@@ -110,6 +113,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Nose</def>
+		<texPath>WVC/Implants/Nose</texPath>
 		<costList>
 		  <Plasteel>20</Plasteel>
 		  <Uranium>10</Uranium>
@@ -137,6 +141,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Stomach</def>
+		<texPath>WVC/Implants/Stomach</texPath>
 		<costList>
 		  <Plasteel>24</Plasteel>
 		  <Uranium>17</Uranium>
@@ -165,6 +170,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Spine</def>
+		<texPath>WVC/Implants/Spine</texPath>
 		<costList>
 		  <Plasteel>29</Plasteel>
 		  <Uranium>14</Uranium>
@@ -191,6 +197,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Heart</def>
+		<texPath>WVC/Implants/Heart</texPath>
 		<costList>
 		  <Plasteel>27</Plasteel>
 		  <Uranium>12</Uranium>
@@ -219,6 +226,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Kidney</def>
+		<texPath>WVC/Implants/Kidney</texPath>
 		<costList>
 		  <Plasteel>27</Plasteel>
 		  <Uranium>14</Uranium>
@@ -248,6 +256,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Liver</def>
+		<texPath>WVC/Implants/Liver</texPath>
 		<costList>
 		  <Plasteel>22</Plasteel>
 		  <Uranium>14</Uranium>
@@ -276,6 +285,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Lung</def>
+		<texPath>WVC/Implants/Lung</texPath>
 		<costList>
 		  <Plasteel>24</Plasteel>
 		  <Uranium>10</Uranium>
@@ -302,6 +312,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Shoulder</def>
+		<texPath>WVC/Implants/Arm</texPath>
 		<label>arm</label>
 		<costList>
 		  <Plasteel>28</Plasteel>
@@ -345,6 +356,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Leg</def>
+		<texPath>WVC/Implants/Leg</texPath>
 		<costList>
 		  <Plasteel>27</Plasteel>
 		  <Uranium>12</Uranium>

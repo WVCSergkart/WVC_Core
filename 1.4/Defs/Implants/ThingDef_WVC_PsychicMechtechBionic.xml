@@ -14,6 +14,9 @@
       <Synthread>4</Synthread>
       <Hyperweave>4</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Eye</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Ear_Ultra</defName>
@@ -29,6 +32,9 @@
       <Synthread>4</Synthread>
       <Hyperweave>4</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Ear</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Jaw_Ultra</defName>
@@ -44,6 +50,9 @@
       <Synthread>4</Synthread>
       <Hyperweave>4</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Nose_Ultra</defName>
@@ -59,6 +68,9 @@
       <Synthread>2</Synthread>
       <Hyperweave>3</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Nose</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Stomach_Ultra</defName>
@@ -74,6 +86,9 @@
       <Synthread>6</Synthread>
       <Hyperweave>6</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Stomach</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Spine_Ultra</defName>
@@ -89,6 +104,9 @@
       <Synthread>7</Synthread>
       <Hyperweave>8</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Spine</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Heart_Ultra</defName>
@@ -104,6 +122,9 @@
       <Synthread>6</Synthread>
       <Hyperweave>6</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Heart</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Kidney_Ultra</defName>
@@ -119,6 +140,9 @@
       <Synthread>5</Synthread>
       <Hyperweave>4</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Kidney</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Liver_Ultra</defName>
@@ -134,6 +158,9 @@
       <Synthread>5</Synthread>
       <Hyperweave>5</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Liver</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Lung_Ultra</defName>
@@ -149,6 +176,9 @@
       <Synthread>4</Synthread>
       <Hyperweave>4</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Lung</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Shoulder_Ultra</defName>
@@ -164,6 +194,9 @@
       <Synthread>6</Synthread>
       <Hyperweave>6</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Arm</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Leg_Ultra</defName>
@@ -179,5 +212,8 @@
       <Synthread>6</Synthread>
       <Hyperweave>6</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Leg</texPath>
+    </graphicData>
   </ThingDef>
 </Defs>

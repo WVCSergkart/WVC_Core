@@ -15,6 +15,9 @@
       <Synthread>8</Synthread>
       <DevilstrandCloth>8</DevilstrandCloth>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Eye</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Ear_Ultra</defName>
@@ -31,6 +34,9 @@
       <Synthread>8</Synthread>
       <DevilstrandCloth>8</DevilstrandCloth>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Ear</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Jaw_Ultra</defName>
@@ -47,6 +53,9 @@
       <Synthread>8</Synthread>
       <DevilstrandCloth>8</DevilstrandCloth>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Nose_Ultra</defName>
@@ -63,6 +72,9 @@
       <Synthread>5</Synthread>
       <DevilstrandCloth>5</DevilstrandCloth>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Nose</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Stomach_Ultra</defName>
@@ -79,6 +91,9 @@
       <Synthread>12</Synthread>
       <DevilstrandCloth>12</DevilstrandCloth>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Stomach</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Spine_Ultra</defName>
@@ -95,6 +110,9 @@
       <Synthread>15</Synthread>
       <DevilstrandCloth>15</DevilstrandCloth>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Spine</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Heart_Ultra</defName>
@@ -111,6 +129,9 @@
       <Synthread>12</Synthread>
       <DevilstrandCloth>12</DevilstrandCloth>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Heart</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Kidney_Ultra</defName>
@@ -127,6 +148,9 @@
       <Synthread>9</Synthread>
       <DevilstrandCloth>9</DevilstrandCloth>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Kidney</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Liver_Ultra</defName>
@@ -143,6 +167,9 @@
       <Synthread>10</Synthread>
       <DevilstrandCloth>10</DevilstrandCloth>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Liver</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Lung_Ultra</defName>
@@ -159,6 +186,9 @@
       <Synthread>8</Synthread>
       <DevilstrandCloth>8</DevilstrandCloth>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Lung</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Shoulder_Ultra</defName>
@@ -175,6 +205,9 @@
       <Synthread>12</Synthread>
       <DevilstrandCloth>12</DevilstrandCloth>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Arm</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Leg_Ultra</defName>
@@ -191,5 +224,8 @@
       <Synthread>12</Synthread>
       <DevilstrandCloth>12</DevilstrandCloth>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Leg</texPath>
+    </graphicData>
   </ThingDef>
 </Defs>

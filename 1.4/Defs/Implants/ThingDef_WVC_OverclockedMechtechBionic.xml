@@ -13,6 +13,9 @@
       <Gold>4</Gold>
       <Hyperweave>8</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Eye</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
     <defName>WVC_OverclockedMechtechBionic_Ear_Ultra</defName>
@@ -27,6 +30,9 @@
       <Gold>4</Gold>
       <Hyperweave>8</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Ear</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
     <defName>WVC_OverclockedMechtechBionic_Jaw_Ultra</defName>
@@ -41,6 +47,9 @@
       <Gold>5</Gold>
       <Hyperweave>8</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
     <defName>WVC_OverclockedMechtechBionic_Nose_Ultra</defName>
@@ -55,6 +64,9 @@
       <Gold>2</Gold>
       <Hyperweave>5</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Nose</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
     <defName>WVC_OverclockedMechtechBionic_Stomach_Ultra</defName>
@@ -69,6 +81,9 @@
       <Gold>8</Gold>
       <Hyperweave>12</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Stomach</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
     <defName>WVC_OverclockedMechtechBionic_Spine_Ultra</defName>
@@ -83,6 +98,9 @@
       <Gold>7</Gold>
       <Hyperweave>15</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Spine</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
     <defName>WVC_OverclockedMechtechBionic_Heart_Ultra</defName>
@@ -97,6 +115,9 @@
       <Gold>9</Gold>
       <Hyperweave>12</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Heart</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
     <defName>WVC_OverclockedMechtechBionic_Kidney_Ultra</defName>
@@ -111,6 +132,9 @@
       <Gold>6</Gold>
       <Hyperweave>9</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Kidney</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
     <defName>WVC_OverclockedMechtechBionic_Liver_Ultra</defName>
@@ -125,6 +149,9 @@
       <Gold>6</Gold>
       <Hyperweave>10</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Liver</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
     <defName>WVC_OverclockedMechtechBionic_Lung_Ultra</defName>
@@ -139,6 +166,9 @@
       <Gold>5</Gold>
       <Hyperweave>8</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Lung</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
     <defName>WVC_OverclockedMechtechBionic_Shoulder_Ultra</defName>
@@ -153,6 +183,9 @@
       <Gold>7</Gold>
       <Hyperweave>12</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Arm</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
     <defName>WVC_OverclockedMechtechBionic_Leg_Ultra</defName>
@@ -167,5 +200,8 @@
       <Gold>7</Gold>
       <Hyperweave>12</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Leg</texPath>
+    </graphicData>
   </ThingDef>
 </Defs>

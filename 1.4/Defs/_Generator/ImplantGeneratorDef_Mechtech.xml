@@ -8,6 +8,7 @@
 	<changesByPart>
 	  <li>
 		<def>Eye</def>
+		<texPath>WVC/Implants/Eye</texPath>
 		<eyeGraphicSouth>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
@@ -34,6 +35,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Ear</def>
+		<texPath>WVC/Implants/Ear</texPath>
 		<costList>
 		  <Plasteel>15</Plasteel>
 		  <Uranium>4</Uranium>
@@ -51,6 +53,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Jaw</def>
+		<texPath>WVC/Implants/Jaw</texPath>
 		<costList>
 		  <Plasteel>17</Plasteel>
 		  <Uranium>7</Uranium>
@@ -83,6 +86,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Nose</def>
+		<texPath>WVC/Implants/Nose</texPath>
 		<costList>
 		  <Plasteel>15</Plasteel>
 		  <Uranium>4</Uranium>
@@ -101,6 +105,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Stomach</def>
+		<texPath>WVC/Implants/Stomach</texPath>
 		<costList>
 		  <Plasteel>22</Plasteel>
 		  <Uranium>8</Uranium>
@@ -120,6 +125,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Spine</def>
+		<texPath>WVC/Implants/Spine</texPath>
 		<costList>
 		  <Plasteel>25</Plasteel>
 		  <Uranium>8</Uranium>
@@ -137,6 +143,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Heart</def>
+		<texPath>WVC/Implants/Heart</texPath>
 		<costList>
 		  <Plasteel>18</Plasteel>
 		  <Uranium>10</Uranium>
@@ -156,6 +163,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Kidney</def>
+		<texPath>WVC/Implants/Kidney</texPath>
 		<costList>
 		  <Plasteel>17</Plasteel>
 		  <Uranium>8</Uranium>
@@ -176,6 +184,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Liver</def>
+		<texPath>WVC/Implants/Liver</texPath>
 		<costList>
 		  <Plasteel>19</Plasteel>
 		  <Uranium>9</Uranium>
@@ -195,6 +204,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Lung</def>
+		<texPath>WVC/Implants/Lung</texPath>
 		<costList>
 		  <Plasteel>20</Plasteel>
 		  <Uranium>8</Uranium>
@@ -212,6 +222,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Shoulder</def>
+		<texPath>WVC/Implants/Arm</texPath>
 		<label>arm</label>
 		<costList>
 		  <Plasteel>22</Plasteel>
@@ -246,6 +257,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Leg</def>
+		<texPath>WVC/Implants/Leg</texPath>
 		<costList>
 		  <Plasteel>18</Plasteel>
 		  <Uranium>15</Uranium>

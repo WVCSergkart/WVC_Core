@@ -11,6 +11,9 @@
       <ComponentSpacer>4</ComponentSpacer>
       <Gold>4</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Eye</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_Ear_Ultra</defName>
@@ -23,6 +26,9 @@
       <ComponentSpacer>4</ComponentSpacer>
       <Gold>4</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Ear</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_Nose_Ultra</defName>
@@ -35,6 +41,9 @@
       <ComponentSpacer>2</ComponentSpacer>
       <Gold>2</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Nose</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_Stomach_Ultra</defName>
@@ -47,6 +56,9 @@
       <ComponentSpacer>3</ComponentSpacer>
       <Gold>8</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Stomach</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_Spine_Ultra</defName>
@@ -59,6 +71,9 @@
       <ComponentSpacer>3</ComponentSpacer>
       <Gold>7</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Spine</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_Heart_Ultra</defName>
@@ -71,6 +86,9 @@
       <ComponentSpacer>4</ComponentSpacer>
       <Gold>9</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Heart</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_Kidney_Ultra</defName>
@@ -83,6 +101,9 @@
       <ComponentSpacer>3</ComponentSpacer>
       <Gold>6</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Kidney</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_Liver_Ultra</defName>
@@ -95,6 +116,9 @@
       <ComponentSpacer>3</ComponentSpacer>
       <Gold>6</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Liver</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_Lung_Ultra</defName>
@@ -107,6 +131,9 @@
       <ComponentSpacer>2</ComponentSpacer>
       <Gold>5</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Lung</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_Leg_Ultra</defName>
@@ -119,6 +146,9 @@
       <ComponentSpacer>4</ComponentSpacer>
       <Gold>7</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Leg</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_Beak_Ultra</defName>
@@ -131,6 +161,9 @@
       <ComponentSpacer>4</ComponentSpacer>
       <Gold>5</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_SnakeMouth_Ultra</defName>
@@ -143,6 +176,9 @@
       <ComponentSpacer>4</ComponentSpacer>
       <Gold>5</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_InsectHeart_Ultra</defName>
@@ -155,6 +191,9 @@
       <ComponentSpacer>4</ComponentSpacer>
       <Gold>9</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Heart</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_InsectNostril_Ultra</defName>
@@ -167,6 +206,9 @@
       <ComponentSpacer>1</ComponentSpacer>
       <Gold>2</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Nose</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_InsectMouth_Ultra</defName>
@@ -179,6 +221,9 @@
       <ComponentSpacer>4</ComponentSpacer>
       <Gold>5</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_AnimalJaw_Ultra</defName>
@@ -191,6 +236,9 @@
       <ComponentSpacer>4</ComponentSpacer>
       <Gold>5</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_Tail_Ultra</defName>
@@ -203,6 +251,9 @@
       <ComponentSpacer>2</ComponentSpacer>
       <Gold>7</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Tail</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_Antenna_Ultra</defName>
@@ -215,6 +266,9 @@
       <ComponentSpacer>4</ComponentSpacer>
       <Gold>4</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Ear</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_Elytra_Ultra</defName>
@@ -227,6 +281,7 @@
       <ComponentSpacer>1</ComponentSpacer>
       <Gold>4</Gold>
     </costList>
+    <graphicData />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic">
     <defName>WVC_CybertechAnimalBionic_InsectLeg_Ultra</defName>
@@ -239,5 +294,8 @@
       <ComponentSpacer>4</ComponentSpacer>
       <Gold>7</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Leg</texPath>
+    </graphicData>
   </ThingDef>
 </Defs>

@@ -11,6 +11,9 @@
       <ComponentSpacer>4</ComponentSpacer>
       <Gold>4</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Eye</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Ear_Ultra</defName>
@@ -22,6 +25,9 @@
       <Plasteel>12</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Ear</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Jaw_Ultra</defName>
@@ -33,6 +39,9 @@
       <Plasteel>13</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Nose_Ultra</defName>
@@ -44,6 +53,9 @@
       <Plasteel>12</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Nose</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Stomach_Ultra</defName>
@@ -55,6 +67,9 @@
       <Plasteel>18</Plasteel>
       <ComponentSpacer>3</ComponentSpacer>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Stomach</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Spine_Ultra</defName>
@@ -67,6 +82,9 @@
       <ComponentSpacer>3</ComponentSpacer>
       <Gold>7</Gold>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Spine</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Heart_Ultra</defName>
@@ -78,6 +96,9 @@
       <Plasteel>12</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Heart</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Kidney_Ultra</defName>
@@ -89,6 +110,9 @@
       <Plasteel>13</Plasteel>
       <ComponentSpacer>3</ComponentSpacer>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Kidney</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Liver_Ultra</defName>
@@ -100,6 +124,9 @@
       <Plasteel>14</Plasteel>
       <ComponentSpacer>3</ComponentSpacer>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Liver</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Lung_Ultra</defName>
@@ -111,6 +138,9 @@
       <Plasteel>15</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Lung</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Shoulder_Ultra</defName>
@@ -122,6 +152,9 @@
       <Plasteel>17</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Arm</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
     <defName>WVC_TortureBionic_Leg_Ultra</defName>
@@ -133,5 +166,8 @@
       <Plasteel>18</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Leg</texPath>
+    </graphicData>
   </ThingDef>
 </Defs>

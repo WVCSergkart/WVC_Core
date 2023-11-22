@@ -14,6 +14,9 @@
       <DevilstrandCloth>4</DevilstrandCloth>
       <Hyperweave>4</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Eye</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ToughMechtechBionic">
     <defName>WVC_ToughMechtechBionic_Ear_Ultra</defName>
@@ -29,6 +32,9 @@
       <DevilstrandCloth>4</DevilstrandCloth>
       <Hyperweave>4</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Ear</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ToughMechtechBionic">
     <defName>WVC_ToughMechtechBionic_Jaw_Ultra</defName>
@@ -44,6 +50,9 @@
       <DevilstrandCloth>4</DevilstrandCloth>
       <Hyperweave>4</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ToughMechtechBionic">
     <defName>WVC_ToughMechtechBionic_Nose_Ultra</defName>
@@ -59,6 +68,9 @@
       <DevilstrandCloth>2</DevilstrandCloth>
       <Hyperweave>3</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Nose</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ToughMechtechBionic">
     <defName>WVC_ToughMechtechBionic_Stomach_Ultra</defName>
@@ -74,6 +86,9 @@
       <DevilstrandCloth>6</DevilstrandCloth>
       <Hyperweave>6</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Stomach</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ToughMechtechBionic">
     <defName>WVC_ToughMechtechBionic_Spine_Ultra</defName>
@@ -89,6 +104,9 @@
       <DevilstrandCloth>7</DevilstrandCloth>
       <Hyperweave>8</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Spine</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ToughMechtechBionic">
     <defName>WVC_ToughMechtechBionic_Heart_Ultra</defName>
@@ -104,6 +122,9 @@
       <DevilstrandCloth>6</DevilstrandCloth>
       <Hyperweave>6</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Heart</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ToughMechtechBionic">
     <defName>WVC_ToughMechtechBionic_Kidney_Ultra</defName>
@@ -119,6 +140,9 @@
       <DevilstrandCloth>5</DevilstrandCloth>
       <Hyperweave>4</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Kidney</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ToughMechtechBionic">
     <defName>WVC_ToughMechtechBionic_Liver_Ultra</defName>
@@ -134,6 +158,9 @@
       <DevilstrandCloth>5</DevilstrandCloth>
       <Hyperweave>5</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Liver</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ToughMechtechBionic">
     <defName>WVC_ToughMechtechBionic_Lung_Ultra</defName>
@@ -149,6 +176,9 @@
       <DevilstrandCloth>4</DevilstrandCloth>
       <Hyperweave>4</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Lung</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ToughMechtechBionic">
     <defName>WVC_ToughMechtechBionic_Shoulder_Ultra</defName>
@@ -164,6 +194,9 @@
       <DevilstrandCloth>6</DevilstrandCloth>
       <Hyperweave>6</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Arm</texPath>
+    </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ToughMechtechBionic">
     <defName>WVC_ToughMechtechBionic_Leg_Ultra</defName>
@@ -179,5 +212,8 @@
       <DevilstrandCloth>6</DevilstrandCloth>
       <Hyperweave>6</Hyperweave>
     </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Leg</texPath>
+    </graphicData>
   </ThingDef>
 </Defs>

@@ -44,6 +44,8 @@ namespace WVC_UltraExpansion
 
 		public float partEfficiency = 1f;
 
+		public string texPath;
+
 		public List<ThingDefCountClass> costList;
 
 	}
