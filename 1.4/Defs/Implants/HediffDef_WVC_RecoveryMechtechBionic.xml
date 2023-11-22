@@ -17,6 +17,14 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast>
+      <graphicClass>Verse.Graphic_Single</graphicClass>
+      <texPath>Things/Pawn/Wounds/BionicEye_east</texPath>
+    </eyeGraphicEast>
+    <eyeGraphicSouth>
+      <graphicClass>Verse.Graphic_Single</graphicClass>
+      <texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
+    </eyeGraphicSouth>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
     <defName>Hediff_WVC_RecoveryMechtechBionic_Ear_Ultra</defName>
@@ -35,6 +43,8 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
     <defName>Hediff_WVC_RecoveryMechtechBionic_Jaw_Ultra</defName>
@@ -69,6 +79,8 @@
         </tools>
       </li>
     </comps>
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
     <defName>Hediff_WVC_RecoveryMechtechBionic_Nose_Ultra</defName>
@@ -88,6 +100,8 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
     <defName>Hediff_WVC_RecoveryMechtechBionic_Stomach_Ultra</defName>
@@ -108,6 +122,8 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
     <defName>Hediff_WVC_RecoveryMechtechBionic_Spine_Ultra</defName>
@@ -126,6 +142,8 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
     <defName>Hediff_WVC_RecoveryMechtechBionic_Heart_Ultra</defName>
@@ -146,6 +164,8 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
     <defName>Hediff_WVC_RecoveryMechtechBionic_Kidney_Ultra</defName>
@@ -167,6 +187,8 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
     <defName>Hediff_WVC_RecoveryMechtechBionic_Liver_Ultra</defName>
@@ -187,6 +209,8 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
     <defName>Hediff_WVC_RecoveryMechtechBionic_Lung_Ultra</defName>
@@ -205,6 +229,8 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
     <defName>Hediff_WVC_RecoveryMechtechBionic_Shoulder_Ultra</defName>
@@ -238,6 +264,8 @@
         </tools>
       </li>
     </comps>
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic">
     <defName>Hediff_WVC_RecoveryMechtechBionic_Leg_Ultra</defName>
@@ -271,5 +299,7 @@
         </tools>
       </li>
     </comps>
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
 </Defs>

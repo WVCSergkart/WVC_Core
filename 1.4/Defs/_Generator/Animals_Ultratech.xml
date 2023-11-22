@@ -6,6 +6,240 @@
 	<label>ultratech {0}</label>
 	<labelNoun>an ultratech {0}</labelNoun>
 	<changesByPart>
+	  <li>
+		<def>Eye</def>
+		<label>animal eye</label>
+		<costList>
+		  <Plasteel>12</Plasteel>
+		  <Uranium>2</Uranium>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>4</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>1</Mass>
+				<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Ear</def>
+		<label>animal ear</label>
+		<costList>
+		  <Plasteel>12</Plasteel>
+		  <Uranium>2</Uranium>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>4</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>1</Mass>
+				<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Nose</def>
+		<label>animal nose</label>
+		<costList>
+		  <Plasteel>12</Plasteel>
+		  <Uranium>2</Uranium>
+		  <ComponentSpacer>2</ComponentSpacer>
+		  <Gold>2</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>1</Mass>
+				<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Stomach</def>
+		<label>animal stomach</label>
+		<costList>
+		  <Plasteel>18</Plasteel>
+		  <Uranium>2</Uranium>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>8</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<hungerRateFactor>0.1</hungerRateFactor>
+			<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+			<statOffsets>
+				<Mass>5</Mass>
+				<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Spine</def>
+		<label>animal spine</label>
+		<costList>
+		  <Plasteel>20</Plasteel>
+		  <Uranium>5</Uranium>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>7</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>15</Mass>
+				<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.04</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Heart</def>
+		<label>animal heart</label>
+		<costList>
+		  <Plasteel>12</Plasteel>
+		  <Uranium>8</Uranium>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>9</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<totalBleedFactor>0.5</totalBleedFactor>
+			<naturalHealingFactor>2</naturalHealingFactor>
+			<statOffsets>
+				<Mass>5</Mass>
+				<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Kidney</def>
+		<label>animal kidney</label>
+		<costList>
+		  <Plasteel>13</Plasteel>
+		  <Uranium>7</Uranium>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>6</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>5</Mass>
+				<ImmunityGainSpeed>0.08</ImmunityGainSpeed>
+				<ToxicResistance>0.25</ToxicResistance>
+				<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.25</ToxicEnvironmentResistance>
+				<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Liver</def>
+		<label>animal liver</label>
+		<costList>
+		  <Plasteel>14</Plasteel>
+		  <Uranium>6</Uranium>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>6</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>5</Mass>
+				<ToxicResistance>0.5</ToxicResistance>
+				<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance>
+				<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Lung</def>
+		<label>animal lung</label>
+		<costList>
+		  <Plasteel>15</Plasteel>
+		  <Uranium>5</Uranium>
+		  <ComponentSpacer>2</ComponentSpacer>
+		  <Gold>5</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>5</Mass>
+				<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.06</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Leg</def>
+		<label>animal leg</label>
+		<costList>
+		  <Plasteel>18</Plasteel>
+		  <Uranium>9</Uranium>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>7</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>8</Mass>
+				<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.06</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>paw</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>19</power>
+				<cooldownTime>1.7</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
 	  <!-- = -->
 	  <li>
 		<def>Beak</def>
@@ -189,7 +423,7 @@
 		  <li Class="HediffCompProperties_VerbGiver">
 			<tools>
 			  <li>
-				<label>feet</label>
+				<label>leg</label>
 				<capacities>
 				  <li>Blunt</li>
 				</capacities>

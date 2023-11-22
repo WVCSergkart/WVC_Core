@@ -6,6 +6,160 @@
 	<label>mechtech {0}</label>
 	<labelNoun>an mechtech {0}</labelNoun>
 	<changesByPart>
+	  <li>
+		<def>Eye</def>
+		<label>animal eye</label>
+		<costList>
+		  <Plasteel>15</Plasteel>
+		  <Uranium>4</Uranium>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>4</Gold>
+		</costList>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Ear</def>
+		<label>animal ear</label>
+		<costList>
+		  <Plasteel>15</Plasteel>
+		  <Uranium>4</Uranium>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>4</Gold>
+		</costList>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Nose</def>
+		<label>animal nose</label>
+		<costList>
+		  <Plasteel>15</Plasteel>
+		  <Uranium>4</Uranium>
+		  <ComponentSpacer>2</ComponentSpacer>
+		  <Gold>2</Gold>
+		</costList>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Stomach</def>
+		<label>animal stomach</label>
+		<costList>
+		  <Plasteel>22</Plasteel>
+		  <Uranium>8</Uranium>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>8</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<hungerRateFactor>0.01</hungerRateFactor>
+			<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Spine</def>
+		<label>animal spine</label>
+		<costList>
+		  <Plasteel>25</Plasteel>
+		  <Uranium>8</Uranium>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>7</Gold>
+		</costList>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Heart</def>
+		<label>animal heart</label>
+		<costList>
+		  <Plasteel>18</Plasteel>
+		  <Uranium>10</Uranium>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>9</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<totalBleedFactor>0.5</totalBleedFactor>
+			<naturalHealingFactor>2</naturalHealingFactor>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Kidney</def>
+		<label>animal kidney</label>
+		<costList>
+		  <Plasteel>17</Plasteel>
+		  <Uranium>8</Uranium>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>6</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<ImmunityGainSpeed>0.08</ImmunityGainSpeed>
+				<ToxicResistance>0.25</ToxicResistance>
+				<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.25</ToxicEnvironmentResistance>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Liver</def>
+		<label>animal liver</label>
+		<costList>
+		  <Plasteel>19</Plasteel>
+		  <Uranium>9</Uranium>
+		  <ComponentSpacer>3</ComponentSpacer>
+		  <Gold>6</Gold>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<ToxicResistance>0.5</ToxicResistance>
+				<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Lung</def>
+		<label>animal lung</label>
+		<costList>
+		  <Plasteel>20</Plasteel>
+		  <Uranium>8</Uranium>
+		  <ComponentSpacer>2</ComponentSpacer>
+		  <Gold>5</Gold>
+		</costList>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Leg</def>
+		<label>animal leg</label>
+		<costList>
+		  <Plasteel>18</Plasteel>
+		  <Uranium>15</Uranium>
+		  <ComponentSpacer>4</ComponentSpacer>
+		  <Gold>7</Gold>
+		</costList>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>paw</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>2</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
 	  <!-- = -->
 	  <li>
 		<def>Beak</def>
@@ -129,7 +283,7 @@
 		  <li Class="HediffCompProperties_VerbGiver">
 			<tools>
 			  <li>
-				<label>feet</label>
+				<label>leg</label>
 				<capacities>
 				  <li>Blunt</li>
 				</capacities>

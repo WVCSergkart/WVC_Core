@@ -7,6 +7,12 @@
 		</recipeUsers>
 	</RecipeDef>
 
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase" Name="WVC_Ultra_ImplantSurgeryDef_Animals" Abstract="True">
+		<recipeUsers Inherit="False">
+			<!-- <li>Human</li> -->
+		</recipeUsers>
+	</RecipeDef>
+
 	<!--=====================================================================-->
 
 	<RecipeDef Abstract="True" Name="WVC_Ultra_MedicalOperation_Base">

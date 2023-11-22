@@ -7,6 +7,20 @@
 	<ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
 	<!-- Body Parts -->
 	<bodyPartDefs>
+	  <!-- base -->
+	  <li>Eye</li>
+	  <li>Ear</li>
+	  <!-- <li>Jaw</li> -->
+	  <li>Nose</li>
+	  <li>Stomach</li>
+	  <li>Spine</li>
+	  <li>Heart</li>
+	  <li>Kidney</li>
+	  <li>Liver</li>
+	  <li>Lung</li>
+	  <!-- <li>Shoulder</li> -->
+	  <li>Leg</li>
+	  <!-- = -->
 	  <li>Beak</li>
 	  <li>SnakeMouth</li>
 	  <li>InsectHeart</li>

@@ -22,6 +22,14 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast>
+      <graphicClass>Verse.Graphic_Single</graphicClass>
+      <texPath>Things/Pawn/Wounds/BionicEye_east</texPath>
+    </eyeGraphicEast>
+    <eyeGraphicSouth>
+      <graphicClass>Verse.Graphic_Single</graphicClass>
+      <texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
+    </eyeGraphicSouth>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ArchotechBionic">
     <defName>Hediff_WVC_ArchotechBionic_Ear_Ultra</defName>
@@ -45,6 +53,8 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ArchotechBionic">
     <defName>Hediff_WVC_ArchotechBionic_Jaw_Ultra</defName>
@@ -84,6 +94,8 @@
         </tools>
       </li>
     </comps>
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ArchotechBionic">
     <defName>Hediff_WVC_ArchotechBionic_Nose_Ultra</defName>
@@ -108,6 +120,8 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ArchotechBionic">
     <defName>Hediff_WVC_ArchotechBionic_Stomach_Ultra</defName>
@@ -133,6 +147,8 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ArchotechBionic">
     <defName>Hediff_WVC_ArchotechBionic_Spine_Ultra</defName>
@@ -156,6 +172,8 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ArchotechBionic">
     <defName>Hediff_WVC_ArchotechBionic_Heart_Ultra</defName>
@@ -181,6 +199,8 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ArchotechBionic">
     <defName>Hediff_WVC_ArchotechBionic_Kidney_Ultra</defName>
@@ -207,6 +227,8 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ArchotechBionic">
     <defName>Hediff_WVC_ArchotechBionic_Liver_Ultra</defName>
@@ -232,6 +254,8 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ArchotechBionic">
     <defName>Hediff_WVC_ArchotechBionic_Lung_Ultra</defName>
@@ -255,6 +279,8 @@
       </li>
     </stages>
     <comps />
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ArchotechBionic">
     <defName>Hediff_WVC_ArchotechBionic_Shoulder_Ultra</defName>
@@ -293,6 +319,8 @@
         </tools>
       </li>
     </comps>
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_ArchotechBionic">
     <defName>Hediff_WVC_ArchotechBionic_Leg_Ultra</defName>
@@ -331,5 +359,7 @@
         </tools>
       </li>
     </comps>
+    <eyeGraphicEast />
+    <eyeGraphicSouth />
   </HediffDef>
 </Defs>

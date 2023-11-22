@@ -10,11 +10,11 @@
 		<def>Eye</def>
 		<eyeGraphicSouth>
 		  <graphicClass>Graphic_Single</graphicClass>
-		  <texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
+		  <texPath>Things/Pawn/Wounds/ArchotechEye_south</texPath>
 		</eyeGraphicSouth>
 		<eyeGraphicEast>
 		  <graphicClass>Graphic_Single</graphicClass>
-		  <texPath>Things/Pawn/Wounds/BionicEye_east</texPath>
+		  <texPath>Things/Pawn/Wounds/ArchotechEye_east</texPath>
 		</eyeGraphicEast>
 		<eyeGraphicScale>1</eyeGraphicScale>
 		<costList>
