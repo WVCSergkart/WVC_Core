@@ -55,7 +55,8 @@
 			<!-- <texPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_Mover</texPath> -->
 			<texPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_Mover</texPath>
 			<!-- <color>(192,193,162)</color> -->
-			<color>(60,60,60)</color>
+			<!-- <color>(60,60,60)</color> -->
+			<color>(181,165,153)</color>
 		</graphicData>
 		<costList>
 			<Uranium>22</Uranium>

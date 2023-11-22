@@ -47,9 +47,6 @@
 	<designationCategory>WVC_UltraExpansion</designationCategory>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<rotatable>false</rotatable>
-	<thingClass>Building</thingClass>
-	<altitudeLayer>Building</altitudeLayer>
-	<passability>PassThroughOnly</passability>
 	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
   </ThingDef>
 

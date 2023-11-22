@@ -77,11 +77,11 @@
 	<specialDesignatorClasses>
 	  <li>Designator_Cancel</li>
 	  <li>Designator_Deconstruct</li>
-	  <li>Designator_RemoveFloor</li>
-	  <li>Designator_RemoveBridge</li>
+	  <!-- <li>Designator_RemoveFloor</li> -->
+	  <!-- <li>Designator_RemoveBridge</li> -->
 	</specialDesignatorClasses>
 	<researchPrerequisites>
-	  <li>Electricity</li>
+	  <!-- <li>Electricity</li> -->
 	  <li>WVC_Ultra_Ultratech</li>
 	</researchPrerequisites>
   </DesignationCategoryDef>
