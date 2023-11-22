@@ -38,17 +38,12 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 
-				<li Class="XmlExtensions.PatchOperationSafeAdd">
-				  <xpath>/Defs/RecipeDef[defName="ResurrectMediumMech"]</xpath>
-				  <safetyDepth>2</safetyDepth>
+				<li Class="PatchOperationAdd">
+				  <xpath>/Defs/RecipeDef[defName="ResurrectMediumMech"]/fixedIngredientFilter/thingDefs</xpath>
 				  <value>
-					<fixedIngredientFilter>
-						<thingDefs>
-						  <li>Corpse_WVC_Mech_Hornad</li>
-						  <li>Corpse_WVC_Mech_Nautil</li>
-						  <li>Corpse_WVC_Mech_Fion</li>
-						</thingDefs>
-					</fixedIngredientFilter>
+					  <li>Corpse_WVC_Mech_Hornad</li>
+					  <li>Corpse_WVC_Mech_Nautil</li>
+					  <li>Corpse_WVC_Mech_Fion</li>
 				  </value>
 				</li>
 

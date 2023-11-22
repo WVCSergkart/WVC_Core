@@ -57,7 +57,6 @@
   <WorkGiverDef ParentName="WVC_Ultra_WorkGiver_Base">
 	<defName>WVC_Ultra_GarbageRecyclerBench</defName>
 	<label>work at mechtech recycler</label>
-	<priorityInType>10</priorityInType>
 	<workType>Smithing</workType>
 	<priorityInType>10</priorityInType>
 	<fixedBillGiverDefs>
@@ -71,7 +70,6 @@
   <WorkGiverDef ParentName="WVC_Ultra_WorkGiver_Base">
 	<defName>WVC_BodyPartsCraftingWork</defName>
 	<label>work at implant workbench</label>
-	<priorityInType>100</priorityInType>
 	<workType>Smithing</workType>
 	<priorityInType>70</priorityInType>
 	<fixedBillGiverDefs>

@@ -102,6 +102,7 @@ namespace WVC_UltraExpansion
 			// ===============
 			if (Prefs.DevMode)
 			{
+				listingStandard.Gap();
 				// Widgets.Label(labelRect, "WVC_UltraSettings_Label_DEV".Translate());
 				// if (Widgets.ButtonText(resetRect, "WVC_UltraSettings_Label_Generator".Translate()))
 				// {
