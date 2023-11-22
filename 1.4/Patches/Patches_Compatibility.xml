@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/TraderKindDef/stockGenerators[li[tradeTag="TechHediff"]]</xpath>
+	  <value>
+		  <li Class="StockGenerator_Tag">
+			<tradeTag>WVC_UltraBionic</tradeTag>
+			<thingDefCountRange>0~3</thingDefCountRange>
+			<countRange>1~1</countRange>
+		  </li>
+		  <li Class="StockGenerator_Tag">
+			<tradeTag>WVC_UltraAnimalBionic</tradeTag>
+			<thingDefCountRange>0~3</thingDefCountRange>
+			<countRange>1~1</countRange>
+		  </li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		  <xpath>Defs/InventoryStockGroupDef[defName="Medicine"]/thingDefs</xpath>
+		  <value>
+			<li>WVC_MedicineMechtech</li>
+		  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		  <xpath>Defs/StatDef[defName="MentalBreakThreshold"]/minValue</xpath>
+		  <value>
+			<minValue>0</minValue>
+		  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="XmlExtensions.PatchOperationSafeAdd">
+				  <xpath>/Defs/RecipeDef[defName="ResurrectMediumMech"]</xpath>
+				  <safetyDepth>2</safetyDepth>
+				  <value>
+					<fixedIngredientFilter>
+						<thingDefs>
+						  <li>Corpse_WVC_Mech_Hornad</li>
+						  <li>Corpse_WVC_Mech_Nautil</li>
+						  <li>Corpse_WVC_Mech_Fion</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				  </value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationAdd">
+					  <xpath>Defs/ThingDef[defName="Plant_TreeAnima"]/comps</xpath>
+					  <value>
+						  <li Class="WVC_UltraExpansion.CompProperties_Spawner">
+							<requiresPower>false</requiresPower>
+							<productDefs>
+							  <li>
+								<productDef>WVC_AnimaSeed</productDef>
+								<productCount>1~2</productCount>
+								<selectionWeight>1.0</selectionWeight>
+							  </li>
+							</productDefs>
+							<ticksUntilSpawn>2400000~4200000</ticksUntilSpawn>
+							<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+							<showMessageIfOwned>false</showMessageIfOwned>
+							<uniqueTag>AnimaSeed</uniqueTag>
+						  </li>
+					  </value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- <li Class="PatchOperationReplace"> -->
+					<!-- <xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Spawner"]/showMessageIfOwned</xpath> -->
+					<!-- <value> -->
+						<!-- <showMessageIfOwned>false</showMessageIfOwned> -->
+					<!-- </value> -->
+				<!-- </li> -->
+
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ===================================================== -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[FSF] Advanced Bionics Expansion</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationReplace">
+				  <xpath>/Defs/HediffDef[@Name="WVC_Ultra_ImplantHediffDef_WVC_UltratechBionic"]/addedPartProps/partEfficiency</xpath>
+				  <value>
+					  <partEfficiency>1.4</partEfficiency>
+				  </value>
+				</li>
+				<li Class="PatchOperationReplace">
+				  <xpath>/Defs/HediffDef[@Name="WVC_Ultra_ImplantHediffDef_WVC_MechtechBionic"]/addedPartProps/partEfficiency</xpath>
+				  <value>
+					  <partEfficiency>1.6</partEfficiency>
+				  </value>
+				</li>
+				<li Class="PatchOperationReplace">
+				  <xpath>/Defs/HediffDef[@Name="WVC_Ultra_ImplantHediffDef_WVC_RecoveryMechtechBionic" or @Name="WVC_Ultra_ImplantHediffDef_WVC_PsychicMechtechBionic" or @Name="WVC_Ultra_ImplantHediffDef_WVC_ArmoredMechtechBionic" or @Name="WVC_Ultra_ImplantHediffDef_WVC_ToughMechtechBionic"]/addedPartProps/partEfficiency</xpath>
+				  <value>
+					  <partEfficiency>1.75</partEfficiency>
+				  </value>
+				</li>
+				<li Class="PatchOperationReplace">
+				  <xpath>/Defs/HediffDef[@Name="WVC_Ultra_ImplantHediffDef_WVC_OverclockedMechtechBionic"]/addedPartProps/partEfficiency</xpath>
+				  <value>
+					  <partEfficiency>1.9</partEfficiency>
+				  </value>
+				</li>
+				<li Class="PatchOperationReplace">
+				  <xpath>/Defs/HediffDef[@Name="WVC_Ultra_ImplantHediffDef_WVC_OverclockedMechtechBionic"]/addedPartProps/partEfficiency</xpath>
+				  <value>
+					  <partEfficiency>2.0</partEfficiency>
+				  </value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

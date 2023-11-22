@@ -10,7 +10,9 @@ namespace WVC_UltraExpansion
 
 	public class WVC_UltraSettings : ModSettings
 	{
-		// Graphic
+		// Misc
+		public bool vfe_ancients_compatabilitypatch = false;
+		// Debug
 		public bool implantGenerator_SaveBaseImplants = false;
 		public bool implantGenerator_SaveRecipeDefsInList = false;
 		public bool implantGenerator_FullLogging = false;
@@ -21,6 +23,9 @@ namespace WVC_UltraExpansion
 
 		public override void ExposeData()
 		{
+			// Misc
+			Scribe_Values.Look(ref vfe_ancients_compatabilitypatch, "vfe_ancients_compatabilitypatch", defaultValue: false);
+			// Debug
 			Scribe_Values.Look(ref implantGenerator_SaveBaseImplants, "implantGenerator_SaveBaseImplants", defaultValue: false);
 			Scribe_Values.Look(ref implantGenerator_SaveRecipeDefsInList, "implantGenerator_SaveRecipeDefsInList", defaultValue: false);
 			Scribe_Values.Look(ref implantGenerator_FullLogging, "implantGenerator_FullLogging", defaultValue: false);
@@ -92,6 +97,8 @@ namespace WVC_UltraExpansion
 			Listing_Standard listingStandard = new();
 			listingStandard.Begin(rect);
 			// ===============
+			listingStandard.Label("WVC_UltraSettings_Label_Misc".Translate() + ":", -1);
+			listingStandard.CheckboxLabeled("WVC_UltraSettings_Label_VFEA_Patch".Translate() , ref settings.vfe_ancients_compatabilitypatch, "WVC_UltraSettings_Tooltip_VFEA_Patch".Translate());
 			// ===============
 			if (Prefs.DevMode)
 			{

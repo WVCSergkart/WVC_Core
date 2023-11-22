@@ -150,14 +150,14 @@
 	<researchViewY>0.00</researchViewY>
 	<prerequisites>
 	  <li>WVC_BionicTech_Mechtech</li>
-	  <li>WVC_BionicTech_ScarsHealing</li>
+	  <li MayRequire="imranfish.xmlextensions">WVC_BionicTech_ScarsHealing</li>
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
 	</prerequisites>
   </ResearchProjectDef>
 
   <!-- ======================================================================= -->
 
-  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+  <ResearchProjectDef MayRequire="imranfish.xmlextensions" ParentName="WVC_Ultra_ResearchProject_Base">
 	<defName>WVC_BionicTech_ScarsHealing</defName>
 	<techLevel>Spacer</techLevel>
 	<label>scar treatment</label>
