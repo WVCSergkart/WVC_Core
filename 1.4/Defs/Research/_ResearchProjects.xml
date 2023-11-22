@@ -156,7 +156,7 @@
 
   <!-- ======================================================================= -->
 
-  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+  <ResearchProjectDef MayRequire="ludeon.rimworld.royalty" ParentName="WVC_Ultra_ResearchProject_Base">
 	<defName>WVC_Ultra_DefenceSystems</defName>
 	<label>mechtech defence systems</label>
 	<description>Automatic turrets that do not require reloading.</description>

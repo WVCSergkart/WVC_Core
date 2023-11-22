@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="MechanoidBuildings_WVC">
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="WVC_Ultra_SpawnersAndOther_Base">
 	<defName>WVC_UltraniteAssembler</defName>
 	<label>ultranite assembler</label>
 	<description>Underground complex for replication. Slowly produces microscopic machines from literally nothing, but requires a lot of energy.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
@@ -116,7 +118,7 @@
 	  <li>ExoticBuilding</li>
 	</tradeTags>
 	<!-- <designatorDropdown>Valkyries_Replicators_WVC</designatorDropdown> -->
-	<researchPrerequisites Inherit="False">
+	<researchPrerequisites>
 		<li>WVC_Ultra_UltraniteSpawner</li>
 	</researchPrerequisites>
 	<designationCategory>WVC_UltraExpansion</designationCategory>
@@ -125,7 +127,7 @@
 
   <!-- ========================================================== -->
 
-  <ThingDef ParentName="MechanoidBuildings_WVC">
+  <ThingDef ParentName="WVC_Ultra_SpawnersAndOther_Base">
 	<defName>WVC_MechtechDrillingMachine</defName>
 	<label>mechtech drilling machine</label>
 	<description>Complex fully automated deep drilling installation. Does not bother insects.
@@ -254,7 +256,7 @@
 	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
 	</building>
 	<constructEffect>ConstructMetal</constructEffect>
-	<researchPrerequisites Inherit="False">
+	<researchPrerequisites>
 		<li>WVC_Ultra_MechtechDrillingMachine</li>
 	</researchPrerequisites>
 	<constructionSkillPrerequisite>13</constructionSkillPrerequisite>

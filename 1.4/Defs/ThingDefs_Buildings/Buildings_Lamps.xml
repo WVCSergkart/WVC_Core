@@ -3,7 +3,7 @@
 
   <!-- ============================================================ -->
 
-  <ThingDef ParentName="AncientBuildings_WVC">
+  <ThingDef ParentName="WVC_Ultra_SpawnersAndOther_Base">
 	<defName>WVC_FloorLamp</defName>
 	<label>floor lamp</label>
 	<description>No information available.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
@@ -64,6 +64,7 @@
 		<!-- <ComponentSpacer>1</ComponentSpacer> -->
 	</costList>
 	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+	<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	<comps Inherit="False">
 	  <li Class="CompProperties_Flickable"/>
 	  <li Class="CompProperties_Glower">
@@ -72,7 +73,7 @@
 		<glowColor>(78, 226, 229, 0)</glowColor>
 	  </li>
 	</comps>
-	<researchPrerequisites Inherit="False">
+	<researchPrerequisites>
 	  <li>WVC_Ultra_Ultratech</li>
 	  <li>ComplexFurniture</li>
 	  <!-- <li>Machining</li> -->

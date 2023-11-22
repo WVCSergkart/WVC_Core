@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================================================ -->
+  
+  <ThingDef ParentName="WVC_Ultra_BasicBed_Base">
+	<defName>WVC_UltratechSlabBed</defName>
+	<label>ultratech slab bed</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/Furniture/AncientBed</texPath>
+	  <color>(65,69,65)</color>
+	</graphicData>
+	<statBases>
+	  <MarketValue>210</MarketValue>
+	  <MaxHitPoints>1100</MaxHitPoints>
+	  <Mass>30</Mass>
+	  <BedRestEffectiveness>1.2</BedRestEffectiveness>
+	  <ImmunityGainSpeedFactor>1.2</ImmunityGainSpeedFactor>
+	  <SurgerySuccessChanceFactor>1.2</SurgerySuccessChanceFactor>
+	  <Beauty>2</Beauty>
+	  <Comfort>1.2</Comfort>
+	  <Beauty>1</Beauty>
+	  <WorkToBuild>12000</WorkToBuild>
+	  <Mass>30</Mass>
+	  <BirthRitualQualityOffset MayRequire="Ludeon.RimWorld.Biotech">15</BirthRitualQualityOffset>
+	</statBases>
+  </ThingDef>
+
+</Defs>

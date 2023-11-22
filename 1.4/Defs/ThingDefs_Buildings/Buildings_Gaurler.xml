@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef MayRequire="ludeon.rimworld.ideology" ParentName="MechanoidBuildings_WVC">
+  <ThingDef MayRequire="ludeon.rimworld.ideology" ParentName="WVC_Ultra_SpawnersAndOther_Base">
 	<defName>WVC_Gaurler</defName>
 	<label>Gaurler</label>
 	<description>Underground complex with artificial conditions for the existence of the dryad queen. Dryads reproduce using cloning vats, the queen's brain is used as a central processing unit to coordinate the complex, as well as to mimic the brood-mind of dryads.</description>
@@ -140,7 +140,7 @@
 	  <spectateDistance>6</spectateDistance>
 	  <allowedSpectateSides>All</allowedSpectateSides>
 	</ritualFocus>
-	<researchPrerequisites Inherit="False">
+	<researchPrerequisites>
 	  <li>WVC_Ultra_GauranlenTree</li>
 	</researchPrerequisites>
 	<!-- <designationCategory>Ideology</designationCategory> -->

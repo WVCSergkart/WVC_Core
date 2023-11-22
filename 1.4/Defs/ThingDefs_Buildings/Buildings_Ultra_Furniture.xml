@@ -3,8 +3,8 @@
 
   <!-- ============================================================ -->
 
-  <ThingDef ParentName="AncientBuildings_WVC">
-	<defName>WVC_AncientStool</defName>
+  <ThingDef ParentName="WVC_Ultra_FurnitureWithQuality_Base">
+	<defName>WVC_UltratechStool</defName>
 	<label>ultratech stool</label>
 	<!-- <description>A simple platform on which to sit. Can be used at tables, work stations, and elsewhere.</description> -->
 	<description>A high-tech stool that perfectly adapts to the person sitting on it.</description>
@@ -27,7 +27,6 @@
 		<volume>(0.18, 0.23, 0.18)</volume>
 	  </shadowData>
 	</graphicData>
-	<altitudeLayer>Building</altitudeLayer>
 	<statBases>
 	  <MarketValue>90</MarketValue>
 	  <MaxHitPoints>300</MaxHitPoints>
@@ -37,7 +36,6 @@
 	  <Comfort>1.5</Comfort>
 	</statBases>
 	<socialPropernessMatters>true</socialPropernessMatters>
-	<rotatable>false</rotatable>
 	<costList>
 	  <Plasteel>15</Plasteel>
 	  <!-- <ComponentSpacer>1</ComponentSpacer> -->
@@ -51,13 +49,6 @@
 	<uiIconOffset>(0, -0.05)</uiIconOffset>
 	<comps>
 	</comps>
-	<designationCategory>WVC_UltraExpansion</designationCategory>
-	<minifiedDef>MinifiedThing</minifiedDef>
-	<thingCategories>
-	  <li>BuildingsFurniture</li>
-	</thingCategories>
-	<!-- <designatorDropdown>HGS_Stools_WVC</designatorDropdown> -->
-	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<researchPrerequisites>
 	  <li>ComplexFurniture</li>
 	</researchPrerequisites>
@@ -65,8 +56,8 @@
 
   <!-- ============================================================ -->
 
-  <ThingDef ParentName="AncientBuildings_WVC">
-	<defName>WVC_AncientTable2x2c</defName>
+  <ThingDef ParentName="WVC_Ultra_FurnitureWithQuality_Base">
+	<defName>WVC_UltratechTable2x2c</defName>
 	<label>ultratech table (2x2)</label>
 	<description>People eat off tables when chairs are placed facing them.</description>
 	<graphicData>
@@ -92,10 +83,6 @@
 	  <JoyGainFactor>1.5</JoyGainFactor>
 	</statBases>
 	<size>(2,2)</size>
-	<rotatable>false</rotatable>
-	<thingClass>Building</thingClass>
-	<altitudeLayer>Building</altitudeLayer>
-	<passability>PassThroughOnly</passability>
 	<castEdgeShadows>true</castEdgeShadows>
 	<pathCost>42</pathCost>
 	<fillPercent>0.4</fillPercent>
@@ -123,13 +110,6 @@
 	<placeWorkers>
 	  <li>PlaceWorker_RitualFocus</li>
 	</placeWorkers>
-	<designationCategory>WVC_UltraExpansion</designationCategory>
-	<minifiedDef>MinifiedThing</minifiedDef>
-	<thingCategories>
-	  <li>BuildingsFurniture</li>
-	</thingCategories>
-	<!-- <designatorDropdown>HGS_Tables_WVC</designatorDropdown> -->
-	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<researchPrerequisites>
 	  <li>ComplexFurniture</li>
 	</researchPrerequisites>

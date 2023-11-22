@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-  <ThingDef ParentName="MechanoidBuildings_WVC">
-	<defName>WVC_FloorHeater</defName>
+  <ThingDef ParentName="WVC_Ultra_SpawnersAndOther_Base">
+	<defName>WVC_Ultra_FloorHeater</defName>
 	<label>floor air conditioner</label>
 	<description>Stabilizes the temperature in the room up to 17-21c. It has a built-in power supply, so it does not require an electrical connection.</description>
 	<thingClass>Building_Heater</thingClass>
@@ -92,7 +92,7 @@
 	  <!-- </li> -->
 	  <!-- <li Class="CompProperties_Breakdownable"/> -->
 	</comps>
-	<researchPrerequisites Inherit="False">
+	<researchPrerequisites>
 	  <li>AirConditioning</li>
 	  <li>WVC_Ultra_Mechtech</li>
 	</researchPrerequisites>

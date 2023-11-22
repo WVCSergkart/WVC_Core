@@ -3,7 +3,7 @@
 
   <!-- ============================================================ -->
 
-  <ThingDef ParentName="MechanoidBuildings_WVC">
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Base">
 	<defName>WVC_Ultra_GarbageRecyclerBench</defName>
 	<label>mechtech recycler</label>
 	<!-- <label>Advanced crafter</label> -->
@@ -164,7 +164,7 @@
 
   <!-- ============================================================ -->
 
-  <ThingDef ParentName="AncientBuildings_WVC" Name="WVC_ImplantWorkBenches_Base" Abstract="True">
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Base" Name="WVC_Ultra_WorkBenches_Implants" Abstract="True">
 	<label>implant workbench</label>
 	<description>An experimentally workbench. This workbench contains everything you need to create complex body parts.</description>
 	<!-- = -->
@@ -268,7 +268,7 @@
 
   <!-- ============================================================ -->
 
-  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
 	<defName>WVC_ExperimentalCraftingBench</defName>
 	<label>implant workbench (torture)</label>
 	<graphicData>
@@ -279,7 +279,7 @@
 	</researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
 	<defName>WVC_CyberneticCraftingBench</defName>
 	<label>implant workbench (cybernetic)</label>
 	<graphicData>
@@ -292,7 +292,7 @@
 
   <!-- ============================================================ -->
 
-  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
 	<defName>WVC_AncientCraftingBench</defName>
 	<label>implant workbench (ultratech)</label>
 	<graphicData>
@@ -303,7 +303,7 @@
 	</researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
 	<defName>WVC_MechanoidCraftingBench</defName>
 	<label>implant workbench (mechtech)</label>
 	<graphicData>
@@ -316,7 +316,7 @@
 
   <!-- ============================================================ -->
 
-  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
 	<defName>WVC_BlueCraftingBench</defName>
 	<label>implant workbench (overclocked)</label>
 	<graphicData>
@@ -328,7 +328,7 @@
 	</researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
 	<defName>WVC_GreenCraftingBench</defName>
 	<label>implant workbench (recovery)</label>
 	<graphicData>
@@ -340,7 +340,7 @@
 	</researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
 	<defName>WVC_RedCraftingBench</defName>
 	<label>implant workbench (armored)</label>
 	<graphicData>
@@ -352,7 +352,7 @@
 	</researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
 	<defName>WVC_VioletCraftingBench</defName>
 	<label>implant workbench (tough)</label>
 	<graphicData>
@@ -364,7 +364,7 @@
 	</researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
 	<defName>WVC_YellowCraftingBench</defName>
 	<label>implant workbench (psychic)</label>
 	<graphicData>
@@ -378,7 +378,7 @@
 
   <!-- ============================================================ -->
 
-  <ThingDef ParentName="WVC_ImplantWorkBenches_Base">
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
 	<defName>WVC_ArchotechCraftingBench</defName>
 	<label>implant workbench (adv-mechtech)</label>
 	<graphicData>

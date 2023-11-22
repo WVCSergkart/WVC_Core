@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef MayRequire="ludeon.rimworld.royalty" Name="Turret_AutoTurret_WVC" ParentName="MechanoidBuildings_WVC" WVC_CE_Tag="DoesNotSupport">
+  <ThingDef MayRequire="ludeon.rimworld.royalty" Name="WVC_Ultra_DefenceTurrets_Base" ParentName="WVC_Ultra_SpawnersAndOther_Base" WVC_CE_Tag="DoesNotSupport">
 	<defName>Turret_AutoMiniTurret_WVC</defName>
 	<label>mini-slugger turret</label>
 	<description>A self-powered defense turret mounted with a weak but long-ranged slug-thrower. May explode when damaged.</description>
@@ -76,7 +76,7 @@
 	  <turretBurstCooldownTime>2.5</turretBurstCooldownTime>
 	  <soundAmbient>MechTurretSmall_Call</soundAmbient>
 	</building>
-	<researchPrerequisites Inherit="False">
+	<researchPrerequisites>
 	  <li>WVC_Ultra_DefenceSystems</li>
 	  <!-- <li>HeavyTurrets</li> -->
 	  <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_AutomatedDefensiveMeasures</li>
@@ -90,7 +90,7 @@
   </ThingDef>
 
 
-  <ThingDef MayRequire="ludeon.rimworld.royalty" ParentName="Turret_AutoTurret_WVC" WVC_CE_Tag="DoesNotSupport">
+  <ThingDef MayRequire="ludeon.rimworld.royalty" ParentName="WVC_Ultra_DefenceTurrets_Base" WVC_CE_Tag="DoesNotSupport">
 	<defName>Turret_ChargeBlasterTurret_WVC</defName>
 	<label>mini-сharger turret</label>
 	<costList>
@@ -113,7 +113,7 @@
 	</researchPrerequisites>
   </ThingDef>
 
-  <ThingDef MayRequire="ludeon.rimworld.royalty" ParentName="Turret_AutoTurret_WVC" WVC_CE_Tag="DoesNotSupport">
+  <ThingDef MayRequire="ludeon.rimworld.royalty" ParentName="WVC_Ultra_DefenceTurrets_Base" WVC_CE_Tag="DoesNotSupport">
 	<defName>Turret_InfernoTurret_WVC</defName>
 	<label>mini-inferno turret</label>
 	<costList>
@@ -135,7 +135,7 @@
 	</researchPrerequisites>
   </ThingDef>
 
-  <ThingDef MayRequire="ludeon.rimworld.royalty" ParentName="Turret_AutoTurret_WVC" WVC_CE_Tag="DoesNotSupport">
+  <ThingDef MayRequire="ludeon.rimworld.royalty" ParentName="WVC_Ultra_DefenceTurrets_Base" WVC_CE_Tag="DoesNotSupport">
 	<defName>Turret_AutoMortar_WVC</defName>
 	<label>mini-mortar turret</label>
 	<costList>
