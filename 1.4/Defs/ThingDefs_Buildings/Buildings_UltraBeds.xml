@@ -7,7 +7,7 @@
 	<defName>WVC_UltratechSlabBed</defName>
 	<label>ultratech slab bed</label>
 	<graphicData>
-	  <texPath>WVC/Stuff/Furniture/AncientBed</texPath>
+	  <texPath>WVC/Stuff/Furniture/Slab/AncientBed</texPath>
 	  <color>(65,69,65)</color>
 	</graphicData>
 	<costStuffCount>60</costStuffCount>
@@ -37,7 +37,7 @@
 	<defName>WVC_UltratechDoubleSlabBed</defName>
 	<label>ultratech double slab bed</label>
 	<graphicData>
-	  <texPath>WVC/Stuff/Furniture/DoubleBed</texPath>
+	  <texPath>WVC/Stuff/Furniture/Slab/DoubleBed</texPath>
 	</graphicData>
 	<size>(2,2)</size>
 	<costStuffCount>85</costStuffCount>
@@ -47,6 +47,30 @@
 	<statBases>
 	  <MaxHitPoints>300</MaxHitPoints>
 	  <WorkToBuild>15000</WorkToBuild>
+	  <Mass>50</Mass>
+	  <Beauty>4</Beauty>
+	</statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="WVC_Ultra_BasicBed_DoubleSlabBed">
+	<defName>WVC_UltratechDoubleBed</defName>
+	<label>ultratech double bed</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/Furniture/Base/DoubleBed</texPath>
+	</graphicData>
+	<size>(2,2)</size>
+	<costStuffCount>85</costStuffCount>
+	<building>
+	  <bed_slabBed>false</bed_slabBed>
+	  <bed_showSleeperBody>false</bed_showSleeperBody>
+	</building>
+	<costList>
+	  <ComponentSpacer>2</ComponentSpacer>
+	</costList>
+	<statBases>
+	  <MaxHitPoints>300</MaxHitPoints>
+	  <WorkToBuild>15000</WorkToBuild>
+	  <Comfort>1.5</Comfort>
 	  <Mass>50</Mass>
 	  <Beauty>4</Beauty>
 	</statBases>
