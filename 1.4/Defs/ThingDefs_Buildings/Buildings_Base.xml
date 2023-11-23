@@ -73,10 +73,6 @@
 	<statBases>
 	  <Flammability>0.0</Flammability>
 	</statBases>
-	<costStuffCount>60</costStuffCount>
-	<costList>
-	  <ComponentSpacer>1</ComponentSpacer>
-	</costList>
 	<size>(1,2)</size>
 	<uiOrder>2010</uiOrder>
 	<building>

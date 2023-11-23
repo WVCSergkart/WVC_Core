@@ -3,13 +3,21 @@
 
   <!-- ============================================================ -->
   
-  <ThingDef ParentName="WVC_Ultra_BasicBed_Base">
+  <ThingDef ParentName="WVC_Ultra_BasicBed_Base" Name="WVC_Ultra_BasicBed_SlabBed">
 	<defName>WVC_UltratechSlabBed</defName>
 	<label>ultratech slab bed</label>
 	<graphicData>
 	  <texPath>WVC/Stuff/Furniture/AncientBed</texPath>
 	  <color>(65,69,65)</color>
 	</graphicData>
+	<costStuffCount>60</costStuffCount>
+	<costList>
+	  <ComponentSpacer>1</ComponentSpacer>
+	</costList>
+	<building>
+	  <bed_slabBed>true</bed_slabBed>
+	  <bed_showSleeperBody>true</bed_showSleeperBody>
+	</building>
 	<statBases>
 	  <MarketValue>210</MarketValue>
 	  <MaxHitPoints>1100</MaxHitPoints>
@@ -19,11 +27,49 @@
 	  <SurgerySuccessChanceFactor>1.2</SurgerySuccessChanceFactor>
 	  <Beauty>2</Beauty>
 	  <Comfort>1.2</Comfort>
-	  <Beauty>1</Beauty>
 	  <WorkToBuild>12000</WorkToBuild>
 	  <Mass>30</Mass>
 	  <BirthRitualQualityOffset MayRequire="Ludeon.RimWorld.Biotech">15</BirthRitualQualityOffset>
 	</statBases>
   </ThingDef>
+  
+  <ThingDef ParentName="WVC_Ultra_BasicBed_SlabBed" Name="WVC_Ultra_BasicBed_DoubleSlabBed">
+	<defName>WVC_UltratechDoubleSlabBed</defName>
+	<label>ultratech double slab bed</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/Furniture/DoubleBed</texPath>
+	</graphicData>
+	<size>(2,2)</size>
+	<costStuffCount>85</costStuffCount>
+	<costList>
+	  <ComponentSpacer>2</ComponentSpacer>
+	</costList>
+	<statBases>
+	  <MaxHitPoints>300</MaxHitPoints>
+	  <WorkToBuild>15000</WorkToBuild>
+	  <Mass>50</Mass>
+	  <Beauty>4</Beauty>
+	</statBases>
+  </ThingDef>
+  
+  <!-- <ThingDef ParentName="WVC_Ultra_BasicBed_DoubleSlabBed"> -->
+	<!-- <defName>WVC_UltratechRecoveryBed</defName> -->
+	<!-- <label>mechtech recovery bed</label> -->
+	<!-- <graphicData> -->
+	  <!-- <texPath>WVC/Stuff/Furniture/RecoveryBed</texPath> -->
+	<!-- </graphicData> -->
+	<!-- <building> -->
+	  <!-- <bed_healPerDay>90</bed_healPerDay> -->
+	<!-- </building> -->
+	<!-- <statBases> -->
+	  <!-- <MaxHitPoints>400</MaxHitPoints> -->
+	  <!-- <WorkToBuild>25000</WorkToBuild> -->
+	  <!-- <ImmunityGainSpeedFactor>2.0</ImmunityGainSpeedFactor> -->
+	  <!-- <SurgerySuccessChanceFactor>2.0</SurgerySuccessChanceFactor> -->
+	  <!-- <Comfort>2.0</Comfort> -->
+	<!-- </statBases> -->
+	<!-- <comps> -->
+	<!-- </comps> -->
+  <!-- </ThingDef> -->
 
 </Defs>

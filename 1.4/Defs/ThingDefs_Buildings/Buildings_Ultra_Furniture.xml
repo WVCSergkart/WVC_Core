@@ -45,6 +45,7 @@
 	<building>
 	  <paintable>true</paintable>
 	  <isSittable>true</isSittable>
+	  <sitIgnoreOrientation>true</sitIgnoreOrientation>
 	</building>
 	<uiIconOffset>(0, -0.05)</uiIconOffset>
 	<comps>
