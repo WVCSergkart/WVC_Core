@@ -493,29 +493,6 @@
     <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechAnimalBionic">
-    <defName>Hediff_WVC_UltratechAnimalBionic_Elytra_Ultra</defName>
-    <label>ultratech insect elytra</label>
-    <descriptionHyperlinks>
-      <ThingDef>WVC_UltratechAnimalBionic_Elytra_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_Elytra_Ultra</RecipeDef>
-    </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Elytra_Ultra</spawnThingOnRemoved>
-    <stages>
-      <li>
-        <statOffsets>
-          <Mass>5</Mass>
-          <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
-          <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
-          <ArmorRating_Heat>0.04</ArmorRating_Heat>
-        </statOffsets>
-      </li>
-    </stages>
-    <comps />
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
-  </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechAnimalBionic">
     <defName>Hediff_WVC_UltratechAnimalBionic_InsectLeg_Ultra</defName>
     <label>ultratech insect leg</label>
     <descriptionHyperlinks>

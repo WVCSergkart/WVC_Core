@@ -350,20 +350,6 @@
     <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
-    <defName>Hediff_WVC_MechtechAnimalBionic_Elytra_Ultra</defName>
-    <label>mechtech insect elytra</label>
-    <descriptionHyperlinks>
-      <ThingDef>WVC_MechtechAnimalBionic_Elytra_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Elytra_Ultra</RecipeDef>
-    </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_MechtechAnimalBionic_Elytra_Ultra</spawnThingOnRemoved>
-    <stages />
-    <comps />
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
-  </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_InsectLeg_Ultra</defName>
     <label>mechtech insect leg</label>
     <descriptionHyperlinks>

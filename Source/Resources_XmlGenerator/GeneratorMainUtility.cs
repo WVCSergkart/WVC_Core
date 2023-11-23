@@ -34,7 +34,7 @@ namespace WVC_UltraExpansion
 						}
 						foreach (RecipeDef recipeDef in recipeDefs)
 						{
-							xDocument2.Element("Defs").Add(GenerateSurgeryDefFile(recipeDef));
+							xDocument2.Element("Defs").Add(GenerateSurgeryDefFile(recipeDef, generatorDef));
 						}
 						foreach (ThingDef thingDef in thingDefs)
 						{
@@ -57,7 +57,7 @@ namespace WVC_UltraExpansion
 						// {
 							// xRecipesValue.Add(new XElement("li", recipeDef.defName));
 						// }
-						xRecipes.Element("Patch").Add(GenerateAnimalRecipePatch(recipeDefs));
+						xRecipes.Element("Patch").Add(GenerateAnimalRecipePatch(recipeDefs, generatorDef));
 					}
 				}
 				if (WVC_Ultra.settings.implantGenerator_SaveRecipeDefsInList)
@@ -73,21 +73,41 @@ namespace WVC_UltraExpansion
 				}
 			}
 
-			public static XElement GenerateAnimalRecipePatch(List<RecipeDef> defs)
+			public static XElement GenerateAnimalRecipePatch(List<RecipeDef> defs, ImplantGeneratorDef generatorDef)
 			{
-				foreach (RecipeDef recipeDef in defs)
+				// foreach (RecipeDef recipeDef in defs)
+				// {
+					// if (!recipeDef.defName.Contains("Animal"))
+					// {
+						// return null;
+					// }
+				// }
+				if (!generatorDef.surgeryTag.Contains("Animal"))
 				{
-					if (!recipeDef.defName.Contains("Animal"))
-					{
-						return null;
-					}
+					return null;
 				}
 				XElement xElement = new ("Operation", new XAttribute("Class", "PatchOperationAdd"), new XElement("xpath", "/Defs/ThingDef[@Name=\"" + "AnimalThingBase" + "\"]/recipes"), new XElement("value"));
 				XElement xValue = xElement.Element("value");
 				foreach (RecipeDef recipeDef in defs)
 				{
-					xValue.Add(new XElement("li", recipeDef.defName));
+					if (generatorDef.mayRequire != null)
+					{
+						xValue.Add(new XElement("li", new XAttribute("MayRequire", generatorDef.mayRequire), recipeDef.defName));
+					}
+					else
+					{
+						xValue.Add(new XElement("li", recipeDef.defName));
+					}
+					// if (generatorDef.mayRequire != null)
+					// {
+						// XElement li = xValue.Element("li");
+						// li.Add(new XAttribute("MayRequire", generatorDef.mayRequire));
+					// }
 				}
+				// if (generatorDef.mayRequire != null)
+				// {
+					// xElement.Add(new XAttribute("MayRequire", generatorDef.mayRequire));
+				// }
 				return xElement;
 			}
 
@@ -207,6 +227,10 @@ namespace WVC_UltraExpansion
 				// xElement.Attributes.Append(xmlAttribute);
 				// string name = "ParentName";
 				// xElement.SetAttributeValue(name, "WVC_Ultra_ImplantThingDef_" + generatorDef.defName);
+				if (generatorDef.mayRequire != null)
+				{
+					xElement.Add(new XAttribute("MayRequire", generatorDef.mayRequire));
+				}
 				return xElement;
 			}
 
@@ -396,6 +420,21 @@ namespace WVC_UltraExpansion
 								}
 							}
 						}
+						if (!stage.statFactors.NullOrEmpty())
+						{
+							li.Add(new XElement("statFactors"));
+							XElement statFactors = li.Element("statFactors");
+							foreach (var statOffset in stage.statFactors)
+							{
+								string mayRequire = "MayRequire";
+								string statName = statOffset.stat.defName;
+								statFactors.Add(new XElement(statName, statOffset.value));
+								if (statOffset.stat == StatDefOf.MechBandwidth || statOffset.stat == StatDefOf.ToxicEnvironmentResistance)
+								{
+									statFactors.Element(statName).SetAttributeValue(mayRequire, "Ludeon.RimWorld.Biotech");
+								}
+							}
+						}
 						// Log.Error("CapMods");
 						if (!stage.capMods.NullOrEmpty())
 						{
@@ -491,7 +530,10 @@ namespace WVC_UltraExpansion
 				}
 				// Log.Error("After Comps");
 				// string name = "ParentName";
-				// xElement.SetAttributeValue(name, "WVC_Ultra_ImplantHediffDef_" + generatorDef.defName);
+				if (generatorDef.mayRequire != null)
+				{
+					xElement.Add(new XAttribute("MayRequire", generatorDef.mayRequire));
+				}
 				return xElement;
 			}
 
@@ -508,6 +550,7 @@ namespace WVC_UltraExpansion
 					addedPartProps = new()
 				};
 				List<ChangesByPart> stageByPart = implantGeneratorDef.changesByPart;
+				// mayRequire;
 				for (int i = 0; i < stageByPart.Count; i++)
 				{
 					if (def == stageByPart[i].def)
@@ -531,6 +574,10 @@ namespace WVC_UltraExpansion
 						{
 							hediffDef.addedPartProps.partEfficiency = stageByPart[i].partEfficiency;
 						}
+						// if (stageByPart[i].mayRequire != null)
+						// {
+							// mayRequire = stageByPart[i].mayRequire;
+						// }
 						break;
 					}
 				}
@@ -558,14 +605,14 @@ namespace WVC_UltraExpansion
 				// return hediffDef;
 			}
 
-			public static XElement GenerateSurgeryDefFile(RecipeDef def)
+			public static XElement GenerateSurgeryDefFile(RecipeDef def, ImplantGeneratorDef generatorDef)
 			{
-				string surgeryName = "WVC_Ultra_ImplantSurgeryDef_Base";
-				if (def.defName.Contains("Animal"))
-				{
-					surgeryName = "WVC_Ultra_ImplantSurgeryDef_Animals";
-				}
-				XElement xElement = new("RecipeDef", new XAttribute("ParentName", surgeryName), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("description", def.description), new XElement("jobString", def.jobString), new XElement("descriptionHyperlinks"), new XElement("appliedOnFixedBodyParts"), new XElement("addsHediff", def.addsHediff.defName), new XElement("ingredients"), new XElement("fixedIngredientFilter"));
+				// string surgeryName = "WVC_Ultra_ImplantSurgeryDef_Base";
+				// if (def.defName.Contains("Animal"))
+				// {
+					// surgeryName = "WVC_Ultra_ImplantSurgeryDef_Animals";
+				// }
+				XElement xElement = new("RecipeDef", new XAttribute("ParentName", "WVC_Ultra_ImplantSurgeryDef_" + generatorDef.surgeryTag), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("description", def.description), new XElement("jobString", def.jobString), new XElement("descriptionHyperlinks"), new XElement("appliedOnFixedBodyParts"), new XElement("addsHediff", def.addsHediff.defName), new XElement("ingredients"), new XElement("fixedIngredientFilter"));
 				XElement descriptionHyperlinks = xElement.Element("descriptionHyperlinks");
 				foreach (var i in def.descriptionHyperlinks)
 				{
@@ -605,6 +652,10 @@ namespace WVC_UltraExpansion
 				}
 				// string name = "ParentName";
 				// xElement.SetAttributeValue(name, "WVC_Ultra_ImplantSurgeryDef_Base");
+				if (generatorDef.mayRequire != null)
+				{
+					xElement.Add(new XAttribute("MayRequire", generatorDef.mayRequire));
+				}
 				return xElement;
 			}
 

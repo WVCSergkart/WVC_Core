@@ -21,8 +21,8 @@
 		<costList>
 		  <Plasteel>20</Plasteel>
 		  <Uranium>8</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>4</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>4</Gold> -->
 		  <DevilstrandCloth>4</DevilstrandCloth>
 		  <Hyperweave>4</Hyperweave>
 		</costList>
@@ -42,8 +42,8 @@
 		<costList>
 		  <Plasteel>19</Plasteel>
 		  <Uranium>11</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>4</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>4</Gold> -->
 		  <DevilstrandCloth>4</DevilstrandCloth>
 		  <Hyperweave>4</Hyperweave>
 		</costList>
@@ -63,8 +63,8 @@
 		<costList>
 		  <Plasteel>20</Plasteel>
 		  <Uranium>10</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>5</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>5</Gold> -->
 		  <DevilstrandCloth>4</DevilstrandCloth>
 		  <Hyperweave>4</Hyperweave>
 		</costList>
@@ -99,8 +99,8 @@
 		<costList>
 		  <Plasteel>18</Plasteel>
 		  <Uranium>8</Uranium>
-		  <ComponentSpacer>2</ComponentSpacer>
-		  <Gold>2</Gold>
+		  <!-- <ComponentSpacer>2</ComponentSpacer> -->
+		  <!-- <Gold>2</Gold> -->
 		  <DevilstrandCloth>2</DevilstrandCloth>
 		  <Hyperweave>3</Hyperweave>
 		</costList>
@@ -121,8 +121,8 @@
 		<costList>
 		  <Plasteel>22</Plasteel>
 		  <Uranium>15</Uranium>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>8</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>8</Gold> -->
 		  <DevilstrandCloth>6</DevilstrandCloth>
 		  <Hyperweave>6</Hyperweave>
 		</costList>
@@ -144,8 +144,8 @@
 		<costList>
 		  <Plasteel>27</Plasteel>
 		  <Uranium>12</Uranium>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>7</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
 		  <DevilstrandCloth>7</DevilstrandCloth>
 		  <Hyperweave>8</Hyperweave>
 		</costList>
@@ -165,8 +165,8 @@
 		<costList>
 		  <Plasteel>25</Plasteel>
 		  <Uranium>10</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>9</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>9</Gold> -->
 		  <DevilstrandCloth>6</DevilstrandCloth>
 		  <Hyperweave>6</Hyperweave>
 		</costList>
@@ -188,8 +188,8 @@
 		<costList>
 		  <Plasteel>25</Plasteel>
 		  <Uranium>12</Uranium>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>6</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>6</Gold> -->
 		  <DevilstrandCloth>5</DevilstrandCloth>
 		  <Hyperweave>4</Hyperweave>
 		</costList>
@@ -212,8 +212,8 @@
 		<costList>
 		  <Plasteel>20</Plasteel>
 		  <Uranium>12</Uranium>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>6</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>6</Gold> -->
 		  <DevilstrandCloth>5</DevilstrandCloth>
 		  <Hyperweave>5</Hyperweave>
 		</costList>
@@ -235,8 +235,8 @@
 		<costList>
 		  <Plasteel>22</Plasteel>
 		  <Uranium>8</Uranium>
-		  <ComponentSpacer>2</ComponentSpacer>
-		  <Gold>5</Gold>
+		  <!-- <ComponentSpacer>2</ComponentSpacer> -->
+		  <!-- <Gold>5</Gold> -->
 		  <DevilstrandCloth>4</DevilstrandCloth>
 		  <Hyperweave>4</Hyperweave>
 		</costList>
@@ -257,8 +257,8 @@
 		<costList>
 		  <Plasteel>26</Plasteel>
 		  <Uranium>9</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>7</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
 		  <DevilstrandCloth>6</DevilstrandCloth>
 		  <Hyperweave>6</Hyperweave>
 		</costList>
@@ -294,8 +294,8 @@
 		<costList>
 		  <Plasteel>25</Plasteel>
 		  <Uranium>10</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>7</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
 		  <DevilstrandCloth>6</DevilstrandCloth>
 		  <Hyperweave>6</Hyperweave>
 		</costList>

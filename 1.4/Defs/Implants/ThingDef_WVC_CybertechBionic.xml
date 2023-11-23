@@ -8,8 +8,6 @@
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>4</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Eye</texPath>
@@ -23,8 +21,6 @@
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>4</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Ear</texPath>
@@ -38,8 +34,6 @@
     </descriptionHyperlinks>
     <costList>
       <Plasteel>13</Plasteel>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>5</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Jaw</texPath>
@@ -53,8 +47,6 @@
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
-      <ComponentSpacer>2</ComponentSpacer>
-      <Gold>2</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Nose</texPath>
@@ -68,8 +60,6 @@
     </descriptionHyperlinks>
     <costList>
       <Plasteel>18</Plasteel>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>8</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Stomach</texPath>
@@ -83,8 +73,6 @@
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>7</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Spine</texPath>
@@ -98,8 +86,6 @@
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>9</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Heart</texPath>
@@ -113,8 +99,6 @@
     </descriptionHyperlinks>
     <costList>
       <Plasteel>13</Plasteel>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>6</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Kidney</texPath>
@@ -128,8 +112,6 @@
     </descriptionHyperlinks>
     <costList>
       <Plasteel>14</Plasteel>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>6</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Liver</texPath>
@@ -143,8 +125,6 @@
     </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
-      <ComponentSpacer>2</ComponentSpacer>
-      <Gold>5</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Lung</texPath>
@@ -158,8 +138,6 @@
     </descriptionHyperlinks>
     <costList>
       <Plasteel>17</Plasteel>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>7</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Arm</texPath>
@@ -173,8 +151,6 @@
     </descriptionHyperlinks>
     <costList>
       <Plasteel>18</Plasteel>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>7</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Leg</texPath>

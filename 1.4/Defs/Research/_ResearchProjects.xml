@@ -61,7 +61,8 @@
 	  <researchViewX>1.00</researchViewX>
 	  <researchViewY>2.70</researchViewY>
 	<hiddenPrerequisites>
-	  <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_MechanoidStructures</li>
+	  <!-- <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_MechanoidStructures</li> -->
+	  <li MayRequire="ludeon.rimworld.biotech">StandardMechtech</li>
 	  <!-- <li>ShipReactor</li> -->
 	  <!-- <li>ShipComputerCore</li> -->
 	</hiddenPrerequisites>

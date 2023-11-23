@@ -21,8 +21,8 @@
 		<eyeGraphicScale>1</eyeGraphicScale>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>2</ComponentSpacer>
-		  <Gold>4</Gold>
+		  <!-- <ComponentSpacer>2</ComponentSpacer> -->
+		  <!-- <Gold>4</Gold> -->
 		</costList>
 		<partEfficiency>0.0</partEfficiency>
 		<!-- <stages> -->
@@ -38,8 +38,8 @@
 		<label>deaf ear</label>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>2</ComponentSpacer>
-		  <Gold>4</Gold>
+		  <!-- <ComponentSpacer>2</ComponentSpacer> -->
+		  <!-- <Gold>4</Gold> -->
 		</costList>
 		<partEfficiency>0.0</partEfficiency>
 		<!-- <stages> -->
@@ -55,8 +55,8 @@
 		<label>silent jaw</label>
 		<costList>
 		  <Plasteel>13</Plasteel>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>5</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>5</Gold> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
@@ -92,9 +92,9 @@
 		<texPath>WVC/Implants/Arm</texPath>
 		<label>drill arm</label>
 		<costList>
-		  <Plasteel>17</Plasteel>
-		  <ComponentSpacer>6</ComponentSpacer>
-		  <Gold>7</Gold>
+		  <Plasteel>19</Plasteel>
+		  <!-- <ComponentSpacer>6</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
 		</costList>
 		<stages>
 		  <li>

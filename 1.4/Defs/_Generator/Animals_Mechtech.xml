@@ -13,8 +13,8 @@
 		<costList>
 		  <Plasteel>15</Plasteel>
 		  <Uranium>4</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>4</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>4</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -25,8 +25,8 @@
 		<costList>
 		  <Plasteel>15</Plasteel>
 		  <Uranium>4</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>4</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>4</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -37,8 +37,8 @@
 		<costList>
 		  <Plasteel>15</Plasteel>
 		  <Uranium>4</Uranium>
-		  <ComponentSpacer>2</ComponentSpacer>
-		  <Gold>2</Gold>
+		  <!-- <ComponentSpacer>2</ComponentSpacer> -->
+		  <!-- <Gold>2</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -49,8 +49,8 @@
 		<costList>
 		  <Plasteel>22</Plasteel>
 		  <Uranium>8</Uranium>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>8</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>8</Gold> -->
 		</costList>
 		<stages>
 		  <li>
@@ -67,8 +67,8 @@
 		<costList>
 		  <Plasteel>25</Plasteel>
 		  <Uranium>8</Uranium>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>7</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -79,8 +79,8 @@
 		<costList>
 		  <Plasteel>18</Plasteel>
 		  <Uranium>10</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>9</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>9</Gold> -->
 		</costList>
 		<stages>
 		  <li>
@@ -97,8 +97,8 @@
 		<costList>
 		  <Plasteel>17</Plasteel>
 		  <Uranium>8</Uranium>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>6</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>6</Gold> -->
 		</costList>
 		<stages>
 		  <li>
@@ -118,8 +118,8 @@
 		<costList>
 		  <Plasteel>19</Plasteel>
 		  <Uranium>9</Uranium>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>6</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>6</Gold> -->
 		</costList>
 		<stages>
 		  <li>
@@ -138,8 +138,8 @@
 		<costList>
 		  <Plasteel>20</Plasteel>
 		  <Uranium>8</Uranium>
-		  <ComponentSpacer>2</ComponentSpacer>
-		  <Gold>5</Gold>
+		  <!-- <ComponentSpacer>2</ComponentSpacer> -->
+		  <!-- <Gold>5</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -150,8 +150,8 @@
 		<costList>
 		  <Plasteel>18</Plasteel>
 		  <Uranium>15</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>7</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
@@ -177,8 +177,8 @@
 		<costList>
 		  <Plasteel>15</Plasteel>
 		  <Uranium>4</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>5</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>5</Gold> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
@@ -202,8 +202,8 @@
 		<costList>
 		  <Plasteel>15</Plasteel>
 		  <Uranium>4</Uranium>
-		  <ComponentSpacer>1</ComponentSpacer>
-		  <Gold>2</Gold>
+		  <!-- <ComponentSpacer>1</ComponentSpacer> -->
+		  <!-- <Gold>2</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -214,8 +214,8 @@
 		<costList>
 		  <Plasteel>15</Plasteel>
 		  <Uranium>4</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>5</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>5</Gold> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
@@ -240,8 +240,8 @@
 		<costList>
 		  <Plasteel>15</Plasteel>
 		  <Uranium>4</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>5</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>5</Gold> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
@@ -266,8 +266,8 @@
 		<costList>
 		  <Plasteel>15</Plasteel>
 		  <Uranium>4</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>5</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>5</Gold> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
@@ -292,8 +292,8 @@
 		<costList>
 		  <Plasteel>20</Plasteel>
 		  <Uranium>6</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>7</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
@@ -320,8 +320,8 @@
 		<costList>
 		  <Plasteel>14</Plasteel>
 		  <Uranium>3</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>4</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>4</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -332,8 +332,8 @@
 		<costList>
 		  <Plasteel>14</Plasteel>
 		  <Uranium>7</Uranium>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>9</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>9</Gold> -->
 		</costList>
 		<stages>
 		  <li>
@@ -349,21 +349,22 @@
 		<costList>
 		  <Plasteel>18</Plasteel>
 		  <Uranium>5</Uranium>
-		  <ComponentSpacer>2</ComponentSpacer>
-		  <Gold>7</Gold>
+		  <!-- <ComponentSpacer>2</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
-	  <li>
-		<def>Elytra</def>
-		<label>insect elytra</label>
-		<costList>
-		  <Plasteel>16</Plasteel>
-		  <Uranium>5</Uranium>
-		  <ComponentSpacer>1</ComponentSpacer>
-		  <Gold>4</Gold>
-		</costList>
-	  </li>
+	  <!-- Useless? -->
+	  <!-- <li> -->
+		<!-- <def>Elytra</def> -->
+		<!-- <label>insect elytra</label> -->
+		<!-- <costList> -->
+		  <!-- <Plasteel>16</Plasteel> -->
+		  <!-- <Uranium>5</Uranium> -->
+		  <!-- <ComponentSpacer>1</ComponentSpacer> -->
+		  <!-- <Gold>4</Gold> -->
+		<!-- </costList> -->
+	  <!-- </li> -->
 	</changesByPart>
   </WVC_UltraExpansion.ImplantGeneratorDef>
 

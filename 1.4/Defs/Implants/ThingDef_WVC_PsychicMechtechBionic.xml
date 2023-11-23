@@ -9,8 +9,6 @@
     <costList>
       <Plasteel>20</Plasteel>
       <Uranium>8</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>4</Gold>
       <Synthread>4</Synthread>
       <Hyperweave>4</Hyperweave>
     </costList>
@@ -27,8 +25,6 @@
     <costList>
       <Plasteel>19</Plasteel>
       <Uranium>11</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>4</Gold>
       <Synthread>4</Synthread>
       <Hyperweave>4</Hyperweave>
     </costList>
@@ -45,8 +41,6 @@
     <costList>
       <Plasteel>20</Plasteel>
       <Uranium>10</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>5</Gold>
       <Synthread>4</Synthread>
       <Hyperweave>4</Hyperweave>
     </costList>
@@ -63,8 +57,6 @@
     <costList>
       <Plasteel>18</Plasteel>
       <Uranium>8</Uranium>
-      <ComponentSpacer>2</ComponentSpacer>
-      <Gold>2</Gold>
       <Synthread>2</Synthread>
       <Hyperweave>3</Hyperweave>
     </costList>
@@ -81,8 +73,6 @@
     <costList>
       <Plasteel>22</Plasteel>
       <Uranium>15</Uranium>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>8</Gold>
       <Synthread>6</Synthread>
       <Hyperweave>6</Hyperweave>
     </costList>
@@ -99,8 +89,6 @@
     <costList>
       <Plasteel>27</Plasteel>
       <Uranium>12</Uranium>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>7</Gold>
       <Synthread>7</Synthread>
       <Hyperweave>8</Hyperweave>
     </costList>
@@ -117,8 +105,6 @@
     <costList>
       <Plasteel>25</Plasteel>
       <Uranium>10</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>9</Gold>
       <Synthread>6</Synthread>
       <Hyperweave>6</Hyperweave>
     </costList>
@@ -135,8 +121,6 @@
     <costList>
       <Plasteel>25</Plasteel>
       <Uranium>12</Uranium>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>6</Gold>
       <Synthread>5</Synthread>
       <Hyperweave>4</Hyperweave>
     </costList>
@@ -153,8 +137,6 @@
     <costList>
       <Plasteel>20</Plasteel>
       <Uranium>12</Uranium>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>6</Gold>
       <Synthread>5</Synthread>
       <Hyperweave>5</Hyperweave>
     </costList>
@@ -171,8 +153,6 @@
     <costList>
       <Plasteel>22</Plasteel>
       <Uranium>8</Uranium>
-      <ComponentSpacer>2</ComponentSpacer>
-      <Gold>5</Gold>
       <Synthread>4</Synthread>
       <Hyperweave>4</Hyperweave>
     </costList>
@@ -189,8 +169,6 @@
     <costList>
       <Plasteel>26</Plasteel>
       <Uranium>9</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>7</Gold>
       <Synthread>6</Synthread>
       <Hyperweave>6</Hyperweave>
     </costList>
@@ -207,8 +185,6 @@
     <costList>
       <Plasteel>25</Plasteel>
       <Uranium>10</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>7</Gold>
       <Synthread>6</Synthread>
       <Hyperweave>6</Hyperweave>
     </costList>

@@ -40,6 +40,9 @@
 	<statBases>
 	  <Flammability>0.0</Flammability>
 	</statBases>
+	<costList>
+	  <ComponentSpacer>1</ComponentSpacer>
+	</costList>
 	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 	<researchPrerequisites>
 		<li>WVC_Ultra_Ultratech</li>

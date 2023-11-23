@@ -12,8 +12,8 @@
 		<label>animal eye</label>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>4</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>4</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -23,8 +23,8 @@
 		<label>animal ear</label>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>4</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>4</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -34,8 +34,8 @@
 		<label>animal nose</label>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>2</ComponentSpacer>
-		  <Gold>2</Gold>
+		  <!-- <ComponentSpacer>2</ComponentSpacer> -->
+		  <!-- <Gold>2</Gold> -->
 		</costList>
 		<stages>
 		  <li>
@@ -52,8 +52,8 @@
 		<label>animal stomach</label>
 		<costList>
 		  <Plasteel>18</Plasteel>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>8</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>8</Gold> -->
 		</costList>
 		<stages>
 		  <li>
@@ -68,8 +68,8 @@
 		<label>animal spine</label>
 		<costList>
 		  <Plasteel>20</Plasteel>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>7</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -79,8 +79,8 @@
 		<label>animal heart</label>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>9</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>9</Gold> -->
 		</costList>
 		<stages>
 		  <li>
@@ -95,8 +95,8 @@
 		<label>animal kidney</label>
 		<costList>
 		  <Plasteel>13</Plasteel>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>6</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>6</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -106,8 +106,8 @@
 		<label>animal liver</label>
 		<costList>
 		  <Plasteel>14</Plasteel>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>6</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>6</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -117,8 +117,8 @@
 		<label>animal lung</label>
 		<costList>
 		  <Plasteel>15</Plasteel>
-		  <ComponentSpacer>2</ComponentSpacer>
-		  <Gold>5</Gold>
+		  <!-- <ComponentSpacer>2</ComponentSpacer> -->
+		  <!-- <Gold>5</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -128,8 +128,8 @@
 		<label>animal leg</label>
 		<costList>
 		  <Plasteel>18</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>7</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
@@ -154,8 +154,8 @@
 		<texPath>WVC/Implants/Jaw</texPath>
 		<costList>
 		  <Plasteel>13</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>5</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>5</Gold> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
@@ -178,8 +178,8 @@
 		<texPath>WVC/Implants/Nose</texPath>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>1</ComponentSpacer>
-		  <Gold>2</Gold>
+		  <!-- <ComponentSpacer>1</ComponentSpacer> -->
+		  <!-- <Gold>2</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -189,8 +189,8 @@
 		<label>snake jaw</label>
 		<costList>
 		  <Plasteel>13</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>5</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>5</Gold> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
@@ -214,8 +214,8 @@
 		<label>animal jaw</label>
 		<costList>
 		  <Plasteel>13</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>5</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>5</Gold> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
@@ -239,8 +239,8 @@
 		<label>insect jaw</label>
 		<costList>
 		  <Plasteel>13</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>5</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>5</Gold> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
@@ -264,8 +264,8 @@
 		<label>insect leg</label>
 		<costList>
 		  <Plasteel>18</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>7</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
@@ -291,8 +291,8 @@
 		<label>insect antenna</label>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>4</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>4</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -302,8 +302,8 @@
 		<label>insect heart</label>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>9</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>9</Gold> -->
 		</costList>
 		<stages>
 		  <li>
@@ -317,20 +317,21 @@
 		<texPath>WVC/Implants/Tail</texPath>
 		<costList>
 		  <Plasteel>16</Plasteel>
-		  <ComponentSpacer>2</ComponentSpacer>
-		  <Gold>7</Gold>
+		  <!-- <ComponentSpacer>2</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
-	  <li>
-		<def>Elytra</def>
-		<label>insect elytra</label>
-		<costList>
-		  <Plasteel>14</Plasteel>
-		  <ComponentSpacer>1</ComponentSpacer>
-		  <Gold>4</Gold>
-		</costList>
-	  </li>
+	  <!-- Useless? -->
+	  <!-- <li> -->
+		<!-- <def>Elytra</def> -->
+		<!-- <label>insect elytra</label> -->
+		<!-- <costList> -->
+		  <!-- <Plasteel>14</Plasteel> -->
+		  <!-- <ComponentSpacer>1</ComponentSpacer> -->
+		  <!-- <Gold>4</Gold> -->
+		<!-- </costList> -->
+	  <!-- </li> -->
 	</changesByPart>
   </WVC_UltraExpansion.ImplantGeneratorDef>
 

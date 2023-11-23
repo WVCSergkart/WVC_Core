@@ -59,7 +59,8 @@
 	<costList>
 	  <Plasteel>60</Plasteel>
 	  <Uranium>12</Uranium>
-	  <ComponentSpacer>5</ComponentSpacer>
+	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
+	  <WVC_ComponentMechtech>5</WVC_ComponentMechtech>
 	</costList>
 	<researchPrerequisites Inherit="False">
 		<!-- <li>Electricity</li> -->

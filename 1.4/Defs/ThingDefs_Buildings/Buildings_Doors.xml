@@ -59,8 +59,10 @@
 			<color>(181,165,153)</color>
 		</graphicData>
 		<costList>
-			<Uranium>22</Uranium>
-			<ComponentSpacer>4</ComponentSpacer>
+			<Uranium>11</Uranium>
+			<WVC_Ultrasteel>11</WVC_Ultrasteel>
+			<!-- <ComponentSpacer>4</ComponentSpacer> -->
+			<WVC_ComponentMechtech>3</WVC_ComponentMechtech>
 		</costList>
 		<useHitPoints>false</useHitPoints>
 		<researchPrerequisites>

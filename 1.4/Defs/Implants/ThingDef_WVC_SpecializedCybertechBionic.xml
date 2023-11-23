@@ -8,8 +8,6 @@
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
-      <ComponentSpacer>2</ComponentSpacer>
-      <Gold>4</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Eye</texPath>
@@ -23,8 +21,6 @@
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
-      <ComponentSpacer>2</ComponentSpacer>
-      <Gold>4</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Ear</texPath>
@@ -38,8 +34,6 @@
     </descriptionHyperlinks>
     <costList>
       <Plasteel>13</Plasteel>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>5</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Jaw</texPath>
@@ -52,9 +46,7 @@
       <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Shoulder_Ultra</RecipeDef>
     </descriptionHyperlinks>
     <costList>
-      <Plasteel>17</Plasteel>
-      <ComponentSpacer>6</ComponentSpacer>
-      <Gold>7</Gold>
+      <Plasteel>19</Plasteel>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Arm</texPath>

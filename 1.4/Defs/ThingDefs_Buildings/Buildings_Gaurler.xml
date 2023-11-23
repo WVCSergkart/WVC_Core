@@ -62,8 +62,10 @@
 	</graphicData>
 	<costList>
 		<Plasteel>320</Plasteel>
-		<Uranium>33</Uranium>
-		<ComponentSpacer>9</ComponentSpacer>
+		<!-- <Uranium>33</Uranium> -->
+		<WVC_Ultrasteel>33</WVC_Ultrasteel>
+		<!-- <ComponentSpacer>9</ComponentSpacer> -->
+		<WVC_ComponentMechtech>8</WVC_ComponentMechtech>
 		<!-- <VFE_ComponentMechanoid>12</VFE_ComponentMechanoid> -->
 		<!-- <VFE_ComponentMechanoid>12</VFE_ComponentMechanoid> -->
 	</costList>

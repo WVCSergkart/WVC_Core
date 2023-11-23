@@ -93,10 +93,12 @@
 	</killedLeavings>
 	<costList>
 		<Plasteel>210</Plasteel>
-		<Uranium>33</Uranium>
+		<!-- <Uranium>33</Uranium> -->
+		<WVC_Ultrasteel>33</WVC_Ultrasteel>
 		<!-- <ComponentSpacer>7</ComponentSpacer> -->
 		<!-- <WVC_UniversalFuel>333</WVC_UniversalFuel> -->
-		<ComponentSpacer>6</ComponentSpacer>
+		<!-- <ComponentSpacer>6</ComponentSpacer> -->
+		<WVC_ComponentUltratech>2</WVC_ComponentUltratech>
 	</costList>
 	<thingSetMakerTags>
 	  <li>RewardStandardQualitySuper</li>
@@ -176,7 +178,9 @@
 	<costList>
 	  <Plasteel>1250</Plasteel>
 	  <Uranium>333</Uranium>
-	  <ComponentSpacer>12</ComponentSpacer>
+	  <WVC_Ultrasteel>55</WVC_Ultrasteel>
+	  <!-- <ComponentSpacer>12</ComponentSpacer> -->
+	  <WVC_ComponentMechtech>6</WVC_ComponentMechtech>
 	</costList>
 	<killedLeavings>
 	  <ChunkSlagSteel>33</ChunkSlagSteel>

@@ -35,9 +35,9 @@
 	  <Mass>5</Mass>
 	</statBases>
 	<costList>
-	  <Plasteel>30</Plasteel>
-	  <Uranium>10</Uranium>
-	  <!-- <ComponentSpacer>1</ComponentSpacer> -->
+	  <Plasteel>40</Plasteel>
+	  <!-- <Uranium>5</Uranium> -->
+	  <ComponentSpacer>1</ComponentSpacer>
 	</costList>
 	<building>
 	  <paintable>true</paintable>

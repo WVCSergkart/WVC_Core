@@ -9,8 +9,6 @@
     <costList>
       <Plasteel>12</Plasteel>
       <Uranium>2</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>4</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Eye</texPath>
@@ -25,8 +23,6 @@
     <costList>
       <Plasteel>12</Plasteel>
       <Uranium>2</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>4</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Ear</texPath>
@@ -41,8 +37,6 @@
     <costList>
       <Plasteel>12</Plasteel>
       <Uranium>2</Uranium>
-      <ComponentSpacer>2</ComponentSpacer>
-      <Gold>2</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Nose</texPath>
@@ -57,8 +51,6 @@
     <costList>
       <Plasteel>18</Plasteel>
       <Uranium>2</Uranium>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>8</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Stomach</texPath>
@@ -73,8 +65,6 @@
     <costList>
       <Plasteel>20</Plasteel>
       <Uranium>5</Uranium>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>7</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Spine</texPath>
@@ -89,8 +79,6 @@
     <costList>
       <Plasteel>12</Plasteel>
       <Uranium>8</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>9</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Heart</texPath>
@@ -105,8 +93,6 @@
     <costList>
       <Plasteel>13</Plasteel>
       <Uranium>7</Uranium>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>6</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Kidney</texPath>
@@ -121,8 +107,6 @@
     <costList>
       <Plasteel>14</Plasteel>
       <Uranium>6</Uranium>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>6</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Liver</texPath>
@@ -137,8 +121,6 @@
     <costList>
       <Plasteel>15</Plasteel>
       <Uranium>5</Uranium>
-      <ComponentSpacer>2</ComponentSpacer>
-      <Gold>5</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Lung</texPath>
@@ -153,8 +135,6 @@
     <costList>
       <Plasteel>18</Plasteel>
       <Uranium>9</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>7</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Leg</texPath>
@@ -169,8 +149,6 @@
     <costList>
       <Plasteel>13</Plasteel>
       <Uranium>3</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>5</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Jaw</texPath>
@@ -185,8 +163,6 @@
     <costList>
       <Plasteel>13</Plasteel>
       <Uranium>3</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>5</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Jaw</texPath>
@@ -201,8 +177,6 @@
     <costList>
       <Plasteel>12</Plasteel>
       <Uranium>3</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>9</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Heart</texPath>
@@ -217,8 +191,6 @@
     <costList>
       <Plasteel>12</Plasteel>
       <Uranium>2</Uranium>
-      <ComponentSpacer>2</ComponentSpacer>
-      <Gold>2</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Nose</texPath>
@@ -233,8 +205,6 @@
     <costList>
       <Plasteel>13</Plasteel>
       <Uranium>3</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>5</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Jaw</texPath>
@@ -249,8 +219,6 @@
     <costList>
       <Plasteel>13</Plasteel>
       <Uranium>3</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>5</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Jaw</texPath>
@@ -265,8 +233,6 @@
     <costList>
       <Plasteel>16</Plasteel>
       <Uranium>2</Uranium>
-      <ComponentSpacer>2</ComponentSpacer>
-      <Gold>7</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Tail</texPath>
@@ -281,26 +247,10 @@
     <costList>
       <Plasteel>12</Plasteel>
       <Uranium>2</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>4</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Ear</texPath>
     </graphicData>
-  </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalBionic">
-    <defName>WVC_UltratechAnimalBionic_Elytra_Ultra</defName>
-    <label>ultratech insect elytra</label>
-    <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_Elytra_Ultra</RecipeDef>
-    </descriptionHyperlinks>
-    <costList>
-      <Plasteel>14</Plasteel>
-      <Uranium>2</Uranium>
-      <ComponentSpacer>1</ComponentSpacer>
-      <Gold>4</Gold>
-    </costList>
-    <graphicData />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_InsectLeg_Ultra</defName>
@@ -311,8 +261,6 @@
     <costList>
       <Plasteel>18</Plasteel>
       <Uranium>3</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>7</Gold>
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Leg</texPath>

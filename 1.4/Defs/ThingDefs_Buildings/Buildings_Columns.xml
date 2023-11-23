@@ -39,6 +39,9 @@
 	  <Beauty>1</Beauty>
 	  <Mass>32</Mass>
 	</statBases>
+	<costList>
+	  <WVC_ComponentUltratech>1</WVC_ComponentUltratech>
+	</costList>
 	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<passability>PassThroughOnly</passability>

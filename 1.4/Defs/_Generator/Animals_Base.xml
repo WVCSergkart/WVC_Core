@@ -5,6 +5,8 @@
 	<label>advanced bionic {0}</label>
 	<labelNoun>an advanced bionic {0}</labelNoun>
 	<ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+	<surgeryTag>Animals</surgeryTag>
+	<!-- <mayRequire>ludeon.rimworld</mayRequire> -->
 	<!-- Body Parts -->
 	<bodyPartDefs>
 	  <!-- base -->
@@ -29,8 +31,9 @@
 	  <li>AnimalJaw</li>
 	  <li>Tail</li>
 	  <li>Antenna</li>
-	  <li>Elytra</li>
 	  <li>InsectLeg</li>
+	  <!-- Useless? -->
+	  <!-- <li>Elytra</li> -->
 	</bodyPartDefs>
   </WVC_UltraExpansion.ImplantGeneratorDef>
 

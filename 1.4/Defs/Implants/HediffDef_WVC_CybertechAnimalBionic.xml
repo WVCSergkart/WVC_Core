@@ -338,20 +338,6 @@
     <addedPartProps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_Elytra_Ultra</defName>
-    <label>cybertech insect elytra</label>
-    <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Elytra_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Elytra_Ultra</RecipeDef>
-    </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Elytra_Ultra</spawnThingOnRemoved>
-    <stages />
-    <comps />
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
-  </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
     <defName>Hediff_WVC_CybertechAnimalBionic_InsectLeg_Ultra</defName>
     <label>cybertech insect leg</label>
     <descriptionHyperlinks>

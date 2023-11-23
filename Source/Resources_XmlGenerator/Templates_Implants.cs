@@ -15,9 +15,13 @@ namespace WVC_UltraExpansion
 		[MustTranslate]
 		public string labelNoun;
 
+		public string surgeryTag = "Base";
+
 		public List<BodyPartDef> bodyPartDefs;
 
 		public List<ChangesByPart> changesByPart;
+
+		public string mayRequire;
 
 	}
 

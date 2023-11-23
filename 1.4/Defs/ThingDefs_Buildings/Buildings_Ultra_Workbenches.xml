@@ -80,7 +80,7 @@
 	<costList>
 	  <Plasteel>120</Plasteel>
 	  <Uranium>40</Uranium>
-	  <ComponentSpacer>4</ComponentSpacer>
+	  <WVC_ComponentUltratech>4</WVC_ComponentUltratech>
 	  <!-- <WVC_UniversalFuel>320</WVC_UniversalFuel> -->
 	  <!-- <VFE_ComponentMechanoid>15</VFE_ComponentMechanoid> -->
 	</costList>
@@ -200,6 +200,7 @@
 	  <Steel>150</Steel>
 	  <Plasteel>25</Plasteel>
 	  <ComponentSpacer>1</ComponentSpacer>
+	  <WVC_ComponentUltratech>1</WVC_ComponentUltratech>
 	  <!-- <ComponentSpacer>2</ComponentSpacer> -->
 	</costList>
 	<altitudeLayer>Building</altitudeLayer>

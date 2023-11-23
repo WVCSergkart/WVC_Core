@@ -20,8 +20,8 @@
 		<eyeGraphicScale>1</eyeGraphicScale>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>4</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>4</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -30,8 +30,8 @@
 		<texPath>WVC/Implants/Ear</texPath>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>4</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>4</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -40,8 +40,8 @@
 		<texPath>WVC/Implants/Jaw</texPath>
 		<costList>
 		  <Plasteel>13</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>5</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>5</Gold> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
@@ -71,8 +71,8 @@
 		<texPath>WVC/Implants/Nose</texPath>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>2</ComponentSpacer>
-		  <Gold>2</Gold>
+		  <!-- <ComponentSpacer>2</ComponentSpacer> -->
+		  <!-- <Gold>2</Gold> -->
 		</costList>
 		<stages>
 		  <li>
@@ -88,8 +88,8 @@
 		<texPath>WVC/Implants/Stomach</texPath>
 		<costList>
 		  <Plasteel>18</Plasteel>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>8</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>8</Gold> -->
 		</costList>
 		<stages>
 		  <li>
@@ -103,8 +103,8 @@
 		<texPath>WVC/Implants/Spine</texPath>
 		<costList>
 		  <Plasteel>20</Plasteel>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>7</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -113,8 +113,8 @@
 		<texPath>WVC/Implants/Heart</texPath>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>9</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>9</Gold> -->
 		</costList>
 		<stages>
 		  <li>
@@ -128,8 +128,8 @@
 		<texPath>WVC/Implants/Kidney</texPath>
 		<costList>
 		  <Plasteel>13</Plasteel>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>6</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>6</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -138,8 +138,8 @@
 		<texPath>WVC/Implants/Liver</texPath>
 		<costList>
 		  <Plasteel>14</Plasteel>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>6</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>6</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -148,8 +148,8 @@
 		<texPath>WVC/Implants/Lung</texPath>
 		<costList>
 		  <Plasteel>15</Plasteel>
-		  <ComponentSpacer>2</ComponentSpacer>
-		  <Gold>5</Gold>
+		  <!-- <ComponentSpacer>2</ComponentSpacer> -->
+		  <!-- <Gold>5</Gold> -->
 		</costList>
 	  </li>
 	  <!-- = -->
@@ -159,8 +159,8 @@
 		<label>arm</label>
 		<costList>
 		  <Plasteel>17</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>7</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
@@ -185,8 +185,8 @@
 		<texPath>WVC/Implants/Leg</texPath>
 		<costList>
 		  <Plasteel>18</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>7</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">

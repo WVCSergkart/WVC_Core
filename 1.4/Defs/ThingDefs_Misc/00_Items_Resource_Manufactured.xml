@@ -1,6 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <ThingDef ParentName="ResourceBase" Name="WVC_Ultra_ResourceComponents_Base" Abstract="True">
+	<description>Advanced computing and energy-directing machinery, miniaturized and hardened for the most demanding applications.</description>
+	<soundInteract>Metal_Drop</soundInteract>
+	<soundDrop>Standard_Drop</soundDrop>
+	<stackLimit>50</stackLimit>
+	<healthAffectsPrice>false</healthAffectsPrice>
+	<graphicData>
+	  <texPath>WVC/Stuff/Components/ComponentUltratech</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<statBases>
+	  <MaxHitPoints>70</MaxHitPoints>
+	  <MarketValue>200</MarketValue>
+	  <Mass>0.6</Mass>
+	  <Flammability>0.6</Flammability>
+	  <DeteriorationRate>2.0</DeteriorationRate>
+	</statBases>
+	<intricate>true</intricate>
+	<thingCategories>
+	  <li>Manufactured</li>
+	</thingCategories>
+	<tradeTags>
+	  <li>ExoticMisc</li>
+	</tradeTags>
+	<allowedArchonexusCount>5</allowedArchonexusCount>
+	<thingSetMakerTags>
+	  <li>RewardStandardLowFreq</li>
+	</thingSetMakerTags>
+  </ThingDef>
+
   <!-- ================================================================= -->
 
   <!-- <ThingDef Name="WVC_UltraComponents_Base" ParentName="ResourceBase"> -->
@@ -36,6 +66,96 @@
 		<!-- <li>RewardStandardHighFreq</li> -->
 	<!-- </thingSetMakerTags> -->
   <!-- </ThingDef> -->
+
+  <ThingDef ParentName="WVC_Ultra_ResourceComponents_Base">
+	<defName>WVC_ComponentUltratech</defName>
+	<label>ultratech component</label>
+	<statBases>
+	  <MarketValue>350</MarketValue>
+	</statBases>
+	<graphicData>
+	  <texPath>WVC/Stuff/Components/ComponentUltratech</texPath>
+	</graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_ResourceComponents_Base">
+	<defName>WVC_ComponentMechtech</defName>
+	<label>mechtech component</label>
+	<statBases>
+	  <MarketValue>550</MarketValue>
+	</statBases>
+	<graphicData>
+	  <texPath>WVC/Stuff/Components/ComponentMechtech</texPath>
+	</graphicData>
+  </ThingDef>
+
+  <!-- ================================================================= -->
+
+  <ThingDef ParentName="ResourceBase" Name="WVC_Ultra_ResourceAlloys_Base" Abstract="True">
+	<graphicData>
+	  <texPath>Things/Item/Resource/Plasteel</texPath>
+	  <graphicClass>Graphic_StackCount</graphicClass>
+	</graphicData>
+	<soundInteract>Metal_Drop</soundInteract>
+	<soundDrop>Metal_Drop</soundDrop>
+	<useHitPoints>false</useHitPoints>
+	<healthAffectsPrice>false</healthAffectsPrice>
+	<statBases>
+	  <MarketValue>9</MarketValue>
+	  <Mass>0.25</Mass>
+	</statBases>
+	<thingCategories>
+	  <li>ResourcesRaw</li>
+	</thingCategories>
+	<!-- <deepCommonality>0</deepCommonality> -->
+	<!-- <deepCountPerPortion>0</deepCountPerPortion> -->
+	<!-- <deepLumpSizeRange>0</deepLumpSizeRange> -->
+	<burnableByRecipe>false</burnableByRecipe>
+	<smeltable>true</smeltable>
+	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	<allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <!-- ================================================================= -->
+
+  <ThingDef ParentName="WVC_Ultra_ResourceAlloys_Base">
+	<defName>WVC_Ultrasteel</defName>
+	<label>ultsteel</label>
+	<description>Advanced ultra tech structural material. Ultsteel is not very strong, but is very flexible due to its molecular structure. Ideal for electronics.</description>
+	<statBases>
+	  <MarketValue>12</MarketValue>
+	  <StuffPower_Armor_Sharp>1.04</StuffPower_Armor_Sharp>
+	  <StuffPower_Armor_Blunt>0.65</StuffPower_Armor_Blunt>
+	  <StuffPower_Armor_Heat>0.65</StuffPower_Armor_Heat>
+	  <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+	  <SharpDamageMultiplier>0.9</SharpDamageMultiplier>
+	  <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
+	</statBases>
+	<graphicData>
+	  <texPath>WVC/Stuff/Resources/Ultrasteel</texPath>
+	</graphicData>
+	<stuffProps>
+	  <categories>
+		<li>Metallic</li>
+	  </categories>
+	  <appearance>Metal</appearance>
+	  <commonality>0.001</commonality>
+	  <constructEffect>ConstructMetal</constructEffect>
+	  <color>(150,157,178)</color>
+	  <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+	  <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+	  <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+	  <statFactors>
+		<MaxHitPoints>1.2</MaxHitPoints>
+		<Beauty>2</Beauty>
+		<Flammability>0</Flammability>
+		<WorkToMake>2.5</WorkToMake>
+		<WorkToBuild>2.5</WorkToBuild>
+		<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+	  </statFactors>
+	</stuffProps>
+  </ThingDef>
 
   <!-- ================================================================= -->
 

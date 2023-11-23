@@ -63,7 +63,7 @@
 	</statBases>
 	<costList>
 	  <Plasteel>8</Plasteel>
-	  <Uranium>1</Uranium>
+	  <WVC_ComponentUltratech>1</WVC_ComponentUltratech>
 	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
 	</costList>
 	<tags>

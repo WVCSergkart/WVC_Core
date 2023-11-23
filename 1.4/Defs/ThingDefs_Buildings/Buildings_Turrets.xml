@@ -28,7 +28,8 @@
 	<costList>
 		<Plasteel>60</Plasteel>
 		<Uranium>12</Uranium>
-		<ComponentSpacer>1</ComponentSpacer>
+		<WVC_ComponentMechtech>1</WVC_ComponentMechtech>
+		<!-- <ComponentSpacer>1</ComponentSpacer> -->
 	</costList>
 	<thingCategories>
 	  <li>BuildingsSecurity</li>
@@ -96,7 +97,7 @@
 	<costList>
 		<Plasteel>60</Plasteel>
 		<Uranium>15</Uranium>
-		<ComponentSpacer>2</ComponentSpacer>
+		<WVC_ComponentMechtech>2</WVC_ComponentMechtech>
 	</costList>
 	<building Inherit="False">
 	  <paintable>true</paintable>
@@ -118,7 +119,7 @@
 	<label>mini-inferno turret</label>
 	<costList>
 		<Plasteel>80</Plasteel>
-		<ComponentSpacer>2</ComponentSpacer>
+		<WVC_ComponentMechtech>2</WVC_ComponentMechtech>
 	</costList>
 	<building Inherit="False">
 	  <paintable>true</paintable>
@@ -141,7 +142,7 @@
 	<costList>
 		<Plasteel>90</Plasteel>
 		<Uranium>19</Uranium>
-		<ComponentSpacer>5</ComponentSpacer>
+		<WVC_ComponentMechtech>5</WVC_ComponentMechtech>
 	</costList>
 	<building Inherit="False">
 	  <paintable>true</paintable>

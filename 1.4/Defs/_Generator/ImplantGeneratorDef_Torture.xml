@@ -20,8 +20,8 @@
 		<eyeGraphicScale>1</eyeGraphicScale>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
-		  <Gold>4</Gold>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>4</Gold> -->
 		</costList>
 		<stages>
 		  <li>
@@ -35,7 +35,7 @@
 		<texPath>WVC/Implants/Ear</texPath>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
 		</costList>
 		<stages>
 		  <li>
@@ -49,7 +49,7 @@
 		<texPath>WVC/Implants/Jaw</texPath>
 		<costList>
 		  <Plasteel>13</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
 		</costList>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
@@ -80,7 +80,7 @@
 		<texPath>WVC/Implants/Nose</texPath>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>2</ComponentSpacer>
+		  <!-- <ComponentSpacer>2</ComponentSpacer> -->
 		</costList>
 		<stages>
 		  <li>
@@ -97,7 +97,7 @@
 		<texPath>WVC/Implants/Stomach</texPath>
 		<costList>
 		  <Plasteel>18</Plasteel>
-		  <ComponentSpacer>3</ComponentSpacer>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
 		</costList>
 		<stages>
 		  <li>
@@ -111,8 +111,8 @@
 		<texPath>WVC/Implants/Spine</texPath>
 		<costList>
 		  <Plasteel>20</Plasteel>
-		  <ComponentSpacer>3</ComponentSpacer>
-		  <Gold>7</Gold>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
 		</costList>
 		<stages>
 		  <li>
@@ -126,7 +126,7 @@
 		<texPath>WVC/Implants/Heart</texPath>
 		<costList>
 		  <Plasteel>12</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
 		</costList>
 		<stages>
 		  <li>
@@ -140,7 +140,7 @@
 		<texPath>WVC/Implants/Kidney</texPath>
 		<costList>
 		  <Plasteel>13</Plasteel>
-		  <ComponentSpacer>3</ComponentSpacer>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
 		</costList>
 		<stages>
 		  <li>
@@ -154,7 +154,7 @@
 		<texPath>WVC/Implants/Liver</texPath>
 		<costList>
 		  <Plasteel>14</Plasteel>
-		  <ComponentSpacer>3</ComponentSpacer>
+		  <!-- <ComponentSpacer>3</ComponentSpacer> -->
 		</costList>
 		<stages>
 		  <li>
@@ -168,7 +168,7 @@
 		<texPath>WVC/Implants/Lung</texPath>
 		<costList>
 		  <Plasteel>15</Plasteel>
-		  <ComponentSpacer>2</ComponentSpacer>
+		  <!-- <ComponentSpacer>2</ComponentSpacer> -->
 		</costList>
 		<stages>
 		  <li>
@@ -183,7 +183,7 @@
 		<label>arm</label>
 		<costList>
 		  <Plasteel>17</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
 		</costList>
 		<stages>
 		  <li>
@@ -213,7 +213,7 @@
 		<texPath>WVC/Implants/Leg</texPath>
 		<costList>
 		  <Plasteel>18</Plasteel>
-		  <ComponentSpacer>4</ComponentSpacer>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
 		</costList>
 		<stages>
 		  <li>

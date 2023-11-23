@@ -48,7 +48,7 @@
 			<color>(181,165,153)</color>
 		</graphicData>
 		<costList>
-			<Silver>20</Silver>
+			<WVC_Ultrasteel>11</WVC_Ultrasteel>
 		</costList>
 		<!-- <comps Inherit="False"> -->
 		<!-- </comps> -->
@@ -114,8 +114,8 @@
 		</graphicData>
 		<costList>
 			<Uranium>16</Uranium>
-			<Silver>20</Silver>
-			<ComponentSpacer>1</ComponentSpacer>
+			<WVC_Ultrasteel>22</WVC_Ultrasteel>
+			<WVC_ComponentMechtech>1</WVC_ComponentMechtech>
 		</costList>
 		<useHitPoints>false</useHitPoints>
 		<researchPrerequisites Inherit="False">

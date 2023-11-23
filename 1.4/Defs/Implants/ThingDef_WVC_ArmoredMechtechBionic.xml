@@ -9,8 +9,6 @@
     <costList>
       <Plasteel>20</Plasteel>
       <Uranium>8</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>4</Gold>
       <DevilstrandCloth>8</DevilstrandCloth>
     </costList>
     <graphicData>
@@ -26,8 +24,6 @@
     <costList>
       <Plasteel>19</Plasteel>
       <Uranium>11</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>4</Gold>
       <DevilstrandCloth>8</DevilstrandCloth>
     </costList>
     <graphicData>
@@ -43,8 +39,6 @@
     <costList>
       <Plasteel>20</Plasteel>
       <Uranium>10</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>5</Gold>
       <DevilstrandCloth>8</DevilstrandCloth>
     </costList>
     <graphicData>
@@ -60,8 +54,6 @@
     <costList>
       <Plasteel>18</Plasteel>
       <Uranium>8</Uranium>
-      <ComponentSpacer>2</ComponentSpacer>
-      <Gold>2</Gold>
       <DevilstrandCloth>5</DevilstrandCloth>
     </costList>
     <graphicData>
@@ -77,8 +69,6 @@
     <costList>
       <Plasteel>22</Plasteel>
       <Uranium>15</Uranium>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>8</Gold>
       <DevilstrandCloth>12</DevilstrandCloth>
     </costList>
     <graphicData>
@@ -94,8 +84,6 @@
     <costList>
       <Plasteel>27</Plasteel>
       <Uranium>12</Uranium>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>7</Gold>
       <DevilstrandCloth>15</DevilstrandCloth>
     </costList>
     <graphicData>
@@ -111,8 +99,6 @@
     <costList>
       <Plasteel>25</Plasteel>
       <Uranium>10</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>9</Gold>
       <DevilstrandCloth>12</DevilstrandCloth>
     </costList>
     <graphicData>
@@ -128,8 +114,6 @@
     <costList>
       <Plasteel>25</Plasteel>
       <Uranium>12</Uranium>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>6</Gold>
       <DevilstrandCloth>9</DevilstrandCloth>
     </costList>
     <graphicData>
@@ -145,8 +129,6 @@
     <costList>
       <Plasteel>20</Plasteel>
       <Uranium>12</Uranium>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Gold>6</Gold>
       <DevilstrandCloth>10</DevilstrandCloth>
     </costList>
     <graphicData>
@@ -162,8 +144,6 @@
     <costList>
       <Plasteel>22</Plasteel>
       <Uranium>8</Uranium>
-      <ComponentSpacer>2</ComponentSpacer>
-      <Gold>5</Gold>
       <DevilstrandCloth>8</DevilstrandCloth>
     </costList>
     <graphicData>
@@ -179,8 +159,6 @@
     <costList>
       <Plasteel>26</Plasteel>
       <Uranium>9</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>7</Gold>
       <DevilstrandCloth>12</DevilstrandCloth>
     </costList>
     <graphicData>
@@ -196,8 +174,6 @@
     <costList>
       <Plasteel>25</Plasteel>
       <Uranium>10</Uranium>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Gold>7</Gold>
       <DevilstrandCloth>12</DevilstrandCloth>
     </costList>
     <graphicData>

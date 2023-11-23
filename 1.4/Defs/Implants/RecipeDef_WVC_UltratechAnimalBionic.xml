@@ -505,34 +505,6 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_UltratechAnimalBionic_Elytra_Ultra</defName>
-    <label>install ultratech insect elytra</label>
-    <description>Install an ultratech insect elytra.</description>
-    <jobString>Installing ultratech insect elytra.</jobString>
-    <descriptionHyperlinks>
-      <ThingDef>WVC_UltratechAnimalBionic_Elytra_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_UltratechAnimalBionic_Elytra_Ultra</HediffDef>
-    </descriptionHyperlinks>
-    <appliedOnFixedBodyParts>
-      <li>Elytra</li>
-    </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_UltratechAnimalBionic_Elytra_Ultra</addsHediff>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>WVC_UltratechAnimalBionic_Elytra_Ultra</li>
-          </thingDefs>
-        </filter>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>WVC_UltratechAnimalBionic_Elytra_Ultra</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-  </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
     <defName>Install_Hediff_WVC_UltratechAnimalBionic_InsectLeg_Ultra</defName>
     <label>install ultratech insect leg</label>
     <description>Install an ultratech insect leg.</description>

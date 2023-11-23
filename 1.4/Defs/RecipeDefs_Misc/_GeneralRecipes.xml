@@ -107,8 +107,8 @@
 	  <!-- <li>WVC_Node_MechaniteCrafter_Violet</li> -->
 	</recipeUsers>
 	<!-- <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef> -->
-	<workSkill>Intellectual</workSkill>
-	<workSkillLearnFactor>2</workSkillLearnFactor>
+	<workSkill>Crafting</workSkill>
+	<!-- <workSkillLearnFactor>1</workSkillLearnFactor> -->
 	<fixedIngredientFilter>
 	  <disallowedCategories>
 		<!-- <li>WVC_MechanicalEggs</li> -->
@@ -157,7 +157,7 @@
 
   <RecipeDef ParentName="WVC_MakeComponents_Base">
 	<defName>WVC_MakeComponents_Industrial</defName>
-	<label>Make components</label>
+	<label>make components</label>
 	<products>
 	  <ComponentIndustrial>10</ComponentIndustrial>
 	</products>
@@ -165,7 +165,7 @@
 
   <RecipeDef ParentName="WVC_MakeComponents_Base">
 	<defName>WVC_MakeComponents_Spacer</defName>
-	<label>Make advanced components</label>
+	<label>make advanced components</label>
 	<products>
 	  <ComponentSpacer>5</ComponentSpacer>
 	</products>

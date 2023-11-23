@@ -21,7 +21,6 @@
       <li>Install_Hediff_WVC_CybertechAnimalBionic_AnimalJaw_Ultra</li>
       <li>Install_Hediff_WVC_CybertechAnimalBionic_Tail_Ultra</li>
       <li>Install_Hediff_WVC_CybertechAnimalBionic_Antenna_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_Elytra_Ultra</li>
       <li>Install_Hediff_WVC_CybertechAnimalBionic_InsectLeg_Ultra</li>
     </value>
   </Operation>
@@ -46,7 +45,6 @@
       <li>Install_Hediff_WVC_MechtechAnimalBionic_AnimalJaw_Ultra</li>
       <li>Install_Hediff_WVC_MechtechAnimalBionic_Tail_Ultra</li>
       <li>Install_Hediff_WVC_MechtechAnimalBionic_Antenna_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_Elytra_Ultra</li>
       <li>Install_Hediff_WVC_MechtechAnimalBionic_InsectLeg_Ultra</li>
     </value>
   </Operation>
@@ -71,7 +69,6 @@
       <li>Install_Hediff_WVC_UltratechAnimalBionic_AnimalJaw_Ultra</li>
       <li>Install_Hediff_WVC_UltratechAnimalBionic_Tail_Ultra</li>
       <li>Install_Hediff_WVC_UltratechAnimalBionic_Antenna_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_Elytra_Ultra</li>
       <li>Install_Hediff_WVC_UltratechAnimalBionic_InsectLeg_Ultra</li>
     </value>
   </Operation>

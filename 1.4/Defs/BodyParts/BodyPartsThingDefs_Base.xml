@@ -104,7 +104,7 @@
 	</thingSetMakerTags>
   </ThingDef>
 
-  <!--=====================================================================-->
+  <!-- ================================== Tier 1 ================================== -->
 
   <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_TortureBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
 	<description>Body part created using high technology.</description>
@@ -116,6 +116,9 @@
 	  <color>(222,165,171)</color>
 	  <!-- <color>(255,188,196)</color> -->
 	</graphicData>
+	<costList>
+	  <ComponentSpacer>6</ComponentSpacer>
+	</costList>
 	<recipeMaker>
 	  <skillRequirements>
 		<Crafting>8</Crafting>
@@ -145,7 +148,7 @@
 
   <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
 	<description>Body part created using high technology.</description>
-	<techLevel>Spacer</techLevel>
+	<techLevel>Ultra</techLevel>
 	<thingCategories>
 	  <li>WVC_BodyPartsCybernetic</li>
 	</thingCategories>
@@ -153,6 +156,11 @@
 	  <color>(165,179,222)</color>
 	  <!-- <color>(163,187,255)</color> -->
 	</graphicData>
+	<costList>
+	  <ComponentSpacer>6</ComponentSpacer>
+	  <WVC_ComponentUltratech>2</WVC_ComponentUltratech>
+	  <!-- <Gold>2</Gold> -->
+	</costList>
 	<recipeMaker>
 	  <skillRequirements>
 		<Crafting>8</Crafting>
@@ -197,6 +205,8 @@
 	</recipeMaker>
   </ThingDef>
 
+  <!-- ================================== Tier 2 ================================== -->
+
   <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
 	<description>A body part created using ultra technology.</description>
 	<techLevel>Ultra</techLevel>
@@ -206,6 +216,11 @@
 	<graphicData>
 	  <color>(165,169,165)</color>
 	</graphicData>
+	<costList>
+	  <ComponentSpacer>6</ComponentSpacer>
+	  <WVC_ComponentUltratech>4</WVC_ComponentUltratech>
+	  <!-- <Gold>4</Gold> -->
+	</costList>
 	<recipeMaker>
 	  <skillRequirements>
 		<Crafting>12</Crafting>
@@ -254,6 +269,12 @@
 	<graphicData>
 	  <color>(179,163,151)</color>
 	</graphicData>
+	<costList>
+	  <ComponentSpacer>6</ComponentSpacer>
+	  <WVC_ComponentUltratech>4</WVC_ComponentUltratech>
+	  <WVC_ComponentMechtech>4</WVC_ComponentMechtech>
+	  <!-- <Gold>6</Gold> -->
+	</costList>
 	<recipeMaker>
 	  <skillRequirements>
 		<Crafting>16</Crafting>
@@ -293,7 +314,7 @@
 	</recipeMaker>
   </ThingDef>
 
-  <!--=====================================================================-->
+  <!-- ================================== Tier 3 ================================== -->
 
   <ThingDef Name="WVC_Ultra_ThingDefBodyParts_NodeTech" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
 	<description>Body part created using mecha technology. Does not require anesthesia.</description>
@@ -304,6 +325,12 @@
 	<graphicData>
 	  <color>(79,80,81)</color>
 	</graphicData>
+	<costList>
+	  <ComponentSpacer>6</ComponentSpacer>
+	  <WVC_ComponentUltratech>6</WVC_ComponentUltratech>
+	  <WVC_ComponentMechtech>6</WVC_ComponentMechtech>
+	  <!-- <Gold>8</Gold> -->
+	</costList>
 	<recipeMaker>
 	  <skillRequirements>
 		<Crafting>16</Crafting>
@@ -410,6 +437,8 @@
 	</recipeMaker>
   </ThingDef>
 
+  <!-- ================================== Tier 4 ================================== -->
+
   <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
 	<thingCategories>
 	  <li>WVC_BodyPartsNodes_Archotech</li>
@@ -418,6 +447,12 @@
 	  <color>(178,178,139)</color>
 	</graphicData>
 	<!-- <recipeMaker Inherit="False"/> -->
+	<costList>
+	  <ComponentSpacer>6</ComponentSpacer>
+	  <WVC_ComponentUltratech>6</WVC_ComponentUltratech>
+	  <WVC_ComponentMechtech>12</WVC_ComponentMechtech>
+	  <!-- <Gold>10</Gold> -->
+	</costList>
 	<recipeMaker>
 	  <skillRequirements>
 		<Crafting>18</Crafting>
