@@ -141,12 +141,36 @@
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
     <defName>Hediff_WVC_CybertechAnimalBionic_Beak_AddedPart</defName>
-    <label>cybertech beak</label>
+    <label>cybertech bird beak</label>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechAnimalBionic_Beak_AddedPart</ThingDef>
       <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Beak_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Beak_AddedPart</spawnThingOnRemoved>
+    <stages />
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <power>17</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_TurtleBeak_AddedPart</defName>
+    <label>cybertech turtle beak</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAnimalBionic_TurtleBeak_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_TurtleBeak_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_TurtleBeak_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -204,7 +228,7 @@
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
     <defName>Hediff_WVC_CybertechAnimalBionic_InsectNostril_AddedPart</defName>
-    <label>cybertech nostril</label>
+    <label>cybertech insect nostril</label>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechAnimalBionic_InsectNostril_AddedPart</ThingDef>
       <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectNostril_AddedPart</RecipeDef>
@@ -263,7 +287,7 @@
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
     <defName>Hediff_WVC_CybertechAnimalBionic_Tail_AddedPart</defName>
-    <label>cybertech tail</label>
+    <label>cybertech animal tail</label>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechAnimalBionic_Tail_AddedPart</ThingDef>
       <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Tail_AddedPart</RecipeDef>

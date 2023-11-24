@@ -226,12 +226,45 @@
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAnimalBionic">
     <defName>Hediff_WVC_UltratechAnimalBionic_Beak_AddedPart</defName>
-    <label>ultratech beak</label>
+    <label>ultratech bird beak</label>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechAnimalBionic_Beak_AddedPart</ThingDef>
       <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_Beak_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Beak_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>2</Mass>
+          <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.01</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <power>19</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAnimalBionic">
+    <defName>Hediff_WVC_UltratechAnimalBionic_TurtleBeak_AddedPart</defName>
+    <label>ultratech turtle beak</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_TurtleBeak_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_TurtleBeak_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_TurtleBeak_AddedPart</spawnThingOnRemoved>
     <stages>
       <li>
         <statOffsets>
@@ -314,7 +347,7 @@
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAnimalBionic">
     <defName>Hediff_WVC_UltratechAnimalBionic_InsectNostril_AddedPart</defName>
-    <label>ultratech nostril</label>
+    <label>ultratech insect nostril</label>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechAnimalBionic_InsectNostril_AddedPart</ThingDef>
       <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_InsectNostril_AddedPart</RecipeDef>
@@ -400,7 +433,7 @@
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAnimalBionic">
     <defName>Hediff_WVC_UltratechAnimalBionic_Tail_AddedPart</defName>
-    <label>ultratech tail</label>
+    <label>ultratech animal tail</label>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechAnimalBionic_Tail_AddedPart</ThingDef>
       <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_Tail_AddedPart</RecipeDef>

@@ -152,12 +152,36 @@
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Beak_AddedPart</defName>
-    <label>mechtech beak</label>
+    <label>mechtech bird beak</label>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechAnimalBionic_Beak_AddedPart</ThingDef>
       <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Beak_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_MechtechAnimalBionic_Beak_AddedPart</spawnThingOnRemoved>
+    <stages />
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <power>22</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_MechtechAnimalBionic">
+    <defName>Hediff_WVC_MechtechAnimalBionic_TurtleBeak_AddedPart</defName>
+    <label>mechtech turtle beak</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalBionic_TurtleBeak_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_TurtleBeak_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_MechtechAnimalBionic_TurtleBeak_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -216,7 +240,7 @@
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_InsectNostril_AddedPart</defName>
-    <label>mechtech nostril</label>
+    <label>mechtech insect nostril</label>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechAnimalBionic_InsectNostril_AddedPart</ThingDef>
       <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_InsectNostril_AddedPart</RecipeDef>
@@ -275,7 +299,7 @@
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Tail_AddedPart</defName>
-    <label>mechtech tail</label>
+    <label>mechtech animal tail</label>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechAnimalBionic_Tail_AddedPart</ThingDef>
       <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Tail_AddedPart</RecipeDef>

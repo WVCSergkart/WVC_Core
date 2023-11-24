@@ -253,6 +253,43 @@
 	  <!-- = -->
 	  <li>
 		<def>Beak</def>
+		<label>bird beak</label>
+		<texPath>WVC/Implants/Jaw</texPath>
+		<costList>
+		  <Plasteel>13</Plasteel>
+		  <Uranium>3</Uranium>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>5</Gold> -->
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>2</Mass>
+				<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>teeth</label>
+				<capacities>
+				  <li>Bite</li>
+				</capacities>
+				<power>19</power>
+				<cooldownTime>2.0</cooldownTime>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>TurtleBeak</def>
+		<label>turtle beak</label>
 		<texPath>WVC/Implants/Jaw</texPath>
 		<costList>
 		  <Plasteel>13</Plasteel>
@@ -288,6 +325,7 @@
 	  <!-- = -->
 	  <li>
 		<def>InsectNostril</def>
+		<label>insect nostril</label>
 		<texPath>WVC/Implants/Nose</texPath>
 		<costList>
 		  <Plasteel>12</Plasteel>
@@ -501,6 +539,7 @@
 	  <!-- = -->
 	  <li>
 		<def>Tail</def>
+		<label>animal tail</label>
 		<texPath>WVC/Implants/Tail</texPath>
 		<costList>
 		  <Plasteel>16</Plasteel>

@@ -142,9 +142,23 @@
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_Beak_AddedPart</defName>
-    <label>ultratech beak</label>
+    <label>ultratech bird beak</label>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_Beak_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+      <Uranium>3</Uranium>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
+    <defName>WVC_UltratechAnimalBionic_TurtleBeak_AddedPart</defName>
+    <label>ultratech turtle beak</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_TurtleBeak_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>13</Plasteel>
@@ -184,7 +198,7 @@
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_InsectNostril_AddedPart</defName>
-    <label>ultratech nostril</label>
+    <label>ultratech insect nostril</label>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_InsectNostril_AddedPart</RecipeDef>
     </descriptionHyperlinks>
@@ -226,7 +240,7 @@
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_Tail_AddedPart</defName>
-    <label>ultratech tail</label>
+    <label>ultratech animal tail</label>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_Tail_AddedPart</RecipeDef>
     </descriptionHyperlinks>
