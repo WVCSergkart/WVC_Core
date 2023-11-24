@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_ArmorGland" MayRequire="ludeon.rimworld.royalty">
-    <defName>Install_Hediff_WVC_MechtechArmorSkin_Torso_Implant</defName>
+    <defName>Install_WVC_MechtechArmorSkin_Torso_Implant</defName>
     <label>install mechskin gland</label>
     <description>Install an mechskin gland.</description>
     <jobString>Installing mechskin gland.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechArmorSkin_Torso_Implant</ThingDef>
-      <HediffDef>Hediff_WVC_MechtechArmorSkin_Torso_Implant</HediffDef>
+      <HediffDef>WVC_MechtechArmorSkin_Torso_Implant</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_MechtechArmorSkin_Torso_Implant</addsHediff>
+    <addsHediff>WVC_MechtechArmorSkin_Torso_Implant</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Torso</li>
     </appliedOnFixedBodyParts>
@@ -28,16 +28,16 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_ArmorGland" MayRequire="ludeon.rimworld.royalty">
-    <defName>Remove_Hediff_WVC_MechtechArmorSkin_Torso_Implant</defName>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_Base" MayRequire="ludeon.rimworld.royalty">
+    <defName>Remove_WVC_MechtechArmorSkin_Torso_Implant</defName>
     <label>remove mechskin gland</label>
     <description>remove an mechskin gland.</description>
     <jobString>Removing mechskin gland.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechArmorSkin_Torso_Implant</ThingDef>
-      <HediffDef>Hediff_WVC_MechtechArmorSkin_Torso_Implant</HediffDef>
+      <HediffDef>WVC_MechtechArmorSkin_Torso_Implant</HediffDef>
     </descriptionHyperlinks>
-    <removesHediff>Hediff_WVC_MechtechArmorSkin_Torso_Implant</removesHediff>
+    <removesHediff>WVC_MechtechArmorSkin_Torso_Implant</removesHediff>
     <appliedOnFixedBodyParts />
     <ingredients />
     <fixedIngredientFilter />

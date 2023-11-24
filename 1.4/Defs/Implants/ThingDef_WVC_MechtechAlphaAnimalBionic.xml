@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAlphaAnimalBionic" MayRequire="sarg.alphaanimals">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic" MayRequire="sarg.alphaanimals">
     <defName>WVC_MechtechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</defName>
     <label>mechtech hydrogen sac</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_MechtechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>22</Plasteel>
@@ -12,11 +12,11 @@
     </costList>
     <graphicData />
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAlphaAnimalBionic" MayRequire="sarg.alphaanimals">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic" MayRequire="sarg.alphaanimals">
     <defName>WVC_MechtechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</defName>
     <label>mechtech jellyfish tentacle</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_MechtechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
@@ -26,11 +26,11 @@
       <texPath>WVC/Implants/Arm</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAlphaAnimalBionic" MayRequire="sarg.alphaanimals">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic" MayRequire="sarg.alphaanimals">
     <defName>WVC_MechtechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</defName>
     <label>mechtech alpha jaw</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_MechtechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -40,11 +40,11 @@
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAlphaAnimalBionic" MayRequire="sarg.alphaanimals">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic" MayRequire="sarg.alphaanimals">
     <defName>WVC_MechtechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</defName>
     <label>mechtech small insect leg</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_MechtechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>

@@ -15,7 +15,7 @@ namespace WVC_UltraExpansion
 		[MustTranslate]
 		public string labelNoun;
 
-		public string surgeryTag = "Base";
+		// public string surgeryTag = "Base";
 
 		public List<BodyPartDef> bodyPartDefs;
 
@@ -27,6 +27,16 @@ namespace WVC_UltraExpansion
 		public string inNameTag = "AddedPart";
 
 		public bool generateRemoveRecipe = false;
+
+		public bool forAnimals = false;
+
+		public string inheritSurgery = "WVC_Ultra_AddedPartSurgeryDef_Base";
+
+		public string inheritSurgeryRemove = "WVC_Ultra_ImplantSurgeryRemoveDef_Base";
+
+		public string inheritHediff = "WVC_Ultra_AddedBodyPart_Base";
+
+		public string inheritThing = "WVC_Ultra_ThingDefBodyParts_Base";
 
 	}
 

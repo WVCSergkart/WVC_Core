@@ -5,6 +5,8 @@
 	<defName>WVC_OverclockedMechtechBionic</defName>
 	<label>overclocked mechtech {0}</label>
 	<labelNoun>an overclocked mechtech {0}</labelNoun>
+	<inheritHediff>WVC_Ultra_AddedPartHediffDef_WVC_OverclockedMechtechBionic</inheritHediff>
+	<inheritThing>WVC_Ultra_AddedPartThingDef_WVC_OverclockedMechtechBionic</inheritThing>
 	<changesByPart>
 	  <li>
 		<def>Eye</def>

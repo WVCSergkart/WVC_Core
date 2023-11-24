@@ -5,6 +5,8 @@
 	<defName>WVC_CybertechAlphaAnimalBionic</defName>
 	<label>cybertech {0}</label>
 	<labelNoun>an cybertech {0}</labelNoun>
+	<inheritHediff>WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic</inheritHediff>
+	<inheritThing>WVC_Ultra_AddedPartThingDef_WVC_CybertechAnimalBionic</inheritThing>
 	<changesByPart>
 	  <!-- = -->
 	  <li>
@@ -96,6 +98,8 @@
 	<defName>WVC_UltratechAlphaAnimalBionic</defName>
 	<label>ultratech {0}</label>
 	<labelNoun>an ultratech {0}</labelNoun>
+	<inheritHediff>WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic</inheritHediff>
+	<inheritThing>WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic</inheritThing>
 	<changesByPart>
 	  <!-- = -->
 	  <li>
@@ -229,6 +233,8 @@
 	<defName>WVC_MechtechAlphaAnimalBionic</defName>
 	<label>mechtech {0}</label>
 	<labelNoun>an mechtech {0}</labelNoun>
+	<inheritHediff>WVC_Ultra_AddedPartHediffDef_WVC_MechtechBionic</inheritHediff>
+	<inheritThing>WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic</inheritThing>
 	<changesByPart>
 	  <!-- = -->
 	  <li>

@@ -4,7 +4,7 @@
     <defName>WVC_ArmoredMechtechBionic_Eye_AddedPart</defName>
     <label>armored mechtech eye</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Eye_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
@@ -19,7 +19,7 @@
     <defName>WVC_ArmoredMechtechBionic_Ear_AddedPart</defName>
     <label>armored mechtech ear</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Ear_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>19</Plasteel>
@@ -34,7 +34,7 @@
     <defName>WVC_ArmoredMechtechBionic_Jaw_AddedPart</defName>
     <label>armored mechtech jaw</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Jaw_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
@@ -49,7 +49,7 @@
     <defName>WVC_ArmoredMechtechBionic_Nose_AddedPart</defName>
     <label>armored mechtech nose</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Nose_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>18</Plasteel>
@@ -64,7 +64,7 @@
     <defName>WVC_ArmoredMechtechBionic_Stomach_AddedPart</defName>
     <label>armored mechtech stomach</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Stomach_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>22</Plasteel>
@@ -79,7 +79,7 @@
     <defName>WVC_ArmoredMechtechBionic_Spine_AddedPart</defName>
     <label>armored mechtech spine</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Spine_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>27</Plasteel>
@@ -94,7 +94,7 @@
     <defName>WVC_ArmoredMechtechBionic_Heart_AddedPart</defName>
     <label>armored mechtech heart</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Heart_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>25</Plasteel>
@@ -109,7 +109,7 @@
     <defName>WVC_ArmoredMechtechBionic_Kidney_AddedPart</defName>
     <label>armored mechtech kidney</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Kidney_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>25</Plasteel>
@@ -124,7 +124,7 @@
     <defName>WVC_ArmoredMechtechBionic_Liver_AddedPart</defName>
     <label>armored mechtech liver</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Liver_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
@@ -139,7 +139,7 @@
     <defName>WVC_ArmoredMechtechBionic_Lung_AddedPart</defName>
     <label>armored mechtech lung</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Lung_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>22</Plasteel>
@@ -154,7 +154,7 @@
     <defName>WVC_ArmoredMechtechBionic_Shoulder_AddedPart</defName>
     <label>armored mechtech arm</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Shoulder_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>26</Plasteel>
@@ -169,7 +169,7 @@
     <defName>WVC_ArmoredMechtechBionic_Leg_AddedPart</defName>
     <label>armored mechtech leg</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Leg_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>25</Plasteel>

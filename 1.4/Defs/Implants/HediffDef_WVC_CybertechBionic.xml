@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic">
-    <defName>Hediff_WVC_CybertechBionic_Eye_AddedPart</defName>
+    <defName>WVC_CybertechBionic_Eye_AddedPart</defName>
     <label>cybertech eye</label>
+    <labelNoun>an cybertech eye</labelNoun>
+    <description>An installed cybertech eye.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Eye_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Eye_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_CybertechBionic_Eye_AddedPart</spawnThingOnRemoved>
     <stages />
@@ -20,22 +22,26 @@
     </eyeGraphicSouth>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic">
-    <defName>Hediff_WVC_CybertechBionic_Ear_AddedPart</defName>
+    <defName>WVC_CybertechBionic_Ear_AddedPart</defName>
     <label>cybertech ear</label>
+    <labelNoun>an cybertech ear</labelNoun>
+    <description>An installed cybertech ear.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Ear_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Ear_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_CybertechBionic_Ear_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic">
-    <defName>Hediff_WVC_CybertechBionic_Jaw_AddedPart</defName>
+    <defName>WVC_CybertechBionic_Jaw_AddedPart</defName>
     <label>cybertech jaw</label>
+    <labelNoun>an cybertech jaw</labelNoun>
+    <description>An installed cybertech jaw.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Jaw_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Jaw_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_CybertechBionic_Jaw_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -61,11 +67,13 @@
     </comps>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic">
-    <defName>Hediff_WVC_CybertechBionic_Nose_AddedPart</defName>
+    <defName>WVC_CybertechBionic_Nose_AddedPart</defName>
     <label>cybertech nose</label>
+    <labelNoun>an cybertech nose</labelNoun>
+    <description>An installed cybertech nose.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Nose_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Nose_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_CybertechBionic_Nose_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -78,11 +86,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic">
-    <defName>Hediff_WVC_CybertechBionic_Stomach_AddedPart</defName>
+    <defName>WVC_CybertechBionic_Stomach_AddedPart</defName>
     <label>cybertech stomach</label>
+    <labelNoun>an cybertech stomach</labelNoun>
+    <description>An installed cybertech stomach.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Stomach_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Stomach_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_CybertechBionic_Stomach_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -93,22 +103,26 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic">
-    <defName>Hediff_WVC_CybertechBionic_Spine_AddedPart</defName>
+    <defName>WVC_CybertechBionic_Spine_AddedPart</defName>
     <label>cybertech spine</label>
+    <labelNoun>an cybertech spine</labelNoun>
+    <description>An installed cybertech spine.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Spine_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Spine_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_CybertechBionic_Spine_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic">
-    <defName>Hediff_WVC_CybertechBionic_Heart_AddedPart</defName>
+    <defName>WVC_CybertechBionic_Heart_AddedPart</defName>
     <label>cybertech heart</label>
+    <labelNoun>an cybertech heart</labelNoun>
+    <description>An installed cybertech heart.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Heart_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Heart_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_CybertechBionic_Heart_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -119,44 +133,52 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic">
-    <defName>Hediff_WVC_CybertechBionic_Kidney_AddedPart</defName>
+    <defName>WVC_CybertechBionic_Kidney_AddedPart</defName>
     <label>cybertech kidney</label>
+    <labelNoun>an cybertech kidney</labelNoun>
+    <description>An installed cybertech kidney.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Kidney_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Kidney_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_CybertechBionic_Kidney_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic">
-    <defName>Hediff_WVC_CybertechBionic_Liver_AddedPart</defName>
+    <defName>WVC_CybertechBionic_Liver_AddedPart</defName>
     <label>cybertech liver</label>
+    <labelNoun>an cybertech liver</labelNoun>
+    <description>An installed cybertech liver.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Liver_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Liver_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_CybertechBionic_Liver_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic">
-    <defName>Hediff_WVC_CybertechBionic_Lung_AddedPart</defName>
+    <defName>WVC_CybertechBionic_Lung_AddedPart</defName>
     <label>cybertech lung</label>
+    <labelNoun>an cybertech lung</labelNoun>
+    <description>An installed cybertech lung.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Lung_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Lung_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_CybertechBionic_Lung_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic">
-    <defName>Hediff_WVC_CybertechBionic_Shoulder_AddedPart</defName>
+    <defName>WVC_CybertechBionic_Shoulder_AddedPart</defName>
     <label>cybertech arm</label>
+    <labelNoun>an cybertech arm</labelNoun>
+    <description>An installed cybertech arm.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Shoulder_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Shoulder_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_CybertechBionic_Shoulder_AddedPart</spawnThingOnRemoved>
     <stages />
@@ -178,11 +200,13 @@
     </comps>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic">
-    <defName>Hediff_WVC_CybertechBionic_Leg_AddedPart</defName>
+    <defName>WVC_CybertechBionic_Leg_AddedPart</defName>
     <label>cybertech leg</label>
+    <labelNoun>an cybertech leg</labelNoun>
+    <description>An installed cybertech leg.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechBionic_Leg_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechBionic_Leg_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_CybertechBionic_Leg_AddedPart</spawnThingOnRemoved>
     <stages />

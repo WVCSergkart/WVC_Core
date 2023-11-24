@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAlphaAnimalBionic" MayRequire="sarg.alphaanimals">
-    <defName>Hediff_WVC_UltratechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic" MayRequire="sarg.alphaanimals">
+    <defName>WVC_UltratechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</defName>
     <label>ultratech hydrogen sac</label>
+    <labelNoun>an ultratech hydrogen sac</labelNoun>
+    <description>An installed ultratech hydrogen sac.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -20,12 +22,14 @@
     </stages>
     <comps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAlphaAnimalBionic" MayRequire="sarg.alphaanimals">
-    <defName>Hediff_WVC_UltratechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic" MayRequire="sarg.alphaanimals">
+    <defName>WVC_UltratechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</defName>
     <label>ultratech jellyfish tentacle</label>
+    <labelNoun>an ultratech jellyfish tentacle</labelNoun>
+    <description>An installed ultratech jellyfish tentacle.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -55,12 +59,14 @@
       </li>
     </comps>
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAlphaAnimalBionic" MayRequire="sarg.alphaanimals">
-    <defName>Hediff_WVC_UltratechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic" MayRequire="sarg.alphaanimals">
+    <defName>WVC_UltratechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</defName>
     <label>ultratech alpha jaw</label>
+    <labelNoun>an ultratech alpha jaw</labelNoun>
+    <description>An installed ultratech alpha jaw.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -88,12 +94,14 @@
       </li>
     </comps>
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAlphaAnimalBionic" MayRequire="sarg.alphaanimals">
-    <defName>Hediff_WVC_UltratechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic" MayRequire="sarg.alphaanimals">
+    <defName>WVC_UltratechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</defName>
     <label>ultratech small insect leg</label>
+    <labelNoun>an ultratech small insect leg</labelNoun>
+    <description>An installed ultratech small insect leg.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</spawnThingOnRemoved>
     <stages>

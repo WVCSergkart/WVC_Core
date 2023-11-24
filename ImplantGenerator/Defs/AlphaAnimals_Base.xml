@@ -5,8 +5,9 @@
 	<label>advanced bionic {0}</label>
 	<labelNoun>an advanced bionic {0}</labelNoun>
 	<ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
-	<surgeryTag>Animals</surgeryTag>
+	<!-- <surgeryTag>Animals</surgeryTag> -->
 	<mayRequire>sarg.alphaanimals</mayRequire>
+	<forAnimals>true</forAnimals>
 	<!-- Body Parts -->
 	<bodyPartDefs>
 	  <li>AA_HydrogenSac</li>

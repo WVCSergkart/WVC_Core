@@ -5,15 +5,18 @@
 	<label>{0} gland</label>
 	<labelNoun>an {0} gland</labelNoun>
 	<generateRemoveRecipe>true</generateRemoveRecipe>
-	<surgeryTag>ArmorGland</surgeryTag>
 	<mayRequire>ludeon.rimworld.royalty</mayRequire>
+	<inheritHediff>WVC_Ultra_ImplantHediff_ArmorGland</inheritHediff>
+	<inheritSurgery>WVC_Ultra_ImplantSurgeryDef_ArmorGland</inheritSurgery>
 	<bodyPartDefs>
 	  <li>Torso</li>
 	</bodyPartDefs>
   </WVC_UltraExpansion.ImplantGeneratorDef>
 
   <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_ArmorSkin" Name="WVC_Ultra_ImplantGenerator_AnimalArmorSkin" Abstract="True">
-	<surgeryTag>AnimalsArmorGland</surgeryTag>
+	<inheritSurgery>WVC_Ultra_ImplantSurgeryDef_AnimalsArmorGland</inheritSurgery>
+	<inheritSurgeryRemove>WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsBase</inheritSurgeryRemove>
+	<forAnimals>true</forAnimals>
 	<bodyPartDefs>
 	  <li>Body</li>
 	  <li>Shell</li>
@@ -25,6 +28,7 @@
 
   <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_ArmorSkin">
 	<defName>WVC_CybertechArmorSkin</defName>
+	<inheritThing>WVC_Ultra_ImplantThingDef_WVC_CybertechArmorSkin</inheritThing>
 	<changesByPart>
 	  <li>
 		<def>Torso</def>
@@ -53,6 +57,7 @@
 
   <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_AnimalArmorSkin">
 	<defName>WVC_CybertechAnimalArmorSkin</defName>
+	<inheritThing>WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalArmorSkin</inheritThing>
 	<changesByPart>
 	  <li>
 		<def>Torso</def>
@@ -149,6 +154,7 @@
 
   <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_ArmorSkin">
 	<defName>WVC_UltratechArmorSkin</defName>
+	<inheritThing>WVC_Ultra_ImplantThingDef_WVC_UltratechArmorSkin</inheritThing>
 	<changesByPart>
 	  <li>
 		<def>Torso</def>
@@ -173,6 +179,7 @@
 
   <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_AnimalArmorSkin">
 	<defName>WVC_UltratechAnimalArmorSkin</defName>
+	<inheritThing>WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalArmorSkin</inheritThing>
 	<changesByPart>
 	  <li>
 		<def>Torso</def>
@@ -251,6 +258,7 @@
 
   <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_ArmorSkin">
 	<defName>WVC_MechtechArmorSkin</defName>
+	<inheritThing>WVC_Ultra_ImplantThingDef_WVC_MechtechArmorSkin</inheritThing>
 	<changesByPart>
 	  <li>
 		<def>Torso</def>
@@ -274,6 +282,7 @@
 
   <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_AnimalArmorSkin">
 	<defName>WVC_MechtechAnimalArmorSkin</defName>
+	<inheritThing>WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalArmorSkin</inheritThing>
 	<changesByPart>
 	  <li>
 		<def>Torso</def>
@@ -350,6 +359,7 @@
 
   <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_ArmorSkin">
 	<defName>WVC_ArmoredMechtechArmorSkin</defName>
+	<inheritThing>WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechArmorSkin</inheritThing>
 	<changesByPart>
 	  <li>
 		<def>Torso</def>

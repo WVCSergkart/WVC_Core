@@ -8,6 +8,7 @@
 	<!-- Added at the end of all defNames -->
 	<!-- Hediff_WVC_ArchotechBionic_Eye_AddedPart -->
 	<inNameTag>Implant</inNameTag>
+	<inheritSurgeryRemove>WVC_Ultra_ImplantSurgeryRemoveDef_Base</inheritSurgeryRemove>
 	<bodyPartDefs>
 	  <!-- <li>Eye</li> -->
 	  <!-- <li>Ear</li> -->

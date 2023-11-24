@@ -82,7 +82,7 @@ namespace WVC_UltraExpansion
 						// return null;
 					// }
 				// }
-				if (!generatorDef.surgeryTag.Contains("Animal"))
+				if (!generatorDef.forAnimals)
 				{
 					return null;
 				}
@@ -179,23 +179,7 @@ namespace WVC_UltraExpansion
 
 			public static XElement GenerateThingDefFile(ThingDef def, ImplantGeneratorDef generatorDef)
 			{
-				// XElement xElement = new("ThingDef" + " ParentNameTag", new XElement("defName", def.defName), new XElement("label", def.label), new XElement("description", def.description), new XElement("descriptionHyperlinks", def.descriptionHyperlinks), new XElement("techLevel", def.techLevel), new XElement("thingCategories", def.thingCategories), new XElement("graphicData", def.graphicData), new XElement("costList", def.costList), new XElement("stackLimit", def.stackLimit), new XElement("statBases", def.statBases), new XElement("tradeTags"), new XElement("techHediffsTags"), new XElement("thingSetMakerTags"), new XElement("thingClass", def.thingClass), new XElement("category", def.category), new XElement("drawerType", def.drawerType), new XElement("altitudeLayer", def.altitudeLayer), new XElement("tickerType", def.tickerType), new XElement("modExtensions", def.modExtensions), new XElement("comps", def.comps), new XElement("pathCost", def.pathCost), new XElement("allowedArchonexusCount", def.allowedArchonexusCount), new XElement("isTechHediff", def.isTechHediff), new XElement("alwaysHaulable", def.alwaysHaulable), new XElement("selectable", def.selectable), new XElement("useHitPoints", def.useHitPoints), new XElement("drawGUIOverlay", def.drawGUIOverlay));
-				XElement xElement = new("ThingDef", new XAttribute("ParentName", "WVC_Ultra_" + generatorDef.inNameTag + "ThingDef_" + generatorDef.defName), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("descriptionHyperlinks"), new XElement("costList"), new XElement("graphicData"));
-				// XElement tradeTags = xElement.Element("tradeTags");
-				// foreach (var i in def.tradeTags)
-				// {
-					// tradeTags.Add(new XElement("li", i));
-				// }
-				// XElement techHediffsTags = xElement.Element("techHediffsTags");
-				// foreach (var i in def.techHediffsTags)
-				// {
-					// techHediffsTags.Add(new XElement("li", i));
-				// }
-				// XElement thingSetMakerTags = xElement.Element("thingSetMakerTags");
-				// foreach (var i in def.thingSetMakerTags)
-				// {
-					// thingSetMakerTags.Add(new XElement("li", i));
-				// }
+				XElement xElement = new("ThingDef", new XAttribute("ParentName", generatorDef.inheritThing), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("descriptionHyperlinks"), new XElement("costList"), new XElement("graphicData"));
 				XElement costList = xElement.Element("costList");
 				foreach (var i in def.costList)
 				{
@@ -354,7 +338,7 @@ namespace WVC_UltraExpansion
 
 			public static XElement GenerateHediffDefFile(HediffDef def, ImplantGeneratorDef generatorDef)
 			{
-				XElement xElement = new("HediffDef", new XAttribute("ParentName", "WVC_Ultra_" + generatorDef.inNameTag + "HediffDef_" + generatorDef.defName), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("descriptionHyperlinks"), new XElement("spawnThingOnRemoved", def.spawnThingOnRemoved.defName), new XElement("stages"), new XElement("comps"));
+				XElement xElement = new("HediffDef", new XAttribute("ParentName", generatorDef.inheritHediff), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("labelNoun", def.labelNoun), new XElement("description", def.description), new XElement("descriptionHyperlinks"), new XElement("spawnThingOnRemoved", def.spawnThingOnRemoved.defName), new XElement("stages"), new XElement("comps"));
 				XElement descriptionHyperlinks = xElement.Element("descriptionHyperlinks");
 				// Log.Error("1");
 				foreach (var i in def.descriptionHyperlinks)
@@ -547,9 +531,12 @@ namespace WVC_UltraExpansion
 
 				hediffDef = new()
 				{
-					defName = "Hediff_" + thingDef.defName,
+					// defName = "Hediff_" + thingDef.defName,
+					// In the vanilla game, Hediffs are the same name as Things
+					defName = thingDef.defName,
 					label = implantGeneratorDef.label.Formatted(def.label),
 					labelNoun = implantGeneratorDef.labelNoun.Formatted(def.label),
+					description = "An installed" + " " + thingDef.label + ".",
 					descriptionHyperlinks = new(),
 					spawnThingOnRemoved = thingDef,
 					addedPartProps = new()
@@ -612,12 +599,12 @@ namespace WVC_UltraExpansion
 
 			public static XElement GenerateSurgeryDefFile(RecipeDef def, ImplantGeneratorDef generatorDef)
 			{
-				string surgeryName = "SurgeryDef";
+				string surgeryName = generatorDef.inheritSurgery;
 				if (def.removesHediff != null)
 				{
-					surgeryName = "SurgeryRemoveDef";
+					surgeryName = generatorDef.inheritSurgeryRemove;
 				}
-				XElement xElement = new("RecipeDef", new XAttribute("ParentName", "WVC_Ultra_" + generatorDef.inNameTag + surgeryName + "_" + generatorDef.surgeryTag), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("description", def.description), new XElement("jobString", def.jobString), new XElement("descriptionHyperlinks"));
+				XElement xElement = new("RecipeDef", new XAttribute("ParentName", surgeryName), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("description", def.description), new XElement("jobString", def.jobString), new XElement("descriptionHyperlinks"));
 				XElement descriptionHyperlinks = xElement.Element("descriptionHyperlinks");
 				foreach (var i in def.descriptionHyperlinks)
 				{

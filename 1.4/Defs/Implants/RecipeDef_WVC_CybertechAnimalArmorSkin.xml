@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_AnimalsArmorGland" MayRequire="ludeon.rimworld.royalty">
-    <defName>Install_Hediff_WVC_CybertechAnimalArmorSkin_Torso_Implant</defName>
+    <defName>Install_WVC_CybertechAnimalArmorSkin_Torso_Implant</defName>
     <label>install monkey cyberskin gland</label>
     <description>Install an monkey cyberskin gland.</description>
     <jobString>Installing monkey cyberskin gland.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechAnimalArmorSkin_Torso_Implant</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalArmorSkin_Torso_Implant</HediffDef>
+      <HediffDef>WVC_CybertechAnimalArmorSkin_Torso_Implant</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_CybertechAnimalArmorSkin_Torso_Implant</addsHediff>
+    <addsHediff>WVC_CybertechAnimalArmorSkin_Torso_Implant</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Torso</li>
     </appliedOnFixedBodyParts>
@@ -28,30 +28,30 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsArmorGland" MayRequire="ludeon.rimworld.royalty">
-    <defName>Remove_Hediff_WVC_CybertechAnimalArmorSkin_Torso_Implant</defName>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsBase" MayRequire="ludeon.rimworld.royalty">
+    <defName>Remove_WVC_CybertechAnimalArmorSkin_Torso_Implant</defName>
     <label>remove monkey cyberskin gland</label>
     <description>remove an monkey cyberskin gland.</description>
     <jobString>Removing monkey cyberskin gland.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechAnimalArmorSkin_Torso_Implant</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalArmorSkin_Torso_Implant</HediffDef>
+      <HediffDef>WVC_CybertechAnimalArmorSkin_Torso_Implant</HediffDef>
     </descriptionHyperlinks>
-    <removesHediff>Hediff_WVC_CybertechAnimalArmorSkin_Torso_Implant</removesHediff>
+    <removesHediff>WVC_CybertechAnimalArmorSkin_Torso_Implant</removesHediff>
     <appliedOnFixedBodyParts />
     <ingredients />
     <fixedIngredientFilter />
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_AnimalsArmorGland" MayRequire="ludeon.rimworld.royalty">
-    <defName>Install_Hediff_WVC_CybertechAnimalArmorSkin_Body_Implant</defName>
+    <defName>Install_WVC_CybertechAnimalArmorSkin_Body_Implant</defName>
     <label>install animal cyberskin gland</label>
     <description>Install an animal cyberskin gland.</description>
     <jobString>Installing animal cyberskin gland.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechAnimalArmorSkin_Body_Implant</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalArmorSkin_Body_Implant</HediffDef>
+      <HediffDef>WVC_CybertechAnimalArmorSkin_Body_Implant</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_CybertechAnimalArmorSkin_Body_Implant</addsHediff>
+    <addsHediff>WVC_CybertechAnimalArmorSkin_Body_Implant</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Body</li>
     </appliedOnFixedBodyParts>
@@ -70,30 +70,30 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsArmorGland" MayRequire="ludeon.rimworld.royalty">
-    <defName>Remove_Hediff_WVC_CybertechAnimalArmorSkin_Body_Implant</defName>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsBase" MayRequire="ludeon.rimworld.royalty">
+    <defName>Remove_WVC_CybertechAnimalArmorSkin_Body_Implant</defName>
     <label>remove animal cyberskin gland</label>
     <description>remove an animal cyberskin gland.</description>
     <jobString>Removing animal cyberskin gland.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechAnimalArmorSkin_Body_Implant</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalArmorSkin_Body_Implant</HediffDef>
+      <HediffDef>WVC_CybertechAnimalArmorSkin_Body_Implant</HediffDef>
     </descriptionHyperlinks>
-    <removesHediff>Hediff_WVC_CybertechAnimalArmorSkin_Body_Implant</removesHediff>
+    <removesHediff>WVC_CybertechAnimalArmorSkin_Body_Implant</removesHediff>
     <appliedOnFixedBodyParts />
     <ingredients />
     <fixedIngredientFilter />
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_AnimalsArmorGland" MayRequire="ludeon.rimworld.royalty">
-    <defName>Install_Hediff_WVC_CybertechAnimalArmorSkin_Shell_Implant</defName>
+    <defName>Install_WVC_CybertechAnimalArmorSkin_Shell_Implant</defName>
     <label>install insect cyberskin gland</label>
     <description>Install an insect cyberskin gland.</description>
     <jobString>Installing insect cyberskin gland.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechAnimalArmorSkin_Shell_Implant</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalArmorSkin_Shell_Implant</HediffDef>
+      <HediffDef>WVC_CybertechAnimalArmorSkin_Shell_Implant</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_CybertechAnimalArmorSkin_Shell_Implant</addsHediff>
+    <addsHediff>WVC_CybertechAnimalArmorSkin_Shell_Implant</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Shell</li>
     </appliedOnFixedBodyParts>
@@ -112,30 +112,30 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsArmorGland" MayRequire="ludeon.rimworld.royalty">
-    <defName>Remove_Hediff_WVC_CybertechAnimalArmorSkin_Shell_Implant</defName>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsBase" MayRequire="ludeon.rimworld.royalty">
+    <defName>Remove_WVC_CybertechAnimalArmorSkin_Shell_Implant</defName>
     <label>remove insect cyberskin gland</label>
     <description>remove an insect cyberskin gland.</description>
     <jobString>Removing insect cyberskin gland.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechAnimalArmorSkin_Shell_Implant</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalArmorSkin_Shell_Implant</HediffDef>
+      <HediffDef>WVC_CybertechAnimalArmorSkin_Shell_Implant</HediffDef>
     </descriptionHyperlinks>
-    <removesHediff>Hediff_WVC_CybertechAnimalArmorSkin_Shell_Implant</removesHediff>
+    <removesHediff>WVC_CybertechAnimalArmorSkin_Shell_Implant</removesHediff>
     <appliedOnFixedBodyParts />
     <ingredients />
     <fixedIngredientFilter />
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_AnimalsArmorGland" MayRequire="ludeon.rimworld.royalty">
-    <defName>Install_Hediff_WVC_CybertechAnimalArmorSkin_SnakeBody_Implant</defName>
+    <defName>Install_WVC_CybertechAnimalArmorSkin_SnakeBody_Implant</defName>
     <label>install snake cyberskin gland</label>
     <description>Install an snake cyberskin gland.</description>
     <jobString>Installing snake cyberskin gland.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechAnimalArmorSkin_SnakeBody_Implant</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalArmorSkin_SnakeBody_Implant</HediffDef>
+      <HediffDef>WVC_CybertechAnimalArmorSkin_SnakeBody_Implant</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_CybertechAnimalArmorSkin_SnakeBody_Implant</addsHediff>
+    <addsHediff>WVC_CybertechAnimalArmorSkin_SnakeBody_Implant</addsHediff>
     <appliedOnFixedBodyParts>
       <li>SnakeBody</li>
     </appliedOnFixedBodyParts>
@@ -154,16 +154,16 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsArmorGland" MayRequire="ludeon.rimworld.royalty">
-    <defName>Remove_Hediff_WVC_CybertechAnimalArmorSkin_SnakeBody_Implant</defName>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsBase" MayRequire="ludeon.rimworld.royalty">
+    <defName>Remove_WVC_CybertechAnimalArmorSkin_SnakeBody_Implant</defName>
     <label>remove snake cyberskin gland</label>
     <description>remove an snake cyberskin gland.</description>
     <jobString>Removing snake cyberskin gland.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_CybertechAnimalArmorSkin_SnakeBody_Implant</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalArmorSkin_SnakeBody_Implant</HediffDef>
+      <HediffDef>WVC_CybertechAnimalArmorSkin_SnakeBody_Implant</HediffDef>
     </descriptionHyperlinks>
-    <removesHediff>Hediff_WVC_CybertechAnimalArmorSkin_SnakeBody_Implant</removesHediff>
+    <removesHediff>WVC_CybertechAnimalArmorSkin_SnakeBody_Implant</removesHediff>
     <appliedOnFixedBodyParts />
     <ingredients />
     <fixedIngredientFilter />

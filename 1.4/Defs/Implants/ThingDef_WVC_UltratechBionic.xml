@@ -4,7 +4,7 @@
     <defName>WVC_UltratechBionic_Eye_AddedPart</defName>
     <label>ultratech eye</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Eye_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -18,7 +18,7 @@
     <defName>WVC_UltratechBionic_Ear_AddedPart</defName>
     <label>ultratech ear</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Ear_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -32,7 +32,7 @@
     <defName>WVC_UltratechBionic_Jaw_AddedPart</defName>
     <label>ultratech jaw</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Jaw_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>13</Plasteel>
@@ -46,7 +46,7 @@
     <defName>WVC_UltratechBionic_Nose_AddedPart</defName>
     <label>ultratech nose</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Nose_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -60,7 +60,7 @@
     <defName>WVC_UltratechBionic_Stomach_AddedPart</defName>
     <label>ultratech stomach</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Stomach_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>18</Plasteel>
@@ -74,7 +74,7 @@
     <defName>WVC_UltratechBionic_Spine_AddedPart</defName>
     <label>ultratech spine</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Spine_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
@@ -88,7 +88,7 @@
     <defName>WVC_UltratechBionic_Heart_AddedPart</defName>
     <label>ultratech heart</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Heart_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -102,7 +102,7 @@
     <defName>WVC_UltratechBionic_Kidney_AddedPart</defName>
     <label>ultratech kidney</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Kidney_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>13</Plasteel>
@@ -116,7 +116,7 @@
     <defName>WVC_UltratechBionic_Liver_AddedPart</defName>
     <label>ultratech liver</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Liver_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>14</Plasteel>
@@ -130,7 +130,7 @@
     <defName>WVC_UltratechBionic_Lung_AddedPart</defName>
     <label>ultratech lung</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Lung_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -144,7 +144,7 @@
     <defName>WVC_UltratechBionic_Shoulder_AddedPart</defName>
     <label>ultratech arm</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Shoulder_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>17</Plasteel>
@@ -158,7 +158,7 @@
     <defName>WVC_UltratechBionic_Leg_AddedPart</defName>
     <label>ultratech leg</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Leg_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>18</Plasteel>

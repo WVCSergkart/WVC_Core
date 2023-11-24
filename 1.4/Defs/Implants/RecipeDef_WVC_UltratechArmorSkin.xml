@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_ArmorGland" MayRequire="ludeon.rimworld.royalty">
-    <defName>Install_Hediff_WVC_UltratechArmorSkin_Torso_Implant</defName>
+    <defName>Install_WVC_UltratechArmorSkin_Torso_Implant</defName>
     <label>install ultraskin gland</label>
     <description>Install an ultraskin gland.</description>
     <jobString>Installing ultraskin gland.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechArmorSkin_Torso_Implant</ThingDef>
-      <HediffDef>Hediff_WVC_UltratechArmorSkin_Torso_Implant</HediffDef>
+      <HediffDef>WVC_UltratechArmorSkin_Torso_Implant</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_UltratechArmorSkin_Torso_Implant</addsHediff>
+    <addsHediff>WVC_UltratechArmorSkin_Torso_Implant</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Torso</li>
     </appliedOnFixedBodyParts>
@@ -28,16 +28,16 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_ArmorGland" MayRequire="ludeon.rimworld.royalty">
-    <defName>Remove_Hediff_WVC_UltratechArmorSkin_Torso_Implant</defName>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_Base" MayRequire="ludeon.rimworld.royalty">
+    <defName>Remove_WVC_UltratechArmorSkin_Torso_Implant</defName>
     <label>remove ultraskin gland</label>
     <description>remove an ultraskin gland.</description>
     <jobString>Removing ultraskin gland.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechArmorSkin_Torso_Implant</ThingDef>
-      <HediffDef>Hediff_WVC_UltratechArmorSkin_Torso_Implant</HediffDef>
+      <HediffDef>WVC_UltratechArmorSkin_Torso_Implant</HediffDef>
     </descriptionHyperlinks>
-    <removesHediff>Hediff_WVC_UltratechArmorSkin_Torso_Implant</removesHediff>
+    <removesHediff>WVC_UltratechArmorSkin_Torso_Implant</removesHediff>
     <appliedOnFixedBodyParts />
     <ingredients />
     <fixedIngredientFilter />

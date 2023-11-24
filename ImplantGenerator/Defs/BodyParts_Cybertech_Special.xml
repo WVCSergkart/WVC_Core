@@ -6,6 +6,8 @@
 	<label>cybertech {0}</label>
 	<labelNoun>an cybertech {0}</labelNoun>
 	<mayRequire>ludeon.rimworld.royalty</mayRequire>
+	<inheritHediff>WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic</inheritHediff>
+	<inheritThing>WVC_Ultra_AddedPartThingDef_WVC_SpecializedCybertechBionic</inheritThing>
 	<changesByPart>
 	  <li>
 		<def>Eye</def>
@@ -92,6 +94,7 @@
 		<def>Shoulder</def>
 		<texPath>WVC/Implants/Arm</texPath>
 		<label>drill arm</label>
+		<partEfficiency>1.1</partEfficiency>
 		<costList>
 		  <Plasteel>19</Plasteel>
 		  <!-- <ComponentSpacer>6</ComponentSpacer> -->

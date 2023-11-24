@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Eye_AddedPart</defName>
+    <defName>Install_WVC_OverclockedMechtechBionic_Eye_AddedPart</defName>
     <label>install overclocked mechtech eye</label>
     <description>Install an overclocked mechtech eye.</description>
     <jobString>Installing overclocked mechtech eye.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Eye_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Eye_AddedPart</HediffDef>
+      <HediffDef>WVC_OverclockedMechtechBionic_Eye_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_OverclockedMechtechBionic_Eye_AddedPart</addsHediff>
+    <addsHediff>WVC_OverclockedMechtechBionic_Eye_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Eye</li>
     </appliedOnFixedBodyParts>
@@ -29,15 +29,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Ear_AddedPart</defName>
+    <defName>Install_WVC_OverclockedMechtechBionic_Ear_AddedPart</defName>
     <label>install overclocked mechtech ear</label>
     <description>Install an overclocked mechtech ear.</description>
     <jobString>Installing overclocked mechtech ear.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Ear_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Ear_AddedPart</HediffDef>
+      <HediffDef>WVC_OverclockedMechtechBionic_Ear_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_OverclockedMechtechBionic_Ear_AddedPart</addsHediff>
+    <addsHediff>WVC_OverclockedMechtechBionic_Ear_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Ear</li>
     </appliedOnFixedBodyParts>
@@ -57,15 +57,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Jaw_AddedPart</defName>
+    <defName>Install_WVC_OverclockedMechtechBionic_Jaw_AddedPart</defName>
     <label>install overclocked mechtech jaw</label>
     <description>Install an overclocked mechtech jaw.</description>
     <jobString>Installing overclocked mechtech jaw.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Jaw_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Jaw_AddedPart</HediffDef>
+      <HediffDef>WVC_OverclockedMechtechBionic_Jaw_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_OverclockedMechtechBionic_Jaw_AddedPart</addsHediff>
+    <addsHediff>WVC_OverclockedMechtechBionic_Jaw_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Jaw</li>
     </appliedOnFixedBodyParts>
@@ -85,15 +85,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Nose_AddedPart</defName>
+    <defName>Install_WVC_OverclockedMechtechBionic_Nose_AddedPart</defName>
     <label>install overclocked mechtech nose</label>
     <description>Install an overclocked mechtech nose.</description>
     <jobString>Installing overclocked mechtech nose.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Nose_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Nose_AddedPart</HediffDef>
+      <HediffDef>WVC_OverclockedMechtechBionic_Nose_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_OverclockedMechtechBionic_Nose_AddedPart</addsHediff>
+    <addsHediff>WVC_OverclockedMechtechBionic_Nose_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Nose</li>
     </appliedOnFixedBodyParts>
@@ -113,15 +113,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Stomach_AddedPart</defName>
+    <defName>Install_WVC_OverclockedMechtechBionic_Stomach_AddedPart</defName>
     <label>install overclocked mechtech stomach</label>
     <description>Install an overclocked mechtech stomach.</description>
     <jobString>Installing overclocked mechtech stomach.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Stomach_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Stomach_AddedPart</HediffDef>
+      <HediffDef>WVC_OverclockedMechtechBionic_Stomach_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_OverclockedMechtechBionic_Stomach_AddedPart</addsHediff>
+    <addsHediff>WVC_OverclockedMechtechBionic_Stomach_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Stomach</li>
     </appliedOnFixedBodyParts>
@@ -141,15 +141,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Spine_AddedPart</defName>
+    <defName>Install_WVC_OverclockedMechtechBionic_Spine_AddedPart</defName>
     <label>install overclocked mechtech spine</label>
     <description>Install an overclocked mechtech spine.</description>
     <jobString>Installing overclocked mechtech spine.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Spine_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Spine_AddedPart</HediffDef>
+      <HediffDef>WVC_OverclockedMechtechBionic_Spine_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_OverclockedMechtechBionic_Spine_AddedPart</addsHediff>
+    <addsHediff>WVC_OverclockedMechtechBionic_Spine_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Spine</li>
     </appliedOnFixedBodyParts>
@@ -169,15 +169,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Heart_AddedPart</defName>
+    <defName>Install_WVC_OverclockedMechtechBionic_Heart_AddedPart</defName>
     <label>install overclocked mechtech heart</label>
     <description>Install an overclocked mechtech heart.</description>
     <jobString>Installing overclocked mechtech heart.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Heart_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Heart_AddedPart</HediffDef>
+      <HediffDef>WVC_OverclockedMechtechBionic_Heart_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_OverclockedMechtechBionic_Heart_AddedPart</addsHediff>
+    <addsHediff>WVC_OverclockedMechtechBionic_Heart_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Heart</li>
     </appliedOnFixedBodyParts>
@@ -197,15 +197,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Kidney_AddedPart</defName>
+    <defName>Install_WVC_OverclockedMechtechBionic_Kidney_AddedPart</defName>
     <label>install overclocked mechtech kidney</label>
     <description>Install an overclocked mechtech kidney.</description>
     <jobString>Installing overclocked mechtech kidney.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Kidney_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Kidney_AddedPart</HediffDef>
+      <HediffDef>WVC_OverclockedMechtechBionic_Kidney_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_OverclockedMechtechBionic_Kidney_AddedPart</addsHediff>
+    <addsHediff>WVC_OverclockedMechtechBionic_Kidney_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Kidney</li>
     </appliedOnFixedBodyParts>
@@ -225,15 +225,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Liver_AddedPart</defName>
+    <defName>Install_WVC_OverclockedMechtechBionic_Liver_AddedPart</defName>
     <label>install overclocked mechtech liver</label>
     <description>Install an overclocked mechtech liver.</description>
     <jobString>Installing overclocked mechtech liver.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Liver_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Liver_AddedPart</HediffDef>
+      <HediffDef>WVC_OverclockedMechtechBionic_Liver_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_OverclockedMechtechBionic_Liver_AddedPart</addsHediff>
+    <addsHediff>WVC_OverclockedMechtechBionic_Liver_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Liver</li>
     </appliedOnFixedBodyParts>
@@ -253,15 +253,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Lung_AddedPart</defName>
+    <defName>Install_WVC_OverclockedMechtechBionic_Lung_AddedPart</defName>
     <label>install overclocked mechtech lung</label>
     <description>Install an overclocked mechtech lung.</description>
     <jobString>Installing overclocked mechtech lung.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Lung_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Lung_AddedPart</HediffDef>
+      <HediffDef>WVC_OverclockedMechtechBionic_Lung_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_OverclockedMechtechBionic_Lung_AddedPart</addsHediff>
+    <addsHediff>WVC_OverclockedMechtechBionic_Lung_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Lung</li>
     </appliedOnFixedBodyParts>
@@ -281,15 +281,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Shoulder_AddedPart</defName>
+    <defName>Install_WVC_OverclockedMechtechBionic_Shoulder_AddedPart</defName>
     <label>install overclocked mechtech arm</label>
     <description>Install an overclocked mechtech arm.</description>
     <jobString>Installing overclocked mechtech arm.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Shoulder_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Shoulder_AddedPart</HediffDef>
+      <HediffDef>WVC_OverclockedMechtechBionic_Shoulder_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_OverclockedMechtechBionic_Shoulder_AddedPart</addsHediff>
+    <addsHediff>WVC_OverclockedMechtechBionic_Shoulder_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Shoulder</li>
     </appliedOnFixedBodyParts>
@@ -309,15 +309,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_OverclockedMechtechBionic_Leg_AddedPart</defName>
+    <defName>Install_WVC_OverclockedMechtechBionic_Leg_AddedPart</defName>
     <label>install overclocked mechtech leg</label>
     <description>Install an overclocked mechtech leg.</description>
     <jobString>Installing overclocked mechtech leg.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_OverclockedMechtechBionic_Leg_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_OverclockedMechtechBionic_Leg_AddedPart</HediffDef>
+      <HediffDef>WVC_OverclockedMechtechBionic_Leg_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_OverclockedMechtechBionic_Leg_AddedPart</addsHediff>
+    <addsHediff>WVC_OverclockedMechtechBionic_Leg_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Leg</li>
     </appliedOnFixedBodyParts>

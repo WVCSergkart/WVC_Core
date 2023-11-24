@@ -5,7 +5,9 @@
 	<label>advanced bionic {0}</label>
 	<labelNoun>an advanced bionic {0}</labelNoun>
 	<ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
-	<surgeryTag>Animals</surgeryTag>
+	<!-- <surgeryTag>Animals</surgeryTag> -->
+	<inheritSurgery>WVC_Ultra_AddedPartSurgeryDef_Animals</inheritSurgery>
+	<forAnimals>true</forAnimals>
 	<!-- <mayRequire>ludeon.rimworld</mayRequire> -->
 	<!-- Body Parts -->
 	<bodyPartDefs>

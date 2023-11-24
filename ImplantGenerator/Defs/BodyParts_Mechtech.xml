@@ -5,6 +5,8 @@
 	<defName>WVC_MechtechBionic</defName>
 	<label>mechtech {0}</label>
 	<labelNoun>an mechtech {0}</labelNoun>
+	<inheritHediff>WVC_Ultra_AddedPartHediffDef_WVC_MechtechBionic</inheritHediff>
+	<inheritThing>WVC_Ultra_AddedPartThingDef_WVC_MechtechBionic</inheritThing>
 	<changesByPart>
 	  <li>
 		<def>Eye</def>

@@ -4,6 +4,7 @@
   <!-- ================================== Tier 1 ================================== -->
 
   <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_CybertechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_Cybertech" Abstract="True">
+	<description>This bionic gland releases chemical and nanomachines that transform the user's skin into a built-in suit of armor. The whole epidermis thickens and hardens to resist burns, while jointed exterior keratin plates form everywhere they can - including the head and face.</description>
 	<recipeMaker>
 	  <researchPrerequisites>
 		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
@@ -28,6 +29,7 @@
   <!-- ================================== Tier 2 ================================== -->
 
   <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_UltratechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_Ultratech" Abstract="True">
+	<description>This bionic gland releases chemical and nanomachines that transform the user's skin into a built-in suit of armor. The whole epidermis thickens and hardens to resist burns, while jointed exterior keratin plates form everywhere they can - including the head and face.</description>
 	<recipeMaker>
 	  <researchPrerequisites>
 		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
@@ -50,6 +52,7 @@
   </ThingDef>
 
   <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_MechtechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_Mechtech" Abstract="True">
+	<description>This bionic gland releases chemical and nanomachines that transform the user's skin into a built-in suit of armor. The whole epidermis thickens and hardens to resist burns, while jointed exterior keratin plates form everywhere they can - including the head and face.</description>
 	<recipeMaker>
 	  <researchPrerequisites>
 		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
@@ -74,6 +77,7 @@
   <!-- ================================== Tier 3 ================================== -->
 
   <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_ArmoredMechtech" Abstract="True">
+	<description>This bionic gland releases chemical and nanomachines that transform the user's skin into a built-in suit of armor. The whole epidermis thickens and hardens to resist burns, while jointed exterior keratin plates form everywhere they can - including the head and face.</description>
 	<recipeMaker>
 	  <researchPrerequisites>
 		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>

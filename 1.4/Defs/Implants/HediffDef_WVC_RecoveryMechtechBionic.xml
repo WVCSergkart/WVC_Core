@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_RecoveryMechtechBionic">
-    <defName>Hediff_WVC_RecoveryMechtechBionic_Eye_AddedPart</defName>
+    <defName>WVC_RecoveryMechtechBionic_Eye_AddedPart</defName>
     <label>recovery mechtech eye</label>
+    <labelNoun>an recovery mechtech eye</labelNoun>
+    <description>An installed recovery mechtech eye.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Eye_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Eye_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_RecoveryMechtechBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Eye_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -27,11 +29,13 @@
     </eyeGraphicSouth>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_RecoveryMechtechBionic">
-    <defName>Hediff_WVC_RecoveryMechtechBionic_Ear_AddedPart</defName>
+    <defName>WVC_RecoveryMechtechBionic_Ear_AddedPart</defName>
     <label>recovery mechtech ear</label>
+    <labelNoun>an recovery mechtech ear</labelNoun>
+    <description>An installed recovery mechtech ear.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Ear_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Ear_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_RecoveryMechtechBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Ear_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -45,11 +49,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_RecoveryMechtechBionic">
-    <defName>Hediff_WVC_RecoveryMechtechBionic_Jaw_AddedPart</defName>
+    <defName>WVC_RecoveryMechtechBionic_Jaw_AddedPart</defName>
     <label>recovery mechtech jaw</label>
+    <labelNoun>an recovery mechtech jaw</labelNoun>
+    <description>An installed recovery mechtech jaw.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Jaw_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Jaw_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_RecoveryMechtechBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Jaw_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -77,11 +83,13 @@
     </comps>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_RecoveryMechtechBionic">
-    <defName>Hediff_WVC_RecoveryMechtechBionic_Nose_AddedPart</defName>
+    <defName>WVC_RecoveryMechtechBionic_Nose_AddedPart</defName>
     <label>recovery mechtech nose</label>
+    <labelNoun>an recovery mechtech nose</labelNoun>
+    <description>An installed recovery mechtech nose.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Nose_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Nose_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_RecoveryMechtechBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Nose_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -96,11 +104,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_RecoveryMechtechBionic">
-    <defName>Hediff_WVC_RecoveryMechtechBionic_Stomach_AddedPart</defName>
+    <defName>WVC_RecoveryMechtechBionic_Stomach_AddedPart</defName>
     <label>recovery mechtech stomach</label>
+    <labelNoun>an recovery mechtech stomach</labelNoun>
+    <description>An installed recovery mechtech stomach.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Stomach_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Stomach_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_RecoveryMechtechBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Stomach_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -116,11 +126,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_RecoveryMechtechBionic">
-    <defName>Hediff_WVC_RecoveryMechtechBionic_Spine_AddedPart</defName>
+    <defName>WVC_RecoveryMechtechBionic_Spine_AddedPart</defName>
     <label>recovery mechtech spine</label>
+    <labelNoun>an recovery mechtech spine</labelNoun>
+    <description>An installed recovery mechtech spine.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Spine_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Spine_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_RecoveryMechtechBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Spine_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -134,11 +146,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_RecoveryMechtechBionic">
-    <defName>Hediff_WVC_RecoveryMechtechBionic_Heart_AddedPart</defName>
+    <defName>WVC_RecoveryMechtechBionic_Heart_AddedPart</defName>
     <label>recovery mechtech heart</label>
+    <labelNoun>an recovery mechtech heart</labelNoun>
+    <description>An installed recovery mechtech heart.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Heart_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Heart_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_RecoveryMechtechBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Heart_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -154,11 +168,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_RecoveryMechtechBionic">
-    <defName>Hediff_WVC_RecoveryMechtechBionic_Kidney_AddedPart</defName>
+    <defName>WVC_RecoveryMechtechBionic_Kidney_AddedPart</defName>
     <label>recovery mechtech kidney</label>
+    <labelNoun>an recovery mechtech kidney</labelNoun>
+    <description>An installed recovery mechtech kidney.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Kidney_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Kidney_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_RecoveryMechtechBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Kidney_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -175,11 +191,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_RecoveryMechtechBionic">
-    <defName>Hediff_WVC_RecoveryMechtechBionic_Liver_AddedPart</defName>
+    <defName>WVC_RecoveryMechtechBionic_Liver_AddedPart</defName>
     <label>recovery mechtech liver</label>
+    <labelNoun>an recovery mechtech liver</labelNoun>
+    <description>An installed recovery mechtech liver.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Liver_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Liver_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_RecoveryMechtechBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Liver_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -195,11 +213,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_RecoveryMechtechBionic">
-    <defName>Hediff_WVC_RecoveryMechtechBionic_Lung_AddedPart</defName>
+    <defName>WVC_RecoveryMechtechBionic_Lung_AddedPart</defName>
     <label>recovery mechtech lung</label>
+    <labelNoun>an recovery mechtech lung</labelNoun>
+    <description>An installed recovery mechtech lung.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Lung_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Lung_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_RecoveryMechtechBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Lung_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -213,11 +233,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_RecoveryMechtechBionic">
-    <defName>Hediff_WVC_RecoveryMechtechBionic_Shoulder_AddedPart</defName>
+    <defName>WVC_RecoveryMechtechBionic_Shoulder_AddedPart</defName>
     <label>recovery mechtech arm</label>
+    <labelNoun>an recovery mechtech arm</labelNoun>
+    <description>An installed recovery mechtech arm.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Shoulder_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Shoulder_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_RecoveryMechtechBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Shoulder_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -246,11 +268,13 @@
     </comps>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_RecoveryMechtechBionic">
-    <defName>Hediff_WVC_RecoveryMechtechBionic_Leg_AddedPart</defName>
+    <defName>WVC_RecoveryMechtechBionic_Leg_AddedPart</defName>
     <label>recovery mechtech leg</label>
+    <labelNoun>an recovery mechtech leg</labelNoun>
+    <description>An installed recovery mechtech leg.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_RecoveryMechtechBionic_Leg_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Leg_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_RecoveryMechtechBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_RecoveryMechtechBionic_Leg_AddedPart</spawnThingOnRemoved>
     <stages>

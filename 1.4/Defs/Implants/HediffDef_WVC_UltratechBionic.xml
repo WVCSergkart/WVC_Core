@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
-    <defName>Hediff_WVC_UltratechBionic_Eye_AddedPart</defName>
+    <defName>WVC_UltratechBionic_Eye_AddedPart</defName>
     <label>ultratech eye</label>
+    <labelNoun>an ultratech eye</labelNoun>
+    <description>An installed ultratech eye.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Eye_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Eye_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Eye_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -29,11 +31,13 @@
     </eyeGraphicSouth>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
-    <defName>Hediff_WVC_UltratechBionic_Ear_AddedPart</defName>
+    <defName>WVC_UltratechBionic_Ear_AddedPart</defName>
     <label>ultratech ear</label>
+    <labelNoun>an ultratech ear</labelNoun>
+    <description>An installed ultratech ear.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Ear_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Ear_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Ear_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -49,11 +53,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
-    <defName>Hediff_WVC_UltratechBionic_Jaw_AddedPart</defName>
+    <defName>WVC_UltratechBionic_Jaw_AddedPart</defName>
     <label>ultratech jaw</label>
+    <labelNoun>an ultratech jaw</labelNoun>
+    <description>An installed ultratech jaw.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Jaw_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Jaw_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Jaw_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -83,11 +89,13 @@
     </comps>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
-    <defName>Hediff_WVC_UltratechBionic_Nose_AddedPart</defName>
+    <defName>WVC_UltratechBionic_Nose_AddedPart</defName>
     <label>ultratech nose</label>
+    <labelNoun>an ultratech nose</labelNoun>
+    <description>An installed ultratech nose.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Nose_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Nose_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Nose_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -104,11 +112,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
-    <defName>Hediff_WVC_UltratechBionic_Stomach_AddedPart</defName>
+    <defName>WVC_UltratechBionic_Stomach_AddedPart</defName>
     <label>ultratech stomach</label>
+    <labelNoun>an ultratech stomach</labelNoun>
+    <description>An installed ultratech stomach.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Stomach_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Stomach_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Stomach_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -126,11 +136,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
-    <defName>Hediff_WVC_UltratechBionic_Spine_AddedPart</defName>
+    <defName>WVC_UltratechBionic_Spine_AddedPart</defName>
     <label>ultratech spine</label>
+    <labelNoun>an ultratech spine</labelNoun>
+    <description>An installed ultratech spine.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Spine_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Spine_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Spine_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -146,11 +158,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
-    <defName>Hediff_WVC_UltratechBionic_Heart_AddedPart</defName>
+    <defName>WVC_UltratechBionic_Heart_AddedPart</defName>
     <label>ultratech heart</label>
+    <labelNoun>an ultratech heart</labelNoun>
+    <description>An installed ultratech heart.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Heart_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Heart_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Heart_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -168,11 +182,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
-    <defName>Hediff_WVC_UltratechBionic_Kidney_AddedPart</defName>
+    <defName>WVC_UltratechBionic_Kidney_AddedPart</defName>
     <label>ultratech kidney</label>
+    <labelNoun>an ultratech kidney</labelNoun>
+    <description>An installed ultratech kidney.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Kidney_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Kidney_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Kidney_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -191,11 +207,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
-    <defName>Hediff_WVC_UltratechBionic_Liver_AddedPart</defName>
+    <defName>WVC_UltratechBionic_Liver_AddedPart</defName>
     <label>ultratech liver</label>
+    <labelNoun>an ultratech liver</labelNoun>
+    <description>An installed ultratech liver.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Liver_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Liver_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Liver_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -213,11 +231,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
-    <defName>Hediff_WVC_UltratechBionic_Lung_AddedPart</defName>
+    <defName>WVC_UltratechBionic_Lung_AddedPart</defName>
     <label>ultratech lung</label>
+    <labelNoun>an ultratech lung</labelNoun>
+    <description>An installed ultratech lung.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Lung_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Lung_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Lung_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -233,11 +253,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
-    <defName>Hediff_WVC_UltratechBionic_Shoulder_AddedPart</defName>
+    <defName>WVC_UltratechBionic_Shoulder_AddedPart</defName>
     <label>ultratech arm</label>
+    <labelNoun>an ultratech arm</labelNoun>
+    <description>An installed ultratech arm.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Shoulder_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Shoulder_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Shoulder_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -268,11 +290,13 @@
     </comps>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
-    <defName>Hediff_WVC_UltratechBionic_Leg_AddedPart</defName>
+    <defName>WVC_UltratechBionic_Leg_AddedPart</defName>
     <label>ultratech leg</label>
+    <labelNoun>an ultratech leg</labelNoun>
+    <description>An installed ultratech leg.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Leg_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Leg_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechBionic_Leg_AddedPart</spawnThingOnRemoved>
     <stages>

@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_UltratechBionic_Eye_AddedPart</defName>
+    <defName>Install_WVC_UltratechBionic_Eye_AddedPart</defName>
     <label>install ultratech eye</label>
     <description>Install an ultratech eye.</description>
     <jobString>Installing ultratech eye.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Eye_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_UltratechBionic_Eye_AddedPart</HediffDef>
+      <HediffDef>WVC_UltratechBionic_Eye_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_UltratechBionic_Eye_AddedPart</addsHediff>
+    <addsHediff>WVC_UltratechBionic_Eye_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Eye</li>
     </appliedOnFixedBodyParts>
@@ -29,15 +29,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_UltratechBionic_Ear_AddedPart</defName>
+    <defName>Install_WVC_UltratechBionic_Ear_AddedPart</defName>
     <label>install ultratech ear</label>
     <description>Install an ultratech ear.</description>
     <jobString>Installing ultratech ear.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Ear_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_UltratechBionic_Ear_AddedPart</HediffDef>
+      <HediffDef>WVC_UltratechBionic_Ear_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_UltratechBionic_Ear_AddedPart</addsHediff>
+    <addsHediff>WVC_UltratechBionic_Ear_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Ear</li>
     </appliedOnFixedBodyParts>
@@ -57,15 +57,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_UltratechBionic_Jaw_AddedPart</defName>
+    <defName>Install_WVC_UltratechBionic_Jaw_AddedPart</defName>
     <label>install ultratech jaw</label>
     <description>Install an ultratech jaw.</description>
     <jobString>Installing ultratech jaw.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Jaw_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_UltratechBionic_Jaw_AddedPart</HediffDef>
+      <HediffDef>WVC_UltratechBionic_Jaw_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_UltratechBionic_Jaw_AddedPart</addsHediff>
+    <addsHediff>WVC_UltratechBionic_Jaw_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Jaw</li>
     </appliedOnFixedBodyParts>
@@ -85,15 +85,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_UltratechBionic_Nose_AddedPart</defName>
+    <defName>Install_WVC_UltratechBionic_Nose_AddedPart</defName>
     <label>install ultratech nose</label>
     <description>Install an ultratech nose.</description>
     <jobString>Installing ultratech nose.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Nose_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_UltratechBionic_Nose_AddedPart</HediffDef>
+      <HediffDef>WVC_UltratechBionic_Nose_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_UltratechBionic_Nose_AddedPart</addsHediff>
+    <addsHediff>WVC_UltratechBionic_Nose_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Nose</li>
     </appliedOnFixedBodyParts>
@@ -113,15 +113,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_UltratechBionic_Stomach_AddedPart</defName>
+    <defName>Install_WVC_UltratechBionic_Stomach_AddedPart</defName>
     <label>install ultratech stomach</label>
     <description>Install an ultratech stomach.</description>
     <jobString>Installing ultratech stomach.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Stomach_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_UltratechBionic_Stomach_AddedPart</HediffDef>
+      <HediffDef>WVC_UltratechBionic_Stomach_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_UltratechBionic_Stomach_AddedPart</addsHediff>
+    <addsHediff>WVC_UltratechBionic_Stomach_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Stomach</li>
     </appliedOnFixedBodyParts>
@@ -141,15 +141,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_UltratechBionic_Spine_AddedPart</defName>
+    <defName>Install_WVC_UltratechBionic_Spine_AddedPart</defName>
     <label>install ultratech spine</label>
     <description>Install an ultratech spine.</description>
     <jobString>Installing ultratech spine.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Spine_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_UltratechBionic_Spine_AddedPart</HediffDef>
+      <HediffDef>WVC_UltratechBionic_Spine_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_UltratechBionic_Spine_AddedPart</addsHediff>
+    <addsHediff>WVC_UltratechBionic_Spine_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Spine</li>
     </appliedOnFixedBodyParts>
@@ -169,15 +169,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_UltratechBionic_Heart_AddedPart</defName>
+    <defName>Install_WVC_UltratechBionic_Heart_AddedPart</defName>
     <label>install ultratech heart</label>
     <description>Install an ultratech heart.</description>
     <jobString>Installing ultratech heart.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Heart_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_UltratechBionic_Heart_AddedPart</HediffDef>
+      <HediffDef>WVC_UltratechBionic_Heart_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_UltratechBionic_Heart_AddedPart</addsHediff>
+    <addsHediff>WVC_UltratechBionic_Heart_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Heart</li>
     </appliedOnFixedBodyParts>
@@ -197,15 +197,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_UltratechBionic_Kidney_AddedPart</defName>
+    <defName>Install_WVC_UltratechBionic_Kidney_AddedPart</defName>
     <label>install ultratech kidney</label>
     <description>Install an ultratech kidney.</description>
     <jobString>Installing ultratech kidney.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Kidney_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_UltratechBionic_Kidney_AddedPart</HediffDef>
+      <HediffDef>WVC_UltratechBionic_Kidney_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_UltratechBionic_Kidney_AddedPart</addsHediff>
+    <addsHediff>WVC_UltratechBionic_Kidney_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Kidney</li>
     </appliedOnFixedBodyParts>
@@ -225,15 +225,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_UltratechBionic_Liver_AddedPart</defName>
+    <defName>Install_WVC_UltratechBionic_Liver_AddedPart</defName>
     <label>install ultratech liver</label>
     <description>Install an ultratech liver.</description>
     <jobString>Installing ultratech liver.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Liver_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_UltratechBionic_Liver_AddedPart</HediffDef>
+      <HediffDef>WVC_UltratechBionic_Liver_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_UltratechBionic_Liver_AddedPart</addsHediff>
+    <addsHediff>WVC_UltratechBionic_Liver_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Liver</li>
     </appliedOnFixedBodyParts>
@@ -253,15 +253,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_UltratechBionic_Lung_AddedPart</defName>
+    <defName>Install_WVC_UltratechBionic_Lung_AddedPart</defName>
     <label>install ultratech lung</label>
     <description>Install an ultratech lung.</description>
     <jobString>Installing ultratech lung.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Lung_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_UltratechBionic_Lung_AddedPart</HediffDef>
+      <HediffDef>WVC_UltratechBionic_Lung_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_UltratechBionic_Lung_AddedPart</addsHediff>
+    <addsHediff>WVC_UltratechBionic_Lung_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Lung</li>
     </appliedOnFixedBodyParts>
@@ -281,15 +281,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_UltratechBionic_Shoulder_AddedPart</defName>
+    <defName>Install_WVC_UltratechBionic_Shoulder_AddedPart</defName>
     <label>install ultratech arm</label>
     <description>Install an ultratech arm.</description>
     <jobString>Installing ultratech arm.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Shoulder_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_UltratechBionic_Shoulder_AddedPart</HediffDef>
+      <HediffDef>WVC_UltratechBionic_Shoulder_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_UltratechBionic_Shoulder_AddedPart</addsHediff>
+    <addsHediff>WVC_UltratechBionic_Shoulder_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Shoulder</li>
     </appliedOnFixedBodyParts>
@@ -309,15 +309,15 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_UltratechBionic_Leg_AddedPart</defName>
+    <defName>Install_WVC_UltratechBionic_Leg_AddedPart</defName>
     <label>install ultratech leg</label>
     <description>Install an ultratech leg.</description>
     <jobString>Installing ultratech leg.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechBionic_Leg_AddedPart</ThingDef>
-      <HediffDef>Hediff_WVC_UltratechBionic_Leg_AddedPart</HediffDef>
+      <HediffDef>WVC_UltratechBionic_Leg_AddedPart</HediffDef>
     </descriptionHyperlinks>
-    <addsHediff>Hediff_WVC_UltratechBionic_Leg_AddedPart</addsHediff>
+    <addsHediff>WVC_UltratechBionic_Leg_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Leg</li>
     </appliedOnFixedBodyParts>

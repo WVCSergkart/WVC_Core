@@ -4,7 +4,7 @@
     <defName>WVC_ArchotechBionic_Eye_AddedPart</defName>
     <label>advanced mechtech eye</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Eye_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>22</Plasteel>
@@ -21,7 +21,7 @@
     <defName>WVC_ArchotechBionic_Ear_AddedPart</defName>
     <label>advanced mechtech ear</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Ear_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>21</Plasteel>
@@ -38,7 +38,7 @@
     <defName>WVC_ArchotechBionic_Jaw_AddedPart</defName>
     <label>advanced mechtech jaw</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Jaw_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>22</Plasteel>
@@ -55,7 +55,7 @@
     <defName>WVC_ArchotechBionic_Nose_AddedPart</defName>
     <label>advanced mechtech nose</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Nose_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
@@ -72,7 +72,7 @@
     <defName>WVC_ArchotechBionic_Stomach_AddedPart</defName>
     <label>advanced mechtech stomach</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Stomach_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>24</Plasteel>
@@ -89,7 +89,7 @@
     <defName>WVC_ArchotechBionic_Spine_AddedPart</defName>
     <label>advanced mechtech spine</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Spine_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>29</Plasteel>
@@ -106,7 +106,7 @@
     <defName>WVC_ArchotechBionic_Heart_AddedPart</defName>
     <label>advanced mechtech heart</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Heart_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>27</Plasteel>
@@ -123,7 +123,7 @@
     <defName>WVC_ArchotechBionic_Kidney_AddedPart</defName>
     <label>advanced mechtech kidney</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Kidney_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>27</Plasteel>
@@ -140,7 +140,7 @@
     <defName>WVC_ArchotechBionic_Liver_AddedPart</defName>
     <label>advanced mechtech liver</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Liver_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>22</Plasteel>
@@ -157,7 +157,7 @@
     <defName>WVC_ArchotechBionic_Lung_AddedPart</defName>
     <label>advanced mechtech lung</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Lung_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>24</Plasteel>
@@ -174,7 +174,7 @@
     <defName>WVC_ArchotechBionic_Shoulder_AddedPart</defName>
     <label>advanced mechtech arm</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Shoulder_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>28</Plasteel>
@@ -191,7 +191,7 @@
     <defName>WVC_ArchotechBionic_Leg_AddedPart</defName>
     <label>advanced mechtech leg</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Leg_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>27</Plasteel>

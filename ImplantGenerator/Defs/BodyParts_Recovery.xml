@@ -5,6 +5,8 @@
 	<defName>WVC_RecoveryMechtechBionic</defName>
 	<label>recovery mechtech {0}</label>
 	<labelNoun>an recovery mechtech {0}</labelNoun>
+	<inheritHediff>WVC_Ultra_AddedPartHediffDef_WVC_RecoveryMechtechBionic</inheritHediff>
+	<inheritThing>WVC_Ultra_AddedPartThingDef_WVC_RecoveryMechtechBionic</inheritThing>
 	<changesByPart>
 	  <li>
 		<def>Eye</def>

@@ -4,7 +4,7 @@
     <defName>WVC_SpecializedCybertechBionic_Eye_AddedPart</defName>
     <label>cybertech blind eye</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Eye_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_SpecializedCybertechBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -17,7 +17,7 @@
     <defName>WVC_SpecializedCybertechBionic_Ear_AddedPart</defName>
     <label>cybertech deaf ear</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Ear_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_SpecializedCybertechBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -30,7 +30,7 @@
     <defName>WVC_SpecializedCybertechBionic_Jaw_AddedPart</defName>
     <label>cybertech silent jaw</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Jaw_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_SpecializedCybertechBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>13</Plasteel>
@@ -43,7 +43,7 @@
     <defName>WVC_SpecializedCybertechBionic_Shoulder_AddedPart</defName>
     <label>cybertech drill arm</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Shoulder_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_SpecializedCybertechBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>19</Plasteel>

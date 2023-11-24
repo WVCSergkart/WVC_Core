@@ -5,6 +5,8 @@
 	<defName>WVC_ToughMechtechBionic</defName>
 	<label>tough mechtech {0}</label>
 	<labelNoun>an tough mechtech {0}</labelNoun>
+	<inheritHediff>WVC_Ultra_AddedPartHediffDef_WVC_ToughMechtechBionic</inheritHediff>
+	<inheritThing>WVC_Ultra_AddedPartThingDef_WVC_ToughMechtechBionic</inheritThing>
 	<changesByPart>
 	  <li>
 		<def>Eye</def>

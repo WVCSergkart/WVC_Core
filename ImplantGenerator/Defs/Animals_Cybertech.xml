@@ -5,6 +5,8 @@
 	<defName>WVC_CybertechAnimalBionic</defName>
 	<label>cybertech {0}</label>
 	<labelNoun>an cybertech {0}</labelNoun>
+	<inheritHediff>WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic</inheritHediff>
+	<inheritThing>WVC_Ultra_AddedPartThingDef_WVC_CybertechAnimalBionic</inheritThing>
 	<changesByPart>
 	  <li>
 		<def>Eye</def>

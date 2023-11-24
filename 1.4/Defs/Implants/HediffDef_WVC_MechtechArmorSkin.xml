@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechArmorSkin" MayRequire="ludeon.rimworld.royalty">
-    <defName>Hediff_WVC_MechtechArmorSkin_Torso_Implant</defName>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediff_ArmorGland" MayRequire="ludeon.rimworld.royalty">
+    <defName>WVC_MechtechArmorSkin_Torso_Implant</defName>
     <label>mechskin gland</label>
+    <labelNoun>an mechskin gland</labelNoun>
+    <description>An installed mechskin gland.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_MechtechArmorSkin_Torso_Implant</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_MechtechArmorSkin_Torso_Implant</RecipeDef>
+      <RecipeDef>Install_WVC_MechtechArmorSkin_Torso_Implant</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_MechtechArmorSkin_Torso_Implant</spawnThingOnRemoved>
     <stages>

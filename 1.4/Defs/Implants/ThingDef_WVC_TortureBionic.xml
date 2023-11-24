@@ -4,7 +4,7 @@
     <defName>WVC_TortureBionic_Eye_AddedPart</defName>
     <label>torture bionic eye</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Eye_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_TortureBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -17,7 +17,7 @@
     <defName>WVC_TortureBionic_Ear_AddedPart</defName>
     <label>torture bionic ear</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Ear_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_TortureBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -30,7 +30,7 @@
     <defName>WVC_TortureBionic_Jaw_AddedPart</defName>
     <label>torture bionic jaw</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Jaw_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_TortureBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>13</Plasteel>
@@ -43,7 +43,7 @@
     <defName>WVC_TortureBionic_Nose_AddedPart</defName>
     <label>torture bionic nose</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Nose_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_TortureBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -56,7 +56,7 @@
     <defName>WVC_TortureBionic_Stomach_AddedPart</defName>
     <label>torture bionic stomach</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Stomach_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_TortureBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>18</Plasteel>
@@ -69,7 +69,7 @@
     <defName>WVC_TortureBionic_Spine_AddedPart</defName>
     <label>torture bionic spine</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Spine_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_TortureBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
@@ -82,7 +82,7 @@
     <defName>WVC_TortureBionic_Heart_AddedPart</defName>
     <label>torture bionic heart</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Heart_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_TortureBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -95,7 +95,7 @@
     <defName>WVC_TortureBionic_Kidney_AddedPart</defName>
     <label>torture bionic kidney</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Kidney_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_TortureBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>13</Plasteel>
@@ -108,7 +108,7 @@
     <defName>WVC_TortureBionic_Liver_AddedPart</defName>
     <label>torture bionic liver</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Liver_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_TortureBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>14</Plasteel>
@@ -121,7 +121,7 @@
     <defName>WVC_TortureBionic_Lung_AddedPart</defName>
     <label>torture bionic lung</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Lung_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_TortureBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -134,7 +134,7 @@
     <defName>WVC_TortureBionic_Shoulder_AddedPart</defName>
     <label>torture bionic arm</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Shoulder_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_TortureBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>17</Plasteel>
@@ -147,7 +147,7 @@
     <defName>WVC_TortureBionic_Leg_AddedPart</defName>
     <label>torture bionic leg</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Leg_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_TortureBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>18</Plasteel>

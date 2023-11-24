@@ -4,7 +4,7 @@
     <defName>WVC_UltratechArmorSkin_Torso_Implant</defName>
     <label>ultraskin gland</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechArmorSkin_Torso_Implant</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechArmorSkin_Torso_Implant</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>40</Plasteel>

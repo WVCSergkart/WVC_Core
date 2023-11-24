@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
-    <defName>Hediff_WVC_ArchotechBionic_Eye_AddedPart</defName>
+    <defName>WVC_ArchotechBionic_Eye_AddedPart</defName>
     <label>advanced mechtech eye</label>
+    <labelNoun>an advanced mechtech eye</labelNoun>
+    <description>An installed advanced mechtech eye.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArchotechBionic_Eye_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Eye_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArchotechBionic_Eye_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -32,11 +34,13 @@
     </eyeGraphicSouth>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
-    <defName>Hediff_WVC_ArchotechBionic_Ear_AddedPart</defName>
+    <defName>WVC_ArchotechBionic_Ear_AddedPart</defName>
     <label>advanced mechtech ear</label>
+    <labelNoun>an advanced mechtech ear</labelNoun>
+    <description>An installed advanced mechtech ear.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArchotechBionic_Ear_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Ear_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArchotechBionic_Ear_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -55,11 +59,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
-    <defName>Hediff_WVC_ArchotechBionic_Jaw_AddedPart</defName>
+    <defName>WVC_ArchotechBionic_Jaw_AddedPart</defName>
     <label>advanced mechtech jaw</label>
+    <labelNoun>an advanced mechtech jaw</labelNoun>
+    <description>An installed advanced mechtech jaw.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArchotechBionic_Jaw_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Jaw_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArchotechBionic_Jaw_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -92,11 +98,13 @@
     </comps>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
-    <defName>Hediff_WVC_ArchotechBionic_Nose_AddedPart</defName>
+    <defName>WVC_ArchotechBionic_Nose_AddedPart</defName>
     <label>advanced mechtech nose</label>
+    <labelNoun>an advanced mechtech nose</labelNoun>
+    <description>An installed advanced mechtech nose.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArchotechBionic_Nose_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Nose_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArchotechBionic_Nose_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -116,11 +124,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
-    <defName>Hediff_WVC_ArchotechBionic_Stomach_AddedPart</defName>
+    <defName>WVC_ArchotechBionic_Stomach_AddedPart</defName>
     <label>advanced mechtech stomach</label>
+    <labelNoun>an advanced mechtech stomach</labelNoun>
+    <description>An installed advanced mechtech stomach.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArchotechBionic_Stomach_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Stomach_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArchotechBionic_Stomach_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -141,11 +151,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
-    <defName>Hediff_WVC_ArchotechBionic_Spine_AddedPart</defName>
+    <defName>WVC_ArchotechBionic_Spine_AddedPart</defName>
     <label>advanced mechtech spine</label>
+    <labelNoun>an advanced mechtech spine</labelNoun>
+    <description>An installed advanced mechtech spine.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArchotechBionic_Spine_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Spine_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArchotechBionic_Spine_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -164,11 +176,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
-    <defName>Hediff_WVC_ArchotechBionic_Heart_AddedPart</defName>
+    <defName>WVC_ArchotechBionic_Heart_AddedPart</defName>
     <label>advanced mechtech heart</label>
+    <labelNoun>an advanced mechtech heart</labelNoun>
+    <description>An installed advanced mechtech heart.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArchotechBionic_Heart_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Heart_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArchotechBionic_Heart_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -189,11 +203,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
-    <defName>Hediff_WVC_ArchotechBionic_Kidney_AddedPart</defName>
+    <defName>WVC_ArchotechBionic_Kidney_AddedPart</defName>
     <label>advanced mechtech kidney</label>
+    <labelNoun>an advanced mechtech kidney</labelNoun>
+    <description>An installed advanced mechtech kidney.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArchotechBionic_Kidney_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Kidney_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArchotechBionic_Kidney_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -215,11 +231,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
-    <defName>Hediff_WVC_ArchotechBionic_Liver_AddedPart</defName>
+    <defName>WVC_ArchotechBionic_Liver_AddedPart</defName>
     <label>advanced mechtech liver</label>
+    <labelNoun>an advanced mechtech liver</labelNoun>
+    <description>An installed advanced mechtech liver.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArchotechBionic_Liver_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Liver_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArchotechBionic_Liver_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -240,11 +258,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
-    <defName>Hediff_WVC_ArchotechBionic_Lung_AddedPart</defName>
+    <defName>WVC_ArchotechBionic_Lung_AddedPart</defName>
     <label>advanced mechtech lung</label>
+    <labelNoun>an advanced mechtech lung</labelNoun>
+    <description>An installed advanced mechtech lung.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArchotechBionic_Lung_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Lung_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArchotechBionic_Lung_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -263,11 +283,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
-    <defName>Hediff_WVC_ArchotechBionic_Shoulder_AddedPart</defName>
+    <defName>WVC_ArchotechBionic_Shoulder_AddedPart</defName>
     <label>advanced mechtech arm</label>
+    <labelNoun>an advanced mechtech arm</labelNoun>
+    <description>An installed advanced mechtech arm.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArchotechBionic_Shoulder_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Shoulder_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArchotechBionic_Shoulder_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -301,11 +323,13 @@
     </comps>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
-    <defName>Hediff_WVC_ArchotechBionic_Leg_AddedPart</defName>
+    <defName>WVC_ArchotechBionic_Leg_AddedPart</defName>
     <label>advanced mechtech leg</label>
+    <labelNoun>an advanced mechtech leg</labelNoun>
+    <description>An installed advanced mechtech leg.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArchotechBionic_Leg_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArchotechBionic_Leg_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArchotechBionic_Leg_AddedPart</spawnThingOnRemoved>
     <stages>

@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArmoredMechtechBionic">
-    <defName>Hediff_WVC_ArmoredMechtechBionic_Eye_AddedPart</defName>
+    <defName>WVC_ArmoredMechtechBionic_Eye_AddedPart</defName>
     <label>armored mechtech eye</label>
+    <labelNoun>an armored mechtech eye</labelNoun>
+    <description>An installed armored mechtech eye.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArmoredMechtechBionic_Eye_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Eye_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArmoredMechtechBionic_Eye_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -29,11 +31,13 @@
     </eyeGraphicSouth>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArmoredMechtechBionic">
-    <defName>Hediff_WVC_ArmoredMechtechBionic_Ear_AddedPart</defName>
+    <defName>WVC_ArmoredMechtechBionic_Ear_AddedPart</defName>
     <label>armored mechtech ear</label>
+    <labelNoun>an armored mechtech ear</labelNoun>
+    <description>An installed armored mechtech ear.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArmoredMechtechBionic_Ear_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Ear_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArmoredMechtechBionic_Ear_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -49,11 +53,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArmoredMechtechBionic">
-    <defName>Hediff_WVC_ArmoredMechtechBionic_Jaw_AddedPart</defName>
+    <defName>WVC_ArmoredMechtechBionic_Jaw_AddedPart</defName>
     <label>armored mechtech jaw</label>
+    <labelNoun>an armored mechtech jaw</labelNoun>
+    <description>An installed armored mechtech jaw.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArmoredMechtechBionic_Jaw_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Jaw_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArmoredMechtechBionic_Jaw_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -83,11 +89,13 @@
     </comps>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArmoredMechtechBionic">
-    <defName>Hediff_WVC_ArmoredMechtechBionic_Nose_AddedPart</defName>
+    <defName>WVC_ArmoredMechtechBionic_Nose_AddedPart</defName>
     <label>armored mechtech nose</label>
+    <labelNoun>an armored mechtech nose</labelNoun>
+    <description>An installed armored mechtech nose.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArmoredMechtechBionic_Nose_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Nose_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArmoredMechtechBionic_Nose_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -104,11 +112,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArmoredMechtechBionic">
-    <defName>Hediff_WVC_ArmoredMechtechBionic_Stomach_AddedPart</defName>
+    <defName>WVC_ArmoredMechtechBionic_Stomach_AddedPart</defName>
     <label>armored mechtech stomach</label>
+    <labelNoun>an armored mechtech stomach</labelNoun>
+    <description>An installed armored mechtech stomach.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArmoredMechtechBionic_Stomach_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Stomach_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArmoredMechtechBionic_Stomach_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -126,11 +136,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArmoredMechtechBionic">
-    <defName>Hediff_WVC_ArmoredMechtechBionic_Spine_AddedPart</defName>
+    <defName>WVC_ArmoredMechtechBionic_Spine_AddedPart</defName>
     <label>armored mechtech spine</label>
+    <labelNoun>an armored mechtech spine</labelNoun>
+    <description>An installed armored mechtech spine.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArmoredMechtechBionic_Spine_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Spine_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArmoredMechtechBionic_Spine_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -146,11 +158,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArmoredMechtechBionic">
-    <defName>Hediff_WVC_ArmoredMechtechBionic_Heart_AddedPart</defName>
+    <defName>WVC_ArmoredMechtechBionic_Heart_AddedPart</defName>
     <label>armored mechtech heart</label>
+    <labelNoun>an armored mechtech heart</labelNoun>
+    <description>An installed armored mechtech heart.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArmoredMechtechBionic_Heart_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Heart_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArmoredMechtechBionic_Heart_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -168,11 +182,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArmoredMechtechBionic">
-    <defName>Hediff_WVC_ArmoredMechtechBionic_Kidney_AddedPart</defName>
+    <defName>WVC_ArmoredMechtechBionic_Kidney_AddedPart</defName>
     <label>armored mechtech kidney</label>
+    <labelNoun>an armored mechtech kidney</labelNoun>
+    <description>An installed armored mechtech kidney.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArmoredMechtechBionic_Kidney_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Kidney_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArmoredMechtechBionic_Kidney_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -191,11 +207,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArmoredMechtechBionic">
-    <defName>Hediff_WVC_ArmoredMechtechBionic_Liver_AddedPart</defName>
+    <defName>WVC_ArmoredMechtechBionic_Liver_AddedPart</defName>
     <label>armored mechtech liver</label>
+    <labelNoun>an armored mechtech liver</labelNoun>
+    <description>An installed armored mechtech liver.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArmoredMechtechBionic_Liver_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Liver_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArmoredMechtechBionic_Liver_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -213,11 +231,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArmoredMechtechBionic">
-    <defName>Hediff_WVC_ArmoredMechtechBionic_Lung_AddedPart</defName>
+    <defName>WVC_ArmoredMechtechBionic_Lung_AddedPart</defName>
     <label>armored mechtech lung</label>
+    <labelNoun>an armored mechtech lung</labelNoun>
+    <description>An installed armored mechtech lung.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArmoredMechtechBionic_Lung_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Lung_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArmoredMechtechBionic_Lung_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -233,11 +253,13 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArmoredMechtechBionic">
-    <defName>Hediff_WVC_ArmoredMechtechBionic_Shoulder_AddedPart</defName>
+    <defName>WVC_ArmoredMechtechBionic_Shoulder_AddedPart</defName>
     <label>armored mechtech arm</label>
+    <labelNoun>an armored mechtech arm</labelNoun>
+    <description>An installed armored mechtech arm.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArmoredMechtechBionic_Shoulder_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Shoulder_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArmoredMechtechBionic_Shoulder_AddedPart</spawnThingOnRemoved>
     <stages>
@@ -268,11 +290,13 @@
     </comps>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArmoredMechtechBionic">
-    <defName>Hediff_WVC_ArmoredMechtechBionic_Leg_AddedPart</defName>
+    <defName>WVC_ArmoredMechtechBionic_Leg_AddedPart</defName>
     <label>armored mechtech leg</label>
+    <labelNoun>an armored mechtech leg</labelNoun>
+    <description>An installed armored mechtech leg.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArmoredMechtechBionic_Leg_AddedPart</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechBionic_Leg_AddedPart</RecipeDef>
+      <RecipeDef>Install_WVC_ArmoredMechtechBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_ArmoredMechtechBionic_Leg_AddedPart</spawnThingOnRemoved>
     <stages>

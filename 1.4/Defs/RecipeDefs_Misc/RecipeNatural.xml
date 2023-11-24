@@ -24,7 +24,7 @@
 		  <li>ArmorGland</li>
 		</incompatibleWithHediffTags>
 	</RecipeDef>
-	<RecipeDef ParentName="SurgeryRemoveImplantBase" Name="WVC_Ultra_ImplantSurgeryRemoveDef_ArmorGland" Abstract="True">
+	<RecipeDef ParentName="SurgeryRemoveImplantBase" Name="WVC_Ultra_ImplantSurgeryRemoveDef_Base" Abstract="True">
 		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
 		<recipeUsers>
 			<li>Human</li>
@@ -38,7 +38,7 @@
 		  <li>ArmorGland</li>
 		</incompatibleWithHediffTags>
 	</RecipeDef>
-	<RecipeDef ParentName="SurgeryRemoveImplantBase" Name="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsArmorGland" Abstract="True">
+	<RecipeDef ParentName="SurgeryRemoveImplantBase" Name="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsBase" Abstract="True">
 		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
 		<recipeUsers Inherit="False"/>
 	</RecipeDef>

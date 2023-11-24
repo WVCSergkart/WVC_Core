@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechAnimalArmorSkin" MayRequire="ludeon.rimworld.royalty">
-    <defName>Hediff_WVC_UltratechAnimalArmorSkin_Torso_Implant</defName>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediff_ArmorGland" MayRequire="ludeon.rimworld.royalty">
+    <defName>WVC_UltratechAnimalArmorSkin_Torso_Implant</defName>
     <label>monkey ultraskin gland</label>
+    <labelNoun>an monkey ultraskin gland</labelNoun>
+    <description>An installed monkey ultraskin gland.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechAnimalArmorSkin_Torso_Implant</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechAnimalArmorSkin_Torso_Implant</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechAnimalArmorSkin_Torso_Implant</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechAnimalArmorSkin_Torso_Implant</spawnThingOnRemoved>
     <stages>
@@ -20,12 +22,14 @@
     </stages>
     <comps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechAnimalArmorSkin" MayRequire="ludeon.rimworld.royalty">
-    <defName>Hediff_WVC_UltratechAnimalArmorSkin_Body_Implant</defName>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediff_ArmorGland" MayRequire="ludeon.rimworld.royalty">
+    <defName>WVC_UltratechAnimalArmorSkin_Body_Implant</defName>
     <label>animal ultraskin gland</label>
+    <labelNoun>an animal ultraskin gland</labelNoun>
+    <description>An installed animal ultraskin gland.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechAnimalArmorSkin_Body_Implant</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechAnimalArmorSkin_Body_Implant</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechAnimalArmorSkin_Body_Implant</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechAnimalArmorSkin_Body_Implant</spawnThingOnRemoved>
     <stages>
@@ -40,12 +44,14 @@
     </stages>
     <comps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechAnimalArmorSkin" MayRequire="ludeon.rimworld.royalty">
-    <defName>Hediff_WVC_UltratechAnimalArmorSkin_Shell_Implant</defName>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediff_ArmorGland" MayRequire="ludeon.rimworld.royalty">
+    <defName>WVC_UltratechAnimalArmorSkin_Shell_Implant</defName>
     <label>insect ultraskin gland</label>
+    <labelNoun>an insect ultraskin gland</labelNoun>
+    <description>An installed insect ultraskin gland.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechAnimalArmorSkin_Shell_Implant</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechAnimalArmorSkin_Shell_Implant</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechAnimalArmorSkin_Shell_Implant</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechAnimalArmorSkin_Shell_Implant</spawnThingOnRemoved>
     <stages>
@@ -60,12 +66,14 @@
     </stages>
     <comps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechAnimalArmorSkin" MayRequire="ludeon.rimworld.royalty">
-    <defName>Hediff_WVC_UltratechAnimalArmorSkin_SnakeBody_Implant</defName>
+  <HediffDef ParentName="WVC_Ultra_ImplantHediff_ArmorGland" MayRequire="ludeon.rimworld.royalty">
+    <defName>WVC_UltratechAnimalArmorSkin_SnakeBody_Implant</defName>
     <label>snake ultraskin gland</label>
+    <labelNoun>an snake ultraskin gland</labelNoun>
+    <description>An installed snake ultraskin gland.</description>
     <descriptionHyperlinks>
       <ThingDef>WVC_UltratechAnimalArmorSkin_SnakeBody_Implant</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_UltratechAnimalArmorSkin_SnakeBody_Implant</RecipeDef>
+      <RecipeDef>Install_WVC_UltratechAnimalArmorSkin_SnakeBody_Implant</RecipeDef>
     </descriptionHyperlinks>
     <spawnThingOnRemoved>WVC_UltratechAnimalArmorSkin_SnakeBody_Implant</spawnThingOnRemoved>
     <stages>

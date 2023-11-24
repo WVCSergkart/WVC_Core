@@ -6,6 +6,8 @@
 	<label>torture bionic {0}</label>
 	<labelNoun>an torture bionic {0}</labelNoun>
 	<mayRequire>ludeon.rimworld.ideology</mayRequire>
+	<inheritHediff>WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic</inheritHediff>
+	<inheritThing>WVC_Ultra_AddedPartThingDef_WVC_TortureBionic</inheritThing>
 	<changesByPart>
 	  <li>
 		<def>Eye</def>

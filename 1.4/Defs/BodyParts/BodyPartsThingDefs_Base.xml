@@ -202,8 +202,6 @@
 	  </researchPrerequisites>
 	</recipeMaker>
   </ThingDef>
-  <ThingDef MayRequire="sarg.alphaanimals" Name="WVC_Ultra_AddedPartThingDef_WVC_CybertechAlphaAnimalBionic" ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechAnimalBionic" Abstract="True">
-  </ThingDef>
 
   <!-- ================================== Tier 2 ================================== -->
 
@@ -257,8 +255,6 @@
 	  </researchPrerequisites>
 	</recipeMaker>
   </ThingDef>
-  <ThingDef MayRequire="sarg.alphaanimals" Name="WVC_Ultra_AddedPartThingDef_WVC_UltratechAlphaAnimalBionic" ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic" Abstract="True">
-  </ThingDef>
 
   <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_MechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
 	<thingCategories>
@@ -310,8 +306,6 @@
 		<li>WVC_AnimalBionicTech_Mechtech</li>
 	  </researchPrerequisites>
 	</recipeMaker>
-  </ThingDef>
-  <ThingDef MayRequire="sarg.alphaanimals" Name="WVC_Ultra_AddedPartThingDef_WVC_MechtechAlphaAnimalBionic" ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic" Abstract="True">
   </ThingDef>
 
   <!-- ================================== Tier 3 ================================== -->
