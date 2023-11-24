@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalArmorSkin" MayRequire="ludeon.rimworld.royalty">
+    <defName>WVC_CybertechAnimalArmorSkin_Torso_Implant</defName>
+    <label>monkey cyberskin gland</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalArmorSkin_Torso_Implant</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>30</Plasteel>
+    </costList>
+    <graphicData />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalArmorSkin" MayRequire="ludeon.rimworld.royalty">
+    <defName>WVC_CybertechAnimalArmorSkin_Body_Implant</defName>
+    <label>animal cyberskin gland</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalArmorSkin_Body_Implant</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>30</Plasteel>
+    </costList>
+    <graphicData />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalArmorSkin" MayRequire="ludeon.rimworld.royalty">
+    <defName>WVC_CybertechAnimalArmorSkin_Shell_Implant</defName>
+    <label>insect cyberskin gland</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalArmorSkin_Shell_Implant</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>30</Plasteel>
+    </costList>
+    <graphicData />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalArmorSkin" MayRequire="ludeon.rimworld.royalty">
+    <defName>WVC_CybertechAnimalArmorSkin_SnakeBody_Implant</defName>
+    <label>snake cyberskin gland</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalArmorSkin_SnakeBody_Implant</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>30</Plasteel>
+    </costList>
+    <graphicData />
+  </ThingDef>
+</Defs>

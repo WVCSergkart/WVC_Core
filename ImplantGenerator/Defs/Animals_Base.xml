@@ -20,9 +20,10 @@
 	  <li>Kidney</li>
 	  <li>Liver</li>
 	  <li>Lung</li>
-	  <!-- <li>Shoulder</li> -->
+	  <li>Shoulder</li>
 	  <li>Leg</li>
 	  <!-- = -->
+	  <li>Trunk</li>
 	  <li>Beak</li>
 	  <li>TurtleBeak</li>
 	  <li>SnakeMouth</li>

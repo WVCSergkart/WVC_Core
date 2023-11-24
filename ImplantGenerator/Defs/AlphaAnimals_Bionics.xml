@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef MayRequire="sarg.alphaanimals" ParentName="WVC_Ultra_ImplantGenerator_AlphaAnimalBionics">
+	<defName>WVC_CybertechAlphaAnimalBionic</defName>
+	<label>cybertech {0}</label>
+	<labelNoun>an cybertech {0}</labelNoun>
+	<changesByPart>
+	  <!-- = -->
+	  <li>
+		<def>AA_HydrogenSac</def>
+		<!-- <label>hydrogen sac</label> -->
+		<costList>
+		  <Plasteel>18</Plasteel>
+		</costList>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>AA_JellyfishTentacle</def>
+		<texPath>WVC/Implants/Arm</texPath>
+		<label>jellyfish tentacle</label>
+		<costList>
+		  <Plasteel>17</Plasteel>
+		</costList>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>tentacle</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>2</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>AA_CrocodileJaw</def>
+		<label>alpha jaw</label>
+		<texPath>WVC/Implants/Jaw</texPath>
+		<costList>
+		  <Plasteel>13</Plasteel>
+		</costList>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>teeth</label>
+				<capacities>
+				  <li>Bite</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>2.0</cooldownTime>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>AA_SmallInsectLeg</def>
+		<texPath>WVC/Implants/Leg</texPath>
+		<label>small insect leg</label>
+		<costList>
+		  <Plasteel>18</Plasteel>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
+		</costList>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>claw</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>2</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	</changesByPart>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef MayRequire="sarg.alphaanimals" ParentName="WVC_Ultra_ImplantGenerator_AlphaAnimalBionics">
+	<defName>WVC_UltratechAlphaAnimalBionic</defName>
+	<label>ultratech {0}</label>
+	<labelNoun>an ultratech {0}</labelNoun>
+	<changesByPart>
+	  <!-- = -->
+	  <li>
+		<def>AA_HydrogenSac</def>
+		<!-- <label>hydrogen sac</label> -->
+		<costList>
+		  <Plasteel>20</Plasteel>
+		  <Uranium>4</Uranium>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>4</Mass>
+				<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.05</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>AA_JellyfishTentacle</def>
+		<texPath>WVC/Implants/Arm</texPath>
+		<label>jellyfish tentacle</label>
+		<costList>
+		  <Plasteel>18</Plasteel>
+		  <Uranium>3</Uranium>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>2</Mass>
+				<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.03</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>tentacle</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>19</power>
+				<cooldownTime>2</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>AA_CrocodileJaw</def>
+		<label>alpha jaw</label>
+		<texPath>WVC/Implants/Jaw</texPath>
+		<costList>
+		  <Plasteel>13</Plasteel>
+		  <Uranium>3</Uranium>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>2</Mass>
+				<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.01</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>teeth</label>
+				<capacities>
+				  <li>Bite</li>
+				</capacities>
+				<power>19</power>
+				<cooldownTime>2.0</cooldownTime>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>AA_SmallInsectLeg</def>
+		<texPath>WVC/Implants/Leg</texPath>
+		<label>small insect leg</label>
+		<costList>
+		  <Plasteel>18</Plasteel>
+		  <Uranium>3</Uranium>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>8</Mass>
+				<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.06</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>claw</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>19</power>
+				<cooldownTime>2</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	</changesByPart>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef MayRequire="sarg.alphaanimals" ParentName="WVC_Ultra_ImplantGenerator_AlphaAnimalBionics">
+	<defName>WVC_MechtechAlphaAnimalBionic</defName>
+	<label>mechtech {0}</label>
+	<labelNoun>an mechtech {0}</labelNoun>
+	<changesByPart>
+	  <!-- = -->
+	  <li>
+		<def>AA_HydrogenSac</def>
+		<!-- <label>hydrogen sac</label> -->
+		<costList>
+		  <Plasteel>22</Plasteel>
+		  <Uranium>7</Uranium>
+		</costList>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>AA_JellyfishTentacle</def>
+		<texPath>WVC/Implants/Arm</texPath>
+		<label>jellyfish tentacle</label>
+		<costList>
+		  <Plasteel>20</Plasteel>
+		  <Uranium>6</Uranium>
+		</costList>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>tentacle</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>2</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>AA_CrocodileJaw</def>
+		<label>alpha jaw</label>
+		<texPath>WVC/Implants/Jaw</texPath>
+		<costList>
+		  <Plasteel>15</Plasteel>
+		  <Uranium>4</Uranium>
+		</costList>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>teeth</label>
+				<capacities>
+				  <li>Bite</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>2.0</cooldownTime>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>AA_SmallInsectLeg</def>
+		<texPath>WVC/Implants/Leg</texPath>
+		<label>small insect leg</label>
+		<costList>
+		  <Plasteel>20</Plasteel>
+		  <Uranium>6</Uranium>
+		</costList>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>claw</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>2</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	</changesByPart>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+</Defs>

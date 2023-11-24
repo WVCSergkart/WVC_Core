@@ -123,6 +123,33 @@
 	  </li>
 	  <!-- = -->
 	  <li>
+		<def>Shoulder</def>
+		<texPath>WVC/Implants/Arm</texPath>
+		<label>animal arm</label>
+		<costList>
+		  <Plasteel>17</Plasteel>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
+		</costList>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>fist</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>2</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	  <!-- = -->
+	  <li>
 		<def>Leg</def>
 		<texPath>WVC/Implants/Leg</texPath>
 		<label>animal leg</label>
@@ -135,7 +162,7 @@
 		  <li Class="HediffCompProperties_VerbGiver">
 			<tools>
 			  <li>
-				<label>paw</label>
+				<label>claw</label>
 				<capacities>
 				  <li>Blunt</li>
 				</capacities>
@@ -147,6 +174,15 @@
 			</tools>
 		  </li>
 		</comps>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Trunk</def>
+		<label>animal trunk</label>
+		<texPath>WVC/Implants/Nose</texPath>
+		<costList>
+		  <Plasteel>15</Plasteel>
+		</costList>
 	  </li>
 	  <!-- = -->
 	  <li>
@@ -296,7 +332,7 @@
 		  <li Class="HediffCompProperties_VerbGiver">
 			<tools>
 			  <li>
-				<label>leg</label>
+				<label>claw</label>
 				<capacities>
 				  <li>Blunt</li>
 				</capacities>

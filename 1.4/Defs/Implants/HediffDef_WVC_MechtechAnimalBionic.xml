@@ -125,6 +125,32 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_MechtechAnimalBionic">
+    <defName>Hediff_WVC_MechtechAnimalBionic_Shoulder_AddedPart</defName>
+    <label>mechtech animal arm</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalBionic_Shoulder_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Shoulder_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_MechtechAnimalBionic_Shoulder_AddedPart</spawnThingOnRemoved>
+    <stages />
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>22</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Leg_AddedPart</defName>
     <label>mechtech animal leg</label>
     <descriptionHyperlinks>
@@ -137,7 +163,7 @@
       <li Class="HediffCompProperties_VerbGiver">
         <tools>
           <li>
-            <label>paw</label>
+            <label>claw</label>
             <capacities>
               <li>Blunt</li>
             </capacities>
@@ -149,6 +175,17 @@
         </tools>
       </li>
     </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_MechtechAnimalBionic">
+    <defName>Hediff_WVC_MechtechAnimalBionic_Trunk_AddedPart</defName>
+    <label>mechtech animal trunk</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalBionic_Trunk_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Trunk_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_MechtechAnimalBionic_Trunk_AddedPart</spawnThingOnRemoved>
+    <stages />
+    <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_MechtechAnimalBionic">
     <defName>Hediff_WVC_MechtechAnimalBionic_Beak_AddedPart</defName>
@@ -332,7 +369,7 @@
       <li Class="HediffCompProperties_VerbGiver">
         <tools>
           <li>
-            <label>leg</label>
+            <label>claw</label>
             <capacities>
               <li>Blunt</li>
             </capacities>

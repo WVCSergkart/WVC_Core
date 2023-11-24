@@ -42,7 +42,8 @@
 	</addedPartProps>
   </HediffDef>
   <HediffDef Name="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic" ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic" Abstract="True">
-	<!-- <priceOffset>220</priceOffset> -->
+  </HediffDef>
+  <HediffDef MayRequire="sarg.alphaanimals" Name="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAlphaAnimalBionic" ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic" Abstract="True">
   </HediffDef>
 
   <!-- ======================== Tier 2 ======================== -->
@@ -58,6 +59,8 @@
   <HediffDef Name="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAnimalBionic" ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic" Abstract="True">
 	<!-- <priceOffset>320</priceOffset> -->
   </HediffDef>
+  <HediffDef MayRequire="sarg.alphaanimals" Name="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAlphaAnimalBionic" ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAnimalBionic" Abstract="True">
+  </HediffDef>
 
   <HediffDef Name="WVC_Ultra_AddedPartHediffDef_WVC_MechtechBionic" ParentName="WVC_Ultra_AddedBodyPart_Base" Abstract="True">
 	<description>Bionics based on the study of mechanoid components.</description>
@@ -69,6 +72,8 @@
   </HediffDef>
   <HediffDef Name="WVC_Ultra_AddedPartHediffDef_WVC_MechtechAnimalBionic" ParentName="WVC_Ultra_AddedPartHediffDef_WVC_MechtechBionic" Abstract="True">
 	<!-- <priceOffset>420</priceOffset> -->
+  </HediffDef>
+  <HediffDef MayRequire="sarg.alphaanimals" Name="WVC_Ultra_AddedPartHediffDef_WVC_MechtechAlphaAnimalBionic" ParentName="WVC_Ultra_AddedPartHediffDef_WVC_MechtechAnimalBionic" Abstract="True">
   </HediffDef>
 
   <!-- ======================== Tier 3 ======================== -->

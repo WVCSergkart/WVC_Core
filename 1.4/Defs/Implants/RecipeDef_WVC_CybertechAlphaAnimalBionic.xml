@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals" MayRequire="sarg.alphaanimals">
+    <defName>Install_Hediff_WVC_CybertechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</defName>
+    <label>install cybertech hydrogen sac</label>
+    <description>Install an cybertech hydrogen sac.</description>
+    <jobString>Installing cybertech hydrogen sac.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>AA_HydrogenSac</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals" MayRequire="sarg.alphaanimals">
+    <defName>Install_Hediff_WVC_CybertechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</defName>
+    <label>install cybertech jellyfish tentacle</label>
+    <description>Install an cybertech jellyfish tentacle.</description>
+    <jobString>Installing cybertech jellyfish tentacle.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>AA_JellyfishTentacle</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals" MayRequire="sarg.alphaanimals">
+    <defName>Install_Hediff_WVC_CybertechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</defName>
+    <label>install cybertech alpha jaw</label>
+    <description>Install an cybertech alpha jaw.</description>
+    <jobString>Installing cybertech alpha jaw.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>AA_CrocodileJaw</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals" MayRequire="sarg.alphaanimals">
+    <defName>Install_Hediff_WVC_CybertechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</defName>
+    <label>install cybertech small insect leg</label>
+    <description>Install an cybertech small insect leg.</description>
+    <jobString>Installing cybertech small insect leg.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>AA_SmallInsectLeg</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>

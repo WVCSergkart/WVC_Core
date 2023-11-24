@@ -160,8 +160,8 @@
   <ResearchProjectDef MayRequire="imranfish.xmlextensions" ParentName="WVC_Ultra_ResearchProject_Base">
 	<defName>WVC_BionicTech_ScarsHealing</defName>
 	<techLevel>Spacer</techLevel>
-	<label>scar treatment</label>
-	<description>Allows to treat scars (on animals too) with glitter medicine.</description>
+	<label>scars healing</label>
+	<description>Allows to heal scars (on animals too) with glitter medicine.</description>
 	<researchViewX>0.00</researchViewX>
 	<researchViewY>0.50</researchViewY>
 	<tags>

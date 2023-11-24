@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAlphaAnimalBionic" MayRequire="sarg.alphaanimals">
+    <defName>WVC_UltratechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</defName>
+    <label>ultratech hydrogen sac</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>4</Uranium>
+    </costList>
+    <graphicData />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAlphaAnimalBionic" MayRequire="sarg.alphaanimals">
+    <defName>WVC_UltratechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</defName>
+    <label>ultratech jellyfish tentacle</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+      <Uranium>3</Uranium>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Arm</texPath>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAlphaAnimalBionic" MayRequire="sarg.alphaanimals">
+    <defName>WVC_UltratechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</defName>
+    <label>ultratech alpha jaw</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+      <Uranium>3</Uranium>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAlphaAnimalBionic" MayRequire="sarg.alphaanimals">
+    <defName>WVC_UltratechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</defName>
+    <label>ultratech small insect leg</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_UltratechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+      <Uranium>3</Uranium>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Leg</texPath>
+    </graphicData>
+  </ThingDef>
+</Defs>

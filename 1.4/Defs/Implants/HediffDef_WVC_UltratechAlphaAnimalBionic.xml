@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAlphaAnimalBionic" MayRequire="sarg.alphaanimals">
+    <defName>Hediff_WVC_UltratechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</defName>
+    <label>ultratech hydrogen sac</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>4</Mass>
+          <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.05</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAlphaAnimalBionic" MayRequire="sarg.alphaanimals">
+    <defName>Hediff_WVC_UltratechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</defName>
+    <label>ultratech jellyfish tentacle</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>2</Mass>
+          <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.03</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>tentacle</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>19</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAlphaAnimalBionic" MayRequire="sarg.alphaanimals">
+    <defName>Hediff_WVC_UltratechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</defName>
+    <label>ultratech alpha jaw</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>2</Mass>
+          <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.01</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <power>19</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAlphaAnimalBionic" MayRequire="sarg.alphaanimals">
+    <defName>Hediff_WVC_UltratechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</defName>
+    <label>ultratech small insect leg</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>8</Mass>
+          <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.06</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>claw</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>19</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

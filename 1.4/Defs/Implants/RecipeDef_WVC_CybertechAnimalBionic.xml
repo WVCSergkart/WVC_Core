@@ -253,6 +253,34 @@
     </fixedIngredientFilter>
   </RecipeDef>
   <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Shoulder_AddedPart</defName>
+    <label>install cybertech animal arm</label>
+    <description>Install an cybertech animal arm.</description>
+    <jobString>Installing cybertech animal arm.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAnimalBionic_Shoulder_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Shoulder_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Shoulder_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Shoulder</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechAnimalBionic_Shoulder_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechAnimalBionic_Shoulder_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
     <defName>Install_Hediff_WVC_CybertechAnimalBionic_Leg_AddedPart</defName>
     <label>install cybertech animal leg</label>
     <description>Install an cybertech animal leg.</description>
@@ -277,6 +305,34 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>WVC_CybertechAnimalBionic_Leg_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Trunk_AddedPart</defName>
+    <label>install cybertech animal trunk</label>
+    <description>Install an cybertech animal trunk.</description>
+    <jobString>Installing cybertech animal trunk.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechAnimalBionic_Trunk_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Trunk_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Trunk_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Trunk</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechAnimalBionic_Trunk_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechAnimalBionic_Trunk_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>

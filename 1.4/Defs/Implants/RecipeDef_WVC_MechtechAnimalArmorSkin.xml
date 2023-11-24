@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_AnimalsArmorGland" MayRequire="ludeon.rimworld.royalty">
+    <defName>Install_Hediff_WVC_MechtechAnimalArmorSkin_Torso_Implant</defName>
+    <label>install monkey mechskin gland</label>
+    <description>Install an monkey mechskin gland.</description>
+    <jobString>Installing monkey mechskin gland.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalArmorSkin_Torso_Implant</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalArmorSkin_Torso_Implant</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_MechtechAnimalArmorSkin_Torso_Implant</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_MechtechAnimalArmorSkin_Torso_Implant</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_MechtechAnimalArmorSkin_Torso_Implant</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsArmorGland" MayRequire="ludeon.rimworld.royalty">
+    <defName>Remove_Hediff_WVC_MechtechAnimalArmorSkin_Torso_Implant</defName>
+    <label>remove monkey mechskin gland</label>
+    <description>remove an monkey mechskin gland.</description>
+    <jobString>Removing monkey mechskin gland.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalArmorSkin_Torso_Implant</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalArmorSkin_Torso_Implant</HediffDef>
+    </descriptionHyperlinks>
+    <removesHediff>Hediff_WVC_MechtechAnimalArmorSkin_Torso_Implant</removesHediff>
+    <appliedOnFixedBodyParts />
+    <ingredients />
+    <fixedIngredientFilter />
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_AnimalsArmorGland" MayRequire="ludeon.rimworld.royalty">
+    <defName>Install_Hediff_WVC_MechtechAnimalArmorSkin_Body_Implant</defName>
+    <label>install animal mechskin gland</label>
+    <description>Install an animal mechskin gland.</description>
+    <jobString>Installing animal mechskin gland.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalArmorSkin_Body_Implant</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalArmorSkin_Body_Implant</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_MechtechAnimalArmorSkin_Body_Implant</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Body</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_MechtechAnimalArmorSkin_Body_Implant</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_MechtechAnimalArmorSkin_Body_Implant</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsArmorGland" MayRequire="ludeon.rimworld.royalty">
+    <defName>Remove_Hediff_WVC_MechtechAnimalArmorSkin_Body_Implant</defName>
+    <label>remove animal mechskin gland</label>
+    <description>remove an animal mechskin gland.</description>
+    <jobString>Removing animal mechskin gland.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalArmorSkin_Body_Implant</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalArmorSkin_Body_Implant</HediffDef>
+    </descriptionHyperlinks>
+    <removesHediff>Hediff_WVC_MechtechAnimalArmorSkin_Body_Implant</removesHediff>
+    <appliedOnFixedBodyParts />
+    <ingredients />
+    <fixedIngredientFilter />
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_AnimalsArmorGland" MayRequire="ludeon.rimworld.royalty">
+    <defName>Install_Hediff_WVC_MechtechAnimalArmorSkin_Shell_Implant</defName>
+    <label>install insect mechskin gland</label>
+    <description>Install an insect mechskin gland.</description>
+    <jobString>Installing insect mechskin gland.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalArmorSkin_Shell_Implant</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalArmorSkin_Shell_Implant</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_MechtechAnimalArmorSkin_Shell_Implant</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Shell</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_MechtechAnimalArmorSkin_Shell_Implant</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_MechtechAnimalArmorSkin_Shell_Implant</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsArmorGland" MayRequire="ludeon.rimworld.royalty">
+    <defName>Remove_Hediff_WVC_MechtechAnimalArmorSkin_Shell_Implant</defName>
+    <label>remove insect mechskin gland</label>
+    <description>remove an insect mechskin gland.</description>
+    <jobString>Removing insect mechskin gland.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalArmorSkin_Shell_Implant</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalArmorSkin_Shell_Implant</HediffDef>
+    </descriptionHyperlinks>
+    <removesHediff>Hediff_WVC_MechtechAnimalArmorSkin_Shell_Implant</removesHediff>
+    <appliedOnFixedBodyParts />
+    <ingredients />
+    <fixedIngredientFilter />
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_AnimalsArmorGland" MayRequire="ludeon.rimworld.royalty">
+    <defName>Install_Hediff_WVC_MechtechAnimalArmorSkin_SnakeBody_Implant</defName>
+    <label>install snake mechskin gland</label>
+    <description>Install an snake mechskin gland.</description>
+    <jobString>Installing snake mechskin gland.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalArmorSkin_SnakeBody_Implant</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalArmorSkin_SnakeBody_Implant</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_MechtechAnimalArmorSkin_SnakeBody_Implant</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>SnakeBody</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_MechtechAnimalArmorSkin_SnakeBody_Implant</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_MechtechAnimalArmorSkin_SnakeBody_Implant</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsArmorGland" MayRequire="ludeon.rimworld.royalty">
+    <defName>Remove_Hediff_WVC_MechtechAnimalArmorSkin_SnakeBody_Implant</defName>
+    <label>remove snake mechskin gland</label>
+    <description>remove an snake mechskin gland.</description>
+    <jobString>Removing snake mechskin gland.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechAnimalArmorSkin_SnakeBody_Implant</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechAnimalArmorSkin_SnakeBody_Implant</HediffDef>
+    </descriptionHyperlinks>
+    <removesHediff>Hediff_WVC_MechtechAnimalArmorSkin_SnakeBody_Implant</removesHediff>
+    <appliedOnFixedBodyParts />
+    <ingredients />
+    <fixedIngredientFilter />
+  </RecipeDef>
+</Defs>

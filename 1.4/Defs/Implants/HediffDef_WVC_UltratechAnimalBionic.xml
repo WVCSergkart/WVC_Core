@@ -190,6 +190,41 @@
     <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAnimalBionic">
+    <defName>Hediff_WVC_UltratechAnimalBionic_Shoulder_AddedPart</defName>
+    <label>ultratech animal arm</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Shoulder_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_Shoulder_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Shoulder_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>8</Mass>
+          <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.06</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>19</power>
+            <cooldownTime>2</cooldownTime>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAnimalBionic">
     <defName>Hediff_WVC_UltratechAnimalBionic_Leg_AddedPart</defName>
     <label>ultratech animal leg</label>
     <descriptionHyperlinks>
@@ -211,7 +246,7 @@
       <li Class="HediffCompProperties_VerbGiver">
         <tools>
           <li>
-            <label>paw</label>
+            <label>claw</label>
             <capacities>
               <li>Blunt</li>
             </capacities>
@@ -223,6 +258,26 @@
         </tools>
       </li>
     </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAnimalBionic">
+    <defName>Hediff_WVC_UltratechAnimalBionic_Trunk_AddedPart</defName>
+    <label>ultratech animal trunk</label>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Trunk_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechAnimalBionic_Trunk_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Trunk_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>3</Mass>
+          <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.02</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechAnimalBionic">
     <defName>Hediff_WVC_UltratechAnimalBionic_Beak_AddedPart</defName>
@@ -493,7 +548,7 @@
       <li Class="HediffCompProperties_VerbGiver">
         <tools>
           <li>
-            <label>leg</label>
+            <label>claw</label>
             <capacities>
               <li>Blunt</li>
             </capacities>

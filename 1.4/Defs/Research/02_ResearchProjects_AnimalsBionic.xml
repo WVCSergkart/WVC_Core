@@ -2,7 +2,7 @@
 <Defs>
 
   <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Bionic" Name="WVC_Ultra_ResearchProject_AnimalBionic" Abstract="True">
-	<baseCost>900</baseCost>
+	<baseCost>1500</baseCost>
 	<researchViewY>0.50</researchViewY>
   </ResearchProjectDef>
 
@@ -15,6 +15,7 @@
 	<description>Cybertech bionics for animals.</description>
 	<researchViewX>1.00</researchViewX>
 	<prerequisites>
+	  <li MayRequire="spoonshortage.adogsaidanimalprosthetics">AnimalBionics</li>
 	  <li>WVC_BionicTech_Cybernetic</li>
 	</prerequisites>
   </ResearchProjectDef>

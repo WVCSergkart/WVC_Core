@@ -214,6 +214,44 @@
 	  </li>
 	  <!-- = -->
 	  <li>
+		<def>Shoulder</def>
+		<texPath>WVC/Implants/Arm</texPath>
+		<label>animal arm</label>
+		<costList>
+		  <Plasteel>17</Plasteel>
+		  <Uranium>9</Uranium>
+		  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+		  <!-- <Gold>7</Gold> -->
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>8</Mass>
+				<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.06</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>fist</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>19</power>
+				<cooldownTime>2</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	  <!-- = -->
+	  <li>
 		<def>Leg</def>
 		<texPath>WVC/Implants/Leg</texPath>
 		<label>animal leg</label>
@@ -237,7 +275,7 @@
 		  <li Class="HediffCompProperties_VerbGiver">
 			<tools>
 			  <li>
-				<label>paw</label>
+				<label>claw</label>
 				<capacities>
 				  <li>Blunt</li>
 				</capacities>
@@ -249,6 +287,26 @@
 			</tools>
 		  </li>
 		</comps>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Trunk</def>
+		<label>animal trunk</label>
+		<texPath>WVC/Implants/Nose</texPath>
+		<costList>
+		  <Plasteel>15</Plasteel>
+		  <Uranium>4</Uranium>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<Mass>3</Mass>
+				<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+				<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+				<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
 	  </li>
 	  <!-- = -->
 	  <li>
@@ -477,7 +535,7 @@
 		  <li Class="HediffCompProperties_VerbGiver">
 			<tools>
 			  <li>
-				<label>leg</label>
+				<label>claw</label>
 				<capacities>
 				  <li>Blunt</li>
 				</capacities>

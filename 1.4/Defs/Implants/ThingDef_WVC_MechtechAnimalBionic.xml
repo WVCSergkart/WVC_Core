@@ -127,6 +127,20 @@
     </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_Shoulder_AddedPart</defName>
+    <label>mechtech animal arm</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Shoulder_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>11</Uranium>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Arm</texPath>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
     <defName>WVC_MechtechAnimalBionic_Leg_AddedPart</defName>
     <label>mechtech animal leg</label>
     <descriptionHyperlinks>
@@ -138,6 +152,20 @@
     </costList>
     <graphicData>
       <texPath>WVC/Implants/Leg</texPath>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_Trunk_AddedPart</defName>
+    <label>mechtech animal trunk</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Trunk_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>17</Plasteel>
+      <Uranium>6</Uranium>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Nose</texPath>
     </graphicData>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">

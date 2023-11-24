@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef MayRequire="sarg.alphaanimals" Name="WVC_Ultra_ImplantGenerator_AlphaAnimalBionics" Abstract="True">
+	<label>advanced bionic {0}</label>
+	<labelNoun>an advanced bionic {0}</labelNoun>
+	<ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+	<surgeryTag>Animals</surgeryTag>
+	<mayRequire>sarg.alphaanimals</mayRequire>
+	<!-- Body Parts -->
+	<bodyPartDefs>
+	  <li>AA_HydrogenSac</li>
+	  <li>AA_JellyfishTentacle</li>
+	  <li>AA_CrocodileJaw</li>
+	  <li>AA_SmallInsectLeg</li>
+	</bodyPartDefs>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+</Defs>

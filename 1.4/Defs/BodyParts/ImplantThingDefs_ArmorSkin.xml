@@ -10,20 +10,20 @@
 	  </researchPrerequisites>
 	</recipeMaker>
   </ThingDef>
-  <!-- <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechArmorSkin" Abstract="True"> -->
-	<!-- <tradeTags Inherit="False"> -->
-	  <!-- <li>WVC_UltraAnimalBionic</li> -->
-	<!-- </tradeTags> -->
-	<!-- <techHediffsTags Inherit="False"> -->
-	  <!-- <li>AdvancedAnimals</li> -->
-	<!-- </techHediffsTags> -->
-	<!-- <recipeMaker> -->
-	  <!-- <researchPrerequisites Inherit="False"> -->
-		<!-- <li>WVC_AnimalBionicTech_Cybernetic</li> -->
-		<!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
-	  <!-- </researchPrerequisites> -->
-	<!-- </recipeMaker> -->
-  <!-- </ThingDef> -->
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechArmorSkin" Abstract="True">
+	<tradeTags Inherit="False">
+	  <li>WVC_UltraAnimalBionic</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>AdvancedAnimals</li>
+	</techHediffsTags>
+	<recipeMaker>
+	  <researchPrerequisites Inherit="False">
+		<li>WVC_AnimalBionicTech_Cybernetic</li>
+		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
 
   <!-- ================================== Tier 2 ================================== -->
 
@@ -34,20 +34,20 @@
 	  </researchPrerequisites>
 	</recipeMaker>
   </ThingDef>
-  <!-- <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechArmorSkin" Abstract="True"> -->
-	<!-- <tradeTags Inherit="False"> -->
-	  <!-- <li>WVC_UltraAnimalBionic</li> -->
-	<!-- </tradeTags> -->
-	<!-- <techHediffsTags Inherit="False"> -->
-	  <!-- <li>AdvancedAnimals</li> -->
-	<!-- </techHediffsTags> -->
-	<!-- <recipeMaker> -->
-	  <!-- <researchPrerequisites Inherit="False"> -->
-		<!-- <li>WVC_AnimalBionicTech_Ultratech</li> -->
-		<!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
-	  <!-- </researchPrerequisites> -->
-	<!-- </recipeMaker> -->
-  <!-- </ThingDef> -->
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechArmorSkin" Abstract="True">
+	<tradeTags Inherit="False">
+	  <li>WVC_UltraAnimalBionic</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>AdvancedAnimals</li>
+	</techHediffsTags>
+	<recipeMaker>
+	  <researchPrerequisites Inherit="False">
+		<li>WVC_AnimalBionicTech_Ultratech</li>
+		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
 
   <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_MechtechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_Mechtech" Abstract="True">
 	<recipeMaker>
@@ -56,20 +56,20 @@
 	  </researchPrerequisites>
 	</recipeMaker>
   </ThingDef>
-  <!-- <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechArmorSkin" Abstract="True"> -->
-	<!-- <tradeTags Inherit="False"> -->
-	  <!-- <li>WVC_UltraAnimalBionic</li> -->
-	<!-- </tradeTags> -->
-	<!-- <techHediffsTags Inherit="False"> -->
-	  <!-- <li>AdvancedAnimals</li> -->
-	<!-- </techHediffsTags> -->
-	<!-- <recipeMaker> -->
-	  <!-- <researchPrerequisites Inherit="False"> -->
-		<!-- <li>WVC_AnimalBionicTech_Mechtech</li> -->
-		<!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
-	  <!-- </researchPrerequisites> -->
-	<!-- </recipeMaker> -->
-  <!-- </ThingDef> -->
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechArmorSkin" Abstract="True">
+	<tradeTags Inherit="False">
+	  <li>WVC_UltraAnimalBionic</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>AdvancedAnimals</li>
+	</techHediffsTags>
+	<recipeMaker>
+	  <researchPrerequisites Inherit="False">
+		<li>WVC_AnimalBionicTech_Mechtech</li>
+		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
 
   <!-- ================================== Tier 3 ================================== -->
 
