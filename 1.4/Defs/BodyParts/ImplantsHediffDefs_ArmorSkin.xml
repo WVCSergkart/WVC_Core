@@ -13,9 +13,8 @@
 	<defaultLabelColor>(163,187,255)</defaultLabelColor>
 	<!-- <priceOffset>750</priceOffset> -->
   </HediffDef>
-  <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechArmorSkin" Abstract="True">
-	<!-- <priceOffset>250</priceOffset> -->
-  </HediffDef>
+  <!-- <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechArmorSkin" Abstract="True"> -->
+  <!-- </HediffDef> -->
 
   <!-- ======================== Tier 2 ======================== -->
 
@@ -23,17 +22,15 @@
 	<defaultLabelColor>(251,255,251)</defaultLabelColor>
 	<!-- <priceOffset>750</priceOffset> -->
   </HediffDef>
-  <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_UltratechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechArmorSkin" Abstract="True">
-	<!-- <priceOffset>250</priceOffset> -->
-  </HediffDef>
+  <!-- <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_UltratechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechArmorSkin" Abstract="True"> -->
+  <!-- </HediffDef> -->
 
   <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_MechtechArmorSkin" ParentName="WVC_Ultra_ImplantHediff_ArmorGland" Abstract="True">
 	<defaultLabelColor>(255,224,200)</defaultLabelColor>
 	<!-- <priceOffset>750</priceOffset> -->
   </HediffDef>
-  <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechArmorSkin" Abstract="True">
-	<!-- <priceOffset>250</priceOffset> -->
-  </HediffDef>
+  <!-- <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_MechtechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantHediffDef_WVC_MechtechArmorSkin" Abstract="True"> -->
+  <!-- </HediffDef> -->
 
   <!-- ======================== Tier 3 ======================== -->
 

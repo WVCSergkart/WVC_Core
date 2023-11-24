@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>WVC_TortureBionic_Eye_AddedPart</defName>
     <label>torture bionic eye</label>
     <descriptionHyperlinks>
@@ -13,7 +13,7 @@
       <texPath>WVC/Implants/Eye</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>WVC_TortureBionic_Ear_AddedPart</defName>
     <label>torture bionic ear</label>
     <descriptionHyperlinks>
@@ -26,7 +26,7 @@
       <texPath>WVC/Implants/Ear</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>WVC_TortureBionic_Jaw_AddedPart</defName>
     <label>torture bionic jaw</label>
     <descriptionHyperlinks>
@@ -39,7 +39,7 @@
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>WVC_TortureBionic_Nose_AddedPart</defName>
     <label>torture bionic nose</label>
     <descriptionHyperlinks>
@@ -52,7 +52,7 @@
       <texPath>WVC/Implants/Nose</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>WVC_TortureBionic_Stomach_AddedPart</defName>
     <label>torture bionic stomach</label>
     <descriptionHyperlinks>
@@ -65,7 +65,7 @@
       <texPath>WVC/Implants/Stomach</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>WVC_TortureBionic_Spine_AddedPart</defName>
     <label>torture bionic spine</label>
     <descriptionHyperlinks>
@@ -78,7 +78,7 @@
       <texPath>WVC/Implants/Spine</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>WVC_TortureBionic_Heart_AddedPart</defName>
     <label>torture bionic heart</label>
     <descriptionHyperlinks>
@@ -91,7 +91,7 @@
       <texPath>WVC/Implants/Heart</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>WVC_TortureBionic_Kidney_AddedPart</defName>
     <label>torture bionic kidney</label>
     <descriptionHyperlinks>
@@ -104,7 +104,7 @@
       <texPath>WVC/Implants/Kidney</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>WVC_TortureBionic_Liver_AddedPart</defName>
     <label>torture bionic liver</label>
     <descriptionHyperlinks>
@@ -117,7 +117,7 @@
       <texPath>WVC/Implants/Liver</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>WVC_TortureBionic_Lung_AddedPart</defName>
     <label>torture bionic lung</label>
     <descriptionHyperlinks>
@@ -130,7 +130,7 @@
       <texPath>WVC/Implants/Lung</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>WVC_TortureBionic_Shoulder_AddedPart</defName>
     <label>torture bionic arm</label>
     <descriptionHyperlinks>
@@ -143,7 +143,7 @@
       <texPath>WVC/Implants/Arm</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>WVC_TortureBionic_Leg_AddedPart</defName>
     <label>torture bionic leg</label>
     <descriptionHyperlinks>

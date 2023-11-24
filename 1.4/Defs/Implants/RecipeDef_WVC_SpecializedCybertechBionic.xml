@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base" MayRequire="ludeon.rimworld.royalty">
     <defName>Install_Hediff_WVC_SpecializedCybertechBionic_Eye_AddedPart</defName>
     <label>install cybertech blind eye</label>
     <description>Install an cybertech blind eye.</description>
@@ -28,7 +28,7 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base" MayRequire="ludeon.rimworld.royalty">
     <defName>Install_Hediff_WVC_SpecializedCybertechBionic_Ear_AddedPart</defName>
     <label>install cybertech deaf ear</label>
     <description>Install an cybertech deaf ear.</description>
@@ -56,7 +56,7 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base" MayRequire="ludeon.rimworld.royalty">
     <defName>Install_Hediff_WVC_SpecializedCybertechBionic_Jaw_AddedPart</defName>
     <label>install cybertech silent jaw</label>
     <description>Install an cybertech silent jaw.</description>
@@ -84,7 +84,7 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base" MayRequire="ludeon.rimworld.royalty">
     <defName>Install_Hediff_WVC_SpecializedCybertechBionic_Shoulder_AddedPart</defName>
     <label>install cybertech drill arm</label>
     <description>Install an cybertech drill arm.</description>

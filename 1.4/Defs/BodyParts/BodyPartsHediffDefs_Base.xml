@@ -20,7 +20,7 @@
 
   <!-- ======================== Tier 1 ======================== -->
 
-  <HediffDef Name="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic" ParentName="WVC_Ultra_AddedBodyPart_Base" Abstract="True">
+  <HediffDef MayRequire="ludeon.rimworld.ideology" Name="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic" ParentName="WVC_Ultra_AddedBodyPart_Base" Abstract="True">
 	<description>Bionics created for ideological purposes or to torture enemies.</description>
 	<defaultLabelColor>(255,188,196)</defaultLabelColor>
 	<!-- <priceOffset>-200</priceOffset> -->

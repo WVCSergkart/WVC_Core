@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_SpecializedCybertechBionic">
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_SpecializedCybertechBionic" MayRequire="ludeon.rimworld.royalty">
     <defName>Hediff_WVC_SpecializedCybertechBionic_Eye_AddedPart</defName>
     <label>cybertech blind eye</label>
     <descriptionHyperlinks>
@@ -22,7 +22,7 @@
       <partEfficiency>0</partEfficiency>
     </addedPartProps>
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_SpecializedCybertechBionic">
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_SpecializedCybertechBionic" MayRequire="ludeon.rimworld.royalty">
     <defName>Hediff_WVC_SpecializedCybertechBionic_Ear_AddedPart</defName>
     <label>cybertech deaf ear</label>
     <descriptionHyperlinks>
@@ -36,7 +36,7 @@
       <partEfficiency>0</partEfficiency>
     </addedPartProps>
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_SpecializedCybertechBionic">
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_SpecializedCybertechBionic" MayRequire="ludeon.rimworld.royalty">
     <defName>Hediff_WVC_SpecializedCybertechBionic_Jaw_AddedPart</defName>
     <label>cybertech silent jaw</label>
     <descriptionHyperlinks>
@@ -72,7 +72,7 @@
       </li>
     </comps>
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_SpecializedCybertechBionic">
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_SpecializedCybertechBionic" MayRequire="ludeon.rimworld.royalty">
     <defName>Hediff_WVC_SpecializedCybertechBionic_Shoulder_AddedPart</defName>
     <label>cybertech drill arm</label>
     <descriptionHyperlinks>

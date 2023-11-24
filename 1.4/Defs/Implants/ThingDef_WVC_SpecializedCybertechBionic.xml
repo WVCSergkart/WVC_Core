@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_SpecializedCybertechBionic">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_SpecializedCybertechBionic" MayRequire="ludeon.rimworld.royalty">
     <defName>WVC_SpecializedCybertechBionic_Eye_AddedPart</defName>
     <label>cybertech blind eye</label>
     <descriptionHyperlinks>
@@ -13,7 +13,7 @@
       <texPath>WVC/Implants/Eye</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_SpecializedCybertechBionic">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_SpecializedCybertechBionic" MayRequire="ludeon.rimworld.royalty">
     <defName>WVC_SpecializedCybertechBionic_Ear_AddedPart</defName>
     <label>cybertech deaf ear</label>
     <descriptionHyperlinks>
@@ -26,7 +26,7 @@
       <texPath>WVC/Implants/Ear</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_SpecializedCybertechBionic">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_SpecializedCybertechBionic" MayRequire="ludeon.rimworld.royalty">
     <defName>WVC_SpecializedCybertechBionic_Jaw_AddedPart</defName>
     <label>cybertech silent jaw</label>
     <descriptionHyperlinks>
@@ -39,7 +39,7 @@
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_SpecializedCybertechBionic">
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_SpecializedCybertechBionic" MayRequire="ludeon.rimworld.royalty">
     <defName>WVC_SpecializedCybertechBionic_Shoulder_AddedPart</defName>
     <label>cybertech drill arm</label>
     <descriptionHyperlinks>

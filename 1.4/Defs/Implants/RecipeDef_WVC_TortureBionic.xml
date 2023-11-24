@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base" MayRequire="ludeon.rimworld.ideology">
     <defName>Install_Hediff_WVC_TortureBionic_Eye_AddedPart</defName>
     <label>install torture bionic eye</label>
     <description>Install an torture bionic eye.</description>
@@ -28,7 +28,7 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base" MayRequire="ludeon.rimworld.ideology">
     <defName>Install_Hediff_WVC_TortureBionic_Ear_AddedPart</defName>
     <label>install torture bionic ear</label>
     <description>Install an torture bionic ear.</description>
@@ -56,7 +56,7 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base" MayRequire="ludeon.rimworld.ideology">
     <defName>Install_Hediff_WVC_TortureBionic_Jaw_AddedPart</defName>
     <label>install torture bionic jaw</label>
     <description>Install an torture bionic jaw.</description>
@@ -84,7 +84,7 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base" MayRequire="ludeon.rimworld.ideology">
     <defName>Install_Hediff_WVC_TortureBionic_Nose_AddedPart</defName>
     <label>install torture bionic nose</label>
     <description>Install an torture bionic nose.</description>
@@ -112,7 +112,7 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base" MayRequire="ludeon.rimworld.ideology">
     <defName>Install_Hediff_WVC_TortureBionic_Stomach_AddedPart</defName>
     <label>install torture bionic stomach</label>
     <description>Install an torture bionic stomach.</description>
@@ -140,7 +140,7 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base" MayRequire="ludeon.rimworld.ideology">
     <defName>Install_Hediff_WVC_TortureBionic_Spine_AddedPart</defName>
     <label>install torture bionic spine</label>
     <description>Install an torture bionic spine.</description>
@@ -168,7 +168,7 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base" MayRequire="ludeon.rimworld.ideology">
     <defName>Install_Hediff_WVC_TortureBionic_Heart_AddedPart</defName>
     <label>install torture bionic heart</label>
     <description>Install an torture bionic heart.</description>
@@ -196,7 +196,7 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base" MayRequire="ludeon.rimworld.ideology">
     <defName>Install_Hediff_WVC_TortureBionic_Kidney_AddedPart</defName>
     <label>install torture bionic kidney</label>
     <description>Install an torture bionic kidney.</description>
@@ -224,7 +224,7 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base" MayRequire="ludeon.rimworld.ideology">
     <defName>Install_Hediff_WVC_TortureBionic_Liver_AddedPart</defName>
     <label>install torture bionic liver</label>
     <description>Install an torture bionic liver.</description>
@@ -252,7 +252,7 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base" MayRequire="ludeon.rimworld.ideology">
     <defName>Install_Hediff_WVC_TortureBionic_Lung_AddedPart</defName>
     <label>install torture bionic lung</label>
     <description>Install an torture bionic lung.</description>
@@ -280,7 +280,7 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base" MayRequire="ludeon.rimworld.ideology">
     <defName>Install_Hediff_WVC_TortureBionic_Shoulder_AddedPart</defName>
     <label>install torture bionic arm</label>
     <description>Install an torture bionic arm.</description>
@@ -308,7 +308,7 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base" MayRequire="ludeon.rimworld.ideology">
     <defName>Install_Hediff_WVC_TortureBionic_Leg_AddedPart</defName>
     <label>install torture bionic leg</label>
     <description>Install an torture bionic leg.</description>

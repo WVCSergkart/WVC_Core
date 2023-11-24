@@ -5,6 +5,7 @@
 	<defName>WVC_SpecializedCybertechBionic</defName>
 	<label>cybertech {0}</label>
 	<labelNoun>an cybertech {0}</labelNoun>
+	<mayRequire>ludeon.rimworld.royalty</mayRequire>
 	<changesByPart>
 	  <li>
 		<def>Eye</def>

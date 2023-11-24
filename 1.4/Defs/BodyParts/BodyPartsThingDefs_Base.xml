@@ -107,8 +107,7 @@
 
   <!-- ================================== Tier 1 ================================== -->
 
-  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
-	<description>Body part created using high technology.</description>
+  <ThingDef MayRequire="ludeon.rimworld.ideology" Name="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
 	<techLevel>Spacer</techLevel>
 	<thingCategories>
 	  <li>WVC_BodyPartsTorture</li>
@@ -128,7 +127,7 @@
 	  </skillRequirements>
 	  <!-- <researchPrerequisite>WVC_BionicTech_Torture</researchPrerequisite> -->
 	  <researchPrerequisites>
-		<li>WVC_BionicTech_Torture</li>
+		<li MayRequire="ludeon.rimworld.ideology">WVC_BionicTech_Torture</li>
 	  </researchPrerequisites>
 	  <recipeUsers>
 		<li>WVC_ExperimentalCraftingBench</li>
@@ -148,8 +147,6 @@
   </ThingDef>
 
   <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
-	<description>Body part created using high technology.</description>
-	<techLevel>Ultra</techLevel>
 	<thingCategories>
 	  <li>WVC_BodyPartsCybernetic</li>
 	</thingCategories>
@@ -209,8 +206,6 @@
   <!-- ================================== Tier 2 ================================== -->
 
   <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
-	<description>A body part created using ultra technology.</description>
-	<techLevel>Ultra</techLevel>
 	<thingCategories>
 	  <li>WVC_BodyPartsAncient</li>
 	</thingCategories>
@@ -262,8 +257,6 @@
   </ThingDef>
 
   <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_MechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
-	<description>A body part created using mecha technology. Does not require anesthesia.</description>
-	<techLevel>Ultra</techLevel>
 	<thingCategories>
 	  <li>WVC_BodyPartsMechanoid</li>
 	</thingCategories>
@@ -318,8 +311,6 @@
   <!-- ================================== Tier 3 ================================== -->
 
   <ThingDef Name="WVC_Ultra_ThingDefBodyParts_NodeTech" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
-	<description>Body part created using mecha technology. Does not require anesthesia.</description>
-	<techLevel>Ultra</techLevel>
 	<!-- <thingCategories> -->
 	  <!-- <li>WVC_BodyPartsMechanoid</li> -->
 	<!-- </thingCategories> -->

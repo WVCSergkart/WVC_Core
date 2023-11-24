@@ -28,7 +28,6 @@
 	  <Beauty>2</Beauty>
 	  <Comfort>1.2</Comfort>
 	  <WorkToBuild>12000</WorkToBuild>
-	  <Mass>30</Mass>
 	  <BirthRitualQualityOffset MayRequire="Ludeon.RimWorld.Biotech">15</BirthRitualQualityOffset>
 	</statBases>
   </ThingDef>

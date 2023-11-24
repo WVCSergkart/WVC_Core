@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_ArmorGland">
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_ArmorGland" MayRequire="ludeon.rimworld.royalty">
     <defName>Install_Hediff_WVC_CybertechArmorSkin_Torso_Implant</defName>
     <label>install cyberskin gland</label>
     <description>Install an cyberskin gland.</description>
@@ -28,7 +28,7 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_ArmorGland">
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_ArmorGland" MayRequire="ludeon.rimworld.royalty">
     <defName>Remove_Hediff_WVC_CybertechArmorSkin_Torso_Implant</defName>
     <label>remove cyberskin gland</label>
     <description>remove an cyberskin gland.</description>

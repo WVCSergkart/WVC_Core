@@ -31,17 +31,17 @@
 		</recipeUsers>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SurgeryInstallImplantBase" Name="WVC_Ultra_ImplantSurgeryDef_AnimalsArmorGland" Abstract="True">
-		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
-		<recipeUsers Inherit="False"/>
-		<incompatibleWithHediffTags>
-		  <li>ArmorGland</li>
-		</incompatibleWithHediffTags>
-	</RecipeDef>
-	<RecipeDef ParentName="SurgeryRemoveImplantBase" Name="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsArmorGland" Abstract="True">
-		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
-		<recipeUsers Inherit="False"/>
-	</RecipeDef>
+	<!-- <RecipeDef ParentName="SurgeryInstallImplantBase" Name="WVC_Ultra_ImplantSurgeryDef_AnimalsArmorGland" Abstract="True"> -->
+		<!-- <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing> -->
+		<!-- <recipeUsers Inherit="False"/> -->
+		<!-- <incompatibleWithHediffTags> -->
+		  <!-- <li>ArmorGland</li> -->
+		<!-- </incompatibleWithHediffTags> -->
+	<!-- </RecipeDef> -->
+	<!-- <RecipeDef ParentName="SurgeryRemoveImplantBase" Name="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsArmorGland" Abstract="True"> -->
+		<!-- <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing> -->
+		<!-- <recipeUsers Inherit="False"/> -->
+	<!-- </RecipeDef> -->
 
 	<!--=====================================================================-->
 

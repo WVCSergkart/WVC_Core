@@ -5,6 +5,7 @@
 	<defName>WVC_TortureBionic</defName>
 	<label>torture bionic {0}</label>
 	<labelNoun>an torture bionic {0}</labelNoun>
+	<mayRequire>ludeon.rimworld.ideology</mayRequire>
 	<changesByPart>
 	  <li>
 		<def>Eye</def>

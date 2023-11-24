@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic">
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>Hediff_WVC_TortureBionic_Eye_AddedPart</defName>
     <label>torture bionic eye</label>
     <descriptionHyperlinks>
@@ -21,7 +21,7 @@
       <texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
     </eyeGraphicSouth>
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic">
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>Hediff_WVC_TortureBionic_Ear_AddedPart</defName>
     <label>torture bionic ear</label>
     <descriptionHyperlinks>
@@ -34,7 +34,7 @@
     </stages>
     <comps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic">
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>Hediff_WVC_TortureBionic_Jaw_AddedPart</defName>
     <label>torture bionic jaw</label>
     <descriptionHyperlinks>
@@ -64,7 +64,7 @@
       </li>
     </comps>
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic">
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>Hediff_WVC_TortureBionic_Nose_AddedPart</defName>
     <label>torture bionic nose</label>
     <descriptionHyperlinks>
@@ -81,7 +81,7 @@
     </stages>
     <comps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic">
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>Hediff_WVC_TortureBionic_Stomach_AddedPart</defName>
     <label>torture bionic stomach</label>
     <descriptionHyperlinks>
@@ -94,7 +94,7 @@
     </stages>
     <comps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic">
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>Hediff_WVC_TortureBionic_Spine_AddedPart</defName>
     <label>torture bionic spine</label>
     <descriptionHyperlinks>
@@ -107,7 +107,7 @@
     </stages>
     <comps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic">
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>Hediff_WVC_TortureBionic_Heart_AddedPart</defName>
     <label>torture bionic heart</label>
     <descriptionHyperlinks>
@@ -120,7 +120,7 @@
     </stages>
     <comps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic">
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>Hediff_WVC_TortureBionic_Kidney_AddedPart</defName>
     <label>torture bionic kidney</label>
     <descriptionHyperlinks>
@@ -133,7 +133,7 @@
     </stages>
     <comps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic">
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>Hediff_WVC_TortureBionic_Liver_AddedPart</defName>
     <label>torture bionic liver</label>
     <descriptionHyperlinks>
@@ -146,7 +146,7 @@
     </stages>
     <comps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic">
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>Hediff_WVC_TortureBionic_Lung_AddedPart</defName>
     <label>torture bionic lung</label>
     <descriptionHyperlinks>
@@ -159,7 +159,7 @@
     </stages>
     <comps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic">
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>Hediff_WVC_TortureBionic_Shoulder_AddedPart</defName>
     <label>torture bionic arm</label>
     <descriptionHyperlinks>
@@ -187,7 +187,7 @@
       </li>
     </comps>
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic">
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic" MayRequire="ludeon.rimworld.ideology">
     <defName>Hediff_WVC_TortureBionic_Leg_AddedPart</defName>
     <label>torture bionic leg</label>
     <descriptionHyperlinks>

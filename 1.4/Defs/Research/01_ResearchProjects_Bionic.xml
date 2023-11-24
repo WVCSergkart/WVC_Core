@@ -78,7 +78,7 @@
 	<!-- </prerequisites> -->
   <!-- </ResearchProjectDef> -->
 
-  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Bionic">
+  <ResearchProjectDef MayRequire="ludeon.rimworld.ideology" ParentName="WVC_Ultra_ResearchProject_Bionic">
 	<defName>WVC_BionicTech_Torture</defName>
 	<techLevel>Spacer</techLevel>
 	<label>torture bionic</label>

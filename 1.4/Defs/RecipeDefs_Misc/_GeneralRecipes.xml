@@ -35,7 +35,6 @@
 	  <!-- <li>WVC_Ultra_GarbageRecyclerBench</li> -->
 	</fixedBillGiverDefs>
 	<workTags>
-	  <li>Intellectual</li>
 	</workTags>
 	<verb>work</verb>
 	<gerund>working at</gerund>
@@ -57,8 +56,9 @@
   <WorkGiverDef ParentName="WVC_Ultra_WorkGiver_Base">
 	<defName>WVC_Ultra_GarbageRecyclerBench</defName>
 	<label>work at mechtech recycler</label>
-	<workType>Smithing</workType>
-	<priorityInType>10</priorityInType>
+	<workType>Crafting</workType>
+	<!-- <workType>Smithing</workType> -->
+	<priorityInType>92</priorityInType>
 	<fixedBillGiverDefs>
 	  <li>WVC_Ultra_GarbageRecyclerBench</li>
 	</fixedBillGiverDefs>
@@ -71,9 +71,10 @@
 	<defName>WVC_BodyPartsCraftingWork</defName>
 	<label>work at implant workbench</label>
 	<workType>Smithing</workType>
-	<priorityInType>70</priorityInType>
+	<!-- <priorityInType>70</priorityInType> -->
+	<priorityInType>55</priorityInType>
 	<fixedBillGiverDefs>
-	  <li>WVC_ExperimentalCraftingBench</li>
+	  <li MayRequire="ludeon.rimworld.ideology">WVC_ExperimentalCraftingBench</li>
 	  <li>WVC_CyberneticCraftingBench</li>
 	  <li>WVC_AncientCraftingBench</li>
 	  <li>WVC_MechanoidCraftingBench</li>
@@ -85,8 +86,9 @@
 	  <li>WVC_ArchotechCraftingBench</li>
 	</fixedBillGiverDefs>
 	<workTags>
-	  <li>Caring</li>
+	  <!-- <li>Caring</li> -->
 	  <li>Crafting</li>
+	  <li>Intellectual</li>
 	</workTags>
   </WorkGiverDef>
 

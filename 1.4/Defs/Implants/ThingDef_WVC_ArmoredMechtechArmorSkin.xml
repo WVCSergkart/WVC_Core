@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechArmorSkin">
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechArmorSkin" MayRequire="ludeon.rimworld.royalty">
     <defName>WVC_ArmoredMechtechArmorSkin_Torso_Implant</defName>
-    <label>ar-mechskin gland</label>
+    <label>armored mechskin gland</label>
     <descriptionHyperlinks>
       <RecipeDef>Install_Hediff_WVC_ArmoredMechtechArmorSkin_Torso_Implant</RecipeDef>
     </descriptionHyperlinks>

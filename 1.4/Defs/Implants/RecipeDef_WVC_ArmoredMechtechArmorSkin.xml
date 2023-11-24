@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_ArmorGland">
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_ArmorGland" MayRequire="ludeon.rimworld.royalty">
     <defName>Install_Hediff_WVC_ArmoredMechtechArmorSkin_Torso_Implant</defName>
-    <label>install ar-mechskin gland</label>
-    <description>Install an ar-mechskin gland.</description>
-    <jobString>Installing ar-mechskin gland.</jobString>
+    <label>install armored mechskin gland</label>
+    <description>Install an armored mechskin gland.</description>
+    <jobString>Installing armored mechskin gland.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArmoredMechtechArmorSkin_Torso_Implant</ThingDef>
       <HediffDef>Hediff_WVC_ArmoredMechtechArmorSkin_Torso_Implant</HediffDef>
@@ -28,11 +28,11 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_ArmorGland">
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_ArmorGland" MayRequire="ludeon.rimworld.royalty">
     <defName>Remove_Hediff_WVC_ArmoredMechtechArmorSkin_Torso_Implant</defName>
-    <label>remove ar-mechskin gland</label>
-    <description>remove an ar-mechskin gland.</description>
-    <jobString>Removing ar-mechskin gland.</jobString>
+    <label>remove armored mechskin gland</label>
+    <description>remove an armored mechskin gland.</description>
+    <jobString>Removing armored mechskin gland.</jobString>
     <descriptionHyperlinks>
       <ThingDef>WVC_ArmoredMechtechArmorSkin_Torso_Implant</ThingDef>
       <HediffDef>Hediff_WVC_ArmoredMechtechArmorSkin_Torso_Implant</HediffDef>

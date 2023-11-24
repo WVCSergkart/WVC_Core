@@ -72,25 +72,4 @@
       <li>Install_Hediff_WVC_UltratechAnimalBionic_InsectLeg_AddedPart</li>
     </value>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
-    <value>
-      <li>Install_Hediff_WVC_CybertechAnimalArmorSkin_Torso_Implant</li>
-      <li>Remove_Hediff_WVC_CybertechAnimalArmorSkin_Torso_Implant</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
-    <value>
-      <li>Install_Hediff_WVC_UltratechAnimalArmorSkin_Torso_Implant</li>
-      <li>Remove_Hediff_WVC_UltratechAnimalArmorSkin_Torso_Implant</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
-    <value>
-      <li>Install_Hediff_WVC_MechtechAnimalArmorSkin_Torso_Implant</li>
-      <li>Remove_Hediff_WVC_MechtechAnimalArmorSkin_Torso_Implant</li>
-    </value>
-  </Operation>
 </Patch>

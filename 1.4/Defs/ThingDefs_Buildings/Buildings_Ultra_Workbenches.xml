@@ -269,7 +269,7 @@
 
   <!-- ============================================================ -->
 
-  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
+  <ThingDef MayRequire="ludeon.rimworld.ideology" ParentName="WVC_Ultra_WorkBenches_Implants">
 	<defName>WVC_ExperimentalCraftingBench</defName>
 	<label>implant workbench (torture)</label>
 	<graphicData>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechArmorSkin">
+  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_UltratechArmorSkin" MayRequire="ludeon.rimworld.royalty">
     <defName>Hediff_WVC_UltratechArmorSkin_Torso_Implant</defName>
     <label>ultraskin gland</label>
     <descriptionHyperlinks>

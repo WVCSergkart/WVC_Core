@@ -3,199 +3,82 @@
 
   <!-- ================================== Tier 1 ================================== -->
 
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_CybertechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_Base" Abstract="True">
-	<techLevel>Ultra</techLevel>
-	<thingCategories>
-	  <li>WVC_BodyPartsCybernetic</li>
-	</thingCategories>
-	<graphicData>
-	  <color>(165,179,222)</color>
-	</graphicData>
-	<costList>
-	  <ComponentSpacer>8</ComponentSpacer>
-	  <WVC_ComponentUltratech>2</WVC_ComponentUltratech>
-	</costList>
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_CybertechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_Cybertech" Abstract="True">
 	<recipeMaker>
-	  <skillRequirements>
-		<Crafting>8</Crafting>
-		<Intellectual>8</Intellectual>
-	  </skillRequirements>
 	  <researchPrerequisites>
-		<li>WVC_BionicTech_Cybernetic</li>
-		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
-	  </researchPrerequisites>
-	  <recipeUsers>
-		<li>WVC_CyberneticCraftingBench</li>
-	  </recipeUsers>
-	</recipeMaker>
-	<statBases>
-	  <WorkToMake>15000</WorkToMake>
-	</statBases>
-	<tradeTags>
-	</tradeTags>
-  </ThingDef>
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechArmorSkin" Abstract="True">
-	<tradeTags Inherit="False">
-	  <li>WVC_UltraAnimalBionic</li>
-	</tradeTags>
-	<techHediffsTags Inherit="False">
-	  <li>AdvancedAnimals</li>
-	</techHediffsTags>
-	<recipeMaker>
-	  <researchPrerequisites Inherit="False">
-		<li>WVC_AnimalBionicTech_Cybernetic</li>
 		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
 	  </researchPrerequisites>
 	</recipeMaker>
   </ThingDef>
+  <!-- <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechArmorSkin" Abstract="True"> -->
+	<!-- <tradeTags Inherit="False"> -->
+	  <!-- <li>WVC_UltraAnimalBionic</li> -->
+	<!-- </tradeTags> -->
+	<!-- <techHediffsTags Inherit="False"> -->
+	  <!-- <li>AdvancedAnimals</li> -->
+	<!-- </techHediffsTags> -->
+	<!-- <recipeMaker> -->
+	  <!-- <researchPrerequisites Inherit="False"> -->
+		<!-- <li>WVC_AnimalBionicTech_Cybernetic</li> -->
+		<!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
+	  <!-- </researchPrerequisites> -->
+	<!-- </recipeMaker> -->
+  <!-- </ThingDef> -->
 
   <!-- ================================== Tier 2 ================================== -->
 
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_UltratechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_Base" Abstract="True">
-	<techLevel>Ultra</techLevel>
-	<thingCategories>
-	  <li>WVC_BodyPartsAncient</li>
-	</thingCategories>
-	<graphicData>
-	  <color>(165,169,165)</color>
-	</graphicData>
-	<costList>
-	  <ComponentSpacer>8</ComponentSpacer>
-	  <WVC_ComponentUltratech>6</WVC_ComponentUltratech>
-	</costList>
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_UltratechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_Ultratech" Abstract="True">
 	<recipeMaker>
-	  <skillRequirements>
-		<Crafting>12</Crafting>
-		<Intellectual>12</Intellectual>
-		<Medicine>8</Medicine>
-	  </skillRequirements>
 	  <researchPrerequisites>
-		<li>WVC_BionicTech_Ultratech</li>
-		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
-	  </researchPrerequisites>
-	  <recipeUsers>
-		<li>WVC_AncientCraftingBench</li>
-	  </recipeUsers>
-	</recipeMaker>
-	<statBases>
-	  <WorkToMake>33000</WorkToMake>
-	</statBases>
-	<tradeTags>
-	  <li>ImplantEmpireRoyal</li>
-	</tradeTags>
-	<techHediffsTags Inherit="False">
-	  <li>ImplantEmpireRoyal</li>
-	</techHediffsTags>
-  </ThingDef>
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechArmorSkin" Abstract="True">
-	<tradeTags Inherit="False">
-	  <li>WVC_UltraAnimalBionic</li>
-	</tradeTags>
-	<techHediffsTags Inherit="False">
-	  <li>AdvancedAnimals</li>
-	</techHediffsTags>
-	<recipeMaker>
-	  <researchPrerequisites Inherit="False">
-		<li>WVC_AnimalBionicTech_Ultratech</li>
 		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
 	  </researchPrerequisites>
 	</recipeMaker>
   </ThingDef>
+  <!-- <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechArmorSkin" Abstract="True"> -->
+	<!-- <tradeTags Inherit="False"> -->
+	  <!-- <li>WVC_UltraAnimalBionic</li> -->
+	<!-- </tradeTags> -->
+	<!-- <techHediffsTags Inherit="False"> -->
+	  <!-- <li>AdvancedAnimals</li> -->
+	<!-- </techHediffsTags> -->
+	<!-- <recipeMaker> -->
+	  <!-- <researchPrerequisites Inherit="False"> -->
+		<!-- <li>WVC_AnimalBionicTech_Ultratech</li> -->
+		<!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
+	  <!-- </researchPrerequisites> -->
+	<!-- </recipeMaker> -->
+  <!-- </ThingDef> -->
 
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_MechtechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_Base" Abstract="True">
-	<techLevel>Ultra</techLevel>
-	<thingCategories>
-	  <li>WVC_BodyPartsMechanoid</li>
-	</thingCategories>
-	<graphicData>
-	  <color>(179,163,151)</color>
-	</graphicData>
-	<costList>
-	  <ComponentSpacer>8</ComponentSpacer>
-	  <WVC_ComponentUltratech>6</WVC_ComponentUltratech>
-	  <WVC_ComponentMechtech>4</WVC_ComponentMechtech>
-	</costList>
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_MechtechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_Mechtech" Abstract="True">
 	<recipeMaker>
-	  <skillRequirements>
-		<Crafting>16</Crafting>
-		<Intellectual>16</Intellectual>
-		<Medicine>8</Medicine>
-	  </skillRequirements>
 	  <researchPrerequisites>
-		<li>WVC_BionicTech_Mechtech</li>
-		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
-	  </researchPrerequisites>
-	  <recipeUsers>
-		<li>WVC_MechanoidCraftingBench</li>
-	  </recipeUsers>
-	</recipeMaker>
-	<statBases>
-	  <WorkToMake>52000</WorkToMake>
-	</statBases>
-	<tradeTags>
-	  <li>ImplantEmpireRoyal</li>
-	</tradeTags>
-	<techHediffsTags Inherit="False">
-	  <li>ImplantEmpireRoyal</li>
-	</techHediffsTags>
-  </ThingDef>
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechArmorSkin" Abstract="True">
-	<tradeTags Inherit="False">
-	  <li>WVC_UltraAnimalBionic</li>
-	</tradeTags>
-	<techHediffsTags Inherit="False">
-	  <li>AdvancedAnimals</li>
-	</techHediffsTags>
-	<recipeMaker>
-	  <researchPrerequisites Inherit="False">
-		<li>WVC_AnimalBionicTech_Mechtech</li>
 		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
 	  </researchPrerequisites>
 	</recipeMaker>
   </ThingDef>
+  <!-- <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechArmorSkin" Abstract="True"> -->
+	<!-- <tradeTags Inherit="False"> -->
+	  <!-- <li>WVC_UltraAnimalBionic</li> -->
+	<!-- </tradeTags> -->
+	<!-- <techHediffsTags Inherit="False"> -->
+	  <!-- <li>AdvancedAnimals</li> -->
+	<!-- </techHediffsTags> -->
+	<!-- <recipeMaker> -->
+	  <!-- <researchPrerequisites Inherit="False"> -->
+		<!-- <li>WVC_AnimalBionicTech_Mechtech</li> -->
+		<!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
+	  <!-- </researchPrerequisites> -->
+	<!-- </recipeMaker> -->
+  <!-- </ThingDef> -->
 
   <!-- ================================== Tier 3 ================================== -->
 
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_Base" Abstract="True">
-	<techLevel>Ultra</techLevel>
-	<thingCategories>
-	  <li>WVC_BodyPartsNodes_Red</li>
-	</thingCategories>
-	<graphicData>
-	  <color>(79,80,81)</color>
-	</graphicData>
-	<costList>
-	  <ComponentSpacer>8</ComponentSpacer>
-	  <WVC_ComponentUltratech>8</WVC_ComponentUltratech>
-	  <WVC_ComponentMechtech>6</WVC_ComponentMechtech>
-	</costList>
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_ArmoredMechtech" Abstract="True">
 	<recipeMaker>
-	  <skillRequirements>
-		<Crafting>16</Crafting>
-		<Intellectual>16</Intellectual>
-		<Medicine>12</Medicine>
-	  </skillRequirements>
-	  <recipeUsers>
-		<li>WVC_RedCraftingBench</li>
-	  </recipeUsers>
 	  <researchPrerequisites>
-		<li>WVC_BionicTech_SpecializedMechtech</li>
-		<li>WVC_ResearchBodyParts_NodeRed</li>
 		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
 	  </researchPrerequisites>
 	</recipeMaker>
-	<tradeTags>
-	  <li>ImplantEmpireRoyal</li>
-	  <li>WVC_NodeImplant</li>
-	</tradeTags>
-	<techHediffsTags Inherit="False">
-	  <li>ImplantEmpireRoyal</li>
-	  <li>WVC_NodeImplants</li>
-	</techHediffsTags>
-	<statBases>
-	  <WorkToMake>55000</WorkToMake>
-	  <DeteriorationRate>0.5</DeteriorationRate>
-	</statBases>
   </ThingDef>
 
   <!-- ================================== Tier 4 ================================== -->
