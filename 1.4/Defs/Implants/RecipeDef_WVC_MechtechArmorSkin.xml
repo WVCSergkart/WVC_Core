@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_ArmorGland">
+    <defName>Install_Hediff_WVC_MechtechArmorSkin_Torso_Implant</defName>
+    <label>install mechskin gland</label>
+    <description>Install an mechskin gland.</description>
+    <jobString>Installing mechskin gland.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechArmorSkin_Torso_Implant</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechArmorSkin_Torso_Implant</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_MechtechArmorSkin_Torso_Implant</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_MechtechArmorSkin_Torso_Implant</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_MechtechArmorSkin_Torso_Implant</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_ArmorGland">
+    <defName>Remove_Hediff_WVC_MechtechArmorSkin_Torso_Implant</defName>
+    <label>remove mechskin gland</label>
+    <description>remove an mechskin gland.</description>
+    <jobString>Removing mechskin gland.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechtechArmorSkin_Torso_Implant</ThingDef>
+      <HediffDef>Hediff_WVC_MechtechArmorSkin_Torso_Implant</HediffDef>
+    </descriptionHyperlinks>
+    <removesHediff>Hediff_WVC_MechtechArmorSkin_Torso_Implant</removesHediff>
+    <appliedOnFixedBodyParts />
+    <ingredients />
+    <fixedIngredientFilter />
+  </RecipeDef>
+</Defs>

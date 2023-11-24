@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_Eye_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_Eye_AddedPart</defName>
     <label>mechtech animal eye</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Eye_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -14,11 +14,11 @@
       <texPath>WVC/Implants/Eye</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_Ear_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_Ear_AddedPart</defName>
     <label>mechtech animal ear</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Ear_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -28,11 +28,11 @@
       <texPath>WVC/Implants/Ear</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_Nose_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_Nose_AddedPart</defName>
     <label>mechtech animal nose</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Nose_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -42,11 +42,11 @@
       <texPath>WVC/Implants/Nose</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_Stomach_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_Stomach_AddedPart</defName>
     <label>mechtech animal stomach</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Stomach_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>22</Plasteel>
@@ -56,11 +56,11 @@
       <texPath>WVC/Implants/Stomach</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_Spine_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_Spine_AddedPart</defName>
     <label>mechtech animal spine</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Spine_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>25</Plasteel>
@@ -70,11 +70,11 @@
       <texPath>WVC/Implants/Spine</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_Heart_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_Heart_AddedPart</defName>
     <label>mechtech animal heart</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Heart_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>18</Plasteel>
@@ -84,11 +84,11 @@
       <texPath>WVC/Implants/Heart</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_Kidney_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_Kidney_AddedPart</defName>
     <label>mechtech animal kidney</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Kidney_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>17</Plasteel>
@@ -98,11 +98,11 @@
       <texPath>WVC/Implants/Kidney</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_Liver_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_Liver_AddedPart</defName>
     <label>mechtech animal liver</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Liver_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>19</Plasteel>
@@ -112,11 +112,11 @@
       <texPath>WVC/Implants/Liver</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_Lung_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_Lung_AddedPart</defName>
     <label>mechtech animal lung</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Lung_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
@@ -126,11 +126,11 @@
       <texPath>WVC/Implants/Lung</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_Leg_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_Leg_AddedPart</defName>
     <label>mechtech animal leg</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Leg_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>18</Plasteel>
@@ -140,11 +140,11 @@
       <texPath>WVC/Implants/Leg</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_Beak_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_Beak_AddedPart</defName>
     <label>mechtech beak</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Beak_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Beak_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -154,11 +154,11 @@
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_SnakeMouth_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_SnakeMouth_AddedPart</defName>
     <label>mechtech snake jaw</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_SnakeMouth_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_SnakeMouth_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -168,11 +168,11 @@
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_InsectHeart_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_InsectHeart_AddedPart</defName>
     <label>mechtech insect heart</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_InsectHeart_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_InsectHeart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>14</Plasteel>
@@ -182,11 +182,11 @@
       <texPath>WVC/Implants/Heart</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_InsectNostril_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_InsectNostril_AddedPart</defName>
     <label>mechtech nostril</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_InsectNostril_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_InsectNostril_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -196,11 +196,11 @@
       <texPath>WVC/Implants/Nose</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_InsectMouth_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_InsectMouth_AddedPart</defName>
     <label>mechtech insect jaw</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_InsectMouth_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_InsectMouth_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -210,11 +210,11 @@
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_AnimalJaw_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_AnimalJaw_AddedPart</defName>
     <label>mechtech animal jaw</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_AnimalJaw_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_AnimalJaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -224,11 +224,11 @@
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_Tail_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_Tail_AddedPart</defName>
     <label>mechtech tail</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Tail_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Tail_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>18</Plasteel>
@@ -238,11 +238,11 @@
       <texPath>WVC/Implants/Tail</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_Antenna_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_Antenna_AddedPart</defName>
     <label>mechtech insect antenna</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Antenna_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_Antenna_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>14</Plasteel>
@@ -252,11 +252,11 @@
       <texPath>WVC/Implants/Ear</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic">
-    <defName>WVC_MechtechAnimalBionic_InsectLeg_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic">
+    <defName>WVC_MechtechAnimalBionic_InsectLeg_AddedPart</defName>
     <label>mechtech insect leg</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_InsectLeg_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_MechtechAnimalBionic_InsectLeg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>

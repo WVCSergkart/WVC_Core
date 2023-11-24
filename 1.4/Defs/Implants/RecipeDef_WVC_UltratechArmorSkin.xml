@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_ArmorGland">
+    <defName>Install_Hediff_WVC_UltratechArmorSkin_Torso_Implant</defName>
+    <label>install ultraskin gland</label>
+    <description>Install an ultraskin gland.</description>
+    <jobString>Installing ultraskin gland.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechArmorSkin_Torso_Implant</ThingDef>
+      <HediffDef>Hediff_WVC_UltratechArmorSkin_Torso_Implant</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_UltratechArmorSkin_Torso_Implant</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_UltratechArmorSkin_Torso_Implant</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_UltratechArmorSkin_Torso_Implant</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryRemoveDef_ArmorGland">
+    <defName>Remove_Hediff_WVC_UltratechArmorSkin_Torso_Implant</defName>
+    <label>remove ultraskin gland</label>
+    <description>remove an ultraskin gland.</description>
+    <jobString>Removing ultraskin gland.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechArmorSkin_Torso_Implant</ThingDef>
+      <HediffDef>Hediff_WVC_UltratechArmorSkin_Torso_Implant</HediffDef>
+    </descriptionHyperlinks>
+    <removesHediff>Hediff_WVC_UltratechArmorSkin_Torso_Implant</removesHediff>
+    <appliedOnFixedBodyParts />
+    <ingredients />
+    <fixedIngredientFilter />
+  </RecipeDef>
+</Defs>

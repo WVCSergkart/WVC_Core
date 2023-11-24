@@ -1,534 +1,534 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Eye_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Eye_AddedPart</defName>
     <label>install cybertech animal eye</label>
     <description>Install an cybertech animal eye.</description>
     <jobString>Installing cybertech animal eye.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Eye_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Eye_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Eye_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Eye_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Eye_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Eye</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Eye_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_Eye_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_Eye_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_Eye_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_Eye_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Ear_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Ear_AddedPart</defName>
     <label>install cybertech animal ear</label>
     <description>Install an cybertech animal ear.</description>
     <jobString>Installing cybertech animal ear.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Ear_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Ear_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Ear_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Ear_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Ear_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Ear</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Ear_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_Ear_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_Ear_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_Ear_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_Ear_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Nose_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Nose_AddedPart</defName>
     <label>install cybertech animal nose</label>
     <description>Install an cybertech animal nose.</description>
     <jobString>Installing cybertech animal nose.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Nose_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Nose_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Nose_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Nose_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Nose_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Nose</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Nose_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_Nose_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_Nose_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_Nose_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_Nose_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Stomach_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Stomach_AddedPart</defName>
     <label>install cybertech animal stomach</label>
     <description>Install an cybertech animal stomach.</description>
     <jobString>Installing cybertech animal stomach.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Stomach_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Stomach_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Stomach_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Stomach_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Stomach_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Stomach</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Stomach_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_Stomach_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_Stomach_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_Stomach_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_Stomach_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Spine_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Spine_AddedPart</defName>
     <label>install cybertech animal spine</label>
     <description>Install an cybertech animal spine.</description>
     <jobString>Installing cybertech animal spine.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Spine_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Spine_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Spine_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Spine_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Spine_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Spine</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Spine_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_Spine_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_Spine_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_Spine_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_Spine_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Heart_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Heart_AddedPart</defName>
     <label>install cybertech animal heart</label>
     <description>Install an cybertech animal heart.</description>
     <jobString>Installing cybertech animal heart.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Heart_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Heart_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Heart_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Heart_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Heart_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Heart</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Heart_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_Heart_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_Heart_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_Heart_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_Heart_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Kidney_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Kidney_AddedPart</defName>
     <label>install cybertech animal kidney</label>
     <description>Install an cybertech animal kidney.</description>
     <jobString>Installing cybertech animal kidney.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Kidney_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Kidney_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Kidney_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Kidney_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Kidney_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Kidney</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Kidney_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_Kidney_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_Kidney_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_Kidney_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_Kidney_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Liver_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Liver_AddedPart</defName>
     <label>install cybertech animal liver</label>
     <description>Install an cybertech animal liver.</description>
     <jobString>Installing cybertech animal liver.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Liver_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Liver_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Liver_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Liver_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Liver_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Liver</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Liver_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_Liver_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_Liver_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_Liver_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_Liver_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Lung_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Lung_AddedPart</defName>
     <label>install cybertech animal lung</label>
     <description>Install an cybertech animal lung.</description>
     <jobString>Installing cybertech animal lung.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Lung_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Lung_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Lung_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Lung_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Lung_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Lung</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Lung_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_Lung_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_Lung_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_Lung_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_Lung_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Leg_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Leg_AddedPart</defName>
     <label>install cybertech animal leg</label>
     <description>Install an cybertech animal leg.</description>
     <jobString>Installing cybertech animal leg.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Leg_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Leg_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Leg_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Leg_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Leg_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Leg</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Leg_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_Leg_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_Leg_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_Leg_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_Leg_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Beak_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Beak_AddedPart</defName>
     <label>install cybertech beak</label>
     <description>Install an cybertech beak.</description>
     <jobString>Installing cybertech beak.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Beak_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Beak_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Beak_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Beak_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Beak_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Beak</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Beak_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_Beak_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_Beak_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_Beak_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_Beak_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_SnakeMouth_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_SnakeMouth_AddedPart</defName>
     <label>install cybertech snake jaw</label>
     <description>Install an cybertech snake jaw.</description>
     <jobString>Installing cybertech snake jaw.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_SnakeMouth_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_SnakeMouth_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_SnakeMouth_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_SnakeMouth_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_SnakeMouth_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>SnakeMouth</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_SnakeMouth_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_SnakeMouth_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_SnakeMouth_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_SnakeMouth_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_SnakeMouth_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_InsectHeart_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_InsectHeart_AddedPart</defName>
     <label>install cybertech insect heart</label>
     <description>Install an cybertech insect heart.</description>
     <jobString>Installing cybertech insect heart.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_InsectHeart_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_InsectHeart_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_InsectHeart_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_InsectHeart_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_InsectHeart_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>InsectHeart</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_InsectHeart_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_InsectHeart_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_InsectHeart_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_InsectHeart_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_InsectHeart_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_InsectNostril_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_InsectNostril_AddedPart</defName>
     <label>install cybertech nostril</label>
     <description>Install an cybertech nostril.</description>
     <jobString>Installing cybertech nostril.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_InsectNostril_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_InsectNostril_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_InsectNostril_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_InsectNostril_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_InsectNostril_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>InsectNostril</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_InsectNostril_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_InsectNostril_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_InsectNostril_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_InsectNostril_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_InsectNostril_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_InsectMouth_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_InsectMouth_AddedPart</defName>
     <label>install cybertech insect jaw</label>
     <description>Install an cybertech insect jaw.</description>
     <jobString>Installing cybertech insect jaw.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_InsectMouth_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_InsectMouth_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_InsectMouth_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_InsectMouth_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_InsectMouth_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>InsectMouth</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_InsectMouth_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_InsectMouth_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_InsectMouth_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_InsectMouth_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_InsectMouth_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_AnimalJaw_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_AnimalJaw_AddedPart</defName>
     <label>install cybertech animal jaw</label>
     <description>Install an cybertech animal jaw.</description>
     <jobString>Installing cybertech animal jaw.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_AnimalJaw_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_AnimalJaw_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_AnimalJaw_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_AnimalJaw_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_AnimalJaw_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>AnimalJaw</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_AnimalJaw_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_AnimalJaw_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_AnimalJaw_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_AnimalJaw_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_AnimalJaw_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Tail_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Tail_AddedPart</defName>
     <label>install cybertech tail</label>
     <description>Install an cybertech tail.</description>
     <jobString>Installing cybertech tail.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Tail_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Tail_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Tail_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Tail_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Tail_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Tail</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Tail_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_Tail_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_Tail_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_Tail_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_Tail_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Antenna_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_Antenna_AddedPart</defName>
     <label>install cybertech insect antenna</label>
     <description>Install an cybertech insect antenna.</description>
     <jobString>Installing cybertech insect antenna.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Antenna_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Antenna_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Antenna_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_Antenna_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Antenna_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Antenna</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_Antenna_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_Antenna_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_Antenna_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_Antenna_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_Antenna_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Animals">
-    <defName>Install_Hediff_WVC_CybertechAnimalBionic_InsectLeg_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Animals">
+    <defName>Install_Hediff_WVC_CybertechAnimalBionic_InsectLeg_AddedPart</defName>
     <label>install cybertech insect leg</label>
     <description>Install an cybertech insect leg.</description>
     <jobString>Installing cybertech insect leg.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_InsectLeg_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_CybertechAnimalBionic_InsectLeg_Ultra</HediffDef>
+      <ThingDef>WVC_CybertechAnimalBionic_InsectLeg_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_CybertechAnimalBionic_InsectLeg_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_CybertechAnimalBionic_InsectLeg_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>InsectLeg</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_CybertechAnimalBionic_InsectLeg_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_CybertechAnimalBionic_InsectLeg_Ultra</li>
+            <li>WVC_CybertechAnimalBionic_InsectLeg_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_CybertechAnimalBionic_InsectLeg_Ultra</li>
+        <li>WVC_CybertechAnimalBionic_InsectLeg_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>

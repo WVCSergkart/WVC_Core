@@ -105,7 +105,7 @@
 	  <li MayRequire="vat.epoeforked">AdvancedBionics</li>
 	  <li MayRequire="vat.epoeforked">SyntheticOrgans</li>
 	  <!-- <li>WVC_BionicTech_AdvancedBionic</li> -->
-	  <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li> -->
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">ArtificialMetabolism</li> -->
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">HealingFactors</li> -->
 	  <!-- <li MayRequire="ludeon.rimworld.royalty">MolecularAnalysis</li> -->

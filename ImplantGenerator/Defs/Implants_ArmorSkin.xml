@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_NonSolid" Name="WVC_Ultra_ImplantGenerator_ArmorSkin" Abstract="True">
+	<label>{0} gland</label>
+	<labelNoun>an {0} gland</labelNoun>
+	<generateRemoveRecipe>true</generateRemoveRecipe>
+	<surgeryTag>ArmorGland</surgeryTag>
+	<bodyPartDefs>
+	  <li>Torso</li>
+	</bodyPartDefs>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_ArmorSkin" Name="WVC_Ultra_ImplantGenerator_AnimalArmorSkin" Abstract="True">
+	<surgeryTag>AnimalsArmorGland</surgeryTag>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+  <!-- ================================== Tier 1 ================================== -->
+
+  <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_ArmorSkin">
+	<defName>WVC_CybertechArmorSkin</defName>
+	<changesByPart>
+	  <li>
+		<def>Torso</def>
+		<label>cyberskin</label>
+		<costList>
+		  <Plasteel>30</Plasteel>
+		</costList>
+		<stages>
+		  <li>
+			<capMods>
+			  <li>
+				<capacity>Moving</capacity>
+				<postFactor>0.90</postFactor>
+			  </li>
+			</capMods>
+			<statOffsets>
+			  <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+			  <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			  <ArmorRating_Heat>0.5</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	</changesByPart>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_AnimalArmorSkin">
+	<defName>WVC_CybertechAnimalArmorSkin</defName>
+	<changesByPart>
+	  <li>
+		<def>Torso</def>
+		<label>animal cyberskin</label>
+		<costList>
+		  <Plasteel>30</Plasteel>
+		</costList>
+		<stages>
+		  <li>
+			<capMods>
+			  <li>
+				<capacity>Moving</capacity>
+				<postFactor>0.90</postFactor>
+			  </li>
+			</capMods>
+			<statOffsets>
+			  <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+			  <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			  <ArmorRating_Heat>0.5</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	</changesByPart>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+  <!-- ================================== Tier 2 ================================== -->
+
+  <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_ArmorSkin">
+	<defName>WVC_UltratechArmorSkin</defName>
+	<changesByPart>
+	  <li>
+		<def>Torso</def>
+		<label>ultraskin</label>
+		<costList>
+		  <Plasteel>40</Plasteel>
+		  <Uranium>10</Uranium>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <Mass>22</Mass>
+			  <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+			  <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			  <ArmorRating_Heat>0.65</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	</changesByPart>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_AnimalArmorSkin">
+	<defName>WVC_UltratechAnimalArmorSkin</defName>
+	<changesByPart>
+	  <li>
+		<def>Torso</def>
+		<label>animal ultraskin</label>
+		<costList>
+		  <Plasteel>40</Plasteel>
+		  <Uranium>10</Uranium>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <Mass>22</Mass>
+			  <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+			  <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			  <ArmorRating_Heat>0.65</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	</changesByPart>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_ArmorSkin">
+	<defName>WVC_MechtechArmorSkin</defName>
+	<changesByPart>
+	  <li>
+		<def>Torso</def>
+		<label>mechskin</label>
+		<costList>
+		  <Plasteel>40</Plasteel>
+		  <Uranium>20</Uranium>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+			  <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+			  <ArmorRating_Heat>0.85</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	</changesByPart>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_AnimalArmorSkin">
+	<defName>WVC_MechtechAnimalArmorSkin</defName>
+	<changesByPart>
+	  <li>
+		<def>Torso</def>
+		<label>animal mechskin</label>
+		<costList>
+		  <Plasteel>40</Plasteel>
+		  <Uranium>20</Uranium>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+			  <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+			  <ArmorRating_Heat>0.85</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	</changesByPart>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+  <!-- ================================== Tier 3 ================================== -->
+
+  <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_ArmorSkin">
+	<defName>WVC_ArmoredMechtechArmorSkin</defName>
+	<changesByPart>
+	  <li>
+		<def>Torso</def>
+		<label>ar-mechskin</label>
+		<costList>
+		  <Plasteel>40</Plasteel>
+		  <Uranium>40</Uranium>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <ArmorRating_Sharp>1.25</ArmorRating_Sharp>
+			  <ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+			  <ArmorRating_Heat>1.05</ArmorRating_Heat>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	</changesByPart>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+</Defs>

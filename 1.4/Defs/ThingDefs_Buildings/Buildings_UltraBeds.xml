@@ -77,23 +77,41 @@
   </ThingDef>
   
   <!-- <ThingDef ParentName="WVC_Ultra_BasicBed_DoubleSlabBed"> -->
-	<!-- <defName>WVC_UltratechRecoveryBed</defName> -->
-	<!-- <label>mechtech recovery bed</label> -->
+	<!-- <defName>WVC_UltratechRecoveryVat</defName> -->
+	<!-- <label>recovery vat</label> -->
+	<!-- <description>A vat filled with mechanites. By plunging into this vat, the creature is enveloped in mechanites, which significantly accelerates the healing of wounds and incredibly strengthens the immune system.</description> -->
 	<!-- <graphicData> -->
-	  <!-- <texPath>WVC/Stuff/Furniture/RecoveryBed</texPath> -->
+	  <!-- <texPath>WVC/Stuff/Furniture/RecoveryVat</texPath> -->
+	  <!-- <graphicClass>Graphic_Single</graphicClass> -->
+	  <!-- <drawRotated>false</drawRotated> -->
+	  <!-- <allowFlip>false</allowFlip> -->
 	<!-- </graphicData> -->
+	<!-- <size>(2,2)</size> -->
+	<!-- <costStuffCount>85</costStuffCount> -->
 	<!-- <building> -->
 	  <!-- <bed_healPerDay>90</bed_healPerDay> -->
+	  <!-- <bed_slabBed>false</bed_slabBed> -->
+	  <!-- <bed_defaultMedical>true</bed_defaultMedical> -->
+	  <!-- <bed_showSleeperBody>true</bed_showSleeperBody> -->
+	  <!-- <bed_showSleeperBody>false</bed_showSleeperBody> -->
 	<!-- </building> -->
+	<!-- <costList> -->
+	  <!-- <WVC_ComponentMechtech>4</WVC_ComponentMechtech> -->
+	<!-- </costList> -->
 	<!-- <statBases> -->
-	  <!-- <MaxHitPoints>400</MaxHitPoints> -->
-	  <!-- <WorkToBuild>25000</WorkToBuild> -->
 	  <!-- <ImmunityGainSpeedFactor>2.0</ImmunityGainSpeedFactor> -->
 	  <!-- <SurgerySuccessChanceFactor>2.0</SurgerySuccessChanceFactor> -->
 	  <!-- <Comfort>2.0</Comfort> -->
+	  <!-- <MaxHitPoints>320</MaxHitPoints> -->
+	  <!-- <WorkToBuild>55000</WorkToBuild> -->
+	  <!-- <Comfort>2.0</Comfort> -->
+	  <!-- <Mass>50</Mass> -->
+	  <!-- <Beauty>1</Beauty> -->
+	  <!-- <BirthRitualQualityOffset MayRequire="Ludeon.RimWorld.Biotech">100</BirthRitualQualityOffset> -->
 	<!-- </statBases> -->
-	<!-- <comps> -->
-	<!-- </comps> -->
+	<!-- <researchPrerequisites> -->
+	  <!-- <li>WVC_Ultra_Mechtech</li> -->
+	<!-- </researchPrerequisites> -->
   <!-- </ThingDef> -->
 
 </Defs>

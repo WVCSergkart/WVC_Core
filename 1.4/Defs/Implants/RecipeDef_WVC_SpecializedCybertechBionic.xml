@@ -1,114 +1,114 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_SpecializedCybertechBionic_Eye_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_SpecializedCybertechBionic_Eye_AddedPart</defName>
     <label>install cybertech blind eye</label>
     <description>Install an cybertech blind eye.</description>
     <jobString>Installing cybertech blind eye.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_SpecializedCybertechBionic_Eye_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_SpecializedCybertechBionic_Eye_Ultra</HediffDef>
+      <ThingDef>WVC_SpecializedCybertechBionic_Eye_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_SpecializedCybertechBionic_Eye_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_SpecializedCybertechBionic_Eye_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Eye</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_SpecializedCybertechBionic_Eye_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_SpecializedCybertechBionic_Eye_Ultra</li>
+            <li>WVC_SpecializedCybertechBionic_Eye_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_SpecializedCybertechBionic_Eye_Ultra</li>
+        <li>WVC_SpecializedCybertechBionic_Eye_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_SpecializedCybertechBionic_Ear_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_SpecializedCybertechBionic_Ear_AddedPart</defName>
     <label>install cybertech deaf ear</label>
     <description>Install an cybertech deaf ear.</description>
     <jobString>Installing cybertech deaf ear.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_SpecializedCybertechBionic_Ear_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_SpecializedCybertechBionic_Ear_Ultra</HediffDef>
+      <ThingDef>WVC_SpecializedCybertechBionic_Ear_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_SpecializedCybertechBionic_Ear_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_SpecializedCybertechBionic_Ear_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Ear</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_SpecializedCybertechBionic_Ear_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_SpecializedCybertechBionic_Ear_Ultra</li>
+            <li>WVC_SpecializedCybertechBionic_Ear_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_SpecializedCybertechBionic_Ear_Ultra</li>
+        <li>WVC_SpecializedCybertechBionic_Ear_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_SpecializedCybertechBionic_Jaw_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_SpecializedCybertechBionic_Jaw_AddedPart</defName>
     <label>install cybertech silent jaw</label>
     <description>Install an cybertech silent jaw.</description>
     <jobString>Installing cybertech silent jaw.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_SpecializedCybertechBionic_Jaw_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_SpecializedCybertechBionic_Jaw_Ultra</HediffDef>
+      <ThingDef>WVC_SpecializedCybertechBionic_Jaw_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_SpecializedCybertechBionic_Jaw_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_SpecializedCybertechBionic_Jaw_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Jaw</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_SpecializedCybertechBionic_Jaw_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_SpecializedCybertechBionic_Jaw_Ultra</li>
+            <li>WVC_SpecializedCybertechBionic_Jaw_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_SpecializedCybertechBionic_Jaw_Ultra</li>
+        <li>WVC_SpecializedCybertechBionic_Jaw_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  <RecipeDef ParentName="WVC_Ultra_ImplantSurgeryDef_Base">
-    <defName>Install_Hediff_WVC_SpecializedCybertechBionic_Shoulder_Ultra</defName>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_Hediff_WVC_SpecializedCybertechBionic_Shoulder_AddedPart</defName>
     <label>install cybertech drill arm</label>
     <description>Install an cybertech drill arm.</description>
     <jobString>Installing cybertech drill arm.</jobString>
     <descriptionHyperlinks>
-      <ThingDef>WVC_SpecializedCybertechBionic_Shoulder_Ultra</ThingDef>
-      <HediffDef>Hediff_WVC_SpecializedCybertechBionic_Shoulder_Ultra</HediffDef>
+      <ThingDef>WVC_SpecializedCybertechBionic_Shoulder_AddedPart</ThingDef>
+      <HediffDef>Hediff_WVC_SpecializedCybertechBionic_Shoulder_AddedPart</HediffDef>
     </descriptionHyperlinks>
+    <addsHediff>Hediff_WVC_SpecializedCybertechBionic_Shoulder_AddedPart</addsHediff>
     <appliedOnFixedBodyParts>
       <li>Shoulder</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Hediff_WVC_SpecializedCybertechBionic_Shoulder_Ultra</addsHediff>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>WVC_SpecializedCybertechBionic_Shoulder_Ultra</li>
+            <li>WVC_SpecializedCybertechBionic_Shoulder_AddedPart</li>
           </thingDefs>
         </filter>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>WVC_SpecializedCybertechBionic_Shoulder_Ultra</li>
+        <li>WVC_SpecializedCybertechBionic_Shoulder_AddedPart</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechArmorSkin">
+    <defName>WVC_CybertechArmorSkin_Torso_Implant</defName>
+    <label>cyberskin gland</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_CybertechArmorSkin_Torso_Implant</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>30</Plasteel>
+    </costList>
+    <graphicData />
+  </ThingDef>
+</Defs>

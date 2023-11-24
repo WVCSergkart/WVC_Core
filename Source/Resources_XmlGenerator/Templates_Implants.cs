@@ -23,6 +23,11 @@ namespace WVC_UltraExpansion
 
 		public string mayRequire;
 
+		// Implant or AddedPart
+		public string inNameTag = "AddedPart";
+
+		public bool generateRemoveRecipe = false;
+
 	}
 
 	public class ChangesByPart

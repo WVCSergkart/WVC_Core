@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
-    <defName>WVC_TortureBionic_Eye_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+    <defName>WVC_TortureBionic_Eye_AddedPart</defName>
     <label>torture bionic eye</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Eye_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -13,11 +13,11 @@
       <texPath>WVC/Implants/Eye</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
-    <defName>WVC_TortureBionic_Ear_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+    <defName>WVC_TortureBionic_Ear_AddedPart</defName>
     <label>torture bionic ear</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Ear_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -26,11 +26,11 @@
       <texPath>WVC/Implants/Ear</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
-    <defName>WVC_TortureBionic_Jaw_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+    <defName>WVC_TortureBionic_Jaw_AddedPart</defName>
     <label>torture bionic jaw</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Jaw_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>13</Plasteel>
@@ -39,11 +39,11 @@
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
-    <defName>WVC_TortureBionic_Nose_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+    <defName>WVC_TortureBionic_Nose_AddedPart</defName>
     <label>torture bionic nose</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Nose_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -52,11 +52,11 @@
       <texPath>WVC/Implants/Nose</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
-    <defName>WVC_TortureBionic_Stomach_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+    <defName>WVC_TortureBionic_Stomach_AddedPart</defName>
     <label>torture bionic stomach</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Stomach_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>18</Plasteel>
@@ -65,11 +65,11 @@
       <texPath>WVC/Implants/Stomach</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
-    <defName>WVC_TortureBionic_Spine_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+    <defName>WVC_TortureBionic_Spine_AddedPart</defName>
     <label>torture bionic spine</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Spine_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
@@ -78,11 +78,11 @@
       <texPath>WVC/Implants/Spine</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
-    <defName>WVC_TortureBionic_Heart_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+    <defName>WVC_TortureBionic_Heart_AddedPart</defName>
     <label>torture bionic heart</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Heart_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -91,11 +91,11 @@
       <texPath>WVC/Implants/Heart</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
-    <defName>WVC_TortureBionic_Kidney_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+    <defName>WVC_TortureBionic_Kidney_AddedPart</defName>
     <label>torture bionic kidney</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Kidney_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>13</Plasteel>
@@ -104,11 +104,11 @@
       <texPath>WVC/Implants/Kidney</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
-    <defName>WVC_TortureBionic_Liver_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+    <defName>WVC_TortureBionic_Liver_AddedPart</defName>
     <label>torture bionic liver</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Liver_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>14</Plasteel>
@@ -117,11 +117,11 @@
       <texPath>WVC/Implants/Liver</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
-    <defName>WVC_TortureBionic_Lung_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+    <defName>WVC_TortureBionic_Lung_AddedPart</defName>
     <label>torture bionic lung</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Lung_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -130,11 +130,11 @@
       <texPath>WVC/Implants/Lung</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
-    <defName>WVC_TortureBionic_Shoulder_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+    <defName>WVC_TortureBionic_Shoulder_AddedPart</defName>
     <label>torture bionic arm</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Shoulder_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>17</Plasteel>
@@ -143,11 +143,11 @@
       <texPath>WVC/Implants/Arm</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_TortureBionic">
-    <defName>WVC_TortureBionic_Leg_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic">
+    <defName>WVC_TortureBionic_Leg_AddedPart</defName>
     <label>torture bionic leg</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_TortureBionic_Leg_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_TortureBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>18</Plasteel>

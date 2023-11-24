@@ -13,6 +13,8 @@
 	  <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
 	  <color>(65,69,65)</color>
+	  <drawRotated>false</drawRotated>
+	  <allowFlip>false</allowFlip>
 	  <damageData>
 		<rectN>(0.125,0.296875,0.734375,0.421875)</rectN>
 		<rectS>(0.125,0.296875,0.734375,0.421875)</rectS>
@@ -67,6 +69,8 @@
 	  <drawSize>(4,4)</drawSize>
 	  <shaderType>CutoutComplex</shaderType>
 	  <color>(65,69,65)</color>
+	  <drawRotated>false</drawRotated>
+	  <allowFlip>false</allowFlip>
 	  <damageData>
 		<cornerTL>Damage/Corner</cornerTL>
 		<cornerTR>Damage/Corner</cornerTR>

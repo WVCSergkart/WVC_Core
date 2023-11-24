@@ -124,6 +124,11 @@ namespace WVC_UltraExpansion
 					hediffDefs.Add(hediffDef);
 					GetFromTemplate_SurgeryDef(bodyPartDef, thingDef, hediffDef, out RecipeDef recipeDef);
 					recipeDefs.Add(recipeDef);
+					if (implantGeneratorDef.generateRemoveRecipe)
+					{
+						GetFromTemplate_SurgeryRemoveDef(thingDef, hediffDef, out RecipeDef recipeDef2);
+						recipeDefs.Add(recipeDef2);
+					}
 				}
 			}
 
@@ -175,7 +180,7 @@ namespace WVC_UltraExpansion
 			public static XElement GenerateThingDefFile(ThingDef def, ImplantGeneratorDef generatorDef)
 			{
 				// XElement xElement = new("ThingDef" + " ParentNameTag", new XElement("defName", def.defName), new XElement("label", def.label), new XElement("description", def.description), new XElement("descriptionHyperlinks", def.descriptionHyperlinks), new XElement("techLevel", def.techLevel), new XElement("thingCategories", def.thingCategories), new XElement("graphicData", def.graphicData), new XElement("costList", def.costList), new XElement("stackLimit", def.stackLimit), new XElement("statBases", def.statBases), new XElement("tradeTags"), new XElement("techHediffsTags"), new XElement("thingSetMakerTags"), new XElement("thingClass", def.thingClass), new XElement("category", def.category), new XElement("drawerType", def.drawerType), new XElement("altitudeLayer", def.altitudeLayer), new XElement("tickerType", def.tickerType), new XElement("modExtensions", def.modExtensions), new XElement("comps", def.comps), new XElement("pathCost", def.pathCost), new XElement("allowedArchonexusCount", def.allowedArchonexusCount), new XElement("isTechHediff", def.isTechHediff), new XElement("alwaysHaulable", def.alwaysHaulable), new XElement("selectable", def.selectable), new XElement("useHitPoints", def.useHitPoints), new XElement("drawGUIOverlay", def.drawGUIOverlay));
-				XElement xElement = new("ThingDef", new XAttribute("ParentName", "WVC_Ultra_ImplantThingDef_" + generatorDef.defName), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("descriptionHyperlinks"), new XElement("costList"), new XElement("graphicData"));
+				XElement xElement = new("ThingDef", new XAttribute("ParentName", "WVC_Ultra_" + generatorDef.inNameTag + "ThingDef_" + generatorDef.defName), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("descriptionHyperlinks"), new XElement("costList"), new XElement("graphicData"));
 				// XElement tradeTags = xElement.Element("tradeTags");
 				// foreach (var i in def.tradeTags)
 				// {
@@ -239,7 +244,7 @@ namespace WVC_UltraExpansion
 
 				thingDef = new()
 				{
-					defName = implantGeneratorDef.defName + "_" + def.defName + "_Ultra",
+					defName = implantGeneratorDef.defName + "_" + def.defName + "_" + implantGeneratorDef.inNameTag,
 					label = implantGeneratorDef.label.Formatted(def.label),
 					// description = implantGeneratorDef.description.Formatted(def.label),
 					descriptionHyperlinks = new(),
@@ -349,7 +354,7 @@ namespace WVC_UltraExpansion
 
 			public static XElement GenerateHediffDefFile(HediffDef def, ImplantGeneratorDef generatorDef)
 			{
-				XElement xElement = new("HediffDef", new XAttribute("ParentName", "WVC_Ultra_ImplantHediffDef_" + generatorDef.defName), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("descriptionHyperlinks"), new XElement("spawnThingOnRemoved", def.spawnThingOnRemoved.defName), new XElement("stages"), new XElement("comps"), new XElement("eyeGraphicEast"), new XElement("eyeGraphicSouth"), new XElement("addedPartProps"));
+				XElement xElement = new("HediffDef", new XAttribute("ParentName", "WVC_Ultra_" + generatorDef.inNameTag + "HediffDef_" + generatorDef.defName), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("descriptionHyperlinks"), new XElement("spawnThingOnRemoved", def.spawnThingOnRemoved.defName), new XElement("stages"), new XElement("comps"));
 				XElement descriptionHyperlinks = xElement.Element("descriptionHyperlinks");
 				// Log.Error("1");
 				foreach (var i in def.descriptionHyperlinks)
@@ -371,9 +376,8 @@ namespace WVC_UltraExpansion
 				if (def.eyeGraphicEast != null)
 				{
 					// XElement hediffDef = xElement.Element("HediffDef");
-					// hediffDef.Add(new XElement("eyeGraphicEast"));
+					xElement.Add(new XElement("eyeGraphicEast"));
 
-					// XElement eyeGraphicEast = hediffDef.Element("eyeGraphicEast");
 					XElement eyeGraphicEast = xElement.Element("eyeGraphicEast");
 
 					eyeGraphicEast.Add(new XElement("graphicClass", def.eyeGraphicEast.graphicClass));
@@ -383,9 +387,8 @@ namespace WVC_UltraExpansion
 				if (def.eyeGraphicSouth != null)
 				{
 					// XElement hediffDef = xElement.Element("HediffDef");
-					// hediffDef.Add(new XElement("eyeGraphicSouth"));
+					xElement.Add(new XElement("eyeGraphicSouth"));
 
-					// XElement eyeGraphicSouth = hediffDef.Element("eyeGraphicSouth");
 					XElement eyeGraphicSouth = xElement.Element("eyeGraphicSouth");
 
 					eyeGraphicSouth.Add(new XElement("graphicClass", def.eyeGraphicSouth.graphicClass));
@@ -394,6 +397,8 @@ namespace WVC_UltraExpansion
 				// Log.Error("partEfficiency");
 				if (def.addedPartProps != null && def.addedPartProps.partEfficiency != 1f)
 				{
+					// XElement hediffDef = xElement.Element("HediffDef");
+					xElement.Add(new XElement("addedPartProps"));
 					XElement addedPartProp = xElement.Element("addedPartProps");
 					addedPartProp.Add(new XElement("partEfficiency", def.addedPartProps.partEfficiency));
 				}
@@ -607,12 +612,12 @@ namespace WVC_UltraExpansion
 
 			public static XElement GenerateSurgeryDefFile(RecipeDef def, ImplantGeneratorDef generatorDef)
 			{
-				// string surgeryName = "WVC_Ultra_ImplantSurgeryDef_Base";
-				// if (def.defName.Contains("Animal"))
-				// {
-					// surgeryName = "WVC_Ultra_ImplantSurgeryDef_Animals";
-				// }
-				XElement xElement = new("RecipeDef", new XAttribute("ParentName", "WVC_Ultra_ImplantSurgeryDef_" + generatorDef.surgeryTag), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("description", def.description), new XElement("jobString", def.jobString), new XElement("descriptionHyperlinks"), new XElement("appliedOnFixedBodyParts"), new XElement("addsHediff", def.addsHediff.defName), new XElement("ingredients"), new XElement("fixedIngredientFilter"));
+				string surgeryName = "SurgeryDef";
+				if (def.removesHediff != null)
+				{
+					surgeryName = "SurgeryRemoveDef";
+				}
+				XElement xElement = new("RecipeDef", new XAttribute("ParentName", "WVC_Ultra_" + generatorDef.inNameTag + surgeryName + "_" + generatorDef.surgeryTag), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("description", def.description), new XElement("jobString", def.jobString), new XElement("descriptionHyperlinks"));
 				XElement descriptionHyperlinks = xElement.Element("descriptionHyperlinks");
 				foreach (var i in def.descriptionHyperlinks)
 				{
@@ -629,26 +634,43 @@ namespace WVC_UltraExpansion
 						descriptionHyperlinks.Add(new XElement("HediffDef", i.def.defName));
 					}
 				}
-				XElement appliedOnFixedBodyParts = xElement.Element("appliedOnFixedBodyParts");
-				foreach (var i in def.appliedOnFixedBodyParts)
+				if (def.addsHediff != null)
 				{
-					appliedOnFixedBodyParts.Add(new XElement("li", i.defName));
+					xElement.Add(new XElement("addsHediff", def.addsHediff.defName));
 				}
-				XElement ingredients = xElement.Element("ingredients");
-				XElement fixedIngredientFilter = xElement.Element("fixedIngredientFilter");
-				foreach (var ingredient in def.ingredients)
+				if (def.removesHediff != null)
 				{
-					ingredients.Add(new XElement("li"));
-					XElement li = ingredients.Element("li");
-					li.Add(new XElement("filter"));
-					XElement filter = li.Element("filter");
-					filter.Add(new XElement("thingDefs"));
-					XElement filterDefs = filter.Element("thingDefs");
-					filterDefs.Add(new XElement("li", ingredient.FixedIngredient.defName));
+					xElement.Add(new XElement("removesHediff", def.removesHediff.defName));
+				}
+				if (def.appliedOnFixedBodyParts != null)
+				{
+					xElement.Add(new XElement("appliedOnFixedBodyParts"));
+					XElement appliedOnFixedBodyParts = xElement.Element("appliedOnFixedBodyParts");
+					foreach (var i in def.appliedOnFixedBodyParts)
+					{
+						appliedOnFixedBodyParts.Add(new XElement("li", i.defName));
+					}
+				}
+				if (def.ingredients != null)
+				{
+					xElement.Add(new XElement("ingredients"));
+					xElement.Add(new XElement("fixedIngredientFilter"));
+					XElement ingredients = xElement.Element("ingredients");
+					XElement fixedIngredientFilter = xElement.Element("fixedIngredientFilter");
+					foreach (var ingredient in def.ingredients)
+					{
+						ingredients.Add(new XElement("li"));
+						XElement li = ingredients.Element("li");
+						li.Add(new XElement("filter"));
+						XElement filter = li.Element("filter");
+						filter.Add(new XElement("thingDefs"));
+						XElement filterDefs = filter.Element("thingDefs");
+						filterDefs.Add(new XElement("li", ingredient.FixedIngredient.defName));
 
-					fixedIngredientFilter.Add(new XElement("thingDefs"));
-					XElement fixedIngredientFilterli = fixedIngredientFilter.Element("thingDefs");
-					fixedIngredientFilterli.Add(new XElement("li", ingredient.FixedIngredient.defName));
+						fixedIngredientFilter.Add(new XElement("thingDefs"));
+						XElement fixedIngredientFilterli = fixedIngredientFilter.Element("thingDefs");
+						fixedIngredientFilterli.Add(new XElement("li", ingredient.FixedIngredient.defName));
+					}
 				}
 				// string name = "ParentName";
 				// xElement.SetAttributeValue(name, "WVC_Ultra_ImplantSurgeryDef_Base");
@@ -688,6 +710,21 @@ namespace WVC_UltraExpansion
 				hediffDef.descriptionHyperlinks.Add(recipeDef);
 				// PostInitializationDefGenerator.recipeDefs.Add(recipeDef);
 				// return recipeDef;
+			}
+
+			public static void GetFromTemplate_SurgeryRemoveDef(ThingDef thingDef, HediffDef hediffDef, out RecipeDef recipeDef)
+			{
+				recipeDef = new()
+				{
+					defName = "Remove_" + hediffDef.defName,
+					label = "remove" + " " + thingDef.label,
+					description = "remove an" + " " + thingDef.label + ".",
+					jobString = "Removing" + " " + thingDef.label + ".",
+					descriptionHyperlinks = new(),
+					removesHediff = hediffDef,
+				};
+				recipeDef.descriptionHyperlinks.Add(thingDef);
+				recipeDef.descriptionHyperlinks.Add(hediffDef);
 			}
 
 		}

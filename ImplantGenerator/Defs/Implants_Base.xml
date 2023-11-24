@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef Name="WVC_Ultra_ImplantGenerator_NonSolid" Abstract="True">
+	<label>advanced bionic {0}</label>
+	<labelNoun>an advanced bionic {0}</labelNoun>
+	<ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+	<!-- Added at the end of all defNames -->
+	<!-- Hediff_WVC_ArchotechBionic_Eye_AddedPart -->
+	<inNameTag>Implant</inNameTag>
+	<bodyPartDefs>
+	  <!-- <li>Eye</li> -->
+	  <!-- <li>Ear</li> -->
+	  <!-- <li>Jaw</li> -->
+	  <!-- <li>Shoulder</li> -->
+	</bodyPartDefs>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+</Defs>

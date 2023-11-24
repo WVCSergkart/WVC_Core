@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
-    <defName>WVC_OverclockedMechtechBionic_Eye_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Eye_AddedPart</defName>
     <label>overclocked mechtech eye</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Eye_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
@@ -15,11 +15,11 @@
       <texPath>WVC/Implants/Eye</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
-    <defName>WVC_OverclockedMechtechBionic_Ear_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Ear_AddedPart</defName>
     <label>overclocked mechtech ear</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Ear_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>19</Plasteel>
@@ -30,11 +30,11 @@
       <texPath>WVC/Implants/Ear</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
-    <defName>WVC_OverclockedMechtechBionic_Jaw_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Jaw_AddedPart</defName>
     <label>overclocked mechtech jaw</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Jaw_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
@@ -45,11 +45,11 @@
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
-    <defName>WVC_OverclockedMechtechBionic_Nose_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Nose_AddedPart</defName>
     <label>overclocked mechtech nose</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Nose_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>18</Plasteel>
@@ -60,11 +60,11 @@
       <texPath>WVC/Implants/Nose</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
-    <defName>WVC_OverclockedMechtechBionic_Stomach_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Stomach_AddedPart</defName>
     <label>overclocked mechtech stomach</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Stomach_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>22</Plasteel>
@@ -75,11 +75,11 @@
       <texPath>WVC/Implants/Stomach</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
-    <defName>WVC_OverclockedMechtechBionic_Spine_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Spine_AddedPart</defName>
     <label>overclocked mechtech spine</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Spine_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>27</Plasteel>
@@ -90,11 +90,11 @@
       <texPath>WVC/Implants/Spine</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
-    <defName>WVC_OverclockedMechtechBionic_Heart_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Heart_AddedPart</defName>
     <label>overclocked mechtech heart</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Heart_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>25</Plasteel>
@@ -105,11 +105,11 @@
       <texPath>WVC/Implants/Heart</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
-    <defName>WVC_OverclockedMechtechBionic_Kidney_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Kidney_AddedPart</defName>
     <label>overclocked mechtech kidney</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Kidney_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>25</Plasteel>
@@ -120,11 +120,11 @@
       <texPath>WVC/Implants/Kidney</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
-    <defName>WVC_OverclockedMechtechBionic_Liver_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Liver_AddedPart</defName>
     <label>overclocked mechtech liver</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Liver_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
@@ -135,11 +135,11 @@
       <texPath>WVC/Implants/Liver</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
-    <defName>WVC_OverclockedMechtechBionic_Lung_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Lung_AddedPart</defName>
     <label>overclocked mechtech lung</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Lung_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>22</Plasteel>
@@ -150,11 +150,11 @@
       <texPath>WVC/Implants/Lung</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
-    <defName>WVC_OverclockedMechtechBionic_Shoulder_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Shoulder_AddedPart</defName>
     <label>overclocked mechtech arm</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Shoulder_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>26</Plasteel>
@@ -165,11 +165,11 @@
       <texPath>WVC/Implants/Arm</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic">
-    <defName>WVC_OverclockedMechtechBionic_Leg_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Leg_AddedPart</defName>
     <label>overclocked mechtech leg</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Leg_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_OverclockedMechtechBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>25</Plasteel>

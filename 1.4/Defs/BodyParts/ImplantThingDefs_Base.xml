@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="WVC_Ultra_ThingDefImplants_Base" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
+	<description>Implant created using high technology.</description>
+	<techLevel>Ultra</techLevel>
+	<graphicData>
+	  <texPath>WVC/Implants/Tech</texPath>
+	</graphicData>
+	<costList>
+	  <ComponentSpacer>4</ComponentSpacer>
+	</costList>
+	<recipeMaker>
+	  <skillRequirements>
+		<Crafting>8</Crafting>
+		<Intellectual>8</Intellectual>
+	  </skillRequirements>
+	  <researchPrerequisites>
+	  </researchPrerequisites>
+	  <recipeUsers>
+	  </recipeUsers>
+	</recipeMaker>
+	<statBases>
+	  <WorkToMake>15000</WorkToMake>
+	  <!-- <MarketValue>1100</MarketValue> -->
+	  <!-- <DeteriorationRate>0.1</DeteriorationRate> -->
+	</statBases>
+	<tradeTags>
+	  <!-- <li>Bionic</li> -->
+	</tradeTags>
+  </ThingDef>
+
+  <!-- ================================== Tier 1 ================================== -->
+
+  <!-- ================================== Tier 2 ================================== -->
+
+  <!-- ================================== Tier 3 ================================== -->
+
+  <!-- ================================== Tier 4 ================================== -->
+
+
+</Defs>

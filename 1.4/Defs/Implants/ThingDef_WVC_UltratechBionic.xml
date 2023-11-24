@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
-    <defName>WVC_UltratechBionic_Eye_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Eye_AddedPart</defName>
     <label>ultratech eye</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Eye_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -14,11 +14,11 @@
       <texPath>WVC/Implants/Eye</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
-    <defName>WVC_UltratechBionic_Ear_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Ear_AddedPart</defName>
     <label>ultratech ear</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Ear_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -28,11 +28,11 @@
       <texPath>WVC/Implants/Ear</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
-    <defName>WVC_UltratechBionic_Jaw_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Jaw_AddedPart</defName>
     <label>ultratech jaw</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Jaw_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>13</Plasteel>
@@ -42,11 +42,11 @@
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
-    <defName>WVC_UltratechBionic_Nose_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Nose_AddedPart</defName>
     <label>ultratech nose</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Nose_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -56,11 +56,11 @@
       <texPath>WVC/Implants/Nose</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
-    <defName>WVC_UltratechBionic_Stomach_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Stomach_AddedPart</defName>
     <label>ultratech stomach</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Stomach_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>18</Plasteel>
@@ -70,11 +70,11 @@
       <texPath>WVC/Implants/Stomach</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
-    <defName>WVC_UltratechBionic_Spine_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Spine_AddedPart</defName>
     <label>ultratech spine</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Spine_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
@@ -84,11 +84,11 @@
       <texPath>WVC/Implants/Spine</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
-    <defName>WVC_UltratechBionic_Heart_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Heart_AddedPart</defName>
     <label>ultratech heart</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Heart_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -98,11 +98,11 @@
       <texPath>WVC/Implants/Heart</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
-    <defName>WVC_UltratechBionic_Kidney_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Kidney_AddedPart</defName>
     <label>ultratech kidney</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Kidney_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>13</Plasteel>
@@ -112,11 +112,11 @@
       <texPath>WVC/Implants/Kidney</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
-    <defName>WVC_UltratechBionic_Liver_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Liver_AddedPart</defName>
     <label>ultratech liver</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Liver_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>14</Plasteel>
@@ -126,11 +126,11 @@
       <texPath>WVC/Implants/Liver</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
-    <defName>WVC_UltratechBionic_Lung_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Lung_AddedPart</defName>
     <label>ultratech lung</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Lung_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
@@ -140,11 +140,11 @@
       <texPath>WVC/Implants/Lung</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
-    <defName>WVC_UltratechBionic_Shoulder_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Shoulder_AddedPart</defName>
     <label>ultratech arm</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Shoulder_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>17</Plasteel>
@@ -154,11 +154,11 @@
       <texPath>WVC/Implants/Arm</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic">
-    <defName>WVC_UltratechBionic_Leg_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechBionic_Leg_AddedPart</defName>
     <label>ultratech leg</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Leg_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_UltratechBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>18</Plasteel>

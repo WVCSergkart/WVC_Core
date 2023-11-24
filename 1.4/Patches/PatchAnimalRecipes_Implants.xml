@@ -3,73 +3,94 @@
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
     <value>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_Eye_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_Ear_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_Nose_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_Stomach_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_Spine_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_Heart_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_Kidney_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_Liver_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_Lung_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_Leg_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_Beak_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_SnakeMouth_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_InsectHeart_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_InsectNostril_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_InsectMouth_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_AnimalJaw_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_Tail_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_Antenna_Ultra</li>
-      <li>Install_Hediff_WVC_CybertechAnimalBionic_InsectLeg_Ultra</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_Eye_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_Ear_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_Nose_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_Stomach_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_Spine_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_Heart_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_Kidney_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_Liver_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_Lung_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_Leg_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_Beak_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_SnakeMouth_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_InsectHeart_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_InsectNostril_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_InsectMouth_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_AnimalJaw_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_Tail_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_Antenna_AddedPart</li>
+      <li>Install_Hediff_WVC_CybertechAnimalBionic_InsectLeg_AddedPart</li>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
     <value>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_Eye_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_Ear_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_Nose_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_Stomach_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_Spine_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_Heart_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_Kidney_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_Liver_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_Lung_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_Leg_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_Beak_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_SnakeMouth_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_InsectHeart_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_InsectNostril_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_InsectMouth_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_AnimalJaw_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_Tail_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_Antenna_Ultra</li>
-      <li>Install_Hediff_WVC_MechtechAnimalBionic_InsectLeg_Ultra</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_Eye_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_Ear_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_Nose_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_Stomach_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_Spine_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_Heart_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_Kidney_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_Liver_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_Lung_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_Leg_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_Beak_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_SnakeMouth_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_InsectHeart_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_InsectNostril_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_InsectMouth_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_AnimalJaw_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_Tail_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_Antenna_AddedPart</li>
+      <li>Install_Hediff_WVC_MechtechAnimalBionic_InsectLeg_AddedPart</li>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
     <value>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_Eye_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_Ear_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_Nose_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_Stomach_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_Spine_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_Heart_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_Kidney_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_Liver_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_Lung_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_Leg_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_Beak_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_SnakeMouth_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_InsectHeart_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_InsectNostril_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_InsectMouth_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_AnimalJaw_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_Tail_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_Antenna_Ultra</li>
-      <li>Install_Hediff_WVC_UltratechAnimalBionic_InsectLeg_Ultra</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_Eye_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_Ear_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_Nose_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_Stomach_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_Spine_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_Heart_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_Kidney_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_Liver_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_Lung_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_Leg_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_Beak_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_SnakeMouth_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_InsectHeart_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_InsectNostril_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_InsectMouth_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_AnimalJaw_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_Tail_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_Antenna_AddedPart</li>
+      <li>Install_Hediff_WVC_UltratechAnimalBionic_InsectLeg_AddedPart</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
+    <value>
+      <li>Install_Hediff_WVC_CybertechAnimalArmorSkin_Torso_Implant</li>
+      <li>Remove_Hediff_WVC_CybertechAnimalArmorSkin_Torso_Implant</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
+    <value>
+      <li>Install_Hediff_WVC_UltratechAnimalArmorSkin_Torso_Implant</li>
+      <li>Remove_Hediff_WVC_UltratechAnimalArmorSkin_Torso_Implant</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
+    <value>
+      <li>Install_Hediff_WVC_MechtechAnimalArmorSkin_Torso_Implant</li>
+      <li>Remove_Hediff_WVC_MechtechAnimalArmorSkin_Torso_Implant</li>
     </value>
   </Operation>
 </Patch>

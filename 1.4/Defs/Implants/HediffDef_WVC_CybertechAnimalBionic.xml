@@ -1,41 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_Eye_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Eye_AddedPart</defName>
     <label>cybertech animal eye</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Eye_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Eye_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Eye_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Eye_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Eye_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps />
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_Ear_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Ear_AddedPart</defName>
     <label>cybertech animal ear</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Ear_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Ear_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Ear_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Ear_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Ear_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps />
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_Nose_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Nose_AddedPart</defName>
     <label>cybertech animal nose</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Nose_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Nose_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Nose_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Nose_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Nose_AddedPart</spawnThingOnRemoved>
     <stages>
       <li>
         <statOffsets>
@@ -44,110 +38,89 @@
       </li>
     </stages>
     <comps />
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_Stomach_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Stomach_AddedPart</defName>
     <label>cybertech animal stomach</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Stomach_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Stomach_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Stomach_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Stomach_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Stomach_AddedPart</spawnThingOnRemoved>
     <stages>
       <li>
         <foodPoisoningChanceFactor>0.8</foodPoisoningChanceFactor>
       </li>
     </stages>
     <comps />
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_Spine_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Spine_AddedPart</defName>
     <label>cybertech animal spine</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Spine_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Spine_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Spine_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Spine_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Spine_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps />
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_Heart_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Heart_AddedPart</defName>
     <label>cybertech animal heart</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Heart_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Heart_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Heart_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Heart_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Heart_AddedPart</spawnThingOnRemoved>
     <stages>
       <li>
         <totalBleedFactor>0.9</totalBleedFactor>
       </li>
     </stages>
     <comps />
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_Kidney_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Kidney_AddedPart</defName>
     <label>cybertech animal kidney</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Kidney_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Kidney_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Kidney_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Kidney_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Kidney_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps />
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_Liver_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Liver_AddedPart</defName>
     <label>cybertech animal liver</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Liver_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Liver_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Liver_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Liver_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Liver_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps />
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_Lung_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Lung_AddedPart</defName>
     <label>cybertech animal lung</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Lung_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Lung_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Lung_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Lung_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Lung_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps />
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_Leg_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Leg_AddedPart</defName>
     <label>cybertech animal leg</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Leg_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Leg_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Leg_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Leg_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Leg_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -165,18 +138,15 @@
         </tools>
       </li>
     </comps>
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_Beak_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Beak_AddedPart</defName>
     <label>cybertech beak</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Beak_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Beak_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Beak_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Beak_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Beak_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Beak_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -192,18 +162,15 @@
         </tools>
       </li>
     </comps>
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_SnakeMouth_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_SnakeMouth_AddedPart</defName>
     <label>cybertech snake jaw</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_SnakeMouth_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_SnakeMouth_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_SnakeMouth_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_SnakeMouth_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_SnakeMouth_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_SnakeMouth_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -219,50 +186,41 @@
         </tools>
       </li>
     </comps>
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_InsectHeart_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_InsectHeart_AddedPart</defName>
     <label>cybertech insect heart</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_InsectHeart_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectHeart_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_InsectHeart_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectHeart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_InsectHeart_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_InsectHeart_AddedPart</spawnThingOnRemoved>
     <stages>
       <li>
         <totalBleedFactor>0.9</totalBleedFactor>
       </li>
     </stages>
     <comps />
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_InsectNostril_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_InsectNostril_AddedPart</defName>
     <label>cybertech nostril</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_InsectNostril_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectNostril_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_InsectNostril_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectNostril_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_InsectNostril_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_InsectNostril_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps />
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_InsectMouth_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_InsectMouth_AddedPart</defName>
     <label>cybertech insect jaw</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_InsectMouth_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectMouth_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_InsectMouth_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectMouth_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_InsectMouth_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_InsectMouth_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -278,18 +236,15 @@
         </tools>
       </li>
     </comps>
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_AnimalJaw_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_AnimalJaw_AddedPart</defName>
     <label>cybertech animal jaw</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_AnimalJaw_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_AnimalJaw_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_AnimalJaw_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_AnimalJaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_AnimalJaw_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_AnimalJaw_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -305,46 +260,37 @@
         </tools>
       </li>
     </comps>
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_Tail_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Tail_AddedPart</defName>
     <label>cybertech tail</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Tail_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Tail_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Tail_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Tail_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Tail_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Tail_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps />
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_Antenna_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_Antenna_AddedPart</defName>
     <label>cybertech insect antenna</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_Antenna_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Antenna_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_Antenna_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_Antenna_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Antenna_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_Antenna_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps />
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
-  <HediffDef ParentName="WVC_Ultra_ImplantHediffDef_WVC_CybertechAnimalBionic">
-    <defName>Hediff_WVC_CybertechAnimalBionic_InsectLeg_Ultra</defName>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_CybertechAnimalBionic">
+    <defName>Hediff_WVC_CybertechAnimalBionic_InsectLeg_AddedPart</defName>
     <label>cybertech insect leg</label>
     <descriptionHyperlinks>
-      <ThingDef>WVC_CybertechAnimalBionic_InsectLeg_Ultra</ThingDef>
-      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectLeg_Ultra</RecipeDef>
+      <ThingDef>WVC_CybertechAnimalBionic_InsectLeg_AddedPart</ThingDef>
+      <RecipeDef>Install_Hediff_WVC_CybertechAnimalBionic_InsectLeg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
-    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_InsectLeg_Ultra</spawnThingOnRemoved>
+    <spawnThingOnRemoved>WVC_CybertechAnimalBionic_InsectLeg_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -362,8 +308,5 @@
         </tools>
       </li>
     </comps>
-    <eyeGraphicEast />
-    <eyeGraphicSouth />
-    <addedPartProps />
   </HediffDef>
 </Defs>

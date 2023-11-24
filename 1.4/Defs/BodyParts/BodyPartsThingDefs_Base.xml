@@ -67,8 +67,9 @@
 	<graphicData>
 	  <texPath>WVC/Implants/Empty</texPath>
 	  <graphicClass>Graphic_StackCount</graphicClass>
-	  <drawSize>0.95</drawSize>
-	  <color>(165,169,165)</color>
+	  <drawSize>0.80</drawSize>
+	  <!-- <color>(165,169,165)</color> -->
+	  <color>(165,165,165)</color>
 	</graphicData>
 	<stackLimit>3</stackLimit>
 	<drawGUIOverlay>true</drawGUIOverlay>
@@ -106,7 +107,7 @@
 
   <!-- ================================== Tier 1 ================================== -->
 
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_TortureBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
 	<description>Body part created using high technology.</description>
 	<techLevel>Spacer</techLevel>
 	<thingCategories>
@@ -146,7 +147,7 @@
 	</techHediffsTags>
   </ThingDef>
 
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
 	<description>Body part created using high technology.</description>
 	<techLevel>Ultra</techLevel>
 	<thingCategories>
@@ -184,14 +185,14 @@
 	  <!-- <li>Bionic</li> -->
 	</tradeTags>
   </ThingDef>
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_SpecializedCybertechBionic" ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic" Abstract="True">
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_SpecializedCybertechBionic" ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic" Abstract="True">
 	<recipeMaker>
 	  <researchPrerequisites>
 		<li MayRequire="ludeon.rimworld.royalty">SpecializedLimbs</li>
 	  </researchPrerequisites>
 	</recipeMaker>
   </ThingDef>
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalBionic" ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechBionic" Abstract="True">
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_CybertechAnimalBionic" ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic" Abstract="True">
 	<tradeTags Inherit="False">
 	  <li>WVC_UltraAnimalBionic</li>
 	</tradeTags>
@@ -207,7 +208,7 @@
 
   <!-- ================================== Tier 2 ================================== -->
 
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
 	<description>A body part created using ultra technology.</description>
 	<techLevel>Ultra</techLevel>
 	<thingCategories>
@@ -246,7 +247,7 @@
 	  <li>ImplantEmpireRoyal</li>
 	</techHediffsTags>
   </ThingDef>
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalBionic" ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechBionic" Abstract="True">
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic" ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic" Abstract="True">
 	<tradeTags Inherit="False">
 	  <li>WVC_UltraAnimalBionic</li>
 	</tradeTags>
@@ -260,7 +261,7 @@
 	</recipeMaker>
   </ThingDef>
 
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_MechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_MechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
 	<description>A body part created using mecha technology. Does not require anesthesia.</description>
 	<techLevel>Ultra</techLevel>
 	<thingCategories>
@@ -300,7 +301,7 @@
 	  <li>ImplantEmpireRoyal</li>
 	</techHediffsTags>
   </ThingDef>
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalBionic" ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechBionic" Abstract="True">
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic" ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechBionic" Abstract="True">
 	<tradeTags Inherit="False">
 	  <li>WVC_UltraAnimalBionic</li>
 	</tradeTags>
@@ -361,7 +362,7 @@
 
   <!--=====================================================================-->
 
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_OverclockedMechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_OverclockedMechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
 	<thingCategories>
 	  <li>WVC_BodyPartsNodes_Blue</li>
 	</thingCategories>
@@ -376,7 +377,7 @@
 	</recipeMaker>
   </ThingDef>
 
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_RecoveryMechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
 	<thingCategories>
 	  <li>WVC_BodyPartsNodes_Green</li>
 	</thingCategories>
@@ -391,7 +392,7 @@
 	</recipeMaker>
   </ThingDef>
 
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_ArmoredMechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
 	<thingCategories>
 	  <li>WVC_BodyPartsNodes_Red</li>
 	</thingCategories>
@@ -406,7 +407,7 @@
 	</recipeMaker>
   </ThingDef>
 
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_ToughMechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_ToughMechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
 	<thingCategories>
 	  <li>WVC_BodyPartsNodes_Violet</li>
 	</thingCategories>
@@ -422,7 +423,7 @@
 	</recipeMaker>
   </ThingDef>
 
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_PsychicMechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
 	<thingCategories>
 	  <li>WVC_BodyPartsNodes_Yellow</li>
 	</thingCategories>
@@ -439,7 +440,7 @@
 
   <!-- ================================== Tier 4 ================================== -->
 
-  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_ArchotechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
 	<thingCategories>
 	  <li>WVC_BodyPartsNodes_Archotech</li>
 	</thingCategories>

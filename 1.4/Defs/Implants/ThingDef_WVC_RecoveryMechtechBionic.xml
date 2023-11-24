@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
-    <defName>WVC_RecoveryMechtechBionic_Eye_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Eye_AddedPart</defName>
     <label>recovery mechtech eye</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Eye_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
@@ -15,11 +15,11 @@
       <texPath>WVC/Implants/Eye</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
-    <defName>WVC_RecoveryMechtechBionic_Ear_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Ear_AddedPart</defName>
     <label>recovery mechtech ear</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Ear_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>19</Plasteel>
@@ -30,11 +30,11 @@
       <texPath>WVC/Implants/Ear</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
-    <defName>WVC_RecoveryMechtechBionic_Jaw_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Jaw_AddedPart</defName>
     <label>recovery mechtech jaw</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Jaw_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
@@ -45,11 +45,11 @@
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
-    <defName>WVC_RecoveryMechtechBionic_Nose_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Nose_AddedPart</defName>
     <label>recovery mechtech nose</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Nose_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>18</Plasteel>
@@ -60,11 +60,11 @@
       <texPath>WVC/Implants/Nose</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
-    <defName>WVC_RecoveryMechtechBionic_Stomach_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Stomach_AddedPart</defName>
     <label>recovery mechtech stomach</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Stomach_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>22</Plasteel>
@@ -75,11 +75,11 @@
       <texPath>WVC/Implants/Stomach</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
-    <defName>WVC_RecoveryMechtechBionic_Spine_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Spine_AddedPart</defName>
     <label>recovery mechtech spine</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Spine_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>27</Plasteel>
@@ -90,11 +90,11 @@
       <texPath>WVC/Implants/Spine</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
-    <defName>WVC_RecoveryMechtechBionic_Heart_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Heart_AddedPart</defName>
     <label>recovery mechtech heart</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Heart_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>25</Plasteel>
@@ -105,11 +105,11 @@
       <texPath>WVC/Implants/Heart</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
-    <defName>WVC_RecoveryMechtechBionic_Kidney_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Kidney_AddedPart</defName>
     <label>recovery mechtech kidney</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Kidney_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>25</Plasteel>
@@ -120,11 +120,11 @@
       <texPath>WVC/Implants/Kidney</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
-    <defName>WVC_RecoveryMechtechBionic_Liver_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Liver_AddedPart</defName>
     <label>recovery mechtech liver</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Liver_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>20</Plasteel>
@@ -135,11 +135,11 @@
       <texPath>WVC/Implants/Liver</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
-    <defName>WVC_RecoveryMechtechBionic_Lung_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Lung_AddedPart</defName>
     <label>recovery mechtech lung</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Lung_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>22</Plasteel>
@@ -150,11 +150,11 @@
       <texPath>WVC/Implants/Lung</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
-    <defName>WVC_RecoveryMechtechBionic_Shoulder_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Shoulder_AddedPart</defName>
     <label>recovery mechtech arm</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Shoulder_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>26</Plasteel>
@@ -165,11 +165,11 @@
       <texPath>WVC/Implants/Arm</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_RecoveryMechtechBionic">
-    <defName>WVC_RecoveryMechtechBionic_Leg_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_RecoveryMechtechBionic">
+    <defName>WVC_RecoveryMechtechBionic_Leg_AddedPart</defName>
     <label>recovery mechtech leg</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Leg_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_RecoveryMechtechBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>25</Plasteel>

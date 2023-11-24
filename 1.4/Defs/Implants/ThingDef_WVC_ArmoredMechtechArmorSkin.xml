@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechArmorSkin">
+    <defName>WVC_ArmoredMechtechArmorSkin_Torso_Implant</defName>
+    <label>ar-mechskin gland</label>
+    <descriptionHyperlinks>
+      <RecipeDef>Install_Hediff_WVC_ArmoredMechtechArmorSkin_Torso_Implant</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>40</Plasteel>
+      <Uranium>40</Uranium>
+    </costList>
+    <graphicData />
+  </ThingDef>
+</Defs>

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_SpecializedCybertechBionic">
-    <defName>WVC_SpecializedCybertechBionic_Eye_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_SpecializedCybertechBionic">
+    <defName>WVC_SpecializedCybertechBionic_Eye_AddedPart</defName>
     <label>cybertech blind eye</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Eye_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -13,11 +13,11 @@
       <texPath>WVC/Implants/Eye</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_SpecializedCybertechBionic">
-    <defName>WVC_SpecializedCybertechBionic_Ear_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_SpecializedCybertechBionic">
+    <defName>WVC_SpecializedCybertechBionic_Ear_AddedPart</defName>
     <label>cybertech deaf ear</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Ear_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>12</Plasteel>
@@ -26,11 +26,11 @@
       <texPath>WVC/Implants/Ear</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_SpecializedCybertechBionic">
-    <defName>WVC_SpecializedCybertechBionic_Jaw_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_SpecializedCybertechBionic">
+    <defName>WVC_SpecializedCybertechBionic_Jaw_AddedPart</defName>
     <label>cybertech silent jaw</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Jaw_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>13</Plasteel>
@@ -39,11 +39,11 @@
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
   </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_SpecializedCybertechBionic">
-    <defName>WVC_SpecializedCybertechBionic_Shoulder_Ultra</defName>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_SpecializedCybertechBionic">
+    <defName>WVC_SpecializedCybertechBionic_Shoulder_AddedPart</defName>
     <label>cybertech drill arm</label>
     <descriptionHyperlinks>
-      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Shoulder_Ultra</RecipeDef>
+      <RecipeDef>Install_Hediff_WVC_SpecializedCybertechBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
       <Plasteel>19</Plasteel>
