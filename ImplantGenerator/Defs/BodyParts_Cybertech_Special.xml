@@ -71,6 +71,7 @@
 				</capacities>
 				<power>15</power>
 				<cooldownTime>2.0</cooldownTime>
+				<chanceFactor>0.07</chanceFactor>
 			  </li>
 			</tools>
 		  </li>

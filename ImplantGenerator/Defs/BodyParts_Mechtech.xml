@@ -72,6 +72,7 @@
 				</capacities>
 				<power>15</power>
 				<cooldownTime>2.0</cooldownTime>
+				<chanceFactor>0.07</chanceFactor>
 			  </li>
 			</tools>
 		  </li>
@@ -283,6 +284,7 @@
 				</capacities>
 				<power>14</power>
 				<cooldownTime>2</cooldownTime>
+				<chanceFactor>0.33</chanceFactor>
 				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
 				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
 			  </li>

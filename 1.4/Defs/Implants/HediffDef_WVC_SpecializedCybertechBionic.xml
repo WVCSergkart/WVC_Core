@@ -71,8 +71,9 @@
             <capacities>
               <li>Bite</li>
             </capacities>
-            <power>15</power>
             <cooldownTime>2</cooldownTime>
+            <power>15</power>
+            <chanceFactor>0.07</chanceFactor>
           </li>
         </tools>
       </li>
@@ -104,8 +105,9 @@
             <capacities>
               <li>Stab</li>
             </capacities>
-            <power>13</power>
             <cooldownTime>2</cooldownTime>
+            <power>13</power>
+            <chanceFactor>1</chanceFactor>
             <soundMeleeHit>MeleeHit_DrillArm</soundMeleeHit>
             <soundMeleeMiss>MeleeMiss_DrillArm</soundMeleeMiss>
           </li>

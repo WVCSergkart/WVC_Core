@@ -472,6 +472,14 @@ namespace WVC_UltraExpansion
 						{
 							li.Add(new XElement("totalBleedFactor", stage.totalBleedFactor));
 						}
+						if (stage.painOffset != 0f)
+						{
+							li.Add(new XElement("painOffset", stage.painOffset));
+						}
+						if (stage.painFactor != 1f)
+						{
+							li.Add(new XElement("painFactor", stage.painFactor));
+						}
 					}
 				}
 				// Log.Error("Comps");
@@ -500,12 +508,16 @@ namespace WVC_UltraExpansion
 							tools_li.Add(new XElement("capacities"));
 							XElement capacities = tools_li.Element("capacities");
 							// Log.Error("5");
-							foreach (var capacitie in tool.capacities)
+							if (!tool.capacities.NullOrEmpty())
 							{
-								capacities.Add(new XElement("li", capacitie));
+								foreach (var capacitie in tool.capacities)
+								{
+									capacities.Add(new XElement("li", capacitie));
+								}
 							}
-							tools_li.Add(new XElement("power", tool.power));
 							tools_li.Add(new XElement("cooldownTime", tool.cooldownTime));
+							tools_li.Add(new XElement("power", tool.power));
+							tools_li.Add(new XElement("chanceFactor", tool.chanceFactor));
 							if (tool.soundMeleeHit != null)
 							{
 								tools_li.Add(new XElement("soundMeleeHit", tool.soundMeleeHit));

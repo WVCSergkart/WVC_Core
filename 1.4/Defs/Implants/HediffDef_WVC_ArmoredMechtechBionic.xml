@@ -81,8 +81,9 @@
             <capacities>
               <li>Bite</li>
             </capacities>
-            <power>15</power>
             <cooldownTime>1.5</cooldownTime>
+            <power>15</power>
+            <chanceFactor>1</chanceFactor>
           </li>
         </tools>
       </li>
@@ -280,8 +281,9 @@
             <capacities>
               <li>Blunt</li>
             </capacities>
-            <power>16</power>
             <cooldownTime>1.5</cooldownTime>
+            <power>16</power>
+            <chanceFactor>1</chanceFactor>
             <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
             <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
           </li>
@@ -317,8 +319,9 @@
             <capacities>
               <li>Blunt</li>
             </capacities>
-            <power>17</power>
             <cooldownTime>1.5</cooldownTime>
+            <power>17</power>
+            <chanceFactor>1</chanceFactor>
             <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
             <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
           </li>
