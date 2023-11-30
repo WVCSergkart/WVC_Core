@@ -138,12 +138,10 @@
 	  <!-- <MarketValue>1100</MarketValue> -->
 	  <!-- <DeteriorationRate>0.3</DeteriorationRate> -->
 	</statBases>
-	<tradeTags>
-	  <!-- <li>Bionic</li> -->
-	</tradeTags>
 	<techHediffsTags Inherit="False">
 	  <li>PainCauser</li>
 	</techHediffsTags>
+	<thingSetMakerTags Inherit="False"/>
   </ThingDef>
 
   <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
