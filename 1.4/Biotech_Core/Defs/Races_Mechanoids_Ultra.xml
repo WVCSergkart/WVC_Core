@@ -81,4 +81,58 @@
 	  </weaponTags>
 	</PawnKindDef>
 
+	<!-- =============== -->
+
+	<ThingDef ParentName="WVC_Ultra_LightAdvancedMechanoid_Base">
+	  <defName>WVC_Ultra_Mech_Huntemor</defName>
+	  <label>huntemor</label>
+	  <description>A small multifunctional mechanoid. Huntemor is built on a modified militor chassis, carries a long-range needle gun and has a built-in shield generator. The armor has been slightly weakened compared to the original chassis, resulting in a slight increase in movement speed. In addition to its weapons, this lightweight robot has basic operating protocols and can hunt and clean.</description>
+	  <statBases>
+		<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.11</ArmorRating_Sharp>
+		<MoveSpeed>4.2</MoveSpeed>
+	  </statBases>
+	  <race>
+		<mechEnabledWorkTypes>
+		  <li>Hunting</li>
+		  <li>Cleaning</li>
+		</mechEnabledWorkTypes>
+	  </race>
+	  <comps>
+		<li Class="CompProperties_Shield">
+			<startingTicksToReset>1500</startingTicksToReset>
+			<minDrawSize>1.4</minDrawSize>
+			<maxDrawSize>1.6</maxDrawSize>
+			<energyLossPerDamage>0.05</energyLossPerDamage>
+			<energyOnReset>4.0</energyOnReset>
+			<blocksRangedWeapons>false</blocksRangedWeapons>
+		</li>
+	  </comps>
+	</ThingDef>
+  
+	<PawnKindDef ParentName="NonCombatLightMechanoidKind">
+	  <defName>WVC_Ultra_Mech_Huntemor</defName>
+	  <label>huntemor</label>
+	  <race>WVC_Ultra_Mech_Huntemor</race>
+	  <combatPower>65</combatPower>
+	  <lifeStages>
+		<li>
+		  <bodyGraphicData>
+			<texPath>WVC/Pawns/UltraMechanoids/UltraMechB</texPath>
+			<maskPath>WVC/Pawns/UltraMechanoids/UltraMechB_mask</maskPath>
+			<shaderType>CutoutWithOverlay</shaderType>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>1.25</drawSize>
+			<shadowData>
+			  <volume>(0.3, 0.4, 0.3)</volume>
+			  <offset>(0,0,-0.25)</offset>
+			</shadowData>
+		  </bodyGraphicData>
+		</li>
+	  </lifeStages>
+	  <weaponTags>
+		<li>MechanoidGunLongRange</li>
+	  </weaponTags>
+	</PawnKindDef>
+
 </Defs>

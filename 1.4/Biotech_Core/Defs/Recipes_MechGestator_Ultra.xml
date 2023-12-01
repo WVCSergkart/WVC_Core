@@ -11,10 +11,18 @@
 	  <li>
 		<filter>
 		  <thingDefs>
-			<li>Plasteel</li>
+			<li>WVC_Ultrasteel</li>
 		  </thingDefs>
 		</filter>
 		<count>75</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>WVC_ComponentMechtech</li>
+		  </thingDefs>
+		</filter>
+		<count>5</count>
 	  </li>
 	  <li>
 		<filter>
@@ -33,14 +41,6 @@
 	<description>Gestate a overclock mechanoid.</description>
 	<researchPrerequisite>WVC_ResearchBodyParts_NodeBlue</researchPrerequisite>
 	<ingredients>
-	  <li>
-		<filter>
-		  <thingDefs>
-			<li>WVC_ComponentMechtech</li>
-		  </thingDefs>
-		</filter>
-		<count>5</count>
-	  </li>
 	</ingredients>
 	<products>
 	  <WVC_Ultra_Mech_Overclock>1</WVC_Ultra_Mech_Overclock>
@@ -50,28 +50,20 @@
 	</descriptionHyperlinks>
   </RecipeDef>
 
-  <!-- <RecipeDef ParentName="WVC_Ultra_LightAdvancedMechanoidRecipe_Base"> -->
-	<!-- <defName>WVC_Mech_Hornad</defName> -->
-	<!-- <label>gestate hornad</label> -->
-	<!-- <description>Gestate a hornad mechanoid.</description> -->
-	<!-- <researchPrerequisite>WVC_ResearchBodyParts_NodeBlue</researchPrerequisite> -->
-	<!-- <ingredients> -->
-	  <!-- <li> -->
-		<!-- <filter> -->
-		  <!-- <thingDefs> -->
-			<!-- <li>Gold</li> -->
-		  <!-- </thingDefs> -->
-		<!-- </filter> -->
-		<!-- <count>25</count> -->
-	  <!-- </li> -->
-	<!-- </ingredients> -->
-	<!-- <products> -->
-	  <!-- <WVC_Mech_Hornad>1</WVC_Mech_Hornad> -->
-	<!-- </products> -->
-	<!-- <descriptionHyperlinks> -->
-	  <!-- <ThingDef>WVC_Mech_Hornad</ThingDef> -->
-	<!-- </descriptionHyperlinks> -->
-  <!-- </RecipeDef> -->
+  <RecipeDef ParentName="WVC_Ultra_LightAdvancedMechanoidRecipe_Base">
+	<defName>WVC_Ultra_Mech_Huntemor</defName>
+	<label>gestate huntemor</label>
+	<description>Gestate a huntemor mechanoid.</description>
+	<researchPrerequisite>WVC_ResearchBodyParts_NodeRed</researchPrerequisite>
+	<ingredients>
+	</ingredients>
+	<products>
+	  <WVC_Ultra_Mech_Huntemor>1</WVC_Ultra_Mech_Huntemor>
+	</products>
+	<descriptionHyperlinks>
+	  <ThingDef>WVC_Ultra_Mech_Huntemor</ThingDef>
+	</descriptionHyperlinks>
+  </RecipeDef>
 
   <!-- <RecipeDef ParentName="WVC_Ultra_LightAdvancedMechanoidRecipe_Base"> -->
 	<!-- <defName>WVC_Mech_Nautil</defName> -->
