@@ -9,7 +9,7 @@
 	<graphicData>
 	  <texPath>WVC/Apparels/ShieldBelt</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
-	  <color>(181,165,153)</color>
+	  <!-- <color>(181,165,153)</color> -->
 	  <!-- <shaderType>CutoutComplex</shaderType> -->
 	</graphicData>
 	<tickerType>Normal</tickerType>
@@ -70,27 +70,27 @@
 	  </tags>
 	  <developmentalStageFilter>Child, Adult</developmentalStageFilter>
 	</apparel>
-	<!-- <colorGenerator Class="ColorGenerator_Options"> -->
-	  <!-- <options> -->
-		<!-- <li> -->
-		  <!-- <weight>10</weight> -->
-		  <!-- <only>(0.33,0.33,0.33,1)</only> -->
-		<!-- </li> -->
-		<!-- <li> -->
-		  <!-- <weight>10</weight> -->
-		  <!-- <only>(0.65,0.65,0.65,1)</only> -->
-		<!-- </li> -->
-		<!-- <li> -->
-		  <!-- <weight>6</weight> -->
-		  <!-- <min>(0.3,0.3,0.3,1)</min> -->
-		  <!-- <max>(0.5,0.5,0.5,1)</max> -->
-		<!-- </li> -->
-		<!-- <li> -->
-		  <!-- <weight>10</weight> -->
-		  <!-- <only>(0.9,0.9,0.9,1)</only> -->
-		<!-- </li> -->
-	  <!-- </options> -->
-	<!-- </colorGenerator> -->
+	<colorGenerator Class="ColorGenerator_Options">
+	  <options>
+		<li>
+		  <weight>10</weight>
+		  <only>(0.33,0.33,0.33,1)</only>
+		</li>
+		<li>
+		  <weight>10</weight>
+		  <only>(0.65,0.65,0.65,1)</only>
+		</li>
+		<li>
+		  <weight>6</weight>
+		  <min>(0.3,0.3,0.3,1)</min>
+		  <max>(0.5,0.5,0.5,1)</max>
+		</li>
+		<li>
+		  <weight>10</weight>
+		  <only>(0.9,0.9,0.9,1)</only>
+		</li>
+	  </options>
+	</colorGenerator>
 	<comps>
 	  <!-- <li Class="CompProperties_Shield" /> -->
 	  <li Class="CompProperties_Shield">
