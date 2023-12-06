@@ -59,23 +59,24 @@
 			<operations>
 
 				<li Class="PatchOperationAdd">
-					  <xpath>Defs/ThingDef[defName="Plant_TreeAnima"]/comps</xpath>
-					  <value>
-						  <li Class="WVC_UltraExpansion.CompProperties_Spawner">
-							<requiresPower>false</requiresPower>
-							<productDefs>
-							  <li>
-								<productDef>WVC_AnimaSeed</productDef>
-								<productCount>1~2</productCount>
-								<selectionWeight>1.0</selectionWeight>
-							  </li>
-							</productDefs>
-							<ticksUntilSpawn>2400000~4200000</ticksUntilSpawn>
-							<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
-							<showMessageIfOwned>false</showMessageIfOwned>
-							<uniqueTag>AnimaSeed</uniqueTag>
+				  <xpath>Defs/ThingDef[defName="Plant_TreeAnima"]/comps</xpath>
+				  <value>
+					  <li Class="WVC_UltraExpansion.CompProperties_Spawner">
+						<compClass>WVC_UltraExpansion.CompSpawner</compClass>
+						<requiresPower>false</requiresPower>
+						<productDefs>
+						  <li>
+							<productDef>WVC_AnimaSeed</productDef>
+							<productCount>1~2</productCount>
+							<selectionWeight>1.0</selectionWeight>
 						  </li>
-					  </value>
+						</productDefs>
+						<ticksUntilSpawn>2400000~4200000</ticksUntilSpawn>
+						<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+						<showMessageIfOwned>false</showMessageIfOwned>
+						<uniqueTag>AnimaSeed</uniqueTag>
+					  </li>
+				  </value>
 				</li>
 
 			</operations>

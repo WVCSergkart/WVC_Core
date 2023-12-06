@@ -1,4 +1,4 @@
-# WVC_UltraExpansion v1.29.50
+# WVC_UltraExpansion v1.30.07
 
 Pre-release versions require a new game.
 

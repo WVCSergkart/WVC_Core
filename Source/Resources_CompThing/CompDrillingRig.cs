@@ -1,55 +1,19 @@
 using RimWorld;
 using System.Collections.Generic;
+using System.Linq;
 using Verse;
 
 namespace WVC_UltraExpansion
 {
 
-	public class ThingDefByWeight
-	{
-
-		public ThingDef productDef;
-
-		public IntRange productCount = new(1, 1);
-
-		public float selectionWeight = 1.0f;
-
-	}
-
-	public class CompProperties_Spawner : CompProperties
-	{
-		public IntRange ticksUntilSpawn = new(120000, 360000);
-
-		// public List<ThingDef> productDefs;
-
-		public List<ThingDefByWeight> productDefs;
-
-		// public IntRange productCount = new(1, 1);
-
-		public bool writeTimeLeftToSpawn = true;
-
-		public bool requiresPower = false;
-
-		public bool showMessageIfOwned = false;
-
-		public bool spawnForbidden = false;
-
-		public string uniqueTag = "UltraSpawner";
-
-		public string spawnMessage = "MessageCompSpawnerSpawnedItem";
-
-		// public CompProperties_Spawner()
-		// {
-			// compClass = typeof(CompSpawner);
-		// }
-	}
-
-	public class CompSpawner : ThingComp
+	public class CompDrillingRig : ThingComp
 	{
 
 		public int ticksUntilSpawn = 1500;
 
 		public ThingDef productDef;
+
+		private List<ThingDef> cachedProductDefs;
 
 		public int productCount = 1;
 
@@ -63,9 +27,22 @@ namespace WVC_UltraExpansion
 
 		public override void PostSpawnSetup(bool respawningAfterLoad)
 		{
+			CacheMineableStuff();
 			if (!respawningAfterLoad)
 			{
 				Reset();
+			}
+		}
+
+		private void CacheMineableStuff()
+		{
+			cachedProductDefs = new();
+			foreach (ThingDef item in DefDatabase<ThingDef>.AllDefsListForReading)
+			{
+				if (item != null && item.deepCommonality > 0f)
+				{
+					cachedProductDefs.Add(item);
+				}
 			}
 		}
 
@@ -107,27 +84,34 @@ namespace WVC_UltraExpansion
 		{
 			if (productDef == null)
 			{
+				CacheMineableStuff();
 				Reset();
 			}
-			Thing thing = ThingMaker.MakeThing(productDef);
-			thing.stackCount = productCount;
-			GenPlace.TryPlaceThing(thing, parent.Position, parent.Map, ThingPlaceMode.Near, out var lastResultingThing, null, default);
-			if (Props.spawnForbidden || parent.Faction != Faction.OfPlayer)
+			if (productDef == null)
 			{
-				lastResultingThing.SetForbidden(value: true);
+				Log.Error(parent.def.label.CapitalizeFirst() + " " + "mineable stuff is null. This can happen if the chances of ore spawning are too low or zero.");
 			}
-			if (Props.showMessageIfOwned && parent.Faction == Faction.OfPlayer)
+			else
 			{
-				Messages.Message(Props.spawnMessage.Translate(productDef.LabelCap), thing, MessageTypeDefOf.PositiveEvent);
+				Thing thing = ThingMaker.MakeThing(productDef);
+				thing.stackCount = productCount;
+				GenPlace.TryPlaceThing(thing, parent.Position, parent.Map, ThingPlaceMode.Near, out var lastResultingThing, null, default);
+				if (Props.spawnForbidden || parent.Faction != Faction.OfPlayer)
+				{
+					lastResultingThing.SetForbidden(value: true);
+				}
+				if (Props.showMessageIfOwned && parent.Faction == Faction.OfPlayer)
+				{
+					Messages.Message(Props.spawnMessage.Translate(productDef.LabelCap), thing, MessageTypeDefOf.PositiveEvent);
+				}
 			}
 		}
 
 		private void Reset()
 		{
 			ticksUntilSpawn = Props.ticksUntilSpawn.RandomInRange;
-			thingDefByWeight = Props.productDefs.RandomElementByWeight((ThingDefByWeight x) => x.selectionWeight);
-			productDef = thingDefByWeight.productDef;
-			productCount = thingDefByWeight.productCount.RandomInRange;
+			productDef = cachedProductDefs.RandomElementByWeight((ThingDef x) => x.deepCommonality);
+			productCount = productDef.deepCountPerPortion;
 		}
 
 		public override IEnumerable<Gizmo> CompGetGizmosExtra()
@@ -141,6 +125,22 @@ namespace WVC_UltraExpansion
 					{
 						SpawnItems();
 						Reset();
+					}
+				};
+				yield return new Command_Action
+				{
+					defaultLabel = "DEV: Get mineable list",
+					action = delegate
+					{
+						CacheMineableStuff();
+						if (!cachedProductDefs.NullOrEmpty())
+						{
+							Log.Error("Mineable stuff:" + "\n" + cachedProductDefs.Select((ThingDef x) => x.defName).ToLineList(" - "));
+						}
+						else
+						{
+							Log.Error("Mineable stuff is null");
+						}
 					}
 				};
 			}

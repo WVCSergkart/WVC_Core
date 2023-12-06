@@ -6,7 +6,7 @@
   <ThingDef ParentName="WVC_Ultra_SpawnersAndOther_Base">
 	<defName>WVC_UltraniteAssembler</defName>
 	<label>ultranite assembler</label>
-	<description>Underground complex for replication. Slowly produces microscopic machines from literally nothing, but requires a lot of energy.\n\nThis is a complex device, most of which is underground, it requires a special surface.</description>
+	<description>Underground complex for replication. Slowly produces microscopic machines from literally nothing, but requires a lot of energy.</description>
 	<descriptionHyperlinks>
 	  <ThingDef>WVC_UniversalFuel</ThingDef>
 	</descriptionHyperlinks>
@@ -49,15 +49,8 @@
 		<transmitsPower>true</transmitsPower>
 	  </li>
 	  <li Class="CompProperties_Flickable"/>
-	  <!-- <li Class="CompProperties_Spawner"> -->
-		<!-- <requiresPower>true</requiresPower> -->
-		<!-- <thingToSpawn>WVC_UniversalFuel</thingToSpawn> -->
-		<!-- <spawnCount>75</spawnCount> -->
-		<!-- <spawnIntervalRange><min>240000</min><max>540000</max></spawnIntervalRange> -->
-		<!-- <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn> -->
-		<!-- <showMessageIfOwned>false</showMessageIfOwned> -->
-	  <!-- </li> -->
 	  <li Class="WVC_UltraExpansion.CompProperties_Spawner">
+		<compClass>WVC_UltraExpansion.CompSpawner</compClass>
 		<requiresPower>true</requiresPower>
 		<productDefs>
 		  <li>
@@ -68,7 +61,7 @@
 		  <li>
 			<productDef>WVC_MedicineMechtech</productDef>
 			<productCount>1~2</productCount>
-			<selectionWeight>0.08</selectionWeight>
+			<selectionWeight>0.03</selectionWeight>
 		  </li>
 		</productDefs>
 		<!-- <productCount>66~133</productCount> -->
@@ -134,7 +127,7 @@
 	<label>mechtech drilling machine</label>
 	<description>Complex fully automated deep drilling installation. Does not bother insects.
 
-&lt;color=#f5ffa2&gt;Gameplay Effect:&lt;/color&gt; From time to time one of several basic resources will spawn. Steel, plasteel, uranium, silver and gold.</description>
+&lt;color=#f5ffa2&gt;Gameplay Effect:&lt;/color&gt; Acts as an infinite resource spawner that will spawn any deep mineable resources.</description>
 	<descriptionHyperlinks>
 	  <!-- <ThingDef>WVC_ResourceNodes_Blue</ThingDef> -->
 	  <!-- <ThingDef>WVC_ResourceNodes_Green</ThingDef> -->
@@ -202,49 +195,12 @@
 		<!-- <spawnIntervalRange><min>120000</min><max>380000</max></spawnIntervalRange> -->
 	  <!-- </li> -->
 	  <li Class="WVC_UltraExpansion.CompProperties_Spawner">
+		<compClass>WVC_UltraExpansion.CompDrillingRig</compClass>
 		<requiresPower>true</requiresPower>
-		<productDefs>
-		  <li>
-			<productDef>Steel</productDef>
-			<productCount>122~233</productCount>
-			<selectionWeight>0.90</selectionWeight>
-		  </li>
-		  <li>
-			<productDef>Plasteel</productDef>
-			<productCount>66~133</productCount>
-			<selectionWeight>0.66</selectionWeight>
-		  </li>
-		  <li>
-			<productDef>Uranium</productDef>
-			<productCount>66~99</productCount>
-			<selectionWeight>0.33</selectionWeight>
-		  </li>
-		  <li>
-			<productDef>Silver</productDef>
-			<productCount>44~144</productCount>
-			<selectionWeight>0.08</selectionWeight>
-		  </li>
-		  <li>
-			<productDef>Gold</productDef>
-			<productCount>44~144</productCount>
-			<selectionWeight>0.05</selectionWeight>
-		  </li>
-		  <li>
-			<productDef>ComponentIndustrial</productDef>
-			<productCount>8~22</productCount>
-			<selectionWeight>0.001</selectionWeight>
-		  </li>
-		  <li>
-			<productDef>ComponentSpacer</productDef>
-			<productCount>6~15</productCount>
-			<selectionWeight>0.001</selectionWeight>
-		  </li>
-		</productDefs>
-		<!-- <productCount>66~133</productCount> -->
 		<ticksUntilSpawn>240000~540000</ticksUntilSpawn>
 		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
 		<showMessageIfOwned>false</showMessageIfOwned>
-		<uniqueTag>Ultranites</uniqueTag>
+		<uniqueTag>DrillingRig</uniqueTag>
 	  </li>
 	</comps>
 	<rotatable>false</rotatable>
