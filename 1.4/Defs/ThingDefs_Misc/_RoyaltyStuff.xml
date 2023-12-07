@@ -8,6 +8,7 @@
 	<descriptionHyperlinks>
 	  <ThingDef>Plant_TreeAnima</ThingDef>
 	</descriptionHyperlinks>
+	<stackLimit>5</stackLimit>
 	<statBases>
 	  <MaxHitPoints>50</MaxHitPoints>
 	  <Mass>0.3</Mass>

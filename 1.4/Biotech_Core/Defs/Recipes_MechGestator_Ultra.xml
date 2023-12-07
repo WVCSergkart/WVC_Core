@@ -2,6 +2,7 @@
 <Defs>
 
   <RecipeDef Name="WVC_Ultra_LightAdvancedMechanoidRecipe_Base" ParentName="BaseMechanoidRecipe" Abstract="True">
+	<researchPrerequisite>WVC_Ultra_Mechtech</researchPrerequisite>
 	<gestationCycles>6</gestationCycles>
 	<recipeUsers>
 	  <li>MechGestator</li>
@@ -39,7 +40,7 @@
 	<defName>WVC_Ultra_Mech_Overclock</defName>
 	<label>gestate overclock</label>
 	<description>Gestate a overclock mechanoid.</description>
-	<researchPrerequisite>WVC_ResearchBodyParts_NodeBlue</researchPrerequisite>
+	<!-- <researchPrerequisite>WVC_ResearchBodyParts_NodeBlue</researchPrerequisite> -->
 	<ingredients>
 	</ingredients>
 	<products>
@@ -54,7 +55,7 @@
 	<defName>WVC_Ultra_Mech_Huntemor</defName>
 	<label>gestate huntemor</label>
 	<description>Gestate a huntemor mechanoid.</description>
-	<researchPrerequisite>WVC_ResearchBodyParts_NodeRed</researchPrerequisite>
+	<!-- <researchPrerequisite>WVC_ResearchBodyParts_NodeRed</researchPrerequisite> -->
 	<ingredients>
 	</ingredients>
 	<products>

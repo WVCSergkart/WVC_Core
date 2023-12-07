@@ -124,7 +124,7 @@
 
   <ThingDef ParentName="WVC_Ultra_SpawnersAndOther_Base">
 	<defName>WVC_MechtechDrillingMachine</defName>
-	<label>mechtech drilling machine</label>
+	<label>mechtech drilling rig</label>
 	<description>Complex fully automated deep drilling installation. Does not bother insects.
 
 &lt;color=#f5ffa2&gt;Gameplay Effect:&lt;/color&gt; Acts as an infinite resource spawner that will spawn any deep mineable resources.</description>
@@ -185,15 +185,6 @@
 		<basePowerConsumption>2400</basePowerConsumption>
 		<transmitsPower>true</transmitsPower>
 	  </li>
-	  <!-- <li Class="WVC.CompProperties_SpawnerItems"> -->
-		<!-- <approxMarketValuePerDay>5000</approxMarketValuePerDay> -->
-		<!-- <requiresPower>true</requiresPower> -->
-		<!-- <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn> -->
-		<!-- <categories> -->
-		  <!-- <li>WVC_ResourceSubNodes</li> -->
-		<!-- </categories> -->
-		<!-- <spawnIntervalRange><min>120000</min><max>380000</max></spawnIntervalRange> -->
-	  <!-- </li> -->
 	  <li Class="WVC_UltraExpansion.CompProperties_Spawner">
 		<compClass>WVC_UltraExpansion.CompDrillingRig</compClass>
 		<requiresPower>true</requiresPower>
