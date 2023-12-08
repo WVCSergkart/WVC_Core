@@ -12,7 +12,7 @@
 	<heldByFactionCategoryTags>
 	  <li MayRequire="ludeon.rimworld.royalty">Empire</li>
 	  <li>Outlander</li>
-	  <li>Tribal</li>
+	  <!-- <li>Tribal</li> -->
 	</heldByFactionCategoryTags>
 	<tags>
 	  <li>WVC_NodeStart_Base</li>
@@ -38,7 +38,7 @@
 	<heldByFactionCategoryTags>
 	  <li MayRequire="ludeon.rimworld.royalty">Empire</li>
 	  <li>Outlander</li>
-	  <li>Tribal</li>
+	  <!-- <li>Tribal</li> -->
 	</heldByFactionCategoryTags>
 	<hiddenPrerequisites>
 	</hiddenPrerequisites>

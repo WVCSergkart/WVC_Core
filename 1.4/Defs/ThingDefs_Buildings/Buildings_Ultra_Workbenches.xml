@@ -94,7 +94,7 @@
 	  </li>
 	  <li Class="CompProperties_Power">
 		<compClass>CompPowerTrader</compClass>
-		<basePowerConsumption>0</basePowerConsumption>
+		<basePowerConsumption>320</basePowerConsumption>
 		<transmitsPower>true</transmitsPower>
 	  </li>
 	  <!-- <li Class="CompProperties_Flickable"/> -->
