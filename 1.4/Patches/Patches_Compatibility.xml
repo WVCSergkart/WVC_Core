@@ -18,6 +18,16 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/TraderKindDef/stockGenerators[li[thingDef="ComponentSpacer"]]</xpath>
+	  <value>
+		  <li Class="StockGenerator_SingleDef">
+			<thingDef>WVC_ComponentUltratech</thingDef>
+			<countRange>0~2</countRange>
+		  </li>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
 		  <xpath>Defs/InventoryStockGroupDef[defName="Medicine"]/thingDefs</xpath>
 		  <value>
 			<li>WVC_MedicineMechtech</li>
