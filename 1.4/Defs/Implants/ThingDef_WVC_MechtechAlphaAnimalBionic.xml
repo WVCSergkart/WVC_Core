@@ -4,6 +4,7 @@
     <defName>WVC_MechtechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</defName>
     <label>mechtech hydrogen sac</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_MechtechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -17,6 +18,7 @@
     <defName>WVC_MechtechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</defName>
     <label>mechtech jellyfish tentacle</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_MechtechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -32,6 +34,7 @@
     <defName>WVC_MechtechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</defName>
     <label>mechtech alpha jaw</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_MechtechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -47,6 +50,7 @@
     <defName>WVC_MechtechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</defName>
     <label>mechtech small insect leg</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_MechtechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>

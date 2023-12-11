@@ -1,28 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_III" MayRequire="ludeon.rimworld.biotech">
-    <defName>WVC_MechanoidTIIIBionic_SmallMechanicalLeg_AddedPart</defName>
-    <label>tier III small mechanical leg</label>
-    <descriptionHyperlinks />
-    <costList>
-      <Plasteel>18</Plasteel>
-      <Uranium>18</Uranium>
-      <WVC_Ultrasteel>9</WVC_Ultrasteel>
-    </costList>
-    <graphicData />
-    <comps>
-      <li Class="WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget">
-        <jobDef>WVC_Ultra_InstalMechImplant</jobDef>
-        <bodyPart>SmallMechanicalLeg</bodyPart>
-        <hediffDef>WVC_MechanoidTIIIBionic_SmallMechanicalLeg_AddedPart</hediffDef>
-        <moteDef>Mote_ResurrectFlash</moteDef>
-      </li>
-    </comps>
-  </ThingDef>
-  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_III" MayRequire="ludeon.rimworld.biotech">
     <defName>WVC_MechanoidTIIIBionic_SightSensor_AddedPart</defName>
     <label>tier III visual sensor</label>
-    <descriptionHyperlinks />
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechanoidTIIIBionic_SightSensor_AddedPart</HediffDef>
+    </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
       <Uranium>15</Uranium>
@@ -41,7 +24,9 @@
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_III" MayRequire="ludeon.rimworld.biotech">
     <defName>WVC_MechanoidTIIIBionic_HearingSensor_AddedPart</defName>
     <label>tier III sound sensor</label>
-    <descriptionHyperlinks />
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechanoidTIIIBionic_HearingSensor_AddedPart</HediffDef>
+    </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
       <Uranium>15</Uranium>
@@ -58,37 +43,62 @@
     </comps>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_III" MayRequire="ludeon.rimworld.biotech">
-    <defName>WVC_MechanoidTIIIBionic_Reactor_AddedPart</defName>
-    <label>tier III reactor</label>
-    <descriptionHyperlinks />
+    <defName>WVC_MechanoidTIIIBionic_SmellSensor_AddedPart</defName>
+    <label>tier III chemical analyzer</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechanoidTIIIBionic_SmellSensor_AddedPart</HediffDef>
+    </descriptionHyperlinks>
     <costList>
-      <Plasteel>24</Plasteel>
-      <Uranium>24</Uranium>
+      <Plasteel>15</Plasteel>
     </costList>
     <graphicData />
     <comps>
       <li Class="WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget">
         <jobDef>WVC_Ultra_InstalMechImplant</jobDef>
-        <bodyPart>Reactor</bodyPart>
-        <hediffDef>WVC_MechanoidTIIIBionic_Reactor_AddedPart</hediffDef>
+        <bodyPart>SmellSensor</bodyPart>
+        <hediffDef>WVC_MechanoidTIIIBionic_SmellSensor_AddedPart</hediffDef>
         <moteDef>Mote_ResurrectFlash</moteDef>
       </li>
     </comps>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_III" MayRequire="ludeon.rimworld.biotech">
-    <defName>WVC_MechanoidTIIIBionic_FluidReprocessor_AddedPart</defName>
-    <label>tier III fluid reprocessor</label>
-    <descriptionHyperlinks />
+    <defName>WVC_MechanoidTIIIBionic_SmallMechanicalLeg_AddedPart</defName>
+    <label>tier III small mechanical leg</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechanoidTIIIBionic_SmallMechanicalLeg_AddedPart</HediffDef>
+    </descriptionHyperlinks>
     <costList>
-      <Plasteel>24</Plasteel>
-      <Uranium>24</Uranium>
+      <Plasteel>18</Plasteel>
+      <Uranium>18</Uranium>
+      <WVC_Ultrasteel>9</WVC_Ultrasteel>
     </costList>
     <graphicData />
     <comps>
       <li Class="WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget">
         <jobDef>WVC_Ultra_InstalMechImplant</jobDef>
-        <bodyPart>FluidReprocessor</bodyPart>
-        <hediffDef>WVC_MechanoidTIIIBionic_FluidReprocessor_AddedPart</hediffDef>
+        <bodyPart>SmallMechanicalLeg</bodyPart>
+        <hediffDef>WVC_MechanoidTIIIBionic_SmallMechanicalLeg_AddedPart</hediffDef>
+        <moteDef>Mote_ResurrectFlash</moteDef>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_III" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIIIBionic_MechanicalLeg_AddedPart</defName>
+    <label>tier III mechanical leg</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechanoidTIIIBionic_MechanicalLeg_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>22</Uranium>
+      <WVC_Ultrasteel>11</WVC_Ultrasteel>
+    </costList>
+    <graphicData />
+    <comps>
+      <li Class="WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget">
+        <jobDef>WVC_Ultra_InstalMechImplant</jobDef>
+        <bodyPart>MechanicalLeg</bodyPart>
+        <hediffDef>WVC_MechanoidTIIIBionic_MechanicalLeg_AddedPart</hediffDef>
         <moteDef>Mote_ResurrectFlash</moteDef>
       </li>
     </comps>
@@ -96,7 +106,9 @@
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_III" MayRequire="ludeon.rimworld.biotech">
     <defName>WVC_MechanoidTIIIBionic_MechanicalShoulder_AddedPart</defName>
     <label>tier III mechanical arm</label>
-    <descriptionHyperlinks />
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechanoidTIIIBionic_MechanicalShoulder_AddedPart</HediffDef>
+    </descriptionHyperlinks>
     <costList>
       <Plasteel>22</Plasteel>
       <Uranium>22</Uranium>
@@ -113,20 +125,41 @@
     </comps>
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_III" MayRequire="ludeon.rimworld.biotech">
-    <defName>WVC_MechanoidTIIIBionic_MechanicalLeg_AddedPart</defName>
-    <label>tier III mechanical leg</label>
-    <descriptionHyperlinks />
+    <defName>WVC_MechanoidTIIIBionic_FluidReprocessor_AddedPart</defName>
+    <label>tier III fluid reprocessor</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechanoidTIIIBionic_FluidReprocessor_AddedPart</HediffDef>
+    </descriptionHyperlinks>
     <costList>
-      <Plasteel>22</Plasteel>
-      <Uranium>22</Uranium>
-      <WVC_Ultrasteel>11</WVC_Ultrasteel>
+      <Plasteel>24</Plasteel>
+      <Uranium>24</Uranium>
     </costList>
     <graphicData />
     <comps>
       <li Class="WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget">
         <jobDef>WVC_Ultra_InstalMechImplant</jobDef>
-        <bodyPart>MechanicalLeg</bodyPart>
-        <hediffDef>WVC_MechanoidTIIIBionic_MechanicalLeg_AddedPart</hediffDef>
+        <bodyPart>FluidReprocessor</bodyPart>
+        <hediffDef>WVC_MechanoidTIIIBionic_FluidReprocessor_AddedPart</hediffDef>
+        <moteDef>Mote_ResurrectFlash</moteDef>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_III" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIIIBionic_Reactor_AddedPart</defName>
+    <label>tier III reactor</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechanoidTIIIBionic_Reactor_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>24</Plasteel>
+      <Uranium>24</Uranium>
+    </costList>
+    <graphicData />
+    <comps>
+      <li Class="WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget">
+        <jobDef>WVC_Ultra_InstalMechImplant</jobDef>
+        <bodyPart>Reactor</bodyPart>
+        <hediffDef>WVC_MechanoidTIIIBionic_Reactor_AddedPart</hediffDef>
         <moteDef>Mote_ResurrectFlash</moteDef>
       </li>
     </comps>

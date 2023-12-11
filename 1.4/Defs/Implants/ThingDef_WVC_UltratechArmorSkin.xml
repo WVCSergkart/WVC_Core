@@ -4,6 +4,7 @@
     <defName>WVC_UltratechArmorSkin_Torso_Implant</defName>
     <label>ultraskin gland</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_UltratechArmorSkin_Torso_Implant</HediffDef>
       <RecipeDef>Install_WVC_UltratechArmorSkin_Torso_Implant</RecipeDef>
     </descriptionHyperlinks>
     <costList>

@@ -4,6 +4,7 @@
     <defName>WVC_ArmoredMechtechArmorSkin_Torso_Implant</defName>
     <label>armored mechskin gland</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_ArmoredMechtechArmorSkin_Torso_Implant</HediffDef>
       <RecipeDef>Install_WVC_ArmoredMechtechArmorSkin_Torso_Implant</RecipeDef>
     </descriptionHyperlinks>
     <costList>

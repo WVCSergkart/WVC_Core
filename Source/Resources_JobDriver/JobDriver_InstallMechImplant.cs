@@ -26,26 +26,8 @@ namespace WVC_UltraExpansion
 
 	public class CompTargetEffect_InstallImplantInTarget : CompTargetEffect
 	{
-		// public XenotypeDef xenotypeDef = null;
 
 		public CompProperties_TargetEffect_InstallImplantInTarget Props => (CompProperties_TargetEffect_InstallImplantInTarget)props;
-
-		// public override void PostPostMake()
-		// {
-			// base.PostPostMake();
-			// if (xenotypeDef == null)
-			// {
-				// if (Props.xenotypeDef != null)
-				// {
-					// xenotypeDef = Props.xenotypeDef;
-				// }
-				// else
-				// {
-					// List<XenotypeDef> xenotypeDefs = XenotypeFilterUtility.WhiteListedXenotypes(true, true);
-					// xenotypeDef = xenotypeDefs.RandomElement();
-				// }
-			// }
-		// }
 
 		public override void DoEffectOn(Pawn user, Thing target)
 		{
@@ -54,37 +36,14 @@ namespace WVC_UltraExpansion
 				Job job = JobMaker.MakeJob(Props.jobDef, target, parent);
 				job.count = 1;
 				user.jobs.TryTakeOrderedJob(job, JobTag.Misc);
-				// Pawn innerPawn = ((Corpse)target.Thing).InnerPawn;
 			}
 		}
-
-		// public override string TransformLabel(string label)
-		// {
-			// if (xenotypeDef == null)
-			// {
-				// return parent.def.label + " (" + "ERR" + ")";
-			// }
-			// return parent.def.label + " (" + xenotypeDef.label + ")";
-		// }
-
-		// public override void PostExposeData()
-		// {
-			// base.PostExposeData();
-			// Scribe_Defs.Look(ref xenotypeDef, "xenotypeDef");
-		// }
 	}
 
 	public class JobDriver_InstallMechImplant : JobDriver
 	{
-		// private const TargetIndex CorpseInd = TargetIndex.A;
-
-		// private const TargetIndex ItemInd = TargetIndex.B;
-
-		// private const int DurationTicks = 600;
 
 		private Mote warmupMote;
-
-		// private Corpse Corpse => (Corpse)job.GetTarget(TargetIndex.A).Thing;
 
 		private Pawn Pawn => (Pawn)job.GetTarget(TargetIndex.A);
 
@@ -132,12 +91,22 @@ namespace WVC_UltraExpansion
 			{
 				return;
 			}
+			// Try Install In Unoccupied Part
 			List<BodyPartRecord> bodyPartRecords = Pawn.RaceProps.body.GetPartsWithDef(install_comp.Props.bodyPart);
+			for (int i = 0; i < bodyPartRecords.Count; i++)
+			{
+				if (bodyPartRecords[i] != null && MiscUtility.GetFirstHediffOnPart(Pawn.health.hediffSet.hediffs, bodyPartRecords[i]) == null)
+				{
+					MiscUtility.InstallPartTo(Pawn, bodyPartRecords[i], install_comp.Props.hediffDef, install_comp.Props.moteDef, Item);
+					return;
+				}
+			}
+			// Try Install In First Part
 			for (int i = 0; i < bodyPartRecords.Count; i++)
 			{
 				if (bodyPartRecords[i] != null && !Pawn.health.hediffSet.HasHediff(install_comp.Props.hediffDef, bodyPartRecords[i]))
 				{
-					ThingDef oldPart = GetFirstHediffOnPart(Pawn.health.hediffSet.hediffs, bodyPartRecords[i])?.def?.spawnThingOnRemoved;
+					ThingDef oldPart = MiscUtility.GetFirstHediffOnPart(Pawn.health.hediffSet.hediffs, bodyPartRecords[i])?.def?.spawnThingOnRemoved;
 					if (oldPart != null)
 					{
 						Thing thing = ThingMaker.MakeThing(oldPart);
@@ -145,31 +114,10 @@ namespace WVC_UltraExpansion
 						GenPlace.TryPlaceThing(thing, Pawn.Position, Pawn.Map, ThingPlaceMode.Near, out var lastResultingThing, null, default);
 					}
 					// Log.Error(bodyPartRecords[i].Label);
-					Hediff hediff = HediffMaker.MakeHediff(install_comp.Props.hediffDef, Pawn);
-					Pawn.health.AddHediff(hediff, bodyPartRecords[i]);
-					SoundDefOf.MechSerumUsed.PlayOneShot(SoundInfo.InMap(Pawn));
-					ThingDef thingDef = install_comp.Props.moteDef;
-					if (thingDef != null)
-					{
-						MoteMaker.MakeAttachedOverlay(Pawn, thingDef, Vector3.zero);
-					}
-					Item.SplitOff(1).Destroy();
-					Messages.Message("WVC_Ultra_MechImplantInstalled".Translate(install_comp.Props.hediffDef.label.CapitalizeFirst(), Pawn.LabelCap), Pawn, MessageTypeDefOf.PositiveEvent, historical: false);
+					MiscUtility.InstallPartTo(Pawn, bodyPartRecords[i], install_comp.Props.hediffDef, install_comp.Props.moteDef, Item);
 					break;
 				}
 			}
-		}
-
-		public static Hediff GetFirstHediffOnPart(List<Hediff> hediffs, BodyPartRecord part)
-		{
-			for (int i = 0; i < hediffs.Count; i++)
-			{
-				if (hediffs[i].Part == part)
-				{
-					return hediffs[i];
-				}
-			}
-			return null;
 		}
 	}
 

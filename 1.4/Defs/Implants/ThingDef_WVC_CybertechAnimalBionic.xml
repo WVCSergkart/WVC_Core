@@ -4,6 +4,7 @@
     <defName>WVC_CybertechAnimalBionic_Eye_AddedPart</defName>
     <label>cybertech animal eye</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_Eye_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -18,6 +19,7 @@
     <defName>WVC_CybertechAnimalBionic_Ear_AddedPart</defName>
     <label>cybertech animal ear</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_Ear_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -32,6 +34,7 @@
     <defName>WVC_CybertechAnimalBionic_Nose_AddedPart</defName>
     <label>cybertech animal nose</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_Nose_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -46,6 +49,7 @@
     <defName>WVC_CybertechAnimalBionic_Stomach_AddedPart</defName>
     <label>cybertech animal stomach</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_Stomach_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -60,6 +64,7 @@
     <defName>WVC_CybertechAnimalBionic_Spine_AddedPart</defName>
     <label>cybertech animal spine</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_Spine_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -74,6 +79,7 @@
     <defName>WVC_CybertechAnimalBionic_Heart_AddedPart</defName>
     <label>cybertech animal heart</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_Heart_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -88,6 +94,7 @@
     <defName>WVC_CybertechAnimalBionic_Kidney_AddedPart</defName>
     <label>cybertech animal kidney</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_Kidney_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -102,6 +109,7 @@
     <defName>WVC_CybertechAnimalBionic_Liver_AddedPart</defName>
     <label>cybertech animal liver</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_Liver_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -116,6 +124,7 @@
     <defName>WVC_CybertechAnimalBionic_Lung_AddedPart</defName>
     <label>cybertech animal lung</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_Lung_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -130,6 +139,7 @@
     <defName>WVC_CybertechAnimalBionic_Shoulder_AddedPart</defName>
     <label>cybertech animal arm</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_Shoulder_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -144,6 +154,7 @@
     <defName>WVC_CybertechAnimalBionic_Leg_AddedPart</defName>
     <label>cybertech animal leg</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_Leg_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -158,6 +169,7 @@
     <defName>WVC_CybertechAnimalBionic_Trunk_AddedPart</defName>
     <label>cybertech animal trunk</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_Trunk_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_Trunk_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -172,6 +184,7 @@
     <defName>WVC_CybertechAnimalBionic_Beak_AddedPart</defName>
     <label>cybertech bird beak</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_Beak_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_Beak_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -186,6 +199,7 @@
     <defName>WVC_CybertechAnimalBionic_TurtleBeak_AddedPart</defName>
     <label>cybertech turtle beak</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_TurtleBeak_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_TurtleBeak_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -200,6 +214,7 @@
     <defName>WVC_CybertechAnimalBionic_SnakeMouth_AddedPart</defName>
     <label>cybertech snake jaw</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_SnakeMouth_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_SnakeMouth_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -214,6 +229,7 @@
     <defName>WVC_CybertechAnimalBionic_InsectHeart_AddedPart</defName>
     <label>cybertech insect heart</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_InsectHeart_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_InsectHeart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -228,6 +244,7 @@
     <defName>WVC_CybertechAnimalBionic_InsectNostril_AddedPart</defName>
     <label>cybertech insect nostril</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_InsectNostril_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_InsectNostril_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -242,6 +259,7 @@
     <defName>WVC_CybertechAnimalBionic_InsectMouth_AddedPart</defName>
     <label>cybertech insect jaw</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_InsectMouth_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_InsectMouth_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -256,6 +274,7 @@
     <defName>WVC_CybertechAnimalBionic_AnimalJaw_AddedPart</defName>
     <label>cybertech animal jaw</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_AnimalJaw_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_AnimalJaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -270,6 +289,7 @@
     <defName>WVC_CybertechAnimalBionic_Tail_AddedPart</defName>
     <label>cybertech animal tail</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_Tail_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_Tail_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -284,6 +304,7 @@
     <defName>WVC_CybertechAnimalBionic_Antenna_AddedPart</defName>
     <label>cybertech insect antenna</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_Antenna_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_Antenna_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -298,6 +319,7 @@
     <defName>WVC_CybertechAnimalBionic_InsectLeg_AddedPart</defName>
     <label>cybertech insect leg</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAnimalBionic_InsectLeg_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_CybertechAnimalBionic_InsectLeg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>

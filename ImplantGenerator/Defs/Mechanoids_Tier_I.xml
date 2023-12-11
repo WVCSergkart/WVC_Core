@@ -13,6 +13,15 @@
 		<costList>
 		  <Plasteel>15</Plasteel>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<MeleeHitChance>0.05</MeleeHitChance>
+				<MeleeDodgeChance>0.05</MeleeDodgeChance>
+				<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+			</statOffsets>
+		  </li>
+		</stages>
 	  </li>
 	  <!-- = -->
 	  <li>
@@ -20,6 +29,30 @@
 		<costList>
 		  <Plasteel>15</Plasteel>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<MeleeHitChance>0.05</MeleeHitChance>
+				<MeleeDodgeChance>0.05</MeleeDodgeChance>
+				<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>SmellSensor</def>
+		<costList>
+		  <Plasteel>15</Plasteel>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<MeleeHitChance>0.05</MeleeHitChance>
+				<MeleeDodgeChance>0.05</MeleeDodgeChance>
+			</statOffsets>
+		  </li>
+		</stages>
 	  </li>
 	  <!-- = -->
 	  <li>
@@ -28,6 +61,13 @@
 		<costList>
 		  <Plasteel>18</Plasteel>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<MoveSpeed>0.4</MoveSpeed>
+			</statOffsets>
+		  </li>
+		</stages>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
 			<tools>
@@ -52,6 +92,13 @@
 		<costList>
 		  <Plasteel>22</Plasteel>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<MoveSpeed>0.2</MoveSpeed>
+			</statOffsets>
+		  </li>
+		</stages>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
 			<tools>
@@ -76,6 +123,13 @@
 		<costList>
 		  <Plasteel>22</Plasteel>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<MeleeHitChance>0.1</MeleeHitChance>
+			</statOffsets>
+		  </li>
+		</stages>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
 			<tools>
@@ -99,6 +153,13 @@
 		<costList>
 		  <Plasteel>24</Plasteel>
 		</costList>
+		<stages>
+		  <li>
+			<statFactors>
+				<WastepacksPerRecharge>0.90</WastepacksPerRecharge>
+			</statFactors>
+		  </li>
+		</stages>
 	  </li>
 	  <!-- = -->
 	  <li>
@@ -106,6 +167,14 @@
 		<costList>
 		  <Plasteel>24</Plasteel>
 		</costList>
+		<stages>
+		  <li>
+			<statFactors>
+				<MechEnergyUsageFactor>0.90</MechEnergyUsageFactor>
+				<WastepacksPerRecharge>0.80</WastepacksPerRecharge>
+			</statFactors>
+		  </li>
+		</stages>
 	  </li>
 	</changesByPart>
   </WVC_UltraExpansion.ImplantGeneratorDef>

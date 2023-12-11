@@ -11,13 +11,14 @@
 	<installJobDef>WVC_Ultra_InstalMechImplant</installJobDef>
 	<!-- Body Parts -->
 	<bodyPartDefs>
-	  <li>SmallMechanicalLeg</li>
 	  <li>SightSensor</li>
 	  <li>HearingSensor</li>
-	  <li>Reactor</li>
-	  <li>FluidReprocessor</li>
-	  <li>MechanicalShoulder</li>
+	  <li>SmellSensor</li>
+	  <li>SmallMechanicalLeg</li>
 	  <li>MechanicalLeg</li>
+	  <li>MechanicalShoulder</li>
+	  <li>FluidReprocessor</li>
+	  <li>Reactor</li>
 	</bodyPartDefs>
   </WVC_UltraExpansion.ImplantGeneratorDef>
 

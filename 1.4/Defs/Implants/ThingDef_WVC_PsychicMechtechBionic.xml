@@ -4,6 +4,7 @@
     <defName>WVC_PsychicMechtechBionic_Eye_AddedPart</defName>
     <label>psychic mechtech eye</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Eye_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_PsychicMechtechBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -21,6 +22,7 @@
     <defName>WVC_PsychicMechtechBionic_Ear_AddedPart</defName>
     <label>psychic mechtech ear</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Ear_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_PsychicMechtechBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -38,6 +40,7 @@
     <defName>WVC_PsychicMechtechBionic_Jaw_AddedPart</defName>
     <label>psychic mechtech jaw</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Jaw_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_PsychicMechtechBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -55,6 +58,7 @@
     <defName>WVC_PsychicMechtechBionic_Nose_AddedPart</defName>
     <label>psychic mechtech nose</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Nose_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_PsychicMechtechBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -72,6 +76,7 @@
     <defName>WVC_PsychicMechtechBionic_Stomach_AddedPart</defName>
     <label>psychic mechtech stomach</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Stomach_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_PsychicMechtechBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -89,6 +94,7 @@
     <defName>WVC_PsychicMechtechBionic_Spine_AddedPart</defName>
     <label>psychic mechtech spine</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Spine_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_PsychicMechtechBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -106,6 +112,7 @@
     <defName>WVC_PsychicMechtechBionic_Heart_AddedPart</defName>
     <label>psychic mechtech heart</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Heart_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_PsychicMechtechBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -123,6 +130,7 @@
     <defName>WVC_PsychicMechtechBionic_Kidney_AddedPart</defName>
     <label>psychic mechtech kidney</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Kidney_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_PsychicMechtechBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -140,6 +148,7 @@
     <defName>WVC_PsychicMechtechBionic_Liver_AddedPart</defName>
     <label>psychic mechtech liver</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Liver_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_PsychicMechtechBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -157,6 +166,7 @@
     <defName>WVC_PsychicMechtechBionic_Lung_AddedPart</defName>
     <label>psychic mechtech lung</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Lung_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_PsychicMechtechBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -174,6 +184,7 @@
     <defName>WVC_PsychicMechtechBionic_Shoulder_AddedPart</defName>
     <label>psychic mechtech arm</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Shoulder_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_PsychicMechtechBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -191,6 +202,7 @@
     <defName>WVC_PsychicMechtechBionic_Leg_AddedPart</defName>
     <label>psychic mechtech leg</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Leg_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_PsychicMechtechBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>

@@ -4,6 +4,7 @@
     <defName>WVC_MechtechBionic_Eye_AddedPart</defName>
     <label>mechtech eye</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechBionic_Eye_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_MechtechBionic_Eye_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -19,6 +20,7 @@
     <defName>WVC_MechtechBionic_Ear_AddedPart</defName>
     <label>mechtech ear</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechBionic_Ear_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_MechtechBionic_Ear_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -34,6 +36,7 @@
     <defName>WVC_MechtechBionic_Jaw_AddedPart</defName>
     <label>mechtech jaw</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechBionic_Jaw_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_MechtechBionic_Jaw_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -49,6 +52,7 @@
     <defName>WVC_MechtechBionic_Nose_AddedPart</defName>
     <label>mechtech nose</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechBionic_Nose_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_MechtechBionic_Nose_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -64,6 +68,7 @@
     <defName>WVC_MechtechBionic_Stomach_AddedPart</defName>
     <label>mechtech stomach</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechBionic_Stomach_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_MechtechBionic_Stomach_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -79,6 +84,7 @@
     <defName>WVC_MechtechBionic_Spine_AddedPart</defName>
     <label>mechtech spine</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechBionic_Spine_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_MechtechBionic_Spine_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -94,6 +100,7 @@
     <defName>WVC_MechtechBionic_Heart_AddedPart</defName>
     <label>mechtech heart</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechBionic_Heart_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_MechtechBionic_Heart_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -109,6 +116,7 @@
     <defName>WVC_MechtechBionic_Kidney_AddedPart</defName>
     <label>mechtech kidney</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechBionic_Kidney_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_MechtechBionic_Kidney_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -124,6 +132,7 @@
     <defName>WVC_MechtechBionic_Liver_AddedPart</defName>
     <label>mechtech liver</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechBionic_Liver_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_MechtechBionic_Liver_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -139,6 +148,7 @@
     <defName>WVC_MechtechBionic_Lung_AddedPart</defName>
     <label>mechtech lung</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechBionic_Lung_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_MechtechBionic_Lung_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -154,6 +164,7 @@
     <defName>WVC_MechtechBionic_Shoulder_AddedPart</defName>
     <label>mechtech arm</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechBionic_Shoulder_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_MechtechBionic_Shoulder_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>
@@ -169,6 +180,7 @@
     <defName>WVC_MechtechBionic_Leg_AddedPart</defName>
     <label>mechtech leg</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechBionic_Leg_AddedPart</HediffDef>
       <RecipeDef>Install_WVC_MechtechBionic_Leg_AddedPart</RecipeDef>
     </descriptionHyperlinks>
     <costList>

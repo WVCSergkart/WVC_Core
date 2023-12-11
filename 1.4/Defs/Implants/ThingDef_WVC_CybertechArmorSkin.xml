@@ -4,6 +4,7 @@
     <defName>WVC_CybertechArmorSkin_Torso_Implant</defName>
     <label>cyberskin gland</label>
     <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechArmorSkin_Torso_Implant</HediffDef>
       <RecipeDef>Install_WVC_CybertechArmorSkin_Torso_Implant</RecipeDef>
     </descriptionHyperlinks>
     <costList>

@@ -76,6 +76,7 @@
     <Compile Include="Resources_Main\TerrainPatch.cs" />
     <Compile Include="Resources_Main\UltraDefOf.cs" />
     <Compile Include="Resources_Utility\MechanoidsUtility.cs" />
+    <Compile Include="Resources_Utility\MiscUtility.cs" />
     <Compile Include="Resources_XmlGenerator\Templates_Implants.cs" />
     <Compile Include="Resources_XmlGenerator\GeneratorMainUtility.cs" />
   </ItemGroup>

@@ -642,6 +642,7 @@ namespace WVC_UltraExpansion
 					// GetFromTemplate_SurgeryDef(template.surgeryTemplateDef, def, thingDef, hediffDef, implantGeneratorDef);
 				// }
 				hediffDef.descriptionHyperlinks.Add(thingDef);
+				thingDef.descriptionHyperlinks.Add(hediffDef);
 				// PostInitializationDefGenerator.hediffDefs.Add(hediffDef);
 				// return hediffDef;
 			}

@@ -15,6 +15,15 @@
 		  <Uranium>15</Uranium>
 		  <WVC_Ultrasteel>7</WVC_Ultrasteel>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<MeleeHitChance>0.15</MeleeHitChance>
+				<MeleeDodgeChance>0.15</MeleeDodgeChance>
+				<ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+			</statOffsets>
+		  </li>
+		</stages>
 	  </li>
 	  <!-- = -->
 	  <li>
@@ -24,6 +33,30 @@
 		  <Uranium>15</Uranium>
 		  <WVC_Ultrasteel>7</WVC_Ultrasteel>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<MeleeHitChance>0.15</MeleeHitChance>
+				<MeleeDodgeChance>0.15</MeleeDodgeChance>
+				<ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>SmellSensor</def>
+		<costList>
+		  <Plasteel>15</Plasteel>
+		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<MeleeHitChance>0.15</MeleeHitChance>
+				<MeleeDodgeChance>0.15</MeleeDodgeChance>
+			</statOffsets>
+		  </li>
+		</stages>
 	  </li>
 	  <!-- = -->
 	  <li>
@@ -34,6 +67,13 @@
 		  <Uranium>18</Uranium>
 		  <WVC_Ultrasteel>9</WVC_Ultrasteel>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<MoveSpeed>0.8</MoveSpeed>
+			</statOffsets>
+		  </li>
+		</stages>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
 			<tools>
@@ -60,6 +100,13 @@
 		  <Uranium>22</Uranium>
 		  <WVC_Ultrasteel>11</WVC_Ultrasteel>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<MoveSpeed>0.6</MoveSpeed>
+			</statOffsets>
+		  </li>
+		</stages>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
 			<tools>
@@ -86,6 +133,13 @@
 		  <Uranium>22</Uranium>
 		  <WVC_Ultrasteel>11</WVC_Ultrasteel>
 		</costList>
+		<stages>
+		  <li>
+			<statOffsets>
+				<MeleeHitChance>0.3</MeleeHitChance>
+			</statOffsets>
+		  </li>
+		</stages>
 		<comps>
 		  <li Class="HediffCompProperties_VerbGiver">
 			<tools>
@@ -110,6 +164,13 @@
 		  <Plasteel>24</Plasteel>
 		  <Uranium>24</Uranium>
 		</costList>
+		<stages>
+		  <li>
+			<statFactors>
+				<WastepacksPerRecharge>0.80</WastepacksPerRecharge>
+			</statFactors>
+		  </li>
+		</stages>
 	  </li>
 	  <!-- = -->
 	  <li>
@@ -118,6 +179,14 @@
 		  <Plasteel>24</Plasteel>
 		  <Uranium>24</Uranium>
 		</costList>
+		<stages>
+		  <li>
+			<statFactors>
+				<MechEnergyUsageFactor>0.50</MechEnergyUsageFactor>
+				<WastepacksPerRecharge>0.60</WastepacksPerRecharge>
+			</statFactors>
+		  </li>
+		</stages>
 	  </li>
 	</changesByPart>
   </WVC_UltraExpansion.ImplantGeneratorDef>

@@ -393,9 +393,9 @@
 
   <!-- ============================================================ -->
 
-  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
+  <ThingDef MayRequire="ludeon.rimworld.biotech" ParentName="WVC_Ultra_WorkBenches_Implants">
 	<defName>WVC_Ultra_MechanoidPartsCraftingBench</defName>
-	<label>implant workbench (mechanoid parts)</label>
+	<label>implant workbench (mechparts)</label>
 	<graphicData>
 	  <texPath>WVC/Stuff/AncientCraftingBench/MechanoidCraftingBench</texPath>
 	</graphicData>
