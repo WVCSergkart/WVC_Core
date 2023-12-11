@@ -13,6 +13,7 @@
     <graphicData>
       <texPath>WVC/Implants/Eye</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_Ear_AddedPart</defName>
@@ -27,6 +28,7 @@
     <graphicData>
       <texPath>WVC/Implants/Ear</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_Nose_AddedPart</defName>
@@ -41,6 +43,7 @@
     <graphicData>
       <texPath>WVC/Implants/Nose</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_Stomach_AddedPart</defName>
@@ -55,6 +58,7 @@
     <graphicData>
       <texPath>WVC/Implants/Stomach</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_Spine_AddedPart</defName>
@@ -69,6 +73,7 @@
     <graphicData>
       <texPath>WVC/Implants/Spine</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_Heart_AddedPart</defName>
@@ -83,6 +88,7 @@
     <graphicData>
       <texPath>WVC/Implants/Heart</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_Kidney_AddedPart</defName>
@@ -97,6 +103,7 @@
     <graphicData>
       <texPath>WVC/Implants/Kidney</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_Liver_AddedPart</defName>
@@ -111,6 +118,7 @@
     <graphicData>
       <texPath>WVC/Implants/Liver</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_Lung_AddedPart</defName>
@@ -125,6 +133,7 @@
     <graphicData>
       <texPath>WVC/Implants/Lung</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_Shoulder_AddedPart</defName>
@@ -139,6 +148,7 @@
     <graphicData>
       <texPath>WVC/Implants/Arm</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_Leg_AddedPart</defName>
@@ -153,6 +163,7 @@
     <graphicData>
       <texPath>WVC/Implants/Leg</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_Trunk_AddedPart</defName>
@@ -167,6 +178,7 @@
     <graphicData>
       <texPath>WVC/Implants/Nose</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_Beak_AddedPart</defName>
@@ -181,6 +193,7 @@
     <graphicData>
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_TurtleBeak_AddedPart</defName>
@@ -195,6 +208,7 @@
     <graphicData>
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_SnakeMouth_AddedPart</defName>
@@ -209,6 +223,7 @@
     <graphicData>
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_InsectHeart_AddedPart</defName>
@@ -223,6 +238,7 @@
     <graphicData>
       <texPath>WVC/Implants/Heart</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_InsectNostril_AddedPart</defName>
@@ -237,6 +253,7 @@
     <graphicData>
       <texPath>WVC/Implants/Nose</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_InsectMouth_AddedPart</defName>
@@ -251,6 +268,7 @@
     <graphicData>
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_AnimalJaw_AddedPart</defName>
@@ -265,6 +283,7 @@
     <graphicData>
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_Tail_AddedPart</defName>
@@ -279,6 +298,7 @@
     <graphicData>
       <texPath>WVC/Implants/Tail</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_Antenna_AddedPart</defName>
@@ -293,6 +313,7 @@
     <graphicData>
       <texPath>WVC/Implants/Ear</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic">
     <defName>WVC_UltratechAnimalBionic_InsectLeg_AddedPart</defName>
@@ -307,5 +328,6 @@
     <graphicData>
       <texPath>WVC/Implants/Leg</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
 </Defs>

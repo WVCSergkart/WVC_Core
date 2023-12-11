@@ -166,7 +166,7 @@
 
   <ThingDef ParentName="WVC_Ultra_WorkBenches_Base" Name="WVC_Ultra_WorkBenches_Implants" Abstract="True">
 	<label>implant workbench</label>
-	<description>An experimentally workbench. This workbench contains everything you need to create complex body parts.</description>
+	<description>An implants workbench. This workbench contains everything you need to create complex body parts.</description>
 	<!-- = -->
 	<thingClass>Building_WorkTable</thingClass>
 	<canOverlapZones>false</canOverlapZones>
@@ -388,6 +388,19 @@
 	<researchPrerequisites Inherit="False">
 	  <li>WVC_BionicTech_SpecializedMechtech</li>
 	  <li>WVC_ResearchBodyParts_AdvancedMechtech</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
+	<defName>WVC_Ultra_MechanoidPartsCraftingBench</defName>
+	<label>implant workbench (mechanoid parts)</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/MechanoidCraftingBench</texPath>
+	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_MechanoidlBionicTech_TierI</li>
 	</researchPrerequisites>
   </ThingDef>
 

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef ParentName="WVC_Ultra_ImplantGenerator_MechanoidBodyParts">
+	<defName>WVC_MechanoidTIIBionic</defName>
+	<label>tier II {0}</label>
+	<labelNoun>an tier II {0}</labelNoun>
+	<inheritHediff>WVC_Ultra_AddedPartHediffDef_MechanoidsTier_II</inheritHediff>
+	<inheritThing>WVC_Ultra_AddedPartThingDef_MechanoidsTier_II</inheritThing>
+	<changesByPart>
+	  <li>
+		<def>SightSensor</def>
+		<costList>
+		  <Plasteel>15</Plasteel>
+		  <Uranium>7</Uranium>
+		</costList>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>HearingSensor</def>
+		<costList>
+		  <Plasteel>15</Plasteel>
+		  <Uranium>7</Uranium>
+		</costList>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>SmallMechanicalLeg</def>
+		<label>small mechanical leg</label>
+		<costList>
+		  <Plasteel>18</Plasteel>
+		  <Uranium>9</Uranium>
+		</costList>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>foot</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>19</power>
+				<cooldownTime>2</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>MechanicalLeg</def>
+		<label>mechanical leg</label>
+		<costList>
+		  <Plasteel>22</Plasteel>
+		  <Uranium>12</Uranium>
+		</costList>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>foot</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>19</power>
+				<cooldownTime>2</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>MechanicalShoulder</def>
+		<label>mechanical arm</label>
+		<costList>
+		  <Plasteel>22</Plasteel>
+		  <Uranium>12</Uranium>
+		</costList>
+		<comps>
+		  <li Class="HediffCompProperties_VerbGiver">
+			<tools>
+			  <li>
+				<label>fist</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>19</power>
+				<cooldownTime>2</cooldownTime>
+				<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+				<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+			  </li>
+			</tools>
+		  </li>
+		</comps>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>FluidReprocessor</def>
+		<costList>
+		  <Plasteel>24</Plasteel>
+		  <Uranium>12</Uranium>
+		</costList>
+	  </li>
+	  <!-- = -->
+	  <li>
+		<def>Reactor</def>
+		<costList>
+		  <Plasteel>24</Plasteel>
+		  <Uranium>12</Uranium>
+		</costList>
+	  </li>
+	</changesByPart>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+</Defs>

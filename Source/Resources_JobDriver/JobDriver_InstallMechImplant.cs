@@ -137,6 +137,13 @@ namespace WVC_UltraExpansion
 			{
 				if (bodyPartRecords[i] != null && !Pawn.health.hediffSet.HasHediff(install_comp.Props.hediffDef, bodyPartRecords[i]))
 				{
+					ThingDef oldPart = GetFirstHediffOnPart(Pawn.health.hediffSet.hediffs, bodyPartRecords[i])?.def?.spawnThingOnRemoved;
+					if (oldPart != null)
+					{
+						Thing thing = ThingMaker.MakeThing(oldPart);
+						thing.stackCount = 1;
+						GenPlace.TryPlaceThing(thing, Pawn.Position, Pawn.Map, ThingPlaceMode.Near, out var lastResultingThing, null, default);
+					}
 					// Log.Error(bodyPartRecords[i].Label);
 					Hediff hediff = HediffMaker.MakeHediff(install_comp.Props.hediffDef, Pawn);
 					Pawn.health.AddHediff(hediff, bodyPartRecords[i]);
@@ -147,10 +154,22 @@ namespace WVC_UltraExpansion
 						MoteMaker.MakeAttachedOverlay(Pawn, thingDef, Vector3.zero);
 					}
 					Item.SplitOff(1).Destroy();
-					Messages.Message("WVC_Ultra_MechImplantInstalled".Translate(), Pawn, MessageTypeDefOf.PositiveEvent, historical: false);
+					Messages.Message("WVC_Ultra_MechImplantInstalled".Translate(install_comp.Props.hediffDef.label.CapitalizeFirst(), Pawn.LabelCap), Pawn, MessageTypeDefOf.PositiveEvent, historical: false);
 					break;
 				}
 			}
+		}
+
+		public static Hediff GetFirstHediffOnPart(List<Hediff> hediffs, BodyPartRecord part)
+		{
+			for (int i = 0; i < hediffs.Count; i++)
+			{
+				if (hediffs[i].Part == part)
+				{
+					return hediffs[i];
+				}
+			}
+			return null;
 		}
 	}
 

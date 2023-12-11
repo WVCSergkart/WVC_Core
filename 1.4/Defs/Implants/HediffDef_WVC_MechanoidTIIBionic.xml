@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_MechanoidsTier_II" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIIBionic_SmallMechanicalLeg_AddedPart</defName>
+    <label>tier II small mechanical leg</label>
+    <labelNoun>an tier II small mechanical leg</labelNoun>
+    <description>An installed tier II small mechanical leg.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechanoidTIIBionic_SmallMechanicalLeg_AddedPart</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_MechanoidTIIBionic_SmallMechanicalLeg_AddedPart</spawnThingOnRemoved>
+    <stages />
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>foot</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <cooldownTime>2</cooldownTime>
+            <power>19</power>
+            <chanceFactor>1</chanceFactor>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_MechanoidsTier_II" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIIBionic_SightSensor_AddedPart</defName>
+    <label>tier II visual sensor</label>
+    <labelNoun>an tier II visual sensor</labelNoun>
+    <description>An installed tier II visual sensor.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechanoidTIIBionic_SightSensor_AddedPart</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_MechanoidTIIBionic_SightSensor_AddedPart</spawnThingOnRemoved>
+    <stages />
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_MechanoidsTier_II" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIIBionic_HearingSensor_AddedPart</defName>
+    <label>tier II sound sensor</label>
+    <labelNoun>an tier II sound sensor</labelNoun>
+    <description>An installed tier II sound sensor.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechanoidTIIBionic_HearingSensor_AddedPart</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_MechanoidTIIBionic_HearingSensor_AddedPart</spawnThingOnRemoved>
+    <stages />
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_MechanoidsTier_II" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIIBionic_Reactor_AddedPart</defName>
+    <label>tier II reactor</label>
+    <labelNoun>an tier II reactor</labelNoun>
+    <description>An installed tier II reactor.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechanoidTIIBionic_Reactor_AddedPart</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_MechanoidTIIBionic_Reactor_AddedPart</spawnThingOnRemoved>
+    <stages />
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_MechanoidsTier_II" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIIBionic_FluidReprocessor_AddedPart</defName>
+    <label>tier II fluid reprocessor</label>
+    <labelNoun>an tier II fluid reprocessor</labelNoun>
+    <description>An installed tier II fluid reprocessor.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechanoidTIIBionic_FluidReprocessor_AddedPart</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_MechanoidTIIBionic_FluidReprocessor_AddedPart</spawnThingOnRemoved>
+    <stages />
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_MechanoidsTier_II" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIIBionic_MechanicalShoulder_AddedPart</defName>
+    <label>tier II mechanical arm</label>
+    <labelNoun>an tier II mechanical arm</labelNoun>
+    <description>An installed tier II mechanical arm.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechanoidTIIBionic_MechanicalShoulder_AddedPart</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_MechanoidTIIBionic_MechanicalShoulder_AddedPart</spawnThingOnRemoved>
+    <stages />
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <cooldownTime>2</cooldownTime>
+            <power>19</power>
+            <chanceFactor>1</chanceFactor>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_MechanoidsTier_II" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIIBionic_MechanicalLeg_AddedPart</defName>
+    <label>tier II mechanical leg</label>
+    <labelNoun>an tier II mechanical leg</labelNoun>
+    <description>An installed tier II mechanical leg.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_MechanoidTIIBionic_MechanicalLeg_AddedPart</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_MechanoidTIIBionic_MechanicalLeg_AddedPart</spawnThingOnRemoved>
+    <stages />
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>foot</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <cooldownTime>2</cooldownTime>
+            <power>19</power>
+            <chanceFactor>1</chanceFactor>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

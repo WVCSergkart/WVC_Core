@@ -30,6 +30,12 @@ namespace WVC_UltraExpansion
 
 		public bool forAnimals = false;
 
+		public bool forMechs = false;
+
+		public JobDef installJobDef;
+
+		public ThingDef installMoteDef;
+
 		public string inheritSurgery = "WVC_Ultra_AddedPartSurgeryDef_Base";
 
 		public string inheritSurgeryRemove = "WVC_Ultra_ImplantSurgeryRemoveDef_Base";

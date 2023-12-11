@@ -11,5 +11,6 @@
       <Uranium>10</Uranium>
     </costList>
     <graphicData />
+    <comps />
   </ThingDef>
 </Defs>

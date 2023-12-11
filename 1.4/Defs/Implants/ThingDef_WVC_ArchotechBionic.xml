@@ -16,6 +16,7 @@
     <graphicData>
       <texPath>WVC/Implants/Eye</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Ear_AddedPart</defName>
@@ -33,6 +34,7 @@
     <graphicData>
       <texPath>WVC/Implants/Ear</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Jaw_AddedPart</defName>
@@ -50,6 +52,7 @@
     <graphicData>
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Nose_AddedPart</defName>
@@ -67,6 +70,7 @@
     <graphicData>
       <texPath>WVC/Implants/Nose</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Stomach_AddedPart</defName>
@@ -84,6 +88,7 @@
     <graphicData>
       <texPath>WVC/Implants/Stomach</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Spine_AddedPart</defName>
@@ -101,6 +106,7 @@
     <graphicData>
       <texPath>WVC/Implants/Spine</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Heart_AddedPart</defName>
@@ -118,6 +124,7 @@
     <graphicData>
       <texPath>WVC/Implants/Heart</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Kidney_AddedPart</defName>
@@ -135,6 +142,7 @@
     <graphicData>
       <texPath>WVC/Implants/Kidney</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Liver_AddedPart</defName>
@@ -152,6 +160,7 @@
     <graphicData>
       <texPath>WVC/Implants/Liver</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Lung_AddedPart</defName>
@@ -169,6 +178,7 @@
     <graphicData>
       <texPath>WVC/Implants/Lung</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Shoulder_AddedPart</defName>
@@ -186,6 +196,7 @@
     <graphicData>
       <texPath>WVC/Implants/Arm</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
     <defName>WVC_ArchotechBionic_Leg_AddedPart</defName>
@@ -203,5 +214,6 @@
     <graphicData>
       <texPath>WVC/Implants/Leg</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
 </Defs>

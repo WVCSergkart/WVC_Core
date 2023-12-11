@@ -24,6 +24,11 @@
 			<thingDef>WVC_ComponentUltratech</thingDef>
 			<countRange>0~2</countRange>
 		  </li>
+		  <li Class="StockGenerator_Tag">
+			<tradeTag>WVC_UltraMechanoidParts</tradeTag>
+			<thingDefCountRange>0~3</thingDefCountRange>
+			<countRange>1~1</countRange>
+		  </li>
 	  </value>
 	</Operation>
 

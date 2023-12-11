@@ -54,11 +54,11 @@ namespace WVC_UltraExpansion
 			&& mech.kindDef.defName.Contains("Mech_") 
 			&& MechDefNameShouldNotContain(mech.def.defName)
 			&& MechDefNameShouldNotContain(mech.kindDef.defName)
-			&& mech.RaceProps.thinkTreeMain == WVC_UltraDefOf.Mechanoid
-			&& mech.RaceProps.thinkTreeConstant == WVC_UltraDefOf.MechConstant
-			&& EverControllable(mech.def)
+			// && mech.RaceProps.thinkTreeMain == WVC_UltraDefOf.Mechanoid
+			// && mech.RaceProps.thinkTreeConstant == WVC_UltraDefOf.MechConstant
+			// && EverControllable(mech.def)
 			&& EverRepairable(mech.def)
-			&& MechanitorUtility.IsPlayerOverseerSubject(mech)
+			// && MechanitorUtility.IsPlayerOverseerSubject(mech)
 			&& mech.IsColonyMechPlayerControlled)
 			{
 				return true;

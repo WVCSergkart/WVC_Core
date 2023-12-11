@@ -41,7 +41,10 @@ namespace WVC_UltraExpansion
 							xDocument3.Element("Defs").Add(GenerateThingDefFile(thingDef, generatorDef));
 						}
 						xDocument1.Save(Path.Combine(path, "HediffDef_" + generatorDef.defName + ".xml"));
-						xDocument2.Save(Path.Combine(path, "RecipeDef_" + generatorDef.defName + ".xml"));
+						if (!generatorDef.forMechs)
+						{
+							xDocument2.Save(Path.Combine(path, "RecipeDef_" + generatorDef.defName + ".xml"));
+						}
 						xDocument3.Save(Path.Combine(path, "ThingDef_" + generatorDef.defName + ".xml"));
 					}
 					if (WVC_Ultra.settings.implantGenerator_FullLogging)
@@ -119,16 +122,32 @@ namespace WVC_UltraExpansion
 				foreach (BodyPartDef bodyPartDef in implantGeneratorDef.bodyPartDefs)
 				{
 					GetFromTemplate_ThingDef(bodyPartDef, implantGeneratorDef, out ThingDef thingDef);
-					thingDefs.Add(thingDef);
 					GetFromTemplate_HediffDef(bodyPartDef, thingDef, implantGeneratorDef, out HediffDef hediffDef);
-					hediffDefs.Add(hediffDef);
-					GetFromTemplate_SurgeryDef(bodyPartDef, thingDef, hediffDef, out RecipeDef recipeDef);
-					recipeDefs.Add(recipeDef);
-					if (implantGeneratorDef.generateRemoveRecipe)
+					if (implantGeneratorDef.forMechs && hediffDef != null)
 					{
-						GetFromTemplate_SurgeryRemoveDef(thingDef, hediffDef, out RecipeDef recipeDef2);
-						recipeDefs.Add(recipeDef2);
+						thingDef.comps = new List<CompProperties>
+						{
+							new CompProperties_TargetEffect_InstallImplantInTarget
+							{
+								jobDef = implantGeneratorDef.installJobDef,
+								moteDef = implantGeneratorDef.installMoteDef,
+								bodyPart = bodyPartDef,
+								hediffDef = hediffDef
+							}
+						};
 					}
+					if (!implantGeneratorDef.forMechs)
+					{
+						GetFromTemplate_SurgeryDef(bodyPartDef, thingDef, hediffDef, out RecipeDef recipeDef);
+						recipeDefs.Add(recipeDef);
+						if (implantGeneratorDef.generateRemoveRecipe)
+						{
+							GetFromTemplate_SurgeryRemoveDef(thingDef, hediffDef, out RecipeDef recipeDef2);
+							recipeDefs.Add(recipeDef2);
+						}
+					}
+					thingDefs.Add(thingDef);
+					hediffDefs.Add(hediffDef);
 				}
 			}
 
@@ -179,7 +198,7 @@ namespace WVC_UltraExpansion
 
 			public static XElement GenerateThingDefFile(ThingDef def, ImplantGeneratorDef generatorDef)
 			{
-				XElement xElement = new("ThingDef", new XAttribute("ParentName", generatorDef.inheritThing), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("descriptionHyperlinks"), new XElement("costList"), new XElement("graphicData"));
+				XElement xElement = new("ThingDef", new XAttribute("ParentName", generatorDef.inheritThing), new XElement("defName", def.defName), new XElement("label", def.label), new XElement("descriptionHyperlinks"), new XElement("costList"), new XElement("graphicData"), new XElement("comps"));
 				XElement costList = xElement.Element("costList");
 				foreach (var i in def.costList)
 				{
@@ -205,6 +224,24 @@ namespace WVC_UltraExpansion
 				{
 					XElement graphicData = xElement.Element("graphicData");
 					graphicData.Add(new XElement("texPath", def.graphicData.texPath));
+				}
+				if (!def.comps.NullOrEmpty())
+				{
+					// Log.Error("1");
+					XElement comps = xElement.Element("comps");
+					foreach (var comp in def.comps)
+					{
+						if (generatorDef.forMechs && comp.compClass == typeof(CompTargetEffect_InstallImplantInTarget))
+						{
+							CompProperties_TargetEffect_InstallImplantInTarget install_comp = (CompProperties_TargetEffect_InstallImplantInTarget)comp;
+							comps.Add(new XElement("li", new XAttribute("Class", "WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget")));
+							XElement li = comps.Element("li");
+							li.Add(new XElement("jobDef", install_comp.jobDef));
+							li.Add(new XElement("bodyPart", install_comp.bodyPart));
+							li.Add(new XElement("hediffDef", install_comp.hediffDef));
+							li.Add(new XElement("moteDef", install_comp.moteDef));
+						}
+					}
 				}
 				// XElement costList = xElement.Element("costList");
 				// foreach (var i in def.costList)

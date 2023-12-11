@@ -15,6 +15,7 @@
     <graphicData>
       <texPath>WVC/Implants/Eye</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Ear_AddedPart</defName>
@@ -31,6 +32,7 @@
     <graphicData>
       <texPath>WVC/Implants/Ear</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Jaw_AddedPart</defName>
@@ -47,6 +49,7 @@
     <graphicData>
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Nose_AddedPart</defName>
@@ -63,6 +66,7 @@
     <graphicData>
       <texPath>WVC/Implants/Nose</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Stomach_AddedPart</defName>
@@ -79,6 +83,7 @@
     <graphicData>
       <texPath>WVC/Implants/Stomach</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Spine_AddedPart</defName>
@@ -95,6 +100,7 @@
     <graphicData>
       <texPath>WVC/Implants/Spine</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Heart_AddedPart</defName>
@@ -111,6 +117,7 @@
     <graphicData>
       <texPath>WVC/Implants/Heart</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Kidney_AddedPart</defName>
@@ -127,6 +134,7 @@
     <graphicData>
       <texPath>WVC/Implants/Kidney</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Liver_AddedPart</defName>
@@ -143,6 +151,7 @@
     <graphicData>
       <texPath>WVC/Implants/Liver</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Lung_AddedPart</defName>
@@ -159,6 +168,7 @@
     <graphicData>
       <texPath>WVC/Implants/Lung</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Shoulder_AddedPart</defName>
@@ -175,6 +185,7 @@
     <graphicData>
       <texPath>WVC/Implants/Arm</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
     <defName>WVC_PsychicMechtechBionic_Leg_AddedPart</defName>
@@ -191,5 +202,6 @@
     <graphicData>
       <texPath>WVC/Implants/Leg</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
 </Defs>

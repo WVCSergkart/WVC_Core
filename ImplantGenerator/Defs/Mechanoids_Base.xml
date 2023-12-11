@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WVC_UltraExpansion.ImplantGeneratorDef Name="WVC_Ultra_ImplantGenerator_MechanoidBodyParts" Abstract="True">
+	<label>advanced bionic {0}</label>
+	<labelNoun>an advanced bionic {0}</labelNoun>
+	<ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+	<forMechs>true</forMechs>
+	<mayRequire>ludeon.rimworld.biotech</mayRequire>
+	<installMoteDef>Mote_ResurrectFlash</installMoteDef>
+	<installJobDef>WVC_Ultra_InstalMechImplant</installJobDef>
+	<!-- Body Parts -->
+	<bodyPartDefs>
+	  <li>SmallMechanicalLeg</li>
+	  <li>SightSensor</li>
+	  <li>HearingSensor</li>
+	  <li>Reactor</li>
+	  <li>FluidReprocessor</li>
+	  <li>MechanicalShoulder</li>
+	  <li>MechanicalLeg</li>
+	</bodyPartDefs>
+  </WVC_UltraExpansion.ImplantGeneratorDef>
+
+</Defs>

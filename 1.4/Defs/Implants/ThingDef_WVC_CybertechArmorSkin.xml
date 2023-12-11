@@ -10,5 +10,6 @@
       <Plasteel>30</Plasteel>
     </costList>
     <graphicData />
+    <comps />
   </ThingDef>
 </Defs>

@@ -12,6 +12,7 @@
     <graphicData>
       <texPath>WVC/Implants/Eye</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
     <defName>WVC_CybertechBionic_Ear_AddedPart</defName>
@@ -25,6 +26,7 @@
     <graphicData>
       <texPath>WVC/Implants/Ear</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
     <defName>WVC_CybertechBionic_Jaw_AddedPart</defName>
@@ -38,6 +40,7 @@
     <graphicData>
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
     <defName>WVC_CybertechBionic_Nose_AddedPart</defName>
@@ -51,6 +54,7 @@
     <graphicData>
       <texPath>WVC/Implants/Nose</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
     <defName>WVC_CybertechBionic_Stomach_AddedPart</defName>
@@ -64,6 +68,7 @@
     <graphicData>
       <texPath>WVC/Implants/Stomach</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
     <defName>WVC_CybertechBionic_Spine_AddedPart</defName>
@@ -77,6 +82,7 @@
     <graphicData>
       <texPath>WVC/Implants/Spine</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
     <defName>WVC_CybertechBionic_Heart_AddedPart</defName>
@@ -90,6 +96,7 @@
     <graphicData>
       <texPath>WVC/Implants/Heart</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
     <defName>WVC_CybertechBionic_Kidney_AddedPart</defName>
@@ -103,6 +110,7 @@
     <graphicData>
       <texPath>WVC/Implants/Kidney</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
     <defName>WVC_CybertechBionic_Liver_AddedPart</defName>
@@ -116,6 +124,7 @@
     <graphicData>
       <texPath>WVC/Implants/Liver</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
     <defName>WVC_CybertechBionic_Lung_AddedPart</defName>
@@ -129,6 +138,7 @@
     <graphicData>
       <texPath>WVC/Implants/Lung</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
     <defName>WVC_CybertechBionic_Shoulder_AddedPart</defName>
@@ -142,6 +152,7 @@
     <graphicData>
       <texPath>WVC/Implants/Arm</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
     <defName>WVC_CybertechBionic_Leg_AddedPart</defName>
@@ -155,5 +166,6 @@
     <graphicData>
       <texPath>WVC/Implants/Leg</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
 </Defs>

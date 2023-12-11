@@ -11,6 +11,7 @@
       <Uranium>10</Uranium>
     </costList>
     <graphicData />
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalArmorSkin" MayRequire="ludeon.rimworld.royalty">
     <defName>WVC_UltratechAnimalArmorSkin_Body_Implant</defName>
@@ -23,6 +24,7 @@
       <Uranium>10</Uranium>
     </costList>
     <graphicData />
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalArmorSkin" MayRequire="ludeon.rimworld.royalty">
     <defName>WVC_UltratechAnimalArmorSkin_Shell_Implant</defName>
@@ -35,6 +37,7 @@
       <Uranium>10</Uranium>
     </costList>
     <graphicData />
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalArmorSkin" MayRequire="ludeon.rimworld.royalty">
     <defName>WVC_UltratechAnimalArmorSkin_SnakeBody_Implant</defName>
@@ -47,5 +50,6 @@
       <Uranium>10</Uranium>
     </costList>
     <graphicData />
+    <comps />
   </ThingDef>
 </Defs>

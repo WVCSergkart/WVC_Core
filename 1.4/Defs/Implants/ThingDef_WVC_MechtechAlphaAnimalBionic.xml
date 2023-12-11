@@ -11,6 +11,7 @@
       <Uranium>7</Uranium>
     </costList>
     <graphicData />
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic" MayRequire="sarg.alphaanimals">
     <defName>WVC_MechtechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</defName>
@@ -25,6 +26,7 @@
     <graphicData>
       <texPath>WVC/Implants/Arm</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic" MayRequire="sarg.alphaanimals">
     <defName>WVC_MechtechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</defName>
@@ -39,6 +41,7 @@
     <graphicData>
       <texPath>WVC/Implants/Jaw</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
   <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic" MayRequire="sarg.alphaanimals">
     <defName>WVC_MechtechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</defName>
@@ -53,5 +56,6 @@
     <graphicData>
       <texPath>WVC/Implants/Leg</texPath>
     </graphicData>
+    <comps />
   </ThingDef>
 </Defs>
