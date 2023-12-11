@@ -12,9 +12,9 @@
     <stages>
       <li>
         <statOffsets>
-          <MeleeHitChance>0.1</MeleeHitChance>
-          <MeleeDodgeChance>0.1</MeleeDodgeChance>
-          <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+          <MeleeHitChance>3</MeleeHitChance>
+          <MeleeDodgeChance>3</MeleeDodgeChance>
+          <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
         </statOffsets>
       </li>
     </stages>
@@ -32,9 +32,9 @@
     <stages>
       <li>
         <statOffsets>
-          <MeleeHitChance>0.1</MeleeHitChance>
-          <MeleeDodgeChance>0.1</MeleeDodgeChance>
-          <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+          <MeleeHitChance>3</MeleeHitChance>
+          <MeleeDodgeChance>3</MeleeDodgeChance>
+          <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
         </statOffsets>
       </li>
     </stages>
@@ -52,8 +52,8 @@
     <stages>
       <li>
         <statOffsets>
-          <MeleeHitChance>0.1</MeleeHitChance>
-          <MeleeDodgeChance>0.1</MeleeDodgeChance>
+          <MeleeHitChance>3</MeleeHitChance>
+          <MeleeDodgeChance>3</MeleeDodgeChance>
         </statOffsets>
       </li>
     </stages>
@@ -72,6 +72,7 @@
       <li>
         <statOffsets>
           <MoveSpeed>0.6</MoveSpeed>
+          <MeleeDodgeChance>10</MeleeDodgeChance>
         </statOffsets>
       </li>
     </stages>
@@ -106,6 +107,7 @@
       <li>
         <statOffsets>
           <MoveSpeed>0.4</MoveSpeed>
+          <MeleeDodgeChance>10</MeleeDodgeChance>
         </statOffsets>
       </li>
     </stages>
@@ -139,7 +141,7 @@
     <stages>
       <li>
         <statOffsets>
-          <MeleeHitChance>0.2</MeleeHitChance>
+          <MeleeHitChance>20</MeleeHitChance>
         </statOffsets>
       </li>
     </stages>

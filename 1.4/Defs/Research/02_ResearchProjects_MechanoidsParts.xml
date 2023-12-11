@@ -15,7 +15,9 @@
 	<label>mechparts tier I</label>
 	<researchViewX>0.00</researchViewX>
 	<prerequisites>
-	  <li>WVC_BionicTech_Mechtech</li>
+	  <!-- <li>WVC_Ultra_Mechtech</li> -->
+	  <li MayRequire="ludeon.rimworld.biotech">StandardMechtech</li>
+	  <!-- <li>WVC_BionicTech_Mechtech</li> -->
 	</prerequisites>
   </ResearchProjectDef>
 
@@ -24,6 +26,7 @@
 	<label>mechparts tier II</label>
 	<researchViewX>1.00</researchViewX>
 	<prerequisites>
+	  <li MayRequire="ludeon.rimworld.biotech">HighMechtech</li>
 	  <li MayRequire="ludeon.rimworld.biotech">WVC_MechanoidlBionicTech_TierI</li>
 	</prerequisites>
   </ResearchProjectDef>
@@ -34,6 +37,7 @@
 	<label>mechparts tier III</label>
 	<researchViewX>2.00</researchViewX>
 	<prerequisites>
+	  <li MayRequire="ludeon.rimworld.biotech">UltraMechtech</li>
 	  <li MayRequire="ludeon.rimworld.biotech">WVC_MechanoidlBionicTech_TierII</li>
 	</prerequisites>
   </ResearchProjectDef>

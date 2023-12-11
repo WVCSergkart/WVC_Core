@@ -50,6 +50,8 @@
     </descriptionHyperlinks>
     <costList>
       <Plasteel>15</Plasteel>
+      <Uranium>15</Uranium>
+      <WVC_Ultrasteel>7</WVC_Ultrasteel>
     </costList>
     <graphicData />
     <comps>
