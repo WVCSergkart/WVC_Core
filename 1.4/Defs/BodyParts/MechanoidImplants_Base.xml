@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- <JobDef> -->
+	<!-- <defName>WVC_Ultra_InstalMechImplant</defName> -->
+	<!-- <driverClass>WVC_UltraExpansion.JobDriver_InstallMechImplant</driverClass> -->
+	<!-- <reportString>installing implant in TargetA.</reportString> -->
+	<!-- <allowOpportunisticPrefix>true</allowOpportunisticPrefix> -->
+  <!-- </JobDef> -->
+
+  <!-- <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechBionic"> -->
+	<!-- <defName>WVC_TEST_MechImplantBase</defName> -->
+	<!-- <label>MECH IMPLANT TEST</label> -->
+	<!-- <costList> -->
+	  <!-- <Plasteel>15</Plasteel> -->
+	  <!-- <Uranium>4</Uranium> -->
+	<!-- </costList> -->
+	<!-- <graphicData> -->
+	  <!-- <texPath>WVC/Implants/Eye</texPath> -->
+	<!-- </graphicData> -->
+	<!-- <comps> -->
+	  <!-- <li Class="CompProperties_Usable"> -->
+		<!-- <useJob>UseItem</useJob> -->
+		<!-- <useLabel>Use {0_label}</useLabel> -->
+		<!-- <useDuration>0</useDuration> -->
+		<!-- <warmupMote>Mote_ResurrectAbility</warmupMote> -->
+	  <!-- </li> -->
+	  <!-- <li Class="CompProperties_Targetable"> -->
+		<!-- <compClass>WVC_UltraExpansion.CompTargetable_DormantPlayerMechanoid</compClass> -->
+	  <!-- </li> -->
+	  <!-- <li Class="WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget"> -->
+		<!-- <moteDef>Mote_ResurrectFlash</moteDef> -->
+		<!-- <hediffDef>WVC_CybertechBionic_Eye_AddedPart</hediffDef> -->
+		<!-- <bodyPart>SightSensor</bodyPart> -->
+		<!-- <jobDef>WVC_Ultra_InstalMechImplant</jobDef> -->
+	  <!-- </li> -->
+	<!-- </comps> -->
+  <!-- </ThingDef> -->
+
+</Defs>

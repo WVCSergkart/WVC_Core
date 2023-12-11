@@ -7,6 +7,8 @@ namespace WVC_UltraExpansion
 	public static class WVC_UltraDefOf
 	{
 		public static TerrainAffordanceDef WVC_Ultra_AllAffordances;
+		public static ThinkTreeDef Mechanoid;
+		public static ThinkTreeDef MechConstant;
 	}
 
 }
