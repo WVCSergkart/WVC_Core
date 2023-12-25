@@ -7,6 +7,7 @@
 	<defName>WVC_Orbital_BionicTrader</defName>
 	<label>bionic trader</label>
 	<orbital>true</orbital>
+	<commonality>0.2</commonality>
 	<stockGenerators>
 	  
 	  <!-- Resources -->
