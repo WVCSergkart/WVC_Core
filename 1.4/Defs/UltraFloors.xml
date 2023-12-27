@@ -20,7 +20,8 @@
 	<defName>WVC_Ultra_AllAffordances</defName>
 	<label>any</label>
 	<order>0</order>
-	<blockAffordanceOverlay>true</blockAffordanceOverlay>
+	<blockAffordanceOverlay>false</blockAffordanceOverlay>
+	<visualizeOnAffordanceOverlay>false</visualizeOnAffordanceOverlay>
   </TerrainAffordanceDef>
 
   <!-- ======================================================================= -->
