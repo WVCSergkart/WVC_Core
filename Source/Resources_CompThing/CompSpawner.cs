@@ -24,6 +24,8 @@ namespace WVC_UltraExpansion
 
 		public List<ThingDefByWeight> productDefs;
 
+		public float productCountFactor = 1f;
+
 		// public IntRange productCount = new(1, 1);
 
 		public bool writeTimeLeftToSpawn = true;
@@ -127,7 +129,7 @@ namespace WVC_UltraExpansion
 			ticksUntilSpawn = Props.ticksUntilSpawn.RandomInRange;
 			thingDefByWeight = Props.productDefs.RandomElementByWeight((ThingDefByWeight x) => x.selectionWeight);
 			productDef = thingDefByWeight.productDef;
-			productCount = thingDefByWeight.productCount.RandomInRange;
+			productCount = (int)(thingDefByWeight.productCount.RandomInRange * Props.productCountFactor);
 		}
 
 		public override IEnumerable<Gizmo> CompGetGizmosExtra()

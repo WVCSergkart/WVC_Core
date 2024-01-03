@@ -111,7 +111,7 @@ namespace WVC_UltraExpansion
 		{
 			ticksUntilSpawn = Props.ticksUntilSpawn.RandomInRange;
 			productDef = cachedProductDefs.RandomElementByWeight((ThingDef x) => x.deepCommonality);
-			productCount = productDef.deepCountPerPortion;
+			productCount = (int)(productDef.deepCountPerPortion * Props.productCountFactor);
 		}
 
 		public override IEnumerable<Gizmo> CompGetGizmosExtra()

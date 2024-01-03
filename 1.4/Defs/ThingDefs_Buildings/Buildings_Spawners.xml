@@ -188,7 +188,8 @@
 	  <li Class="WVC_UltraExpansion.CompProperties_Spawner">
 		<compClass>WVC_UltraExpansion.CompDrillingRig</compClass>
 		<requiresPower>true</requiresPower>
-		<ticksUntilSpawn>240000~540000</ticksUntilSpawn>
+		<ticksUntilSpawn>240000~320000</ticksUntilSpawn>
+		<productCountFactor>2</productCountFactor>
 		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
 		<showMessageIfOwned>false</showMessageIfOwned>
 		<uniqueTag>DrillingRig</uniqueTag>
