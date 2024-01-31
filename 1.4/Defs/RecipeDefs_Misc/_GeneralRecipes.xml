@@ -84,6 +84,7 @@
 	  <li>WVC_VioletCraftingBench</li>
 	  <li>WVC_YellowCraftingBench</li>
 	  <li>WVC_ArchotechCraftingBench</li>
+	  <li MayRequire="ludeon.rimworld.biotech">WVC_Ultra_MechanoidPartsCraftingBench</li>
 	</fixedBillGiverDefs>
 	<workTags>
 	  <!-- <li>Caring</li> -->
