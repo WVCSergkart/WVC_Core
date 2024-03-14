@@ -31,11 +31,11 @@
 			<!-- <downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl> -->
 			<!-- <steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl> -->
 		<!-- </li> -->
-		<li>
-			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
-			<displayName>Vanilla Expanded Framework</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
-		</li>
+		<!-- <li> -->
+			<!-- <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId> -->
+			<!-- <displayName>Vanilla Expanded Framework</displayName> -->
+			<!-- <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl> -->
+		<!-- </li> -->
 	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>

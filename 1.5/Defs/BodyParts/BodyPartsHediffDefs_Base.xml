@@ -8,7 +8,7 @@
 	  <solid>true</solid>
 	  <betterThanNatural>true</betterThanNatural>
 	</addedPartProps>
-	<eyeGraphicScale>0.2</eyeGraphicScale>
+	<!-- <eyeGraphicScale>0.2</eyeGraphicScale> -->
 	<!-- <stages> -->
 	  <!-- <li> -->
 		<!-- <painOffset>0.0125</painOffset> -->

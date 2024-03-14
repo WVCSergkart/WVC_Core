@@ -18,14 +18,6 @@
       </li>
     </stages>
     <comps />
-    <eyeGraphicEast>
-      <graphicClass>Verse.Graphic_Single</graphicClass>
-      <texPath>Things/Pawn/Wounds/BionicEye_east</texPath>
-    </eyeGraphicEast>
-    <eyeGraphicSouth>
-      <graphicClass>Verse.Graphic_Single</graphicClass>
-      <texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
-    </eyeGraphicSouth>
   </HediffDef>
   <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_MechtechBionic">
     <defName>WVC_MechtechBionic_Ear_AddedPart</defName>

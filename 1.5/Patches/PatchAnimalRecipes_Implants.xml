@@ -3,33 +3,6 @@
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
     <value>
-      <li MayRequire="sarg.alphaanimals">Install_WVC_CybertechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</li>
-      <li MayRequire="sarg.alphaanimals">Install_WVC_CybertechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</li>
-      <li MayRequire="sarg.alphaanimals">Install_WVC_CybertechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</li>
-      <li MayRequire="sarg.alphaanimals">Install_WVC_CybertechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
-    <value>
-      <li MayRequire="sarg.alphaanimals">Install_WVC_UltratechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</li>
-      <li MayRequire="sarg.alphaanimals">Install_WVC_UltratechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</li>
-      <li MayRequire="sarg.alphaanimals">Install_WVC_UltratechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</li>
-      <li MayRequire="sarg.alphaanimals">Install_WVC_UltratechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
-    <value>
-      <li MayRequire="sarg.alphaanimals">Install_WVC_MechtechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</li>
-      <li MayRequire="sarg.alphaanimals">Install_WVC_MechtechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</li>
-      <li MayRequire="sarg.alphaanimals">Install_WVC_MechtechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</li>
-      <li MayRequire="sarg.alphaanimals">Install_WVC_MechtechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[@Name="AnimalThingBase"]/recipes</xpath>
-    <value>
       <li>Install_WVC_CybertechAnimalBionic_Eye_AddedPart</li>
       <li>Install_WVC_CybertechAnimalBionic_Ear_AddedPart</li>
       <li>Install_WVC_CybertechAnimalBionic_Nose_AddedPart</li>

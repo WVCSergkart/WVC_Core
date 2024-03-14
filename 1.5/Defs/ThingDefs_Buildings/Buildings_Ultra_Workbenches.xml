@@ -131,7 +131,7 @@
 	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
 	<modExtensions>
-	  <li Class="RecipeInheritance.ThingDefExtension">
+	  <li Class="RecipeInheritance.ThingDefExtension" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
 		<inheritRecipesFrom>
 		  <!-- <li>TableMachining</li> -->
 		  <!-- <li>ElectricSmithy</li> -->

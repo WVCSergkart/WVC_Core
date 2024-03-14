@@ -12,14 +12,6 @@
     <spawnThingOnRemoved>WVC_SpecializedCybertechBionic_Eye_AddedPart</spawnThingOnRemoved>
     <stages />
     <comps />
-    <eyeGraphicEast>
-      <graphicClass>Verse.Graphic_Single</graphicClass>
-      <texPath>Things/Pawn/Wounds/BionicEye_east</texPath>
-    </eyeGraphicEast>
-    <eyeGraphicSouth>
-      <graphicClass>Verse.Graphic_Single</graphicClass>
-      <texPath>Things/Pawn/Wounds/BionicEye_south</texPath>
-    </eyeGraphicSouth>
     <addedPartProps>
       <partEfficiency>0</partEfficiency>
     </addedPartProps>
