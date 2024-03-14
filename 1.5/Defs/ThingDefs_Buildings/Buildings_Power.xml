@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="WVC_Ultra_SpawnersAndOther_Base">
+	<defName>WVC_StablePowerCell</defName>
+	<label>stable power cell</label>
+	<description>A mechtech power generation unit.</description>
+	<size>(1,1)</size>
+	<passability>PassThroughOnly</passability>
+	<drawerType>MapMeshAndRealTime</drawerType>
+	<stealable>true</stealable>
+	<fillPercent>0.35</fillPercent>
+	<pathCost>42</pathCost>
+	<rotatable>false</rotatable>
+	<statBases>
+	  <MaxHitPoints>200</MaxHitPoints>
+	  <Flammability>0</Flammability>
+	  <Mass>15</Mass>
+	  <MarketValue>400</MarketValue>
+	  <!-- <WorkToBuild>300</WorkToBuild> -->
+	</statBases>
+	<graphicData>
+	  <texPath>WVC/Stuff/StablePowerCell</texPath>
+	  <graphicClass>Graphic_Random</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(181,165,153)</color>
+	  <drawSize>(1,1)</drawSize>
+	  <shadowData>
+		<volume>(0.6, 0.4, 0.6)</volume>
+	  </shadowData>
+	  <damageData>
+		<rect>(0.2, 0.2, 0.6, 0.6)</rect>
+	  </damageData>
+	</graphicData>
+	<building>
+	  <paintable>true</paintable>
+	</building>
+	<thingCategories>
+	  <li>BuildingsSpecial</li>
+	</thingCategories>
+	<!-- <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected> -->
+	<!-- <placeWorkers> -->
+	  <!-- <li>PlaceWorker_ShowExplosionRadius</li> -->
+	<!-- </placeWorkers> -->
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<comps>
+	  <li Class="CompProperties_Power">
+		<compClass>CompPowerPlant</compClass>
+		<basePowerConsumption>-220</basePowerConsumption>
+		<transmitsPower>true</transmitsPower>
+	  </li>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>1</glowRadius>
+		<glowColor>(78, 226, 229, 0)</glowColor>
+	  </li>
+	</comps>
+	<costList>
+	  <Plasteel>60</Plasteel>
+	  <Uranium>12</Uranium>
+	  <!-- <ComponentSpacer>5</ComponentSpacer> -->
+	  <WVC_ComponentMechtech>5</WVC_ComponentMechtech>
+	</costList>
+	<researchPrerequisites Inherit="False">
+		<!-- <li>Electricity</li> -->
+		<li MayRequire="vanillaexpanded.vfepower">VFE_AdvancedPowerSources</li>
+		<li>WVC_Ultra_Mechtech</li>
+	</researchPrerequisites>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
+  </ThingDef>
+
+</Defs>

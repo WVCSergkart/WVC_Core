@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Name="WVC_Ultra_CraftingRecipes_Components" Abstract="True">
+	<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	<workAmount>10000</workAmount>
+	<effectWorking>Cook</effectWorking>
+	<soundWorking>Recipe_Machining</soundWorking>
+	<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	<recipeUsers>
+	  <li>FabricationBench</li>
+	</recipeUsers>
+	<skillRequirements>
+	  <Crafting>12</Crafting>
+	</skillRequirements>
+	<workSkill>Crafting</workSkill>
+	<displayPriority>10</displayPriority>
+  </RecipeDef>
+
+  <RecipeDef ParentName="WVC_Ultra_CraftingRecipes_Components">
+	<defName>WVC_Make_ComponentUltratech</defName>
+	<label>make ultratech component</label>
+	<description>Make an ultratech component.</description>
+	<jobString>Making ultratech component.</jobString>
+	<workAmount>18000</workAmount>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>ComponentSpacer</li>
+		  </thingDefs>
+		</filter>
+		<count>1</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Plasteel</li>
+		  </thingDefs>
+		</filter>
+		<count>20</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Uranium</li>
+		  </thingDefs>
+		</filter>
+		<count>10</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Gold</li>
+		  </thingDefs>
+		</filter>
+		<count>0.6</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>ComponentSpacer</li>
+		<li>Plasteel</li>
+		<li>Uranium</li>
+		<li>Gold</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products>
+	  <WVC_ComponentUltratech>1</WVC_ComponentUltratech>
+	</products>
+	<researchPrerequisites>
+	  <li>WVC_Ultra_Ultratech</li>
+	</researchPrerequisites>
+  </RecipeDef>
+
+  <RecipeDef ParentName="WVC_Ultra_CraftingRecipes_Components">
+	<defName>WVC_Make_ComponentMechtech</defName>
+	<label>make mechtech component</label>
+	<description>Make an mechtech component.</description>
+	<jobString>Making mechtech component.</jobString>
+	<workAmount>25000</workAmount>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>WVC_ComponentUltratech</li>
+		  </thingDefs>
+		</filter>
+		<count>1</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Uranium</li>
+		  </thingDefs>
+		</filter>
+		<count>20</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>WVC_Ultrasteel</li>
+		  </thingDefs>
+		</filter>
+		<count>10</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Gold</li>
+		  </thingDefs>
+		</filter>
+		<count>0.9</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>WVC_ComponentUltratech</li>
+		<li>Uranium</li>
+		<li>WVC_Ultrasteel</li>
+		<li>Gold</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products>
+	  <WVC_ComponentMechtech>1</WVC_ComponentMechtech>
+	</products>
+	<researchPrerequisites>
+	  <li>WVC_Ultra_Mechtech</li>
+	</researchPrerequisites>
+  </RecipeDef>
+
+  <!-- ======================================================================= -->
+
+  <RecipeDef Name="WVC_Ultra_CraftingRecipes_Alloys" Abstract="True">
+	<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	<workAmount>5000</workAmount>
+	<effectWorking>Cook</effectWorking>
+	<soundWorking>Recipe_Machining</soundWorking>
+	<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	<recipeUsers>
+	  <li>ElectricSmelter</li>
+	</recipeUsers>
+	<skillRequirements>
+	  <Crafting>12</Crafting>
+	</skillRequirements>
+	<workSkill>Crafting</workSkill>
+	<displayPriority>10</displayPriority>
+  </RecipeDef>
+
+  <RecipeDef ParentName="WVC_Ultra_CraftingRecipes_Alloys">
+	<defName>WVC_Make_Ultrasteel</defName>
+	<label>make ultsteel</label>
+	<description>Make an ultsteel.</description>
+	<jobString>Making ultsteel.</jobString>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>WVC_UniversalFuel</li>
+		  </thingDefs>
+		</filter>
+		<count>77</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Plasteel</li>
+		  </thingDefs>
+		</filter>
+		<count>40</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>WVC_UniversalFuel</li>
+		<li>Plasteel</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products>
+	  <WVC_Ultrasteel>40</WVC_Ultrasteel>
+	</products>
+	<researchPrerequisites>
+	  <li>WVC_Ultra_Ultratech</li>
+	</researchPrerequisites>
+  </RecipeDef>
+
+</Defs>

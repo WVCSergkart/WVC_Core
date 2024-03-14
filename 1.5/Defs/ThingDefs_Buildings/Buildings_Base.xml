@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="WVC_Ultra_SpawnersAndOther_Base" ParentName="BuildingBase" Abstract="True">
+	<techLevel>Ultra</techLevel>
+	<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+	<statBases>
+	  <Flammability>0.0</Flammability>
+	</statBases>
+	<!-- <graphicData> -->
+	  <!-- <shaderType>CutoutComplex</shaderType> -->
+	<!-- </graphicData> -->
+	<!-- <researchPrerequisites> -->
+		<!-- <li>WVC_Ultra_Mechtech</li> -->
+	<!-- </researchPrerequisites> -->
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
+  </ThingDef>
+
+  <ThingDef Name="WVC_Ultra_WorkBenches_Base" ParentName="BuildingBase" Abstract="True">
+	<techLevel>Ultra</techLevel>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	<statBases>
+	  <Flammability>0.0</Flammability>
+	</statBases>
+	<!-- <graphicData> -->
+	  <!-- <shaderType>CutoutComplex</shaderType> -->
+	<!-- </graphicData> -->
+	<!-- <researchPrerequisites> -->
+		<!-- <li>WVC_Ultra_Mechtech</li> -->
+	<!-- </researchPrerequisites> -->
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef Name="WVC_Ultra_FurnitureWithQuality_Base" ParentName="FurnitureWithQualityBase" Abstract="True">
+	<techLevel>Ultra</techLevel>
+	<statBases>
+	  <Flammability>0.0</Flammability>
+	</statBases>
+	<costList>
+	  <ComponentSpacer>1</ComponentSpacer>
+	</costList>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	<researchPrerequisites>
+		<li>WVC_Ultra_Ultratech</li>
+	</researchPrerequisites>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<rotatable>false</rotatable>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="BasicBedBase" Name="WVC_Ultra_BasicBed_Base" Abstract="True">
+	<techLevel>Spacer</techLevel>
+	<description>A high-tech bed that perfectly adapts to the person sleeping on it.</description>
+	<graphicData>
+	  <texPath>WVC/Stuff/Furniture/AncientBed</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(2,2)</drawSize>
+	  <damageData>
+		<rect>(0,0.05,1,1.95)</rect>
+	  </damageData>
+	</graphicData>
+	<stuffCategories Inherit="False">
+	  <li>Metallic</li>
+	</stuffCategories>
+	<statBases>
+	  <Flammability>0.0</Flammability>
+	</statBases>
+	<size>(1,2)</size>
+	<uiOrder>2010</uiOrder>
+	<building>
+	  <paintable>true</paintable>
+	</building>
+	<researchPrerequisites>
+	  <li>WVC_Ultra_Ultratech</li>
+	</researchPrerequisites>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef Name="WVC_Ultra_AutoDoors_Base" ParentName="DoorBase" Abstract="True">
+	<techLevel>Ultra</techLevel>
+	<description>A heavily armored door. Can withstand almost incredible amounts of damage. Divides rooms.</description>
+	<statBases>
+	  <MaxHitPoints>3600</MaxHitPoints>
+	  <DoorOpenSpeed>1.0</DoorOpenSpeed>
+	  <Flammability>0.0</Flammability>
+	</statBases>
+	<uiIconPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_MenuIcon</uiIconPath>
+	<graphicData>
+	  <texPath>Things/Building/Door/DoorSimple_Mover</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <damageData>
+		<enabled>false</enabled>
+	  </damageData>
+    </graphicData>
+	<costList>
+		<Plasteel>75</Plasteel>
+		<ComponentSpacer>1</ComponentSpacer>
+	</costList>
+	<comps>
+		<li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<shortCircuitInRain>false</shortCircuitInRain>
+			<basePowerConsumption>20</basePowerConsumption>
+		</li>
+	</comps>
+	<useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+	<uiIconPathsStuff Inherit="False"/>
+	<costStuffCount Inherit="False"/>
+	<stuffCategories Inherit="False"/>
+	<building>
+		<relatedBuildCommands>
+			<li>WVC_UltratechWall</li>
+			<li>WVC_MechtechWall</li>
+			<li>WVC_MechtechWall_Glow</li>
+			<li>WVC_ArchotechWall</li>
+		</relatedBuildCommands>
+	</building>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
+	<designatorDropdown>HGS_Doors_WVC</designatorDropdown>
+  </ThingDef>
+
+  <ThingDef Name="WVC_Ultra_HeavilyArmoredWalls_Base" ParentName="Wall" Abstract="True">
+	<techLevel>Ultra</techLevel>
+	<description>A heavily armored wall. Can withstand almost incredible amounts of damage. Capable of holding up a roof.</description>
+	<graphicData>
+		<texPath>WVC/Stuff/WallsDoorsColumns/ArchotechWall</texPath>
+	</graphicData>
+	<useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+	<uiIconPathsStuff Inherit="False"/>
+	<costStuffCount Inherit="False"/>
+	<stuffCategories Inherit="False"/>
+	<uiIconPath>WVC/Stuff/WallsDoorsColumns/ArchotechWallIcon</uiIconPath>
+	<statBases>
+	  <MaxHitPoints>5000</MaxHitPoints>
+	  <Flammability>0.0</Flammability>
+	</statBases>
+	<costList>
+		<Plasteel>22</Plasteel>
+		<!-- <ComponentSpacer>5</ComponentSpacer> -->
+	</costList>
+	<building>
+		<relatedBuildCommands>
+			<li>WVC_UltratechDoor</li>
+			<li>WVC_MechtechDoor</li>
+			<li>WVC_ArchotechDoor</li>
+		</relatedBuildCommands>
+	</building>
+	<!-- <researchPrerequisites> -->
+	  <!-- <li>WVC_Ultra_Mechtech</li> -->
+	<!-- </researchPrerequisites> -->
+	<designationCategory>WVC_UltraExpansion</designationCategory>
+	<designatorDropdown>HGS_Walls_WVC</designatorDropdown>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+
+</Defs>

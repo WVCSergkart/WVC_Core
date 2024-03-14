@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechAnimalBionic" MayRequire="sarg.alphaanimals">
+    <defName>WVC_CybertechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</defName>
+    <label>cybertech hydrogen sac</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_CybertechAlphaAnimalBionic_AA_HydrogenSac_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+    </costList>
+    <graphicData />
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechAnimalBionic" MayRequire="sarg.alphaanimals">
+    <defName>WVC_CybertechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</defName>
+    <label>cybertech jellyfish tentacle</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_CybertechAlphaAnimalBionic_AA_JellyfishTentacle_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>17</Plasteel>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Arm</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechAnimalBionic" MayRequire="sarg.alphaanimals">
+    <defName>WVC_CybertechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</defName>
+    <label>cybertech alpha jaw</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_CybertechAlphaAnimalBionic_AA_CrocodileJaw_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechAnimalBionic" MayRequire="sarg.alphaanimals">
+    <defName>WVC_CybertechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</defName>
+    <label>cybertech small insect leg</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_CybertechAlphaAnimalBionic_AA_SmallInsectLeg_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Leg</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+</Defs>

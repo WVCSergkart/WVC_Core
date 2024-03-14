@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--=====================================================================-->
+
+  <TraderKindDef>
+	<defName>WVC_Orbital_BionicTrader</defName>
+	<label>bionic trader</label>
+	<orbital>true</orbital>
+	<commonality>0.2</commonality>
+	<stockGenerators>
+	  
+	  <!-- Resources -->
+	  <li Class="StockGenerator_SingleDef">
+		<thingDef>Silver</thingDef>
+		<countRange>4000~12000</countRange>
+	  </li>
+	  <li Class="StockGenerator_SingleDef">
+		<thingDef>MedicineIndustrial</thingDef>
+		<countRange>1~10</countRange>
+	  </li>
+	  <li Class="StockGenerator_SingleDef">
+		<thingDef>MedicineUltratech</thingDef>
+		<countRange>1~5</countRange>
+	  </li>
+	  <!-- <li Class="StockGenerator_SingleDef"> -->
+		<!-- <thingDef>Neutroamine</thingDef> -->
+		<!-- <countRange>100~500</countRange> -->
+	  <!-- </li> -->
+
+	  <!-- BodyParts -->
+	  <li Class="StockGenerator_Tag">
+		<tradeTag>Bionic</tradeTag>
+		<thingDefCountRange>2~5</thingDefCountRange>
+		<countRange>1~1</countRange>
+	  </li>
+	  <li Class="StockGenerator_Tag">
+		<tradeTag>WVC_UltraBionic</tradeTag>
+		<thingDefCountRange>1~5</thingDefCountRange>
+		<countRange>1~1</countRange>
+	  </li>
+	  <li Class="StockGenerator_Tag">
+		<tradeTag>WVC_UltraAnimalBionic</tradeTag>
+		<thingDefCountRange>0~4</thingDefCountRange>
+		<countRange>1~1</countRange>
+	  </li>
+	  <li Class="StockGenerator_Tag">
+		<tradeTag>WVC_NodeImplant</tradeTag>
+		<thingDefCountRange>0~1</thingDefCountRange>
+		<countRange>1~1</countRange>
+	  </li>
+
+	  <!-- Genepacks -->
+	  <li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
+		<thingDef>Genepack</thingDef>
+		<countRange>1~3</countRange>
+	  </li>
+
+	  <!-- Buying -->
+	  <li Class="StockGenerator_BuyExpensiveSimple" />
+	  <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+	  <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireCommon</tag></li>
+	  <li Class="StockGenerator_BuyTradeTag"><tag>ImplantEmpireRoyal</tag></li>
+	  <li Class="StockGenerator_BuyTradeTag"><tag>PsylinkNeuroformer</tag></li>
+	  <li Class="StockGenerator_BuyTradeTag"><tag>ExoticBuilding</tag></li>
+	  <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+	  
+	</stockGenerators>
+  </TraderKindDef>
+
+</Defs>

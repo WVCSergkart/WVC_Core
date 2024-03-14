@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Bionic" Name="WVC_Ultra_ResearchProject_MechanoidParts" Abstract="True">
+	<description>Improved mechanoid body parts.</description>
+	<techLevel>Spacer</techLevel>
+	<baseCost>1700</baseCost>
+	<researchViewY>1.0</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_MechanoidParts" MayRequire="ludeon.rimworld.biotech">
+	<defName>WVC_MechanoidlBionicTech_TierI</defName>
+	<label>mechparts tier I</label>
+	<researchViewX>0.00</researchViewX>
+	<prerequisites>
+	  <!-- <li>WVC_Ultra_Mechtech</li> -->
+	  <li MayRequire="ludeon.rimworld.biotech">StandardMechtech</li>
+	  <!-- <li>WVC_BionicTech_Mechtech</li> -->
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_MechanoidParts" MayRequire="ludeon.rimworld.biotech">
+	<defName>WVC_MechanoidlBionicTech_TierII</defName>
+	<label>mechparts tier II</label>
+	<researchViewX>1.00</researchViewX>
+	<prerequisites>
+	  <li MayRequire="ludeon.rimworld.biotech">HighMechtech</li>
+	  <li MayRequire="ludeon.rimworld.biotech">WVC_MechanoidlBionicTech_TierI</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_MechanoidParts" MayRequire="ludeon.rimworld.biotech">
+	<defName>WVC_MechanoidlBionicTech_TierIII</defName>
+	<techLevel>Spacer</techLevel>
+	<label>mechparts tier III</label>
+	<researchViewX>2.00</researchViewX>
+	<prerequisites>
+	  <li MayRequire="ludeon.rimworld.biotech">UltraMechtech</li>
+	  <li MayRequire="ludeon.rimworld.biotech">WVC_MechanoidlBionicTech_TierII</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+</Defs>

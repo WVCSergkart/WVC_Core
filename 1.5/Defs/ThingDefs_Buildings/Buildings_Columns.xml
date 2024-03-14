@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="WVC_Ultra_SpawnersAndOther_Base" Name="WVC_Ultra_BuildingsColumn_Base" Abstract="True">
+	<defName>AncientColumn_WVC</defName>
+	<label>ultratech column</label>
+	<description>A column capable of holding a roof.</description>
+	<size>(1,1)</size>
+	<uiIconScale>0.75</uiIconScale>
+	<graphicData>
+	  <texPath>WVC/Stuff/WallsDoorsColumns/Column_Mecha</texPath>
+	  <graphicClass>Graphic_Random</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(1.25,1.25)</drawSize>
+	  <drawOffset>(0,0,0.2)</drawOffset>
+	  <shadowData>
+		<volume>(0.3, 0.5, 0.3)</volume>
+		<offset>(0,0,-0.23)</offset>
+	  </shadowData>
+	  <damageData>
+		<rect>(0.2,0.2,0.6,0.6)</rect>
+	  </damageData>
+	</graphicData>
+	<thingCategories>
+	  <li>BuildingsSpecial</li>
+	</thingCategories>
+	<holdsRoof>true</holdsRoof>
+	<specialDisplayRadius>6.9</specialDisplayRadius>
+	<building>
+	  <paintable>true</paintable>
+	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	</building>
+	<altitudeLayer>Building</altitudeLayer>
+	<statBases>
+	  <MarketValue>300</MarketValue>
+	  <MaxHitPoints>8000</MaxHitPoints>
+	  <Beauty>1</Beauty>
+	  <Mass>32</Mass>
+	</statBases>
+	<costList>
+	  <WVC_ComponentUltratech>1</WVC_ComponentUltratech>
+	</costList>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<passability>PassThroughOnly</passability>
+	<fillPercent>0.25</fillPercent>
+	<pathCost>25</pathCost>
+	<rotatable>false</rotatable>
+	<canOverlapZones>false</canOverlapZones>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<researchPrerequisites Inherit="False">
+	</researchPrerequisites>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
+	<designatorDropdown>HGS_Columns_WVC</designatorDropdown>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="WVC_Ultra_BuildingsColumn_Base">
+	<defName>WVC_UltratechColumn</defName>
+	<label>ultratech column</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/WallsDoorsColumns/Column_Ultra</texPath>
+	  <color>(65,69,65)</color>
+	</graphicData>
+	<statBases>
+	  <MarketValue>300</MarketValue>
+	  <MaxHitPoints>8000</MaxHitPoints>
+	</statBases>
+	<costList>
+	  <Plasteel>50</Plasteel>
+	  <Uranium>5</Uranium>
+	</costList>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_Ultra_Ultratech</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_BuildingsColumn_Base">
+	<defName>WVC_MechtechColumn</defName>
+	<label>mechtech column</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/WallsDoorsColumns/Column_Mecha</texPath>
+	  <color>(181,165,153)</color>
+	</graphicData>
+	<statBases>
+	  <MarketValue>320</MarketValue>
+	  <MaxHitPoints>10000</MaxHitPoints>
+	</statBases>
+	<costList>
+	  <Plasteel>50</Plasteel>
+	  <Uranium>8</Uranium>
+	</costList>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_Ultra_Mechtech</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+</Defs>

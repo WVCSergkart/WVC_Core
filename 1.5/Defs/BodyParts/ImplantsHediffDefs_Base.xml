@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef Name="WVC_Ultra_ImplantHediff_Base" ParentName="ImplantHediffBase" Abstract="True">
+	<description>Advanced implant from high-tech components.</description>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<comps>
+	</comps>
+  </HediffDef>
+
+  <!-- ======================== Tier 1 ======================== -->
+
+  <!-- ======================== Tier 2 ======================== -->
+
+  <!-- ======================== Tier 3 ======================== -->
+
+  <!-- ======================== Tier 4 ======================== -->
+
+</Defs>

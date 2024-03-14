@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingCategoryDef>
+	<defName>WVC_BodyPartsTorture</defName>
+	<label>torture bionic</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+	<defName>WVC_BodyPartsCybernetic</defName>
+	<label>сybertech bionic</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+	<defName>WVC_BodyPartsAncient</defName>
+	<label>ultratech bionic</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+	<defName>WVC_BodyPartsMechanoid</defName>
+	<label>mechtech bionic</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef WVC_Tag="NodeBodyPartsCategory">
+	<defName>WVC_BodyPartsNodes_Blue</defName>
+	<label>overclocked</label>
+	<parent>WVC_BodyPartsMechanoid</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef WVC_Tag="NodeBodyPartsCategory">
+	<defName>WVC_BodyPartsNodes_Green</defName>
+	<label>recovery</label>
+	<parent>WVC_BodyPartsMechanoid</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef WVC_Tag="NodeBodyPartsCategory">
+	<defName>WVC_BodyPartsNodes_Red</defName>
+	<label>armored</label>
+	<parent>WVC_BodyPartsMechanoid</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef WVC_Tag="NodeBodyPartsCategory">
+	<defName>WVC_BodyPartsNodes_Violet</defName>
+	<label>tough</label>
+	<parent>WVC_BodyPartsMechanoid</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef WVC_Tag="NodeBodyPartsCategory">
+	<defName>WVC_BodyPartsNodes_Yellow</defName>
+	<label>psychic</label>
+	<parent>WVC_BodyPartsMechanoid</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef WVC_Tag="NodeBodyPartsCategory">
+	<defName>WVC_BodyPartsNodes_Archotech</defName>
+	<label>advanced</label>
+	<parent>WVC_BodyPartsMechanoid</parent>
+  </ThingCategoryDef>
+
+  <!--=====================================================================-->
+
+  <ThingDef Name="WVC_Ultra_ThingDefBodyParts_Base" ParentName="BodyPartBase" Abstract="True">
+	<description>Body part created using high technology.</description>
+	<techLevel>Ultra</techLevel>
+	<thingCategories>
+	</thingCategories>
+	<graphicData>
+	  <texPath>WVC/Implants/Empty</texPath>
+	  <graphicClass>Graphic_StackCount</graphicClass>
+	  <drawSize>0.80</drawSize>
+	  <!-- <color>(165,169,165)</color> -->
+	  <color>(165,165,165)</color>
+	</graphicData>
+	<stackLimit>3</stackLimit>
+	<drawGUIOverlay>true</drawGUIOverlay>
+	<statBases>
+	  <WorkToMake>15000</WorkToMake>
+	  <!-- <MarketValue>1000</MarketValue> -->
+	  <Mass>3</Mass>
+	  <DeteriorationRate>1.5</DeteriorationRate>
+	</statBases>
+	<recipeMaker>
+	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	  <workSkill>Crafting</workSkill>
+	  <effectWorking>Smith</effectWorking>
+	  <soundWorking>Recipe_Smith</soundWorking>
+	  <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+	  <researchPrerequisites>
+		<!-- <li>Bionics</li> -->
+		<!-- <li MayRequire="vat.epoeforked">AdvancedBionics</li> -->
+		<!-- <li MayRequire="vat.epoeforked">SyntheticOrgans</li> -->
+	  </researchPrerequisites>
+	  <recipeUsers>
+		<!-- <li>WVC_AncientCraftingBench</li> -->
+	  </recipeUsers>
+	</recipeMaker>
+	<tradeTags Inherit="False">
+	  <li>WVC_UltraBionic</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>Advanced</li>
+	</techHediffsTags>
+	<thingSetMakerTags Inherit="False">
+	  <li>RewardStandardLowFreq</li>
+	</thingSetMakerTags>
+  </ThingDef>
+
+  <!-- ================================== Tier 1 ================================== -->
+
+  <ThingDef MayRequire="ludeon.rimworld.ideology" Name="WVC_Ultra_AddedPartThingDef_WVC_TortureBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
+	<techLevel>Spacer</techLevel>
+	<thingCategories>
+	  <li>WVC_BodyPartsTorture</li>
+	</thingCategories>
+	<graphicData>
+	  <color>(222,165,171)</color>
+	  <!-- <color>(255,188,196)</color> -->
+	</graphicData>
+	<costList>
+	  <ComponentSpacer>6</ComponentSpacer>
+	</costList>
+	<recipeMaker>
+	  <skillRequirements>
+		<Crafting>8</Crafting>
+		<Intellectual>4</Intellectual>
+		<Medicine>6</Medicine>
+	  </skillRequirements>
+	  <!-- <researchPrerequisite>WVC_BionicTech_Torture</researchPrerequisite> -->
+	  <researchPrerequisites>
+		<li MayRequire="ludeon.rimworld.ideology">WVC_BionicTech_Torture</li>
+	  </researchPrerequisites>
+	  <recipeUsers>
+		<li>WVC_ExperimentalCraftingBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+	<statBases>
+	  <WorkToMake>7000</WorkToMake>
+	  <!-- <MarketValue>1100</MarketValue> -->
+	  <!-- <DeteriorationRate>0.3</DeteriorationRate> -->
+	</statBases>
+	<techHediffsTags Inherit="False">
+	  <li>PainCauser</li>
+	</techHediffsTags>
+	<thingSetMakerTags Inherit="False"/>
+  </ThingDef>
+
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
+	<thingCategories>
+	  <li>WVC_BodyPartsCybernetic</li>
+	</thingCategories>
+	<graphicData>
+	  <color>(165,179,222)</color>
+	  <!-- <color>(163,187,255)</color> -->
+	</graphicData>
+	<costList>
+	  <ComponentSpacer>6</ComponentSpacer>
+	  <WVC_ComponentUltratech>2</WVC_ComponentUltratech>
+	  <!-- <Gold>2</Gold> -->
+	</costList>
+	<recipeMaker>
+	  <skillRequirements>
+		<Crafting>8</Crafting>
+		<Intellectual>8</Intellectual>
+		<!-- <Medicine>6</Medicine> -->
+	  </skillRequirements>
+	  <!-- <researchPrerequisite>WVC_BionicTech_Cybernetic</researchPrerequisite> -->
+	  <researchPrerequisites>
+		<li>WVC_BionicTech_Cybernetic</li>
+	  </researchPrerequisites>
+	  <recipeUsers>
+		<li>WVC_CyberneticCraftingBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+	<statBases>
+	  <WorkToMake>15000</WorkToMake>
+	  <!-- <MarketValue>1100</MarketValue> -->
+	  <!-- <DeteriorationRate>0.1</DeteriorationRate> -->
+	</statBases>
+	<tradeTags>
+	  <!-- <li>Bionic</li> -->
+	</tradeTags>
+  </ThingDef>
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_SpecializedCybertechBionic" ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic" Abstract="True">
+	<recipeMaker>
+	  <researchPrerequisites>
+		<li MayRequire="ludeon.rimworld.royalty">SpecializedLimbs</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_CybertechAnimalBionic" ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic" Abstract="True">
+	<tradeTags Inherit="False">
+	  <li>WVC_UltraAnimalBionic</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>AdvancedAnimals</li>
+	</techHediffsTags>
+	<recipeMaker>
+	  <researchPrerequisites Inherit="False">
+		<li>WVC_AnimalBionicTech_Cybernetic</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
+
+  <!-- ================================== Tier 2 ================================== -->
+
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
+	<thingCategories>
+	  <li>WVC_BodyPartsAncient</li>
+	</thingCategories>
+	<graphicData>
+	  <color>(165,169,165)</color>
+	</graphicData>
+	<costList>
+	  <ComponentSpacer>6</ComponentSpacer>
+	  <WVC_ComponentUltratech>4</WVC_ComponentUltratech>
+	  <!-- <Gold>4</Gold> -->
+	</costList>
+	<recipeMaker>
+	  <skillRequirements>
+		<Crafting>12</Crafting>
+		<Intellectual>12</Intellectual>
+		<Medicine>8</Medicine>
+	  </skillRequirements>
+	  <!-- <researchPrerequisite>WVC_Ultra_Ultratech</researchPrerequisite> -->
+	  <researchPrerequisites>
+		<li>WVC_BionicTech_Ultratech</li>
+	  </researchPrerequisites>
+	  <recipeUsers>
+		<li>WVC_AncientCraftingBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+	<statBases>
+	  <WorkToMake>33000</WorkToMake>
+	  <!-- <MarketValue>1500</MarketValue> -->
+	</statBases>
+	<tradeTags>
+	  <li>ImplantEmpireRoyal</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>ImplantEmpireRoyal</li>
+	</techHediffsTags>
+  </ThingDef>
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_UltratechAnimalBionic" ParentName="WVC_Ultra_AddedPartThingDef_WVC_UltratechBionic" Abstract="True">
+	<tradeTags Inherit="False">
+	  <li>WVC_UltraAnimalBionic</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>AdvancedAnimals</li>
+	</techHediffsTags>
+	<recipeMaker>
+	  <researchPrerequisites Inherit="False">
+		<li>WVC_AnimalBionicTech_Ultratech</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_MechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
+	<thingCategories>
+	  <li>WVC_BodyPartsMechanoid</li>
+	</thingCategories>
+	<graphicData>
+	  <color>(179,163,151)</color>
+	</graphicData>
+	<costList>
+	  <ComponentSpacer>6</ComponentSpacer>
+	  <WVC_ComponentUltratech>4</WVC_ComponentUltratech>
+	  <WVC_ComponentMechtech>4</WVC_ComponentMechtech>
+	  <!-- <Gold>6</Gold> -->
+	</costList>
+	<recipeMaker>
+	  <skillRequirements>
+		<Crafting>16</Crafting>
+		<Intellectual>16</Intellectual>
+		<Medicine>8</Medicine>
+	  </skillRequirements>
+	  <!-- <researchPrerequisite>WVC_Ultra_Mechtech</researchPrerequisite> -->
+	  <researchPrerequisites>
+		<li>WVC_BionicTech_Mechtech</li>
+	  </researchPrerequisites>
+	  <recipeUsers>
+		<li>WVC_MechanoidCraftingBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+	<statBases>
+	  <WorkToMake>52000</WorkToMake>
+	  <!-- <MarketValue>1800</MarketValue> -->
+	</statBases>
+	<tradeTags>
+	  <li>ImplantEmpireRoyal</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>ImplantEmpireRoyal</li>
+	</techHediffsTags>
+  </ThingDef>
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_MechtechAnimalBionic" ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechBionic" Abstract="True">
+	<tradeTags Inherit="False">
+	  <li>WVC_UltraAnimalBionic</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>AdvancedAnimals</li>
+	</techHediffsTags>
+	<recipeMaker>
+	  <researchPrerequisites Inherit="False">
+		<li>WVC_AnimalBionicTech_Mechtech</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
+
+  <!-- ================================== Tier 3 ================================== -->
+
+  <ThingDef Name="WVC_Ultra_ThingDefBodyParts_NodeTech" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
+	<!-- <thingCategories> -->
+	  <!-- <li>WVC_BodyPartsMechanoid</li> -->
+	<!-- </thingCategories> -->
+	<graphicData>
+	  <color>(79,80,81)</color>
+	</graphicData>
+	<costList>
+	  <ComponentSpacer>6</ComponentSpacer>
+	  <WVC_ComponentUltratech>6</WVC_ComponentUltratech>
+	  <WVC_ComponentMechtech>6</WVC_ComponentMechtech>
+	  <!-- <Gold>8</Gold> -->
+	</costList>
+	<recipeMaker>
+	  <skillRequirements>
+		<Crafting>16</Crafting>
+		<Intellectual>16</Intellectual>
+		<Medicine>12</Medicine>
+	  </skillRequirements>
+	  <!-- <researchPrerequisite>WVC_Ultra_Mechtech</researchPrerequisite> -->
+	  <recipeUsers Inherit="False">
+		<!-- <li>WVC_NodeCraftingBench</li> -->
+	  </recipeUsers>
+	  <researchPrerequisites>
+		<li>WVC_BionicTech_SpecializedMechtech</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+	<tradeTags>
+	  <li>ImplantEmpireRoyal</li>
+	  <li>WVC_NodeImplant</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>ImplantEmpireRoyal</li>
+	  <li>WVC_NodeImplants</li>
+	</techHediffsTags>
+	<statBases>
+	  <WorkToMake>55000</WorkToMake>
+	  <DeteriorationRate>0.5</DeteriorationRate>
+	</statBases>
+  </ThingDef>
+
+  <!--=====================================================================-->
+
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_OverclockedMechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
+	<thingCategories>
+	  <li>WVC_BodyPartsNodes_Blue</li>
+	</thingCategories>
+	<recipeMaker>
+	  <researchPrerequisites>
+		<li>WVC_ResearchBodyParts_NodeBlue</li>
+		<!-- <li MayRequire="ludeon.rimworld.royalty">NeuralComputation</li> -->
+	  </researchPrerequisites>
+	  <recipeUsers>
+		<li>WVC_BlueCraftingBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_RecoveryMechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
+	<thingCategories>
+	  <li>WVC_BodyPartsNodes_Green</li>
+	</thingCategories>
+	<recipeMaker>
+	  <researchPrerequisites>
+		<li>WVC_ResearchBodyParts_NodeGreen</li>
+		<!-- <li>WVC_BionicTech_ScarsHealing</li> -->
+	  </researchPrerequisites>
+	  <recipeUsers>
+		<li>WVC_GreenCraftingBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_ArmoredMechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
+	<thingCategories>
+	  <li>WVC_BodyPartsNodes_Red</li>
+	</thingCategories>
+	<recipeMaker>
+	  <researchPrerequisites>
+		<li>WVC_ResearchBodyParts_NodeRed</li>
+		<!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
+	  </researchPrerequisites>
+	  <recipeUsers>
+		<li>WVC_RedCraftingBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_ToughMechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
+	<thingCategories>
+	  <li>WVC_BodyPartsNodes_Violet</li>
+	</thingCategories>
+	<recipeMaker>
+	  <researchPrerequisites>
+		<li>WVC_ResearchBodyParts_NodeViolet</li>
+		<!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
+		<!-- <li>WVC_BionicTech_ScarsHealing</li> -->
+	  </researchPrerequisites>
+	  <recipeUsers>
+		<li>WVC_VioletCraftingBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
+	<thingCategories>
+	  <li>WVC_BodyPartsNodes_Yellow</li>
+	</thingCategories>
+	<recipeMaker>
+	  <researchPrerequisites>
+		<li>WVC_ResearchBodyParts_NodeYellow</li>
+		<!-- <li MayRequire="ludeon.rimworld.royalty">CircadianInfluence</li> -->
+	  </researchPrerequisites>
+	  <recipeUsers>
+		<li>WVC_YellowCraftingBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+  </ThingDef>
+
+  <!-- ================================== Tier 4 ================================== -->
+
+  <ThingDef Name="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic" ParentName="WVC_Ultra_ThingDefBodyParts_NodeTech" Abstract="True">
+	<thingCategories>
+	  <li>WVC_BodyPartsNodes_Archotech</li>
+	</thingCategories>
+	<graphicData>
+	  <color>(178,178,139)</color>
+	</graphicData>
+	<!-- <recipeMaker Inherit="False"/> -->
+	<costList>
+	  <ComponentSpacer>6</ComponentSpacer>
+	  <WVC_ComponentUltratech>6</WVC_ComponentUltratech>
+	  <WVC_ComponentMechtech>12</WVC_ComponentMechtech>
+	  <!-- <Gold>10</Gold> -->
+	</costList>
+	<recipeMaker>
+	  <skillRequirements>
+		<Crafting>18</Crafting>
+		<Intellectual>18</Intellectual>
+		<Medicine>16</Medicine>
+	  </skillRequirements>
+	  <researchPrerequisites>
+		<li>WVC_ResearchBodyParts_AdvancedMechtech</li>
+		<!-- <li>WVC_BionicTech_ScarsHealing</li> -->
+		<!-- <li MayRequire="ludeon.rimworld.royalty">NeuralComputation</li> -->
+		<!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
+		<!-- <li MayRequire="ludeon.rimworld.royalty">CircadianInfluence</li> -->
+	  </researchPrerequisites>
+	  <recipeUsers>
+		<li>WVC_ArchotechCraftingBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+  </ThingDef>
+
+  <!--=====================================================================-->
+
+</Defs>

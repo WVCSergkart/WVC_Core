@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<IdeoIconDef MayRequire="ludeon.rimworld.ideology" Name="WVC_IdeologyIcon_Base" Abstract="True">
+		<iconPath>WVC/Icons/Faction</iconPath>
+		<memes>
+			<li>Supremacist</li>
+		</memes>
+	</IdeoIconDef>
+
+	<IdeoIconDef MayRequire="ludeon.rimworld.ideology" ParentName="WVC_IdeologyIcon_Base">
+		<defName>WVC_IdeoIcon_Claws</defName>
+		<iconPath>WVC/Icons/Claws</iconPath>
+		<memes>
+		  <li>NaturePrimacy</li>
+		  <li>TreeConnection</li>
+		</memes>
+	</IdeoIconDef>
+	<IdeoIconDef MayRequire="ludeon.rimworld.ideology" ParentName="WVC_IdeologyIcon_Base">
+		<defName>WVC_IdeoIcon_Faction</defName>
+		<iconPath>WVC/Icons/Faction</iconPath>
+		<memes>
+		  <li>Transhumanist</li>
+		</memes>
+	</IdeoIconDef>
+
+</Defs>

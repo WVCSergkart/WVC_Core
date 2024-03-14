@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_CybertechBionic_Eye_AddedPart</defName>
+    <label>install cybertech eye</label>
+    <description>Install an cybertech eye.</description>
+    <jobString>Installing cybertech eye.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechBionic_Eye_AddedPart</ThingDef>
+      <HediffDef>WVC_CybertechBionic_Eye_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_CybertechBionic_Eye_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechBionic_Eye_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechBionic_Eye_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_CybertechBionic_Ear_AddedPart</defName>
+    <label>install cybertech ear</label>
+    <description>Install an cybertech ear.</description>
+    <jobString>Installing cybertech ear.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechBionic_Ear_AddedPart</ThingDef>
+      <HediffDef>WVC_CybertechBionic_Ear_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_CybertechBionic_Ear_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Ear</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechBionic_Ear_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechBionic_Ear_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_CybertechBionic_Jaw_AddedPart</defName>
+    <label>install cybertech jaw</label>
+    <description>Install an cybertech jaw.</description>
+    <jobString>Installing cybertech jaw.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechBionic_Jaw_AddedPart</ThingDef>
+      <HediffDef>WVC_CybertechBionic_Jaw_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_CybertechBionic_Jaw_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Jaw</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechBionic_Jaw_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechBionic_Jaw_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_CybertechBionic_Nose_AddedPart</defName>
+    <label>install cybertech nose</label>
+    <description>Install an cybertech nose.</description>
+    <jobString>Installing cybertech nose.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechBionic_Nose_AddedPart</ThingDef>
+      <HediffDef>WVC_CybertechBionic_Nose_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_CybertechBionic_Nose_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Nose</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechBionic_Nose_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechBionic_Nose_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_CybertechBionic_Stomach_AddedPart</defName>
+    <label>install cybertech stomach</label>
+    <description>Install an cybertech stomach.</description>
+    <jobString>Installing cybertech stomach.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechBionic_Stomach_AddedPart</ThingDef>
+      <HediffDef>WVC_CybertechBionic_Stomach_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_CybertechBionic_Stomach_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Stomach</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechBionic_Stomach_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechBionic_Stomach_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_CybertechBionic_Spine_AddedPart</defName>
+    <label>install cybertech spine</label>
+    <description>Install an cybertech spine.</description>
+    <jobString>Installing cybertech spine.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechBionic_Spine_AddedPart</ThingDef>
+      <HediffDef>WVC_CybertechBionic_Spine_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_CybertechBionic_Spine_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechBionic_Spine_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechBionic_Spine_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_CybertechBionic_Heart_AddedPart</defName>
+    <label>install cybertech heart</label>
+    <description>Install an cybertech heart.</description>
+    <jobString>Installing cybertech heart.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechBionic_Heart_AddedPart</ThingDef>
+      <HediffDef>WVC_CybertechBionic_Heart_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_CybertechBionic_Heart_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Heart</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechBionic_Heart_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechBionic_Heart_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_CybertechBionic_Kidney_AddedPart</defName>
+    <label>install cybertech kidney</label>
+    <description>Install an cybertech kidney.</description>
+    <jobString>Installing cybertech kidney.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechBionic_Kidney_AddedPart</ThingDef>
+      <HediffDef>WVC_CybertechBionic_Kidney_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_CybertechBionic_Kidney_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Kidney</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechBionic_Kidney_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechBionic_Kidney_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_CybertechBionic_Liver_AddedPart</defName>
+    <label>install cybertech liver</label>
+    <description>Install an cybertech liver.</description>
+    <jobString>Installing cybertech liver.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechBionic_Liver_AddedPart</ThingDef>
+      <HediffDef>WVC_CybertechBionic_Liver_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_CybertechBionic_Liver_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Liver</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechBionic_Liver_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechBionic_Liver_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_CybertechBionic_Lung_AddedPart</defName>
+    <label>install cybertech lung</label>
+    <description>Install an cybertech lung.</description>
+    <jobString>Installing cybertech lung.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechBionic_Lung_AddedPart</ThingDef>
+      <HediffDef>WVC_CybertechBionic_Lung_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_CybertechBionic_Lung_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Lung</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechBionic_Lung_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechBionic_Lung_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_CybertechBionic_Shoulder_AddedPart</defName>
+    <label>install cybertech arm</label>
+    <description>Install an cybertech arm.</description>
+    <jobString>Installing cybertech arm.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechBionic_Shoulder_AddedPart</ThingDef>
+      <HediffDef>WVC_CybertechBionic_Shoulder_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_CybertechBionic_Shoulder_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Shoulder</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechBionic_Shoulder_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechBionic_Shoulder_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_CybertechBionic_Leg_AddedPart</defName>
+    <label>install cybertech leg</label>
+    <description>Install an cybertech leg.</description>
+    <jobString>Installing cybertech leg.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_CybertechBionic_Leg_AddedPart</ThingDef>
+      <HediffDef>WVC_CybertechBionic_Leg_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_CybertechBionic_Leg_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_CybertechBionic_Leg_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_CybertechBionic_Leg_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>

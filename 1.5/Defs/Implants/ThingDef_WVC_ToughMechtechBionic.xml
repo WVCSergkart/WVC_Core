@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ToughMechtechBionic">
+    <defName>WVC_ToughMechtechBionic_Eye_AddedPart</defName>
+    <label>tough mechtech eye</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ToughMechtechBionic_Eye_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ToughMechtechBionic_Eye_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>8</Uranium>
+      <DevilstrandCloth>4</DevilstrandCloth>
+      <Hyperweave>4</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Eye</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ToughMechtechBionic">
+    <defName>WVC_ToughMechtechBionic_Ear_AddedPart</defName>
+    <label>tough mechtech ear</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ToughMechtechBionic_Ear_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ToughMechtechBionic_Ear_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>19</Plasteel>
+      <Uranium>11</Uranium>
+      <DevilstrandCloth>4</DevilstrandCloth>
+      <Hyperweave>4</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Ear</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ToughMechtechBionic">
+    <defName>WVC_ToughMechtechBionic_Jaw_AddedPart</defName>
+    <label>tough mechtech jaw</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ToughMechtechBionic_Jaw_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ToughMechtechBionic_Jaw_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>10</Uranium>
+      <DevilstrandCloth>4</DevilstrandCloth>
+      <Hyperweave>4</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ToughMechtechBionic">
+    <defName>WVC_ToughMechtechBionic_Nose_AddedPart</defName>
+    <label>tough mechtech nose</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ToughMechtechBionic_Nose_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ToughMechtechBionic_Nose_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+      <Uranium>8</Uranium>
+      <DevilstrandCloth>2</DevilstrandCloth>
+      <Hyperweave>3</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Nose</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ToughMechtechBionic">
+    <defName>WVC_ToughMechtechBionic_Stomach_AddedPart</defName>
+    <label>tough mechtech stomach</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ToughMechtechBionic_Stomach_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ToughMechtechBionic_Stomach_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>15</Uranium>
+      <DevilstrandCloth>6</DevilstrandCloth>
+      <Hyperweave>6</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Stomach</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ToughMechtechBionic">
+    <defName>WVC_ToughMechtechBionic_Spine_AddedPart</defName>
+    <label>tough mechtech spine</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ToughMechtechBionic_Spine_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ToughMechtechBionic_Spine_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>27</Plasteel>
+      <Uranium>12</Uranium>
+      <DevilstrandCloth>7</DevilstrandCloth>
+      <Hyperweave>8</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Spine</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ToughMechtechBionic">
+    <defName>WVC_ToughMechtechBionic_Heart_AddedPart</defName>
+    <label>tough mechtech heart</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ToughMechtechBionic_Heart_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ToughMechtechBionic_Heart_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Uranium>10</Uranium>
+      <DevilstrandCloth>6</DevilstrandCloth>
+      <Hyperweave>6</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Heart</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ToughMechtechBionic">
+    <defName>WVC_ToughMechtechBionic_Kidney_AddedPart</defName>
+    <label>tough mechtech kidney</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ToughMechtechBionic_Kidney_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ToughMechtechBionic_Kidney_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Uranium>12</Uranium>
+      <DevilstrandCloth>5</DevilstrandCloth>
+      <Hyperweave>4</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Kidney</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ToughMechtechBionic">
+    <defName>WVC_ToughMechtechBionic_Liver_AddedPart</defName>
+    <label>tough mechtech liver</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ToughMechtechBionic_Liver_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ToughMechtechBionic_Liver_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>12</Uranium>
+      <DevilstrandCloth>5</DevilstrandCloth>
+      <Hyperweave>5</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Liver</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ToughMechtechBionic">
+    <defName>WVC_ToughMechtechBionic_Lung_AddedPart</defName>
+    <label>tough mechtech lung</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ToughMechtechBionic_Lung_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ToughMechtechBionic_Lung_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>8</Uranium>
+      <DevilstrandCloth>4</DevilstrandCloth>
+      <Hyperweave>4</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Lung</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ToughMechtechBionic">
+    <defName>WVC_ToughMechtechBionic_Shoulder_AddedPart</defName>
+    <label>tough mechtech arm</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ToughMechtechBionic_Shoulder_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ToughMechtechBionic_Shoulder_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>26</Plasteel>
+      <Uranium>9</Uranium>
+      <DevilstrandCloth>6</DevilstrandCloth>
+      <Hyperweave>6</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Arm</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ToughMechtechBionic">
+    <defName>WVC_ToughMechtechBionic_Leg_AddedPart</defName>
+    <label>tough mechtech leg</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ToughMechtechBionic_Leg_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ToughMechtechBionic_Leg_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Uranium>10</Uranium>
+      <DevilstrandCloth>6</DevilstrandCloth>
+      <Hyperweave>6</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Leg</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+</Defs>

@@ -21,7 +21,7 @@ namespace WVC_UltraExpansion
 				canTargetBuildings = false,
 				canTargetItems = false,
 				mapObjectTargetsMustBeAutoAttackable = false,
-				validator = (TargetInfo x) => x.Thing is Pawn pawn && BaseTargetValidator(x.Thing) && Install_comp != null && MechanoidsUtility.CanInstallImplant(pawn, Install_comp)
+				validator = (TargetInfo x) => x.Thing is Pawn pawn && ValidateTarget(x.Thing) && Install_comp != null && MechanoidsUtility.CanInstallImplant(pawn, Install_comp)
 			};
 		}
 

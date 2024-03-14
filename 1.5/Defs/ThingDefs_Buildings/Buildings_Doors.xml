@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ============================================================ -->
+
+	<ThingDef ParentName="WVC_Ultra_AutoDoors_Base">
+		<defName>WVC_UltratechDoor</defName>
+		<label>ultratech door</label>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/AncientDoor_Icon</uiIconPath>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/AncientDoor_Mover</texPath>
+			<color>(65,69,65)</color>
+		</graphicData>
+		<researchPrerequisites>
+		  <li>WVC_Ultra_Ultratech</li>
+		</researchPrerequisites>
+		<statBases>
+		  <MaxHitPoints>6000</MaxHitPoints>
+		  <DoorOpenSpeed>0.8</DoorOpenSpeed>
+		</statBases>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	</ThingDef>
+
+	<ThingDef ParentName="WVC_Ultra_AutoDoors_Base">
+		<defName>WVC_MechtechDoor</defName>
+		<label>mechtech door</label>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorA_MenuIcon</uiIconPath>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidDoorA_Mover</texPath>
+			<color>(181,165,153)</color>
+			<!-- <color>(184,198,203)</color> -->
+			<!-- <color>(114,114,114)</color> -->
+		</graphicData>
+		<costList>
+			<Uranium>12</Uranium>
+		</costList>
+		<researchPrerequisites>
+		  <li>WVC_Ultra_Mechtech</li>
+		</researchPrerequisites>
+		<statBases>
+		  <MaxHitPoints>8000</MaxHitPoints>
+		</statBases>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="WVC_Ultra_AutoDoors_Base">
+		<defName>WVC_ArchotechDoor</defName>
+		<label>invulnerable mechtech door</label>
+		<description>The door is practically impenetrable; there is no one who has the patience to break it. Divides rooms.
+
+&lt;color=#f5ffa2&gt;Gameplay Effect:&lt;/color&gt; The door cannot be destroyed, only deconstructed.</description>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_MenuIcon</uiIconPath>
+		<graphicData>
+			<!-- <texPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_Mover</texPath> -->
+			<texPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_Mover</texPath>
+			<!-- <color>(192,193,162)</color> -->
+			<!-- <color>(60,60,60)</color> -->
+			<color>(181,165,153)</color>
+		</graphicData>
+		<costList>
+			<Uranium>11</Uranium>
+			<WVC_Ultrasteel>11</WVC_Ultrasteel>
+			<!-- <ComponentSpacer>4</ComponentSpacer> -->
+			<WVC_ComponentMechtech>3</WVC_ComponentMechtech>
+		</costList>
+		<useHitPoints>false</useHitPoints>
+		<researchPrerequisites>
+		  <li>WVC_ResearchBodyParts_NodeViolet</li>
+		  <li>WVC_ResearchBodyParts_NodeRed</li>
+		</researchPrerequisites>
+		<statBases>
+		  <MaxHitPoints>10000</MaxHitPoints>
+		</statBases>
+		<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<!-- ============================================================ -->
+
+</Defs>

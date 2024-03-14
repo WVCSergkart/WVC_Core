@@ -158,7 +158,7 @@ namespace WVC_UltraExpansion
 				{
 					directoryInfo.Create();
 				}
-				DirectoryInfo directoryInfo4 = new(Path.Combine(directoryInfo.ToString(), "1.4"));
+				DirectoryInfo directoryInfo4 = new(Path.Combine(directoryInfo.ToString(), "1.5"));
 				if (!directoryInfo4.Exists)
 				{
 					directoryInfo4.Create();
@@ -178,7 +178,7 @@ namespace WVC_UltraExpansion
 				{
 					directoryInfo.Create();
 				}
-				DirectoryInfo directoryInfo4 = new(Path.Combine(directoryInfo.ToString(), "1.4"));
+				DirectoryInfo directoryInfo4 = new(Path.Combine(directoryInfo.ToString(), "1.5"));
 				if (!directoryInfo4.Exists)
 				{
 					directoryInfo4.Create();
@@ -393,28 +393,24 @@ namespace WVC_UltraExpansion
 						descriptionHyperlinks.Add(new XElement("HediffDef", i.def.defName));
 					}
 				}
-				// Log.Error("2");
-				if (def.eyeGraphicEast != null)
-				{
-					// XElement hediffDef = xElement.Element("HediffDef");
-					xElement.Add(new XElement("eyeGraphicEast"));
+				// if (def.eyeGraphicEast != null)
+				// {
+					// xElement.Add(new XElement("eyeGraphicEast"));
 
-					XElement eyeGraphicEast = xElement.Element("eyeGraphicEast");
+					// XElement eyeGraphicEast = xElement.Element("eyeGraphicEast");
 
-					eyeGraphicEast.Add(new XElement("graphicClass", def.eyeGraphicEast.graphicClass));
-					eyeGraphicEast.Add(new XElement("texPath", def.eyeGraphicEast.texPath));
-				}
-				// Log.Error("3");
-				if (def.eyeGraphicSouth != null)
-				{
-					// XElement hediffDef = xElement.Element("HediffDef");
-					xElement.Add(new XElement("eyeGraphicSouth"));
+					// eyeGraphicEast.Add(new XElement("graphicClass", def.eyeGraphicEast.graphicClass));
+					// eyeGraphicEast.Add(new XElement("texPath", def.eyeGraphicEast.texPath));
+				// }
+				// if (def.eyeGraphicSouth != null)
+				// {
+					// xElement.Add(new XElement("eyeGraphicSouth"));
 
-					XElement eyeGraphicSouth = xElement.Element("eyeGraphicSouth");
+					// XElement eyeGraphicSouth = xElement.Element("eyeGraphicSouth");
 
-					eyeGraphicSouth.Add(new XElement("graphicClass", def.eyeGraphicSouth.graphicClass));
-					eyeGraphicSouth.Add(new XElement("texPath", def.eyeGraphicSouth.texPath));
-				}
+					// eyeGraphicSouth.Add(new XElement("graphicClass", def.eyeGraphicSouth.graphicClass));
+					// eyeGraphicSouth.Add(new XElement("texPath", def.eyeGraphicSouth.texPath));
+				// }
 				// Log.Error("partEfficiency");
 				if (def.addedPartProps != null && def.addedPartProps.partEfficiency != 1f)
 				{
@@ -603,14 +599,14 @@ namespace WVC_UltraExpansion
 						}
 						hediffDef.stages = stageByPart[i].stages;
 						hediffDef.comps = stageByPart[i].comps;
-						if (stageByPart[i].eyeGraphicEast != null)
-						{
-							hediffDef.eyeGraphicEast = stageByPart[i].eyeGraphicEast;
-						}
-						if (stageByPart[i].eyeGraphicSouth != null)
-						{
-							hediffDef.eyeGraphicSouth = stageByPart[i].eyeGraphicSouth;
-						}
+						// if (stageByPart[i].eyeGraphicEast != null)
+						// {
+							// hediffDef.eyeGraphicEast = stageByPart[i].eyeGraphicEast;
+						// }
+						// if (stageByPart[i].eyeGraphicSouth != null)
+						// {
+							// hediffDef.eyeGraphicSouth = stageByPart[i].eyeGraphicSouth;
+						// }
 						if (stageByPart[i].partEfficiency != 1f)
 						{
 							hediffDef.addedPartProps.partEfficiency = stageByPart[i].partEfficiency;

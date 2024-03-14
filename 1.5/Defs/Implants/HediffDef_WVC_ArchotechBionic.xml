@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Eye_AddedPart</defName>
+    <label>advanced mechtech eye</label>
+    <labelNoun>an advanced mechtech eye</labelNoun>
+    <description>An installed advanced mechtech eye.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Eye_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Eye_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_ArchotechBionic_Eye_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.1</InjuryHealingFactor>
+          <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.02</ArmorRating_Heat>
+          <IncomingDamageFactor>-0.02</IncomingDamageFactor>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">3</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+    <eyeGraphicEast>
+      <graphicClass>Verse.Graphic_Single</graphicClass>
+      <texPath>Things/Pawn/Wounds/ArchotechEye_east</texPath>
+    </eyeGraphicEast>
+    <eyeGraphicSouth>
+      <graphicClass>Verse.Graphic_Single</graphicClass>
+      <texPath>Things/Pawn/Wounds/ArchotechEye_south</texPath>
+    </eyeGraphicSouth>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Ear_AddedPart</defName>
+    <label>advanced mechtech ear</label>
+    <labelNoun>an advanced mechtech ear</labelNoun>
+    <description>An installed advanced mechtech ear.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Ear_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Ear_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_ArchotechBionic_Ear_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.1</InjuryHealingFactor>
+          <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.02</ArmorRating_Heat>
+          <IncomingDamageFactor>-0.02</IncomingDamageFactor>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">3</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Jaw_AddedPart</defName>
+    <label>advanced mechtech jaw</label>
+    <labelNoun>an advanced mechtech jaw</labelNoun>
+    <description>An installed advanced mechtech jaw.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Jaw_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Jaw_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_ArchotechBionic_Jaw_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.1</InjuryHealingFactor>
+          <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.02</ArmorRating_Heat>
+          <IncomingDamageFactor>-0.02</IncomingDamageFactor>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+          <PawnBeauty>1</PawnBeauty>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">3</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <cooldownTime>1.5</cooldownTime>
+            <power>15</power>
+            <chanceFactor>0.07</chanceFactor>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Nose_AddedPart</defName>
+    <label>advanced mechtech nose</label>
+    <labelNoun>an advanced mechtech nose</labelNoun>
+    <description>An installed advanced mechtech nose.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Nose_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Nose_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_ArchotechBionic_Nose_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.1</InjuryHealingFactor>
+          <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.02</ArmorRating_Heat>
+          <IncomingDamageFactor>-0.02</IncomingDamageFactor>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+          <PawnBeauty>1</PawnBeauty>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">3</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Stomach_AddedPart</defName>
+    <label>advanced mechtech stomach</label>
+    <labelNoun>an advanced mechtech stomach</labelNoun>
+    <description>An installed advanced mechtech stomach.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Stomach_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Stomach_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_ArchotechBionic_Stomach_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.2</InjuryHealingFactor>
+          <ArmorRating_Sharp>0.07</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.07</ArmorRating_Heat>
+          <IncomingDamageFactor>-0.02</IncomingDamageFactor>
+          <PsychicSensitivity>0.2</PsychicSensitivity>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">3</MechBandwidth>
+        </statOffsets>
+        <hungerRateFactor>0.01</hungerRateFactor>
+        <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Spine_AddedPart</defName>
+    <label>advanced mechtech spine</label>
+    <labelNoun>an advanced mechtech spine</labelNoun>
+    <description>An installed advanced mechtech spine.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Spine_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Spine_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_ArchotechBionic_Spine_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.2</InjuryHealingFactor>
+          <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.14</ArmorRating_Heat>
+          <IncomingDamageFactor>-0.02</IncomingDamageFactor>
+          <PsychicSensitivity>0.2</PsychicSensitivity>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">3</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Heart_AddedPart</defName>
+    <label>advanced mechtech heart</label>
+    <labelNoun>an advanced mechtech heart</labelNoun>
+    <description>An installed advanced mechtech heart.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Heart_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Heart_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_ArchotechBionic_Heart_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.25</InjuryHealingFactor>
+          <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.05</ArmorRating_Heat>
+          <IncomingDamageFactor>-0.02</IncomingDamageFactor>
+          <PsychicSensitivity>0.25</PsychicSensitivity>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">3</MechBandwidth>
+        </statOffsets>
+        <naturalHealingFactor>2</naturalHealingFactor>
+        <totalBleedFactor>0.5</totalBleedFactor>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Kidney_AddedPart</defName>
+    <label>advanced mechtech kidney</label>
+    <labelNoun>an advanced mechtech kidney</labelNoun>
+    <description>An installed advanced mechtech kidney.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Kidney_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Kidney_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_ArchotechBionic_Kidney_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.15</InjuryHealingFactor>
+          <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.03</ArmorRating_Heat>
+          <IncomingDamageFactor>-0.02</IncomingDamageFactor>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+          <ImmunityGainSpeed>0.08</ImmunityGainSpeed>
+          <ToxicResistance>0.25</ToxicResistance>
+          <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.25</ToxicEnvironmentResistance>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">3</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Liver_AddedPart</defName>
+    <label>advanced mechtech liver</label>
+    <labelNoun>an advanced mechtech liver</labelNoun>
+    <description>An installed advanced mechtech liver.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Liver_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Liver_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_ArchotechBionic_Liver_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.1</InjuryHealingFactor>
+          <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.04</ArmorRating_Heat>
+          <IncomingDamageFactor>-0.02</IncomingDamageFactor>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+          <ToxicResistance>0.5</ToxicResistance>
+          <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">3</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Lung_AddedPart</defName>
+    <label>advanced mechtech lung</label>
+    <labelNoun>an advanced mechtech lung</labelNoun>
+    <description>An installed advanced mechtech lung.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Lung_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Lung_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_ArchotechBionic_Lung_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.1</InjuryHealingFactor>
+          <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.03</ArmorRating_Heat>
+          <IncomingDamageFactor>-0.02</IncomingDamageFactor>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">3</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Shoulder_AddedPart</defName>
+    <label>advanced mechtech arm</label>
+    <labelNoun>an advanced mechtech arm</labelNoun>
+    <description>An installed advanced mechtech arm.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Shoulder_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Shoulder_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_ArchotechBionic_Shoulder_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.15</InjuryHealingFactor>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+          <IncomingDamageFactor>-0.02</IncomingDamageFactor>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">3</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <cooldownTime>1.5</cooldownTime>
+            <power>16</power>
+            <chanceFactor>1</chanceFactor>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Leg_AddedPart</defName>
+    <label>advanced mechtech leg</label>
+    <labelNoun>an advanced mechtech leg</labelNoun>
+    <description>An installed advanced mechtech leg.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Leg_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Leg_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_ArchotechBionic_Leg_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <InjuryHealingFactor>0.15</InjuryHealingFactor>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+          <IncomingDamageFactor>-0.02</IncomingDamageFactor>
+          <PsychicSensitivity>0.15</PsychicSensitivity>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">3</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>feet</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <cooldownTime>1.5</cooldownTime>
+            <power>17</power>
+            <chanceFactor>0.33</chanceFactor>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

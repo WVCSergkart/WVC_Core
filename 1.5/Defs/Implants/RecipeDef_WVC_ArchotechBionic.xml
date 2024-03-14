@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_ArchotechBionic_Eye_AddedPart</defName>
+    <label>install advanced mechtech eye</label>
+    <description>Install an advanced mechtech eye.</description>
+    <jobString>Installing advanced mechtech eye.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Eye_AddedPart</ThingDef>
+      <HediffDef>WVC_ArchotechBionic_Eye_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_ArchotechBionic_Eye_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_ArchotechBionic_Eye_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_ArchotechBionic_Eye_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_ArchotechBionic_Ear_AddedPart</defName>
+    <label>install advanced mechtech ear</label>
+    <description>Install an advanced mechtech ear.</description>
+    <jobString>Installing advanced mechtech ear.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Ear_AddedPart</ThingDef>
+      <HediffDef>WVC_ArchotechBionic_Ear_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_ArchotechBionic_Ear_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Ear</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_ArchotechBionic_Ear_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_ArchotechBionic_Ear_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_ArchotechBionic_Jaw_AddedPart</defName>
+    <label>install advanced mechtech jaw</label>
+    <description>Install an advanced mechtech jaw.</description>
+    <jobString>Installing advanced mechtech jaw.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Jaw_AddedPart</ThingDef>
+      <HediffDef>WVC_ArchotechBionic_Jaw_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_ArchotechBionic_Jaw_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Jaw</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_ArchotechBionic_Jaw_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_ArchotechBionic_Jaw_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_ArchotechBionic_Nose_AddedPart</defName>
+    <label>install advanced mechtech nose</label>
+    <description>Install an advanced mechtech nose.</description>
+    <jobString>Installing advanced mechtech nose.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Nose_AddedPart</ThingDef>
+      <HediffDef>WVC_ArchotechBionic_Nose_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_ArchotechBionic_Nose_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Nose</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_ArchotechBionic_Nose_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_ArchotechBionic_Nose_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_ArchotechBionic_Stomach_AddedPart</defName>
+    <label>install advanced mechtech stomach</label>
+    <description>Install an advanced mechtech stomach.</description>
+    <jobString>Installing advanced mechtech stomach.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Stomach_AddedPart</ThingDef>
+      <HediffDef>WVC_ArchotechBionic_Stomach_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_ArchotechBionic_Stomach_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Stomach</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_ArchotechBionic_Stomach_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_ArchotechBionic_Stomach_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_ArchotechBionic_Spine_AddedPart</defName>
+    <label>install advanced mechtech spine</label>
+    <description>Install an advanced mechtech spine.</description>
+    <jobString>Installing advanced mechtech spine.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Spine_AddedPart</ThingDef>
+      <HediffDef>WVC_ArchotechBionic_Spine_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_ArchotechBionic_Spine_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_ArchotechBionic_Spine_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_ArchotechBionic_Spine_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_ArchotechBionic_Heart_AddedPart</defName>
+    <label>install advanced mechtech heart</label>
+    <description>Install an advanced mechtech heart.</description>
+    <jobString>Installing advanced mechtech heart.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Heart_AddedPart</ThingDef>
+      <HediffDef>WVC_ArchotechBionic_Heart_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_ArchotechBionic_Heart_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Heart</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_ArchotechBionic_Heart_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_ArchotechBionic_Heart_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_ArchotechBionic_Kidney_AddedPart</defName>
+    <label>install advanced mechtech kidney</label>
+    <description>Install an advanced mechtech kidney.</description>
+    <jobString>Installing advanced mechtech kidney.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Kidney_AddedPart</ThingDef>
+      <HediffDef>WVC_ArchotechBionic_Kidney_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_ArchotechBionic_Kidney_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Kidney</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_ArchotechBionic_Kidney_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_ArchotechBionic_Kidney_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_ArchotechBionic_Liver_AddedPart</defName>
+    <label>install advanced mechtech liver</label>
+    <description>Install an advanced mechtech liver.</description>
+    <jobString>Installing advanced mechtech liver.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Liver_AddedPart</ThingDef>
+      <HediffDef>WVC_ArchotechBionic_Liver_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_ArchotechBionic_Liver_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Liver</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_ArchotechBionic_Liver_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_ArchotechBionic_Liver_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_ArchotechBionic_Lung_AddedPart</defName>
+    <label>install advanced mechtech lung</label>
+    <description>Install an advanced mechtech lung.</description>
+    <jobString>Installing advanced mechtech lung.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Lung_AddedPart</ThingDef>
+      <HediffDef>WVC_ArchotechBionic_Lung_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_ArchotechBionic_Lung_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Lung</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_ArchotechBionic_Lung_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_ArchotechBionic_Lung_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_ArchotechBionic_Shoulder_AddedPart</defName>
+    <label>install advanced mechtech arm</label>
+    <description>Install an advanced mechtech arm.</description>
+    <jobString>Installing advanced mechtech arm.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Shoulder_AddedPart</ThingDef>
+      <HediffDef>WVC_ArchotechBionic_Shoulder_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_ArchotechBionic_Shoulder_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Shoulder</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_ArchotechBionic_Shoulder_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_ArchotechBionic_Shoulder_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="WVC_Ultra_AddedPartSurgeryDef_Base">
+    <defName>Install_WVC_ArchotechBionic_Leg_AddedPart</defName>
+    <label>install advanced mechtech leg</label>
+    <description>Install an advanced mechtech leg.</description>
+    <jobString>Installing advanced mechtech leg.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_ArchotechBionic_Leg_AddedPart</ThingDef>
+      <HediffDef>WVC_ArchotechBionic_Leg_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <addsHediff>WVC_ArchotechBionic_Leg_AddedPart</addsHediff>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+    </appliedOnFixedBodyParts>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WVC_ArchotechBionic_Leg_AddedPart</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WVC_ArchotechBionic_Leg_AddedPart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>

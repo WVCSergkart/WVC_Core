@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef MayRequire="ludeon.rimworld.royalty" Name="WVC_Ultra_DefenceTurrets_Base" ParentName="WVC_Ultra_SpawnersAndOther_Base" WVC_CE_Tag="DoesNotSupport">
+	<defName>Turret_AutoMiniTurret_WVC</defName>
+	<label>mini-slugger turret</label>
+	<description>A self-powered defense turret mounted with a weak but long-ranged slug-thrower. May explode when damaged.</description>
+	<techLevel>Ultra</techLevel>
+	<thingClass>Building_TurretGun</thingClass>
+	<drawerType>MapMeshAndRealTime</drawerType>
+	<uiIconPath>WVC/Stuff/MechTurret/TurrtMechMini_Icon</uiIconPath>
+	<uiIconScale>1.0</uiIconScale>
+	<graphicData>
+	  <texPath>WVC/Stuff/MechTurret/TurretMechMini_Base</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <!-- <shaderType>CutoutComplex</shaderType> -->
+	  <color>(181,165,153)</color>
+	  <drawSize>(1,1)</drawSize>
+	  <drawOffset>(0,0,-0.11)</drawOffset>
+	  <damageData>
+		<rect>(0.2,0.2,0.6,0.6)</rect>
+	  </damageData>
+	  <shadowData>
+		<volume>(0.27,0.25,0.27)</volume>
+		<offset>(0,0,0)</offset>
+	  </shadowData>
+	</graphicData>
+	<costList>
+		<Plasteel>60</Plasteel>
+		<Uranium>12</Uranium>
+		<WVC_ComponentMechtech>1</WVC_ComponentMechtech>
+		<!-- <ComponentSpacer>1</ComponentSpacer> -->
+	</costList>
+	<thingCategories>
+	  <li>BuildingsSecurity</li>
+	</thingCategories>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<altitudeLayer>Building</altitudeLayer>
+	<rotatable>false</rotatable>
+	<statBases>
+	  <MaxHitPoints>100</MaxHitPoints>
+	  <Flammability>0</Flammability>
+	  <Mass>10</Mass>
+	  <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+	  <Beauty>-20</Beauty>
+	  <MarketValue>225</MarketValue>
+	  <!-- <TerrorSource MayRequire="Ludeon.RimWorld.Ideology">30</TerrorSource> -->
+	</statBases>
+	<tickerType>Normal</tickerType>
+	<comps Inherit="False">
+	  <li Class="CompProperties_Power">
+		<compClass>CompPowerTrader</compClass>
+		<shortCircuitInRain>false</shortCircuitInRain>
+		<basePowerConsumption>45</basePowerConsumption>
+	  </li>
+	  <li Class="CompProperties_Explosive">
+		<wickTicks>240</wickTicks>
+		<explosiveRadius>3.9</explosiveRadius>
+		<explosiveDamageType>Bomb</explosiveDamageType>
+		<chanceNeverExplodeFromDamage>0.9</chanceNeverExplodeFromDamage>
+	  </li>
+	  <li Class="CompProperties_Flickable"/>
+	</comps>
+	<killedLeavings>
+	  <ChunkSlagSteel>1</ChunkSlagSteel>
+	</killedLeavings>
+	<passability>PassThroughOnly</passability>
+	<pathCost>50</pathCost>
+	<fillPercent>0.4</fillPercent>
+	<hasTooltip>true</hasTooltip>
+	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	<building>
+	  <paintable>true</paintable>
+	  <combatPower>45</combatPower>
+	  <ai_combatDangerous>true</ai_combatDangerous>
+	  <turretGunDef>Gun_MiniTurretMech_WVC</turretGunDef>
+	  <turretBurstCooldownTime>2.5</turretBurstCooldownTime>
+	  <soundAmbient>MechTurretSmall_Call</soundAmbient>
+	</building>
+	<researchPrerequisites>
+	  <li>WVC_Ultra_DefenceSystems</li>
+	  <!-- <li>HeavyTurrets</li> -->
+	  <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_AutomatedDefensiveMeasures</li>
+	</researchPrerequisites>
+	<designatorDropdown>Mechanoids_MiniTurrets_WVC</designatorDropdown>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
+	<placeWorkers>
+	  <li>PlaceWorker_TurretTop</li>
+	  <li>PlaceWorker_ShowTurretRadius</li>
+	</placeWorkers>
+  </ThingDef>
+
+
+  <ThingDef MayRequire="ludeon.rimworld.royalty" ParentName="WVC_Ultra_DefenceTurrets_Base" WVC_CE_Tag="DoesNotSupport">
+	<defName>Turret_ChargeBlasterTurret_WVC</defName>
+	<label>mini-сharger turret</label>
+	<costList>
+		<Plasteel>60</Plasteel>
+		<Uranium>15</Uranium>
+		<WVC_ComponentMechtech>2</WVC_ComponentMechtech>
+	</costList>
+	<building Inherit="False">
+	  <paintable>true</paintable>
+	  <combatPower>150</combatPower>
+	  <ai_combatDangerous>true</ai_combatDangerous>
+	  <turretGunDef>Gun_ChargeBlasterHeavyTurret</turretGunDef>
+	  <turretBurstCooldownTime>5.5</turretBurstCooldownTime>
+	  <turretTopDrawSize>1.2</turretTopDrawSize>
+	  <turretTopOffset>(0, 0.0)</turretTopOffset>
+	  <soundAmbient>MechTurretBig_Call</soundAmbient>
+	</building>
+	<researchPrerequisites>
+	  <li>HeavyTurrets</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef MayRequire="ludeon.rimworld.royalty" ParentName="WVC_Ultra_DefenceTurrets_Base" WVC_CE_Tag="DoesNotSupport">
+	<defName>Turret_InfernoTurret_WVC</defName>
+	<label>mini-inferno turret</label>
+	<costList>
+		<Plasteel>80</Plasteel>
+		<WVC_ComponentMechtech>2</WVC_ComponentMechtech>
+	</costList>
+	<building Inherit="False">
+	  <paintable>true</paintable>
+	  <combatPower>190</combatPower>
+	  <ai_combatDangerous>true</ai_combatDangerous>
+	  <turretGunDef>Gun_InfernoCannonTurret</turretGunDef>
+	  <turretBurstCooldownTime>17.0</turretBurstCooldownTime>
+	  <turretTopDrawSize>1.2</turretTopDrawSize>
+	  <turretTopOffset>(0, 0.0)</turretTopOffset>
+	  <soundAmbient>MechTurretBig_Call</soundAmbient>
+	</building>
+	<researchPrerequisites>
+	  <li>HeavyTurrets</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef MayRequire="ludeon.rimworld.royalty" ParentName="WVC_Ultra_DefenceTurrets_Base" WVC_CE_Tag="DoesNotSupport">
+	<defName>Turret_AutoMortar_WVC</defName>
+	<label>mini-mortar turret</label>
+	<costList>
+		<Plasteel>90</Plasteel>
+		<Uranium>19</Uranium>
+		<WVC_ComponentMechtech>5</WVC_ComponentMechtech>
+	</costList>
+	<building Inherit="False">
+	  <paintable>true</paintable>
+	  <combatPower>220</combatPower>
+	  <turretGunDef>Artillery_AutoMortar_WVC</turretGunDef>
+	  <turretBurstWarmupTime>4.0</turretBurstWarmupTime>
+	  <turretBurstCooldownTime>80.0</turretBurstCooldownTime>
+	  <turretInitialCooldownTime>120</turretInitialCooldownTime>
+	  <soundAmbient>MechTurretBig_Call</soundAmbient>
+	</building>
+	<!-- <uiIconPath>Things/Building/Security/TurretMortar_MenuIcon</uiIconPath> -->
+	<researchPrerequisites>
+	  <li>Mortars</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <!--======================================================-->
+
+  <ThingDef MayRequire="ludeon.rimworld.royalty" ParentName="BaseWeaponTurret" WVC_CE_Tag="DoesNotSupport">
+	<defName>Gun_MiniTurretMech_WVC</defName>
+	<label>mini-slugger</label>
+	<description>An automatic turret-mounted slug-thrower.</description>
+	<graphicData>
+	  <texPath>WVC/Stuff/MechTurret/TurretMechMini_Top</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<uiIconScale>2</uiIconScale>
+	<statBases>
+	  <AccuracyTouch>0.80</AccuracyTouch>
+	  <AccuracyShort>0.55</AccuracyShort>
+	  <AccuracyMedium>0.35</AccuracyMedium>
+	  <AccuracyLong>0.1</AccuracyLong>
+	  <RangedWeapon_Cooldown>5.1</RangedWeapon_Cooldown>
+	  <DeteriorationRate>0</DeteriorationRate>
+	  <Mass>5</Mass>
+	  <Flammability>0</Flammability>
+	</statBases>
+	<verbs>
+	  <li>
+		<verbClass>Verb_Shoot</verbClass>
+		<defaultProjectile>Bullet_MiniSlug</defaultProjectile>
+		<range>45.9</range>
+		<soundCast>Shot_MiniSlug</soundCast>
+		<soundCastTail>GunTail_Light</soundCastTail>
+		<muzzleFlashScale>9</muzzleFlashScale>
+		<burstShotCount>1</burstShotCount>
+	  </li>
+	</verbs>
+  </ThingDef>
+
+  <ThingDef MayRequire="ludeon.rimworld.royalty" ParentName="BaseArtilleryWeapon" WVC_CE_Tag="DoesNotSupport">
+	<defName>Artillery_AutoMortar_WVC</defName>
+	<label>auto-mortar</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/MechTurret/TurretMechMortar_Top</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.5</drawSize>
+	</graphicData>
+	<uiIconScale>1.0</uiIconScale>
+	<weaponTags>
+	  <li>Artillery_BaseDestroyer</li>
+	</weaponTags>
+	<verbs>
+	  <li>
+		<verbClass>Verb_Shoot</verbClass>
+		<defaultProjectile>Bullet_Shell_HighExplosive</defaultProjectile>
+		<forcedMissRadius>10</forcedMissRadius>
+		<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+		<warmupTime>4</warmupTime>
+		<minRange>29.9</minRange>
+		<range>500</range>
+		<burstShotCount>1</burstShotCount>
+		<soundCast>Mortar_LaunchA</soundCast>
+		<soundCastTail>GunTail_Light</soundCastTail>
+		<muzzleFlashScale>16</muzzleFlashScale>
+		<requireLineOfSight>false</requireLineOfSight>
+		<targetParams>
+		  <canTargetLocations>true</canTargetLocations>
+		</targetParams>
+	  </li>
+	</verbs>
+  </ThingDef>
+
+</Defs>

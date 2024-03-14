@@ -8,6 +8,15 @@
 		<li IfModActive="ludeon.rimworld.ideology">1.4/Ideology</li>
 		<li IfModActive="imranfish.xmlextensions">1.4/XML_Extensions</li>
 	</v1.4>
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+		<li IfModActive="wvc.sergkart.test.tools">ImplantGenerator</li>
+		<li IfModActive="ludeon.rimworld.biotech">1.5/Biotech_Core</li>
+		<!-- <li IfModActive="ludeon.rimworld.royalty">1.4/Royalty</li> -->
+		<li IfModActive="ludeon.rimworld.ideology">1.5/Ideology</li>
+		<li IfModActive="imranfish.xmlextensions">1.5/XML_Extensions</li>
+	</v1.5>
 </loadFolders>
 
 

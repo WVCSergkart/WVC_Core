@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchTabDef>
+	<!-- <defName>IGTradition</defName> -->
+	<!-- <label>Girls</label> -->
+	<defName>WVC_TechTab</defName>
+	<label>WVC</label>
+  </ResearchTabDef>
+  <ResearchProjectTagDef>
+	<defName>ValkyriesStart_WVC</defName>
+  </ResearchProjectTagDef>
+  <ResearchProjectTagDef>
+	<defName>WVC_UltraTechBase</defName>
+  </ResearchProjectTagDef>
+  <ResearchProjectTagDef>
+	<defName>WVC_Assembled_ELF_Base</defName>
+  </ResearchProjectTagDef>
+  <ResearchProjectTagDef>
+	<defName>WVC_NodeStart_Base</defName>
+  </ResearchProjectTagDef>
+
+</Defs>

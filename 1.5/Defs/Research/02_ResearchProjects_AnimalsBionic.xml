@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Bionic" Name="WVC_Ultra_ResearchProject_AnimalBionic" Abstract="True">
+	<baseCost>1500</baseCost>
+	<researchViewY>0.50</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_AnimalBionic">
+	<defName>WVC_AnimalBionicTech_Cybernetic</defName>
+	<techLevel>Spacer</techLevel>
+	<label>cybertech animal bionic</label>
+	<description>Cybertech bionics for animals.</description>
+	<researchViewX>1.00</researchViewX>
+	<prerequisites>
+	  <li MayRequire="spoonshortage.adogsaidanimalprosthetics">AnimalBionics</li>
+	  <li>WVC_BionicTech_Cybernetic</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_AnimalBionic">
+	<defName>WVC_AnimalBionicTech_Ultratech</defName>
+	<techLevel>Spacer</techLevel>
+	<label>ultratech animal bionic</label>
+	<description>Ultratech bionics for animals.</description>
+	<researchViewX>2.00</researchViewX>
+	<prerequisites>
+	  <li>WVC_BionicTech_Ultratech</li>
+	  <li>WVC_AnimalBionicTech_Cybernetic</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_AnimalBionic">
+	<defName>WVC_AnimalBionicTech_Mechtech</defName>
+	<techLevel>Spacer</techLevel>
+	<label>mechtech animal bionic</label>
+	<description>Mechtech bionics for animals.</description>
+	<researchViewX>3.00</researchViewX>
+	<prerequisites>
+	  <li>WVC_BionicTech_Mechtech</li>
+	  <li>WVC_AnimalBionicTech_Ultratech</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+</Defs>

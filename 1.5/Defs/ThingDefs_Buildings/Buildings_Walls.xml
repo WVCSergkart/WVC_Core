@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ============================================================ -->
+
+	<ThingDef ParentName="WVC_Ultra_HeavilyArmoredWalls_Base">
+		<defName>WVC_UltratechWall</defName>
+		<label>ultratech wall</label>
+		<techLevel>Spacer</techLevel>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/AncientWall_Icon</uiIconPath>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/AncientWall</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(65,69,65)</color>
+		</graphicData>
+		<costList>
+			<!-- <ComponentSpacer>1</ComponentSpacer> -->
+		</costList>
+		<!-- <comps Inherit="False"> -->
+		<!-- </comps> -->
+		<researchPrerequisites Inherit="False">
+		  <li>WVC_Ultra_Ultratech</li>
+		</researchPrerequisites>
+		<statBases>
+			<MaxHitPoints>8000</MaxHitPoints>
+		</statBases>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	</ThingDef>
+
+	<ThingDef ParentName="WVC_Ultra_HeavilyArmoredWalls_Base">
+		<defName>WVC_MechtechWall_Glow</defName>
+		<label>ultratech wall with lights</label>
+		<techLevel>Spacer</techLevel>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidIconA</uiIconPath>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/DarkMechtechWall</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<!-- <color>(60,60,60)</color> -->
+			<!-- <colorTwo>(255,248,133)</colorTwo> -->
+			<!-- <color>(184,198,203)</color> -->
+			<color>(181,165,153)</color>
+		</graphicData>
+		<costList>
+			<WVC_Ultrasteel>11</WVC_Ultrasteel>
+		</costList>
+		<!-- <comps Inherit="False"> -->
+		<!-- </comps> -->
+		<researchPrerequisites Inherit="False">
+		  <li>WVC_ResearchBodyParts_NodeRed</li>
+		</researchPrerequisites>
+		<statBases>
+			<MaxHitPoints>15000</MaxHitPoints>
+		</statBases>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<comps>
+		  <li Class="CompProperties_Glower">
+			<glowRadius>3</glowRadius>
+			<glowColor>(255,133,133, 0)</glowColor>
+		  </li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="WVC_Ultra_HeavilyArmoredWalls_Base">
+		<defName>WVC_MechtechWall</defName>
+		<label>mechtech wall</label>
+		<techLevel>Ultra</techLevel>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/MechanoidIconA</uiIconPath>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/MechanoidWall</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(181,165,153)</color>
+			<!-- <color>(184,198,203)</color> -->
+			<!-- <color>(114,114,114)</color> -->
+		</graphicData>
+		<costList>
+			<Uranium>4</Uranium>
+		</costList>
+		<!-- <comps Inherit="False"> -->
+		<!-- </comps> -->
+		<researchPrerequisites Inherit="False">
+		  <li>WVC_Ultra_Mechtech</li>
+		</researchPrerequisites>
+		<statBases>
+			<MaxHitPoints>10000</MaxHitPoints>
+		</statBases>
+		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="WVC_Ultra_HeavilyArmoredWalls_Base">
+		<defName>WVC_ArchotechWall</defName>
+		<label>invulnerable mechtech wall</label>
+		<description>The wall is practically impenetrable; there is no one who has the patience to break it. Capable of holding up a roof.
+
+&lt;color=#f5ffa2&gt;Gameplay Effect:&lt;/color&gt; The wall cannot be destroyed, only deconstructed.</description>
+		<techLevel>Archotech</techLevel>
+		<uiIconPath>WVC/Stuff/WallsDoorsColumns/ArchotechWallIcon</uiIconPath>
+		<graphicData>
+			<texPath>WVC/Stuff/WallsDoorsColumns/ArchotechWall</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<!-- <color>(192,193,162)</color> -->
+			<!-- <color>(60,60,60)</color> -->
+			<color>(181,165,153)</color>
+		</graphicData>
+		<costList>
+			<Uranium>16</Uranium>
+			<WVC_Ultrasteel>22</WVC_Ultrasteel>
+			<WVC_ComponentMechtech>1</WVC_ComponentMechtech>
+		</costList>
+		<useHitPoints>false</useHitPoints>
+		<researchPrerequisites Inherit="False">
+		  <li>WVC_ResearchBodyParts_NodeViolet</li>
+		  <li>WVC_ResearchBodyParts_NodeRed</li>
+		</researchPrerequisites>
+		<statBases>
+			<MaxHitPoints>20000</MaxHitPoints>
+		</statBases>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<!-- <designationCategory></designationCategory> -->
+		<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+		<comps>
+		  <!-- <li Class="CompProperties_Glower"> -->
+			<!-- <glowRadius>3</glowRadius> -->
+			<!-- <glowColor>(200,200,50, 0)</glowColor> -->
+		  <!-- </li> -->
+		  <!-- <li Class="CompProperties_Glower"> -->
+			<!-- <glowRadius>3</glowRadius> -->
+			<!-- <glowColor>(249,241,148, 0)</glowColor> -->
+		  <!-- </li> -->
+		  <li Class="CompProperties_Glower">
+			<glowRadius>3</glowRadius>
+			<glowColor>(142,133,255, 0)</glowColor>
+		  </li>
+		</comps>
+	</ThingDef>
+
+
+</Defs>

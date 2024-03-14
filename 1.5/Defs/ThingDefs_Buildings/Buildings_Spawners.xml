@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="WVC_Ultra_SpawnersAndOther_Base">
+	<defName>WVC_UltraniteAssembler</defName>
+	<label>ultranite assembler</label>
+	<description>Underground complex for replication. Slowly produces microscopic machines from literally nothing, but requires a lot of energy.</description>
+	<descriptionHyperlinks>
+	  <ThingDef>WVC_UniversalFuel</ThingDef>
+	</descriptionHyperlinks>
+	<size>(3,3)</size>
+	<uiIconScale>1.0</uiIconScale>
+	<!-- Floor -->
+	<altitudeLayer>FloorCoverings</altitudeLayer>
+	<blockPlants>true</blockPlants>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<selectable>true</selectable>
+	<useHitPoints>true</useHitPoints>
+	<blocksAltitudes>
+	  <li>FloorCoverings</li>
+	</blocksAltitudes>
+	<building>
+	  <paintable>true</paintable>
+	  <isEdifice>true</isEdifice>
+	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+	</building>
+	<graphicData>
+	  <texPath>WVC/Stuff/ComponentAssembler</texPath>
+	  <graphicClass>Graphic_Random</graphicClass>
+	  <!-- <shaderType>CutoutComplex</shaderType> -->
+	  <drawSize>(3,3)</drawSize>
+	  <color>(181,165,153)</color>
+	  <!-- <color>(114,114,114)</color> -->
+	  <damageData>
+		<rect>(0.15, 0.15, 2.7, 2.7)</rect>
+	  </damageData>
+	</graphicData>
+	<thingCategories>
+	  <li>BuildingsSpecial</li>
+	</thingCategories>
+	<comps>
+	  <!-- <li Class="CompProperties_Breakdownable"/> -->
+	  <li Class="CompProperties_Power">
+		<compClass>CompPowerTrader</compClass>
+		<basePowerConsumption>1200</basePowerConsumption>
+		<transmitsPower>true</transmitsPower>
+	  </li>
+	  <li Class="CompProperties_Flickable"/>
+	  <li Class="WVC_UltraExpansion.CompProperties_Spawner">
+		<compClass>WVC_UltraExpansion.CompSpawner</compClass>
+		<requiresPower>true</requiresPower>
+		<productDefs>
+		  <li>
+			<productDef>WVC_UniversalFuel</productDef>
+			<productCount>66~133</productCount>
+			<selectionWeight>1.0</selectionWeight>
+		  </li>
+		  <li>
+			<productDef>WVC_MedicineMechtech</productDef>
+			<productCount>1~2</productCount>
+			<selectionWeight>0.03</selectionWeight>
+		  </li>
+		</productDefs>
+		<!-- <productCount>66~133</productCount> -->
+		<ticksUntilSpawn>240000~540000</ticksUntilSpawn>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+		<uniqueTag>Ultranites</uniqueTag>
+	  </li>
+	  <!-- <li Class="CompProperties_Glower"> -->
+		<!-- <glowRadius>4</glowRadius> -->
+		<!-- <glowColor>(78, 226, 229, 0)</glowColor> -->
+	  <!-- </li> -->
+	</comps>
+	<statBases>
+	  <MarketValue>1200</MarketValue>
+	  <MaxHitPoints>1000</MaxHitPoints>
+	  <Beauty>-3</Beauty>
+	  <Mass>165</Mass>
+	</statBases>
+	<killedLeavings>
+	  <ChunkSlagSteel>5</ChunkSlagSteel>
+	</killedLeavings>
+	<costList>
+		<Plasteel>210</Plasteel>
+		<!-- <Uranium>33</Uranium> -->
+		<WVC_Ultrasteel>33</WVC_Ultrasteel>
+		<!-- <ComponentSpacer>7</ComponentSpacer> -->
+		<!-- <WVC_UniversalFuel>333</WVC_UniversalFuel> -->
+		<!-- <ComponentSpacer>6</ComponentSpacer> -->
+		<WVC_ComponentUltratech>2</WVC_ComponentUltratech>
+	</costList>
+	<thingSetMakerTags>
+	  <li>RewardStandardQualitySuper</li>
+	</thingSetMakerTags>
+	<!-- <tickerType>Normal</tickerType> -->
+	<!-- <tickerType>Rare</tickerType> -->
+	<tickerType>Long</tickerType>
+	<fillPercent>0.2</fillPercent>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<!-- <terrainAffordanceNeeded>Light</terrainAffordanceNeeded> -->
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<passability>PassThroughOnly</passability>
+	<!-- <passability>Impassable</passability> -->
+	<pathCost>34</pathCost>
+	<rotatable>false</rotatable>
+	<canOverlapZones>false</canOverlapZones>
+	<tradeability>Sellable</tradeability>
+	<tradeTags>
+	  <li>ExoticBuilding</li>
+	</tradeTags>
+	<!-- <designatorDropdown>Valkyries_Replicators_WVC</designatorDropdown> -->
+	<researchPrerequisites>
+		<li>WVC_Ultra_UltraniteSpawner</li>
+	</researchPrerequisites>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
+	<!-- <designatorDropdown>HGS_Spawners_WVC</designatorDropdown> -->
+  </ThingDef>
+
+  <!-- ========================================================== -->
+
+  <ThingDef ParentName="WVC_Ultra_SpawnersAndOther_Base">
+	<defName>WVC_MechtechDrillingMachine</defName>
+	<label>mechtech drilling rig</label>
+	<description>Complex fully automated deep drilling installation. Does not bother insects.
+
+&lt;color=#f5ffa2&gt;Gameplay Effect:&lt;/color&gt; Acts as an infinite resource spawner that will spawn any deep mineable resources.</description>
+	<descriptionHyperlinks>
+	  <!-- <ThingDef>WVC_ResourceNodes_Blue</ThingDef> -->
+	  <!-- <ThingDef>WVC_ResourceNodes_Green</ThingDef> -->
+	  <!-- <ThingDef>WVC_ResourceNodes_Red</ThingDef> -->
+	  <!-- <ThingDef>WVC_ResourceNodes_Violet</ThingDef> -->
+	  <!-- <ThingDef>WVC_ResourceNodes_Yellow</ThingDef> -->
+	</descriptionHyperlinks>
+	<thingClass>Building</thingClass>
+	<drawerType>MapMeshAndRealTime</drawerType>
+	<graphicData>
+	  <texPath>WVC/Stuff/DrillingMachine</texPath>
+	  <graphicClass>Graphic_Random</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(181,165,153)</color>
+	  <drawSize>(6,6)</drawSize>
+	  <shadowData>
+		<volume>(6.03,1.0,5.25)</volume>
+		<offset>(0,0,-0.25)</offset>
+	  </shadowData>
+	  <damageData>
+		<rect>(0.3,0,5.4,6)</rect>
+	  </damageData>
+	</graphicData>
+	<altitudeLayer>Building</altitudeLayer>
+	<passability>Impassable</passability>
+	<blockWind>true</blockWind>
+	<scatterableOnMapGen>false</scatterableOnMapGen>
+	<fillPercent>1</fillPercent>
+	<blockLight>true</blockLight>
+	<canOverlapZones>false</canOverlapZones>
+	<holdsRoof>true</holdsRoof>
+	<statBases>
+	  <MarketValue>2340</MarketValue>
+	  <MaxHitPoints>5000</MaxHitPoints>
+	  <WorkToBuild>50000</WorkToBuild>
+	  <Flammability>0.0</Flammability>
+	  <Beauty>-30</Beauty>
+	</statBases>
+	<tickerType>Long</tickerType>
+	<size>(6,6)</size>
+	<costList>
+	  <Plasteel>1250</Plasteel>
+	  <Uranium>333</Uranium>
+	  <WVC_Ultrasteel>55</WVC_Ultrasteel>
+	  <!-- <ComponentSpacer>12</ComponentSpacer> -->
+	  <WVC_ComponentMechtech>6</WVC_ComponentMechtech>
+	</costList>
+	<killedLeavings>
+	  <ChunkSlagSteel>33</ChunkSlagSteel>
+	</killedLeavings>
+	<comps>
+	  <li Class="CompProperties_Flickable"/>
+	  <li Class="CompProperties_Power">
+		<compClass>CompPowerTrader</compClass>
+		<basePowerConsumption>2400</basePowerConsumption>
+		<transmitsPower>true</transmitsPower>
+	  </li>
+	  <li Class="WVC_UltraExpansion.CompProperties_Spawner">
+		<compClass>WVC_UltraExpansion.CompDrillingRig</compClass>
+		<requiresPower>true</requiresPower>
+		<ticksUntilSpawn>240000~320000</ticksUntilSpawn>
+		<productCountFactor>2</productCountFactor>
+		<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+		<showMessageIfOwned>false</showMessageIfOwned>
+		<uniqueTag>DrillingRig</uniqueTag>
+	  </li>
+	</comps>
+	<rotatable>false</rotatable>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<placeWorkers>
+	  <!-- <li>Placeworker_OnlyUnderThickRoof</li> -->
+	  <!-- <li>PlaceWorker_OnSteamGeyser</li> -->
+	</placeWorkers>
+	<building>
+	  <paintable>true</paintable>
+	  <ai_chillDestination>false</ai_chillDestination>
+	  <soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	</building>
+	<constructEffect>ConstructMetal</constructEffect>
+	<researchPrerequisites>
+		<li>WVC_Ultra_MechtechDrillingMachine</li>
+	</researchPrerequisites>
+	<constructionSkillPrerequisite>13</constructionSkillPrerequisite>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
+	<!-- <designatorDropdown>HGS_Spawners_WVC</designatorDropdown> -->
+  </ThingDef>
+  
+</Defs>

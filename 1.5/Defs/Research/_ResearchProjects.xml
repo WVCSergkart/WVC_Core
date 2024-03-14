@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef Name="WVC_Ultra_ResearchProject_Base" Abstract="True">
+	<label>Test tech</label>
+	<description>No information available.</description>
+	<baseCost>2000</baseCost>
+	<techLevel>Ultra</techLevel>
+	<tags>
+	  <li>WVC_UltraTechBase</li>
+	  <!-- <li>ValkyriesStart_WVC</li> -->
+	</tags>
+	<researchViewX>0.00</researchViewX>
+	<researchViewY>0.00</researchViewY>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<tab>WVC_TechTab</tab>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+	  <li>MultiAnalyzer</li>
+	</requiredResearchFacilities>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_Ultra_Ultratech</defName>
+	<label>ultratech</label>
+	<description>Most complex technologies of mankind, as well as their further refinement.</description>
+	<techLevel>Spacer</techLevel>
+	<techprintCount MayRequire="ludeon.rimworld.royalty">1</techprintCount>
+	<techprintCommonality MayRequire="ludeon.rimworld.royalty">1</techprintCommonality>
+	<techprintMarketValue MayRequire="ludeon.rimworld.royalty">800</techprintMarketValue>
+	<heldByFactionCategoryTags>
+		<li MayRequire="ludeon.rimworld.royalty">Empire</li>
+		<li>Outlander</li>
+		<!-- <li>Tribal</li> -->
+	</heldByFactionCategoryTags>
+	<tags>
+	  <li>ValkyriesStart_WVC</li>
+	</tags>
+	<researchViewX>0.00</researchViewX>
+	<researchViewY>2.70</researchViewY>
+	<hiddenPrerequisites>
+	  <li>AdvancedFabrication</li>
+	  <!-- <li>Stonecutting</li> -->
+	  <!-- <li>ComplexFurniture</li> -->
+	  <!-- <li>SterileMaterials</li> -->
+	  <!-- <li>AirConditioning</li> -->
+	  <!-- <li>AdvancedFabrication</li> -->
+	</hiddenPrerequisites>
+	<prerequisites>
+	  <!-- <li>MicroelectronicsBasics</li> -->
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_Ultra_Mechtech</defName>
+	<label>mechtech</label>
+	<description>Advanced mechtech research to replicate, improve and empower.</description>
+	  <researchViewX>1.00</researchViewX>
+	  <researchViewY>2.70</researchViewY>
+	<hiddenPrerequisites>
+	  <!-- <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_MechanoidStructures</li> -->
+	  <li MayRequire="ludeon.rimworld.biotech">StandardMechtech</li>
+	  <!-- <li>ShipReactor</li> -->
+	  <!-- <li>ShipComputerCore</li> -->
+	</hiddenPrerequisites>
+	<tags>
+	  <li>WVC_Assembled_ELF_Base</li>
+	  <li MayRequire="wvc.wvcmod.wvcspecific">WVC_TEST_StartHook</li>
+	</tags>
+	<prerequisites>
+	  <li>WVC_Ultra_Ultratech</li>
+	  <!-- <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechStart</li> -->
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base"> -->
+	<!-- <defName>WVC_Ultra_Mechtech</defName> -->
+	<!-- <label>advanced mechtech</label> -->
+	<!-- <description>Research that absorbed all previous knowledge and discovered technologies close but at the same time far from archotech.</description> -->
+	<!-- <researchViewX>6.00</researchViewX> -->
+	<!-- <researchViewY>3.50</researchViewY> -->
+	<!-- <techLevel>Archotech</techLevel> -->
+	<!-- <hiddenPrerequisites> -->
+	<!-- </hiddenPrerequisites> -->
+	<!-- <prerequisites> -->
+	  <!-- <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechStart</li> -->
+	  <!-- <li>WVC_ResearchNodes_Blue</li> -->
+	  <!-- <li>WVC_ResearchNodes_Red</li> -->
+	  <!-- <li>WVC_ResearchNodes_Violet</li> -->
+	  <!-- <li>WVC_ResearchNodes_Green</li> -->
+	  <!-- <li>WVC_ResearchNodes_Yellow</li> -->
+	<!-- </prerequisites> -->
+  <!-- </ResearchProjectDef> -->
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_Ultra_GarbageRecycler</defName>
+	<label>garbage recycler</label>
+	<description>A workbench for processing all unnecessary rubbish.</description>
+	<baseCost>5000</baseCost>
+	<techprintCount MayRequire="ludeon.rimworld.royalty">2</techprintCount>
+	<techprintCommonality MayRequire="ludeon.rimworld.royalty">1</techprintCommonality>
+	<techprintMarketValue MayRequire="ludeon.rimworld.royalty">400</techprintMarketValue>
+	<heldByFactionCategoryTags>
+	  <li MayRequire="ludeon.rimworld.royalty">Empire</li>
+	  <li>Outlander</li>
+	  <!-- <li>Tribal</li> -->
+	</heldByFactionCategoryTags>
+	<tags>
+	  <li>ValkyriesStart_WVC</li>
+	  <li>WVC_Assembled_ELF_Base</li>
+	  <li MayRequire="wvc.wvcmod.wvcspecific">WVC_TEST_StartHook</li>
+	</tags>
+	<researchViewX>0.00</researchViewX>
+	<researchViewY>3.20</researchViewY>
+	<hiddenPrerequisites>
+	  <li>AdvancedFabrication</li>
+	</hiddenPrerequisites>
+	<prerequisites>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_Ultra_UltraniteConversion</defName>
+	<label>ultranites conversion</label>
+	<description>Converting ultranites into useful resources.</description>
+	<researchViewX>1.00</researchViewX>
+	<researchViewY>3.20</researchViewY>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<prerequisites>
+	  <!-- <li>WVC_Ultra_Ultratech</li> -->
+	  <li>WVC_Ultra_GarbageRecycler</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_Ultra_UltraniteSpawner</defName>
+	<label>ultranites assembler</label>
+	<description>An endless source of ultranites.</description>
+	<researchViewX>2.00</researchViewX>
+	<researchViewY>3.70</researchViewY>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<tags>
+	  <li>WVC_Assembled_ELF_Base</li>
+	</tags>
+	<prerequisites>
+	  <li>WVC_Ultra_UltraniteConversion</li>
+	  <li>WVC_Ultra_Mechtech</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef MayRequire="ludeon.rimworld.royalty" ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_Ultra_DefenceSystems</defName>
+	<label>mechtech defence systems</label>
+	<description>Automatic turrets that do not require reloading.</description>
+	<researchViewX>2.00</researchViewX>
+	<researchViewY>2.05</researchViewY>
+	<prerequisites>
+	  <li>WVC_Ultra_Mechtech</li>
+	</prerequisites>
+	<hiddenPrerequisites>
+	  <!-- <li>HeavyTurrets</li> -->
+	  <!-- <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_AutomatedDefensiveMeasures</li> -->
+	</hiddenPrerequisites>
+	<tags>
+	  <li>WVC_Assembled_ELF_Base</li>
+	</tags>
+	<hideWhen>
+	  <turretsDisabled>true</turretsDisabled>
+	</hideWhen>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_Ultra_GauranlenTree</defName>
+	<label>gaurler</label>
+	<description>An improved version of the Gauranlen Tree that does not require special attention.</description>
+	  <researchViewX>2.00</researchViewX>
+	  <researchViewY>3.20</researchViewY>
+	<hiddenPrerequisites>
+	  <li MayRequire="ludeon.rimworld.royalty">BrainWiring</li>
+	  <!-- <li MayRequire="ludeon.rimworld.ideology">NeuralSupercharger</li> -->
+	  <li MayRequire="ludeon.rimworld.ideology">Bioregeneration</li>
+	</hiddenPrerequisites>
+	<prerequisites>
+	  <li>WVC_Ultra_Mechtech</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_Ultra_MechtechDrillingMachine</defName>
+	<label>complex drilling</label>
+	<description>Special tools and mechanisms for deep drilling.</description>
+	<researchViewX>2.00</researchViewX>
+	<researchViewY>2.70</researchViewY>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<tags>
+	  <li>WVC_Assembled_ELF_Base</li>
+	</tags>
+	<prerequisites>
+	  <li>WVC_Ultra_Mechtech</li>
+	  <li>DeepDrilling</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+</Defs>

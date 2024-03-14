@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase" Name="WVC_Ultra_AddedPartSurgeryDef_Base" Abstract="True">
+		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase" Name="WVC_Ultra_AddedPartSurgeryDef_Animals" Abstract="True">
+		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+		<recipeUsers Inherit="False"/>
+	</RecipeDef>
+
+	<!-- ========= -->
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase" Name="WVC_Ultra_ImplantSurgeryDef_ArmorGland" Abstract="True">
+		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<incompatibleWithHediffTags>
+		  <li>ArmorGland</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+	<RecipeDef ParentName="SurgeryRemoveImplantBase" Name="WVC_Ultra_ImplantSurgeryRemoveDef_Base" Abstract="True">
+		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryInstallImplantBase" Name="WVC_Ultra_ImplantSurgeryDef_AnimalsArmorGland" Abstract="True">
+		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+		<recipeUsers Inherit="False"/>
+		<incompatibleWithHediffTags>
+		  <li>ArmorGland</li>
+		</incompatibleWithHediffTags>
+	</RecipeDef>
+	<RecipeDef ParentName="SurgeryRemoveImplantBase" Name="WVC_Ultra_ImplantSurgeryRemoveDef_AnimalsBase" Abstract="True">
+		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+		<recipeUsers Inherit="False"/>
+	</RecipeDef>
+
+	<!--=====================================================================-->
+
+	<RecipeDef Abstract="True" Name="WVC_Ultra_MedicalOperation_Base">
+		<description>No information available.</description>
+		<effectWorking>Surgery</effectWorking>
+		<soundWorking>Recipe_Surgery</soundWorking>
+		<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+		<workSkill>Medicine</workSkill>
+		<workSkillLearnFactor>16</workSkillLearnFactor>
+		<surgerySuccessChanceFactor>10.0</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.0</deathOnFailedSurgeryChance>
+		<workAmount>2500</workAmount>
+		<skillRequirements>
+			<Medicine>12</Medicine>
+		</skillRequirements>
+		<ingredients Inherit="False">
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>MedicineUltratech</li>
+				<li>WVC_MedicineMechtech</li>
+			  </thingDefs>
+			</filter>
+			<count>1</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter Inherit="False">
+		  <thingDefs>
+			<li>MedicineUltratech</li>
+			<li>WVC_MedicineMechtech</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+		  <li>Human</li>
+		</recipeUsers>
+		<researchPrerequisites>
+		  <li>WVC_BionicTech_ScarsHealing</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+	<RecipeDef Abstract="True" Name="WVC_Ultra_MedicalOperation_CureInjury" ParentName="WVC_Ultra_MedicalOperation_Base">
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<workAmount>1500</workAmount>
+	</RecipeDef>
+
+	<!-- <RecipeDef Abstract="True" Name="HealMutation_Base_WVC" ParentName="WVC_Ultra_MedicalOperation_Base"> -->
+		<!-- <workerClass>Recipe_RemoveHediff</workerClass> -->
+		<!-- <workAmount>3500</workAmount> -->
+	<!-- </RecipeDef> -->
+
+</Defs>

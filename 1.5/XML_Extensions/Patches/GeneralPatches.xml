@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="XmlExtensions.ApplyPatch">
+		<patchName>Autopatcher_Ultra_CureInjury_Patch_WVC</patchName>
+		<arguments>
+			<li>InjuryBase</li>
+			<li>Injury</li>
+			<li>AnimalThingBase</li>
+		</arguments>
+	</Operation>
+
+
+</Patch>

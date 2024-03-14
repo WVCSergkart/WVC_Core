@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <JobDef MayRequire="ludeon.rimworld.biotech">
+	<defName>WVC_Ultra_InstalMechImplant</defName>
+	<driverClass>WVC_UltraExpansion.JobDriver_InstallMechImplant</driverClass>
+	<reportString>installing implant in TargetA.</reportString>
+	<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  <!-- <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_MechtechBionic"> -->
+	<!-- <defName>WVC_TEST_MechImplantBase</defName> -->
+	<!-- <label>MECH IMPLANT TEST</label> -->
+	<!-- <costList> -->
+	  <!-- <Plasteel>15</Plasteel> -->
+	  <!-- <Uranium>4</Uranium> -->
+	<!-- </costList> -->
+	<!-- <graphicData> -->
+	  <!-- <texPath>WVC/Implants/Eye</texPath> -->
+	<!-- </graphicData> -->
+	<!-- <comps> -->
+	  <!-- <li Class="CompProperties_Usable"> -->
+		<!-- <useJob>UseItem</useJob> -->
+		<!-- <useLabel>Use {0_label}</useLabel> -->
+		<!-- <useDuration>0</useDuration> -->
+		<!-- <warmupMote>Mote_ResurrectAbility</warmupMote> -->
+	  <!-- </li> -->
+	  <!-- <li Class="CompProperties_Targetable"> -->
+		<!-- <compClass>WVC_UltraExpansion.CompTargetable_DormantPlayerMechanoid</compClass> -->
+	  <!-- </li> -->
+	  <!-- <li Class="WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget"> -->
+		<!-- <moteDef>Mote_ResurrectFlash</moteDef> -->
+		<!-- <hediffDef>WVC_CybertechBionic_Eye_AddedPart</hediffDef> -->
+		<!-- <bodyPart>SightSensor</bodyPart> -->
+		<!-- <jobDef>WVC_Ultra_InstalMechImplant</jobDef> -->
+	  <!-- </li> -->
+	<!-- </comps> -->
+  <!-- </ThingDef> -->
+
+  <!-- =================================================== -->
+
+  <ThingCategoryDef MayRequire="ludeon.rimworld.biotech">
+	<defName>WVC_Ultra_MechanoidsImplants</defName>
+	<label>mechanoid parts</label>
+	<parent>BodyParts</parent>
+  </ThingCategoryDef>
+
+  <HediffDef MayRequire="ludeon.rimworld.biotech" Name="WVC_Ultra_AddedPartHediffDef_MechanoidsTier_I" ParentName="WVC_Ultra_AddedBodyPart_Base" Abstract="True">
+	<defaultLabelColor>(255,188,196)</defaultLabelColor>
+	<addedPartProps>
+	  <partEfficiency>1.10</partEfficiency>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef MayRequire="ludeon.rimworld.biotech" Name="WVC_Ultra_AddedPartHediffDef_MechanoidsTier_II" ParentName="WVC_Ultra_AddedBodyPart_Base" Abstract="True">
+	<defaultLabelColor>(163,187,255)</defaultLabelColor>
+	<addedPartProps>
+	  <partEfficiency>1.20</partEfficiency>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef MayRequire="ludeon.rimworld.biotech" Name="WVC_Ultra_AddedPartHediffDef_MechanoidsTier_III" ParentName="WVC_Ultra_AddedBodyPart_Base" Abstract="True">
+	<defaultLabelColor>(251,255,251)</defaultLabelColor>
+	<addedPartProps>
+	  <partEfficiency>1.30</partEfficiency>
+	</addedPartProps>
+  </HediffDef>
+
+  <!-- =================================================== -->
+
+  <ThingDef MayRequire="ludeon.rimworld.biotech" Name="WVC_Ultra_AddedPartThingDef_MechanoidsTier_Base" ParentName="WVC_Ultra_ThingDefBodyParts_Base" Abstract="True">
+	<description>Improved mechanoid part. Installation requires that the mechanoid be in shutdown mode.
+
+&lt;color=#f5ffa2&gt;Gameplay Note:&lt;/color&gt; To install, the mechanoid must be repairable, controllable and be in shut down.</description>
+	<techLevel>Spacer</techLevel>
+	<recipeMaker>
+	  <skillRequirements>
+		<Crafting>12</Crafting>
+		<Intellectual>8</Intellectual>
+	  </skillRequirements>
+	  <recipeUsers>
+		<li>WVC_AncientCraftingBench</li>
+	  </recipeUsers>
+	</recipeMaker>
+	<thingCategories>
+	  <li>WVC_Ultra_MechanoidsImplants</li>
+	</thingCategories>
+	<tradeTags Inherit="False">
+	  <li>WVC_UltraMechanoidParts</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>WVC_UltraMechanoidParts</li>
+	</techHediffsTags>
+	<comps>
+	  <li Class="CompProperties_Usable">
+		<useJob>UseItem</useJob>
+		<useLabel>Use {0_label}</useLabel>
+		<useDuration>0</useDuration>
+		<warmupMote>Mote_ResurrectAbility</warmupMote>
+	  </li>
+	  <li Class="CompProperties_Targetable">
+		<compClass>WVC_UltraExpansion.CompTargetable_DormantPlayerMechanoid</compClass>
+	  </li>
+	</comps>
+  </ThingDef>
+
+  <!-- ================= -->
+
+  <ThingDef MayRequire="ludeon.rimworld.biotech" Name="WVC_Ultra_AddedPartThingDef_MechanoidsTier_I" ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_Base" Abstract="True">
+	<graphicData>
+	  <color>(222,165,171)</color>
+	</graphicData>
+	<costList>
+	  <!-- <ComponentSpacer>8</ComponentSpacer> -->
+	  <WVC_ComponentUltratech>6</WVC_ComponentUltratech>
+	  <WVC_ComponentMechtech>4</WVC_ComponentMechtech>
+	</costList>
+	<recipeMaker>
+	  <researchPrerequisites Inherit="False">
+		<li>WVC_MechanoidlBionicTech_TierI</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
+
+  <ThingDef MayRequire="ludeon.rimworld.biotech" Name="WVC_Ultra_AddedPartThingDef_MechanoidsTier_II" ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_Base" Abstract="True">
+	<graphicData>
+	  <color>(165,179,222)</color>
+	</graphicData>
+	<costList>
+	  <!-- <ComponentSpacer>8</ComponentSpacer> -->
+	  <WVC_ComponentUltratech>8</WVC_ComponentUltratech>
+	  <WVC_ComponentMechtech>6</WVC_ComponentMechtech>
+	</costList>
+	<recipeMaker>
+	  <researchPrerequisites Inherit="False">
+		<li>WVC_MechanoidlBionicTech_TierII</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
+
+  <ThingDef MayRequire="ludeon.rimworld.biotech" Name="WVC_Ultra_AddedPartThingDef_MechanoidsTier_III" ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_Base" Abstract="True">
+	<graphicData>
+	  <color>(165,169,165)</color>
+	</graphicData>
+	<costList>
+	  <!-- <ComponentSpacer>8</ComponentSpacer> -->
+	  <WVC_ComponentUltratech>8</WVC_ComponentUltratech>
+	  <WVC_ComponentMechtech>8</WVC_ComponentMechtech>
+	</costList>
+	<recipeMaker>
+	  <researchPrerequisites Inherit="False">
+		<li>WVC_MechanoidlBionicTech_TierIII</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
+
+</Defs>
