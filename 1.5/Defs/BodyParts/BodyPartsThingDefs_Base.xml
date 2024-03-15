@@ -234,7 +234,7 @@
 	  <!-- <MarketValue>1500</MarketValue> -->
 	</statBases>
 	<tradeTags>
-	  <li>ImplantEmpireRoyal</li>
+	  <!-- <li>ImplantEmpireRoyal</li> -->
 	</tradeTags>
 	<techHediffsTags Inherit="False">
 	  <li>ImplantEmpireRoyal</li>
@@ -286,7 +286,7 @@
 	  <!-- <MarketValue>1800</MarketValue> -->
 	</statBases>
 	<tradeTags>
-	  <li>ImplantEmpireRoyal</li>
+	  <!-- <li>ImplantEmpireRoyal</li> -->
 	</tradeTags>
 	<techHediffsTags Inherit="False">
 	  <li>ImplantEmpireRoyal</li>
@@ -336,7 +336,7 @@
 	  </researchPrerequisites>
 	</recipeMaker>
 	<tradeTags>
-	  <li>ImplantEmpireRoyal</li>
+	  <!-- <li>ImplantEmpireRoyal</li> -->
 	  <li>WVC_NodeImplant</li>
 	</tradeTags>
 	<techHediffsTags Inherit="False">
