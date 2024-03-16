@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<Operation Class="PatchOperationAdd">
-	  <xpath>/Defs/TraderKindDef/stockGenerators[li[tradeTag="TechHediff"]]</xpath>
-	  <value>
-		  <li Class="StockGenerator_Tag">
-			<tradeTag>WVC_UltraBionic</tradeTag>
-			<thingDefCountRange>0~3</thingDefCountRange>
-			<countRange>1~1</countRange>
-		  </li>
-		  <li Class="StockGenerator_Tag">
-			<tradeTag>WVC_UltraAnimalBionic</tradeTag>
-			<thingDefCountRange>0~3</thingDefCountRange>
-			<countRange>1~1</countRange>
-		  </li>
-	  </value>
-	</Operation>
+	<!-- <Operation Class="PatchOperationAdd"> -->
+	  <!-- <xpath>/Defs/TraderKindDef/stockGenerators[li[tradeTag="TechHediff"]]</xpath> -->
+	  <!-- <value> -->
+		  <!-- <li Class="StockGenerator_Tag"> -->
+			<!-- <tradeTag>WVC_UltraBionic</tradeTag> -->
+			<!-- <thingDefCountRange>0~3</thingDefCountRange> -->
+			<!-- <countRange>1~1</countRange> -->
+		  <!-- </li> -->
+		  <!-- <li Class="StockGenerator_Tag"> -->
+			<!-- <tradeTag>WVC_UltraAnimalBionic</tradeTag> -->
+			<!-- <thingDefCountRange>0~3</thingDefCountRange> -->
+			<!-- <countRange>1~1</countRange> -->
+		  <!-- </li> -->
+	  <!-- </value> -->
+	<!-- </Operation> -->
 
 	<Operation Class="PatchOperationAdd">
 	  <xpath>/Defs/TraderKindDef/stockGenerators[li[thingDef="ComponentSpacer"]]</xpath>
