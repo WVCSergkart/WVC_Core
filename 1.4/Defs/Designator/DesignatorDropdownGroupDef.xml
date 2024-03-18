@@ -80,10 +80,10 @@
 	  <!-- <li>Designator_RemoveFloor</li> -->
 	  <!-- <li>Designator_RemoveBridge</li> -->
 	</specialDesignatorClasses>
-	<researchPrerequisites>
+	<!-- <researchPrerequisites> -->
 	  <!-- <li>Electricity</li> -->
-	  <li>WVC_Ultra_Ultratech</li>
-	</researchPrerequisites>
+	  <!-- <li>WVC_Ultra_Ultratech</li> -->
+	<!-- </researchPrerequisites> -->
   </DesignationCategoryDef>
 
 </Defs>
