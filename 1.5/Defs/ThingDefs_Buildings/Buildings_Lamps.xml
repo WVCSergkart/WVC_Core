@@ -6,7 +6,7 @@
   <ThingDef ParentName="WVC_Ultra_SpawnersAndOther_Base" Name="WVC_Ultra_SpawnersAndOther_FloorLamps" Abstract="True">
 	<!-- Floor -->
 	<altitudeLayer>FloorCoverings</altitudeLayer>
-	<blockPlants>true</blockPlants>
+	<blocksPlants>true</blocksPlants>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<selectable>true</selectable>
 	<useHitPoints>true</useHitPoints>

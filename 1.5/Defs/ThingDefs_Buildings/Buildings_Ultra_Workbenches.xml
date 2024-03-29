@@ -16,7 +16,7 @@
 	<uiIconScale>1.0</uiIconScale>
 	<!-- Floor -->
 	<altitudeLayer>FloorCoverings</altitudeLayer>
-	<blockPlants>true</blockPlants>
+	<blocksPlants>true</blocksPlants>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<selectable>true</selectable>
 	<useHitPoints>true</useHitPoints>
