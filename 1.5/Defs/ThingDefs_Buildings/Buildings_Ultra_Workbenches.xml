@@ -16,7 +16,7 @@
 	<uiIconScale>1.0</uiIconScale>
 	<!-- Floor -->
 	<altitudeLayer>FloorCoverings</altitudeLayer>
-	<blocksPlants>true</blocksPlants>
+	<blockPlants>true</blockPlants>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<selectable>true</selectable>
 	<useHitPoints>true</useHitPoints>
@@ -85,9 +85,9 @@
 	  <!-- <VFE_ComponentMechanoid>15</VFE_ComponentMechanoid> -->
 	</costList>
 	<comps>
-	  <li>
-		<compClass>CompReportWorkSpeed</compClass>
-	  </li>
+	  <!-- <li> -->
+		<!-- <compClass>CompReportWorkSpeed</compClass> -->
+	  <!-- </li> -->
 	  <li Class="CompProperties_Glower">
 		<glowRadius>5</glowRadius>
 		<glowColor>(78, 226, 229, 0)</glowColor>
@@ -118,7 +118,7 @@
 	</comps>
 	<placeWorkers>
 	  <!-- <li>PlaceWorker_ShowFacilitiesConnections</li> -->
-	  <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+	  <!-- <li>PlaceWorker_ReportWorkSpeedPenalties</li> -->
 	  <li>PlaceWorker_PreventInteractionSpotOverlap</li>
 	</placeWorkers>
 	<!-- <designatorDropdown>DefaultCraftingSpots_WVC</designatorDropdown> -->

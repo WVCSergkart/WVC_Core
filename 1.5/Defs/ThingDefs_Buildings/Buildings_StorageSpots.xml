@@ -8,7 +8,7 @@
 	<thingClass>Building_Storage</thingClass>
 	<!-- Floor -->
 	<altitudeLayer>FloorCoverings</altitudeLayer>
-	<blocksPlants>true</blocksPlants>
+	<blockPlants>true</blockPlants>
 	<minifiedDef>MinifiedThing</minifiedDef>
 	<selectable>true</selectable>
 	<useHitPoints>true</useHitPoints>
@@ -292,7 +292,7 @@
 	<!-- <techLevel>Ultra</techLevel> -->
 	<!-- <thingClass>Building_Storage</thingClass> -->
 	<!-- <altitudeLayer>FloorCoverings</altitudeLayer> -->
-	<!-- <blocksPlants>true</blocksPlants> -->
+	<!-- <blockPlants>true</blockPlants> -->
 	<!-- <minifiedDef>MinifiedThing</minifiedDef> -->
 	<!-- <selectable>true</selectable> -->
 	<!-- <useHitPoints>true</useHitPoints> -->
