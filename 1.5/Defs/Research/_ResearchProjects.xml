@@ -31,10 +31,9 @@
 	<techprintCount MayRequire="ludeon.rimworld.royalty">1</techprintCount>
 	<techprintCommonality MayRequire="ludeon.rimworld.royalty">1</techprintCommonality>
 	<techprintMarketValue MayRequire="ludeon.rimworld.royalty">800</techprintMarketValue>
-	<heldByFactionCategoryTags>
-		<li MayRequire="ludeon.rimworld.royalty">Empire</li>
-		<li>Outlander</li>
-		<!-- <li>Tribal</li> -->
+	<heldByFactionCategoryTags MayRequire="ludeon.rimworld.royalty">
+	  <li MayRequire="ludeon.rimworld.royalty">Empire</li>
+	  <li>Outlander</li>
 	</heldByFactionCategoryTags>
 	<tags>
 	  <li>ValkyriesStart_WVC</li>
@@ -105,10 +104,9 @@
 	<techprintCount MayRequire="ludeon.rimworld.royalty">2</techprintCount>
 	<techprintCommonality MayRequire="ludeon.rimworld.royalty">1</techprintCommonality>
 	<techprintMarketValue MayRequire="ludeon.rimworld.royalty">400</techprintMarketValue>
-	<heldByFactionCategoryTags>
+	<heldByFactionCategoryTags MayRequire="ludeon.rimworld.royalty">
 	  <li MayRequire="ludeon.rimworld.royalty">Empire</li>
 	  <li>Outlander</li>
-	  <!-- <li>Tribal</li> -->
 	</heldByFactionCategoryTags>
 	<tags>
 	  <li>ValkyriesStart_WVC</li>
