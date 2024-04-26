@@ -231,9 +231,9 @@
 	  <li>ITab_Bills</li>
 	</inspectorTabs>
 	<comps>
-	  <li>
-		<compClass>CompReportWorkSpeed</compClass>
-	  </li>
+	  <!-- <li> -->
+		<!-- <compClass>CompReportWorkSpeed</compClass> -->
+	  <!-- </li> -->
 	  <li Class="CompProperties_Power">
 		<compClass>CompPowerTrader</compClass>
 		<shortCircuitInRain>true</shortCircuitInRain>
@@ -254,7 +254,7 @@
 	  <!-- <li>WVC_BionicTech_AdvancedBionic</li> -->
 	</researchPrerequisites>
 	<placeWorkers>
-	  <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+	  <!-- <li>PlaceWorker_ReportWorkSpeedPenalties</li> -->
 	  <li>PlaceWorker_ShowFacilitiesConnections</li>
 	  <li>PlaceWorker_PreventInteractionSpotOverlap</li>
 	</placeWorkers>
