@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ShelfBase" Name="WVC_Ultra_StuffStorageSpot_Base" Abstract="True">
+	<label>storage spot</label>
+	<description>Simple storage spot.</description>
+	<!-- <techLevel>industrial</techLevel> -->
+	<thingClass>Building_Storage</thingClass>
+	<!-- Floor -->
+	<altitudeLayer>FloorCoverings</altitudeLayer>
+	<blockPlants>true</blockPlants>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<selectable>true</selectable>
+	<useHitPoints>true</useHitPoints>
+	<blocksAltitudes>
+	  <li>FloorCoverings</li>
+	</blocksAltitudes>
+	<canOverlapZones>false</canOverlapZones>
+	<building>
+	  <maxItemsInCell>5</maxItemsInCell>
+	  <fixedStorageSettings Inherit="False">
+		<filter>
+		  <disallowNotEverStorable>true</disallowNotEverStorable>
+		  <categories>
+			<li>Root</li>
+		  </categories>
+		  <disallowedCategories>
+			<!-- <li>Chunks</li> -->
+			<li>Plants</li>
+			<li>Buildings</li>
+		  </disallowedCategories>
+		  <!-- <disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech"> -->
+			<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li> -->
+		  <!-- </disallowedThingDefs> -->
+		  <!-- <specialFiltersToDisallow> -->
+			<!-- <li>AllowLargeCorpses</li> -->
+		  <!-- </specialFiltersToDisallow> -->
+		</filter>
+	  </fixedStorageSettings>
+	  <!-- <defaultStorageSettings Inherit="False"> -->
+		<!-- <priority>Preferred</priority> -->
+		<!-- <filter> -->
+		  <!-- <categories> -->
+			<!-- <li>Foods</li> -->
+			<!-- <li>Manufactured</li> -->
+			<!-- <li>ResourcesRaw</li> -->
+			<!-- <li>Items</li> -->
+			<!-- <li>Weapons</li> -->
+			<!-- <li>Apparel</li> -->
+			<!-- <li>BodyParts</li> -->
+		  <!-- </categories> -->
+		<!-- </filter> -->
+	  <!-- </defaultStorageSettings> -->
+	  <!-- <isEdifice>false</isEdifice> -->
+	</building>
+	<surfaceType>Item</surfaceType>
+	<fillPercent>0</fillPercent>
+	<!-- Building -->
+	<!-- <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded> -->
+	<size>(2,2)</size>
+	<stuffCategories Inherit="False">
+	  <!-- <li>Metallic</li> -->
+	  <!-- <li>Woody</li> -->
+	  <!-- <li>Stony</li> -->
+	</stuffCategories>
+	<costStuffCount>90</costStuffCount>
+	<statBases>
+	  <MarketValue>210</MarketValue>
+	  <WorkToBuild>4000</WorkToBuild>
+	  <MaxHitPoints>260</MaxHitPoints>
+	  <!-- <Flammability>1</Flammability> -->
+	  <Mass>90</Mass>
+	  <!-- <Beauty>0</Beauty> -->
+	</statBases>
+	<staticSunShadowHeight>0.1</staticSunShadowHeight>
+	<rotatable>false</rotatable>
+	<castEdgeShadows>false</castEdgeShadows>
+	<defaultPlacingRot>North</defaultPlacingRot>
+	<graphicData Inherit="False">
+	  <texPath>WVC/Storages/WoodStorageSpot</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <!-- <shaderType>CutoutComplex</shaderType> -->
+	  <drawSize>(2,2)</drawSize>
+	  <damageData>
+		<rect>(0.15, 0.15, 2.7, 2.7)</rect>
+	  </damageData>
+	</graphicData>
+	<pathCost>15</pathCost>
+	<passability>PassThroughOnly</passability>
+	<designationCategory></designationCategory>
+	<!-- <designatorDropdown>HGS_Storage_WVC</designatorDropdown> -->
+	<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+  </ThingDef>
+
+  <!-- ===================== -->
+
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Base" Name="WVC_Ultra_StuffStorageSpot_Woody" Abstract="True">
+	<stuffCategories>
+	  <li>Woody</li>
+	</stuffCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Woody">
+	<defName>WVC_WoodenStorageSpot1x1c</defName>
+	<label>storage spot (1x1)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/1x1/Spot/Spot_Planks</texPath>
+	  <drawSize>(1,1)</drawSize>
+	</graphicData>
+	<statBases>
+	  <MaxHitPoints>120</MaxHitPoints>
+	</statBases>
+	<size>(1,1)</size>
+	<costStuffCount>40</costStuffCount>
+	<building>
+	  <maxItemsInCell>4</maxItemsInCell>
+	</building>
+	<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Woody">
+	<defName>WVC_WoodenStorageSpot2x2c</defName>
+	<label>storage spot (2x2)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/2x2/Spot/Spot_Planks</texPath>
+	  <drawSize>(2,2)</drawSize>
+	</graphicData>
+	<size>(2,2)</size>
+	<costStuffCount>90</costStuffCount>
+	<statBases>
+	  <MaxHitPoints>190</MaxHitPoints>
+	</statBases>
+	<building>
+	  <maxItemsInCell>5</maxItemsInCell>
+	</building>
+	<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Woody">
+	<defName>WVC_WoodenStorageSpot3x3c</defName>
+	<label>storage spot (3x3)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/3x3/Spot/Spot_Planks</texPath>
+	  <drawSize>(3,3)</drawSize>
+	</graphicData>
+	<size>(3,3)</size>
+	<costStuffCount>120</costStuffCount>
+	<statBases>
+	  <MaxHitPoints>230</MaxHitPoints>
+	</statBases>
+	<building>
+	  <maxItemsInCell>6</maxItemsInCell>
+	</building>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+  </ThingDef>
+
+  <!-- ===================== -->
+
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Base" Name="WVC_Ultra_StuffStorageSpot_Stony" Abstract="True">
+	<stuffCategories>
+	  <li>Stony</li>
+	</stuffCategories>
+	<researchPrerequisites>
+	  <li>Stonecutting</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Stony">
+	<defName>WVC_StonyStorageSpot1x1c</defName>
+	<label>storage spot (1x1)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/1x1/Spot/Spot_Bricks</texPath>
+	  <drawSize>(1,1)</drawSize>
+	</graphicData>
+	<statBases>
+	  <MaxHitPoints>200</MaxHitPoints>
+	</statBases>
+	<size>(1,1)</size>
+	<costStuffCount>40</costStuffCount>
+	<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+	<building>
+	  <maxItemsInCell>5</maxItemsInCell>
+	</building>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Stony">
+	<defName>WVC_StonyStorageSpot2x2c</defName>
+	<label>storage spot (2x2)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/2x2/Spot/Spot_Bricks</texPath>
+	  <drawSize>(2,2)</drawSize>
+	</graphicData>
+	<size>(2,2)</size>
+	<costStuffCount>90</costStuffCount>
+	<statBases>
+	  <MaxHitPoints>260</MaxHitPoints>
+	</statBases>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<building>
+	  <maxItemsInCell>6</maxItemsInCell>
+	</building>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Stony">
+	<defName>WVC_StonyStorageSpot3x3c</defName>
+	<label>storage spot (3x3)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/3x3/Spot/Spot_Bricks</texPath>
+	  <drawSize>(3,3)</drawSize>
+	</graphicData>
+	<size>(3,3)</size>
+	<costStuffCount>120</costStuffCount>
+	<statBases>
+	  <MaxHitPoints>290</MaxHitPoints>
+	</statBases>
+	<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	<building>
+	  <maxItemsInCell>7</maxItemsInCell>
+	</building>
+  </ThingDef>
+
+  <!-- ===================== -->
+
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Base" Name="WVC_Ultra_StuffStorageSpot_Metallic" Abstract="True">
+	<stuffCategories>
+	  <li>Metallic</li>
+	</stuffCategories>
+	<researchPrerequisites>
+	  <li>Smithing</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Metallic">
+	<defName>WVC_MetallicStorageSpot1x1c</defName>
+	<label>storage spot (1x1)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/1x1/Spot/Spot_Smooth</texPath>
+	  <drawSize>(1,1)</drawSize>
+	</graphicData>
+	<size>(1,1)</size>
+	<statBases>
+	  <MaxHitPoints>150</MaxHitPoints>
+	</statBases>
+	<building>
+	  <maxItemsInCell>6</maxItemsInCell>
+	</building>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<staticSunShadowHeight>0.0</staticSunShadowHeight>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Metallic">
+	<defName>WVC_MetallicStorageSpot2x2c</defName>
+	<label>storage spot (2x2)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/2x2/Spot/Spot_Smooth</texPath>
+	  <drawSize>(2,2)</drawSize>
+	</graphicData>
+	<size>(2,2)</size>
+	<statBases>
+	  <MaxHitPoints>270</MaxHitPoints>
+	</statBases>
+	<building>
+	  <maxItemsInCell>7</maxItemsInCell>
+	</building>
+	<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	<staticSunShadowHeight>0.0</staticSunShadowHeight>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_StuffStorageSpot_Metallic">
+	<defName>WVC_MetallicStorageSpot3x3c</defName>
+	<label>storage spot (3x3)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/3x3/Spot/Spot_Smooth</texPath>
+	  <drawSize>(3,3)</drawSize>
+	</graphicData>
+	<size>(3,3)</size>
+	<statBases>
+	  <MaxHitPoints>470</MaxHitPoints>
+	</statBases>
+	<building>
+	  <maxItemsInCell>8</maxItemsInCell>
+	</building>
+	<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	<staticSunShadowHeight>0.0</staticSunShadowHeight>
+  </ThingDef>
+
+  <!-- ========================================================== -->
+
+  <!-- <ThingDef Name="WVC_StorageSpot_Base" ParentName="MechanoidBuildings_WVC" Abstract="True"> -->
+	<!-- <label>storage spot</label> -->
+	<!-- <description>Simple storage spot.</description> -->
+	<!-- <techLevel>Ultra</techLevel> -->
+	<!-- <thingClass>Building_Storage</thingClass> -->
+	<!-- <altitudeLayer>FloorCoverings</altitudeLayer> -->
+	<!-- <blockPlants>true</blockPlants> -->
+	<!-- <minifiedDef>MinifiedThing</minifiedDef> -->
+	<!-- <selectable>true</selectable> -->
+	<!-- <useHitPoints>true</useHitPoints> -->
+	<!-- <blocksAltitudes> -->
+	  <!-- <li>FloorCoverings</li> -->
+	<!-- </blocksAltitudes> -->
+	<!-- <canOverlapZones>false</canOverlapZones> -->
+	<!-- <building> -->
+	  <!-- <destroySound>BuildingDestroyed_Metal_Big</destroySound> -->
+	  <!-- <preventDeteriorationOnTop>true</preventDeteriorationOnTop> -->
+	  <!-- <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty> -->
+	  <!-- <maxItemsInCell>7</maxItemsInCell> -->
+	  <!-- <storageGroupTag>Shelf</storageGroupTag> -->
+	  <!-- <blueprintClass>Blueprint_Storage</blueprintClass> -->
+	  <!-- <fixedStorageSettings> -->
+		<!-- <filter> -->
+		  <!-- <disallowNotEverStorable>true</disallowNotEverStorable> -->
+		  <!-- <categories> -->
+			<!-- <li>Root</li> -->
+		  <!-- </categories> -->
+		  <!-- <disallowedCategories> -->
+			<!-- <li>Plants</li> -->
+			<!-- <li>Buildings</li> -->
+		  <!-- </disallowedCategories> -->
+		  <!-- <disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech"> -->
+			<!-- <li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li> -->
+		  <!-- </disallowedThingDefs> -->
+		<!-- </filter> -->
+	  <!-- </fixedStorageSettings> -->
+	  <!-- <defaultStorageSettings> -->
+		<!-- <priority>Preferred</priority> -->
+		<!-- <filter> -->
+		  <!-- <categories> -->
+			<!-- <li>Foods</li> -->
+			<!-- <li>Manufactured</li> -->
+			<!-- <li>ResourcesRaw</li> -->
+			<!-- <li>Items</li> -->
+			<!-- <li>Weapons</li> -->
+			<!-- <li>Apparel</li> -->
+			<!-- <li>BodyParts</li> -->
+		  <!-- </categories> -->
+		<!-- </filter> -->
+	  <!-- </defaultStorageSettings> -->
+	<!-- </building> -->
+	<!-- <inspectorTabs> -->
+	  <!-- <li>ITab_Storage</li> -->
+	<!-- </inspectorTabs> -->
+	<!-- <surfaceType>Item</surfaceType> -->
+	<!-- <fillPercent>0</fillPercent> -->
+	<!-- <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded> -->
+	<!-- <size>(3,3)</size> -->
+	<!-- <statBases> -->
+	  <!-- <MarketValue>570</MarketValue> -->
+	  <!-- <WorkToBuild>50000</WorkToBuild> -->
+	  <!-- <MaxHitPoints>600</MaxHitPoints> -->
+	  <!-- <Flammability>0</Flammability> -->
+	  <!-- <Mass>220</Mass> -->
+      <!-- <Beauty>0</Beauty> -->
+	<!-- </statBases> -->
+	<!-- <rotatable>false</rotatable> -->
+	<!-- <castEdgeShadows>false</castEdgeShadows> -->
+	<!-- <graphicData> -->
+	  <!-- <texPath>WVC/Storages/MechanoidStorage</texPath> -->
+	  <!-- <graphicClass>Graphic_Random</graphicClass> -->
+	  <!-- <shaderType>CutoutComplex</shaderType> -->
+	  <!-- <drawSize>(3,3)</drawSize> -->
+	  <!-- <damageData> -->
+		<!-- <rect>(0.15, 0.15, 2.7, 2.7)</rect> -->
+	  <!-- </damageData> -->
+	<!-- </graphicData> -->
+	<!-- <costList> -->
+		<!-- <Plasteel>120</Plasteel> -->
+	<!-- </costList> -->
+	<!-- <thingCategories> -->
+	  <!-- <li>BuildingsFurniture</li> -->
+	<!-- </thingCategories> -->
+	<!-- <killedLeavings> -->
+	  <!-- <ChunkSlagSteel>5</ChunkSlagSteel> -->
+	<!-- </killedLeavings> -->
+	<!-- <pathCost>5</pathCost> -->
+	<!-- <passability>PassThroughOnly</passability> -->
+	<!-- <comps Inherit="False"> -->
+	<!-- </comps> -->
+	<!-- <researchPrerequisites Inherit="False"> -->
+	  <!-- <li>WVC_Ultra_Mechtech</li> -->
+	<!-- </researchPrerequisites> -->
+	<!-- <designationCategory>WVC_UltraExpansion</designationCategory> -->
+	<!-- <designatorDropdown>HGS_Storage_WVC</designatorDropdown> -->
+	<!-- <constructionSkillPrerequisite>8</constructionSkillPrerequisite> -->
+  <!-- </ThingDef> -->
+
+  <!-- ========================================================== -->
+
+  <!-- <ThingDef ParentName="WVC_StorageSpot_Base"> -->
+	<!-- <defName>WVC_AncientStorageSpot</defName> -->
+	<!-- <label>ancient storage spot (3x3)</label> -->
+	<!-- <graphicData> -->
+	  <!-- <texPath>WVC/Storages/AncientStorage</texPath> -->
+	<!-- </graphicData> -->
+	<!-- <researchPrerequisites Inherit="False"> -->
+	  <!-- <li>WVC_Ultra_Ultratech</li> -->
+	<!-- </researchPrerequisites> -->
+  <!-- </ThingDef> -->
+
+  <!-- <ThingDef ParentName="WVC_StorageSpot_Base"> -->
+	<!-- <defName>WVC_MechanoidStorageSpot</defName> -->
+	<!-- <label>mechanoid storage spot (3x3)</label> -->
+	<!-- <building> -->
+	  <!-- <maxItemsInCell>8</maxItemsInCell> -->
+	<!-- </building> -->
+	<!-- <graphicData> -->
+	  <!-- <texPath>WVC/Storages/MechanoidStorage</texPath> -->
+	<!-- </graphicData> -->
+	<!-- <researchPrerequisites Inherit="False"> -->
+	  <!-- <li>WVC_Ultra_Mechtech</li> -->
+	<!-- </researchPrerequisites> -->
+  <!-- </ThingDef> -->
+
+</Defs>
