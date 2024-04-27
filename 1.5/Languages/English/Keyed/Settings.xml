@@ -18,4 +18,9 @@ Requires mod "XML - Extension".</WVC_UltraSettings_Tooltip_VFEA_Patch>
 
 	<!-- <WVC_UltraSettings_Label_Generator>DEV: Re-Generate Implants</WVC_UltraSettings_Label_Generator> -->
 
+	<WVC_UltraSettings_Label_onlyTechsMode>Techs only mode</WVC_UltraSettings_Label_onlyTechsMode>
+	<WVC_UltraSettings_Tooltip_onlyTechsMode>If enabled, then items from the mod will not spawn in quests and from traders.
+
+Requires restart.</WVC_UltraSettings_Tooltip_onlyTechsMode>
+
 </LanguageData>

@@ -73,7 +73,7 @@
     <Compile Include="Resources_Main\Harmony.cs" />
     <Compile Include="Resources_Main\ModExtension.cs" />
     <Compile Include="Resources_Main\ModSettings.cs" />
-    <Compile Include="Resources_Main\TerrainPatch.cs" />
+    <Compile Include="Resources_Main\PostInitialization.cs" />
     <Compile Include="Resources_Main\UltraDefOf.cs" />
     <Compile Include="Resources_Utility\MechanoidsUtility.cs" />
     <Compile Include="Resources_Utility\MiscUtility.cs" />

@@ -19,5 +19,12 @@ namespace WVC_UltraExpansion
 			return list;
 		}
 
+		// XaG test
+
+		public static bool IsUltraDef(this Def def)
+		{
+			return def?.modContentPack != null && def.modContentPack.PackageId.Contains("wvc.sergkart.ultraexpansion");
+		}
+
 	}
 }

@@ -17,19 +17,36 @@
 	  <!-- </value> -->
 	<!-- </Operation> -->
 
-	<Operation Class="PatchOperationAdd">
-	  <xpath>/Defs/TraderKindDef/stockGenerators[li[thingDef="ComponentSpacer"]]</xpath>
-	  <value>
-		  <li Class="StockGenerator_SingleDef">
-			<thingDef>WVC_ComponentUltratech</thingDef>
-			<countRange>0~2</countRange>
-		  </li>
-		  <li Class="StockGenerator_Tag">
-			<tradeTag>WVC_UltraMechanoidParts</tradeTag>
-			<thingDefCountRange>0~3</thingDefCountRange>
-			<countRange>1~1</countRange>
-		  </li>
-	  </value>
+	<Operation Class="WVC_XenotypesAndGenes.PatchOperationOptional">
+		<settingName>onlyTechsMode</settingName>
+		<caseTrue Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/TraderKindDef[defName="WVC_Orbital_BionicTrader"]</xpath>
+					<success>Always</success>
+				</li>
+
+			</operations>
+		</caseTrue>
+		<caseFalse Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+				  <xpath>/Defs/TraderKindDef/stockGenerators[li[thingDef="ComponentSpacer"]]</xpath>
+				  <value>
+					  <li Class="StockGenerator_SingleDef">
+						<thingDef>WVC_ComponentUltratech</thingDef>
+						<countRange>0~2</countRange>
+					  </li>
+					  <li Class="StockGenerator_Tag">
+						<tradeTag>WVC_UltraMechanoidParts</tradeTag>
+						<thingDefCountRange>0~3</thingDefCountRange>
+						<countRange>1~1</countRange>
+					  </li>
+				  </value>
+				</li>
+			</operations>
+		</caseFalse>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">

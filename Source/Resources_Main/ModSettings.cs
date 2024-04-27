@@ -12,6 +12,8 @@ namespace WVC_UltraExpansion
 	{
 		// Misc
 		public bool vfe_ancients_compatabilitypatch = false;
+		// Misc
+		public bool onlyTechsMode = false;
 		// Debug
 		public bool implantGenerator_SaveBaseImplants = false;
 		public bool implantGenerator_SaveRecipeDefsInList = false;
@@ -25,6 +27,8 @@ namespace WVC_UltraExpansion
 		{
 			// Misc
 			Scribe_Values.Look(ref vfe_ancients_compatabilitypatch, "vfe_ancients_compatabilitypatch", defaultValue: false);
+			// Misc
+			Scribe_Values.Look(ref onlyTechsMode, "onlyTechsMode", defaultValue: false);
 			// Debug
 			Scribe_Values.Look(ref implantGenerator_SaveBaseImplants, "implantGenerator_SaveBaseImplants", defaultValue: false);
 			Scribe_Values.Look(ref implantGenerator_SaveRecipeDefsInList, "implantGenerator_SaveRecipeDefsInList", defaultValue: false);
@@ -98,6 +102,7 @@ namespace WVC_UltraExpansion
 			listingStandard.Begin(rect);
 			// ===============
 			listingStandard.Label("WVC_UltraSettings_Label_Misc".Translate() + ":", -1);
+			listingStandard.CheckboxLabeled("WVC_UltraSettings_Label_onlyTechsMode".Translate() , ref settings.onlyTechsMode, "WVC_UltraSettings_Tooltip_onlyTechsMode".Translate());
 			listingStandard.CheckboxLabeled("WVC_UltraSettings_Label_VFEA_Patch".Translate() , ref settings.vfe_ancients_compatabilitypatch, "WVC_UltraSettings_Tooltip_VFEA_Patch".Translate());
 			// ===============
 			if (Prefs.DevMode)
