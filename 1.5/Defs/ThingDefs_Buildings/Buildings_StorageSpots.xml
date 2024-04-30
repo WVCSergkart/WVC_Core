@@ -55,7 +55,7 @@
 	</graphicData>
 	<pathCost>20</pathCost>
 	<passability>PassThroughOnly</passability>
-	<designationCategory>WVC_UltraStorage</designationCategory>
+	<!-- <designationCategory>WVC_UltraStorage</designationCategory> -->
 	<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
   </ThingDef>
 
