@@ -28,13 +28,13 @@
 	<label>ultratech</label>
 	<description>Most complex technologies of mankind, as well as their further refinement.</description>
 	<techLevel>Spacer</techLevel>
-	<techprintCount MayRequire="ludeon.rimworld.royalty">1</techprintCount>
-	<techprintCommonality MayRequire="ludeon.rimworld.royalty">1</techprintCommonality>
-	<techprintMarketValue MayRequire="ludeon.rimworld.royalty">800</techprintMarketValue>
-	<heldByFactionCategoryTags MayRequire="ludeon.rimworld.royalty">
-	  <li MayRequire="ludeon.rimworld.royalty">Empire</li>
-	  <li>Outlander</li>
-	</heldByFactionCategoryTags>
+	<!-- <techprintCount MayRequire="ludeon.rimworld.royalty">1</techprintCount> -->
+	<!-- <techprintCommonality MayRequire="ludeon.rimworld.royalty">1</techprintCommonality> -->
+	<!-- <techprintMarketValue MayRequire="ludeon.rimworld.royalty">800</techprintMarketValue> -->
+	<!-- <heldByFactionCategoryTags MayRequire="ludeon.rimworld.royalty"> -->
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">Empire</li> -->
+	  <!-- <li>Outlander</li> -->
+	<!-- </heldByFactionCategoryTags> -->
 	<tags>
 	  <li>ValkyriesStart_WVC</li>
 	</tags>
