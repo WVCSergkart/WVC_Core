@@ -16,6 +16,7 @@
 	<researchViewX>1.00</researchViewX>
 	<prerequisites>
 	  <li MayRequire="spoonshortage.adogsaidanimalprosthetics">AnimalBionics</li>
+	  <li MayRequire="spoonshortage.adogsaidanimalprosthetics2">AnimalBionics</li>
 	  <li>WVC_BionicTech_Cybernetic</li>
 	</prerequisites>
   </ResearchProjectDef>
