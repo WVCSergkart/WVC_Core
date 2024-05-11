@@ -17,7 +17,7 @@
 	  <!-- </value> -->
 	<!-- </Operation> -->
 
-	<Operation Class="WVC_XenotypesAndGenes.PatchOperationOptional">
+	<Operation Class="WVC_UltraExpansion.PatchOperationOptional">
 		<settingName>onlyTechsMode</settingName>
 		<caseTrue Class="PatchOperationSequence">
 			<operations>
