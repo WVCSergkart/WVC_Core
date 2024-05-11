@@ -28,13 +28,6 @@
 	<label>ultratech</label>
 	<description>Most complex technologies of mankind, as well as their further refinement.</description>
 	<techLevel>Spacer</techLevel>
-	<!-- <techprintCount MayRequire="ludeon.rimworld.royalty">1</techprintCount> -->
-	<!-- <techprintCommonality MayRequire="ludeon.rimworld.royalty">1</techprintCommonality> -->
-	<!-- <techprintMarketValue MayRequire="ludeon.rimworld.royalty">800</techprintMarketValue> -->
-	<!-- <heldByFactionCategoryTags MayRequire="ludeon.rimworld.royalty"> -->
-	  <!-- <li MayRequire="ludeon.rimworld.royalty">Empire</li> -->
-	  <!-- <li>Outlander</li> -->
-	<!-- </heldByFactionCategoryTags> -->
 	<tags>
 	  <li>ValkyriesStart_WVC</li>
 	</tags>
@@ -101,13 +94,6 @@
 	<label>garbage recycler</label>
 	<description>A workbench for processing all unnecessary rubbish.</description>
 	<baseCost>5000</baseCost>
-	<techprintCount MayRequire="ludeon.rimworld.royalty">2</techprintCount>
-	<techprintCommonality MayRequire="ludeon.rimworld.royalty">1</techprintCommonality>
-	<techprintMarketValue MayRequire="ludeon.rimworld.royalty">400</techprintMarketValue>
-	<heldByFactionCategoryTags MayRequire="ludeon.rimworld.royalty">
-	  <li MayRequire="ludeon.rimworld.royalty">Empire</li>
-	  <li>Outlander</li>
-	</heldByFactionCategoryTags>
 	<tags>
 	  <li>ValkyriesStart_WVC</li>
 	  <li>WVC_Assembled_ELF_Base</li>

@@ -6,14 +6,6 @@
   <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base" Name="WVC_Ultra_ResearchProject_NodeTech" Abstract="True">
 	<techLevel>Archotech</techLevel>
 	<baseCost>3500</baseCost>
-	<techprintCount MayRequire="ludeon.rimworld.royalty">1</techprintCount>
-	<techprintCommonality MayRequire="ludeon.rimworld.royalty">0.4</techprintCommonality>
-	<techprintMarketValue MayRequire="ludeon.rimworld.royalty">1200</techprintMarketValue>
-	<heldByFactionCategoryTags>
-	  <li MayRequire="ludeon.rimworld.royalty">Empire</li>
-	  <li>Outlander</li>
-	  <!-- <li>Tribal</li> -->
-	</heldByFactionCategoryTags>
 	<tags>
 	  <li>WVC_NodeStart_Base</li>
 	</tags>
@@ -32,14 +24,6 @@
   <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base" Name="WVC_Ultra_ResearchProject_Archotech" Abstract="True">
 	<techLevel>Archotech</techLevel>
 	<baseCost>5000</baseCost>
-	<techprintCount MayRequire="ludeon.rimworld.royalty">2</techprintCount>
-	<techprintCommonality MayRequire="ludeon.rimworld.royalty">0.2</techprintCommonality>
-	<techprintMarketValue MayRequire="ludeon.rimworld.royalty">1500</techprintMarketValue>
-	<heldByFactionCategoryTags>
-	  <li MayRequire="ludeon.rimworld.royalty">Empire</li>
-	  <li>Outlander</li>
-	  <!-- <li>Tribal</li> -->
-	</heldByFactionCategoryTags>
 	<hiddenPrerequisites>
 	</hiddenPrerequisites>
 	<prerequisites>
@@ -49,14 +33,6 @@
   <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base" Name="WVC_Ultra_ResearchProject_Bionic" Abstract="True">
 	<techLevel>Ultra</techLevel>
 	<baseCost>3100</baseCost>
-	<!-- <techprintCount MayRequire="ludeon.rimworld.royalty">1</techprintCount> -->
-	<!-- <techprintCommonality MayRequire="ludeon.rimworld.royalty">0.6</techprintCommonality> -->
-	<!-- <techprintMarketValue MayRequire="ludeon.rimworld.royalty">600</techprintMarketValue> -->
-	<!-- <heldByFactionCategoryTags> -->
-	  <!-- <li MayRequire="ludeon.rimworld.royalty">Empire</li> -->
-	  <!-- <li>Outlander</li> -->
-	  <!-- <li>Tribal</li> -->
-	<!-- </heldByFactionCategoryTags> -->
 	<hiddenPrerequisites>
 	</hiddenPrerequisites>
 	<prerequisites>
