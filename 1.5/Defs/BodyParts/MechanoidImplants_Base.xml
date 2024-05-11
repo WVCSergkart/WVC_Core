@@ -79,7 +79,7 @@
 		<Intellectual>8</Intellectual>
 	  </skillRequirements>
 	  <recipeUsers>
-		<li>WVC_AncientCraftingBench</li>
+		<li>WVC_Ultra_MechanoidPartsCraftingBench</li>
 	  </recipeUsers>
 	</recipeMaker>
 	<thingCategories>
