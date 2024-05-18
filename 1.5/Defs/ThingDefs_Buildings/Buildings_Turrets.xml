@@ -44,6 +44,7 @@
 	  <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
 	  <Beauty>-20</Beauty>
 	  <MarketValue>225</MarketValue>
+	  <WorkToBuild>24000</WorkToBuild>
 	  <!-- <TerrorSource MayRequire="Ludeon.RimWorld.Ideology">30</TerrorSource> -->
 	</statBases>
 	<tickerType>Normal</tickerType>

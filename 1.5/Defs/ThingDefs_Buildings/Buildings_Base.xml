@@ -6,6 +6,7 @@
 	<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
 	<statBases>
 	  <Flammability>0.0</Flammability>
+	  <WorkToBuild>4000</WorkToBuild>
 	</statBases>
 	<!-- <graphicData> -->
 	  <!-- <shaderType>CutoutComplex</shaderType> -->
@@ -22,6 +23,7 @@
 	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 	<statBases>
 	  <Flammability>0.0</Flammability>
+	  <WorkToBuild>4000</WorkToBuild>
 	</statBases>
 	<!-- <graphicData> -->
 	  <!-- <shaderType>CutoutComplex</shaderType> -->
@@ -39,6 +41,7 @@
 	<techLevel>Ultra</techLevel>
 	<statBases>
 	  <Flammability>0.0</Flammability>
+	  <!-- <WorkToBuild>4000</WorkToBuild> -->
 	</statBases>
 	<costList>
 	  <ComponentSpacer>1</ComponentSpacer>
@@ -72,6 +75,7 @@
 	</stuffCategories>
 	<statBases>
 	  <Flammability>0.0</Flammability>
+	  <!-- <WorkToBuild>4000</WorkToBuild> -->
 	</statBases>
 	<size>(1,2)</size>
 	<uiOrder>2010</uiOrder>
@@ -94,6 +98,7 @@
 	  <MaxHitPoints>3600</MaxHitPoints>
 	  <DoorOpenSpeed>1.0</DoorOpenSpeed>
 	  <Flammability>0.0</Flammability>
+	  <!-- <WorkToBuild>4000</WorkToBuild> -->
 	</statBases>
 	<uiIconPath>WVC/Stuff/WallsDoorsColumns/ArchotechDoor_MenuIcon</uiIconPath>
 	<graphicData>
@@ -144,6 +149,7 @@
 	<statBases>
 	  <MaxHitPoints>5000</MaxHitPoints>
 	  <Flammability>0.0</Flammability>
+	  <!-- <WorkToBuild>4000</WorkToBuild> -->
 	</statBases>
 	<costList>
 		<Plasteel>22</Plasteel>
