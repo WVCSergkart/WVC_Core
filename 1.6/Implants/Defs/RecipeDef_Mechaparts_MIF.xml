@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RecipeDef ParentName="WVC_MIF_MechanoidSurgery">
+	<defName>Install_WVC_MIF_MechanoidTIBionic_SightSensor</defName>
+	<label>install tier I visual sensor</label>
+	<description>Install an tier I visual sensor.</description>
+	<jobString>Installing tier I visual sensor.</jobString>
+	<descriptionHyperlinks>
+	  <ThingDef>WVC_MechanoidTIBionic_SightSensor_AddedPart</ThingDef>
+	  <HediffDef>WVC_MechanoidTIBionic_SightSensor_AddedPart</HediffDef>
+	</descriptionHyperlinks>
+	<addsHediff>WVC_MechanoidTIBionic_SightSensor_AddedPart</addsHediff>
+	<appliedOnFixedBodyParts>
+	  <li>SightSensor</li>
+	</appliedOnFixedBodyParts>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>WVC_MechanoidTIBionic_SightSensor_AddedPart</li>
+		  </thingDefs>
+		</filter>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>WVC_MechanoidTIBionic_SightSensor_AddedPart</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+  </RecipeDef>
+
+</Defs>

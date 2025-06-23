@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalArmorSkin" MayRequire="ludeon.rimworld.royalty">
+    <defName>WVC_MechtechAnimalArmorSkin_Torso_Implant</defName>
+    <label>monkey mechskin gland</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechAnimalArmorSkin_Torso_Implant</HediffDef>
+      <RecipeDef>Install_WVC_MechtechAnimalArmorSkin_Torso_Implant</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>40</Plasteel>
+      <Uranium>20</Uranium>
+    </costList>
+    <graphicData />
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalArmorSkin" MayRequire="ludeon.rimworld.royalty">
+    <defName>WVC_MechtechAnimalArmorSkin_Body_Implant</defName>
+    <label>animal mechskin gland</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechAnimalArmorSkin_Body_Implant</HediffDef>
+      <RecipeDef>Install_WVC_MechtechAnimalArmorSkin_Body_Implant</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>40</Plasteel>
+      <Uranium>20</Uranium>
+    </costList>
+    <graphicData />
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalArmorSkin" MayRequire="ludeon.rimworld.royalty">
+    <defName>WVC_MechtechAnimalArmorSkin_Shell_Implant</defName>
+    <label>insect mechskin gland</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechAnimalArmorSkin_Shell_Implant</HediffDef>
+      <RecipeDef>Install_WVC_MechtechAnimalArmorSkin_Shell_Implant</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>40</Plasteel>
+      <Uranium>20</Uranium>
+    </costList>
+    <graphicData />
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalArmorSkin" MayRequire="ludeon.rimworld.royalty">
+    <defName>WVC_MechtechAnimalArmorSkin_SnakeBody_Implant</defName>
+    <label>snake mechskin gland</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechAnimalArmorSkin_SnakeBody_Implant</HediffDef>
+      <RecipeDef>Install_WVC_MechtechAnimalArmorSkin_SnakeBody_Implant</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>40</Plasteel>
+      <Uranium>20</Uranium>
+    </costList>
+    <graphicData />
+    <comps />
+  </ThingDef>
+</Defs>

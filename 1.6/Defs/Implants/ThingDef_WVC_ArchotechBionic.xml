@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Eye_AddedPart</defName>
+    <label>advanced mechtech eye</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ArchotechBionic_Eye_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Eye_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>10</Uranium>
+      <Hyperweave>8</Hyperweave>
+      <Synthread>8</Synthread>
+      <DevilstrandCloth>8</DevilstrandCloth>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Eye</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Ear_AddedPart</defName>
+    <label>advanced mechtech ear</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ArchotechBionic_Ear_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Ear_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>21</Plasteel>
+      <Uranium>13</Uranium>
+      <Hyperweave>8</Hyperweave>
+      <Synthread>8</Synthread>
+      <DevilstrandCloth>8</DevilstrandCloth>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Ear</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Jaw_AddedPart</defName>
+    <label>advanced mechtech jaw</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ArchotechBionic_Jaw_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Jaw_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>12</Uranium>
+      <Hyperweave>8</Hyperweave>
+      <Synthread>8</Synthread>
+      <DevilstrandCloth>8</DevilstrandCloth>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Nose_AddedPart</defName>
+    <label>advanced mechtech nose</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ArchotechBionic_Nose_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Nose_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>10</Uranium>
+      <Hyperweave>5</Hyperweave>
+      <Synthread>5</Synthread>
+      <DevilstrandCloth>5</DevilstrandCloth>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Nose</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Stomach_AddedPart</defName>
+    <label>advanced mechtech stomach</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ArchotechBionic_Stomach_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Stomach_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>24</Plasteel>
+      <Uranium>17</Uranium>
+      <Hyperweave>12</Hyperweave>
+      <Synthread>12</Synthread>
+      <DevilstrandCloth>12</DevilstrandCloth>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Stomach</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Spine_AddedPart</defName>
+    <label>advanced mechtech spine</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ArchotechBionic_Spine_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Spine_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>29</Plasteel>
+      <Uranium>14</Uranium>
+      <Hyperweave>15</Hyperweave>
+      <Synthread>15</Synthread>
+      <DevilstrandCloth>15</DevilstrandCloth>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Spine</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Heart_AddedPart</defName>
+    <label>advanced mechtech heart</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ArchotechBionic_Heart_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Heart_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>27</Plasteel>
+      <Uranium>12</Uranium>
+      <Hyperweave>12</Hyperweave>
+      <Synthread>12</Synthread>
+      <DevilstrandCloth>12</DevilstrandCloth>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Heart</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Kidney_AddedPart</defName>
+    <label>advanced mechtech kidney</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ArchotechBionic_Kidney_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Kidney_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>27</Plasteel>
+      <Uranium>14</Uranium>
+      <Hyperweave>9</Hyperweave>
+      <Synthread>9</Synthread>
+      <DevilstrandCloth>9</DevilstrandCloth>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Kidney</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Liver_AddedPart</defName>
+    <label>advanced mechtech liver</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ArchotechBionic_Liver_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Liver_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>14</Uranium>
+      <Hyperweave>10</Hyperweave>
+      <Synthread>10</Synthread>
+      <DevilstrandCloth>10</DevilstrandCloth>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Liver</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Lung_AddedPart</defName>
+    <label>advanced mechtech lung</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ArchotechBionic_Lung_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Lung_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>24</Plasteel>
+      <Uranium>10</Uranium>
+      <Hyperweave>8</Hyperweave>
+      <Synthread>8</Synthread>
+      <DevilstrandCloth>8</DevilstrandCloth>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Lung</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Shoulder_AddedPart</defName>
+    <label>advanced mechtech arm</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ArchotechBionic_Shoulder_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Shoulder_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>28</Plasteel>
+      <Uranium>11</Uranium>
+      <Hyperweave>12</Hyperweave>
+      <Synthread>12</Synthread>
+      <DevilstrandCloth>12</DevilstrandCloth>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Arm</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_ArchotechBionic">
+    <defName>WVC_ArchotechBionic_Leg_AddedPart</defName>
+    <label>advanced mechtech leg</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_ArchotechBionic_Leg_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_ArchotechBionic_Leg_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>27</Plasteel>
+      <Uranium>12</Uranium>
+      <Hyperweave>12</Hyperweave>
+      <Synthread>12</Synthread>
+      <DevilstrandCloth>12</DevilstrandCloth>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Leg</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+</Defs>

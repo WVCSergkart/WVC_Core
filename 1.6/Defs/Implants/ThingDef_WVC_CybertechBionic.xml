@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Eye_AddedPart</defName>
+    <label>cybertech eye</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechBionic_Eye_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Eye_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Eye</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Ear_AddedPart</defName>
+    <label>cybertech ear</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechBionic_Ear_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Ear_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Ear</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Jaw_AddedPart</defName>
+    <label>cybertech jaw</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechBionic_Jaw_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Jaw_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Nose_AddedPart</defName>
+    <label>cybertech nose</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechBionic_Nose_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Nose_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Nose</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Stomach_AddedPart</defName>
+    <label>cybertech stomach</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechBionic_Stomach_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Stomach_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Stomach</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Spine_AddedPart</defName>
+    <label>cybertech spine</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechBionic_Spine_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Spine_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Spine</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Heart_AddedPart</defName>
+    <label>cybertech heart</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechBionic_Heart_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Heart_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>12</Plasteel>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Heart</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Kidney_AddedPart</defName>
+    <label>cybertech kidney</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechBionic_Kidney_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Kidney_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>13</Plasteel>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Kidney</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Liver_AddedPart</defName>
+    <label>cybertech liver</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechBionic_Liver_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Liver_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>14</Plasteel>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Liver</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Lung_AddedPart</defName>
+    <label>cybertech lung</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechBionic_Lung_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Lung_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>15</Plasteel>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Lung</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Shoulder_AddedPart</defName>
+    <label>cybertech arm</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechBionic_Shoulder_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Shoulder_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>17</Plasteel>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Arm</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_CybertechBionic">
+    <defName>WVC_CybertechBionic_Leg_AddedPart</defName>
+    <label>cybertech leg</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechBionic_Leg_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_CybertechBionic_Leg_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Leg</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+</Defs>

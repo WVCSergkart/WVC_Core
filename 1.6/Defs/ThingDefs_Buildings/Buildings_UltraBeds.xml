@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================================================ -->
+  
+  <ThingDef ParentName="WVC_Ultra_BasicBed_Base" Name="WVC_Ultra_BasicBed_SlabBed">
+	<defName>WVC_UltratechSlabBed</defName>
+	<label>ultratech slab bed</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/Furniture/Slab/AncientBed</texPath>
+	  <color>(65,69,65)</color>
+	</graphicData>
+	<costStuffCount>60</costStuffCount>
+	<costList>
+	  <ComponentSpacer>1</ComponentSpacer>
+	</costList>
+	<building>
+	  <bed_slabBed>true</bed_slabBed>
+	  <bed_showSleeperBody>true</bed_showSleeperBody>
+	</building>
+	<statBases>
+	  <MarketValue>210</MarketValue>
+	  <MaxHitPoints>1100</MaxHitPoints>
+	  <Mass>30</Mass>
+	  <BedRestEffectiveness>1.2</BedRestEffectiveness>
+	  <ImmunityGainSpeedFactor>1.2</ImmunityGainSpeedFactor>
+	  <SurgerySuccessChanceFactor>1.2</SurgerySuccessChanceFactor>
+	  <Beauty>2</Beauty>
+	  <Comfort>1.2</Comfort>
+	  <WorkToBuild>12000</WorkToBuild>
+	  <BirthRitualQualityOffset MayRequire="Ludeon.RimWorld.Biotech">15</BirthRitualQualityOffset>
+	</statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="WVC_Ultra_BasicBed_SlabBed" Name="WVC_Ultra_BasicBed_DoubleSlabBed">
+	<defName>WVC_UltratechDoubleSlabBed</defName>
+	<label>ultratech double slab bed</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/Furniture/Slab/DoubleBed</texPath>
+	</graphicData>
+	<size>(2,2)</size>
+	<costStuffCount>85</costStuffCount>
+	<costList>
+	  <ComponentSpacer>2</ComponentSpacer>
+	</costList>
+	<statBases>
+	  <MaxHitPoints>300</MaxHitPoints>
+	  <WorkToBuild>15000</WorkToBuild>
+	  <Mass>50</Mass>
+	  <Beauty>4</Beauty>
+	</statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="WVC_Ultra_BasicBed_DoubleSlabBed">
+	<defName>WVC_UltratechDoubleBed</defName>
+	<label>ultratech double bed</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/Furniture/Base/DoubleBed</texPath>
+	</graphicData>
+	<size>(2,2)</size>
+	<costStuffCount>85</costStuffCount>
+	<building>
+	  <bed_slabBed>false</bed_slabBed>
+	  <bed_showSleeperBody>false</bed_showSleeperBody>
+	</building>
+	<costList>
+	  <ComponentSpacer>2</ComponentSpacer>
+	</costList>
+	<statBases>
+	  <MaxHitPoints>300</MaxHitPoints>
+	  <WorkToBuild>15000</WorkToBuild>
+	  <Comfort>1.5</Comfort>
+	  <Mass>50</Mass>
+	  <Beauty>4</Beauty>
+	</statBases>
+  </ThingDef>
+  
+  <!-- <ThingDef ParentName="WVC_Ultra_BasicBed_DoubleSlabBed"> -->
+	<!-- <defName>WVC_UltratechRecoveryVat</defName> -->
+	<!-- <label>recovery vat</label> -->
+	<!-- <description>A vat filled with mechanites. By plunging into this vat, the creature is enveloped in mechanites, which significantly accelerates the healing of wounds and incredibly strengthens the immune system.</description> -->
+	<!-- <graphicData> -->
+	  <!-- <texPath>WVC/Stuff/Furniture/RecoveryVat</texPath> -->
+	  <!-- <graphicClass>Graphic_Single</graphicClass> -->
+	  <!-- <drawRotated>false</drawRotated> -->
+	  <!-- <allowFlip>false</allowFlip> -->
+	<!-- </graphicData> -->
+	<!-- <size>(2,2)</size> -->
+	<!-- <costStuffCount>85</costStuffCount> -->
+	<!-- <building> -->
+	  <!-- <bed_healPerDay>90</bed_healPerDay> -->
+	  <!-- <bed_slabBed>false</bed_slabBed> -->
+	  <!-- <bed_defaultMedical>true</bed_defaultMedical> -->
+	  <!-- <bed_showSleeperBody>true</bed_showSleeperBody> -->
+	  <!-- <bed_showSleeperBody>false</bed_showSleeperBody> -->
+	<!-- </building> -->
+	<!-- <costList> -->
+	  <!-- <WVC_ComponentMechtech>4</WVC_ComponentMechtech> -->
+	<!-- </costList> -->
+	<!-- <statBases> -->
+	  <!-- <ImmunityGainSpeedFactor>2.0</ImmunityGainSpeedFactor> -->
+	  <!-- <SurgerySuccessChanceFactor>2.0</SurgerySuccessChanceFactor> -->
+	  <!-- <Comfort>2.0</Comfort> -->
+	  <!-- <MaxHitPoints>320</MaxHitPoints> -->
+	  <!-- <WorkToBuild>55000</WorkToBuild> -->
+	  <!-- <Comfort>2.0</Comfort> -->
+	  <!-- <Mass>50</Mass> -->
+	  <!-- <Beauty>1</Beauty> -->
+	  <!-- <BirthRitualQualityOffset MayRequire="Ludeon.RimWorld.Biotech">100</BirthRitualQualityOffset> -->
+	<!-- </statBases> -->
+	<!-- <researchPrerequisites> -->
+	  <!-- <li>WVC_Ultra_Mechtech</li> -->
+	<!-- </researchPrerequisites> -->
+  <!-- </ThingDef> -->
+
+</Defs>

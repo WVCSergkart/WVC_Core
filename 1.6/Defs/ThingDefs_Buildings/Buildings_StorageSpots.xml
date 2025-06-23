@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ThingDef ParentName="ShelfBase" Name="WVC_UltraExp_StuffStorageSpot_Base" Abstract="True">
+	<label>storage spot</label>
+	<description>Simple storage spot.</description>
+	<thingClass>Building_Storage</thingClass>
+	<altitudeLayer>FloorCoverings</altitudeLayer>
+	<blockPlants>true</blockPlants>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<selectable>true</selectable>
+	<useHitPoints>true</useHitPoints>
+	<blocksAltitudes>
+	  <li>FloorCoverings</li>
+	</blocksAltitudes>
+	<canOverlapZones>false</canOverlapZones>
+	<building>
+	  <maxItemsInCell>5</maxItemsInCell>
+	  <fixedStorageSettings Inherit="False">
+		<filter>
+		  <disallowNotEverStorable>true</disallowNotEverStorable>
+		  <categories>
+			<li>Root</li>
+		  </categories>
+		  <disallowedCategories>
+			<li>Plants</li>
+			<li>Buildings</li>
+		  </disallowedCategories>
+		</filter>
+	  </fixedStorageSettings>
+	</building>
+	<surfaceType>Item</surfaceType>
+	<fillPercent>0</fillPercent>
+	<size>(2,2)</size>
+	<stuffCategories Inherit="False"/>
+	<costStuffCount>90</costStuffCount>
+	<statBases>
+	  <MarketValue>210</MarketValue>
+	  <WorkToBuild>4000</WorkToBuild>
+	  <MaxHitPoints>260</MaxHitPoints>
+	  <Mass>90</Mass>
+	</statBases>
+	<staticSunShadowHeight>0.1</staticSunShadowHeight>
+	<rotatable>false</rotatable>
+	<castEdgeShadows>false</castEdgeShadows>
+	<defaultPlacingRot>North</defaultPlacingRot>
+	<graphicData Inherit="False">
+	  <texPath>WVC/Storages/WoodStorageSpot</texPath>
+	  <graphicClass>Graphic_Appearances</graphicClass>
+	  <drawSize>(2,2)</drawSize>
+	  <damageData>
+		<rect>(0.15, 0.15, 2.7, 2.7)</rect>
+	  </damageData>
+	</graphicData>
+	<pathCost>20</pathCost>
+	<passability>PassThroughOnly</passability>
+	<!-- <designationCategory>WVC_UltraStorage</designationCategory> -->
+	<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+  </ThingDef>
+
+  <!-- ===================== -->
+
+  <ThingDef ParentName="WVC_UltraExp_StuffStorageSpot_Base" Name="WVC_UltraExp_StuffStorageSpot_Uni" Abstract="True">
+	<stuffCategories>
+	  <li>Woody</li>
+	  <li>Stony</li>
+	  <li>Metallic</li>
+	</stuffCategories>
+	<useStuffTerrainAffordance>true</useStuffTerrainAffordance>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<building>
+	  <maxItemsInCell>5</maxItemsInCell>
+	</building>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_UltraExp_StuffStorageSpot_Uni">
+	<defName>WVC_StorageSpot1x1c</defName>
+	<label>pallet (1x1)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/1x1/Spot</texPath>
+	  <drawSize>(1,1)</drawSize>
+	</graphicData>
+	<size>(1,1)</size>
+	<costStuffCount>40</costStuffCount>
+	<statBases>
+	  <MaxHitPoints>90</MaxHitPoints>
+	</statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_UltraExp_StuffStorageSpot_Uni">
+	<defName>WVC_StorageSpot2x2c</defName>
+	<label>pallet (2x2)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/2x2/Spot</texPath>
+	  <drawSize>(2,2)</drawSize>
+	</graphicData>
+	<size>(2,2)</size>
+	<costStuffCount>90</costStuffCount>
+	<statBases>
+	  <MaxHitPoints>190</MaxHitPoints>
+	</statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_UltraExp_StuffStorageSpot_Uni">
+	<defName>WVC_StorageSpot3x3c</defName>
+	<label>pallet (3x3)</label>
+	<graphicData>
+	  <texPath>WVC/Storages/3x3/Spot</texPath>
+	  <drawSize>(3,3)</drawSize>
+	</graphicData>
+	<size>(3,3)</size>
+	<costStuffCount>120</costStuffCount>
+	<statBases>
+	  <MaxHitPoints>290</MaxHitPoints>
+	</statBases>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base" Name="WVC_Ultra_ResearchProject_NodeTech" Abstract="True">
+	<techLevel>Archotech</techLevel>
+	<baseCost>3500</baseCost>
+	<tags>
+	  <li>WVC_NodeStart_Base</li>
+	</tags>
+	<hiddenPrerequisites>
+	  <!-- <li>HeavyTurrets</li> -->
+	  <!-- <li MayRequire="oskarpotocki.vfe.mechanoid">VFE_AutomatedDefensiveMeasures</li> -->
+	</hiddenPrerequisites>
+	<prerequisites>
+	  <li>WVC_Ultra_Mechtech</li>
+	  <!-- <li>WVC_Ultra_Mechtech</li> --> 
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base" Name="WVC_Ultra_ResearchProject_Archotech" Abstract="True">
+	<techLevel>Archotech</techLevel>
+	<baseCost>5000</baseCost>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<prerequisites>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Base" Name="WVC_Ultra_ResearchProject_Bionic" Abstract="True">
+	<techLevel>Ultra</techLevel>
+	<baseCost>3100</baseCost>
+	<hiddenPrerequisites>
+	</hiddenPrerequisites>
+	<prerequisites>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <!-- <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Bionic"> -->
+	<!-- <defName>WVC_BionicTech_AdvancedBionic</defName> -->
+	<!-- <techLevel>Spacer</techLevel> -->
+	<!-- <label>experimental bionic</label> -->
+	<!-- <description>Advanced bionics with comprehensive upgrades far superior to basic bionics.</description> -->
+	<!-- <researchViewX>0.00</researchViewX> -->
+	<!-- <researchViewY>0.00</researchViewY> -->
+	<!-- <prerequisites> -->
+	  <!-- <li MayRequire="vat.epoeforked">AdvancedBionics</li> -->
+	  <!-- <li MayRequire="vat.epoeforked">SyntheticOrgans</li> -->
+	<!-- </prerequisites> -->
+  <!-- </ResearchProjectDef> -->
+
+  <ResearchProjectDef MayRequire="ludeon.rimworld.ideology" ParentName="WVC_Ultra_ResearchProject_Bionic">
+	<defName>WVC_BionicTech_Torture</defName>
+	<techLevel>Spacer</techLevel>
+	<label>torture bionic</label>
+	<description>Bionics created for ideological purposes or to torture enemies.</description>
+	<researchViewX>0.00</researchViewX>
+	<researchViewY>0.00</researchViewY>
+	<prerequisites>
+	  <li>Bionics</li>
+	  <!-- <li>WVC_BionicTech_AdvancedBionic</li> -->
+	  <!-- <li MayRequire="vat.epoeforked">AdvancedBionics</li> -->
+	  <li MayRequire="ludeon.rimworld.royalty">BrainWiring</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Bionic">
+	<defName>WVC_BionicTech_Cybernetic</defName>
+	<techLevel>Spacer</techLevel>
+	<label>cybertech bionic</label>
+	<description>Advanced bionics with comprehensive upgrades far superior to basic bionics.</description>
+	<researchViewX>1.00</researchViewX>
+	<researchViewY>0.00</researchViewY>
+	<prerequisites>
+	  <li>Bionics</li>
+	  <li MayRequire="vat.epoeforked">AdvancedBionics</li>
+	  <li MayRequire="vat.epoeforked">SyntheticOrgans</li>
+	  <!-- <li>WVC_BionicTech_AdvancedBionic</li> -->
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li> -->
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">ArtificialMetabolism</li> -->
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">HealingFactors</li> -->
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">MolecularAnalysis</li> -->
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">SpecializedLimbs</li> -->
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Bionic">
+	<defName>WVC_BionicTech_Ultratech</defName>
+	<techLevel>Spacer</techLevel>
+	<label>ultratech bionic</label>
+	<description>Improved version of cybertech bionics.</description>
+	<researchViewX>2.00</researchViewX>
+	<researchViewY>0.00</researchViewY>
+	<prerequisites>
+	  <li>WVC_Ultra_Ultratech</li>
+	  <li>WVC_BionicTech_Cybernetic</li>
+	  <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Bionic">
+	<defName>WVC_BionicTech_Mechtech</defName>
+	<techLevel>Spacer</techLevel>
+	<label>mechtech bionic</label>
+	<description>Improved version of ultratech bionics.</description>
+	<researchViewX>3.00</researchViewX>
+	<researchViewY>0.00</researchViewY>
+	<prerequisites>
+	  <li>WVC_Ultra_Mechtech</li>
+	  <li>WVC_BionicTech_Ultratech</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Bionic">
+	<defName>WVC_BionicTech_SpecializedMechtech</defName>
+	<techLevel>Spacer</techLevel>
+	<label>specialized mechtech bionic</label>
+	<description>Improved version of mechtech bionics.</description>
+	<researchViewX>4.00</researchViewX>
+	<researchViewY>0.00</researchViewY>
+	<prerequisites>
+	  <li>WVC_BionicTech_Mechtech</li>
+	  <li MayRequire="imranfish.xmlextensions">WVC_BionicTech_ScarsHealing</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef MayRequire="imranfish.xmlextensions" ParentName="WVC_Ultra_ResearchProject_Base">
+	<defName>WVC_BionicTech_ScarsHealing</defName>
+	<techLevel>Spacer</techLevel>
+	<label>scars healing</label>
+	<description>Allows to heal scars (on animals too) with glitter medicine.</description>
+	<researchViewX>0.00</researchViewX>
+	<researchViewY>0.50</researchViewY>
+	<tags>
+	  <li>WVC_Assembled_ELF_Base</li>
+	</tags>
+	<prerequisites>
+	  <li>Bionics</li>
+	  <li MayRequire="spoonshortage.adogsaidanimalprosthetics">AnimalHeal</li>
+	  <li MayRequire="vat.epoeforked">EPOE_NeurologicalTreatment</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">FleshShaping</li> -->
+	  <li MayRequire="ludeon.rimworld.royalty">HealingFactors</li>
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_NodeTech">
+	<defName>WVC_ResearchBodyParts_NodeBlue</defName>
+	<label>overclocked mechtech</label>
+	<description>Improved and refined mechtech technology, the emphasis is on performance.</description>
+	<researchViewX>3.00</researchViewX>
+	<researchViewY>1.50</researchViewY>
+	<prerequisites>
+	  <li>WVC_Ultra_GarbageRecycler</li>
+	  <!-- <li>WVC_Ultra_MechtechDrillingMachine</li> -->
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">NeuralComputation</li> -->
+	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
+	  <!-- <li>WVC_BionicTech_ScarsHealing</li> -->
+	</prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_NodeTech">
+	<defName>WVC_ResearchBodyParts_NodeRed</defName>
+	<label>armored mechtech</label>
+	<description>Improved and refined mechtech technology, the emphasis is on protection.</description>
+	<researchViewX>3.00</researchViewX>
+	<researchViewY>2.20</researchViewY>
+	<prerequisites>
+	  <li MayRequire="ludeon.rimworld.royalty">WVC_Ultra_DefenceSystems</li>
+	  <!-- <li>WVC_Ultra_Mechtech</li> -->
+	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
+	  <!-- <li>WVC_BionicTech_ScarsHealing</li> -->
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
+	</prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_NodeTech">
+	<defName>WVC_ResearchBodyParts_NodeViolet</defName>
+	<label>tough mechtech</label>
+	<description>Improved and refined mechtech technology, the emphasis is on survival.</description>
+	<researchViewX>3.00</researchViewX>
+	<researchViewY>3.20</researchViewY>
+	<prerequisites>
+	  <li MayRequire="ludeon.rimworld.royalty">WVC_Ultra_DefenceSystems</li>
+	  <!-- <li>WVC_ResearchNodes_Violet</li> -->
+	  <!-- <li>WVC_Ultra_Mechtech</li> -->
+	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
+	  <!-- <li>WVC_BionicTech_ScarsHealing</li> -->
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">SkinHardening</li> -->
+	  <!-- <li>WVC_BionicTech_ScarsHealing</li> -->
+	</prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_NodeTech">
+	<defName>WVC_ResearchBodyParts_NodeGreen</defName>
+	<label>recovery mechtech</label>
+	<description>Improved and refined mechtech technology, the emphasis is on self-healing.</description>
+	<researchViewX>3.00</researchViewX>
+	<researchViewY>2.70</researchViewY>
+	<prerequisites>
+	  <li>WVC_Ultra_GauranlenTree</li>
+	  <!-- <li>WVC_Ultra_Mechtech</li> -->
+	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
+	  <!-- <li>WVC_BionicTech_ScarsHealing</li> -->
+	</prerequisites>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_NodeTech">
+	<defName>WVC_ResearchBodyParts_NodeYellow</defName>
+	<label>psychic mechtech</label>
+	<description>Improved and refined mechtech technology, the emphasis is on psychic abilities.</description>
+	<researchViewX>3.00</researchViewX>
+	<researchViewY>3.70</researchViewY>
+	<prerequisites>
+	  <li>WVC_Ultra_GauranlenTree</li>
+	  <!-- <li>WVC_Ultra_Mechtech</li> -->
+	  <!-- <li MayRequire="ludeon.rimworld.royalty">CircadianInfluence</li> -->
+	  <!-- <li>WVC_RaceResearching_Dryad</li> -->
+	  <!-- <li>WVC_BionicTech_ScarsHealing</li> -->
+	</prerequisites>
+  </ResearchProjectDef>
+
+  <!-- ======================================================================= -->
+
+  <ResearchProjectDef ParentName="WVC_Ultra_ResearchProject_Archotech">
+	<defName>WVC_ResearchBodyParts_AdvancedMechtech</defName>
+	<label>advanced mechtech</label>
+	<description>A combination of all previous technologies.</description>
+	<researchViewX>4.00</researchViewX>
+	<researchViewY>1.50</researchViewY>
+	<prerequisites>
+	  <!-- <li>WVC_Ultra_Mechtech</li> -->
+	  <!-- <li MayRequire="honkai.girls.sergkart">WVC_RaceResearching_Dryad</li> -->
+	  <!-- <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechTierThree</li> -->
+	  <!-- = -->
+	  <li>WVC_ResearchBodyParts_NodeBlue</li>
+	  <li>WVC_ResearchBodyParts_NodeGreen</li>
+	  <li>WVC_ResearchBodyParts_NodeRed</li>
+	  <li>WVC_ResearchBodyParts_NodeViolet</li>
+	  <li>WVC_ResearchBodyParts_NodeYellow</li>
+	</prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

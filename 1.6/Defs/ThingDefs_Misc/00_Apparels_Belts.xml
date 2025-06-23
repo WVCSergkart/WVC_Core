@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ApparelBase">
+	<defName>WVC_Apparel_MechanoidShieldBelt</defName>
+	<label>mechtech shield belt</label>
+	<description>A projectile-repulsion device. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP.</description>
+	<thingClass>Apparel</thingClass>
+	<graphicData>
+	  <texPath>WVC/Apparels/ShieldBelt</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	  <!-- <color>(181,165,153)</color> -->
+	  <!-- <shaderType>CutoutComplex</shaderType> -->
+	</graphicData>
+	<tickerType>Normal</tickerType>
+	<statBases>
+	  <MarketValue>1670</MarketValue>
+	  <Mass>3</Mass>
+	  <WorkToMake>25000</WorkToMake>
+	  <Flammability>0.0</Flammability>
+	  <EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
+	  <EnergyShieldEnergyMax>2.0</EnergyShieldEnergyMax>
+	  <EquipDelay>1</EquipDelay>
+	</statBases>
+	<thingSetMakerTags>
+	  <li>RewardStandardMidFreq</li>
+	  <li>RewardStandardQualitySuper</li>
+	</thingSetMakerTags>
+	<costList>
+	  <ComponentSpacer>4</ComponentSpacer>
+	  <Plasteel>50</Plasteel>
+	  <Uranium>20</Uranium>
+	</costList>
+	<recipeMaker>
+	  <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+	  <researchPrerequisite>WVC_Ultra_Mechtech</researchPrerequisite>
+	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	  <workSkill>Crafting</workSkill>
+	  <effectWorking>Smith</effectWorking>
+	  <soundWorking>Recipe_Machining</soundWorking>
+	  <recipeUsers>
+		<li>FabricationBench</li>
+		<!-- <li>WVC_NodeCraftingBench</li> -->
+	  </recipeUsers>
+	  <useIngredientsForColor>false</useIngredientsForColor>
+	  <skillRequirements>
+		<Crafting>12</Crafting>
+		<Intellectual>16</Intellectual>
+	  </skillRequirements>
+	</recipeMaker>
+	<thingCategories>
+	  <li>ApparelUtility</li>
+	</thingCategories>
+	<apparel>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+	  <careIfWornByCorpse>false</careIfWornByCorpse>
+	  <careIfDamaged>false</careIfDamaged>
+	  <wearPerDay>0</wearPerDay>
+	  <bodyPartGroups>
+		<li>Waist</li>
+	  </bodyPartGroups>
+	  <layers>
+		<li>Belt</li>
+	  </layers>
+	  <tags>
+		<!-- <li>BeltDefense</li> -->
+		<!-- <li>BeltDefense</li> -->
+		<!-- <li>WVC_BeltDefense_Ultra</li> -->
+		<!-- <li>VAEA_Utility_Spacer</li> -->
+		<li>VAEA_Utility_Industrial</li>
+		<li>VAEA_Utility_Spacer</li>
+		<li>BeltDefensePop</li>
+		<li>BeltRangedShield</li>
+		<li>BeltDefense</li>
+	  </tags>
+	  <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+	</apparel>
+	<colorGenerator Class="ColorGenerator_Options">
+	  <options>
+		<li>
+		  <weight>10</weight>
+		  <only>(0.33,0.33,0.33,1)</only>
+		</li>
+		<li>
+		  <weight>10</weight>
+		  <only>(0.65,0.65,0.65,1)</only>
+		</li>
+		<li>
+		  <weight>6</weight>
+		  <min>(0.3,0.3,0.3,1)</min>
+		  <max>(0.5,0.5,0.5,1)</max>
+		</li>
+		<li>
+		  <weight>10</weight>
+		  <only>(0.9,0.9,0.9,1)</only>
+		</li>
+	  </options>
+	</colorGenerator>
+	<comps>
+	  <!-- <li Class="CompProperties_Shield" /> -->
+	  <li Class="CompProperties_Shield">
+		<blocksRangedWeapons>false</blocksRangedWeapons>
+	  </li>
+	</comps>
+	<allowedArchonexusCount>1</allowedArchonexusCount>
+  </ThingDef>
+
+</Defs>

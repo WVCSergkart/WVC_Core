@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ================================== Tier 1 ================================== -->
+
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_CybertechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_Cybertech" Abstract="True">
+	<description>This bionic gland releases chemical and nanomachines that transform the user's skin into a built-in suit of armor. The whole epidermis thickens and hardens to resist burns, while jointed exterior keratin plates form everywhere they can - including the head and face.</description>
+	<recipeMaker>
+	  <researchPrerequisites>
+		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_CybertechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechArmorSkin" Abstract="True">
+	<tradeTags Inherit="False">
+	  <li>WVC_UltraAnimalBionic</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>AdvancedAnimals</li>
+	</techHediffsTags>
+	<recipeMaker>
+	  <researchPrerequisites Inherit="False">
+		<li>WVC_AnimalBionicTech_Cybernetic</li>
+		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
+
+  <!-- ================================== Tier 2 ================================== -->
+
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_UltratechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_Ultratech" Abstract="True">
+	<description>This bionic gland releases chemical and nanomachines that transform the user's skin into a built-in suit of armor. The whole epidermis thickens and hardens to resist burns, while jointed exterior keratin plates form everywhere they can - including the head and face.</description>
+	<recipeMaker>
+	  <researchPrerequisites>
+		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_UltratechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantThingDef_WVC_UltratechArmorSkin" Abstract="True">
+	<tradeTags Inherit="False">
+	  <li>WVC_UltraAnimalBionic</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>AdvancedAnimals</li>
+	</techHediffsTags>
+	<recipeMaker>
+	  <researchPrerequisites Inherit="False">
+		<li>WVC_AnimalBionicTech_Ultratech</li>
+		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_MechtechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_Mechtech" Abstract="True">
+	<description>This bionic gland releases chemical and nanomachines that transform the user's skin into a built-in suit of armor. The whole epidermis thickens and hardens to resist burns, while jointed exterior keratin plates form everywhere they can - including the head and face.</description>
+	<recipeMaker>
+	  <researchPrerequisites>
+		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_MechtechAnimalArmorSkin" ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechArmorSkin" Abstract="True">
+	<tradeTags Inherit="False">
+	  <li>WVC_UltraAnimalBionic</li>
+	</tradeTags>
+	<techHediffsTags Inherit="False">
+	  <li>AdvancedAnimals</li>
+	</techHediffsTags>
+	<recipeMaker>
+	  <researchPrerequisites Inherit="False">
+		<li>WVC_AnimalBionicTech_Mechtech</li>
+		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
+
+  <!-- ================================== Tier 3 ================================== -->
+
+  <ThingDef Name="WVC_Ultra_ImplantThingDef_WVC_ArmoredMechtechArmorSkin" ParentName="WVC_Ultra_ThingDefImplants_ArmoredMechtech" Abstract="True">
+	<description>This bionic gland releases chemical and nanomachines that transform the user's skin into a built-in suit of armor. The whole epidermis thickens and hardens to resist burns, while jointed exterior keratin plates form everywhere they can - including the head and face.</description>
+	<recipeMaker>
+	  <researchPrerequisites>
+		<li MayRequire="ludeon.rimworld.royalty">SkinHardening</li>
+	  </researchPrerequisites>
+	</recipeMaker>
+  </ThingDef>
+
+  <!-- ================================== Tier 4 ================================== -->
+
+
+</Defs>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/RecipeDef[defName="ResurrectLightMech"]/fixedIngredientFilter/thingDefs</xpath>
+	  <value>
+		  <li>Corpse_WVC_Ultra_Mech_Overclock</li>
+		  <li>Corpse_WVC_Ultra_Mech_Huntemor</li>
+	  </value>
+	</Operation>
+
+</Patch>

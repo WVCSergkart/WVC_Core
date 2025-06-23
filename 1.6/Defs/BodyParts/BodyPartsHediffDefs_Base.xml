@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef Name="WVC_Ultra_AddedBodyPart_Base" ParentName="AddedBodyPartBase" Abstract="True">
+	<description>Advanced bionics from high-tech components.</description>
+	<scenarioCanAdd>false</scenarioCanAdd>
+	<addedPartProps>
+	  <solid>true</solid>
+	  <betterThanNatural>true</betterThanNatural>
+	</addedPartProps>
+	<!-- <eyeGraphicScale>0.2</eyeGraphicScale> -->
+	<!-- <stages> -->
+	  <!-- <li> -->
+		<!-- <painOffset>0.0125</painOffset> -->
+	  <!-- </li> -->
+	<!-- </stages> -->
+	<comps>
+	</comps>
+  </HediffDef>
+
+  <!-- ======================== Tier 1 ======================== -->
+
+  <HediffDef MayRequire="ludeon.rimworld.ideology" Name="WVC_Ultra_AddedPartHediffDef_WVC_TortureBionic" ParentName="WVC_Ultra_AddedBodyPart_Base" Abstract="True">
+	<description>Bionics created for ideological purposes or to torture enemies.</description>
+	<defaultLabelColor>(255,188,196)</defaultLabelColor>
+	<!-- <priceOffset>-200</priceOffset> -->
+	<addedPartProps>
+	  <partEfficiency>1.20</partEfficiency>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef Name="WVC_Ultra_AddedPartHediffDef_WVC_CybertechBionic" ParentName="WVC_Ultra_AddedBodyPart_Base" Abstract="True">
+	<defaultLabelColor>(163,187,255)</defaultLabelColor>
+	<addedPartProps>
+	  <partEfficiency>1.30</partEfficiency>
+	</addedPartProps>
+  </HediffDef>
+
+  <!-- ======================== Tier 2 ======================== -->
+
+  <HediffDef Name="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic" ParentName="WVC_Ultra_AddedBodyPart_Base" Abstract="True">
+	<description>Advanced bionics from high-tech components. Surpasses cybertech bionics in quality, but has a drawback - weight.</description>
+	<defaultLabelColor>(251,255,251)</defaultLabelColor>
+	<!-- <priceOffset>900</priceOffset> -->
+	<addedPartProps>
+	  <partEfficiency>1.35</partEfficiency>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef Name="WVC_Ultra_AddedPartHediffDef_WVC_MechtechBionic" ParentName="WVC_Ultra_AddedBodyPart_Base" Abstract="True">
+	<description>Bionics based on the study of mechanoid components.</description>
+	<defaultLabelColor>(255,224,200)</defaultLabelColor>
+	<!-- <priceOffset>1200</priceOffset> -->
+	<addedPartProps>
+	  <partEfficiency>1.40</partEfficiency>
+	</addedPartProps>
+  </HediffDef>
+
+  <!-- ======================== Tier 3 ======================== -->
+
+  <HediffDef Name="WVC_Ultra_AddedPartHediffDef_WVC_OverclockedMechtechBionic" ParentName="WVC_Ultra_AddedBodyPart_Base" Abstract="True">
+	<description>Improved and refined mechtech technology, the emphasis is on performance.</description>
+	<!-- 85caff -->
+	<defaultLabelColor>(133,202,255)</defaultLabelColor>
+	<!-- <priceOffset>1400</priceOffset> -->
+	<addedPartProps>
+	  <partEfficiency>1.45</partEfficiency>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef Name="WVC_Ultra_AddedPartHediffDef_WVC_ArmoredMechtechBionic" ParentName="WVC_Ultra_AddedBodyPart_Base" Abstract="True">
+	<description>Improved and refined mechtech technology, the emphasis is on protection.</description>
+	<!-- FF8585 -->
+	<defaultLabelColor>(255,133,133)</defaultLabelColor>
+	<!-- <priceOffset>1400</priceOffset> -->
+	<addedPartProps>
+	  <partEfficiency>1.40</partEfficiency>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef Name="WVC_Ultra_AddedPartHediffDef_WVC_RecoveryMechtechBionic" ParentName="WVC_Ultra_AddedBodyPart_Base" Abstract="True">
+	<description>Improved and refined mechtech technology, the emphasis is on self-healing.</description>
+	<!-- 85ff88 -->
+	<defaultLabelColor>(133,255,136)</defaultLabelColor>
+	<!-- <priceOffset>1400</priceOffset> -->
+	<addedPartProps>
+	  <partEfficiency>1.40</partEfficiency>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef Name="WVC_Ultra_AddedPartHediffDef_WVC_ToughMechtechBionic" ParentName="WVC_Ultra_AddedBodyPart_Base" Abstract="True">
+	<description>Improved and refined mechtech technology, the emphasis is on survival.</description>
+	<!-- 8e85ff -->
+	<defaultLabelColor>(142,133,255)</defaultLabelColor>
+	<!-- <priceOffset>1400</priceOffset> -->
+	<addedPartProps>
+	  <partEfficiency>1.40</partEfficiency>
+	</addedPartProps>
+  </HediffDef>
+
+  <HediffDef Name="WVC_Ultra_AddedPartHediffDef_WVC_PsychicMechtechBionic" ParentName="WVC_Ultra_AddedBodyPart_Base" Abstract="True">
+	<description>Improved and refined mechtech technology, the emphasis is on psychic abilities.</description>
+	<!-- FFF885 -->
+	<defaultLabelColor>(255,248,133)</defaultLabelColor>
+	<!-- <priceOffset>1400</priceOffset> -->
+	<addedPartProps>
+	  <partEfficiency>1.40</partEfficiency>
+	</addedPartProps>
+  </HediffDef>
+
+  <!-- ======================== Tier 4 ======================== -->
+
+  <HediffDef Name="WVC_Ultra_AddedPartHediffDef_WVC_ArchotechBionic" ParentName="WVC_Ultra_AddedBodyPart_Base" Abstract="True">
+	<description>A combination of all previous technologies that combines all 5 areas. And these are productivity, protection, survivability, self-healing and psychic abilities.
+
+All this makes it possible to achieve efficiency close to that of the archotech.</description>
+	<defaultLabelColor>(249,255,123)</defaultLabelColor>
+	<!-- <priceOffset>2000</priceOffset> -->
+	<addedPartProps>
+	  <partEfficiency>1.50</partEfficiency>
+	</addedPartProps>
+  </HediffDef>
+
+</Defs>

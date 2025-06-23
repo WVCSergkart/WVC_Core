@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Base">
+	<defName>WVC_Ultra_GarbageRecyclerBench</defName>
+	<label>mechtech recycler</label>
+	<!-- <label>Advanced crafter</label> -->
+	<description>A sophisticated recycler capable of disassembling any items. Using a small swarm of self-replicating ultranites and a plasma installation, this device is capable of processing almost anything. A by-product is an excess of the swarm of ultranites, created when the swarm absorbs “useful resources” in disassembled objects.</description>
+	<!-- <altitudeLayer>Building</altitudeLayer> -->
+	<techLevel>Ultra</techLevel>
+	<descriptionHyperlinks Inherit="False">
+	  <!-- <ThingDef>WVC_ExoticWeaponComponents</ThingDef> -->
+	</descriptionHyperlinks>
+	<uiIconScale>1.0</uiIconScale>
+	<!-- Floor -->
+	<altitudeLayer>FloorCoverings</altitudeLayer>
+	<blockPlants>true</blockPlants>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<selectable>true</selectable>
+	<useHitPoints>true</useHitPoints>
+	<blocksAltitudes>
+	  <li>FloorCoverings</li>
+	</blocksAltitudes>
+	<building>
+	  <paintable>true</paintable>
+	  <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+	  <ai_chillDestination>false</ai_chillDestination>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+	  <buildingTags>
+		<li>Production</li>
+	  </buildingTags>
+	  <isEdifice>true</isEdifice>
+	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	</building>
+	<!-- Floor -->
+	<graphicData>
+	  <texPath>WVC/Stuff/WeaponBench</texPath>
+	  <graphicClass>Graphic_Random</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3,3)</drawSize>
+	  <color>(181,165,153)</color>
+	  <damageData>
+		<rect>(0.15, 0.15, 2.7, 2.7)</rect>
+	  </damageData>
+	</graphicData>
+	<size>(3,3)</size>
+	<statBases>
+		<MaxHitPoints>1200</MaxHitPoints>
+		<Mass>70</Mass>
+		<WorkToBuild>750</WorkToBuild>
+		<Flammability>0.0</Flammability>
+		<WorkTableWorkSpeedFactor>1.0</WorkTableWorkSpeedFactor>
+		<WorkTableEfficiencyFactor>1.0</WorkTableEfficiencyFactor>
+		<MarketValue>420</MarketValue>
+		<Beauty>-5</Beauty>
+		<Cleanliness>-2</Cleanliness>
+	</statBases>
+	<killedLeavings>
+	  <ChunkSlagSteel>7</ChunkSlagSteel>
+	</killedLeavings>
+	<thingClass>Building_WorkTable</thingClass>
+	<fillPercent>0.2</fillPercent>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<!-- <castEdgeShadows>true</castEdgeShadows> -->
+	<passability>PassThroughOnly</passability>
+	<pathCost>34</pathCost>
+	<rotatable>false</rotatable>
+	<hasInteractionCell>True</hasInteractionCell>
+	<!-- <interactionCellOffset>(0,0,-1)</interactionCellOffset> -->
+	<interactionCellOffset>(0,0,0)</interactionCellOffset>
+	<!-- <tickerType>Normal</tickerType> -->
+	<thingCategories>
+	  <li>BuildingsProduction</li>
+	</thingCategories>
+	<inspectorTabs>
+	  <li>ITab_Bills</li>
+	</inspectorTabs>
+	<costList>
+	  <Plasteel>120</Plasteel>
+	  <Uranium>40</Uranium>
+	  <WVC_ComponentUltratech>4</WVC_ComponentUltratech>
+	  <!-- <WVC_UniversalFuel>320</WVC_UniversalFuel> -->
+	  <!-- <VFE_ComponentMechanoid>15</VFE_ComponentMechanoid> -->
+	</costList>
+	<comps>
+	  <!-- <li> -->
+		<!-- <compClass>CompReportWorkSpeed</compClass> -->
+	  <!-- </li> -->
+	  <li Class="CompProperties_Glower">
+		<glowRadius>5</glowRadius>
+		<glowColor>(78, 226, 229, 0)</glowColor>
+	  </li>
+	  <li Class="CompProperties_Power">
+		<compClass>CompPowerTrader</compClass>
+		<basePowerConsumption>320</basePowerConsumption>
+		<transmitsPower>true</transmitsPower>
+	  </li>
+	  <!-- <li Class="CompProperties_Flickable"/> -->
+	  <!-- <li Class="CompProperties_Spawner"> -->
+		<!-- <requiresPower>true</requiresPower> -->
+		<!-- <thingToSpawn>WVC_ExoticWeaponComponents</thingToSpawn> -->
+		<!-- <spawnCount>1</spawnCount> -->
+		<!-- <spawnIntervalRange><min>1800000</min><max>3600000</max></spawnIntervalRange> -->
+		<!-- <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn> -->
+		<!-- <showMessageIfOwned>false</showMessageIfOwned> -->
+	  <!-- </li> -->
+	  <!-- <li Class="CompProperties_Spawner"> -->
+		<!-- <requiresPower>true</requiresPower> -->
+		<!-- <thingToSpawn>VFE_ComponentMechanoid</thingToSpawn> -->
+		<!-- <spawnCount>2</spawnCount> -->
+		<!-- <spawnIntervalRange><min>120000</min><max>120000</max></spawnIntervalRange> -->
+		<!-- <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn> -->
+		<!-- <showMessageIfOwned>false</showMessageIfOwned> -->
+	  <!-- </li> -->
+	  <li Class="CompProperties_Forbiddable"/>
+	</comps>
+	<placeWorkers>
+	  <!-- <li>PlaceWorker_ShowFacilitiesConnections</li> -->
+	  <!-- <li>PlaceWorker_ReportWorkSpeedPenalties</li> -->
+	  <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+	</placeWorkers>
+	<!-- <designatorDropdown>DefaultCraftingSpots_WVC</designatorDropdown> -->
+	<!-- <constructionSkillPrerequisite>6</constructionSkillPrerequisite> -->
+	<researchPrerequisites Inherit="False">
+		<li>WVC_Ultra_GarbageRecycler</li>
+	</researchPrerequisites>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
+	<!-- <designatorDropdown>HGS_Workbenches_WVC</designatorDropdown> -->
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+	<modExtensions>
+	  <li Class="RecipeInheritance.ThingDefExtension" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+		<inheritRecipesFrom>
+		  <!-- <li>TableMachining</li> -->
+		  <!-- <li>ElectricSmithy</li> -->
+		  <li>ElectricSmelter</li>
+		  <!-- <li>FabricationBench</li> -->
+		  <li>TableButcher</li>
+		  <li>TableStonecutter</li>
+		</inheritRecipesFrom>
+	  </li>
+	</modExtensions>
+  </ThingDef>
+
+  <!-- <ThingDef ParentName="WVC_MechaniteCrafter_Base"> -->
+	<!-- <defName>WVC_Node_MechaniteCrafter_Violet</defName> -->
+	<!-- <graphicData> -->
+	  <!-- <texPath>WVC/Stuff/Nodes/NodeMechaniteCrafter</texPath> -->
+	<!-- </graphicData> -->
+	<!-- <statBases> -->
+		<!-- <WorkTableEfficiencyFactor>1.5</WorkTableEfficiencyFactor> -->
+	<!-- </statBases> -->
+	<!-- <costList Inherit="False"> -->
+	  <!-- <Plasteel>120</Plasteel> -->
+	  <!-- <WVC_ResourceNodes_Violet>32</WVC_ResourceNodes_Violet> -->
+	<!-- </costList> -->
+	<!-- <constructionSkillPrerequisite>10</constructionSkillPrerequisite> -->
+	<!-- <researchPrerequisites> -->
+		<!-- <li>WVC_ResearchNodes_Violet</li> -->
+	<!-- </researchPrerequisites> -->
+  <!-- </ThingDef> -->
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Base" Name="WVC_Ultra_WorkBenches_Implants" Abstract="True">
+	<label>implant workbench</label>
+	<description>An implants workbench. This workbench contains everything you need to create complex body parts.</description>
+	<!-- = -->
+	<thingClass>Building_WorkTable</thingClass>
+	<canOverlapZones>false</canOverlapZones>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<thingCategories>
+	  <li>BuildingsProduction</li>
+	</thingCategories>
+	<interactionCellIcon>DiningChair</interactionCellIcon>
+	<building>
+	  <!-- <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity> -->
+	  <buildingTags>
+		<li>Production</li>
+	  </buildingTags>
+	</building>
+	<!-- = -->
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/AncientCraftingBench</texPath>
+	  <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(3.5,1.5)</drawSize>
+	  <damageData>
+		<cornerTL>Damage/Corner</cornerTL>
+		<cornerTR>Damage/Corner</cornerTR>
+		<cornerBL>Damage/Corner</cornerBL>
+		<cornerBR>Damage/Corner</cornerBR>
+	  </damageData>
+	</graphicData>
+	<castEdgeShadows>true</castEdgeShadows>
+	<staticSunShadowHeight>0.20</staticSunShadowHeight>
+	<costList>
+	  <Steel>150</Steel>
+	  <Plasteel>25</Plasteel>
+	  <ComponentSpacer>1</ComponentSpacer>
+	  <WVC_ComponentUltratech>1</WVC_ComponentUltratech>
+	  <!-- <ComponentSpacer>2</ComponentSpacer> -->
+	</costList>
+	<altitudeLayer>Building</altitudeLayer>
+	<fillPercent>0.5</fillPercent>
+	<useHitPoints>True</useHitPoints>
+	<statBases>
+	  <Mass>130</Mass>
+	  <MaxHitPoints>1180</MaxHitPoints>
+	  <Flammability>0.0</Flammability>
+	  <Cleanliness>-1</Cleanliness>
+	  <MarketValue>220</MarketValue>
+	  <WorkTableWorkSpeedFactor>1.0</WorkTableWorkSpeedFactor>
+	  <WorkTableEfficiencyFactor>1.0</WorkTableEfficiencyFactor>
+	</statBases>
+	<size>(3,1)</size>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
+	<designatorDropdown>HGS_BionicWorkbenches_WVC</designatorDropdown>
+	<passability>PassThroughOnly</passability>
+	<pathCost>50</pathCost>
+	<hasInteractionCell>True</hasInteractionCell>
+	<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+	<surfaceType>Item</surfaceType>
+	<recipes>
+	  <!-- <li>WVC_MakeMedicineMechanite</li> -->
+	  <!-- <li>WVC_MakeMedicineMechanite_Bulk</li> -->
+	</recipes>
+	<inspectorTabs>
+	  <li>ITab_Bills</li>
+	</inspectorTabs>
+	<comps>
+	  <!-- <li> -->
+		<!-- <compClass>CompReportWorkSpeed</compClass> -->
+	  <!-- </li> -->
+	  <li Class="CompProperties_Power">
+		<compClass>CompPowerTrader</compClass>
+		<shortCircuitInRain>true</shortCircuitInRain>
+		<basePowerConsumption>350</basePowerConsumption>
+	  </li>
+	  <li Class="CompProperties_Flickable"/>
+	  <li Class="CompProperties_AffectedByFacilities">
+		<linkableFacilities>
+		  <li>ToolCabinet</li>
+		</linkableFacilities>
+	  </li>
+	  <li Class="CompProperties_Forbiddable"/>
+	</comps>
+	<constructEffect>ConstructMetal</constructEffect>
+	<researchPrerequisites Inherit="False">
+	  <li>AdvancedFabrication</li>
+	  <!-- <li>WVC_Ultra_Ultratech</li> -->
+	  <!-- <li>WVC_BionicTech_AdvancedBionic</li> -->
+	</researchPrerequisites>
+	<placeWorkers>
+	  <!-- <li>PlaceWorker_ReportWorkSpeedPenalties</li> -->
+	  <li>PlaceWorker_ShowFacilitiesConnections</li>
+	  <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+	</placeWorkers>
+	<!-- <modExtensions> -->
+	  <!-- <li Class="RecipeInheritance.ThingDefExtension"> -->
+		<!-- <inheritRecipesFrom> -->
+		  <!-- <li>DrugLab</li> -->
+		<!-- </inheritRecipesFrom> -->
+	  <!-- </li> -->
+	<!-- </modExtensions> -->
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef MayRequire="ludeon.rimworld.ideology" ParentName="WVC_Ultra_WorkBenches_Implants">
+	<defName>WVC_ExperimentalCraftingBench</defName>
+	<label>implant workbench (torture)</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/ExperimentalCraftingBench</texPath>
+	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_Torture</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
+	<defName>WVC_CyberneticCraftingBench</defName>
+	<label>implant workbench (cybernetic)</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/CyberneticCraftingBench</texPath>
+	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_Cybernetic</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
+	<defName>WVC_AncientCraftingBench</defName>
+	<label>implant workbench (ultratech)</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/AncientCraftingBench</texPath>
+	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_Ultratech</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
+	<defName>WVC_MechanoidCraftingBench</defName>
+	<label>implant workbench (mechtech)</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/MechanoidCraftingBench</texPath>
+	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_Mechtech</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
+	<defName>WVC_BlueCraftingBench</defName>
+	<label>implant workbench (overclocked)</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/BlueCraftingBench</texPath>
+	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_SpecializedMechtech</li>
+	  <li>WVC_ResearchBodyParts_NodeBlue</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
+	<defName>WVC_GreenCraftingBench</defName>
+	<label>implant workbench (recovery)</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/GreenCraftingBench</texPath>
+	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_SpecializedMechtech</li>
+	  <li>WVC_ResearchBodyParts_NodeGreen</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
+	<defName>WVC_RedCraftingBench</defName>
+	<label>implant workbench (armored)</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/RedCraftingBench</texPath>
+	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_SpecializedMechtech</li>
+	  <li>WVC_ResearchBodyParts_NodeRed</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
+	<defName>WVC_VioletCraftingBench</defName>
+	<label>implant workbench (tough)</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/VioletCraftingBench</texPath>
+	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_SpecializedMechtech</li>
+	  <li>WVC_ResearchBodyParts_NodeViolet</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
+	<defName>WVC_YellowCraftingBench</defName>
+	<label>implant workbench (psychic)</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/YellowCraftingBench</texPath>
+	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_SpecializedMechtech</li>
+	  <li>WVC_ResearchBodyParts_NodeYellow</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="WVC_Ultra_WorkBenches_Implants">
+	<defName>WVC_ArchotechCraftingBench</defName>
+	<label>implant workbench (adv-mechtech)</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/ArchotechCraftingBench</texPath>
+	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_BionicTech_SpecializedMechtech</li>
+	  <li>WVC_ResearchBodyParts_AdvancedMechtech</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef MayRequire="ludeon.rimworld.biotech" ParentName="WVC_Ultra_WorkBenches_Implants">
+	<defName>WVC_Ultra_MechanoidPartsCraftingBench</defName>
+	<label>implant workbench (mechparts)</label>
+	<graphicData>
+	  <texPath>WVC/Stuff/AncientCraftingBench/MechanoidCraftingBench</texPath>
+	</graphicData>
+	<researchPrerequisites Inherit="False">
+	  <li>WVC_MechanoidlBionicTech_TierI</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+</Defs>

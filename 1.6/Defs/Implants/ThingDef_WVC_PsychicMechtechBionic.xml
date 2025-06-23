@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Eye_AddedPart</defName>
+    <label>psychic mechtech eye</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Eye_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_PsychicMechtechBionic_Eye_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>8</Uranium>
+      <Synthread>4</Synthread>
+      <Hyperweave>4</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Eye</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Ear_AddedPart</defName>
+    <label>psychic mechtech ear</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Ear_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_PsychicMechtechBionic_Ear_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>19</Plasteel>
+      <Uranium>11</Uranium>
+      <Synthread>4</Synthread>
+      <Hyperweave>4</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Ear</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Jaw_AddedPart</defName>
+    <label>psychic mechtech jaw</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Jaw_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_PsychicMechtechBionic_Jaw_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>10</Uranium>
+      <Synthread>4</Synthread>
+      <Hyperweave>4</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Jaw</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Nose_AddedPart</defName>
+    <label>psychic mechtech nose</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Nose_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_PsychicMechtechBionic_Nose_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+      <Uranium>8</Uranium>
+      <Synthread>2</Synthread>
+      <Hyperweave>3</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Nose</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Stomach_AddedPart</defName>
+    <label>psychic mechtech stomach</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Stomach_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_PsychicMechtechBionic_Stomach_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>15</Uranium>
+      <Synthread>6</Synthread>
+      <Hyperweave>6</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Stomach</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Spine_AddedPart</defName>
+    <label>psychic mechtech spine</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Spine_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_PsychicMechtechBionic_Spine_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>27</Plasteel>
+      <Uranium>12</Uranium>
+      <Synthread>7</Synthread>
+      <Hyperweave>8</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Spine</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Heart_AddedPart</defName>
+    <label>psychic mechtech heart</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Heart_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_PsychicMechtechBionic_Heart_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Uranium>10</Uranium>
+      <Synthread>6</Synthread>
+      <Hyperweave>6</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Heart</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Kidney_AddedPart</defName>
+    <label>psychic mechtech kidney</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Kidney_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_PsychicMechtechBionic_Kidney_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Uranium>12</Uranium>
+      <Synthread>5</Synthread>
+      <Hyperweave>4</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Kidney</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Liver_AddedPart</defName>
+    <label>psychic mechtech liver</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Liver_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_PsychicMechtechBionic_Liver_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <Uranium>12</Uranium>
+      <Synthread>5</Synthread>
+      <Hyperweave>5</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Liver</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Lung_AddedPart</defName>
+    <label>psychic mechtech lung</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Lung_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_PsychicMechtechBionic_Lung_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+      <Uranium>8</Uranium>
+      <Synthread>4</Synthread>
+      <Hyperweave>4</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Lung</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Shoulder_AddedPart</defName>
+    <label>psychic mechtech arm</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Shoulder_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_PsychicMechtechBionic_Shoulder_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>26</Plasteel>
+      <Uranium>9</Uranium>
+      <Synthread>6</Synthread>
+      <Hyperweave>6</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Arm</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_WVC_PsychicMechtechBionic">
+    <defName>WVC_PsychicMechtechBionic_Leg_AddedPart</defName>
+    <label>psychic mechtech leg</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_PsychicMechtechBionic_Leg_AddedPart</HediffDef>
+      <RecipeDef>Install_WVC_PsychicMechtechBionic_Leg_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Uranium>10</Uranium>
+      <Synthread>6</Synthread>
+      <Hyperweave>6</Hyperweave>
+    </costList>
+    <graphicData>
+      <texPath>WVC/Implants/Leg</texPath>
+    </graphicData>
+    <comps />
+  </ThingDef>
+</Defs>

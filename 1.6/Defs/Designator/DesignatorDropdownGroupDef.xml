@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DesignatorDropdownGroupDef>
+	<defName>HGS_Floors_WVC</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+	<defName>HGS_Bridges_WVC</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+	<defName>HGS_Doors_WVC</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+	<defName>HGS_Walls_WVC</defName>
+  </DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef>
+	<defName>HGS_Columns_WVC</defName>
+  </DesignatorDropdownGroupDef>
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Nodes_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Beds_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Stools_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Tables_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Workbenches_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
+  <DesignatorDropdownGroupDef>
+	<defName>HGS_BionicWorkbenches_WVC</defName>
+  </DesignatorDropdownGroupDef>
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Mechanizer_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Gaurler_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Spawners_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>HGS_Storage_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
+  
+  <DesignatorDropdownGroupDef>
+	<defName>Mechanoids_MiniTurrets_WVC</defName>
+  </DesignatorDropdownGroupDef>
+  
+  <!-- <DesignatorDropdownGroupDef> -->
+	<!-- <defName>DefaultCraftingSpots_WVC</defName> -->
+  <!-- </DesignatorDropdownGroupDef> -->
+  
+  <!-- <DesignationCategoryDef> -->
+	<!-- <defName>WVC_UltraStorage</defName> -->
+	<!-- <label>Storage</label> -->
+	<!-- <order>2</order> -->
+	<!-- <showPowerGrid>false</showPowerGrid> -->
+	<!-- <specialDesignatorClasses> -->
+	  <!-- <li>Designator_Cancel</li> -->
+	  <!-- <li>Designator_Deconstruct</li> -->
+	<!-- </specialDesignatorClasses> -->
+	<!-- <researchPrerequisites> -->
+	  <!-- <li>ComplexFurniture</li> -->
+	<!-- </researchPrerequisites> -->
+  <!-- </DesignationCategoryDef> -->
+  
+  <DesignationCategoryDef>
+	<defName>WVC_UltraExpansion</defName>
+	<label>WVC - Ultra</label>
+	<order>1</order>
+	<showPowerGrid>true</showPowerGrid>
+	<specialDesignatorClasses>
+	  <li>Designator_Cancel</li>
+	  <li>Designator_Deconstruct</li>
+	  <!-- <li>Designator_RemoveFloor</li> -->
+	  <!-- <li>Designator_RemoveBridge</li> -->
+	</specialDesignatorClasses>
+	<!-- <researchPrerequisites> -->
+	  <!-- <li>Electricity</li> -->
+	  <!-- <li>AdvancedFabrication</li> -->
+	<!-- </researchPrerequisites> -->
+  </DesignationCategoryDef>
+
+</Defs>

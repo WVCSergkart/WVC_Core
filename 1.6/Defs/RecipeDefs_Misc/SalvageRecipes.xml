@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+	<defName>WVC_Ultra_SalvageBionics</defName>
+	<label>salvage bionics</label>
+	<description>Salvage an bionics.</description>
+	<jobString>Salvaging bionics.</jobString>
+	<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	<workAmount>1500</workAmount>
+	<effectWorking>Cook</effectWorking>
+	<soundWorking>Recipe_Machining</soundWorking>
+	<recipeUsers>
+	  <li>TableMachining</li>
+	  <li>FabricationBench</li>
+	  <li>ElectricSmelter</li>
+	</recipeUsers>
+	<skillRequirements>
+	  <Crafting>2</Crafting>
+	</skillRequirements>
+	<workSkill>Crafting</workSkill>
+	<displayPriority>10</displayPriority>
+	<specialProducts>
+	  <li>Butchery</li>
+	  <li>Smelted</li>
+	</specialProducts>
+	<ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>BodyParts</li>
+		  </categories>
+		</filter>
+		<count>1</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>BodyParts</li>
+	  </categories>
+	  <disallowedCategories>
+		<li>BodyPartsNatural</li>
+		<li>BodyPartsMechtech</li>
+		<li>BodyPartsArchotech</li>
+		<!-- Ultra? -->
+		<li>BodyPartsUltra</li>
+	  </disallowedCategories>
+	</fixedIngredientFilter>
+  </RecipeDef>
+
+</Defs>

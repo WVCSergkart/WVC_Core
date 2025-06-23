@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef Name="WVC_Ultra_ImplantHediff_ArmorGland" ParentName="WVC_Ultra_ImplantHediff_Base" Abstract="True">
+	<tags>
+		<li>ArmorGland</li>
+	</tags>
+  </HediffDef>
+
+  <!-- ======================== Tier 1 ======================== -->
+
+  <!-- <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_CybertechArmorSkin" ParentName="WVC_Ultra_ImplantHediff_ArmorGland" Abstract="True"> -->
+	<!-- <defaultLabelColor>(163,187,255)</defaultLabelColor> -->
+  <!-- </HediffDef> -->
+
+  <!-- ======================== Tier 2 ======================== -->
+
+  <!-- <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_UltratechArmorSkin" ParentName="WVC_Ultra_ImplantHediff_ArmorGland" Abstract="True"> -->
+	<!-- <defaultLabelColor>(251,255,251)</defaultLabelColor> -->
+  <!-- </HediffDef> -->
+
+  <!-- <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_MechtechArmorSkin" ParentName="WVC_Ultra_ImplantHediff_ArmorGland" Abstract="True"> -->
+	<!-- <defaultLabelColor>(255,224,200)</defaultLabelColor> -->
+  <!-- </HediffDef> -->
+
+  <!-- ======================== Tier 3 ======================== -->
+
+  <!-- <HediffDef Name="WVC_Ultra_ImplantHediffDef_WVC_ArmoredMechtechArmorSkin" ParentName="WVC_Ultra_ImplantHediff_ArmorGland" Abstract="True"> -->
+	<!-- <defaultLabelColor>(255,133,133)</defaultLabelColor> -->
+  <!-- </HediffDef> -->
+
+  <!-- ======================== Tier 4 ======================== -->
+
+</Defs>

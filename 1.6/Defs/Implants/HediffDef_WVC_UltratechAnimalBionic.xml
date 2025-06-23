@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_Eye_AddedPart</defName>
+    <label>ultratech animal eye</label>
+    <labelNoun>an ultratech animal eye</labelNoun>
+    <description>An installed ultratech animal eye.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Eye_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_Eye_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Eye_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>1</Mass>
+          <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.01</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_Ear_AddedPart</defName>
+    <label>ultratech animal ear</label>
+    <labelNoun>an ultratech animal ear</labelNoun>
+    <description>An installed ultratech animal ear.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Ear_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_Ear_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Ear_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>1</Mass>
+          <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.01</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_Nose_AddedPart</defName>
+    <label>ultratech animal nose</label>
+    <labelNoun>an ultratech animal nose</labelNoun>
+    <description>An installed ultratech animal nose.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Nose_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_Nose_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Nose_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>1</Mass>
+          <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.01</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_Stomach_AddedPart</defName>
+    <label>ultratech animal stomach</label>
+    <labelNoun>an ultratech animal stomach</labelNoun>
+    <description>An installed ultratech animal stomach.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Stomach_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_Stomach_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Stomach_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>5</Mass>
+          <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.02</ArmorRating_Heat>
+        </statOffsets>
+        <hungerRateFactor>0.1</hungerRateFactor>
+        <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_Spine_AddedPart</defName>
+    <label>ultratech animal spine</label>
+    <labelNoun>an ultratech animal spine</labelNoun>
+    <description>An installed ultratech animal spine.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Spine_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_Spine_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Spine_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>15</Mass>
+          <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.04</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_Heart_AddedPart</defName>
+    <label>ultratech animal heart</label>
+    <labelNoun>an ultratech animal heart</labelNoun>
+    <description>An installed ultratech animal heart.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Heart_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_Heart_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Heart_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>5</Mass>
+          <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.02</ArmorRating_Heat>
+        </statOffsets>
+        <naturalHealingFactor>2</naturalHealingFactor>
+        <totalBleedFactor>0.5</totalBleedFactor>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_Kidney_AddedPart</defName>
+    <label>ultratech animal kidney</label>
+    <labelNoun>an ultratech animal kidney</labelNoun>
+    <description>An installed ultratech animal kidney.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Kidney_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_Kidney_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Kidney_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>5</Mass>
+          <ImmunityGainSpeed>0.08</ImmunityGainSpeed>
+          <ToxicResistance>0.25</ToxicResistance>
+          <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.25</ToxicEnvironmentResistance>
+          <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.02</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_Liver_AddedPart</defName>
+    <label>ultratech animal liver</label>
+    <labelNoun>an ultratech animal liver</labelNoun>
+    <description>An installed ultratech animal liver.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Liver_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_Liver_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Liver_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>5</Mass>
+          <ToxicResistance>0.5</ToxicResistance>
+          <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance>
+          <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.02</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_Lung_AddedPart</defName>
+    <label>ultratech animal lung</label>
+    <labelNoun>an ultratech animal lung</labelNoun>
+    <description>An installed ultratech animal lung.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Lung_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_Lung_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Lung_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>5</Mass>
+          <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.06</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_Shoulder_AddedPart</defName>
+    <label>ultratech animal arm</label>
+    <labelNoun>an ultratech animal arm</labelNoun>
+    <description>An installed ultratech animal arm.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Shoulder_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_Shoulder_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Shoulder_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>8</Mass>
+          <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.06</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <cooldownTime>2</cooldownTime>
+            <power>19</power>
+            <chanceFactor>1</chanceFactor>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_Leg_AddedPart</defName>
+    <label>ultratech animal leg</label>
+    <labelNoun>an ultratech animal leg</labelNoun>
+    <description>An installed ultratech animal leg.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Leg_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_Leg_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Leg_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>8</Mass>
+          <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.06</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>claw</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <cooldownTime>1.7</cooldownTime>
+            <power>19</power>
+            <chanceFactor>1</chanceFactor>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_Trunk_AddedPart</defName>
+    <label>ultratech animal trunk</label>
+    <labelNoun>an ultratech animal trunk</labelNoun>
+    <description>An installed ultratech animal trunk.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Trunk_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_Trunk_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Trunk_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>3</Mass>
+          <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.02</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_Beak_AddedPart</defName>
+    <label>ultratech bird beak</label>
+    <labelNoun>an ultratech bird beak</labelNoun>
+    <description>An installed ultratech bird beak.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Beak_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_Beak_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Beak_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>2</Mass>
+          <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.01</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <cooldownTime>2</cooldownTime>
+            <power>19</power>
+            <chanceFactor>1</chanceFactor>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_TurtleBeak_AddedPart</defName>
+    <label>ultratech turtle beak</label>
+    <labelNoun>an ultratech turtle beak</labelNoun>
+    <description>An installed ultratech turtle beak.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_TurtleBeak_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_TurtleBeak_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_TurtleBeak_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>2</Mass>
+          <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.01</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <cooldownTime>2</cooldownTime>
+            <power>19</power>
+            <chanceFactor>1</chanceFactor>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_SnakeMouth_AddedPart</defName>
+    <label>ultratech snake jaw</label>
+    <labelNoun>an ultratech snake jaw</labelNoun>
+    <description>An installed ultratech snake jaw.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_SnakeMouth_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_SnakeMouth_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_SnakeMouth_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>2</Mass>
+          <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.01</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <cooldownTime>2</cooldownTime>
+            <power>19</power>
+            <chanceFactor>1</chanceFactor>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_InsectHeart_AddedPart</defName>
+    <label>ultratech insect heart</label>
+    <labelNoun>an ultratech insect heart</labelNoun>
+    <description>An installed ultratech insect heart.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_InsectHeart_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_InsectHeart_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_InsectHeart_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>5</Mass>
+          <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.02</ArmorRating_Heat>
+        </statOffsets>
+        <naturalHealingFactor>2</naturalHealingFactor>
+        <totalBleedFactor>0.5</totalBleedFactor>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_InsectNostril_AddedPart</defName>
+    <label>ultratech insect nostril</label>
+    <labelNoun>an ultratech insect nostril</labelNoun>
+    <description>An installed ultratech insect nostril.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_InsectNostril_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_InsectNostril_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_InsectNostril_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>1</Mass>
+          <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.01</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_InsectMouth_AddedPart</defName>
+    <label>ultratech insect jaw</label>
+    <labelNoun>an ultratech insect jaw</labelNoun>
+    <description>An installed ultratech insect jaw.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_InsectMouth_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_InsectMouth_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_InsectMouth_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>2</Mass>
+          <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.01</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <cooldownTime>2</cooldownTime>
+            <power>19</power>
+            <chanceFactor>1</chanceFactor>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_AnimalJaw_AddedPart</defName>
+    <label>ultratech animal jaw</label>
+    <labelNoun>an ultratech animal jaw</labelNoun>
+    <description>An installed ultratech animal jaw.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_AnimalJaw_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_AnimalJaw_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_AnimalJaw_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>2</Mass>
+          <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.01</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <cooldownTime>2</cooldownTime>
+            <power>19</power>
+            <chanceFactor>1</chanceFactor>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_Tail_AddedPart</defName>
+    <label>ultratech animal tail</label>
+    <labelNoun>an ultratech animal tail</labelNoun>
+    <description>An installed ultratech animal tail.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Tail_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_Tail_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Tail_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>6</Mass>
+          <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.04</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_Antenna_AddedPart</defName>
+    <label>ultratech insect antenna</label>
+    <labelNoun>an ultratech insect antenna</labelNoun>
+    <description>An installed ultratech insect antenna.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_Antenna_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_Antenna_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_Antenna_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>1</Mass>
+          <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.01</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_UltratechBionic">
+    <defName>WVC_UltratechAnimalBionic_InsectLeg_AddedPart</defName>
+    <label>ultratech insect leg</label>
+    <labelNoun>an ultratech insect leg</labelNoun>
+    <description>An installed ultratech insect leg.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_UltratechAnimalBionic_InsectLeg_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_UltratechAnimalBionic_InsectLeg_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_UltratechAnimalBionic_InsectLeg_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>8</Mass>
+          <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.06</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>claw</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <cooldownTime>2</cooldownTime>
+            <power>19</power>
+            <chanceFactor>1</chanceFactor>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

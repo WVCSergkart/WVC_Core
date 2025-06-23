@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_MechtechArmorSkin" MayRequire="ludeon.rimworld.royalty">
+    <defName>WVC_MechtechArmorSkin_Torso_Implant</defName>
+    <label>mechskin gland</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechtechArmorSkin_Torso_Implant</HediffDef>
+      <RecipeDef>Install_WVC_MechtechArmorSkin_Torso_Implant</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>40</Plasteel>
+      <Uranium>20</Uranium>
+    </costList>
+    <graphicData />
+    <comps />
+  </ThingDef>
+</Defs>

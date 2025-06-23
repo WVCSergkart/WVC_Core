@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef MayRequire="ludeon.rimworld.royalty,ludeon.rimworld.ideology" ParentName="ResourceBase">
+	<defName>WVC_AnimaSeed</defName>
+	<label>Anima seed</label>
+	<description>The seed of a Anima tree. It can be planted to create a new Anima tree.</description>
+	<descriptionHyperlinks>
+	  <ThingDef>Plant_TreeAnima</ThingDef>
+	</descriptionHyperlinks>
+	<stackLimit>5</stackLimit>
+	<statBases>
+	  <MaxHitPoints>50</MaxHitPoints>
+	  <Mass>0.3</Mass>
+	  <Beauty>0</Beauty>
+	  <MarketValue>70</MarketValue>
+	</statBases>
+	<graphicData>
+	  <texPath>WVC/Stuff/AnimaSeed</texPath>
+	  <graphicClass>Graphic_StackCount</graphicClass>
+	  <drawSize>(0.6, 0.6)</drawSize>
+	</graphicData>
+	<thingCategories>
+	  <li>ItemsMisc</li>
+	</thingCategories>
+	<comps>
+	  <li MayRequire="ludeon.rimworld.ideology" Class="CompProperties_Plantable">
+		<plantDefToSpawn>Plant_TreeAnima</plantDefToSpawn>
+	  </li>
+	  <li Class="CompProperties_Usable">
+		<compClass>CompUsableImplant</compClass>
+		<useJob>UseItem</useJob>
+		<useLabel>Use anima seed to form psylink</useLabel>
+	  </li>
+	  <li Class="CompProperties_UseEffectInstallImplant">
+		<hediffDef>PsychicAmplifier</hediffDef>
+		<bodyPart>Brain</bodyPart>
+		<canUpgrade>true</canUpgrade>
+	  </li>
+	  <li Class="CompProperties_UseEffectPlaySound">
+		<soundOnUsed>PsyAmpInstalled</soundOnUsed>
+	  </li>
+	  <li Class="CompProperties_UseEffectDestroySelf" />
+	  <li Class="CompProperties_Forbiddable"/>
+	</comps>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_ImplantThingDef_WVC_CybertechArmorSkin" MayRequire="ludeon.rimworld.royalty">
+    <defName>WVC_CybertechArmorSkin_Torso_Implant</defName>
+    <label>cyberskin gland</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_CybertechArmorSkin_Torso_Implant</HediffDef>
+      <RecipeDef>Install_WVC_CybertechArmorSkin_Torso_Implant</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>30</Plasteel>
+    </costList>
+    <graphicData />
+    <comps />
+  </ThingDef>
+</Defs>

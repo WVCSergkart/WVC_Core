@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<WVC_UltraSettings>Ultra Expansion</WVC_UltraSettings>
+
+	<WVC_UltraSettings_Tab_General>General</WVC_UltraSettings_Tab_General>
+
+	<WVC_UltraSettings_Label_DEV>Debug</WVC_UltraSettings_Label_DEV>
+	<WVC_UltraSettings_Tooltip_DEV>DEV USE ONLY.</WVC_UltraSettings_Tooltip_DEV>
+
+	<WVC_UltraSettings_Label_Misc>Misc</WVC_UltraSettings_Label_Misc>
+
+	<WVC_UltraSettings_Label_VFEA_Patch>VFE - Ancient Compatibility Patch</WVC_UltraSettings_Label_VFEA_Patch>
+	<WVC_UltraSettings_Tooltip_VFEA_Patch>Allows you to build buildings from VFEA after researching the "Ultratech" technology.
+
+Requires restart.
+Requires mod "XML - Extension".</WVC_UltraSettings_Tooltip_VFEA_Patch>
+
+	<!-- <WVC_UltraSettings_Label_Generator>DEV: Re-Generate Implants</WVC_UltraSettings_Label_Generator> -->
+
+	<WVC_UltraSettings_Label_onlyTechsMode>Techs only mode</WVC_UltraSettings_Label_onlyTechsMode>
+	<WVC_UltraSettings_Tooltip_onlyTechsMode>If enabled, then items from the mod will not spawn in quests and from traders.
+
+Requires restart.</WVC_UltraSettings_Tooltip_onlyTechsMode>
+
+</LanguageData>

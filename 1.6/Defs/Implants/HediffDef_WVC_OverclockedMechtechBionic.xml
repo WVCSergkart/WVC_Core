@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Eye_AddedPart</defName>
+    <label>overclocked mechtech eye</label>
+    <labelNoun>an overclocked mechtech eye</labelNoun>
+    <description>An installed overclocked mechtech eye.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_OverclockedMechtechBionic_Eye_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_OverclockedMechtechBionic_Eye_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Eye_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Ear_AddedPart</defName>
+    <label>overclocked mechtech ear</label>
+    <labelNoun>an overclocked mechtech ear</labelNoun>
+    <description>An installed overclocked mechtech ear.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_OverclockedMechtechBionic_Ear_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_OverclockedMechtechBionic_Ear_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Ear_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Jaw_AddedPart</defName>
+    <label>overclocked mechtech jaw</label>
+    <labelNoun>an overclocked mechtech jaw</labelNoun>
+    <description>An installed overclocked mechtech jaw.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_OverclockedMechtechBionic_Jaw_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_OverclockedMechtechBionic_Jaw_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Jaw_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <PawnBeauty>1</PawnBeauty>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <cooldownTime>1.5</cooldownTime>
+            <power>15</power>
+            <chanceFactor>0.07</chanceFactor>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Nose_AddedPart</defName>
+    <label>overclocked mechtech nose</label>
+    <labelNoun>an overclocked mechtech nose</labelNoun>
+    <description>An installed overclocked mechtech nose.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_OverclockedMechtechBionic_Nose_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_OverclockedMechtechBionic_Nose_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Nose_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <PawnBeauty>1</PawnBeauty>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Stomach_AddedPart</defName>
+    <label>overclocked mechtech stomach</label>
+    <labelNoun>an overclocked mechtech stomach</labelNoun>
+    <description>An installed overclocked mechtech stomach.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_OverclockedMechtechBionic_Stomach_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_OverclockedMechtechBionic_Stomach_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Stomach_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+        </statOffsets>
+        <hungerRateFactor>0.01</hungerRateFactor>
+        <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Spine_AddedPart</defName>
+    <label>overclocked mechtech spine</label>
+    <labelNoun>an overclocked mechtech spine</labelNoun>
+    <description>An installed overclocked mechtech spine.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_OverclockedMechtechBionic_Spine_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_OverclockedMechtechBionic_Spine_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Spine_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Heart_AddedPart</defName>
+    <label>overclocked mechtech heart</label>
+    <labelNoun>an overclocked mechtech heart</labelNoun>
+    <description>An installed overclocked mechtech heart.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_OverclockedMechtechBionic_Heart_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_OverclockedMechtechBionic_Heart_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Heart_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+        </statOffsets>
+        <naturalHealingFactor>2</naturalHealingFactor>
+        <totalBleedFactor>0.5</totalBleedFactor>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Kidney_AddedPart</defName>
+    <label>overclocked mechtech kidney</label>
+    <labelNoun>an overclocked mechtech kidney</labelNoun>
+    <description>An installed overclocked mechtech kidney.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_OverclockedMechtechBionic_Kidney_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_OverclockedMechtechBionic_Kidney_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Kidney_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeed>0.08</ImmunityGainSpeed>
+          <ToxicResistance>0.25</ToxicResistance>
+          <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.25</ToxicEnvironmentResistance>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Liver_AddedPart</defName>
+    <label>overclocked mechtech liver</label>
+    <labelNoun>an overclocked mechtech liver</labelNoun>
+    <description>An installed overclocked mechtech liver.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_OverclockedMechtechBionic_Liver_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_OverclockedMechtechBionic_Liver_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Liver_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <ToxicResistance>0.5</ToxicResistance>
+          <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Lung_AddedPart</defName>
+    <label>overclocked mechtech lung</label>
+    <labelNoun>an overclocked mechtech lung</labelNoun>
+    <description>An installed overclocked mechtech lung.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_OverclockedMechtechBionic_Lung_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_OverclockedMechtechBionic_Lung_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Lung_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps />
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Shoulder_AddedPart</defName>
+    <label>overclocked mechtech arm</label>
+    <labelNoun>an overclocked mechtech arm</labelNoun>
+    <description>An installed overclocked mechtech arm.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_OverclockedMechtechBionic_Shoulder_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_OverclockedMechtechBionic_Shoulder_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Shoulder_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <cooldownTime>1.5</cooldownTime>
+            <power>16</power>
+            <chanceFactor>1</chanceFactor>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="WVC_Ultra_AddedPartHediffDef_WVC_OverclockedMechtechBionic">
+    <defName>WVC_OverclockedMechtechBionic_Leg_AddedPart</defName>
+    <label>overclocked mechtech leg</label>
+    <labelNoun>an overclocked mechtech leg</labelNoun>
+    <description>An installed overclocked mechtech leg.</description>
+    <descriptionHyperlinks>
+      <ThingDef>WVC_OverclockedMechtechBionic_Leg_AddedPart</ThingDef>
+      <RecipeDef>Install_WVC_OverclockedMechtechBionic_Leg_AddedPart</RecipeDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>WVC_OverclockedMechtechBionic_Leg_AddedPart</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <MechBandwidth MayRequire="Ludeon.RimWorld.Biotech">2</MechBandwidth>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>feet</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <cooldownTime>1.5</cooldownTime>
+            <power>17</power>
+            <chanceFactor>0.33</chanceFactor>
+            <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+            <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+          </li>
+        </tools>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

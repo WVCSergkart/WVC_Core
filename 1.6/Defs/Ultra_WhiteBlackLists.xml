@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WVC_UltraExpansion.UltraExpansionListDef>
+	<defName>WVC_UltraExpansion_Main</defName>
+	<!-- Floor names will not have the Any tag, which is used for all floors from my mod. Any string -->
+	<!-- Primarily needed for very specific floors. Like space. -->
+	<blackListedTerrainDefs>
+		<!-- <li>Space_</li> -->
+	</blackListedTerrainDefs>
+	<!-- Words that should not be in the defName of Mechanoids. Used for mechanoids implants. Required any string -->
+	<mechDefNameShouldNotContain>
+		<li>TEST</li>
+		<li>NonPlayer</li>
+		<li>NonPlayable</li>
+		<li>Unplayable</li>
+		<li>Random</li>
+		<li>Golem_</li>
+		<li>Zombie_</li>
+		<li>Undead_</li>
+		<li>Corpse_</li>
+		<li>Android_</li>
+		<li>Medieval</li>
+	</mechDefNameShouldNotContain>
+  </WVC_UltraExpansion.UltraExpansionListDef>
+
+</Defs>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="WVC_Ultra_SpawnersAndOther_Base" Name="WVC_Ultra_SpawnersAndOther_FloorLamps" Abstract="True">
+	<!-- Floor -->
+	<altitudeLayer>FloorCoverings</altitudeLayer>
+	<blockPlants>true</blockPlants>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<selectable>true</selectable>
+	<useHitPoints>true</useHitPoints>
+	<blocksAltitudes>
+	  <li>FloorCoverings</li>
+	</blocksAltitudes>
+	<building>
+	  <isEdifice>false</isEdifice>
+	  <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+	</building>
+	<fillPercent>0</fillPercent>
+	<!-- Building -->
+	<graphicData>
+	  <texPath>WVC/Stuff/FloorLamp</texPath>
+	  <graphicClass>Graphic_Random</graphicClass>
+	  <drawSize>1</drawSize>
+	  <!-- <shadowData> -->
+		<!-- <volume>(0.5,0.3,0.7)</volume> -->
+		<!-- <offset>(0,0,-0.15)</offset> -->
+	  <!-- </shadowData> -->
+	  <damageData>
+		<rect>(0.234375,0,0.515625,0.984375)</rect>
+		<cornerTL>Damage/Corner</cornerTL>
+		<cornerTR>Damage/Corner</cornerTR>
+		<cornerBL>Damage/Corner</cornerBL>
+		<cornerBR>Damage/Corner</cornerBR>
+	  </damageData>
+	</graphicData>
+	<size>(1,1)</size>
+	<passability>Standable</passability>
+	<blockWind>false</blockWind>
+	<rotatable>false</rotatable>
+	<thingCategories>
+	  <li>BuildingsFurniture</li>
+	</thingCategories>
+	<statBases>
+	  <WorkToBuild>1000</WorkToBuild>
+	  <MaxHitPoints>35</MaxHitPoints>
+	  <Mass>12</Mass>
+	  <Flammability>0</Flammability>
+      <Beauty>1</Beauty>
+	  <MarketValue>10</MarketValue>
+	</statBases>
+	<!-- <damageMultipliers Inherit="False"> -->
+	<!-- </damageMultipliers> -->
+	<!-- <tickerType>Rare</tickerType> -->
+	<!-- <tickerType>Never</tickerType> -->
+	<costList>
+		<Steel>25</Steel>
+		<!-- <ComponentSpacer>1</ComponentSpacer> -->
+	</costList>
+	<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+	<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	<comps>
+	  <li Class="CompProperties_Flickable"/>
+	</comps>
+	<researchPrerequisites>
+	  <!-- <li>WVC_Ultra_Ultratech</li> -->
+	  <!-- <li>ComplexFurniture</li> -->
+	  <li>Electricity</li>
+	</researchPrerequisites>
+	<designationCategory>Furniture</designationCategory>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_SpawnersAndOther_FloorLamps">
+	<defName>WVC_FloorLamp</defName>
+	<label>floor lamp</label>
+	<description>An electrical floor lamp that lights an area. People need light to move and work at full speed.</description>
+	<costList>
+		<Steel>25</Steel>
+	</costList>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<glowRadius>10</glowRadius>
+		<glowColor>(214,148,94,0)</glowColor>
+		<colorPickerEnabled>true</colorPickerEnabled>
+		<darklightToggle>true</darklightToggle>
+	  </li>
+	  <li Class="CompProperties_Power">
+		<compClass>CompPowerTrader</compClass>
+		<basePowerConsumption>30</basePowerConsumption>
+		<powerUpgrades>
+		  <li>
+			<researchProject>ColoredLights</researchProject>
+			<factor>0.5</factor>
+		  </li>
+		  <li>
+			<researchProject>WVC_Ultra_Ultratech</researchProject>
+			<factor>0.5</factor>
+		  </li>
+		</powerUpgrades>
+	  </li>
+	</comps>
+  </ThingDef>
+
+  <ThingDef ParentName="WVC_Ultra_SpawnersAndOther_FloorLamps">
+	<defName>WVC_FloorSunLamp</defName>
+	<label>floor sun lamp</label>
+	<description>An industrial floor lamp which lights an area brightly enough to grow crops, but consumes a huge amount of power. Automatically turns itself off at night.</description>
+	<costList>
+	  <Steel>50</Steel>
+	</costList>
+	<tickerType>Rare</tickerType>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<overlightRadius>6.0</overlightRadius>
+		<glowRadius>12</glowRadius>
+		<glowColor>(370,370,370,0)</glowColor>
+	  </li>
+	  <li Class="CompProperties_Power">
+		<compClass>CompPowerTrader</compClass>
+		<shortCircuitInRain>true</shortCircuitInRain>
+		<basePowerConsumption>2900</basePowerConsumption>
+		<powerUpgrades>
+		  <li>
+			<researchProject>WVC_Ultra_Ultratech</researchProject>
+			<factor>0.5</factor>
+		  </li>
+		  <li>
+			<researchProject>WVC_Ultra_Mechtech</researchProject>
+			<factor>0.5</factor>
+		  </li>
+		</powerUpgrades>
+	  </li>
+	  <li Class="CompProperties_Schedule">
+		<startTime>0.25</startTime>
+		<endTime>0.8</endTime>
+		<offMessage>Off for plant resting period</offMessage>
+	  </li>
+	  <li Class="CompProperties_HeatPusher">
+		<compClass>CompHeatPusherPowered</compClass>
+		<heatPerSecond>3</heatPerSecond>
+	  </li>
+	</comps>
+	<specialDisplayRadius>4.8</specialDisplayRadius>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="WVC_Ultra_SpawnersAndOther_Base">
+	<defName>WVC_Gloomlight</defName>
+	<label>gloomlight</label>
+	<description>A mechtech device with no specific purpose.</description>
+	<size>(1,1)</size>
+	<passability>PassThroughOnly</passability>
+	<pathCost>30</pathCost>
+	<stealable>true</stealable>
+	<statBases>
+	  <MaxHitPoints>50</MaxHitPoints>
+	  <Mass>9</Mass>
+	  <MarketValue>70</MarketValue>
+	  <!-- <WorkToBuild>300</WorkToBuild> -->
+	  <Beauty>5</Beauty>
+	</statBases>
+	<graphicData>
+	  <texPath>WVC/Stuff/Gloomlight</texPath>
+	  <graphicClass>Graphic_Random</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <color>(181,165,153)</color>
+	  <drawSize>(1,1)</drawSize>
+	  <shadowData>
+		<volume>(0.6, 0.4, 0.6)</volume>
+	  </shadowData>
+	  <damageData>
+		<rect>(0.2, 0.2, 0.6, 0.6)</rect>
+	  </damageData>
+	</graphicData>
+	<drawerType>MapMeshAndRealTime</drawerType>
+	<building>
+	  <paintable>true</paintable>
+	</building>
+	<thingCategories>
+	  <li>BuildingsSpecial</li>
+	</thingCategories>
+	<minifiedDef>MinifiedThing</minifiedDef>
+	<comps>
+	  <li Class="CompProperties_Glower">
+		<!-- <glowRadius>3</glowRadius> -->
+		<!-- <glowColor>(150,200,255,0)</glowColor> -->
+		<glowRadius>4</glowRadius>
+		<glowColor>(78, 226, 229, 0)</glowColor>
+	  </li>
+	</comps>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<costList>
+	  <Steel>15</Steel>
+	  <Plasteel>5</Plasteel>
+	  <!-- <Uranium>5</Uranium> -->
+	  <!-- <ComponentSpacer>1</ComponentSpacer> -->
+	</costList>
+	<researchPrerequisites Inherit="False">
+		<li>WVC_Ultra_Mechtech</li>
+	</researchPrerequisites>
+	<designationCategory>WVC_UltraExpansion</designationCategory>
+  </ThingDef>
+
+</Defs>

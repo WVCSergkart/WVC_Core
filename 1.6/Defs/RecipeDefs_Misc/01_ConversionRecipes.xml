@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Name="GirlyWorkRecipeAbstractResources_WVC" ParentName="WVC_Ultra_CraftingRecipes_Base" Abstract="True">
+	<effectWorking>Smith</effectWorking>
+	<soundWorking>Recipe_Machining</soundWorking>
+	<workAmount>3000</workAmount>
+	<!-- <workTableEfficiencyStat>MechaniteCrafter_Efficiency_ConvertResources_WVC</workTableEfficiencyStat> -->
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>WVC_UniversalFuel</li>
+		  </thingDefs>
+		</filter>
+		<count>48</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <disallowedThingDefs Inherit="False">
+		<!-- <li>VFE_ComponentMechanoid</li> -->
+		<!-- <li>WVC_UniversalFuel</li> -->
+	  </disallowedThingDefs>
+	</fixedIngredientFilter>
+	<researchPrerequisites>
+		<li>WVC_Ultra_UltraniteConversion</li>
+	</researchPrerequisites>
+  </RecipeDef>
+  <!-- ===========================Garbage=========================== -->
+  <RecipeDef MayRequire="MrKociak.MoreArchotechStuffandThingsReupload" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_ArchotechScrap_WVC</defName>
+	<label>Convert to Archotech fragments</label>
+	<products>
+	  <ArchotechScrap>2</ArchotechScrap>
+	</products>
+	<researchPrerequisites>
+	  <li MayRequire="mrkociak.morearchotechstuffandthingsreupload">ArchoTechStart</li>
+	</researchPrerequisites>
+  </RecipeDef>
+  <!-- ===========================Vanilla=========================== -->
+  <RecipeDef ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_Steel_WVC</defName>
+	<label>Convert to Steel</label>
+	<products>
+	  <Steel>10</Steel>
+	</products>
+  </RecipeDef>
+  <RecipeDef ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_Plasteel_WVC</defName>
+	<label>Convert to Plasteel</label>
+	<products>
+	  <Plasteel>5</Plasteel>
+	</products>
+  </RecipeDef>
+  <!-- <RecipeDef ParentName="GirlyWorkRecipeAbstractResources_WVC"> -->
+	<!-- <defName>Make_FromRubbish_LivingMetal_WVC</defName> -->
+	<!-- <label>Convert to Living metal</label> -->
+	<!-- <products> -->
+	  <!-- <WVC_LivingMetall>5</WVC_LivingMetall> -->
+	<!-- </products> -->
+	<!-- <researchPrerequisites> -->
+	  <!-- <li MayRequire="ludeon.rimworld.biotech">BasicMechtech</li> -->
+	<!-- </researchPrerequisites> -->
+  <!-- </RecipeDef> -->
+  <RecipeDef ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_Uranium_WVC</defName>
+	<label>Convert to Uranium</label>
+	<products>
+	  <Uranium>3</Uranium>
+	</products>
+  </RecipeDef>
+  <RecipeDef ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_Jade_WVC</defName>
+	<label>Convert to Jade</label>
+	<products>
+	  <Jade>20</Jade>
+	</products>
+  </RecipeDef>
+  <RecipeDef ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_Silver_WVC</defName>
+	<label>Convert to Silver</label>
+	<products>
+	  <Silver>40</Silver>
+	</products>
+  </RecipeDef>
+  <RecipeDef ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_Gold_WVC</defName>
+	<label>Convert to Gold</label>
+	<products>
+	  <Gold>40</Gold>
+	</products>
+  </RecipeDef>
+  <!-- ===========================Classical=========================== -->
+  <RecipeDef MayRequire="oskarpotocki.vfe.classical" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_VFEC_Bronze_WVC</defName>
+	<label>Convert to Bronze</label>
+	<products>
+	  <VFEC_Bronze>12</VFEC_Bronze>
+	</products>
+  </RecipeDef>
+  <!-- <RecipeDef MayRequire="oskarpotocki.vfe.classical" ParentName="GirlyWorkRecipeAbstractResources_WVC"> -->
+	<!-- <defName>Make_FromRubbish_VFEC_BlocksConcrete_WVC</defName> -->
+	<!-- <label>Convert to Concrete</label> -->
+	<!-- <products> -->
+	  <!-- <VFEC_BlocksConcrete>20</VFEC_BlocksConcrete> -->
+	<!-- </products> -->
+  <!-- </RecipeDef> -->
+  <!-- ===========================Moyo-From the depth=========================== -->
+  <RecipeDef MayRequire="nemonian.my" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_Moyo_Abyssteel_WVC</defName>
+	<label>Convert to Abyssteel</label>
+	<products>
+	  <Moyo_Abyssteel>5</Moyo_Abyssteel>
+	</products>
+  </RecipeDef>
+  <!-- ===========================Medieval Overhaul=========================== -->
+  <RecipeDef MayRequire="dankpyon.medieval.overhaul" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_DankPyon_IronIngot_WVC</defName>
+	<label>Convert to Iron (MO)</label>
+	<products>
+	  <DankPyon_IronIngot>10</DankPyon_IronIngot>
+	</products>
+  </RecipeDef>
+  <!-- ===============Expanded Materials - Metals=============== -->
+  <RecipeDef MayRequire="argon.vmeu" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_VMEu_RockPowder_WVC</defName>
+	<label>Convert to Cement (VME)</label>
+	<products>
+	  <VMEu_RockPowder>25</VMEu_RockPowder>
+	</products>
+  </RecipeDef>
+  <RecipeDef MayRequire="argon.vmeu" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_VMEu_Concrete_WVC</defName>
+	<label>Convert to Concrete (VME)</label>
+	<products>
+	  <VMEu_Concrete>20</VMEu_Concrete>
+	</products>
+  </RecipeDef>
+  <RecipeDef MayRequire="argon.vmeu" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_VMEu_Iron_WVC</defName>
+	<label>Convert to Iron (VME)</label>
+	<products>
+	  <VMEu_Iron>10</VMEu_Iron>
+	</products>
+  </RecipeDef>
+  <RecipeDef MayRequire="argon.vmeu" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_VMEu_Lead_WVC</defName>
+	<label>Convert to Lead (VME)</label>
+	<products>
+	  <VMEu_Lead>10</VMEu_Lead>
+	</products>
+  </RecipeDef>
+  <RecipeDef MayRequire="argon.vmeu" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_VMEu_Bronze_WVC</defName>
+	<label>Convert to Bronze (VME)</label>
+	<products>
+	  <VMEu_Bronze>10</VMEu_Bronze>
+	</products>
+  </RecipeDef>
+  <RecipeDef MayRequire="argon.vmeu" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_VMEu_Tin_WVC</defName>
+	<label>Convert to Tin (VME)</label>
+	<products>
+	  <VMEu_Tin>6</VMEu_Tin>
+	</products>
+  </RecipeDef>
+  <RecipeDef MayRequire="argon.vmeu" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_VMEu_Copper_WVC</defName>
+	<label>Convert to Copper (VME)</label>
+	<products>
+	  <VMEu_Copper>7</VMEu_Copper>
+	</products>
+  </RecipeDef>
+  <RecipeDef MayRequire="argon.vmeu" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_VMEu_Tungsten_WVC</defName>
+	<label>Convert to Tungsten (VME)</label>
+	<products>
+	  <VMEu_Tungsten>5</VMEu_Tungsten>
+	</products>
+  </RecipeDef>
+  <RecipeDef MayRequire="argon.vmeu" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_VMEu_Chromium_WVC</defName>
+	<label>Convert to Chromium (VME)</label>
+	<products>
+	  <VMEu_Chromium>4</VMEu_Chromium>
+	</products>
+  </RecipeDef>
+  <RecipeDef MayRequire="argon.vmeu" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_VMEu_StainlessSteel_WVC</defName>
+	<label>Convert to Stainless Steel (VME)</label>
+	<products>
+	  <VMEu_StainlessSteel>5</VMEu_StainlessSteel>
+	</products>
+  </RecipeDef>
+  <RecipeDef MayRequire="argon.vmeu" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_VMEu_Titanium_WVC</defName>
+	<label>Convert to Titanium (VME)</label>
+	<products>
+	  <VMEu_Titanium>4</VMEu_Titanium>
+	</products>
+  </RecipeDef>
+  <RecipeDef MayRequire="argon.vmeu" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_VMEu_Lithium_WVC</defName>
+	<label>Convert to Lithium (VME)</label>
+	<products>
+	  <VMEu_Lithium>4</VMEu_Lithium>
+	</products>
+  </RecipeDef>
+  <RecipeDef MayRequire="argon.vmeu" ParentName="GirlyWorkRecipeAbstractResources_WVC">
+	<defName>Make_FromRubbish_VMEu_Germanium_WVC</defName>
+	<label>Convert to Germanium (VME)</label>
+	<products>
+	  <VMEu_Germanium>3</VMEu_Germanium>
+	</products>
+  </RecipeDef>
+
+</Defs>

@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- <WorkTypeDef> -->
+	<!-- <defName>WVC_ComplexWork</defName> -->
+	<!-- <labelShort>Ultra</labelShort> -->
+	<!-- <pawnLabel>complex work</pawnLabel> -->
+	<!-- <gerundLabel>complex crafting</gerundLabel> -->
+	<!-- <description>Do complex work on ultra workbenches. This job may require a very high skill level.</description> -->
+	<!-- <verb>work</verb> -->
+	<!-- <naturalPriority>1</naturalPriority> -->
+	<!-- <alwaysStartActive>true</alwaysStartActive> -->
+	<!-- <requireCapableColonist>true</requireCapableColonist> -->
+	<!-- <relevantSkills> -->
+	  <!-- <li>Medicine</li> -->
+	  <!-- <li>Crafting</li> -->
+	  <!-- <li>Intellectual</li> -->
+	<!-- </relevantSkills> -->
+	<!-- <workTags> -->
+	  <!-- <li>Intellectual</li> -->
+	  <!-- <li>AllWork</li> -->
+	  <!-- <li>Commoner</li> -->
+	  <!-- <li>ManualSkilled</li> -->
+	<!-- </workTags> -->
+  <!-- </WorkTypeDef> -->
+
+  <!-- ======================================================================= -->
+
+  <WorkGiverDef Name="WVC_Ultra_WorkGiver_Base" Abstract="True">
+	<label>work at crafter</label>
+	<giverClass>WorkGiver_DoBill</giverClass>
+	<!-- <workType>WVC_ComplexWork</workType> -->
+	<priorityInType>10</priorityInType>
+	<fixedBillGiverDefs>
+	  <!-- <li>WVC_Ultra_GarbageRecyclerBench</li> -->
+	</fixedBillGiverDefs>
+	<workTags>
+	</workTags>
+	<verb>work</verb>
+	<gerund>working at</gerund>
+	<requiredCapacities>
+	  <li>Manipulation</li>
+	</requiredCapacities>
+	<prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+  <!-- <WorkGiverDef ParentName="WVC_Ultra_WorkGiver_Base"> -->
+	<!-- <defName>WVC_MechanizerWork</defName> -->
+	<!-- <label>work at mechanizer</label> -->
+	<!-- <priorityInType>10</priorityInType> -->
+	<!-- <fixedBillGiverDefs> -->
+	  <!-- <li>WVC_Ultra_GarbageRecyclerBench</li> -->
+	<!-- </fixedBillGiverDefs> -->
+  <!-- </WorkGiverDef> -->
+
+  <WorkGiverDef ParentName="WVC_Ultra_WorkGiver_Base">
+	<defName>WVC_Ultra_GarbageRecyclerBench</defName>
+	<label>work at mechtech recycler</label>
+	<workType>Crafting</workType>
+	<!-- <workType>Smithing</workType> -->
+	<priorityInType>92</priorityInType>
+	<fixedBillGiverDefs>
+	  <li>WVC_Ultra_GarbageRecyclerBench</li>
+	</fixedBillGiverDefs>
+	<workTags>
+	  <li>Crafting</li>
+	</workTags>
+  </WorkGiverDef>
+
+  <WorkGiverDef ParentName="WVC_Ultra_WorkGiver_Base">
+	<defName>WVC_BodyPartsCraftingWork</defName>
+	<label>work at implant workbench</label>
+	<workType>Smithing</workType>
+	<!-- <priorityInType>70</priorityInType> -->
+	<priorityInType>55</priorityInType>
+	<fixedBillGiverDefs>
+	  <li MayRequire="ludeon.rimworld.ideology">WVC_ExperimentalCraftingBench</li>
+	  <li>WVC_CyberneticCraftingBench</li>
+	  <li>WVC_AncientCraftingBench</li>
+	  <li>WVC_MechanoidCraftingBench</li>
+	  <li>WVC_BlueCraftingBench</li>
+	  <li>WVC_GreenCraftingBench</li>
+	  <li>WVC_RedCraftingBench</li>
+	  <li>WVC_VioletCraftingBench</li>
+	  <li>WVC_YellowCraftingBench</li>
+	  <li>WVC_ArchotechCraftingBench</li>
+	  <li MayRequire="ludeon.rimworld.biotech">WVC_Ultra_MechanoidPartsCraftingBench</li>
+	</fixedBillGiverDefs>
+	<workTags>
+	  <!-- <li>Caring</li> -->
+	  <li>Crafting</li>
+	  <li>Intellectual</li>
+	</workTags>
+  </WorkGiverDef>
+
+  <!-- ======================================================================= -->
+
+  <RecipeDef Name="WVC_Ultra_CraftingRecipes_Base" Abstract="True">
+	<label>recycle</label>
+	<description>Recycle something useless into something useful.</description>
+	<jobString>Recycling.</jobString>
+	<workAmount>2000</workAmount>
+	<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	<!-- <workTableEfficiencyStat>MechaniteCrafter_Efficiency_WVC</workTableEfficiencyStat> -->
+	<!-- <workTableSpeedStat>Intellectual</workTableSpeedStat> -->
+	<effectWorking>Smith</effectWorking>
+	<soundWorking>Recipe_Machining</soundWorking>
+	<recipeUsers>
+	  <li>WVC_Ultra_GarbageRecyclerBench</li>
+	  <!-- <li>WVC_Node_MechaniteCrafter_Violet</li> -->
+	</recipeUsers>
+	<!-- <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef> -->
+	<workSkill>Crafting</workSkill>
+	<!-- <workSkillLearnFactor>1</workSkillLearnFactor> -->
+	<fixedIngredientFilter>
+	  <disallowedCategories>
+		<!-- <li>WVC_MechanicalEggs</li> -->
+	  </disallowedCategories>
+	  <disallowedThingDefs>
+		<!-- <li>VFE_ComponentMechanoid</li> -->
+		<!-- <li MayRequire="honkai.girls.sergkart">WVC_CapsuleILF</li> -->
+		<li>WVC_UniversalFuel</li>
+		<!-- <li>Apparel_GirlyUnderwear_WVC</li> -->
+	  </disallowedThingDefs>
+	</fixedIngredientFilter>
+	<displayPriority>1</displayPriority>
+  </RecipeDef>
+
+  <!-- ======================================================================= -->
+
+  <RecipeDef ParentName="WVC_Ultra_CraftingRecipes_Base" Name="WVC_MakeComponents_Base" Abstract="True">
+	<label>Make components</label>
+	<jobString>transforming mechanites.</jobString>
+	<effectWorking>Tailor</effectWorking>
+	<workAmount>5000</workAmount>
+	<recipeUsers Inherit="False">
+	  <li>WVC_Ultra_GarbageRecyclerBench</li>
+	  <!-- <li>WVC_NodeCraftingBench</li> -->
+	</recipeUsers>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>WVC_UniversalFuel</li>
+		  </thingDefs>
+		</filter>
+		<count>110</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <disallowedThingDefs Inherit="False">
+	  </disallowedThingDefs>
+	</fixedIngredientFilter>
+	<!-- <products> -->
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	  <!-- <ComponentSpacer>4</ComponentSpacer> -->
+	  <!-- <ComponentIndustrial>6</ComponentIndustrial> -->
+	<!-- </products> -->
+  </RecipeDef>
+
+  <RecipeDef ParentName="WVC_MakeComponents_Base">
+	<defName>WVC_MakeComponents_Industrial</defName>
+	<label>make components</label>
+	<products>
+	  <ComponentIndustrial>10</ComponentIndustrial>
+	</products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="WVC_MakeComponents_Base">
+	<defName>WVC_MakeComponents_Spacer</defName>
+	<label>make advanced components</label>
+	<products>
+	  <ComponentSpacer>5</ComponentSpacer>
+	</products>
+  </RecipeDef>
+
+  <!-- <RecipeDef ParentName="WVC_MakeComponents_Base"> -->
+	<!-- <defName>WVC_MakeComponents_Ultra</defName> -->
+	<!-- <label>Make mechanoid components</label> -->
+	<!-- <products> -->
+	  <!-- <VFE_ComponentMechanoid>2</VFE_ComponentMechanoid> -->
+	<!-- </products> -->
+  <!-- </RecipeDef> -->
+
+  <RecipeDef MayRequire="ludeon.rimworld.biotech" ParentName="WVC_MakeComponents_Base">
+	<defName>WVC_MakeComponents_SignalChip</defName>
+	<label>Make signal chip</label>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Plasteel</li>
+		  </thingDefs>
+		</filter>
+		<count>15</count>
+	  </li>
+	</ingredients>
+	<products>
+	  <SignalChip>1</SignalChip>
+	</products>
+	<researchPrerequisites>
+	  <li MayRequire="ludeon.rimworld.biotech">StandardMechtech</li>
+	</researchPrerequisites>
+  </RecipeDef>
+  <RecipeDef MayRequire="ludeon.rimworld.biotech" ParentName="WVC_MakeComponents_Base">
+	<defName>WVC_MakeComponents_PowerfocusChip</defName>
+	<label>Make powerfocus chip</label>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Plasteel</li>
+		  </thingDefs>
+		</filter>
+		<count>15</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>ComponentSpacer</li>
+		  </thingDefs>
+		</filter>
+		<count>3</count>
+	  </li>
+	</ingredients>
+	<products>
+	  <PowerfocusChip>1</PowerfocusChip>
+	</products>
+	<researchPrerequisites>
+	  <li MayRequire="ludeon.rimworld.biotech">HighMechtech</li>
+	</researchPrerequisites>
+  </RecipeDef>
+  <RecipeDef MayRequire="ludeon.rimworld.biotech" ParentName="WVC_MakeComponents_Base">
+	<defName>WVC_MakeComponents_NanostructuringChip</defName>
+	<label>Make nano structuring chip</label>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Plasteel</li>
+		  </thingDefs>
+		</filter>
+		<count>15</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>ComponentSpacer</li>
+		  </thingDefs>
+		</filter>
+		<count>5</count>
+	  </li>
+	</ingredients>
+	<products>
+	  <NanostructuringChip>1</NanostructuringChip>
+	</products>
+	<researchPrerequisites>
+	  <li MayRequire="ludeon.rimworld.biotech">UltraMechtech</li>
+	</researchPrerequisites>
+  </RecipeDef>
+
+  <!-- ======================================================================= -->
+
+  <RecipeDef ParentName="WVC_Ultra_CraftingRecipes_Base">
+	<defName>WVC_RecycleRecipe_WeaponsApparelsCorpsesChunks</defName>
+	<label>recycle stuff</label>
+	<uiIconThing>WVC_UniversalFuel</uiIconThing>
+	<allowMixingIngredients>false</allowMixingIngredients>
+	<!-- <workTableEfficiencyStat>MechaniteCrafter_Efficiency_RecycleStuff_WVC</workTableEfficiencyStat> -->
+	<description>Recycle something useless into something useful.</description>
+	<!-- <specialProducts> -->
+	  <!-- <li>Smelted</li> -->
+	  <!-- <li>Butchery</li> -->
+	<!-- </specialProducts> -->
+	<products>
+	  <WVC_UniversalFuel>16</WVC_UniversalFuel>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	  <!-- <WVC_UniversalFuel>6</WVC_UniversalFuel> -->
+	</products>
+	<ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>Apparel</li>
+			<li>Weapons</li>
+			<li>Corpses</li>
+			<li>StoneChunks</li>
+		  </categories>
+		  <thingDefs>
+			<li>ChunkSlagSteel</li>
+		  </thingDefs>
+		</filter>
+		<count>1</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>Apparel</li>
+		<li>Weapons</li>
+		<li>Corpses</li>
+		<li>StoneChunks</li>
+	  </categories>
+	  <thingDefs>
+		<li>ChunkSlagSteel</li>
+	  </thingDefs>
+	  <!-- <specialFiltersToDisallow> -->
+		<!-- <li>AllowNonSmeltableWeapons</li> -->
+	  <!-- </specialFiltersToDisallow> -->
+	  <disallowedCategories>
+		<!-- <li MayRequire="honkai.girls.sergkart">ValkyriesWeapon_WVC</li> -->
+		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_Hides</li>
+		<li>Foods</li>
+		<!-- <li>PlantMatter</li> -->
+		<!-- <li>Leathers</li> -->
+		<!-- <li>Textiles</li> -->
+		<!-- <li>Wools</li> -->
+		<li>ResourcesRaw</li>
+		<li>Items</li>
+		<li>Manufactured</li>
+	  </disallowedCategories>
+	</fixedIngredientFilter>
+  </RecipeDef>
+
+  <!-- ======================================================================= -->
+
+  <RecipeDef ParentName="WVC_Ultra_CraftingRecipes_Base">
+	<defName>WVC_RecycleRecipe_Organics</defName>
+	<label>recycle organics</label>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+	<uiIconThing>WVC_UniversalFuel</uiIconThing>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>Foods</li>
+		<li>PlantMatter</li>
+	  </categories>
+	</fixedIngredientFilter>
+	<ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>Foods</li>
+			<li>PlantMatter</li>
+		  </categories>
+		</filter>
+		<count>5</count>
+	  </li>
+	</ingredients>
+	<products>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	  <!-- <WVC_MedicineMechanite>1</WVC_MedicineMechanite> -->
+	  <WVC_UniversalFuel>14</WVC_UniversalFuel>
+	</products>
+  </RecipeDef>
+
+  <!-- ======================================================================= -->
+
+  <RecipeDef ParentName="WVC_Ultra_CraftingRecipes_Base">
+	<defName>WVC_RecycleRecipe_Materials</defName>
+	<label>recycle materials</label>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<targetCountAdjustment>45</targetCountAdjustment>
+	<uiIconThing>WVC_UniversalFuel</uiIconThing>
+	<ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>Leathers</li>
+			<li>Textiles</li>
+			<li>Wools</li>
+			<li>ResourcesRaw</li>
+		  </categories>
+		</filter>
+		<count>45</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>Leathers</li>
+		<li>Textiles</li>
+		<li>Wools</li>
+		<li>ResourcesRaw</li>
+	  </categories>
+	  <disallowedCategories>
+		<li>PlantMatter</li>
+		<li MayRequire="dankpyon.medieval.overhaul">DankPyon_Hides</li>
+	  </disallowedCategories>
+	</fixedIngredientFilter>
+	<products>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	  <!-- <WVC_UniversalFuel>5</WVC_UniversalFuel> -->
+	  <WVC_UniversalFuel>14</WVC_UniversalFuel>
+	  <!-- <WVC_MedicineMechanite>1</WVC_MedicineMechanite> -->
+	</products>
+  </RecipeDef>
+
+  <!-- ======================================================================= -->
+
+  <RecipeDef ParentName="WVC_Ultra_CraftingRecipes_Base">
+	<defName>WVC_RecycleRecipe_Manufactured</defName>
+	<label>recycle manufactured</label>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<targetCountAdjustment>14</targetCountAdjustment>
+	<uiIconThing>WVC_UniversalFuel</uiIconThing>
+	<ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>Medicine</li>
+			<li>MortarShells</li>
+			<li>Drugs</li>
+			<!-- <li>WVC_ResourceNodes</li> -->
+			<!-- <li>WVC_ManufacturedComponents</li> -->
+		  </categories>
+		  <thingDefs>
+			<!-- <li>VFE_ComponentMechanoid</li> -->
+			<!-- <li>ComponentSpacer</li> -->
+			<!-- <li>ComponentIndustrial</li> -->
+		  </thingDefs>
+		</filter>
+		<count>14</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>Medicine</li>
+		<li>MortarShells</li>
+		<li>Drugs</li>
+		<!-- <li>WVC_ResourceNodes</li> -->
+		<!-- <li>WVC_ManufacturedComponents</li> -->
+	  </categories>
+	  <thingDefs>
+		<!-- <li>VFE_ComponentMechanoid</li> -->
+		<!-- <li>ComponentSpacer</li> -->
+		<!-- <li>ComponentIndustrial</li> -->
+		<!-- <li MayRequire="dankpyon.medieval.overhaul">DankPyon_Hides</li> -->
+	  </thingDefs>
+	  <disallowedCategories>
+		<!-- <li>PlantMatter</li> -->
+		<!-- <li>Textiles</li> -->
+		<!-- <li>Wools</li> -->
+		<!-- <li>ResourcesRaw</li> -->
+		<!-- <li>Leathers</li> -->
+		<!-- <li>Foods</li> -->
+		<!-- <li>Apparel</li> -->
+		<!-- <li>Weapons</li> -->
+		<!-- <li>Corpses</li> -->
+		<!-- <li>StoneChunks</li> -->
+	  </disallowedCategories>
+	</fixedIngredientFilter>
+	<products>
+	  <WVC_UniversalFuel>11</WVC_UniversalFuel>
+	</products>
+  </RecipeDef>
+
+  <!-- ======================================================================= -->
+
+  <RecipeDef MayRequire="ludeon.rimworld.biotech" ParentName="WVC_Ultra_CraftingRecipes_Base">
+	<defName>WVC_RecycleRecipe_Wastepack</defName>
+	<label>recycle toxic wastepack</label>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<targetCountAdjustment>14</targetCountAdjustment>
+	<uiIconThing>WVC_UniversalFuel</uiIconThing>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Wastepack</li>
+		  </thingDefs>
+		</filter>
+		<count>5</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>Wastepack</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products>
+	  <WVC_UniversalFuel>11</WVC_UniversalFuel>
+	</products>
+	<researchPrerequisites>
+	  <li MayRequire="ludeon.rimworld.biotech">WastepackAtomizer</li>
+	</researchPrerequisites>
+  </RecipeDef>
+
+  <!-- ======================================================================= -->
+  
+  <!-- <RecipeDef MayRequire="honkai.girls.sergkart" ParentName="WVC_Ultra_CraftingRecipes_Base"> -->
+	<!-- <defName>WVC_Recraft_ExoticWeaponComponents</defName> -->
+	<!-- <label>recraft</label> -->
+	<!-- <description>Refining ancient weapons to obtain rare components.</description> -->
+	<!-- <jobString>recrafting.</jobString> -->
+	<!-- <effectWorking>Tailor</effectWorking> -->
+	<!-- <workAmount>50000</workAmount> -->
+	<!-- <ingredients> -->
+	  <!-- <li> -->
+		<!-- <filter> -->
+		  <!-- <categories> -->
+			<!-- <li>ValkyriesWeapon_WVC</li> -->
+		  <!-- </categories> -->
+		<!-- </filter> -->
+		<!-- <count>1</count> -->
+	  <!-- </li> -->
+	<!-- </ingredients> -->
+	<!-- <fixedIngredientFilter> -->
+	  <!-- <categories> -->
+		<!-- <li>ValkyriesWeapon_WVC</li> -->
+	  <!-- </categories> -->
+	<!-- </fixedIngredientFilter> -->
+	<!-- <products> -->
+	  <!-- <WVC_ExoticWeaponComponents>1</WVC_ExoticWeaponComponents> -->
+	<!-- </products> -->
+  <!-- </RecipeDef> -->
+
+</Defs>

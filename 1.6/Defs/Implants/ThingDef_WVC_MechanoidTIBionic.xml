@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_I" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIBionic_SightSensor_AddedPart</defName>
+    <label>tier I visual sensor</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechanoidTIBionic_SightSensor_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>15</Plasteel>
+    </costList>
+    <graphicData />
+    <comps>
+      <li Class="WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget">
+        <jobDef>WVC_Ultra_InstalMechImplant</jobDef>
+        <bodyPart>SightSensor</bodyPart>
+        <hediffDef>WVC_MechanoidTIBionic_SightSensor_AddedPart</hediffDef>
+        <moteDef>Mote_ResurrectFlash</moteDef>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_I" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIBionic_HearingSensor_AddedPart</defName>
+    <label>tier I sound sensor</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechanoidTIBionic_HearingSensor_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>15</Plasteel>
+    </costList>
+    <graphicData />
+    <comps>
+      <li Class="WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget">
+        <jobDef>WVC_Ultra_InstalMechImplant</jobDef>
+        <bodyPart>HearingSensor</bodyPart>
+        <hediffDef>WVC_MechanoidTIBionic_HearingSensor_AddedPart</hediffDef>
+        <moteDef>Mote_ResurrectFlash</moteDef>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_I" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIBionic_SmellSensor_AddedPart</defName>
+    <label>tier I chemical analyzer</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechanoidTIBionic_SmellSensor_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>15</Plasteel>
+    </costList>
+    <graphicData />
+    <comps>
+      <li Class="WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget">
+        <jobDef>WVC_Ultra_InstalMechImplant</jobDef>
+        <bodyPart>SmellSensor</bodyPart>
+        <hediffDef>WVC_MechanoidTIBionic_SmellSensor_AddedPart</hediffDef>
+        <moteDef>Mote_ResurrectFlash</moteDef>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_I" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIBionic_SmallMechanicalLeg_AddedPart</defName>
+    <label>tier I small mechanical leg</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechanoidTIBionic_SmallMechanicalLeg_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>18</Plasteel>
+    </costList>
+    <graphicData />
+    <comps>
+      <li Class="WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget">
+        <jobDef>WVC_Ultra_InstalMechImplant</jobDef>
+        <bodyPart>SmallMechanicalLeg</bodyPart>
+        <hediffDef>WVC_MechanoidTIBionic_SmallMechanicalLeg_AddedPart</hediffDef>
+        <moteDef>Mote_ResurrectFlash</moteDef>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_I" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIBionic_MechanicalLeg_AddedPart</defName>
+    <label>tier I mechanical leg</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechanoidTIBionic_MechanicalLeg_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+    </costList>
+    <graphicData />
+    <comps>
+      <li Class="WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget">
+        <jobDef>WVC_Ultra_InstalMechImplant</jobDef>
+        <bodyPart>MechanicalLeg</bodyPart>
+        <hediffDef>WVC_MechanoidTIBionic_MechanicalLeg_AddedPart</hediffDef>
+        <moteDef>Mote_ResurrectFlash</moteDef>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_I" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIBionic_MechanicalShoulder_AddedPart</defName>
+    <label>tier I mechanical arm</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechanoidTIBionic_MechanicalShoulder_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>22</Plasteel>
+    </costList>
+    <graphicData />
+    <comps>
+      <li Class="WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget">
+        <jobDef>WVC_Ultra_InstalMechImplant</jobDef>
+        <bodyPart>MechanicalShoulder</bodyPart>
+        <hediffDef>WVC_MechanoidTIBionic_MechanicalShoulder_AddedPart</hediffDef>
+        <moteDef>Mote_ResurrectFlash</moteDef>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_I" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIBionic_FluidReprocessor_AddedPart</defName>
+    <label>tier I fluid reprocessor</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechanoidTIBionic_FluidReprocessor_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>24</Plasteel>
+    </costList>
+    <graphicData />
+    <comps>
+      <li Class="WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget">
+        <jobDef>WVC_Ultra_InstalMechImplant</jobDef>
+        <bodyPart>FluidReprocessor</bodyPart>
+        <hediffDef>WVC_MechanoidTIBionic_FluidReprocessor_AddedPart</hediffDef>
+        <moteDef>Mote_ResurrectFlash</moteDef>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="WVC_Ultra_AddedPartThingDef_MechanoidsTier_I" MayRequire="ludeon.rimworld.biotech">
+    <defName>WVC_MechanoidTIBionic_Reactor_AddedPart</defName>
+    <label>tier I reactor</label>
+    <descriptionHyperlinks>
+      <HediffDef>WVC_MechanoidTIBionic_Reactor_AddedPart</HediffDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Plasteel>24</Plasteel>
+    </costList>
+    <graphicData />
+    <comps>
+      <li Class="WVC_UltraExpansion.CompProperties_TargetEffect_InstallImplantInTarget">
+        <jobDef>WVC_Ultra_InstalMechImplant</jobDef>
+        <bodyPart>Reactor</bodyPart>
+        <hediffDef>WVC_MechanoidTIBionic_Reactor_AddedPart</hediffDef>
+        <moteDef>Mote_ResurrectFlash</moteDef>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

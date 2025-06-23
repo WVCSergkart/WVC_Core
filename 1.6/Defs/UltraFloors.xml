@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ======================================================================= -->
+
+  <!-- Supports mechanoid structures -->
+  <!-- <TerrainAffordanceDef> -->
+	<!-- <defName>Heavy</defName> -->
+	<!-- <label>complex</label> -->
+	<!-- <order>1600</order> -->
+	<!-- <blockAffordanceOverlay>true</blockAffordanceOverlay> -->
+  <!-- </TerrainAffordanceDef> -->
+  <!-- <TerrainAffordanceDef> -->
+	<!-- <defName>Medium</defName> -->
+	<!-- <label>floor lamps</label> -->
+	<!-- <order>1600</order> -->
+	<!-- <blockAffordanceOverlay>true</blockAffordanceOverlay> -->
+  <!-- </TerrainAffordanceDef> -->
+  <TerrainAffordanceDef>
+	<defName>WVC_Ultra_AllAffordances</defName>
+	<label>any</label>
+	<order>0</order>
+	<blockAffordanceOverlay>false</blockAffordanceOverlay>
+	<visualizeOnAffordanceOverlay>false</visualizeOnAffordanceOverlay>
+  </TerrainAffordanceDef>
+
+  <!-- ======================================================================= -->
+
+  <TerrainDef Abstract="True" Name="WVC_Ultra_TerrainFloor_Base">
+	<description>Universal floor covering. This floor can be placed on any surface without restrictions.</description>
+	<descriptionHyperlinks>
+	  <!-- <ConceptDef>WVC_WallsDoorsFloors</ConceptDef> -->
+	</descriptionHyperlinks>
+	<!-- <pollutedTexturePath>Terrain/Surfaces/SoilPolluted</pollutedTexturePath> -->
+	<!-- <pollutionOverlayTexturePath>Terrain/Surfaces/RoughStonePollutionOverlay</pollutionOverlayTexturePath> -->
+	<!-- <pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughLinearBurn</pollutionShaderType> -->
+	<!-- <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath> -->
+	<!-- <pollutionColor>(1, 1, 1, 0.8)</pollutionColor> -->
+	<!-- <pollutionOverlayScale>(0.75, 0.75)</pollutionOverlayScale> -->
+	<pollutionOverlayTexturePath>Terrain/Surfaces/RoughStonePollutionOverlay</pollutionOverlayTexturePath>
+	<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughLinearAdd</pollutionShaderType>
+	<pollutionColor>(1, 1, 1, 0.43)</pollutionColor>
+	<pollutionOverlayScale>(0.66, 0.66)</pollutionOverlayScale>
+	<layerable>true</layerable>
+	<affordances>
+	  <li>Light</li>
+	  <li>Medium</li>
+	  <li>Heavy</li>
+	  <!-- <li>Heavy</li> -->
+	</affordances>
+	<constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+	<fertility>0</fertility>
+	<edgeType>FadeRough</edgeType>
+	<bridge>false</bridge>
+	<renderPrecedence>0</renderPrecedence>
+	<!-- <autoRebuildable>true</autoRebuildable> -->
+	<statBases>
+	  <WorkToBuild>2000</WorkToBuild>
+	  <Flammability>0</Flammability>
+	  <Beauty>2</Beauty>
+	  <MarketValue>1</MarketValue>
+	  <Cleanliness>0</Cleanliness>
+	  <CleaningTimeFactor>0.3</CleaningTimeFactor>
+	</statBases>
+	<costList>
+	  <Plasteel>8</Plasteel>
+	  <WVC_ComponentUltratech>1</WVC_ComponentUltratech>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	</costList>
+	<tags>
+	  <li>Floor</li>
+	  <li>FineFloor</li>
+	</tags>
+	<constructEffect>ConstructMetal</constructEffect>
+	<designationCategory>Floors</designationCategory>
+	<designatorDropdown>HGS_Floors_WVC</designatorDropdown>
+	<researchPrerequisites Inherit="False">
+	  <!-- <li>SterileMaterials</li> -->
+	  <!-- <li>Machining</li> -->
+	</researchPrerequisites>
+	<isPaintable>true</isPaintable>
+	<terrainAffordanceNeeded>WVC_Ultra_AllAffordances</terrainAffordanceNeeded>
+  </TerrainDef>
+
+  <!-- ======================================================================= -->
+
+  <TerrainDef Abstract="True" Name="WVC_Ultra_TerrainFloor_BaseUltra" ParentName="WVC_Ultra_TerrainFloor_Base">
+	<color>(65,69,65)</color>
+	<edgeType>Hard</edgeType>
+	<renderPrecedence>100</renderPrecedence>
+	<costList>
+	  <!-- <Plasteel>8</Plasteel> -->
+	</costList>
+	<statBases>
+	  <FilthMultiplier>0.2</FilthMultiplier>
+	</statBases>
+	<researchPrerequisites>
+		<li>WVC_Ultra_Ultratech</li>
+	</researchPrerequisites>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </TerrainDef>
+
+  <!-- ======================== -->
+  
+  <TerrainDef Abstract="True" Name="WVC_Ultra_TerrainFloor_BaseMecha" ParentName="WVC_Ultra_TerrainFloor_Base">
+	<color>(181,165,153)</color>
+	<statBases>
+	  <FilthMultiplier>0.1</FilthMultiplier>
+	</statBases>
+	<costList>
+	  <Plasteel>9</Plasteel>
+	  <!-- <VFE_ComponentMechanoid>1</VFE_ComponentMechanoid> -->
+	</costList>
+	<researchPrerequisites>
+		<li>WVC_Ultra_Mechtech</li>
+	</researchPrerequisites>
+	<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+  </TerrainDef>
+
+  <!-- ======================================================================= -->
+  
+  <TerrainDef ParentName="WVC_Ultra_TerrainFloor_BaseUltra">
+	<defName>WVC_UltratechFloor</defName>
+	<label>ultratech floor</label>
+	<texturePath>WVC/Stuff/Floors/AncientFloor</texturePath>
+  </TerrainDef>
+
+  <!-- ======================== -->
+  
+  <TerrainDef  ParentName="WVC_Ultra_TerrainFloor_BaseMecha">
+	<defName>WVC_MechtechFloor</defName>
+	<label>mechtech industrial floor</label>
+	<texturePath>WVC/Stuff/Floors/Floor_Mechanoid</texturePath>
+	<!-- <color>(114,114,114)</color> -->
+	<!-- <color>(184,198,203)</color> -->
+  </TerrainDef>
+  
+  <TerrainDef  ParentName="WVC_Ultra_TerrainFloor_BaseMecha">
+	<defName>WVC_MechtechFloor_A</defName>
+	<label>mechtech outpost floor</label>
+	<texturePath>WVC/Stuff/Floors/NewArchotechFloor_v0</texturePath>
+  </TerrainDef>
+  <TerrainDef  ParentName="WVC_Ultra_TerrainFloor_BaseMecha">
+	<defName>WVC_MechtechFloor_B</defName>
+	<label>mechtech space floor</label>
+	<texturePath>WVC/Stuff/Floors/RecolorableNodeFloor</texturePath>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WVC_Ultra_TerrainFloor_BaseMecha">
+	<defName>WVC_MechtechGravel</defName>
+	<label>mechtech gravel</label>
+	<fertility>0.8</fertility>
+	<color>(255,255,255)</color>
+	<isPaintable>false</isPaintable>
+	<statBases>
+	  <FilthMultiplier>0.0</FilthMultiplier>
+	  <Beauty>1</Beauty>
+	  <Cleanliness>-1</Cleanliness>
+	  <CleaningTimeFactor>1.2</CleaningTimeFactor>
+	</statBases>
+	<texturePath>WVC/Stuff/Floors/Gravel_MechanoidA</texturePath>
+	<costList>
+	  <Neutroamine>1</Neutroamine>
+	</costList>
+	<affordances>
+	  <li>GrowSoil</li>
+	</affordances>
+	<tags>
+	  <li>Soil</li>
+	</tags>
+  </TerrainDef>
+
+  <!-- ======================== -->
+  
+  <!-- <TerrainDef ParentName="WVC_Ultra_TerrainFloor_BaseArcho"> -->
+	<!-- <defName>Floor_ArchotechFloor_WVC</defName> -->
+	<!-- <label>(Floor) Archotech floor</label> -->
+	<!-- <texturePath>WVC/Stuff/Floors/Floor_ArchotechA</texturePath> -->
+  <!-- </TerrainDef> -->
+
+  <!-- <TerrainDef ParentName="WVC_Ultra_TerrainFloor_BaseArcho"> -->
+	<!-- <defName>Floor_ArchotechGravel_WVC</defName> -->
+	<!-- <label>(Floor) Archotech gravel</label> -->
+	<!-- <fertility>0.9</fertility> -->
+	<!-- <statBases> -->
+	  <!-- <Beauty>1</Beauty> -->
+	  <!-- <Cleanliness>-1</Cleanliness> -->
+	<!-- </statBases> -->
+	<!-- <texturePath>WVC/Stuff/Floors/Gravel_ArchotechA</texturePath> -->
+	<!-- <costList> -->
+	  <!-- <Neutroamine>1</Neutroamine> -->
+	<!-- </costList> -->
+	<!-- <affordances> -->
+	  <!-- <li>GrowSoil</li> -->
+	<!-- </affordances> -->
+	<!-- <tags> -->
+	  <!-- <li>Soil</li> -->
+	<!-- </tags> -->
+  <!-- </TerrainDef> -->
+
+</Defs>

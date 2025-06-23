@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Name="WVC_Ultra_LightAdvancedMechanoidRecipe_Base" ParentName="BaseMechanoidRecipe" Abstract="True">
+	<researchPrerequisite>WVC_Ultra_Mechtech</researchPrerequisite>
+	<gestationCycles>6</gestationCycles>
+	<recipeUsers>
+	  <li>MechGestator</li>
+	  <!-- <li>LargeMechGestator</li> -->
+	</recipeUsers>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>WVC_Ultrasteel</li>
+		  </thingDefs>
+		</filter>
+		<count>75</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>WVC_ComponentMechtech</li>
+		  </thingDefs>
+		</filter>
+		<count>5</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>SubcoreHigh</li>
+		  </thingDefs>
+		</filter>
+		<count>1</count>
+	  </li>
+	</ingredients>
+  </RecipeDef>
+
+  <RecipeDef ParentName="WVC_Ultra_LightAdvancedMechanoidRecipe_Base">
+	<defName>WVC_Ultra_Mech_Overclock</defName>
+	<label>gestate overclock</label>
+	<description>Gestate a overclock mechanoid.</description>
+	<!-- <researchPrerequisite>WVC_ResearchBodyParts_NodeBlue</researchPrerequisite> -->
+	<ingredients>
+	</ingredients>
+	<products>
+	  <WVC_Ultra_Mech_Overclock>1</WVC_Ultra_Mech_Overclock>
+	</products>
+	<descriptionHyperlinks>
+	  <ThingDef>WVC_Ultra_Mech_Overclock</ThingDef>
+	</descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="WVC_Ultra_LightAdvancedMechanoidRecipe_Base">
+	<defName>WVC_Ultra_Mech_Huntemor</defName>
+	<label>gestate huntemor</label>
+	<description>Gestate a huntemor mechanoid.</description>
+	<!-- <researchPrerequisite>WVC_ResearchBodyParts_NodeRed</researchPrerequisite> -->
+	<ingredients>
+	</ingredients>
+	<products>
+	  <WVC_Ultra_Mech_Huntemor>1</WVC_Ultra_Mech_Huntemor>
+	</products>
+	<descriptionHyperlinks>
+	  <ThingDef>WVC_Ultra_Mech_Huntemor</ThingDef>
+	</descriptionHyperlinks>
+  </RecipeDef>
+
+  <!-- <RecipeDef ParentName="WVC_Ultra_LightAdvancedMechanoidRecipe_Base"> -->
+	<!-- <defName>WVC_Mech_Nautil</defName> -->
+	<!-- <label>gestate nautil</label> -->
+	<!-- <description>Gestate a nautil mechanoid.</description> -->
+	<!-- <researchPrerequisite>WVC_ResearchBodyParts_NodeRed</researchPrerequisite> -->
+	<!-- <ingredients> -->
+	  <!-- <li> -->
+		<!-- <filter> -->
+		  <!-- <thingDefs> -->
+			<!-- <li>Uranium</li> -->
+		  <!-- </thingDefs> -->
+		<!-- </filter> -->
+		<!-- <count>25</count> -->
+	  <!-- </li> -->
+	<!-- </ingredients> -->
+	<!-- <products> -->
+	  <!-- <WVC_Mech_Nautil>1</WVC_Mech_Nautil> -->
+	<!-- </products> -->
+	<!-- <descriptionHyperlinks> -->
+	  <!-- <ThingDef>WVC_Mech_Nautil</ThingDef> -->
+	<!-- </descriptionHyperlinks> -->
+  <!-- </RecipeDef> -->
+
+  <!-- <RecipeDef ParentName="WVC_Ultra_LightAdvancedMechanoidRecipe_Base"> -->
+	<!-- <defName>WVC_Mech_Fion</defName> -->
+	<!-- <label>gestate fion</label> -->
+	<!-- <description>Gestate a fion mechanoid.</description> -->
+	<!-- <researchPrerequisite>WVC_ResearchBodyParts_NodeYellow</researchPrerequisite> -->
+	<!-- <ingredients> -->
+	  <!-- <li> -->
+		<!-- <filter> -->
+		  <!-- <thingDefs> -->
+			<!-- <li>Uranium</li> -->
+		  <!-- </thingDefs> -->
+		<!-- </filter> -->
+		<!-- <count>12</count> -->
+	  <!-- </li> -->
+	  <!-- <li> -->
+		<!-- <filter> -->
+		  <!-- <thingDefs> -->
+			<!-- <li>Gold</li> -->
+		  <!-- </thingDefs> -->
+		<!-- </filter> -->
+		<!-- <count>12</count> -->
+	  <!-- </li> -->
+	<!-- </ingredients> -->
+	<!-- <products> -->
+	  <!-- <WVC_Mech_Fion>1</WVC_Mech_Fion> -->
+	<!-- </products> -->
+	<!-- <descriptionHyperlinks> -->
+	  <!-- <ThingDef>WVC_Mech_Fion</ThingDef> -->
+	<!-- </descriptionHyperlinks> -->
+  <!-- </RecipeDef> -->
+
+</Defs>
