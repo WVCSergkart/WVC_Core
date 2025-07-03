@@ -76,7 +76,7 @@
 	  <ai_combatDangerous>true</ai_combatDangerous>
 	  <turretGunDef>Gun_MiniTurretMech_WVC</turretGunDef>
 	  <turretBurstCooldownTime>2.5</turretBurstCooldownTime>
-	  <soundAmbient>MechTurretSmall_Call</soundAmbient>
+	  <!-- <soundAmbient>MechTurretSmall_Call</soundAmbient> -->
 	</building>
 	<researchPrerequisites>
 	  <li>WVC_Ultra_DefenceSystems</li>
@@ -108,7 +108,7 @@
 	  <turretBurstCooldownTime>5.5</turretBurstCooldownTime>
 	  <turretTopDrawSize>1.2</turretTopDrawSize>
 	  <turretTopOffset>(0, 0.0)</turretTopOffset>
-	  <soundAmbient>MechTurretBig_Call</soundAmbient>
+	  <!-- <soundAmbient>MechTurretBig_Call</soundAmbient> -->
 	</building>
 	<researchPrerequisites>
 	  <li>HeavyTurrets</li>
@@ -130,7 +130,7 @@
 	  <turretBurstCooldownTime>17.0</turretBurstCooldownTime>
 	  <turretTopDrawSize>1.2</turretTopDrawSize>
 	  <turretTopOffset>(0, 0.0)</turretTopOffset>
-	  <soundAmbient>MechTurretBig_Call</soundAmbient>
+	  <!-- <soundAmbient>MechTurretBig_Call</soundAmbient> -->
 	</building>
 	<researchPrerequisites>
 	  <li>HeavyTurrets</li>
@@ -152,7 +152,7 @@
 	  <turretBurstWarmupTime>4.0</turretBurstWarmupTime>
 	  <turretBurstCooldownTime>80.0</turretBurstCooldownTime>
 	  <turretInitialCooldownTime>120</turretInitialCooldownTime>
-	  <soundAmbient>MechTurretBig_Call</soundAmbient>
+	  <!-- <soundAmbient>MechTurretBig_Call</soundAmbient> -->
 	</building>
 	<!-- <uiIconPath>Things/Building/Security/TurretMortar_MenuIcon</uiIconPath> -->
 	<researchPrerequisites>

@@ -204,7 +204,7 @@
 	<building>
 	  <paintable>true</paintable>
 	  <ai_chillDestination>false</ai_chillDestination>
-	  <soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+	  <!-- <soundAmbient>GeothermalPlant_Ambience</soundAmbient> -->
 	  <destroySound>BuildingDestroyed_Metal_Big</destroySound>
 	</building>
 	<constructEffect>ConstructMetal</constructEffect>
