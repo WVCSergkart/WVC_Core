@@ -4,7 +4,7 @@
   <ThingDef ParentName="ApparelBase">
 	<defName>WVC_Apparel_MechanoidShieldBelt</defName>
 	<label>mechtech shield belt</label>
-	<description>A projectile-repulsion device. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP.</description>
+	<description>A projectile-repulsion device. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It shuts down instantly if hit by EMP.</description>
 	<thingClass>Apparel</thingClass>
 	<graphicData>
 	  <texPath>WVC/Apparels/ShieldBelt</texPath>
